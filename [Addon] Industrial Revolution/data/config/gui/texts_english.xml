@@ -1,0 +1,4 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  </ModOp>
+</ModOps>
