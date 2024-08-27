@@ -1,4 +1,36 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505382</GUID>
+      <Text>Industrial Steelworks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505391</GUID>
+      <Text>Steelworks Train Station</Text>
+    </Text>
+    <Text>
+      <GUID>2143505393</GUID>
+      <Text>Steelworks module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505502</GUID>
+      <Text>Steel Beams (Train)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>Steelworks Inventory Center</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>Module is working</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>Module is working</Text>
+    </Text>
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Industry Module</Text>
+    </Text>
   </ModOp>
 </ModOps>
