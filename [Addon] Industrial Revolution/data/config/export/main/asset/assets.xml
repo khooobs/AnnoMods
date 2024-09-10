@@ -1768,11 +1768,6 @@
         <Infolayer/>
         <UpgradeList/>
         <Factory7/>
-        <ModuleOwner>
-          <AdditionnalModule>
-            <Module>2143505528</Module>
-          </AdditionnalModule>
-        </ModuleOwner>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -1989,101 +1984,6 @@
               <MaxTrainCount>5</MaxTrainCount>
           </TrainStation>
           <QuestObject/>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>BuffFactoryModule</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505528</GUID>
-          <Name>Mine Dynamite Depot</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_dynamite.png</IconFilename>
-          <InfoDescription>269959</InfoDescription>
-        </Standard>
-        <Building>
-          <BuildingType>BuildingModule</BuildingType>
-          <BuildingCategoryName>2143505509</BuildingCategoryName>
-          <SkipUnlockMessage>1</SkipUnlockMessage>
-          <BuildModeRandomRotation>90</BuildModeRandomRotation>
-          <AssociatedRegions>Moderate</AssociatedRegions>
-        </Building>
-        <Blocking>
-          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-        </Blocking>
-        <Mesh/>
-        <BuffFactory>
-          <ProductionBuffs>
-            <Item>
-              <ProductivityBuff>2143505529</ProductivityBuff>
-            </Item>
-          </ProductionBuffs>
-        </BuffFactory>
-        <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1010222</Product>
-              <Amount>1</Amount>
-              <StorageAmount>10</StorageAmount>
-            </Item>
-          </FactoryInputs>
-          <CycleTime>60</CycleTime>
-        </FactoryBase>
-        <FeedbackController/>
-        <Pausable/>
-        <Selection>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList/>
-            </Values>
-          </OnSelection>
-        </Selection>
-        <Attackable>
-          <AttackableType>IslandBuilding</AttackableType>
-          <HasRuinState>1</HasRuinState>
-        </Attackable>
-        <Maintenance/>
-        <AmbientMoodProvider/>
-        <LogisticNode>
-          <TransporterCountMax>1</TransporterCountMax>
-          <PathLayers>Street</PathLayers>
-          <TransporterAsset>120028</TransporterAsset>
-        </LogisticNode>
-        <Constructable/>
-        <Locked/>
-        <IncidentInfectable/>
-        <Object>
-          <Variations>
-            <Item>
-              <Filename>data/dlc05/graphics/buildings/ornamental/industrial/industrial_props_system_1x2_hut_01.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <SoundEmitter>
-          <ActiveSounds>
-            <Item>
-              <Sound>270119</Sound>
-            </Item>
-          </ActiveSounds>
-          <DestroySounds>
-            <Item>
-              <Sound>9818756</Sound>
-            </Item>
-          </DestroySounds>
-        </SoundEmitter>
-        <Cost>
-          <Costs>
-            <Item>
-              <Ingredient>1010202</Ingredient>
-              <Amount>10</Amount>
-            </Item>
-          </Costs>
-        </Cost>
-        <BuildingModule>
-          <ModuleType>AdditionalModule</ModuleType>
-        </BuildingModule>
-        <Infolayer/>
-        <UpgradeList/>
       </Values>
     </Asset>
   </ModOp>
@@ -2401,9 +2301,6 @@
             <Item>
               <Asset>2143505527</Asset>
             </Item>
-            <Item>
-              <Asset>2143505528</Asset>
-            </Item>
           </AssetList>
         </AssetPool>
       </Values>
@@ -2483,52 +2380,6 @@
         </CultureUpgrade>
         <ModuleOwnerUpgrade/>
         <IncidentInfectableUpgrade/>
-        <PowerplantUpgrade/>
-        <IndustrializableUpgrade/>
-        <ItemContainerUpgrade/>
-        <IncidentInfluencerUpgrade/>
-        <IrrigationUpgrade/>
-        <EcoSystemProviderUpgrade/>
-        <ResourceUpgrade/>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505529</GUID>
-          <Name>ExplosiveBuff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
-        </Standard>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505523</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>100</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-          <AdditionalOutput>
-            <Item>
-              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-              <AdditionalOutputCycle>3</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-          </AdditionalOutput>
-        </FactoryUpgrade>
-        <BuildingUpgrade />
-        <Buff />
-        <CultureUpgrade />
-        <ModuleOwnerUpgrade/>
-        <IncidentInfectableUpgrade>
-          <IncidentExplosionIncreaseUpgrade>
-            <Value>25</Value>
-          </IncidentExplosionIncreaseUpgrade>
-        </IncidentInfectableUpgrade>
         <PowerplantUpgrade/>
         <IndustrializableUpgrade/>
         <ItemContainerUpgrade/>
