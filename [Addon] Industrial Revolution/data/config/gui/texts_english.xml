@@ -1,100 +1,31 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <GUID>2143505382</GUID>
-      <Text>Industrial Steelworks</Text>
-    </Text>
-    <Text>
-      <GUID>2143505391</GUID>
-      <Text>Steelworks Train Station</Text>
-    </Text>
-    <Text>
-      <GUID>2143505393</GUID>
-      <Text>Steelworks module</Text>
-    </Text>
-    <Text>
       <GUID>2143505502</GUID>
-      <Text>Steel Beams (Train)</Text>
+      <Text>Steelworks</Text>
     </Text>
     <Text>
       <GUID>2143505503</GUID>
-      <Text>Steelworks Inventory Center</Text>
+      <Text>Steel Freight Station</Text>
     </Text>
     <Text>
       <GUID>2143505504</GUID>
       <Text>Steel Beams</Text>
     </Text>
     <Text>
-      <GUID>2143505508</GUID>
-      <Text>Module is working</Text>
+      <GUID>2143505505</GUID>
+      <Text>Steel Train Station</Text>
     </Text>
     <Text>
-      <GUID>2143505508</GUID>
-      <Text>Module is working</Text>
-    </Text>
-    <Text>
-      <GUID>2143505509</GUID>
-      <Text>Industry Module</Text>
-    </Text>
-
-    <Text>
-      <GUID>2143505513</GUID>
-      <Text>Advanced Steel</Text>
-    </Text>
-    <Text>
-      <GUID>2143505516</GUID>
-      <Text>Industrial Furnace</Text>
-    </Text>
-    <Text>
-      <GUID>2143505517</GUID>
-      <Text>Furnace Module</Text>
-    </Text>
-    <Text>
-      <GUID>2143505518</GUID>
-      <Text>Module is working</Text>
-    </Text>
-    <!-- Steel Warehouse InfoCorner -->
-    <Text>
-      <GUID>2143505519</GUID>
-      <Text>Accept goods from your industrial furnaces. Use trains for transportation.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505520</GUID>
-      <Text>Steel Warehouse</Text>
-    </Text>
-    <Text>
-      <GUID>2143505521</GUID>
-      <Text>Steel Expedition Center</Text>
-    </Text>
-    
-    <Text>
-      <GUID>2143505523</GUID>
-      <Text>Deep Iron Mine</Text>
-    </Text>
-    <Text>
-      <GUID>2143505524</GUID>
-      <Text>Advanced Iron Mine</Text>
-    </Text>
-    <Text>
-      <GUID>2143505526</GUID>
-      <Text>Iron Warehouse</Text>
-    </Text>
-    <!-- Iron Warehouse InfoCorner -->
-    <Text>
-      <GUID>2143505530</GUID>
-      <Text>Accept goods from your deep mines. Use trains for transportation.</Text>
-    </Text>
-
-    <Text>
-      <GUID>2143505531</GUID>
+      <GUID>2143505510</GUID>
       <Text>Allow for transportation of goods by trains.</Text>
     </Text>
     <Text>
-      <GUID>2143505532</GUID>
+      <GUID>2143505511</GUID>
       <Text>Missing Railway Track</Text>
     </Text>
     <Text>
-      <GUID>2143505533</GUID>
+      <GUID>2143505512</GUID>
       <Text>This specific good cannot be trade.</Text>
     </Text>
 
