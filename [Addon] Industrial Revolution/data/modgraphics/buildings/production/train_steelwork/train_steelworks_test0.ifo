@@ -19,24 +19,6 @@
 			<zf>6.000000</zf>
 		</Extents>
 	</BoundingBox>
-	<BuildBlocker>
-		<Position>
-			<xf>5.000000</xf>
-			<zf>5.000000</zf>
-		</Position>
-		<Position>
-			<xf>-5.000000</xf>
-			<zf>5.000000</zf>
-		</Position>
-		<Position>
-			<xf>-5.000000</xf>
-			<zf>-5.000000</zf>
-		</Position>
-		<Position>
-			<xf>5.000000</xf>
-			<zf>-5.000000</zf>
-		</Position>
-	</BuildBlocker>
 	<Dummy>
 		<Name>DamageImpact22678</Name>
 		<Position>
@@ -156,7 +138,7 @@
 		<Position>
 			<xf>-3.000000</xf>
 			<yf>0.000000</yf>
-			<zf>5.000000</zf>
+			<zf>3.000000</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -175,7 +157,7 @@
 		<Position>
 			<xf>-3.000000</xf>
 			<yf>0.000000</yf>
-			<zf>-5.000000</zf>
+			<zf>-3.000000</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -189,6 +171,24 @@
 			<zf>0.100000</zf>
 		</Extents>
 	</Dummy>
+	<BuildBlocker>
+		<Position>
+			<xf>5.000000</xf>
+			<zf>5.000000</zf>
+		</Position>
+		<Position>
+			<xf>-5.000000</xf>
+			<zf>5.000000</zf>
+		</Position>
+		<Position>
+			<xf>-5.000000</xf>
+			<zf>-5.000000</zf>
+		</Position>
+		<Position>
+			<xf>5.000000</xf>
+			<zf>-5.000000</zf>
+		</Position>
+	</BuildBlocker>
 	<IntersectBox>
 		<Name>Hitbox16486</Name>
 		<Position>
