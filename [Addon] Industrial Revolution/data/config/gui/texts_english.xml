@@ -29,5 +29,25 @@
       <Text>This specific good cannot be trade.</Text>
     </Text>
 
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>Steel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>Furnace</Text>
+    </Text>
+    <Text>
+      <GUID>2143505514</GUID>
+      <Text>Steel Train Station</Text>
+    </Text>
+    <Text>
+      <GUID>2143505515</GUID>
+      <Text>Steel Freight Station</Text>
+    </Text>
+    <Text>
+      <GUID>2143505516</GUID>
+      <Text>Supplies trains to transport your industrial products. Must be connected to the industry as well as the freight station.</Text>
+    </Text>
   </ModOp>
 </ModOps>
