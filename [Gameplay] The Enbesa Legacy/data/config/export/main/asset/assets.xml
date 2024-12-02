@@ -13,7 +13,12 @@
 2143505503 - EnbesaPalaceModuleButtonInfotip
 2143505504 - Sandbox Trigger
 2143505505 - Creative Trigger
-
+2143505506 - WahaDesherTraditions - EffectContainer
+2143505507 - EnbesaPalace - WahaDesherTraditions Buff 1 - GuildhouseBuff
+2143505508 - WahaDesherTraditionsBuff1InfoDescription - Text
+2143505509 - EnbesaPalace - WahaDesherTraditions Buff 2 - GuildhouseBuff
+2143505510 - WahaDesherTraditionsBuff2InfoDescription - Text
+2143505511 - WahaDesherTraditionsPolicyDescription - Text
 -->
 
 <ModOps>
@@ -201,8 +206,8 @@
         <Hacienda>
           <Policies>
             <Tier1Decree>
-              <Policy></Policy>
-              <Description></Description>
+              <Policy>2143505506</Policy>
+              <Description>2143505511</Description>
             </Tier1Decree>
           </Policies>
         </Hacienda>
@@ -242,6 +247,147 @@
     </Asset>
   </ModOp>
 
+  <!-- Waha Desher Traditions -->
+  <Group>
+    <ModOp GUID="25650" Type="addNextSibling">
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505506</GUID>
+            <Name>WahaDesherTraditions</Name>
+            <IconFilename>data\ui\2kimages\main\profiles\storry_island_portrait_03.png</IconFilename>
+          </Standard>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505507</Effect>
+              </Item>
+              <Item>
+                <Effect>2143505509</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505507</GUID>
+            <Name>EnbesaPalace - WahaDesherTraditions Buff 1</Name>
+            <IconFilename>data\ui\2kimages\main\profiles\storry_island_portrait_03.png</IconFilename>
+            <InfoDescription>2143505508</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>114544</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <ItemAction/>
+          <ExpeditionAttribute/>
+          <CultureUpgrade/>
+          <BuildingUpgrade/>
+          <ModuleOwnerUpgrade/>
+          <IncidentInfluencerUpgrade/>
+          <IncidentInfectableUpgrade/>
+          <ResidenceUpgrade/>
+          <PopulationUpgrade/>
+          <IndustrializableUpgrade/>
+          <Buff/>
+          <CraftableItem/>
+          <HeaterUpgrade/>
+          <PowerplantUpgrade/>
+          <IrrigationUpgrade>
+            <PipeCapacityUpgrade>
+              <Value>35</Value>
+            </PipeCapacityUpgrade>
+          </IrrigationUpgrade>
+          <EcoSystemProviderUpgrade/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505509</GUID>
+            <Name>EnbesaPalace - WahaDesherTraditions Buff 2</Name>
+            <IconFilename>data\ui\2kimages\main\profiles\storry_island_portrait_03.png</IconFilename>
+            <InfoDescription>2143505510</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>114436</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <ItemAction/>
+          <FactoryUpgrade/>
+          <ExpeditionAttribute/>
+          <CultureUpgrade/>
+          <BuildingUpgrade/>
+          <ModuleOwnerUpgrade/>
+          <IncidentInfluencerUpgrade/>
+          <IncidentInfectableUpgrade/>
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>114359</ProvidedNeed>
+                <AmountInPercent>30</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>114371</ProvidedNeed>
+                <AmountInPercent>30</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>114401</ProvidedNeed>
+                <AmountInPercent>30</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <PopulationUpgrade/>
+          <IndustrializableUpgrade/>
+          <Buff/>
+          <CraftableItem/>
+          <HeaterUpgrade/>
+          <PowerplantUpgrade/>
+          <IrrigationUpgrade/>
+          <EcoSystemProviderUpgrade/>
+        </Values>
+      </Asset>
+      
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505508</GUID>
+            <Name>WahaDesherTraditionsBuff1InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505510</GUID>
+            <Name>WahaDesherTraditionsBuff2InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505511</GUID>
+            <Name>WahaDesherTraditionsPolicyDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group> 
 
   <ModOp GUID="114554" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='119029']">
     <Item>
