@@ -1,0 +1,20 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Enbesa Palace</Text>
+    </Text>
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Enbesa Palace Modules</Text>
+    </Text>
+    <Text>
+      <GUID>2143505502</GUID>
+      <Text>Enbesa Palace Modules</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>Enbesa Palace Modules</Text>
+    </Text>
+  </ModOp>
+</ModOps>

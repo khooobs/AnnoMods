@@ -1,2 +1,336 @@
+<!--GUIDS RANGE
+#####################################
+  Enbesa Legacy Assets Documentation
+  Min: 2143505500
+  Max: 2143505600
+#####################################
+-->
+<!--ASSET GUIDs
+#####################################
+2143505500 - EnbesaPalace - Building
+2143505501 - EnbesaPalaceModulePopupDescription
+2143505502 - EnbesaPalaceModulePopupHeader
+2143505503 - EnbesaPalaceModuleButtonInfotip
+2143505504 - Sandbox Trigger
+2143505505 - Creative Trigger
+
+-->
+
 <ModOps>
+  <!-- Building -->
+  <ModOp GUID="24768" Type="addNextSibling">
+    <Asset>
+      <Template>EnbesaPalace</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505500</GUID>
+          <Name>Enbesa Palace</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/hacienda/icon_hacienda_main.png</IconFilename>
+          <ID>Hacienda</ID>
+          <InfoDescription>2975</InfoDescription>
+          <!--warehouse infocorner-->
+        </Standard>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <!--Money-->
+              <Amount>13000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <!--wanza timber-->
+              <Amount>60</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <!--mud bricks-->
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <!--beams-->
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <!--window-->
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <!--concrete-->
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <GUIType>Hacienda</GUIType>
+          <StaticHelpEntryPoint>SeedsOfChangeHacienda</StaticHelpEntryPoint>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageTrigger>ClickKontor</ParticipantMessageTrigger>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/enbesa_palace1.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/enbesa_palace2.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable/>
+        <Mesh>
+          <LogoMode>CorporationLogoFromPlayer</LogoMode>
+          <SetCompanyLogo>1</SetCompanyLogo>
+        </Mesh>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>282235</Sound>
+              <!--wwe_sfx_bld_dlc10_hacienda_main_lp-->
+            </Item>
+          </ActiveSounds>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+              <!--wwe_sfx_aui_delete-->
+            </Item>
+          </DestroySounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+                <!--wwe_sfx_bld_inc_burn-->
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+              <!--wwe_sfx_aui_bld_3d_renovate-->
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <Locked>
+          <DLCDependency>24961</DLCDependency>
+          <!--Anno 1800 DLC - Seeds of Change-->
+        </Locked>
+        <Infolayer/>
+        <FeedbackController/>
+        <UpgradeList/>
+        <AmbientMoodProvider>
+          <AmbientMood>ResidenceTier1</AmbientMood>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <!--Money-->
+              <Amount>100</Amount>
+              <InactiveAmount>100</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <StorageBase/>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>3500</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable/>
+        <BuildingUnique>
+          <Uniques>
+            <Item>
+              <UniqueType>Hacienda</UniqueType>
+              <UniqueScope>Area</UniqueScope>
+            </Item>
+          </Uniques>
+        </BuildingUnique>
+        <ModuleOwner>
+          <ModuleLimits>
+            <Main>
+              <Limit>999</Limit>
+            </Main>
+          </ModuleLimits>
+          <!--
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>24770</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>25224</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>24792</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>24793</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>6086</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>24775</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>24794</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>24800</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>24805</ModuleGUID>
+            </Item>
+          </ConstructionOptions>-->
+          <AddModuleLimit>0</AddModuleLimit>
+          <BlueprintModuleOption>
+            <ModuleButtonIcon>20831</ModuleButtonIcon>
+            <ModulePopupDescription>2143505501</ModulePopupDescription>
+            <ModulePopupHeader>2143505502</ModulePopupHeader>
+            <ModuleButtonInfotip>25239</ModuleButtonInfotip>
+            <ShowRemainingModuleCount>1</ShowRemainingModuleCount>
+          </BlueprintModuleOption>
+        </ModuleOwner> 
+        <Hacienda>
+          <Policies>
+            <Tier1Decree>
+              <Policy></Policy>
+              <Description></Description>
+            </Tier1Decree>
+          </Policies>
+        </Hacienda>
+        <IncidentInfectable/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Texts -->
+  <ModOp GUID="25236" Type="addNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505501</GUID>
+          <Name>EnbesaPalaceModulePopupDescription</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505502</GUID>
+          <Name>EnbesaPalaceModulePopupHeader</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505503</GUID>
+          <Name>EnbesaPalaceModuleButtonInfotip</Name>
+        </Standard>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+  <ModOp GUID="114554" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='119029']">
+    <Item>
+      <Building>2143505500</Building>    
+    </Item>
+  </ModOp>
+
+  <ModOp GUID="130248" Type="addNextSibling">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505504</GUID>
+          <Name>intermediate africa</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>114330</Context>
+                <CounterAmount>750</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets />
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505500</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505505</GUID>
+          <Name>creative trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Values>
+              <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+            <Template>ConditionIsCreativeMode</Template>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505500</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    <UnhideAssets />
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  </ModOp>
 </ModOps>
