@@ -19,6 +19,21 @@
 2143505509 - EnbesaPalace - WahaDesherTraditions Buff 2 - GuildhouseBuff
 2143505510 - WahaDesherTraditionsBuff2InfoDescription - Text
 2143505511 - WahaDesherTraditionsPolicyDescription - Text
+2143505512 - Selamawi Unlock Decree Trigger
+2143505513 - Enbesa Shipyard - Shipyard
+2143505514 - SelamawiNavalTraditions - EffectContainer
+2143505515 - SelamawiNavalTraditions Buff - GuildhouseBuff
+2143505516 - SelamawiNavalTraditionsBuff1InfoDescription - Text
+2143505517 - SelamawiNavalTraditionsPolicyDescription - Text
+2143505518 - Schooner (Enbesa) - TradeShip
+2143505519 - Gunboat (Enbesa) - WarShip
+2143505520 - Frigate (Enbesa) - WarShip
+2143505521 - Clipper (Enbesa) - TradeShip
+2143505522 - Liner (Enbesa) - WarShip
+2143505523 - Selamawi Relock Decree Trigger
+2143505524 - Pride of Enbesa - WarShip
+2143505525 - Unhide shipyard trigger
+2143505526 - PrideOfEnbesaInfoDescription - Text
 -->
 
 <ModOps>
@@ -209,6 +224,10 @@
               <Policy>2143505506</Policy>
               <Description>2143505511</Description>
             </Tier1Decree>
+            <Tier3Decree>
+              <Policy>2143505514</Policy>
+              <Description>2143505517</Description>
+            </Tier3Decree>
           </Policies>
         </Hacienda>
         <IncidentInfectable/>
@@ -422,10 +441,72 @@
                 <Values>
                   <Action />
                   <ActionUnlockAsset>
-                    <UnhideAssets />
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2143505513</Asset>
+                      </Item>
+                    </UnhideAssets>
                     <UnlockAssets>
                       <Item>
                         <Asset>2143505500</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505518</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505519</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505520</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505521</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505522</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505524</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505525</GUID>
+          <Name>Unhide shipyard trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue/>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2143505513</Asset>
+                      </Item>
+                    </UnhideAssets>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset></Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -465,6 +546,27 @@
                       <Item>
                         <Asset>2143505500</Asset>
                       </Item>
+                      <Item>
+                        <Asset>2143505513</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505518</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505519</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505520</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505521</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505522</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505524</Asset>
+                      </Item>
                     </UnlockAssets>
                     <UnhideAssets />
                   </ActionUnlockAsset>
@@ -478,5 +580,1016 @@
     </Asset>
   </ModOp>
 
+  <!-- Selamawi Naval Traditions -->
+  <Group>
+    <ModOp GUID="130248" Type="addNextSibling">
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505512</GUID>
+            <Name>Selamawi Unlock Decree Trigger</Name>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Template>ConditionHaciendaDecreesActive</Template>
+              <Values>
+                <Condition />
+                <ConditionHaciendaDecreesActive>
+                  <ActiveDecrees>Tier3Decree</ActiveDecrees>
+                  <DecreesRangeOp>All</DecreesRangeOp>
+                </ConditionHaciendaDecreesActive>
+                <ObjectFilter>
+                  <ObjectGUID>2143505500</ObjectGUID>
+                  <CheckParticipantID>1</CheckParticipantID>
+                  <CheckProcessingParticipantID>1</CheckProcessingParticipantID>
+                  <ObjectSession>112132</ObjectSession>
+                </ObjectFilter>
+              </Values>
+              <Template>ConditionHaciendaDecreesActive</Template>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>2143505513</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505519</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505520</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505522</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505524</Asset>
+                        </Item>
+                      </UnlockAssets>
+                      <UnhideAssets />
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionRegisterTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionRegisterTrigger>
+                      <TriggerAsset>2143505523</TriggerAsset>
+                    </ActionRegisterTrigger>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+            <ResetTrigger>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <EmptyAutoCreateValue />
+              </Values>
+            </ResetTrigger>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505523</GUID>
+            <Name>Selamawi Relock Decree Trigger</Name>
+          </Standard>
+          <Trigger>
+            <!-- <TriggerCondition>
+              <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+                <ConditionPlayerCounter>
+                  <Context>2143505500</Context>
+                  <ComparisonOp>Equals</ComparisonOp>
+                </ConditionPlayerCounter>
+              </Values>
+            </TriggerCondition> -->            
+            <TriggerCondition>
+              <Template>ConditionHaciendaDecreesActive</Template>
+              <Values>
+                <Condition />
+                <ConditionHaciendaDecreesActive>
+                  <ActiveDecrees>Tier3Decree</ActiveDecrees>
+                  <DecreesRangeOp>All</DecreesRangeOp>
+                </ConditionHaciendaDecreesActive>
+                <ConditionPropsNegatable>
+                  <NegateCondition>1</NegateCondition>
+                </ConditionPropsNegatable>
+                <ObjectFilter>
+                  <ObjectGUID>2143505500</ObjectGUID>
+                  <CheckParticipantID>1</CheckParticipantID>
+                  <CheckProcessingParticipantID>1</CheckProcessingParticipantID>
+                  <ObjectSession>112132</ObjectSession>
+                </ObjectFilter>
+              </Values>
+              <Template>ConditionHaciendaDecreesActive</Template>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionLockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionLockAsset>
+                      <LockAssets>
+                        <Item>
+                          <Asset>2143505513</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505519</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505520</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505522</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505524</Asset>
+                        </Item>
+                      </LockAssets>
+                    </ActionLockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnhideAsset>
+                        <Item>
+                          <Asset>2143505513</Asset>
+                        </Item>
+                      </UnhideAsset>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionRegisterTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionRegisterTrigger>
+                      <TriggerAsset>2143505512</TriggerAsset>
+                    </ActionRegisterTrigger>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Values>
+                    <Action />
+                    <ActionRegisterTrigger>
+                      <TriggerAsset>2143505525</TriggerAsset>
+                    </ActionRegisterTrigger>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+            <SubTriggers>
+              <Item>
+                <SubTrigger>
+                  <Template>AutoCreateTrigger</Template>
+                  <Values>
+                    <Trigger>
+                      <TriggerCondition>
+                        <Template>ConditionIsDLCActive</Template>
+                        <Values>
+                          <Condition />
+                          <ConditionIsDLCActive>
+                            <DLCAssetList>
+                              <Item>
+                                <DLCAsset>410071</DLCAsset>
+                              </Item>
+                            </DLCAssetList>
+                          </ConditionIsDLCActive>
+                          <ConditionPropsNegatable />
+                        </Values>
+                      </TriggerCondition>
+                    </Trigger>
+                  </Values>
+                </SubTrigger>
+              </Item>
+            </SubTriggers>
+          </Trigger>
+          <TriggerSetup/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Shipyard</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505513</GUID>
+            <Name>Enbesa Shipyard</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_sail_shipyard.png</IconFilename>
+            <InfoDescription>1090</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildingCategoryName>11150</BuildingCategoryName>
+            <!--Harbor Building-->
+            <SnapRadius>10</SnapRadius>
+            <TerrainType>Water_Including_Coast</TerrainType>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Blocking>
+            <GroundDecalAsset>117730</GroundDecalAsset>
+            <!--Quay System Base-->
+            <GroundDecalInvisible>117731</GroundDecalInvisible>
+            <!--Quay System Base Invisible-->
+            <GroundDecalAssetExtra>100691</GroundDecalAssetExtra>
+            <!--invisible quay (dummyblocker)-->
+            <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+            <HarbourAreaExpand>1</HarbourAreaExpand>
+          </Blocking>
+          <Mesh/>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/buildings/special/harbor_02/enbesa_shipyard1.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>1010520</DefaultSkinName>
+              <DefaultSkinDescription>23853</DefaultSkinDescription>
+              <!--ChangeBuildingSkin_toDefaultSkinDesc-->
+              <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+              <!--Classic-->
+            </Skins>
+          </Object>
+          <AmbientMoodProvider>
+            <Murmur>Harbor</Murmur>
+          </AmbientMoodProvider>
+          <Constructable/>
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList/>
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Africa_Resident_tier02</ParticipantMessageArcheType>
+          </Selection>
+          <Text>
+            <TextOverride>1010520</TextOverride>
+          </Text>
+          <Shipyard>
+            <AssemblyOptions>
+              <Item>
+                <Vehicle>2143505518</Vehicle>
+                <!--Schooner (Trade)-->
+              </Item>
+              <Item>
+                <Vehicle>2143505519</Vehicle>
+                <!--Rocketboat (Military)-->
+              </Item>
+              <Item>
+                <Vehicle>2143505520</Vehicle>
+                <!--Frigate (Military)-->
+              </Item>
+              <Item>
+                <Vehicle>2143505521</Vehicle>
+                <!--Clipper (Trade)-->
+              </Item>
+              <Item>
+                <Vehicle>2143505522</Vehicle>
+                <!--Liner (Military)-->
+              </Item>
+              <Item>
+                <Vehicle>2143505524</Vehicle>
+                <!--Pride of Enbesa (Military)-->
+              </Item>
+            </AssemblyOptions>
+          </Shipyard>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <!--Money-->
+                <Amount>10000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114356</Ingredient>
+                <!--timber-->
+                <Amount>20</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114402</Ingredient>
+                <!--bricks-->
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <!--beams-->
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <!--window-->
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <!--concrete-->
+              </Item>
+            </Costs>
+          </Cost>
+          <Locked/>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <!--Money-->
+                <Amount>100</Amount>
+                <InactiveAmount>50</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>114341</Product>
+                <!--africa workforce 2-->
+                <Amount>100</Amount>
+              </Item>
+            </Maintenances>
+            <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+          </Maintenance>
+          <Infolayer/>
+          <Attackable>
+            <AttackableType>HarbourBuilding</AttackableType>
+            <MaximumHitPoints>4000</MaximumHitPoints>
+            <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+            <HPBarOffset>4.5</HPBarOffset>
+            <DefenseByAIFactor>700</DefenseByAIFactor>
+            <MoralePower>50</MoralePower>
+            <IslandWarFlag>102303</IslandWarFlag>
+            <!--island_war_flag1-->
+            <ExplosionEffects>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Shipyard</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <ExplosionEffectFilePath>data/graphics/effects/military/explosions/harbor_generic_xpl_02.cfg</ExplosionEffectFilePath>
+              </Item>
+              <Item>
+                <ExplosionEffectFilePath>data/graphics/effects/military/explosions/harbor_generic_xpl_03.cfg</ExplosionEffectFilePath>
+              </Item>
+            </ExplosionEffects>
+            <ExplosionEffectsMin>1</ExplosionEffectsMin>
+            <ExplosionEffectsMax>2</ExplosionEffectsMax>
+            <SelfHealPerHealTick>5</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable/>
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200896</Sound>
+                <!--wwe_sfx_bld_harbor_typeCluster_tag-->
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                  <!--wwe_sfx_bld_inc_burn-->
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+            <BuildingRuined>
+              <Item>
+                <Sound>203848</Sound>
+                <!--wwe_sfx_aui_destroy_big-->
+              </Item>
+            </BuildingRuined>
+            <BuildingRepaired>
+              <Item>
+                <Sound>203866</Sound>
+                <!--wwe_sfx_aui_bld_3d_renovate-->
+              </Item>
+            </BuildingRepaired>
+          </SoundEmitter>
+          <IncidentInfectable/>
+          <FeedbackController/>
+          <Industrializable>
+            <BoostedByIndustrialization>0</BoostedByIndustrialization>
+          </Industrializable>
+          <UpgradeList/>
+          <LogisticNode/>
+          <StreetActivation/>
+          <QuestObject/>
+          <Electrifiable/>
+        </Values>
+      </Asset>
+
+      <Asset>
+        <BaseAssetGUID>100438</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>2143505518</GUID>
+            <Name>Schooner Africa (Trade)</Name>
+          </Standard>
+          <Text>
+            <TextOverride>100438</TextOverride>
+          </Text>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>114356</Ingredient>
+                <!--timber-->
+                <Amount>20</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010210</Ingredient>
+                <!--sailcloth-->
+                <Amount>10</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+        </Values>
+      </Asset>
+      <Asset>
+        <BaseAssetGUID>100437</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>2143505519</GUID>
+            <Name>Gunboat Africa (WarShip)</Name>
+          </Standard>
+          <Text>
+            <TextOverride>100437</TextOverride>
+          </Text>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>114356</Ingredient>
+                <!--timber-->
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010210</Ingredient>
+                <!--sailcloth-->
+                <Amount>20</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010221</Ingredient>
+                <!--weapons-->
+                <Amount>7</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+        </Values>
+      </Asset>
+      <Asset>
+        <BaseAssetGUID>100439</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>2143505520</GUID>
+            <Name>Frigate Africa (WarShip)</Name>
+          </Standard>
+          <Text>
+            <TextOverride>100439</TextOverride>
+          </Text>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>114356</Ingredient>
+                <!--timber-->
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010210</Ingredient>
+                <!--sailcloth-->
+                <Amount>20</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010221</Ingredient>
+                <!--weapons-->
+                <Amount>15</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+        </Values>
+      </Asset>
+      <Asset>
+        <BaseAssetGUID>100441</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>2143505521</GUID>
+            <Name>Clipper Africa (TradeShip)</Name>
+          </Standard>
+          <Text>
+            <TextOverride>100441</TextOverride>
+          </Text>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>114356</Ingredient>
+                <!--timber-->
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010210</Ingredient>
+                <!--sailcloth-->
+                <Amount>30</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+        </Values>
+      </Asset>
+      <Asset>
+        <BaseAssetGUID>100440</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>2143505522</GUID>
+            <Name>Liner Africa (WarShip)</Name>
+          </Standard>
+          <Text>
+            <TextOverride>100440</TextOverride>
+          </Text>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>114356</Ingredient>
+                <!--timber-->
+                <Amount>60</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010210</Ingredient>
+                <!--sailcloth-->
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010221</Ingredient>
+                <!--weapons-->
+                <Amount>30</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>WarShip</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505524</GUID>
+            <Name>Pride of Enbesa (WarShip)</Name>
+			      <IconFilename>data/ui/2kimages/main/3dicons/ships/icon_ship_liner_enbesa.png</IconFilename>
+			      <InfoDescription>2143505526</InfoDescription>
+          </Standard>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/vehicle/pride_of_enbesa/pride_of_enbesa.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>2143505524</DefaultSkinName>
+              <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            </Skins>
+          </Object>
+          <Mesh>
+            <MeshPlacement>OnWaterSlope</MeshPlacement>
+          </Mesh>
+          <Selection>
+            <MultiSelectable>1</MultiSelectable>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Walking>
+            <ReservationLength>9</ReservationLength>
+            <ReservationWidth>5</ReservationWidth>
+            <PathPlannerLayer>Water</PathPlannerLayer>
+            <ExpensiveDirSmoothing>1</ExpensiveDirSmoothing>
+            <TurnAroundRadius>8</TurnAroundRadius>
+            <Acceleration>1</Acceleration>
+            <Deceleration>1</Deceleration>
+            <TurnRadius>8</TurnRadius>
+            <TurnDeceleration>0</TurnDeceleration>
+            <TurnMovement>0</TurnMovement>
+            <LeaningMaxAngle>-10</LeaningMaxAngle>
+            <ForwardSpeed>4</ForwardSpeed>
+            <WindMinSlowdownFactor>0.4</WindMinSlowdownFactor>
+            <WindSlowdownEffectOnTurningSpeed>0.35</WindSlowdownEffectOnTurningSpeed>
+            <WindMaxSpeedupFactor>1.8</WindMaxSpeedupFactor>
+            <WindSpeedupEffectOnTurningSpeed>0.85</WindSpeedupEffectOnTurningSpeed>
+            <CurveSegmentDensity>High</CurveSegmentDensity>
+          </Walking>
+          <CommandQueue>
+            <FormationPriority>3</FormationPriority>
+            <MilitaryShipPoints>3.2</MilitaryShipPoints>
+            <PriorityShipList>1</PriorityShipList>
+          </CommandQueue>
+          <Drifting>
+            <OverrideAssetWidthAndLength>0</OverrideAssetWidthAndLength>
+            <Length>7</Length>
+            <Width>2</Width>
+            <FactorRotation>0.65</FactorRotation>
+          </Drifting>
+          <Collector />
+          <Attackable>
+            <MaximumHitPoints>4000</MaximumHitPoints>
+            <AlertRange>150</AlertRange>
+            <HPBarOffset>9.5</HPBarOffset>
+            <AccuracyWidth>4</AccuracyWidth>
+            <SelfHealPerHealTick>1.667</SelfHealPerHealTick>
+            <SelfHealPausedTimeIfAttacked>60000</SelfHealPausedTimeIfAttacked>
+          </Attackable>
+          <Attacker>
+            <BaseDamage>650</BaseDamage>
+            <ReloadTime>100</ReloadTime>
+            <TargetAngleVariation>50</TargetAngleVariation>
+            <AttackRange>68</AttackRange>
+            <LineOfSightRange>100</LineOfSightRange>
+            <ProjectileAsset>102285</ProjectileAsset>
+            <MuzzleEffectAssets>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>WarShip</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <MuzzleEffectAsset>102286</MuzzleEffectAsset>
+              </Item>
+              <Item>
+                <MuzzleEffectAsset>102287</MuzzleEffectAsset>
+              </Item>
+              <Item>
+                <MuzzleEffectAsset>102300</MuzzleEffectAsset>
+              </Item>
+            </MuzzleEffectAssets>
+            <FullVolleyTimeMin>0.8</FullVolleyTimeMin>
+            <FullVolleyTimeMax>1.8</FullVolleyTimeMax>
+            <VolleyMaxPerBulletRandomOffset>0.2</VolleyMaxPerBulletRandomOffset>
+            <AccuracyIncreaseOverDistance>100</AccuracyIncreaseOverDistance>
+            <AccuracySpeedDecay>20</AccuracySpeedDecay>
+            <AccuracyByDistance>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>WarShip</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <AccuracyByDistancePair>
+                  <CorrespondingAccuracy>50</CorrespondingAccuracy>
+                </AccuracyByDistancePair>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>1</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>WarShip</TemplateName>
+                      <Index>1</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <AccuracyByDistancePair>
+                  <EnemyDistanceRelToAttackRange>20</EnemyDistanceRelToAttackRange>
+                </AccuracyByDistancePair>
+              </Item>
+              <Item>
+                <AccuracyByDistancePair>
+                  <EnemyDistanceRelToAttackRange>40</EnemyDistanceRelToAttackRange>
+                  <CorrespondingAccuracy>70</CorrespondingAccuracy>
+                </AccuracyByDistancePair>
+              </Item>
+              <Item>
+                <AccuracyByDistancePair>
+                  <EnemyDistanceRelToAttackRange>70</EnemyDistanceRelToAttackRange>
+                  <CorrespondingAccuracy>85</CorrespondingAccuracy>
+                </AccuracyByDistancePair>
+              </Item>
+              <Item>
+                <AccuracyByDistancePair>
+                  <EnemyDistanceRelToAttackRange>100</EnemyDistanceRelToAttackRange>
+                </AccuracyByDistancePair>
+              </Item>
+            </AccuracyByDistance>
+          </Attacker>
+          <MinimapToken>
+            <TokenAsset>2001947</TokenAsset>
+            <StrategicMapAsset>500433</StrategicMapAsset>
+          </MinimapToken>
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>216015</Sound>
+              </Item>
+            </ActiveSounds>
+            <DestroySounds>
+              <Item>
+                <Sound>238317</Sound>
+              </Item>
+            </DestroySounds>
+          </SoundEmitter>
+          <UpgradeList />
+          <QuestObject />
+          <Infolayer />
+          <ItemContainer>
+            <SocketCount>3</SocketCount>
+            <SlotCount>3</SlotCount>
+          </ItemContainer>
+          <FeedbackController />
+          <Draggable>
+            <DraggableOnDrag>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </DraggableOnDrag>
+            <DraggableOnDrop>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </DraggableOnDrop>
+          </Draggable>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>114356</Ingredient>
+                <!--timber-->
+                <Amount>60</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010210</Ingredient>
+                <!--sailcloth-->
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010221</Ingredient>
+                <!--weapons-->
+                <Amount>30</Amount>
+              </Item>
+            </Costs>
+            <InfluenceCostType>WarShip</InfluenceCostType>
+            <InfluenceCostPoints>16</InfluenceCostPoints>
+          </Cost>
+          <Craftable>
+            <CraftingTime>720000</CraftingTime>
+          </Craftable>
+          <TradeRouteVehicle />
+          <Locked />
+          <Nameable />
+          <MetaPersistent />
+          <ExpeditionAttribute>
+            <ExpeditionAttributes>
+              <Item>
+                <Attribute>Might</Attribute>
+                <Amount>50</Amount>
+              </Item>
+              <Item>
+                <Attribute>Navigation</Attribute>
+              </Item>
+              <Item>
+                <Attribute>PerkMilitaryShip</Attribute>
+                <Amount>1</Amount>
+              </Item>
+              <Item>
+                <Attribute>PerkSailingShip</Attribute>
+                <Amount>1</Amount>
+              </Item>
+            </ExpeditionAttributes>
+          </ExpeditionAttribute>
+          <ShipMaintenance>
+            <Maintenance>250</Maintenance>
+          </ShipMaintenance>
+          <Sellable>
+            <Baseprice>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>WarShip</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Amount>50000</Amount>
+              </Item>
+            </Baseprice>
+          </Sellable>
+          <Stance />
+          <Rentable />
+          <WorldMapSound />
+          <Pausable />
+          <ShipIncident />
+          <SoundEmitterCommandBarks>
+            <BarkMapping>
+              <Selection>
+                <AudioPool>700096</AudioPool>
+              </Selection>
+              <SelectionDamaged>
+                <AudioPool>700128</AudioPool>
+              </SelectionDamaged>
+              <AttackCommand>
+                <AudioPool>700097</AudioPool>
+              </AttackCommand>
+              <MoveCommand>
+                <AudioPool>700098</AudioPool>
+              </MoveCommand>
+              <EscortCommand>
+                <AudioPool>700130</AudioPool>
+              </EscortCommand>
+              <PatrolCommand>
+                <AudioPool>700129</AudioPool>
+              </PatrolCommand>
+            </BarkMapping>
+          </SoundEmitterCommandBarks>
+        </Values>
+      </Asset>
+      
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505514</GUID>
+            <Name>SelamawiNavalTraditions</Name>
+            <IconFilename>data\ui\2kimages\main\profiles\storry_island_portrait_02.png</IconFilename>
+          </Standard>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505515</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505515</GUID>
+            <Name>EnbesaPalace - SelamawiNavalTraditions Buff 1</Name>
+            <IconFilename>data\ui\2kimages\main\profiles\storry_island_portrait_02.png</IconFilename>
+            <InfoDescription>2143505516</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>191443</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <FactoryUpgrade/>
+          <BuildingUpgrade/>
+          <Buff/>
+          <AttackerUpgrade>
+            <BaseDamageUpgrade>
+              <Percental>1</Percental>
+            </BaseDamageUpgrade>
+            <HitpointDamage>
+              <Item>
+                <MinDamageFactor>1.6</MinDamageFactor>
+              </Item>
+            </HitpointDamage>
+            <MoraleDamage>
+              <Item>
+                <MinDamageFactor>1.6</MinDamageFactor>
+              </Item>
+            </MoraleDamage>
+          </AttackerUpgrade>
+          <VisitorHarborUpgrade/>
+          <VisitorUpgrade/>
+          <PassiveTradeGoodGenUpgrade/>
+          <KontorUpgrade/>
+          <AttackableUpgrade/>
+          <PierUpgrade/>
+          <CultureUpgrade/>
+          <WarehouseUpgrade/>
+          <ItemContainerUpgrade/>
+          <ResourceUpgrade/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505516</GUID>
+            <Name>SelamawiNavalTraditionsBuff1InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505517</GUID>
+            <Name>SelamawiNavalTraditionsPolicyDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505526</GUID>
+            <Name>PrideOfEnbesaInfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+
+    </ModOp>
+    <ModOp GUID="117897,119014" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='117871']">
+      <Item>
+        <Building>2143505513</Building>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- Angereb sells ships -->
+  <ModOp Type="add" GUID="120283" Path="Values/Trader/">
+		<BuyShipRequestNotification>502154</BuyShipRequestNotification>
+    <Progression>
+      <EarlyMidGame>
+        <ShipsForSale>
+          <Item>
+            <ShipAsset>100437</ShipAsset>
+            <!--Gunboat (War)-->
+            <Weight>2</Weight>
+          </Item>
+        </ShipsForSale>
+        <ShipsForSaleAmount>1</ShipsForSaleAmount>
+      </EarlyMidGame>
+      <MidGame>
+        <ShipsForSale>
+          <Item>
+            <ShipAsset>100437</ShipAsset>
+            <!--Gunboat (War)-->
+            <Weight>1</Weight>
+          </Item>
+          <Item>
+            <ShipAsset>119094</ShipAsset>
+            <!--Frigade (War)-->
+            <Weight>1</Weight>
+          </Item>
+        </ShipsForSale>
+        <ShipsForSaleAmount>1</ShipsForSaleAmount>
+      </MidGame>
+      <LateMidGame>
+        <ShipsForSale>
+          <Item>
+            <ShipAsset>119094</ShipAsset>
+            <!--Frigade (War)-->
+            <Weight>1</Weight>
+          </Item>
+        </ShipsForSale>
+        <ShipsForSaleAmount>2</ShipsForSaleAmount>
+      </LateMidGame>
+      <LateGame>
+        <ShipsForSale>
+          <Item>
+            <ShipAsset>119094</ShipAsset>
+            <!--Frigade (War)-->
+            <Weight>1</Weight>
+          </Item>
+          <Item>
+            <ShipAsset>119093</ShipAsset>
+            <!--SOTL (War)-->
+            <Weight>1</Weight>
+          </Item>
+        </ShipsForSale>
+        <ShipsForSaleAmount>2</ShipsForSaleAmount>
+      </LateGame>
+      <EndGame>
+        <ShipsForSale>
+          <Item>
+            <ShipAsset>2143505524</ShipAsset>
+            <!--Enbesan Flagship (War)-->
+            <Weight>1</Weight>
+          </Item>
+        </ShipsForSale>
+        <ShipsForSaleAmount>2</ShipsForSaleAmount>
+      </EndGame>
+    </Progression>
   </ModOp>
 </ModOps>
