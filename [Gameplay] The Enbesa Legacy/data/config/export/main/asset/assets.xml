@@ -34,6 +34,14 @@
 2143505524 - Pride of Enbesa - WarShip
 2143505525 - Unhide shipyard trigger
 2143505526 - PrideOfEnbesaInfoDescription - Text
+2143505527 - Kidusian Temple - Building
+2143505528 - Kidusi Unlock Decree Trigger
+2143505529 - Kidusi Relock Decree Trigger
+2143505530 - KidusiPiousDoctrine - EffectContainer
+2143505531 - EnbesaPalace - KidusiDoctrine Buff 1 - TownhallBuff
+2143505532 - KidusiPiousDoctrineBuff1InfoDescription - Text
+2143505533 - KidusiPiousPolicyDescription - Text
+2143505534 - EnbesaPalace - KidusiDoctrine Buff InfoTip - TownhallBuff
 -->
 
 <ModOps>
@@ -224,6 +232,10 @@
               <Policy>2143505506</Policy>
               <Description>2143505511</Description>
             </Tier1Decree>
+            <Tier2Decree>
+              <Policy>2143505530</Policy>
+              <Description>2143505533</Description>
+            </Tier2Decree>
             <Tier3Decree>
               <Policy>2143505514</Policy>
               <Description>2143505517</Description>
@@ -445,6 +457,9 @@
                       <Item>
                         <Asset>2143505513</Asset>
                       </Item>
+                      <Item>
+                        <Asset>2143505527</Asset>
+                      </Item>
                     </UnhideAssets>
                     <UnlockAssets>
                       <Item>
@@ -483,7 +498,7 @@
       <Values>
         <Standard>
           <GUID>2143505525</GUID>
-          <Name>Unhide shipyard trigger</Name>
+          <Name>Unhide default trigger</Name>
         </Standard>
         <Trigger>
           <TriggerCondition>
@@ -502,6 +517,9 @@
                     <UnhideAssets>
                       <Item>
                         <Asset>2143505513</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505527</Asset>
                       </Item>
                     </UnhideAssets>
                     <UnlockAssets>
@@ -567,6 +585,9 @@
                       <Item>
                         <Asset>2143505524</Asset>
                       </Item>
+                      <Item>
+                        <Asset>2143505527</Asset>
+                      </Item>
                     </UnlockAssets>
                     <UnhideAssets />
                   </ActionUnlockAsset>
@@ -579,6 +600,550 @@
       </Values>
     </Asset>
   </ModOp>
+
+  <!-- Kidusian's Tales of Enbesa -->
+  <Group>
+    <ModOp GUID="114520" Type="addNextSibling">
+      <Asset>
+        <Template>BuffFactory</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505527</GUID>
+            <Name>Kidusian Temple</Name>	
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_monastery_advanced.png</IconFilename>
+            <InfoDescription>11144</InfoDescription>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Africa</AssociatedRegions>
+            <BuildingType>Factory</BuildingType>
+            <BuildingCategoryName>100003</BuildingCategoryName>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>PublicServiceBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Amount>15000</Amount>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>1</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>PublicServiceBuilding</TemplateName>
+                      <Index>1</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Ingredient>114356</Ingredient>
+                <Amount>42</Amount>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>2</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>PublicServiceBuilding</TemplateName>
+                      <Index>2</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Ingredient>114402</Ingredient>
+                <Amount>55</Amount>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>3</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>PublicServiceBuilding</TemplateName>
+                      <Index>3</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>4</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>PublicServiceBuilding</TemplateName>
+                      <Index>4</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>5</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>PublicServiceBuilding</TemplateName>
+                      <Index>5</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/buildings/public/kidusi_monastery/kidusi_monastery.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <GUIType>Production</GUIType>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>270306</Sound>
+              </Item>
+            </ActiveSounds>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <BuffFactory>
+            <ProductionBuffs>
+              <Item>
+                <ProductivityBuff>2143505531</ProductivityBuff>
+              </Item>
+            </ProductionBuffs>
+            <ProductionBuffScope>Radius</ProductionBuffScope>
+            <ProductionBuffDistance>25</ProductionBuffDistance>
+          </BuffFactory>
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>117698</Product>
+                <Amount>1</Amount>
+                <StorageAmount>10</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <CycleTime>120</CycleTime>
+            <MissingConnectionInfolayer>270054</MissingConnectionInfolayer>
+          </FactoryBase>
+          <LogisticNode />
+          <PublicService>
+            <FullSatisfactionDistance>30</FullSatisfactionDistance>
+            <NoSatisfactionDistance>60</NoSatisfactionDistance>
+            <PublicServiceOutputs>
+              <Item>
+                <Product>114362</Product>
+              </Item>
+            </PublicServiceOutputs>
+          </PublicService>
+          <AmbientMoodProvider>
+            <Murmur>Africa_Monastery</Murmur>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>1400</Amount>
+                <InactiveAmount>700</InactiveAmount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+          </Attackable>
+          <Pausable />
+          <IncidentInfectable />
+          <Culture />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505528</GUID>
+            <Name>Kidusi Unlock Decree Trigger</Name>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Template>ConditionHaciendaDecreesActive</Template>
+              <Values>
+                <Condition />
+                <ConditionHaciendaDecreesActive>
+                  <ActiveDecrees>Tier2Decree</ActiveDecrees>
+                  <DecreesRangeOp>All</DecreesRangeOp>
+                </ConditionHaciendaDecreesActive>
+                <ObjectFilter>
+                  <ObjectGUID>2143505500</ObjectGUID>
+                  <CheckParticipantID>1</CheckParticipantID>
+                  <CheckProcessingParticipantID>1</CheckProcessingParticipantID>
+                  <ObjectSession>112132</ObjectSession>
+                </ObjectFilter>
+              </Values>
+              <Template>ConditionHaciendaDecreesActive</Template>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>2143505527</Asset>
+                        </Item>
+                      </UnlockAssets>
+                      <UnhideAssets />
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionRegisterTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionRegisterTrigger>
+                      <TriggerAsset>2143505529</TriggerAsset>
+                    </ActionRegisterTrigger>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+            <ResetTrigger>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <EmptyAutoCreateValue />
+              </Values>
+            </ResetTrigger>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505529</GUID>
+            <Name>Kidusi Relock Decree Trigger</Name>
+          </Standard>
+          <Trigger>
+            <!-- <TriggerCondition>
+              <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+                <ConditionPlayerCounter>
+                  <Context>2143505500</Context>
+                  <ComparisonOp>Equals</ComparisonOp>
+                </ConditionPlayerCounter>
+              </Values>
+            </TriggerCondition> -->            
+            <TriggerCondition>
+              <Template>ConditionHaciendaDecreesActive</Template>
+              <Values>
+                <Condition />
+                <ConditionHaciendaDecreesActive>
+                  <ActiveDecrees>Tier2Decree</ActiveDecrees>
+                  <DecreesRangeOp>All</DecreesRangeOp>
+                </ConditionHaciendaDecreesActive>
+                <ConditionPropsNegatable>
+                  <NegateCondition>1</NegateCondition>
+                </ConditionPropsNegatable>
+                <ObjectFilter>
+                  <ObjectGUID>2143505500</ObjectGUID>
+                  <CheckParticipantID>1</CheckParticipantID>
+                  <CheckProcessingParticipantID>1</CheckProcessingParticipantID>
+                  <ObjectSession>112132</ObjectSession>
+                </ObjectFilter>
+              </Values>
+              <Template>ConditionHaciendaDecreesActive</Template>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionLockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionLockAsset>
+                      <LockAssets>
+                        <Item>
+                          <Asset>2143505527</Asset>
+                        </Item>
+                      </LockAssets>
+                    </ActionLockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnhideAsset>
+                        <Item>
+                          <Asset>2143505527</Asset>
+                        </Item>
+                      </UnhideAsset>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionRegisterTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionRegisterTrigger>
+                      <TriggerAsset>2143505528</TriggerAsset>
+                    </ActionRegisterTrigger>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Values>
+                    <Action />
+                    <ActionRegisterTrigger>
+                      <TriggerAsset>2143505525</TriggerAsset>
+                    </ActionRegisterTrigger>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+            <SubTriggers>
+              <Item>
+                <SubTrigger>
+                  <Template>AutoCreateTrigger</Template>
+                  <Values>
+                    <Trigger>
+                      <TriggerCondition>
+                        <Template>ConditionIsDLCActive</Template>
+                        <Values>
+                          <Condition />
+                          <ConditionIsDLCActive>
+                            <DLCAssetList>
+                              <Item>
+                                <DLCAsset>410071</DLCAsset>
+                              </Item>
+                            </DLCAssetList>
+                          </ConditionIsDLCActive>
+                          <ConditionPropsNegatable />
+                        </Values>
+                      </TriggerCondition>
+                    </Trigger>
+                  </Values>
+                </SubTrigger>
+              </Item>
+            </SubTriggers>
+          </Trigger>
+          <TriggerSetup/>
+        </Values>
+      </Asset>
+
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505530</GUID>
+            <Name>KidusiPiousDoctrine</Name>
+            <IconFilename>data\ui\2kimages\main\profiles\storry_island_portrait_01.png</IconFilename>
+          </Standard>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505534</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505531</GUID>
+            <Name>EnbesaPalace - KidusiDoctrine Buff 1</Name>
+            <IconFilename>data\ui\2kimages\main\profiles\storry_island_portrait_01.png</IconFilename>
+            <InfoDescription>2143505532</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>114437</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <ItemAction/>
+          <ExpeditionAttribute/>
+          <CultureUpgrade/>
+          <BuildingUpgrade/>
+          <ModuleOwnerUpgrade/>
+          <IncidentInfluencerUpgrade/>
+          <IncidentInfectableUpgrade/>
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>117698</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <PopulationUpgrade>
+            <InputBenefitModifier>
+              <Item>
+                <Product>114362</Product>
+                <AdditionalResearch>2</AdditionalResearch>
+					      <AdditionalHappiness>0</AdditionalHappiness>
+              </Item>
+            </InputBenefitModifier>
+          </PopulationUpgrade>
+          <IndustrializableUpgrade/>
+          <Buff/>
+          <CraftableItem/>
+          <HeaterUpgrade/>
+          <PowerplantUpgrade/>
+          <IrrigationUpgrade/>
+          <EcoSystemProviderUpgrade/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505534</GUID>
+            <Name>EnbesaPalace - KidusiDoctrine Buff InfoTip</Name>
+            <IconFilename>data\ui\2kimages\main\profiles\storry_island_portrait_01.png</IconFilename>
+            <InfoDescription>2143505532</InfoDescription>
+          </Standard>
+          <Text>
+            <TextOverride>2143505531</TextOverride>
+          </Text>
+          <ItemEffect>
+            <EffectTargets>
+              <!-- <Item>
+                <GUID>114437</GUID>
+              </Item> -->
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <ItemAction/>
+          <ExpeditionAttribute/>
+          <CultureUpgrade/>
+          <BuildingUpgrade/>
+          <ModuleOwnerUpgrade/>
+          <IncidentInfluencerUpgrade/>
+          <IncidentInfectableUpgrade/>
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>117698</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <PopulationUpgrade>
+            <InputBenefitModifier>
+              <Item>
+                <Product>114362</Product>
+                <AdditionalResearch>2</AdditionalResearch>
+					      <AdditionalHappiness>0</AdditionalHappiness>
+              </Item>
+            </InputBenefitModifier>
+          </PopulationUpgrade>
+          <IndustrializableUpgrade/>
+          <Buff/>
+          <CraftableItem/>
+          <HeaterUpgrade/>
+          <PowerplantUpgrade/>
+          <IrrigationUpgrade/>
+          <EcoSystemProviderUpgrade/>
+        </Values>
+      </Asset>
+      
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505532</GUID>
+            <Name>KidusiPiousDoctrineBuff1InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505533</GUID>
+            <Name>KidusiPiousPolicyDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp GUID="114554" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='114520']">
+      <Item>
+        <Building>2143505527</Building>
+      </Item>
+    </ModOp>
+    <!-- Hack for the monastery upgrade -->
+    <ModOp GUID="114520" Type="add">
+      <BuffFactory/>
+      <FactoryBase/>
+    </ModOp>
+    <ModOp GUID="114520" Type="merge">
+      <Template>BuffFactory</Template>
+      <Values>
+        <Standard>
+          <InfoDescription>11144</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingType>Factory</BuildingType>
+          <BuildingCategoryName>100003</BuildingCategoryName>
+        </Building>
+        <PublicService>
+          <FunctionDescription>100364</FunctionDescription>
+        </PublicService>
+      </Values>
+    </ModOp>
+    <ModOp GUID="114520" Type="add" Path="Values/">
+      <Upgradable>
+        <NextGUID>2143505527</NextGUID>
+        <UpgradeCost>
+          <Item>
+            <Ingredient>1010017</Ingredient>
+            <Amount>1200</Amount>
+          </Item>
+          <Item>
+            <Ingredient>114356</Ingredient>
+            <Amount>12</Amount>
+          </Item>
+          <Item>
+            <Ingredient>114402</Ingredient>
+            <Amount>25</Amount>
+          </Item>
+        </UpgradeCost>
+      </Upgradable>
+    </ModOp>
+    <!-- End Hack -->
+  </Group>
 
   <!-- Selamawi Naval Traditions -->
   <Group>
