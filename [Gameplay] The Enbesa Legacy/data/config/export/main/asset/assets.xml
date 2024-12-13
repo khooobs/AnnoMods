@@ -14,9 +14,9 @@
 2143505504 - Sandbox Trigger
 2143505505 - Creative Trigger
 2143505506 - WahaDesherTraditions - EffectContainer
-2143505507 - EnbesaPalace - WahaDesherTraditions Buff 1 - GuildhouseBuff
+2143505507 - ToolShedBaseBuff - GuildhouseBuff - GuildhouseBuff
 2143505508 - WahaDesherTraditionsBuff1InfoDescription - Text
-2143505509 - EnbesaPalace - WahaDesherTraditions Buff 2 - GuildhouseBuff
+2143505509 - ToolShedProductivityBuff- GuildhouseBuff
 2143505510 - WahaDesherTraditionsBuff2InfoDescription - Text
 2143505511 - WahaDesherTraditionsPolicyDescription - Text
 2143505512 - Selamawi Unlock Decree Trigger
@@ -42,6 +42,10 @@
 2143505532 - KidusiPiousDoctrineBuff1InfoDescription - Text
 2143505533 - KidusiPiousPolicyDescription - Text
 2143505534 - EnbesaPalace - KidusiDoctrine Buff InfoTip - TownhallBuff
+2143505535 - ToolShed - BuffFactoryModule
+2143505536 - ToolShedInfoDescription - Text
+2143505537 - WahaDesher Unlock Decree Trigger
+2143505538 - WahaDesher Relock Decree Trigger
 -->
 
 <ModOps>
@@ -282,6 +286,152 @@
   <Group>
     <ModOp GUID="25650" Type="addNextSibling">
       <Asset>
+        <Template>BuffFactory</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505535</GUID>
+            <Name>ToolShed</Name>
+            <!-- <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_horse.png</IconFilename> -->
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_tool_shed.png</IconFilename>
+            <InfoDescription>2143505536</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildingType>Factory</BuildingType>
+            <BuildingCategoryName>269960</BuildingCategoryName>
+            <SkipUnlockMessage>1</SkipUnlockMessage>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Blocking>
+            <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+          </Blocking>
+          <Mesh/>
+          <BuffFactory>
+            <ProductionBuffs>
+              <Item>
+                <ProductivityBuff>2143505509</ProductivityBuff>
+              </Item>
+            </ProductionBuffs>
+            <ProductionBuffScope>Radius</ProductionBuffScope>
+            <ProductionBuffDistance>15</ProductionBuffDistance>
+            <!-- <BaseBuff>2143505507</BaseBuff> -->
+            <BaseBuffScope>Radius</BaseBuffScope>
+            <BaseBuffDistance>15</BaseBuffDistance>
+          </BuffFactory>
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>114356</Product>
+                <Amount>1</Amount>
+                <StorageAmount>10</StorageAmount>
+              </Item>
+              <Item>
+                <Product>1010219</Product>
+                <Amount>1</Amount>
+                <StorageAmount>10</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <CycleTime>150</CycleTime>
+            <MissingConnectionInfolayer>270054</MissingConnectionInfolayer>
+          </FactoryBase>
+          <FeedbackController/>
+          <Pausable/>
+          <Selection>
+            <GUIType>Production</GUIType>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList/>
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <HasRuinState>1</HasRuinState>
+          </Attackable>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>1000</Amount>
+              </Item>
+              <Item>
+                <Product>114340</Product>
+                <Amount>50</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <AmbientMoodProvider/>
+          <LogisticNode/>
+          <Constructable/>
+          <IncidentInfectable/>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/dlc06/graphics/buildings/production/agriculture_tractor_modules/tractor_module_colony02_2x3_01.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>2143505535</DefaultSkinName>
+              <DefaultSkinDescription>23853</DefaultSkinDescription>
+              <!--ChangeBuildingSkin_toDefaultSkinDesc-->
+              <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+              <!--Classic-->
+            </Skins>
+          </Object>
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>270119</Sound>
+                <!--wwe_sfx_bld_agriculture_production_module_01_blp-->
+              </Item>
+            </ActiveSounds>
+            <DestroySounds>
+              <Item>
+                <Sound>9818756</Sound>
+                <!--wwe_sfx_aui_delete-->
+              </Item>
+            </DestroySounds>
+          </SoundEmitter>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <!--Money-->
+                <Amount>1000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114356</Ingredient>
+                <!--wanza timber-->
+                <Amount>20</Amount>
+              </Item>
+              <Item>
+                <Ingredient>114402</Ingredient>
+                <!--mud bricks-->
+                <Amount>15</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <!--beams-->
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <!--window-->
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <!--concrete-->
+              </Item>
+            </Costs>
+          </Cost>
+          <BuildingModule>
+            <ModuleType>AdditionalModule</ModuleType>
+          </BuildingModule>
+          <Infolayer/>
+          <UpgradeList/>          
+        </Values>
+      </Asset>
+      <Asset>
         <Template>EffectContainer</Template>
         <Values>
           <Standard>
@@ -294,9 +444,6 @@
               <Item>
                 <Effect>2143505507</Effect>
               </Item>
-              <Item>
-                <Effect>2143505509</Effect>
-              </Item>
             </Effects>
           </EffectContainer>
         </Values>
@@ -306,37 +453,39 @@
         <Values>
           <Standard>
             <GUID>2143505507</GUID>
-            <Name>EnbesaPalace - WahaDesherTraditions Buff 1</Name>
-            <IconFilename>data\ui\2kimages\main\profiles\storry_island_portrait_03.png</IconFilename>
+            <Name>EnbesaPalace - WahaDesherTraditions ToolShedBaseBuff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_tool_shed.png</IconFilename>
             <InfoDescription>2143505508</InfoDescription>
-          </Standard>
+          </Standard>    
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>114544</GUID>
+                <GUID>190011</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
-          <ItemAction/>
-          <ExpeditionAttribute/>
-          <CultureUpgrade/>
-          <BuildingUpgrade/>
-          <ModuleOwnerUpgrade/>
-          <IncidentInfluencerUpgrade/>
-          <IncidentInfectableUpgrade/>
-          <ResidenceUpgrade/>
-          <PopulationUpgrade/>
-          <IndustrializableUpgrade/>
+          <FactoryUpgrade/>
+          <BuildingUpgrade>
+            <MaintenanceUpgrade>
+              <Value>50</Value>
+              <Percental>1</Percental>
+            </MaintenanceUpgrade>
+            <WorkforceAmountUpgrade>
+              <Value>50</Value>
+              <Percental>1</Percental>
+            </WorkforceAmountUpgrade>
+          </BuildingUpgrade>
           <Buff/>
-          <CraftableItem/>
-          <HeaterUpgrade/>
+          <CultureUpgrade/>
+          <ModuleOwnerUpgrade/>
+          <IncidentInfectableUpgrade/>
           <PowerplantUpgrade/>
-          <IrrigationUpgrade>
-            <PipeCapacityUpgrade>
-              <Value>35</Value>
-            </PipeCapacityUpgrade>
-          </IrrigationUpgrade>
+          <IndustrializableUpgrade/>
+          <ItemContainerUpgrade/>
+          <IncidentInfluencerUpgrade/>
+          <IrrigationUpgrade/>
           <EcoSystemProviderUpgrade/>
+          <ResourceUpgrade/> 
         </Values>
       </Asset>
       <Asset>
@@ -344,58 +493,50 @@
         <Values>
           <Standard>
             <GUID>2143505509</GUID>
-            <Name>EnbesaPalace - WahaDesherTraditions Buff 2</Name>
-            <IconFilename>data\ui\2kimages\main\profiles\storry_island_portrait_03.png</IconFilename>
+            <Name>EnbesaPalace - WahaDesherTraditions ToolShedProductivityBuff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_pruning_material_2.png</IconFilename>
             <InfoDescription>2143505510</InfoDescription>
           </Standard>
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>114436</GUID>
+                <GUID>125109</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
-          <ItemAction/>
-          <FactoryUpgrade/>
-          <ExpeditionAttribute/>
-          <CultureUpgrade/>
+          <FactoryUpgrade>
+            <ProductivityUpgrade>
+              <Value>50</Value>
+              <Percental>1</Percental>
+            </ProductivityUpgrade>
+            <AdditionalOutput>
+              <Item>
+                <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                <AdditionalOutputCycle>5</AdditionalOutputCycle>
+                <Amount>1</Amount>
+              </Item>
+            </AdditionalOutput>
+          </FactoryUpgrade>
           <BuildingUpgrade/>
-          <ModuleOwnerUpgrade/>
-          <IncidentInfluencerUpgrade/>
-          <IncidentInfectableUpgrade/>
-          <ResidenceUpgrade>
-            <GoodConsumptionUpgrade>
-              <Item>
-                <ProvidedNeed>114359</ProvidedNeed>
-                <AmountInPercent>30</AmountInPercent>
-              </Item>
-              <Item>
-                <ProvidedNeed>114371</ProvidedNeed>
-                <AmountInPercent>30</AmountInPercent>
-              </Item>
-              <Item>
-                <ProvidedNeed>114401</ProvidedNeed>
-                <AmountInPercent>30</AmountInPercent>
-              </Item>
-            </GoodConsumptionUpgrade>
-          </ResidenceUpgrade>
-          <PopulationUpgrade/>
-          <IndustrializableUpgrade/>
           <Buff/>
-          <CraftableItem/>
-          <HeaterUpgrade/>
+          <CultureUpgrade/>
+          <ModuleOwnerUpgrade/>
+          <IncidentInfectableUpgrade/>
           <PowerplantUpgrade/>
+          <IndustrializableUpgrade/>
+          <ItemContainerUpgrade/>
+          <IncidentInfluencerUpgrade/>
           <IrrigationUpgrade/>
           <EcoSystemProviderUpgrade/>
+          <ResourceUpgrade/>
         </Values>
       </Asset>
-      
       <Asset>
         <Template>Text</Template>
         <Values>
           <Standard>
             <GUID>2143505508</GUID>
-            <Name>WahaDesherTraditionsBuff1InfoDescription</Name>
+            <Name>WahaDesherTraditionsBaseBuffInfoDescription</Name>
           </Standard>
         </Values>
       </Asset>
@@ -404,7 +545,7 @@
         <Values>
           <Standard>
             <GUID>2143505510</GUID>
-            <Name>WahaDesherTraditionsBuff2InfoDescription</Name>
+            <Name>WahaDesherTraditionsProductivityBuffInfoDescription</Name>
           </Standard>
         </Values>
       </Asset>
@@ -417,6 +558,204 @@
           </Standard>
         </Values>
       </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505536</GUID>
+            <Name>WahaDesherToolShedInfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505537</GUID>
+            <Name>WahaDesher Unlock Decree Trigger</Name>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Template>ConditionHaciendaDecreesActive</Template>
+              <Values>
+                <Condition />
+                <ConditionHaciendaDecreesActive>
+                  <ActiveDecrees>Tier1Decree</ActiveDecrees>
+                  <DecreesRangeOp>All</DecreesRangeOp>
+                </ConditionHaciendaDecreesActive>
+                <ObjectFilter>
+                  <ObjectGUID>2143505500</ObjectGUID>
+                  <CheckParticipantID>1</CheckParticipantID>
+                  <CheckProcessingParticipantID>1</CheckProcessingParticipantID>
+                  <ObjectSession>112132</ObjectSession>
+                </ObjectFilter>
+              </Values>
+              <Template>ConditionHaciendaDecreesActive</Template>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>2143505535</Asset>
+                        </Item>
+                      </UnlockAssets>
+                      <UnhideAssets />
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionRegisterTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionRegisterTrigger>
+                      <TriggerAsset>2143505538</TriggerAsset>
+                    </ActionRegisterTrigger>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+            <ResetTrigger>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <EmptyAutoCreateValue />
+              </Values>
+            </ResetTrigger>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505538</GUID>
+            <Name>WahaDesher Relock Decree Trigger</Name>
+          </Standard>
+          <Trigger>
+            <!-- <TriggerCondition>
+              <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+                <ConditionPlayerCounter>
+                  <Context>2143505500</Context>
+                  <ComparisonOp>Equals</ComparisonOp>
+                </ConditionPlayerCounter>
+              </Values>
+            </TriggerCondition> -->            
+            <TriggerCondition>
+              <Template>ConditionHaciendaDecreesActive</Template>
+              <Values>
+                <Condition />
+                <ConditionHaciendaDecreesActive>
+                  <ActiveDecrees>Tier1Decree</ActiveDecrees>
+                  <DecreesRangeOp>All</DecreesRangeOp>
+                </ConditionHaciendaDecreesActive>
+                <ConditionPropsNegatable>
+                  <NegateCondition>1</NegateCondition>
+                </ConditionPropsNegatable>
+                <ObjectFilter>
+                  <ObjectGUID>2143505500</ObjectGUID>
+                  <CheckParticipantID>1</CheckParticipantID>
+                  <CheckProcessingParticipantID>1</CheckProcessingParticipantID>
+                  <ObjectSession>112132</ObjectSession>
+                </ObjectFilter>
+              </Values>
+              <Template>ConditionHaciendaDecreesActive</Template>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionLockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionLockAsset>
+                      <LockAssets>
+                        <Item>
+                          <Asset>2143505535</Asset>
+                        </Item>
+                      </LockAssets>
+                    </ActionLockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnhideAsset>
+                        <Item>
+                          <Asset>2143505535</Asset>
+                        </Item>
+                      </UnhideAsset>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionRegisterTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionRegisterTrigger>
+                      <TriggerAsset>2143505537</TriggerAsset>
+                    </ActionRegisterTrigger>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Values>
+                    <Action />
+                    <ActionRegisterTrigger>
+                      <TriggerAsset>2143505525</TriggerAsset>
+                    </ActionRegisterTrigger>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+            <SubTriggers>
+              <Item>
+                <SubTrigger>
+                  <Template>AutoCreateTrigger</Template>
+                  <Values>
+                    <Trigger>
+                      <TriggerCondition>
+                        <Template>ConditionIsDLCActive</Template>
+                        <Values>
+                          <Condition />
+                          <ConditionIsDLCActive>
+                            <DLCAssetList>
+                              <Item>
+                                <DLCAsset>410071</DLCAsset>
+                              </Item>
+                            </DLCAssetList>
+                          </ConditionIsDLCActive>
+                          <ConditionPropsNegatable />
+                        </Values>
+                      </TriggerCondition>
+                    </Trigger>
+                  </Values>
+                </SubTrigger>
+              </Item>
+            </SubTriggers>
+          </Trigger>
+          <TriggerSetup/>
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp GUID="114553" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='122963']">
+      <Item>
+        <Building>2143505535</Building>
+      </Item>
     </ModOp>
   </Group> 
 
@@ -454,6 +793,9 @@
                   <Action />
                   <ActionUnlockAsset>
                     <UnhideAssets>
+                      <Item>
+                        <Asset>2143505535</Asset>
+                      </Item>
                       <Item>
                         <Asset>2143505513</Asset>
                       </Item>
@@ -515,6 +857,9 @@
                   <Action />
                   <ActionUnlockAsset>
                     <UnhideAssets>
+                      <Item>
+                        <Asset>2143505535</Asset>
+                      </Item>
                       <Item>
                         <Asset>2143505513</Asset>
                       </Item>
@@ -587,6 +932,9 @@
                       </Item>
                       <Item>
                         <Asset>2143505527</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505535</Asset>
                       </Item>
                     </UnlockAssets>
                     <UnhideAssets />

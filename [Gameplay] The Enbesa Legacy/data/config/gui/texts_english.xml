@@ -17,32 +17,28 @@
       <Text>Enbesa Palace Modules</Text>
     </Text>
     <Text>
-      <GUID>2143505505</GUID>
-      <Text>Waha Desher's Traditions</Text>
-    </Text>
-    <Text>
       <GUID>2143505506</GUID>
-      <Text>Waha Desher's Traditions</Text>
+      <Text>Waha Desher's Traditionnal Farming</Text>
     </Text>
     <Text>
       <GUID>2143505507</GUID>
-      <Text>Waha Desher's Traditions</Text>
+      <Text>Traditionnal Farmers</Text>
     </Text>
     <Text>
       <GUID>2143505508</GUID>
-      <Text>Since the oasis was renewed in Waha Desher, these inhabitants have learned a few useful principles about irrigation.</Text>
+      <Text>In hard times, the residents of Waha Desher didn't have the goods they needed.</Text>
     </Text>
     <Text>
       <GUID>2143505509</GUID>
-      <Text>Waha Desher's Traditions</Text>
+      <Text>Tools</Text>
     </Text>
     <Text>
       <GUID>2143505510</GUID>
-      <Text>In hard times, the residents of Waha Desher didn't have the goods they needed. Now they are stocking up, just in case.</Text>
+      <Text>With these tools, these inhabitants have learned a few useful principles about farming.</Text>
     </Text>
     <Text>
       <GUID>2143505511</GUID>
-      <Text>Augment Water Pump irrigation capacity and residences goods consumption</Text>
+      <Text>Enables Tool Sheds to be built close to farms, increasing their efficiency</Text>
     </Text>
     <Text>
       <GUID>2143505514</GUID>
@@ -87,6 +83,18 @@
     <Text>
       <GUID>2143505533</GUID>
       <Text>Allows Kidusian Temples, an ugrade for your Monasteries, to be build, and will improve your Elder's residences</Text>
+    </Text>
+    <Text>
+      <GUID>2143505534</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505535</GUID>
+      <Text>Tool shed</Text>
+    </Text>
+    <Text>
+      <GUID>2143505536</GUID>
+      <Text>Increases the efficiency of farms when built nearby.</Text>
     </Text>
   </ModOp>
 </ModOps>
