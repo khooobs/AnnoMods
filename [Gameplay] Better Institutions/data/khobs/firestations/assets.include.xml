@@ -1251,9 +1251,7 @@
           <Object>
             <Variations>
               <Item>
-                <!-- <Filename>data/graphics/buildings/public/institution_02/institution_02.cfg</Filename> -->
-                <!-- <Filename>data/dlc06/graphics/buildings/production/production_colony02_32/production_colony02_32.cfg</Filename> -->
-                <Filename>data/modgraphics/buildings/public/firestation_industrial/firestation_industrial.cfg</Filename>
+                <Filename>data/modgraphics/buildings/public/institution_02_industrial/institution_02_industrial9.cfg</Filename>
               </Item>
             </Variations>
           </Object>
@@ -1291,7 +1289,7 @@
           <FeedbackController />
           <Infolayer />
           <UpgradeList />
-          <BuffFactory>
+          <!-- <BuffFactory>
             <ProductionBuffs>
                 <Item>
                     <ProductivityBuff>2143505328</ProductivityBuff>
@@ -1299,8 +1297,8 @@
             </ProductionBuffs>
             <ProductionBuffScope>Radius</ProductionBuffScope>
             <ProductionBuffDistance>20</ProductionBuffDistance>
-          </BuffFactory>
-          <FactoryBase>
+          </BuffFactory> -->
+          <!-- <FactoryBase>
             <FactoryInputs>
                 <Item>
                     <Product>1010225</Product>
@@ -1310,18 +1308,18 @@
             </FactoryInputs>
             <CycleTime>120</CycleTime>
             <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
-          </FactoryBase>
+          </FactoryBase> -->
           <LogisticNode>
-            <TransporterCountMax>1</TransporterCountMax>
+            <TransporterCountMax>0</TransporterCountMax>
           </LogisticNode>
           <IncidentResolver>
-            <ResolverUnit>7266</ResolverUnit>
-            <ResolverUnitCount>3</ResolverUnitCount>
-            <!-- <SpecialUnit>19756</SpecialUnit> -->
+            <ResolverUnit>100579</ResolverUnit>
+            <ResolverUnitCount>2</ResolverUnitCount>
+            <SpecialUnit>100579</SpecialUnit>
             <SpecialUnitThresholds>
               <Item>
-                <UnitAmount>0</UnitAmount>
-                <HappinessThreshold>0</HappinessThreshold>
+                <UnitAmount>1</UnitAmount>
+                <HappinessThreshold>5</HappinessThreshold>
               </Item>
             </SpecialUnitThresholds>
             <ResolvableIncidents>Fire</ResolvableIncidents>
@@ -1334,12 +1332,8 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>25000</Amount>
-                <InactiveAmount>25</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010115</Product>
-                <Amount>200</Amount>
+                <Amount>2500</Amount>
+                <InactiveAmount>1250</InactiveAmount>
               </Item>
             </Maintenances>
           </Maintenance>

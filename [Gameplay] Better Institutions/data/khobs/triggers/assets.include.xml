@@ -118,18 +118,6 @@
                       <Item>
                         <Asset>2143505370</Asset>
                       </Item>
-                      <Item>
-                        <Asset>2143505334</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505341</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505342</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505382</Asset>
-                      </Item>
                     </UnhideAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -180,15 +168,6 @@
                       <Item>
                         <Asset>2143505370</Asset>
                       </Item>
-                      <Item>
-                        <Asset>2143505334</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505341</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505342</Asset>
-                      </Item>
                     </UnlockAssets>
                     <UnhideAssets />
                   </ActionUnlockAsset>
@@ -237,17 +216,11 @@
                       <Item>
                         <Asset>2143505318</Asset>
                       </Item>
-                      <Item>
-                        <Asset>2143505343</Asset>
-                      </Item>
                     </UnlockAssets>
                     <UnhideAssets>
                       <Item>
                         <Asset>2143505425</Asset>
                       </Item> 
-                      <Item>
-                        <Asset>2143505432</Asset>
-                      </Item>  
                     </UnhideAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -291,61 +264,11 @@
                 <Values>
                   <Action />
                   <ActionUnlockAsset>
-                    <UnhideAssets>
-                      <Item>
-                        <Asset>2143505357</Asset>
-                      </Item>
-                    </UnhideAssets>
                     <UnlockAssets>
                       <Item>
                         <Asset>2143505425</Asset>
                       </Item>
-                      <Item>
-                        <Asset>2143505432</Asset>
-                      </Item>
                     </UnlockAssets>
-                  </ActionUnlockAsset>
-                </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
-    <!-- Unlock at 900 Artisans -->
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505406</GUID>
-          <Name>Trigger</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionPlayerCounter</Template>
-            <Values>
-              <Condition />
-              <ConditionPlayerCounter>
-                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                <Context>15000002</Context>
-                <CounterAmount>900</CounterAmount>
-              </ConditionPlayerCounter>
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
-                <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>2143505357</Asset>
-                      </Item>
-                    </UnlockAssets>
-                    <UnhideAssets />
                   </ActionUnlockAsset>
                 </Values>
               </TriggerAction>
@@ -385,12 +308,6 @@
                     <UnhideAssets>
                       <Item>
                         <Asset>2143505319</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505358</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505344</Asset>
                       </Item>
                     </UnhideAssets>
                     <UnlockAssets />
@@ -434,12 +351,6 @@
                       <Item>
                         <Asset>2143505319</Asset>
                       </Item>
-                      <Item>
-                        <Asset>2143505358</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505344</Asset>
-                      </Item>
                     </UnlockAssets>
                     <UnhideAssets />
                   </ActionUnlockAsset>
@@ -478,17 +389,6 @@
                 <Values>
                   <Action />
                   <ActionUnlockAsset>
-                    <UnhideAssets>
-                      <Item>
-                        <Asset>2143505320</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505321</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505323</Asset>
-                      </Item>
-                    </UnhideAssets>
                     <UnlockAssets>
                       <Item>
                         <Asset>2143505320</Asset>
@@ -553,25 +453,7 @@
                         <Asset>2143505323</Asset>
                       </Item>
                       <Item>
-                        <Asset>2143505334</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505341</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505342</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505343</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505344</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505357</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505358</Asset>
+                        <Asset>2143505321</Asset>
                       </Item>
                     </UnlockAssets>
                     <UnhideAssets />

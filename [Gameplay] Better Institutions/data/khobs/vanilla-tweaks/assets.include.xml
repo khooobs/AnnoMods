@@ -53,52 +53,5 @@
                 </Upgradable>
             </ModOp>
         </Group>
-
-        <!-- Hospitals related -->
-        <Group>
-            <!-- Edit Vanilla Hospital to add product. With the Faculty, alternative product will be used. -->
-            <ModOp GUID="1010464" Type="merge" Path="/Values/">
-                <Building>
-                <BuildingType>Factory</BuildingType>
-                </Building>
-                <BuffFactory>
-                    <ProductionBuffs>
-                        <Item>
-                            <ProductivityBuff>2143505380</ProductivityBuff>
-                        </Item>
-                    </ProductionBuffs>
-                    <ProductionBuffScope>Local</ProductionBuffScope>
-                </BuffFactory>
-                <FactoryBase>
-                <FactoryInputs>
-                    <Item>
-                        <Product>1010240</Product>
-                        <StorageAmount>3</StorageAmount>
-                        <Amount>1</Amount>
-                    </Item>
-                </FactoryInputs>
-                <CycleTime>240</CycleTime>
-                <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
-                </FactoryBase>
-                <LogisticNode>
-                <TransporterCountMax>1</TransporterCountMax>
-                </LogisticNode>
-                <Pausable>
-                    <CanPauseManually>1</CanPauseManually>
-                </Pausable>
-            </ModOp>
-
-            <!-- Remove additionnal unit -->
-            <ModOp GUID="190410,190723,193669" Type="remove" Path="/Values/BuildingUpgrade/ResolverUnitCountUpgrade/" />
-            
-            <!-- Remove illness risk -->
-            <ModOp GUID="193656,190724,190679,190193" Type="remove" Path="/Values/IncidentInfectableUpgrade/" />
-
-            <!-- Add University Product ResearchValue base for Engineer Population -->
-            <ModOp GUID="15000003" Type="add" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010353']/">
-                <ResearchValue>0</ResearchValue>
-              </ModOp>
-        </Group>
-        <!-- End Hospitals related -->
     </Group>
 </ModOps>
