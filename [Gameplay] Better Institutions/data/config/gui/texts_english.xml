@@ -13,7 +13,7 @@
       <Text>Fire Institutions</Text>
     </Text>
     <Text>
-      <GUID>2143505316</GUID>
+      <GUID>2143505304</GUID>
       <Text>Volunteer Fire Station</Text>
     </Text>
     <Text>
@@ -21,11 +21,11 @@
       <Text>Farm Fire Station</Text>
     </Text>
     <Text>
-      <GUID>2143505318</GUID>
+      <GUID>2143505305</GUID>
       <Text>Metropolitan Fire Department</Text>
     </Text>
     <Text>
-      <GUID>2143505319</GUID>
+      <GUID>2143505306</GUID>
       <Text>City Fire Station</Text>
     </Text>
     <Text>
@@ -41,8 +41,16 @@
       <Text>Old Town Fire Station</Text>
     </Text>
     <Text>
-      <GUID>2143505323</GUID>
+      <GUID>2143505307</GUID>
       <Text>Main Fire Department</Text>
+    </Text>
+    <Text>
+      <GUID>2143505319</GUID>
+      <Text>Mines safety first!</Text>
+    </Text>
+    <Text>
+      <GUID>2143505323</GUID>
+      <Text>Built close to the mines and properly equipped, this mine rescue post makes the mine gallery completely safe, preventing any explosions.</Text>
     </Text>
     <Text>
       <GUID>2143505324</GUID>
@@ -106,7 +114,7 @@
     </Text>
     <Text>
       <GUID>2143505373</GUID>
-      <Text>These rescuers ensure that everything is in order in the galleries, and that the ventilation systems continue to operate.</Text>
+      <Text>These rescuers ensure that everything is in order in the galleries, and that the reinforced beams prevent the mine from collapsing.</Text>
     </Text>
     <Text>
       <GUID>2143505374</GUID>

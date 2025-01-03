@@ -6,10 +6,10 @@
         <Template>CityInstitutionBuilding</Template>
         <Values>
           <Standard>
-            <GUID>2143505316</GUID>
+            <GUID>2143505304</GUID>
             <Name>Small Fire Department</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_fire_brigade.png</IconFilename>
-            <InfoDescription>2143505309</InfoDescription>
+            <InfoDescription>118032</InfoDescription>
           </Standard>
           <Building>
             <BuildModeRandomRotation>180</BuildModeRandomRotation>
@@ -81,13 +81,14 @@
           <Infolayer />
           <UpgradeList />
           <IncidentResolver>
-            <ResolverUnit>2143505332</ResolverUnit>
-            <ResolverUnitCount>0</ResolverUnitCount>
+            <ResolverUnit>100580</ResolverUnit>
+            <ResolverUnitCount>1</ResolverUnitCount>
             <SpecialUnit>100580</SpecialUnit>
             <SpecialUnitThresholds>
               <Item>
                 <UnitAmount>1</UnitAmount>
-                <HappinessThreshold>0</HappinessThreshold>
+                <HappinessThreshold>10</HappinessThreshold>
+					      <PopulationCount>100</PopulationCount>
               </Item>
             </SpecialUnitThresholds>
             <ResolvableIncidents>Fire</ResolvableIncidents>
@@ -120,11 +121,11 @@
             <Influence>
               <Fire>
                 <Influence>-7</Influence>
-                <Distance>15</Distance>
+                <Distance>20</Distance>
               </Fire>
               <Explosion>
                 <Influence>-7</Influence>
-                <Distance>9</Distance>
+                <Distance>12</Distance>
               </Explosion>
             </Influence>
           </IncidentInfluencer>
@@ -154,10 +155,10 @@
         <Template>CityInstitutionBuilding</Template>
         <Values>
           <Standard>
-            <GUID>2143505318</GUID>
+            <GUID>2143505305</GUID>
             <Name>Metropolitan Fire Department</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_fire_brigade_2.png</IconFilename>
-            <InfoDescription>2143505309</InfoDescription>
+            <InfoDescription>118032</InfoDescription>
           </Standard>
           <Building>
             <BuildingType>Factory</BuildingType>
@@ -198,7 +199,7 @@
               </Item>
             </Variations>
             <Skins>
-              <DefaultSkinName>2143505318</DefaultSkinName>
+              <DefaultSkinName>2143505305</DefaultSkinName>
               <DefaultSkinDescription>23853</DefaultSkinDescription>
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
               <OverrideDefaultIcon>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_firestation_default.png</OverrideDefaultIcon>
@@ -249,8 +250,9 @@
             <SpecialUnit>100579</SpecialUnit>
             <SpecialUnitThresholds>
               <Item>
-                <UnitAmount>2</UnitAmount>
-                <HappinessThreshold>6</HappinessThreshold>
+                <UnitAmount>1</UnitAmount>
+                <HappinessThreshold>30</HappinessThreshold>
+					      <PopulationCount>1250</PopulationCount>
               </Item>
             </SpecialUnitThresholds>
             <ResolvableIncidents>Fire</ResolvableIncidents>
@@ -280,11 +282,11 @@
             <Influence>
               <Fire>
                 <Influence>-7</Influence>
-                <Distance>15</Distance>
+                <Distance>23</Distance>
               </Fire>
               <Explosion>
                 <Influence>-7</Influence>
-                <Distance>9</Distance>
+                <Distance>15</Distance>
               </Explosion>
             </Influence>
           </IncidentInfluencer>
@@ -295,7 +297,7 @@
           <Culture />
           <QuestObject />
           <Upgradable>
-              <NextGUID>2143505319</NextGUID>
+              <NextGUID>2143505306</NextGUID>
               <UpgradeCost>
                 <Item>
                   <Ingredient>1010017</Ingredient>
@@ -326,10 +328,10 @@
         <Template>CityInstitutionBuildingAdvanced</Template>
         <Values>
           <Standard>
-            <GUID>2143505319</GUID>
+            <GUID>2143505306</GUID>
             <Name>City Fire Department</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_fire_brigade_intermediate.png</IconFilename>
-            <InfoDescription>2143505309</InfoDescription>
+            <InfoDescription>118032</InfoDescription>
           </Standard>
           <Building>
             <BuildingType>Factory</BuildingType>
@@ -407,13 +409,19 @@
           <UpgradeList />
           <IncidentResolver>
             <ResolverUnit>7266</ResolverUnit>
-            <ResolverUnitCount>3</ResolverUnitCount>
+            <ResolverUnitCount>2</ResolverUnitCount>
             <SpecialUnit>100579</SpecialUnit>
 			      <SpecialActionCooldown>60000</SpecialActionCooldown>
             <SpecialUnitThresholds>
               <Item>
+                <UnitAmount>1</UnitAmount>
+                <HappinessThreshold>30</HappinessThreshold>
+                <PopulationCount>1000</PopulationCount>
+              </Item>
+              <Item>
                 <UnitAmount>2</UnitAmount>
-                <HappinessThreshold>3</HappinessThreshold>
+                <HappinessThreshold>50</HappinessThreshold>
+                <PopulationCount>2000</PopulationCount>
               </Item>
             </SpecialUnitThresholds>
             <ResolvableIncidents>Fire</ResolvableIncidents>
@@ -444,11 +452,11 @@
             <Influence>
               <Fire>
                 <Influence>-7</Influence>
-                <Distance>15</Distance>
+                <Distance>27</Distance>
               </Fire>
               <Explosion>
                 <Influence>-7</Influence>
-                <Distance>9</Distance>
+                <Distance>18</Distance>
               </Explosion>
             </Influence>
           </IncidentInfluencer>
@@ -459,7 +467,7 @@
           <Culture/>
           <QuestObject />
           <Upgradable>
-              <NextGUID>2143505323</NextGUID>
+              <NextGUID>2143505307</NextGUID>
               <UpgradeCost>
                 <Item>
                   <Ingredient>1010017</Ingredient>
@@ -517,10 +525,10 @@
         <Template>CityInstitutionBuildingAdvanced</Template>
         <Values>
           <Standard>
-            <GUID>2143505323</GUID>
+            <GUID>2143505307</GUID>
             <Name>Main Fire Department</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_fire_brigade_advanced.png</IconFilename>
-            <InfoDescription>2143505309</InfoDescription>
+            <InfoDescription>118032</InfoDescription>
           </Standard>
           <Building>
             <BuildingType>Factory</BuildingType>
@@ -604,8 +612,19 @@
 			      <SpecialActionCooldown>60000</SpecialActionCooldown>
             <SpecialUnitThresholds>
               <Item>
+                <UnitAmount>1</UnitAmount>
+                <HappinessThreshold>10</HappinessThreshold>
+                <PopulationCount>1250</PopulationCount>
+              </Item>
+              <Item>
                 <UnitAmount>2</UnitAmount>
-                <HappinessThreshold>3</HappinessThreshold>
+                <HappinessThreshold>30</HappinessThreshold>
+                <PopulationCount>2500</PopulationCount>
+              </Item>
+              <Item>
+                <UnitAmount>3</UnitAmount>
+                <HappinessThreshold>50</HappinessThreshold>
+                <PopulationCount>5000</PopulationCount>
               </Item>
             </SpecialUnitThresholds>
             <ResolvableIncidents>Fire</ResolvableIncidents>
@@ -636,11 +655,11 @@
             <Influence>
               <Fire>
                 <Influence>-7</Influence>
-                <Distance>15</Distance>
+                <Distance>30</Distance>
               </Fire>
               <Explosion>
                 <Influence>-7</Influence>
-                <Distance>9</Distance>
+                <Distance>21</Distance>
               </Explosion>
             </Influence>
           </IncidentInfluencer>
@@ -960,35 +979,47 @@
           <Infolayer />
           <UpgradeList />
           <BuffFactory>
-            <ProductionBuffs>
+            <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
+            <PublicServiceData>
+              <PublicServices>
+                <Item>
+                  <PublicService>2143505319</PublicService>
+                </Item>
+              </PublicServices>
+              <FullSatisfactionDistance>15</FullSatisfactionDistance>
+            </PublicServiceData>
+            <!-- <ProductionBuffs>
                 <Item>
                     <ProductivityBuff>2143505372</ProductivityBuff>
                 </Item>
             </ProductionBuffs>
             <ProductionBuffScope>Radius</ProductionBuffScope>
-            <ProductionBuffDistance>20</ProductionBuffDistance>
+            <ProductionBuffDistance>10</ProductionBuffDistance>
+			      <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed> -->
           </BuffFactory>
           <FactoryBase>
             <FactoryInputs>
                 <Item>
-                    <Product>2143505330</Product>
-                    <StorageAmount>1</StorageAmount>
+                    <Product>1010218</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
                 </Item>
             </FactoryInputs>
             <CycleTime>120</CycleTime>
             <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
           </FactoryBase>
           <LogisticNode>
-            <TransporterCountMax>0</TransporterCountMax>
+            <TransporterCountMax>1</TransporterCountMax>
           </LogisticNode>
           <IncidentResolver>
-            <ResolverUnit>100579</ResolverUnit>
-            <ResolverUnitCount>2</ResolverUnitCount>
+            <ResolverUnit>100580</ResolverUnit>
+            <ResolverUnitCount>1</ResolverUnitCount>
             <SpecialUnit>100580</SpecialUnit>
             <SpecialUnitThresholds>
               <Item>
                 <UnitAmount>1</UnitAmount>
-                <HappinessThreshold>0</HappinessThreshold>
+                <HappinessThreshold>10</HappinessThreshold>
+                <PopulationCount>150</PopulationCount>
               </Item>
             </SpecialUnitThresholds>
             <ResolvableIncidents>Fire</ResolvableIncidents>
@@ -1001,13 +1032,8 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>450</Amount>
-                <InactiveAmount>225</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010115</Product>
-                <Amount>25</Amount>
-                <InactiveAmount>10</InactiveAmount>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -1022,12 +1048,12 @@
           <IncidentInfluencer>
             <Influence>
               <Fire>
-                <Influence>-7</Influence>
+                <Influence>-10</Influence>
                 <Distance>15</Distance>
               </Fire>
               <Explosion>
-                <Influence>-7</Influence>
-                <Distance>9</Distance>
+                <Influence>-10</Influence>
+                <Distance>12</Distance>
               </Explosion>
             </Influence>
           </IncidentInfluencer>
@@ -1036,7 +1062,6 @@
             <AmbientMood>ResidenceTier1</AmbientMood>
           </AmbientMoodProvider>
           <Culture />
-          <QuestObject />
           <Upgradable />
         </Values>
       </Asset>
@@ -1406,20 +1431,20 @@
             <ConstructionCategory>
               <BuildingList>
                 <Item>
-                  <Building>2143505316</Building>
+                  <Building>2143505304</Building>
                 </Item>
-                <Item>
+                <!-- <Item>
                   <Building>1010463</Building>
                 </Item>
                 <Item>
-                  <Building>2143505318</Building>
+                  <Building>2143505305</Building>
                 </Item>
                 <Item>
-                  <Building>2143505319</Building>
+                  <Building>2143505306</Building>
                 </Item>
                 <Item>
-                  <Building>2143505323</Building>
-                </Item>
+                  <Building>2143505307</Building>
+                </Item> -->
                 <Item>
                   <Building>2143505317</Building>
                 </Item>
@@ -1435,9 +1460,9 @@
                 <Item>
                   <Building>2143505320</Building>
                 </Item>
-                <Item>
+                <!-- <Item>
                   <Building>6354</Building>
-                </Item>
+                </Item> -->
               </BuildingList>
               <CategoryDescription>2143505301</CategoryDescription>
             </ConstructionCategory>
@@ -1594,7 +1619,7 @@
                 </ItemEffect>
                 <FactoryUpgrade>
                     <ProductivityUpgrade>
-                        <Value>25</Value>
+                        <Value>-25</Value>
                         <Percental>1</Percental>
                     </ProductivityUpgrade>
                 </FactoryUpgrade>
@@ -1616,7 +1641,7 @@
                         <Value>-2</Value>
                     </IncidentFireIncreaseUpgrade>
                     <IncidentExplosionIncreaseUpgrade>
-                        <Value>-5</Value>
+                        <Value>-10</Value>
                     </IncidentExplosionIncreaseUpgrade>
                 </IncidentInfectableUpgrade>
                 <PowerplantUpgrade/>
@@ -1679,15 +1704,6 @@
 
     <!-- Texts -->
     <ModOp GUID="118032" Type="addNextSibling">
-      <Asset>
-        <Template>Text</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505306</GUID>
-            <Name>Fire Emergency Basic InfoDescription</Name>
-          </Standard>
-        </Values>
-      </Asset>
       <Asset>
         <Template>Text</Template>
         <Values>
@@ -1850,19 +1866,31 @@
             <InfoDescription>14173</InfoDescription>
             <!--DLC12AdvancedInstitutionEffectDescription-->
           </Standard>
-          <Text>
-            <LocaText>
-              <English>
-                <Text>Automated Fire Protection</Text>
-                <Status>Exported</Status>
-              </English>
-            </LocaText>
-            <LineID>60210</LineID>
-          </Text>
           <Locked>
             <DLCDependency>24963</DLCDependency>
             <!--Anno 1800 DLC - New World Rising-->
           </Locked>
+          <Product/>
+          <ExpeditionAttribute/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505319</GUID>
+            <Name>Dummy Mine Rescue</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_fire_brigade_intermediate.png</IconFilename>
+            <InfoDescription>2143505323</InfoDescription>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Built close to the mines and properly equipped, this mine rescue post makes the mine gallery completely safe, preventing any explosions.</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+          </Text>
           <Product/>
           <ExpeditionAttribute/>
         </Values>

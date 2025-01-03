@@ -17,8 +17,14 @@
                     <SpecialUnit>100580</SpecialUnit>
                     <SpecialUnitThresholds>
                         <Item>
-                            <UnitAmount>2</UnitAmount>
-                            <HappinessThreshold>0</HappinessThreshold>
+                          <UnitAmount>1</UnitAmount>
+                          <HappinessThreshold>10</HappinessThreshold>
+					      <PopulationCount>200</PopulationCount>
+                        </Item>
+                        <Item>
+                          <UnitAmount>2</UnitAmount>
+                          <HappinessThreshold>10</HappinessThreshold>
+					      <PopulationCount>500</PopulationCount>
                         </Item>
                     </SpecialUnitThresholds>
                     <ResolvableIncidents>Fire</ResolvableIncidents>
@@ -28,9 +34,42 @@
                     <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
                 </IncidentResolver>
             </ModOp>
+            <ModOp GUID="1010463" Type="replace" Path="/Values/Maintenance/Maintenances/">
+				<Item>
+					<Product>1010017</Product>
+					<Amount>25</Amount>
+					<InactiveAmount>25</InactiveAmount>
+				</Item>
+            </ModOp>
+            <ModOp GUID="190775,368" Type="add" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+                <Item>
+                  <GUID>2143505304</GUID>
+                </Item>
+                <Item>
+                  <GUID>2143505305</GUID>
+                </Item>
+                <Item>
+                  <GUID>2143505306</GUID>
+                </Item>
+                <Item>
+                  <GUID>2143505307</GUID>
+                </Item>
+                <Item>
+                  <GUID>2143505317</GUID>
+                </Item>
+                <Item>
+                  <GUID>2143505370</GUID>
+                </Item>
+                <Item>
+                  <GUID>2143505425</GUID>
+                </Item>
+                <Item>
+                  <GUID>2143505320</GUID>
+                </Item>
+            </ModOp>
             <ModOp GUID="1010463" Type="replace" Path="/Values/Upgradable">
                 <Upgradable>
-                    <NextGUID>2143505318</NextGUID>
+                    <NextGUID>2143505305</NextGUID>
                     <UpgradeCost>
                         <Item>
                             <Ingredient>1010017</Ingredient>
