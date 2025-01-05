@@ -29,10 +29,9 @@ BUILDING
 2143505327 - Park Rangers Effect InfoDescription - Text 
 2143505329 - Industrial Fire Station Effect InfoDescription - Text
 2143505370 - Rescue Station - Mine - Building
-2143505371 - Mine Emergency Station InfoDescription - Text
-2143505373 - Mine Emergency Station Effect InfoDescription - Text
-2143505377 - Farm Emergency Station InfoDescription - Text
-2143505379 - Farm Emergency Station Effect InfoDescription - Text
+2143505371 - Rescue Station - Mine - Description - Text
+2143505374 - Rescue Station - Mine - Skin
+2143505377 - Rescue Station - Farm - Description - Text
 
 PRODUCTS
 *********
@@ -41,9 +40,11 @@ PRODUCTS
 
 BUFFS
 ***********
-2143505324 - Park Ranger Effect - GuildhouseBuff
-2143505372 - Mine Emergency Station - GuildhouseBuff
-2143505378 - Farm Emergency Station - GuildhouseBuff
+2143505324 - Park Ranger Effect - Buff
+2143505372 - Rescue Station - Mine - Buff
+2143505373 - Rescue Station - Mine - Buff - Description - Text
+2143505378 - Rescue Station - Farm - Buff
+2143505379 - Rescue Station - Farm - Buff - Description - Text
 
 UNITS
 *******************

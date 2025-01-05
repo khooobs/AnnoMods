@@ -971,14 +971,14 @@
               </PublicServices>
               <FullSatisfactionDistance>15</FullSatisfactionDistance>
             </PublicServiceData>
-            <!-- <ProductionBuffs>
+            <ProductionBuffs>
                 <Item>
                     <ProductivityBuff>2143505372</ProductivityBuff>
                 </Item>
             </ProductionBuffs>
             <ProductionBuffScope>Radius</ProductionBuffScope>
             <ProductionBuffDistance>10</ProductionBuffDistance>
-			      <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed> -->
+			      <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
           </BuffFactory>
           <FactoryBase>
             <FactoryInputs>
@@ -1886,19 +1886,65 @@
           <Values>
               <Standard>
               <GUID>2143505332</GUID>
-              <Name>Fire Volunteer</Name>
+              <Name>Mine Safety Volunteer</Name>
               <IconFilename>data/ui/2kimages/main/icons/icon_fire_brigade_2d.png</IconFilename>
               </Standard>
               <IncidentResolverUnit>
               <ResolverOperatingDistance>37000</ResolverOperatingDistance>
               <ResolverMovementSpeed>0.9</ResolverMovementSpeed>
               <IntensityDecreaseRate>0.16</IntensityDecreaseRate>
-              <FeedbackUnitClass>140714</FeedbackUnitClass>
+              <FeedbackUnitClass>2143505337</FeedbackUnitClass>
               </IncidentResolverUnit>
+          </Values>
+      </Asset>
+      <Asset>
+          <Template>FeedbackUnitClass</Template>
+          <Values>
+              <Standard>
+                <GUID>2143505337</GUID>
+                <Name>Mine Safety Volunteer</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
+              </Standard>
+              <TrafficFeedbackClass>
+                <UnitAssets>
+                  <Item>
+                    <UnitAsset>2143505338</UnitAsset>
+                  </Item>
+                </UnitAssets>
+                <AllowedReactions />
+              </TrafficFeedbackClass>
               <Text>
-                <TextOverride>100580</TextOverride>
+                <TextOverride>2143505332</TextOverride>
               </Text>
           </Values>
+      </Asset>
+      <Asset>
+        <Template>TrafficFeedbackUnit</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505338</GUID>
+            <Name>Mine Safety Volunteer</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
+          </Standard>
+          <TrafficFeedbackUnit>
+            <UnitType>Vehicle</UnitType>
+            <CfgPath>data/muggenstuermer/vehicle/motorized_firefighter/motorized_firefighter_vehicle.cfg</CfgPath>
+            <SpeedSource>Managed</SpeedSource>
+            <OverwriteSpeed>0.5</OverwriteSpeed>
+            <ResidentCamInteraction>MountAsCoach</ResidentCamInteraction>
+          </TrafficFeedbackUnit>
+          <Trailer>
+            <TrailerCount>1</TrailerCount>
+            <TrailerEndPartCfgVariations>
+              <Item>
+                <CfgVariation>data/graphics/vehicle/horse_drawn_carriage_fire_service/horse_drawn_carriage_fire_service_rear.cfg</CfgVariation>
+              </Item>
+            </TrailerEndPartCfgVariations>
+          </Trailer>
+          <Text>
+            <TextOverride>2143505332</TextOverride>
+          </Text>
+        </Values>
       </Asset>
       <Asset>
           <Template>IncidentResolverUnit</Template>
