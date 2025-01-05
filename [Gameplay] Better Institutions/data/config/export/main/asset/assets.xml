@@ -1,57 +1,51 @@
 <!-- 
-*********************
 Start from 2143505301
 End at 2143505XXX
 Max at 2143505499
-*********************  
 
+BUILDING
 ***************
-BUILDING REGION
-***************
-2143505304 - Volunteer Fire Department - CityInstitutionBuilding
-2143505317 - Farm Fire Department - CityInstitutionBuilding
-2143505305 - City Fire Department - CityInstitutionBuilding
-2143505306 - Main Fire Department - CityInstitutionBuilding
-2143505320 - Park Rangers - CityInstitutionBuilding
-2143505321 - Industrial Fire Station - CityInstitutionBuilding
-2143505370 - Mine Emergency Station - CityInstitutionBuilding
-2143505307 - Advanced Firestation - CityInstitutionBuilding
-***********
-TEXT REGION
-***********
 2143505301 - Public/Emergency BuildingCategoryName - Text
-2143505302 - Mod SkinCategoryDescription - Text
-2143505306 - Fire Emergency Basic InfoDescription - Text
-2143505309 - Fire Public/Emergency Basic InfoDescription  - Text
-2143505312 - Fire Public/Emergency Special Parks InfoDescription - Text
-2143505313 - Fire Public/Emergency Special Industry InfoDescription - Text
+2143505302 - Mod SkinCategory - Description
+2143505303 - Moderate Fire Construction Menu - ConstructionCategory
+2143505304 - Fire Department - Small - Building
+2143505305 - Fire Department - Medium - Building
+2143505306 - Fire Department - Large - Building
+2143505307 - Fire Department - Advanced - Building
+2143505308 - Sheriff Office - Small - Building
+2143505309 - Fire - Public/Emergency Basic - InfoDescription - Text
+2143505310 - Black Roof Sheriff Office - Skin
+2143505311 - Black Roof Sheriff Office - Skin - Name
+2143505312 - Rescue Station - Park Rangers - InfoDescription - Text
+2143505313 - Rescue Station - Industrial - InfoDescription - Text
+2143505314 - Black Roof Sheriff Office - Skin - Description
+2143505315 - Brick Sheriff Office - Skin
+2143505316 - Brick Sheriff Office - Skin - Name
+2143505317 - Rescue Station - Farms - Building
+2143505318 - Brick Sheriff Office - Skin - Description
+2143505320 - Rescue Station - Park Rangers - Building
+2143505321 - Rescue Station - Industrial - Building
 2143505325 - Main Fire Station Effect InfoDescription - Text
 2143505327 - Park Rangers Effect InfoDescription - Text 
 2143505329 - Industrial Fire Station Effect InfoDescription - Text
+2143505370 - Rescue Station - Mine - Building
 2143505371 - Mine Emergency Station InfoDescription - Text
 2143505373 - Mine Emergency Station Effect InfoDescription - Text
 2143505377 - Farm Emergency Station InfoDescription - Text
 2143505379 - Farm Emergency Station Effect InfoDescription - Text
-****************
-CATEGORY REGION
-****************
 
-2143505303 - Moderate Fire Construction Menu - ConstructionCategory
-
-***********
-BUFF REGION
-***********
-2143505324 - Park Ranger Effect - GuildhouseBuff
-2143505325 - Industrial Firestation Effect - GuildhouseBuff
-2143505372 - Mine Emergency Station - GuildhouseBuff
-2143505378 - Farm Emergency Station - GuildhouseBuff
-*********
 PRODUCTS
 *********
 2143505330 - FakeProductFireFighter - Product
 2143505331 - FakeProductParkRanger - Product
-*******************
-UNITS RELATED REGION
+
+BUFFS
+***********
+2143505324 - Park Ranger Effect - GuildhouseBuff
+2143505372 - Mine Emergency Station - GuildhouseBuff
+2143505378 - Farm Emergency Station - GuildhouseBuff
+
+UNITS
 *******************
 2143505332 - Fire Volunteer - IncidentResolverUnit
 2143505333 - Park Rangers - IncidentResolverUnit
@@ -59,13 +53,13 @@ UNITS RELATED REGION
 2143505366 - Veteran Firefigthers - FeedbackUnitClass
 2143505367 - Veteran Firefigthers - TrafficFeedbackUnit
 
-**************
-TRIGGER REGION
+TRIGGER
 **************
 -->
 
 <ModOps>
   <Include File="../../../../khobs/firestations/assets.include.xml" />
+  <Include File="../../../../khobs/police/assets.include.xml" />
   <Include File="../../../../khobs/vanilla-tweaks/assets.include.xml" />
   <Include File="../../../../khobs/triggers/assets.include.xml" />
   
@@ -93,4 +87,9 @@ TRIGGER REGION
     </Group>
   </ModOp>
   <!-- End Texts Assets -->
+  <ModOp GUID="25000189" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010358']">
+    <Item>
+     <Building>1742100209</Building>
+    </Item>
+  </ModOp>
 </ModOps>

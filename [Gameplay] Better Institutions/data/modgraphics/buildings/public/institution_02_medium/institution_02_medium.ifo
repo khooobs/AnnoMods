@@ -19,6 +19,24 @@
 			<zf>2.005710</zf>
 		</Extents>
 	</BoundingBox>
+	<BuildBlocker>
+		<Position>
+			<xf>2.500000</xf>
+			<zf>1.500000</zf>
+		</Position>
+		<Position>
+			<xf>-2.500000</xf>
+			<zf>1.500000</zf>
+		</Position>
+		<Position>
+			<xf>-2.500000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>2.500000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+	</BuildBlocker>
 	<Dummy>
 		<Name>bird_land01</Name>
 		<Position>
@@ -136,6 +154,32 @@
 	<FeedbackBlocker>
 		<Position>
 			<xf>-2.500000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-2.250000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-2.250000</xf>
+			<zf>1.250000</zf>
+		</Position>
+		<Position>
+			<xf>2.000000</xf>
+			<zf>1.250000</zf>
+		</Position>
+		<Position>
+			<xf>2.000000</xf>
+			<zf>1.500000</zf>
+		</Position>
+		<Position>
+			<xf>-2.500000</xf>
+			<zf>1.500000</zf>
+		</Position>
+	</FeedbackBlocker>
+	<FeedbackBlocker>
+		<Position>
+			<xf>-2.500000</xf>
 			<zf>-1.500000</zf>
 		</Position>
 		<Position>
@@ -173,50 +217,6 @@
 		<Position>
 			<xf>2.500000</xf>
 			<zf>-1.500000</zf>
-		</Position>
-	</FeedbackBlocker>
-	<BuildBlocker>
-		<Position>
-			<xf>2.500000</xf>
-			<zf>1.500000</zf>
-		</Position>
-		<Position>
-			<xf>-2.500000</xf>
-			<zf>1.500000</zf>
-		</Position>
-		<Position>
-			<xf>-2.500000</xf>
-			<zf>-1.500000</zf>
-		</Position>
-		<Position>
-			<xf>2.500000</xf>
-			<zf>-1.500000</zf>
-		</Position>
-	</BuildBlocker>
-	<FeedbackBlocker>
-		<Position>
-			<xf>-2.500000</xf>
-			<zf>0.500000</zf>
-		</Position>
-		<Position>
-			<xf>-2.250000</xf>
-			<zf>0.500000</zf>
-		</Position>
-		<Position>
-			<xf>-2.250000</xf>
-			<zf>1.250000</zf>
-		</Position>
-		<Position>
-			<xf>2.000000</xf>
-			<zf>1.250000</zf>
-		</Position>
-		<Position>
-			<xf>2.000000</xf>
-			<zf>1.500000</zf>
-		</Position>
-		<Position>
-			<xf>-2.500000</xf>
-			<zf>1.500000</zf>
 		</Position>
 	</FeedbackBlocker>
 	<IntersectBox>

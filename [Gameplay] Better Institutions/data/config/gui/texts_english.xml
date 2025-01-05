@@ -17,16 +17,64 @@
       <Text>Volunteer Fire Station</Text>
     </Text>
     <Text>
-      <GUID>2143505317</GUID>
-      <Text>Farm Fire Station</Text>
-    </Text>
-    <Text>
       <GUID>2143505305</GUID>
       <Text>Metropolitan Fire Department</Text>
     </Text>
     <Text>
       <GUID>2143505306</GUID>
       <Text>City Fire Station</Text>
+    </Text>
+    <Text>
+      <GUID>2143505307</GUID>
+      <Text>Main Fire Department</Text>
+    </Text>
+    <Text>
+      <GUID>2143505308</GUID>
+      <Text>Small Sheriff Office</Text>
+    </Text>
+    <Text>
+      <GUID>2143505309</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505310</GUID>
+      <Text>Black Roof Sheriff Office</Text>
+    </Text>
+    <Text>
+      <GUID>2143505311</GUID>
+      <Text>Black Roof Sheriff Office</Text>
+    </Text>
+    <Text>
+      <GUID>2143505312</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505313</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505314</GUID>
+      <Text>You prefer black roof?</Text>
+    </Text>
+    <Text>
+      <GUID>2143505315</GUID>
+      <Text>Brick Sheriff Office</Text>
+    </Text>
+    <Text>
+      <GUID>2143505316</GUID>
+      <Text>Brick Sheriff Office</Text>
+    </Text>
+    <Text>
+      <GUID>2143505317</GUID>
+      <Text>Farm Fire Station</Text>
+    </Text>
+    <Text>
+      <GUID>2143505318</GUID>
+      <Text>That's even better with bricks.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505319</GUID>
+      <Text>Mines safety first!</Text>
     </Text>
     <Text>
       <GUID>2143505320</GUID>
@@ -39,14 +87,6 @@
     <Text>
       <GUID>2143505322</GUID>
       <Text>Old Town Fire Station</Text>
-    </Text>
-    <Text>
-      <GUID>2143505307</GUID>
-      <Text>Main Fire Department</Text>
-    </Text>
-    <Text>
-      <GUID>2143505319</GUID>
-      <Text>Mines safety first!</Text>
     </Text>
     <Text>
       <GUID>2143505323</GUID>
@@ -85,8 +125,24 @@
       <Text>Park Rangers in duty</Text>
     </Text>
     <Text>
+      <GUID>2143505332</GUID>
+      <Text>Park Rangers in duty</Text>
+    </Text>
+    <Text>
       <GUID>2143505333</GUID>
       <Text>Park Rangers</Text>
+    </Text>
+    <Text>
+      <GUID>2143505334</GUID>
+      <Text>Law Enforcement Institutions</Text>
+    </Text>
+    <Text>
+      <GUID>2143505351</GUID>
+      <Text>Sheriff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505354</GUID>
+      <Text>Sheriff Deputy</Text>
     </Text>
     <Text>
       <GUID>2143505365</GUID>

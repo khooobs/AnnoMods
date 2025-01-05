@@ -321,7 +321,7 @@
 						</Transformer>
 						<Position>
 							<x>0.682971</x>
-							<y>-0.460934</y>
+							<y>0.000000</y>
 							<z>-1.167396</z>
 						</Position>
 						<RotationY>3.295924</RotationY>
@@ -397,7 +397,7 @@
 						</Transformer>
 						<Position>
 							<x>-2.504955</x>
-							<y>0.002214</y>
+							<y>0.000000</y>
 							<z>-1.497201</z>
 						</Position>
 						<RotationY>1.666438</RotationY>
@@ -510,8 +510,8 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-0.928525</x>
-							<y>-0.465699</y>
+							<x>-0.294580</x>
+							<y>0.000000</y>
 							<z>0.922568</z>
 						</Position>
 						<RotationY>4.716530</RotationY>
@@ -548,7 +548,7 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-0.902510</x>
+							<x>-0.268566</x>
 							<y>0.000000</y>
 							<z>0.453074</z>
 						</Position>

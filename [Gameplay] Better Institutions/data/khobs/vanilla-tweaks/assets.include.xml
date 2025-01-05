@@ -19,12 +19,12 @@
                         <Item>
                           <UnitAmount>1</UnitAmount>
                           <HappinessThreshold>10</HappinessThreshold>
-					      <PopulationCount>200</PopulationCount>
-                        </Item>
-                        <Item>
-                          <UnitAmount>2</UnitAmount>
-                          <HappinessThreshold>10</HappinessThreshold>
-					      <PopulationCount>500</PopulationCount>
+                          <PopulationCount>200</PopulationCount>
+                            <Item>
+                              <UnitAmount>2</UnitAmount>
+                              <HappinessThreshold>10</HappinessThreshold>
+                            </Item>
+                          <PopulationCount>500</PopulationCount>
                         </Item>
                     </SpecialUnitThresholds>
                     <ResolvableIncidents>Fire</ResolvableIncidents>
@@ -35,11 +35,13 @@
                 </IncidentResolver>
             </ModOp>
             <ModOp GUID="1010463" Type="replace" Path="/Values/Maintenance/Maintenances/">
-				<Item>
-					<Product>1010017</Product>
-					<Amount>25</Amount>
-					<InactiveAmount>25</InactiveAmount>
-				</Item>
+              <Maintenances>
+                  <Item>
+                    <Product>1010017</Product>
+                    <Amount>250</Amount>
+                  <InactiveAmount>125</InactiveAmount>
+                </Item>
+              </Maintenances>
             </ModOp>
             <ModOp GUID="190775,368" Type="add" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs/">
                 <Item>

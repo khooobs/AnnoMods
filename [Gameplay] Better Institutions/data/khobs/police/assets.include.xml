@@ -1,0 +1,411 @@
+<ModOps>
+    <!-- Building Assets -->
+    <ModOp Type="addNextSibling" GUID="1010463">
+      <Asset>
+        <Template>CityInstitutionBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505308</GUID>
+            <Name>Small Sheriff Office</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_sheriff.png</IconFilename>
+            <InfoDescription>3788</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>8</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/buildings/public/sheriff/sheriff_01.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>2143505308</DefaultSkinName>
+              <DefaultSkinDescription>23853</DefaultSkinDescription>
+              <DefaultSkinCategoryName>2143505302</DefaultSkinCategoryName>
+              <OverrideDefaultIcon>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_policestation_default.png</OverrideDefaultIcon>
+              <SkinList>
+                <Item>
+                  <SkinAssetGuid>2143505310</SkinAssetGuid>
+                </Item>
+                <Item>
+                  <SkinAssetGuid>2143505315</SkinAssetGuid>
+                </Item>
+              </SkinList>
+            </Skins>
+          </Object>
+          <Mesh />
+          <Selection>
+            <GUIType>CityInstitution</GUIType>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>239530</Sound>
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+            <BuildingRepaired>
+              <Item>
+                <Sound>203866</Sound>
+              </Item>
+            </BuildingRepaired>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <IncidentResolver>
+            <ResolverUnit>2143505351</ResolverUnit>
+            <SpecialUnit>2143505354</SpecialUnit>
+            <SpecialUnitThresholds>
+              <Item>
+                <UnitAmount>1</UnitAmount>
+                <HappinessThreshold>10</HappinessThreshold>
+              </Item>
+            </SpecialUnitThresholds>
+            <ResolvableIncidents>Riot</ResolvableIncidents>
+            <DuringConstructionText>17464</DuringConstructionText>
+            <DuringIncidentHeadline>3780</DuringIncidentHeadline>
+            <ActionButtonText>3690</ActionButtonText>
+            <DuringIncidentHeadlineIcon>500322</DuringIncidentHeadlineIcon>
+          </IncidentResolver>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>50</Amount>
+                <InactiveAmount>50</InactiveAmount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>4500</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable />
+          <IncidentInfluencer>
+            <Influence>
+              <Riot>
+                <Influence>-4.5</Influence>
+                <Distance>4.5</Distance>
+              </Riot>
+            </Influence>
+          </IncidentInfluencer>
+          <DelayedConstruction />
+          <AmbientMoodProvider>
+            <AmbientMood>ResidenceTier1</AmbientMood>
+          </AmbientMoodProvider>
+          <Culture />
+          <QuestObject />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- End Building Assets -->
+
+    <!-- Skin Assets -->
+    <ModOp Type="addNextSibling" GUID="5230">
+      <Asset>
+        <Template>Skin</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505310</GUID>
+            <Name>Black Roof Sheriff Office</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_policestation_default.png</IconFilename>
+          </Standard>
+          <Skin>
+            <SkinName>2143505311</SkinName>
+            <SkinDescription>2143505314</SkinDescription>
+            <SkinVariations>
+              <Item>
+                <FileName>data/modgraphics/buildings/public/sheriff/sheriff_01_02.cfg</FileName>
+              </Item>
+            </SkinVariations>
+            <SkinCategoryDescription>2143505302</SkinCategoryDescription>
+          </Skin>
+          <Locked />
+          <Text />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Skin</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505315</GUID>
+            <Name>Brick Sheriff Office</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_policestation_oldtown.png</IconFilename>
+          </Standard>
+          <Skin>
+            <SkinName>2143505316</SkinName>
+            <SkinDescription>2143505318</SkinDescription>
+            <SkinVariations>
+              <Item>
+                <FileName>data/modgraphics/buildings/public/sheriff/sheriff_01_03.cfg</FileName>
+              </Item>
+            </SkinVariations>
+            <SkinCategoryDescription>2143505302</SkinCategoryDescription>
+          </Skin>
+          <Locked />
+          <Text />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!--  End Skin Assets -->
+
+    <!-- Construction Category -->
+    <ModOp GUID="25000190" Type="addNextSibling">
+      <Asset>
+        <Template>ConstructionCategory</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505334</GUID>
+            <Name>moderate police construction menu</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_police.png</IconFilename>
+          </Standard>
+          <ConstructionCategory>
+            <BuildingList>
+              <Item>
+                <Building>2143505320</Building>
+              </Item>
+              <Item>
+                <Building>2143505308</Building>
+              </Item>
+              <Item>
+                <Building>1010462</Building>
+              </Item>
+              <Item>
+                <Building>6353</Building>
+              </Item>
+            </BuildingList>
+            <CategoryDescription>2143505301</CategoryDescription>
+          </ConstructionCategory>
+          <Locked />
+        </Values>
+      </Asset>
+    </ModOp>  
+
+    <!-- ADD To Category -->
+    <ModOp GUID="500092,25000190" Type="replace" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010462']">
+      <Item>
+        <Building>2143505334</Building>
+      </Item>
+    </ModOp>
+    <!-- End Construction Category-->
+    
+    <!-- Texts -->
+    <ModOp GUID="3788" Type="addNextSibling">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505316</GUID>
+            <Name>SkinName (Sheriff Office)</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505318</GUID>
+            <Name>Sheriff Office SkinDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505311</GUID>
+            <Name>SkinName (Black Roof Sheriff Office)</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505314</GUID>
+            <Name>Black Roof Sheriff Office SkinDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- End Texts -->
+
+    <!-- Customs Units -->
+    <ModOp GUID="100581" Type="addNextSibling">
+      <Asset>
+        <Template>IncidentResolverUnit</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505351</GUID>
+            <Name>Sheriff</Name>
+            <IconFilename>data/ui/2kimages/main/icons/khobs/icon_sheriff_2d.png</IconFilename>
+            <InfoDescription>21509</InfoDescription>
+          </Standard>
+          <IncidentResolverUnit>
+            <ResolverOperatingDistance>45700</ResolverOperatingDistance>
+            <ResolverMovementSpeed>0.9</ResolverMovementSpeed>
+            <IntensityDecreaseRate>0.16</IntensityDecreaseRate>
+            <FeedbackUnitClass>2143505352</FeedbackUnitClass>
+          </IncidentResolverUnit>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>FeedbackUnitClass</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505352</GUID>
+            <Name>Sheriff</Name>
+            <IconFilename>data/ui/city_institution/icon_sheriff.png</IconFilename>
+          </Standard>
+          <TrafficFeedbackClass>
+            <UnitAssets>
+              <Item>
+                <UnitAsset>2143505353</UnitAsset>
+              </Item>
+            </UnitAssets>
+            <AllowedReactions />
+            <ClassFlags>FightsRiot</ClassFlags>
+          </TrafficFeedbackClass>
+          <Text>
+            <TextOverride>2143505351</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TrafficFeedbackUnit</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505353</GUID>
+            <Name>Sheriff</Name>
+            <IconFilename>data/ui/city_institution/icon_sheriff.png</IconFilename>
+          </Standard>
+          <TrafficFeedbackUnit>
+            <UnitType>Vehicle</UnitType>
+            <CfgPath>data/graphics/vehicle/horse_drawn_carriage_police/horse_drawn_carriage_police_front.cfg</CfgPath>
+            <SpeedSource>Managed</SpeedSource>
+            <OverwriteSpeed>0.4</OverwriteSpeed>
+            <ResidentCamInteraction>MountAsCoach</ResidentCamInteraction>
+          </TrafficFeedbackUnit>
+          <Trailer>
+            <TrailerCount>1</TrailerCount>
+            <TrailerEndPartCfgVariations>
+              <Item>
+                <CfgVariation>data/modgraphics/vehicle/horse_drawn_carriage_sheriff/horse_drawn_carriage_sheriff_rear.cfg</CfgVariation>
+              </Item>
+            </TrailerEndPartCfgVariations>
+          </Trailer>
+          <Text>
+            <TextOverride>2143505351</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>IncidentResolverUnit</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505354</GUID>
+            <Name>Sheriff Deputies</Name>
+            <IconFilename>data/ui/2kimages/main/icons/khobs/icon_sheriff_2d.png</IconFilename>
+            <InfoDescription>21509</InfoDescription>
+          </Standard>
+          <IncidentResolverUnit>
+            <FeedbackUnitClass>2143505355</FeedbackUnitClass>
+          </IncidentResolverUnit>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>FeedbackUnitClass</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505355</GUID>
+            <Name>Sheriff Deputies</Name>
+            <IconFilename>data/ui/city_institution/icon_sheriff.png</IconFilename>
+          </Standard>
+          <TrafficFeedbackClass>
+            <UnitAssets>
+              <Item>
+                <UnitAsset>2143505356</UnitAsset>
+              </Item>
+            </UnitAssets>
+            <AllowedReactions />
+            <ClassFlags>FightsRiot</ClassFlags>
+          </TrafficFeedbackClass>
+          <Text>
+            <TextOverride>2143505354</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TrafficFeedbackUnit</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505356</GUID>
+            <Name>Sheriff Deputies</Name>
+            <IconFilename>data/ui/city_institution/icon_sheriff.png</IconFilename>
+          </Standard>
+          <TrafficFeedbackUnit>
+            <UnitType>Vehicle</UnitType>
+            <CfgPath>data/graphics/vehicle/horse_drawn_carriage_police/horse_drawn_carriage_police_front.cfg</CfgPath>
+            <SpeedSource>Managed</SpeedSource>
+            <OverwriteSpeed>0.4</OverwriteSpeed>
+            <ResidentCamInteraction>MountAsCoach</ResidentCamInteraction>
+          </TrafficFeedbackUnit>
+          <Trailer>
+            <TrailerCount>1</TrailerCount>
+            <TrailerEndPartCfgVariations>
+              <Item>
+                <CfgVariation>data/modgraphics/vehicle/horse_drawn_carriage_sheriff/horse_drawn_carriage_sheriff_rear.cfg</CfgVariation>
+              </Item>
+            </TrailerEndPartCfgVariations>
+          </Trailer>
+          <Text>
+            <TextOverride>2143505354</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- End Units -->
+</ModOps>

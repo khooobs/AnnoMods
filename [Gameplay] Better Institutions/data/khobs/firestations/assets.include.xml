@@ -104,11 +104,6 @@
                 <Amount>75</Amount>
                 <InactiveAmount>75</InactiveAmount>
               </Item>
-              <Item>
-                <Product>1010052</Product>
-                <Amount>25</Amount>
-                <InactiveAmount>75</InactiveAmount>
-              </Item>
             </Maintenances>
           </Maintenance>
           <Attackable>
@@ -267,10 +262,6 @@
                 <Product>1010017</Product>
                 <Amount>500</Amount>
                 <InactiveAmount>25</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010116</Product>
-                <Amount>75</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -437,10 +428,6 @@
                 <Product>1010017</Product>
                 <Amount>2500</Amount>
                 <InactiveAmount>25</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010117</Product>
-                <Amount>175</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -640,10 +627,6 @@
                 <Product>1010017</Product>
                 <Amount>2500</Amount>
                 <InactiveAmount>25</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010117</Product>
-                <Amount>175</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -1066,7 +1049,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>CityInstitutionBuilding</Template>
+        <Template>CityInstitutionBuildingHeated</Template>
         <Values>
           <Standard>
             <GUID>2143505320</GUID>
@@ -1109,7 +1092,6 @@
           <Object>
             <Variations>
               <Item>
-                <!-- <Filename>data/graphics/buildings/production/agriculture_09/agriculture_09.cfg</Filename> -->
                 <Filename>data/modgraphics/buildings/public/parkranger/parkranger.cfg</Filename>
               </Item>
             </Variations>
@@ -1118,10 +1100,10 @@
           <Selection>
             <GUIType>CityInstitution</GUIType>
             <OnSelection>
-              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
-                <ActionList />
+                <ActionList/>
               </Values>
+              <Template>Actions</Template>
             </OnSelection>
           </Selection>
           <Constructable />
@@ -1150,19 +1132,19 @@
           <UpgradeList />
           <BuffFactory>
             <ProductionBuffs>
-                <Item>
-                    <ProductivityBuff>2143505326</ProductivityBuff>
-                </Item>
+              <Item>
+                <ProductivityBuff>2143505326</ProductivityBuff>
+              </Item>
             </ProductionBuffs>
             <ProductionBuffScope>Radius</ProductionBuffScope>
             <ProductionBuffDistance>20</ProductionBuffDistance>
           </BuffFactory>
           <FactoryBase>
             <FactoryInputs>
-                <Item>
-                    <Product>2143505331</Product>
-                    <StorageAmount>1</StorageAmount>
-                </Item>
+              <Item>
+                <Product>1742100211</Product>
+                <StorageAmount>1</StorageAmount>
+              </Item>
             </FactoryInputs>
             <CycleTime>120</CycleTime>
             <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
@@ -1172,9 +1154,8 @@
           </LogisticNode>
           <IncidentResolver>
             <ResolverUnit>2143505333</ResolverUnit>
-            <!-- <ResolverUnit>100579</ResolverUnit> -->
             <ResolverUnitCount>1</ResolverUnitCount>
-            <!-- <SpecialUnit>100579</SpecialUnit> -->
+            <SpecialUnit>2143505333</SpecialUnit>
             <SpecialUnitThresholds>
               <Item>
                 <UnitAmount>0</UnitAmount>
@@ -1207,8 +1188,8 @@
           <IncidentInfluencer>
             <Influence>
               <Fire>
-                <Influence>-7</Influence>
-                <Distance>15</Distance>
+                <Influence>-15</Influence>
+                <Distance>7</Distance>
               </Fire>
               <Riot>
                 <Influence>-7</Influence>
@@ -1507,17 +1488,17 @@
                     </EffectTargets>
                 </ItemEffect>
                 <FactoryUpgrade>
-                    <ProductivityUpgrade>
-                        <Value>10</Value>
-                        <Percental>1</Percental>
-                    </ProductivityUpgrade>
-                    <NeededAreaPercentUpgrade>
-                        <Value>-15</Value>
-                    </NeededAreaPercentUpgrade>
+                  <NeededAreaPercentUpgrade>
+                    <Value>-20</Value>
+                  </NeededAreaPercentUpgrade>
                 </FactoryUpgrade>
                 <BuildingUpgrade/>
                 <Buff/>
-                <CultureUpgrade/>
+                <CultureUpgrade>
+                  <AttractivenessUpgrade>
+                    <Value>15</Value>
+                  </AttractivenessUpgrade>
+                </CultureUpgrade>
                 <ModuleOwnerUpgrade/>
                 <IncidentInfectableUpgrade>
                     <IncidentFireIncreaseUpgrade>
@@ -1979,20 +1960,61 @@
         </Values>
       </Asset>
       <Asset>
-          <Template>IncidentResolverUnit</Template>
-          <Values>
-              <Standard>
-              <GUID>2143505333</GUID>
-              <Name>Park Rangers</Name>
-              <IconFilename>data/ui/2kimages/main/icons/icon_tree_progress.png</IconFilename>
-              </Standard>
-              <IncidentResolverUnit>
-                  <ResolverOperatingDistance>37000</ResolverOperatingDistance>
-                  <ResolverMovementSpeed>0.9</ResolverMovementSpeed>
-                  <IntensityDecreaseRate>0.16</IntensityDecreaseRate>
-                  <FeedbackUnitClass>140714</FeedbackUnitClass>
-              </IncidentResolverUnit>
-          </Values>
+        <Template>IncidentResolverUnit</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505333</GUID>
+            <Name>Park Rangers</Name>
+            <IconFilename>data/ui/2kimages/main/icons/icon_tree_progress.png</IconFilename>
+          </Standard>
+          <IncidentResolverUnit>
+              <ResolverOperatingDistance>37000</ResolverOperatingDistance>
+              <ResolverMovementSpeed>0.9</ResolverMovementSpeed>
+              <IntensityDecreaseRate>0.16</IntensityDecreaseRate>
+              <FeedbackUnitClass>2143505335</FeedbackUnitClass>
+          </IncidentResolverUnit>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>FeedbackUnitClass</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505335</GUID>
+            <Name>Park Rangers</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
+          </Standard>
+          <TrafficFeedbackClass>
+            <UnitAssets>
+              <Item>
+                <UnitAsset>2143505336</UnitAsset>
+              </Item>
+            </UnitAssets>
+            <AllowedReactions />
+          </TrafficFeedbackClass>
+          <Text>
+            <TextOverride>2143505333</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TrafficFeedbackUnit</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505336</GUID>
+            <Name>Park Rangers</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
+          </Standard>
+          <TrafficFeedbackUnit>
+            <UnitType>Vehicle</UnitType>
+            <CfgPath>data/modgraphics/vehicle/horse_parkranger/horse_parkranger.cfg</CfgPath>
+            <SpeedSource>Managed</SpeedSource>
+            <OverwriteSpeed>1</OverwriteSpeed>
+            <ResidentCamInteraction>MountAsCoach</ResidentCamInteraction>
+          </TrafficFeedbackUnit>
+          <Text>
+            <TextOverride>2143505333</TextOverride>
+          </Text>
+        </Values>
       </Asset>
     </ModOp>
     <!-- End Units -->

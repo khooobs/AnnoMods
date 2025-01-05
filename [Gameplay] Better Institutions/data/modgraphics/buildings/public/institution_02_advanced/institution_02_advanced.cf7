@@ -216,7 +216,7 @@
 						</Orientation>
 						<Position>
 							<x>0.680000</x>
-							<y>-0.415971</y>
+							<y>0.000000</y>
 							<z>-1.170000</z>
 						</Position>
 						<RotationY>3.295924</RotationY>
@@ -262,7 +262,7 @@
 						</Orientation>
 						<Position>
 							<x>-2.504955</x>
-							<y>0.002214</y>
+							<y>0.000000</y>
 							<z>-1.497201</z>
 						</Position>
 						<RotationY>1.666438</RotationY>
@@ -308,7 +308,7 @@
 						</Orientation>
 						<Position>
 							<x>-0.912006</x>
-							<y>-0.412565</y>
+							<y>0.000000</y>
 							<z>1.466324</z>
 						</Position>
 						<RotationY>5.259809</RotationY>
