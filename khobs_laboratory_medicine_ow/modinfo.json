@@ -1,0 +1,48 @@
+{
+	"Version": "1.1",
+	"ModID": "khobs_laboratory_medicine_ow",
+	"IncompatibleIds": [],
+	"ModDependencies": [],
+	"Category": {
+		"English": "Building",
+		"Chinese": "建筑",
+		"French": "Bâtiment",
+		"German": "Gebäude",
+		"Italian": "Edificio",
+		"Japanese": "建物",
+		"Korean": "건물",
+		"Polish": "Budowla",
+		"Russian": "Здание",
+		"Spanish": "Edificio"
+	},
+	"ModName": {
+		"English": "Laboratory: Medicine (OW)",
+		"Chinese": "实验室：医学 （OW）",
+		"French": "Laboratoire : Médicaments (OW)",
+		"German": "Labor: Medizin (OW)",
+		"Italian": "Laboratorio: Medicina (OW)",
+		"Japanese": "研究室:医学(OW)",
+		"Korean": "연구실: 의학(OW)",
+		"Polish": "Laboratorium: Medycyna (OW)",
+		"Russian": "Лаборатория: Медицина (OW)",
+		"Spanish": "Laboratorio: Medicina (OW)"
+	},
+	"Description": {
+		"English": null,
+		"Chinese": null,
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null
+	},
+	"KnownIssues": null,
+	"DLCDependencies": [],
+	"CreatorName": "Khobs",
+	"CreatorContact": "https://github.com/Khooobs/AnnoMods",
+	"ModioResourceId": null,
+	"Image": "banner.jpg"
+}

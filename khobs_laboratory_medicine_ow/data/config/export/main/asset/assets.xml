@@ -1,0 +1,261 @@
+<!-- 
+  
+  [Shared] Shared Goods - Medicine - v1
+  Created by Khobs
+  Enjoy!
+
+  Add triggers for product, building to unlock when you want it
+  Add building to construction menu where you want it
+
+  2143505339 - Laboratory: Medicine (OW) - Building
+  2143505340 - Laboratory: Medicine (OW) - Building - Description
+
+-->
+
+<ModOps>
+  <!-- START ADD GOODS TO StandardProductStorageList + StandardMarketplaceREGIONStorageList   -->
+
+  <!-- ************ MODERATE REGION ************ -->
+
+  <!-- START - ADD PRODUCT TO PRODUCTSTORAGELISTS -->
+  <!-- MEDICINE > AFTER FUR COATS -->
+  <ModOp Type="addNextSibling" GUID="120055,120057" Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+    <Item>
+      <Product>5397</Product>      <!-- Medicines - Product -->
+    </Item>
+  </ModOp>
+
+  <!-- START ADD TO WORKFORCEGOODS - FarmerWorkforceGoods -->
+  <ModOp Type="add" GUID="501997,502019,502006" Path="/Values/ProductList/List/">
+    <Item>
+      <Product>5397</Product>      <!-- Medicines - Product -->
+    </Item>
+  </ModOp>
+  <!-- END ADD TO WORKFORCEGOODS - FarmerWorkforceGoods -->
+
+  <!-- START ADD GOODS TO OTHER ProductList - ALL PRODUCTS -->
+  <ModOp Type="add" GUID='502016,502065' Path="/Values/ProductList/List">
+    <Item>
+      <Product>5397</Product>      <!-- Medicines - Product -->
+    </Item>
+  </ModOp>
+  <!-- END ADD GOODS TO OTHER PRODUCTLIST - ALL PRODUCTS -->
+
+  <!-- START ADD GOODS TO OTHER ProductList - CONSUMER -->
+  <ModOp Type="add" GUID='501993' Path="/Values/ProductList/List">
+    <Item>
+      <Product>5397</Product>      <!-- Medicines - Product -->
+    </Item>
+  </ModOp>
+  <!-- END ADD GOODS TO OTHER PRODUCTLIST - CONSUMER -->
+
+  <!-- START - DOCKLANDS - ADD TO EXISTING TRADER - Tattershire Farms -->
+  <ModOp Type = "add" GUID='131764' Path="/Values/TradeContractFeature/Traders/Item[TraderName = '131809']/TradeLevels/Item[Unlock = '131832']/Trades">
+    <Item>
+			<Level>Legendary</Level>
+      <Good>5397</Good>      <!-- Medicines - Product -->
+    </Item>
+  </ModOp>
+  <!-- END - DOCKLANDS - ADD TO EXISTING TRADER - Tattershire Farms -->
+
+  <!-- START - PRODUCT IN OW -->
+  <ModOp Type="add" GUID="5397" Path="/Values/Product/ProductionRegions">
+    <Item>
+      <RegionType>Moderate</RegionType>
+    </Item>
+  </ModOp>
+  <!-- END - PRODUCT IN OW -->
+
+  <!-- START BUILDING - OW LABORATORY -->
+  <ModOp Type="addNextSibling" GUID='1010263'>
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505339</GUID>
+          <Name>Laboratory: Medicine (OW)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_medicine.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+			    <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking/>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/public/laboratory_ow/laboratory_ow.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <!--Money-->
+              <Amount>42000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <!--timber-->
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <!--bricks-->
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <!--beams-->
+              <Amount>45</Amount>
+            </Item>
+            <Item>
+              <Ingredient>838</Ingredient>
+              <!--Aluminium-->
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <!--concrete-->
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh/>
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <TextOverride>6631</TextOverride>
+        </Text>
+        <Constructable/>
+        <Locked>
+          <DLCDependency>24963</DLCDependency>
+          <!--Anno 1800 DLC - New World Rising-->
+        </Locked>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>Multifactory</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Sound>200802</Sound>
+            </Item>
+            <Item>
+              <Sound>201689</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <Factory7/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010226</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+            <Item>
+              <Product>135130</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010224</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>5397</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode/>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>600</Amount>
+              <InactiveAmount>300</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010116</Product>
+              <Amount>300</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable>
+          <TransporterIndustrializationFactory>120028</TransporterIndustrializationFactory>
+        </Industrializable>
+        <IncidentInfectable>
+          <Explosion>
+            <DamageExplosionCheckMax>75</DamageExplosionCheckMax>
+          </Explosion>
+        </IncidentInfectable>
+        <Electrifiable/>
+        <AmbientMoodProvider>
+          <Murmur>Factory</Murmur>
+        </AmbientMoodProvider>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+        </Attackable>
+        <UpgradeList/>
+        <Pausable/>
+        <FeedbackController/>
+        <Infolayer/>
+        <Culture>
+          <HasPollution>1</HasPollution>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END BUILDING - OW LABORATORY -->
+
+  <!-- START CATEGORY - OW LABORATORY -->
+  <ModOp Type="addNextSibling" GUID="25000192" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500017']">
+    <Item>
+      <Building>2143505339</Building>
+    </Item>
+  </ModOp>
+  <!-- END CATEGORY - OW LABORATORY-->
+
+  <!-- START ADD PRODUCTION BUILDINGS TO WORKFORCE MENU -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+    <Item>
+      <Factory>2143505339</Factory>
+    </Item>
+  </ModOp>
+  <!-- END ADD PRODUCTION BUILDINGS TO WORKFORCE MENU -->
+
+  <!-- START - ADD BUILDINGS TO ALL PRODUCTION, MAINTENANCE  -->
+  <ModOp GUID='6000018,193856,25599,368' Type="add" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+    <Item>
+      <GUID>2143505339</GUID>
+    </Item>
+  </ModOp>
+  <!-- END - ADD BUILDINGS TO ALL PRODUCTION, MAINTENANCE  -->
+</ModOps>
