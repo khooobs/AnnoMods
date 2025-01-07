@@ -221,16 +221,15 @@
                 <Values>
                   <Action />
                   <ActionUnlockAsset>
+                    <UnhideAssets/>
                     <UnlockAssets>
                       <Item>
                         <Asset>2143505305</Asset>
                       </Item>
-                    </UnlockAssets>
-                    <UnhideAssets>
                       <Item>
-                        <Asset>2143505425</Asset>
+                        <Asset>2143505339</Asset>
                       </Item> 
-                    </UnhideAssets>
+                    </UnlockAssets>
                   </ActionUnlockAsset>
                 </Values>
               </TriggerAction>
