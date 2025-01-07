@@ -28,6 +28,16 @@ BUILDING
 2143505325 - Main Fire Station Effect InfoDescription - Text
 2143505327 - Park Rangers Effect InfoDescription - Text 
 2143505329 - Industrial Fire Station Effect InfoDescription - Text
+2143505340 - Pharmacy: Apothicary - Building
+2143505341 - Pharmacy - RecipeList
+2143505342 - Pharmacy: Apothicary - Recipe
+2143505343 - Pharmacy: Clinical - Building
+2143505345 - Pharmacy: Clinical - Recipe
+2143505347 - Pharmacy: Apothicary - Recipe - Description
+2143505348 - Pharmacy: Clinical - Recipe - Description
+2143505357 - Pharmacy: Hospital - Building
+2143505359 - Pharmacy: Hospital - Recipe
+2143505360 - Pharmacy: Hospital - Recipe - Description
 2143505370 - Rescue Station - Mine - Building
 2143505371 - Rescue Station - Mine - Description - Text
 2143505374 - Rescue Station - Mine - Skin
@@ -41,6 +51,9 @@ PRODUCTS
 BUFFS
 ***********
 2143505324 - Park Ranger Effect - Buff
+2143505344 - Pharmacy: Apothicary - Buff 
+2143505346 - Pharmacy: Clinical - Buff
+2143505358 - Pharmacy: Hospital - Buff
 2143505372 - Rescue Station - Mine - Buff
 2143505373 - Rescue Station - Mine - Buff - Description - Text
 2143505378 - Rescue Station - Farm - Buff
@@ -61,6 +74,7 @@ TRIGGER
 <ModOps>
   <Include File="../../../../khobs/firestations/assets.include.xml" />
   <Include File="../../../../khobs/police/assets.include.xml" />
+  <Include File="../../../../khobs/medical/assets.include.xml" />
   <Include File="../../../../khobs/vanilla-tweaks/assets.include.xml" />
   <Include File="../../../../khobs/triggers/assets.include.xml" />
   

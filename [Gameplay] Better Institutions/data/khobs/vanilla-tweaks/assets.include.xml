@@ -94,5 +94,46 @@
                 </Upgradable>
             </ModOp>
         </Group>
+
+        <!-- Hospital related-->
+        <Group>
+            <!-- Edit Vanilla Hospital to add product -->
+            <ModOp GUID="1010464" Type="merge" Path="/Values/">
+                <Building>
+                  <BuildingType>Factory</BuildingType>
+                </Building>
+                <BuffFactory>
+                  <ProductionBuffs>
+                    <Item>                  
+                      <ProductivityBuff>2143505361</ProductivityBuff>
+                    </Item>
+                  </ProductionBuffs>
+                  <ProductionBuffScope>Local</ProductionBuffScope>
+                </BuffFactory>
+                <FactoryBase>
+                  <FactoryInputs>
+                      <Item>
+                        <Product>1500010836</Product>
+                        <StorageAmount>2</StorageAmount>
+                        <Amount>1</Amount>
+                      </Item>
+                  </FactoryInputs>
+                  <CycleTime>180</CycleTime>
+                  <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+                </FactoryBase>
+                <LogisticNode>
+                  <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Pausable>
+                    <CanPauseManually>1</CanPauseManually>
+                </Pausable>
+            </ModOp>
+
+            <!-- Remove additionnal unit -->
+            <ModOp GUID="190410,190723,193669" Type="remove" Path="/Values/BuildingUpgrade/ResolverUnitCountUpgrade/" />
+            
+            <!-- Remove illness risk -->
+            <ModOp GUID="193656,190724,190679,190193" Type="remove" Path="/Values/IncidentInfectableUpgrade/" />
+        </Group>
     </Group>
 </ModOps>

@@ -127,6 +127,9 @@
                       <Item>
                         <Asset>1742100209</Asset>
                       </Item>
+                      <Item>
+                        <Asset>2143505340</Asset>
+                      </Item>
                     </UnhideAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -177,8 +180,21 @@
                       <Item>
                         <Asset>2143505370</Asset>
                       </Item>
+                      <Item>
+                        <Asset>2143505340</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505341</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505342</Asset>
+                      </Item>
                     </UnlockAssets>
-                    <UnhideAssets />
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2143505343</Asset>
+                      </Item>
+                    </UnhideAssets>
                   </ActionUnlockAsset>
                 </Values>
               </TriggerAction>
@@ -229,6 +245,15 @@
                       <Item>
                         <Asset>2143505339</Asset>
                       </Item> 
+                      <Item>
+                        <Asset>2143505343</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505345</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>5397</Asset>
+                      </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -274,7 +299,10 @@
                   <ActionUnlockAsset>
                     <UnlockAssets>
                       <Item>
-                        <Asset>2143505425</Asset>
+                        <Asset>2143505357</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505359</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
