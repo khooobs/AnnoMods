@@ -1217,10 +1217,10 @@
         <Template>CityInstitutionBuilding</Template>
         <Values>
           <Standard>
-            <GUID>2143505321</GUID>
+            <GUID>2143505363</GUID>
             <Name>Industrial Fire Station</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_industrial_fire_brigade.png</IconFilename>
-            <InfoDescription>2143505313</InfoDescription>
+            <InfoDescription>2143505364</InfoDescription>
           </Standard>
           <Building>
             <BuildingCategoryName>2143505301</BuildingCategoryName>
@@ -1257,7 +1257,7 @@
           <Object>
             <Variations>
               <Item>
-                <Filename>data/modgraphics/buildings/public/institution_02_industrial/institution_02_industrial9.cfg</Filename>
+                <Filename>data/modgraphics/buildings/public/institution_02_industrial/institution_02_industrial1.cfg</Filename>
               </Item>
             </Variations>
           </Object>
@@ -1433,7 +1433,7 @@
                   <Building>2143505370</Building>
                 </Item>
                 <Item>
-                  <Building>2143505321</Building>
+                  <Building>2143505363</Building>
                 </Item>
                 <Item>
                   <Building>2143505425</Building>
@@ -1707,7 +1707,7 @@
         <Template>Text</Template>
         <Values>
           <Standard>
-            <GUID>2143505313</GUID>
+            <GUID>2143505364</GUID>
             <Name>Fire Public/Emergency Special Industry InfoDescription</Name>
           </Standard>
         </Values>

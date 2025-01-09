@@ -83,11 +83,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-1.830684</x>
+							<x>1.599602</x>
 							<y>0.000000</y>
-							<z>0.554082</z>
+							<z>-0.760854</z>
 						</Position>
-						<RotationY>1.680529</RotationY>
+						<RotationY>0.633331</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -131,7 +131,7 @@
 						<Position>
 							<x>1.532179</x>
 							<y>0.000000</y>
-							<z>-1.295500</z>
+							<z>-0.113026</z>
 						</Position>
 						<RotationY>0.389842</RotationY>
 						<Extents>
@@ -167,9 +167,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-1.287638</x>
+							<x>-2.330507</x>
 							<y>0.000000</y>
-							<z>0.792558</z>
+							<z>-0.663246</z>
 						</Position>
 						<RotationY>3.534473</RotationY>
 						<Extents>
@@ -213,9 +213,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>1.298349</x>
+							<x>0.334618</x>
 							<y>0.000000</y>
-							<z>-0.714664</z>
+							<z>2.315918</z>
 						</Position>
 						<RotationY>4.863999</RotationY>
 						<Extents>
@@ -251,9 +251,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>0.682971</x>
+							<x>2.454583</x>
 							<y>0.000000</y>
-							<z>-1.167396</z>
+							<z>2.196698</z>
 						</Position>
 						<RotationY>3.295924</RotationY>
 						<Extents>
@@ -289,9 +289,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-0.852945</x>
+							<x>2.108159</x>
 							<y>0.000000</y>
-							<z>-1.521197</z>
+							<z>-0.209449</z>
 						</Position>
 						<RotationY>3.121931</RotationY>
 						<Extents>
@@ -327,9 +327,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-2.504955</x>
-							<y>0.002214</y>
-							<z>-1.497201</z>
+							<x>2.354361</x>
+							<y>0.000000</y>
+							<z>-1.126433</z>
 						</Position>
 						<RotationY>1.666438</RotationY>
 						<Extents>
@@ -365,9 +365,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-2.374876</x>
+							<x>2.517891</x>
 							<y>0.000000</y>
-							<z>1.184962</z>
+							<z>-2.725619</z>
 						</Position>
 						<RotationY>0.378675</RotationY>
 						<Extents>
@@ -403,9 +403,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-0.929548</x>
+							<x>-2.456303</x>
 							<y>0.000000</y>
-							<z>1.361589</z>
+							<z>-2.785942</z>
 						</Position>
 						<RotationY>4.757837</RotationY>
 						<Extents>
@@ -441,9 +441,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>0.321096</x>
+							<x>-2.426676</x>
 							<y>0.000000</y>
-							<z>1.407326</z>
+							<z>-0.517489</z>
 						</Position>
 						<RotationY>4.716530</RotationY>
 						<Extents>
@@ -479,9 +479,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>0.425074</x>
+							<x>0.699491</x>
 							<y>0.000000</y>
-							<z>0.923243</z>
+							<z>-0.759239</z>
 						</Position>
 						<RotationY>4.794156</RotationY>
 						<Extents>
@@ -525,9 +525,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>1.866920</x>
+							<x>0.997602</x>
 							<y>0.000000</y>
-							<z>-1.112915</z>
+							<z>-0.707478</z>
 						</Position>
 						<RotationY>2.675707</RotationY>
 						<Extents>
@@ -563,9 +563,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-1.624846</x>
-							<y>0.168403</y>
-							<z>0.078258</z>
+							<x>-2.334588</x>
+							<y>0.000000</y>
+							<z>-1.276698</z>
 						</Position>
 						<RotationY>4.483725</RotationY>
 						<Extents>
@@ -601,11 +601,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-1.556695</x>
-							<y>0.170020</y>
-							<z>0.658088</z>
+							<x>-2.329867</x>
+							<y>0.000000</y>
+							<z>0.901886</z>
 						</Position>
-						<RotationY>-0.293309</RotationY>
+						<RotationY>1.364754</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
