@@ -1,0 +1,253 @@
+<ModOps>
+	<Include File="./trains.include.xml"/>
+
+	<!-- New Trains -->
+	<ModOp Type="addNextSibling"
+	       GUID="2001174">
+		<Asset>
+			<Template>TrafficFeedbackUnit</Template>
+			<Values>
+				<Standard>
+					<GUID>2077040001</GUID>
+					<Name>Steam Loco I Large</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\jdg\icon_train_steam_01.png</IconFilename>
+				</Standard>
+				<TrafficFeedbackUnit>
+					<UnitType>Train</UnitType>
+					<CfgPath>data\modgraphics\jdg\vehicle\railway\railway_steam_01.cfg</CfgPath>
+					<SpeedSource>Managed</SpeedSource>
+				</TrafficFeedbackUnit>
+				<Trailer/>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type="addNextSibling"
+	       GUID="2001174">
+		<Asset>
+			<Template>TrafficFeedbackUnit</Template>
+			<Values>
+				<Standard>
+					<GUID>2077040002</GUID>
+					<Name>Steam Loco II</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\jdg\icon_train_steam_02.png</IconFilename>
+				</Standard>
+				<TrafficFeedbackUnit>
+					<UnitType>Train</UnitType>
+					<CfgPath>data\modgraphics\jdg\vehicle\railway\railway_steam_02.cfg</CfgPath>
+					<SpeedSource>Managed</SpeedSource>
+				</TrafficFeedbackUnit>
+				<Trailer/>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type="addNextSibling"
+	       GUID="2001174">
+		<Asset>
+			<Template>TrafficFeedbackUnit</Template>
+			<Values>
+				<Standard>
+					<GUID>2077040003</GUID>
+					<Name>Steam Loco II with coal</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\jdg\icon_train_steam_02_coal.png</IconFilename>
+				</Standard>
+				<TrafficFeedbackUnit>
+					<UnitType>Train</UnitType>
+					<CfgPath>data\modgraphics\jdg\vehicle\railway\railway_steam_02_with_coal.cfg</CfgPath>
+					<SpeedSource>Managed</SpeedSource>
+				</TrafficFeedbackUnit>
+				<Trailer/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+
+	<!-- New SKINS -->
+	<ModOp Type="addNextSibling"
+	       GUID="80159">
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>2077040021</GUID>
+					<Name>Skin Train Steam</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\jdg\icon_train_steam_01.png</IconFilename>
+				</Standard>
+				<Skin>
+					<SkinName>2077040022</SkinName>
+					<SkinDescription>2077040023</SkinDescription>
+					<SkinCategoryDescription>7312</SkinCategoryDescription>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text/>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type="add"
+	       GUID='142915'
+	       Path="Values/SkinDescriptionFeature/TrainSkins">
+		<Item>
+			<TrainGuid>2077040001</TrainGuid>
+			<TrainSkinGuid>2077040021</TrainSkinGuid>
+		</Item>
+	</ModOp>
+
+	<ModOp Type="addNextSibling"
+	       GUID="80159">
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>2077040024</GUID>
+					<Name>Skin Train Steam</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\jdg\icon_train_steam_02.png</IconFilename>
+				</Standard>
+				<Skin>
+					<SkinName>2077040025</SkinName>
+					<SkinDescription>2077040026</SkinDescription>
+					<SkinCategoryDescription>7312</SkinCategoryDescription>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text/>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type="add"
+	       GUID='142915'
+	       Path="Values/SkinDescriptionFeature/TrainSkins">
+		<Item>
+			<TrainGuid>2077040002</TrainGuid>
+			<TrainSkinGuid>2077040024</TrainSkinGuid>
+		</Item>
+	</ModOp>
+
+	<ModOp Type="addNextSibling"
+	       GUID="80159">
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>2077040027</GUID>
+					<Name>Skin Train Steam</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\jdg\icon_train_steam_02_coal.png</IconFilename>
+				</Standard>
+				<Skin>
+					<SkinName>2077040028</SkinName>
+					<SkinDescription>2077040029</SkinDescription>
+					<SkinCategoryDescription>7312</SkinCategoryDescription>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text/>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type="add"
+	       GUID='142915'
+	       Path="Values/SkinDescriptionFeature/TrainSkins">
+		<Item>
+			<TrainGuid>2077040003</TrainGuid>
+			<TrainSkinGuid>2077040027</TrainSkinGuid>
+		</Item>
+	</ModOp>
+
+
+	<!-- TRIGGERS -->
+	<ModOp Type="addNextSibling"
+	       GUID="130253">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>2077040101</GUID>
+					<Name>Unlock Steam Train</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionAlwaysTrue</Template>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action/>
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>2077040001</Asset>
+											</Item>
+											<Item>
+												<Asset>2077040002</Asset>
+											</Item>
+											<Item>
+												<Asset>2077040003</Asset>
+											</Item>
+											<Item>
+												<Asset>2077040021</Asset>
+											</Item>
+											<Item>
+												<Asset>2077040024</Asset>
+											</Item>
+											<Item>
+												<Asset>2077040027</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+
+	<!-- new ornamental platforms -->
+
+	<ModOp Type="add"
+	       GUID="388"
+	       Path="Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\jdg\buildings\stations\platform_hall_large.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\jdg\buildings\stations\platform_hall_large_02.cfg</Filename>
+		</Item>
+	</ModOp>
+
+	
+	<ModOp Type="add"
+	       GUID="390"
+	       Path="Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\jdg\buildings\stations\platform_var01.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\jdg\buildings\stations\platform_var02.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\jdg\buildings\stations\platform_var03.cfg</Filename>
+		</Item>
+	</ModOp>
+
+	
+	<ModOp Type="add"
+	       GUID="392"
+	       Path="Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\jdg\buildings\stations\guard_house.cfg</Filename>
+		</Item>
+	</ModOp>
+
+	
+</ModOps>

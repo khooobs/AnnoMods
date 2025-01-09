@@ -1,0 +1,154 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2001000002</GUID>
+      <Text>Steel Head Office</Text>
+    </Text>
+    <Text>
+      <GUID>2001000003</GUID>
+      <Text>Industrial Site</Text>
+    </Text>
+
+    
+    <Text>
+      <GUID>2001000050</GUID>
+      <Text>Minerals</Text>
+    </Text>
+    <Text>
+      <GUID>2001000051</GUID>
+      <Text>The efforts of excavating the zone provides some extra stones, geodes and gravels that can be sieved for additionnal goods.</Text>
+    </Text>
+    <Text>
+      <GUID>2001000052</GUID>
+      <Text>Crusher: Blank</Text>
+    </Text>
+    <Text>
+      <GUID>2001000053</GUID>
+      <Text>Produce additionnal goods</Text>
+    </Text>
+    <Text>
+      <GUID>2001000054</GUID>
+      <Text>Sifter: Blank</Text>
+    </Text>
+    <Text>
+      <GUID>2001000055</GUID>
+      <Text>Produce additionnal goods</Text>
+    </Text>
+    <Text>
+      <GUID>2001000056</GUID>
+      <Text>Sieving processes</Text>
+    </Text>
+    <Text>
+      <GUID>2001000057</GUID>
+      <Text>Sieving iron</Text>
+    </Text>
+    <Text>
+      <GUID>2001000058</GUID>
+      <Text>Sifter: Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2001000059</GUID>
+      <Text>Sieving processes</Text>
+    </Text>
+    <Text>
+      <GUID>2001000060</GUID>
+      <Text>Numerous machines for sieving silicon and finding mineral stones for metallurgy.</Text>
+    </Text>
+    <Text>
+      <GUID>2001000061</GUID>
+      <Text>Sifter: Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2001000062</GUID>
+      <Text>The experience of sifting the seas has made it possible to recover more ore, which is particularly prized by the metallurgical sector.</Text>
+    </Text>
+    <Text>
+      <GUID>2001000063</GUID>
+      <Text>Sieving limestone</Text>
+    </Text>
+    <Text>
+      <GUID>2001000064</GUID>
+      <Text>This gravelly deposit has been submerged for so long that erosion has taken its toll.</Text>
+    </Text>
+    <Text>
+      <GUID>2001000065</GUID>
+      <Text>Sifter: Limestone</Text>
+    </Text>
+    <Text>
+      <GUID>2001000066</GUID>
+      <Text>Sieving gold</Text>
+    </Text>
+    <Text>
+      <GUID>2001000067</GUID>
+      <Text>Sifter: Gold</Text>
+    </Text>
+    <Text>
+      <GUID>2001000068</GUID>
+      <Text>Sieving copper</Text>
+    </Text>
+    <Text>
+      <GUID>2001000069</GUID>
+      <Text>Sifter: Copper</Text>
+    </Text>
+    <Text>
+      <GUID>2001000070</GUID>
+      <Text>Sieving zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2001000071</GUID>
+      <Text>Sifter: Zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2001000072</GUID>
+      <Text>Crushing processes</Text>
+    </Text>
+    <Text>
+      <GUID>2001000073</GUID>
+      <Text>A dedicated building with crushing machines and chains for large chunks of minerals and geodes.</Text>
+    </Text>
+    <Text>
+      <GUID>2001000074</GUID>
+      <Text>Crushing to iron</Text>
+    </Text>
+    <Text>
+      <GUID>2001000075</GUID>
+      <Text>Crusher: Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2001000076</GUID>
+      <Text>Please, be careful to not lean entirely above the crusher!</Text>
+    </Text>
+    <Text>
+      <GUID>2001000077</GUID>
+      <Text>Crushing to copper</Text>
+    </Text>
+    <Text>
+      <GUID>2001000078</GUID>
+      <Text>Crusher: Copper</Text>
+    </Text>
+    <Text>
+      <GUID>2001000079</GUID>
+      <Text>Crushing to zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2001000080</GUID>
+      <Text>Crusher: Zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2001000081</GUID>
+      <Text>Crushing to coal</Text>
+    </Text>
+    <Text>
+      <GUID>2001000082</GUID>
+      <Text>Crusher: Coal</Text>
+    </Text>
+    <Text>
+      <GUID>2001000083</GUID>
+      <Text>Crushing to gold</Text>
+    </Text>
+    <Text>
+      <GUID>2001000084</GUID>
+      <Text>Crusher: Gold</Text>
+    </Text>
+  </ModOp>
+</ModOps>

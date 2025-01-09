@@ -1,0 +1,59 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+	
+	<!--- TRAINS -->
+
+		<Text>
+			<GUID>2077040022</GUID>
+			<Text>Steam Loco Large</Text>
+		</Text>	
+		<Text>
+			<GUID>2077040023</GUID>
+			<Text>Black Hole Sun</Text>
+		</Text>	
+
+		<Text>
+			<GUID>2077040025</GUID>
+			<Text>Steam Loco Small</Text>
+		</Text>	
+		<Text>
+			<GUID>2077040026</GUID>
+			<Text>Little black dress, shapely and elegant</Text>
+		</Text>	
+
+		<Text>
+			<GUID>2077040028</GUID>
+			<Text>Steam Loco Small with Coal</Text>
+		</Text>	
+		<Text>
+			<GUID>2077040029</GUID>
+			<Text>The little black dress, shapely and elegant with an attachment</Text>
+		</Text>	
+
+	
+	<!--- STATIONS -->
+
+		<Text>
+			<GUID>2077040041</GUID>
+			<Text>Passenger</Text>
+		</Text>	
+
+		<Text>
+			<GUID>2077040043</GUID>
+			<Text>RailwayHall Large: Trainstation</Text>
+		</Text>	
+
+		<Text>
+			<GUID>2077040045</GUID>
+			<Text>Hauptbahnhof for Tourist transit</Text>
+		</Text>	
+
+		<Text>
+			<GUID>2077040047</GUID>
+			<Text>Hauptbahnhof - Tourist service</Text>
+		</Text>	
+
+	
+  </ModOp>
+</ModOps>

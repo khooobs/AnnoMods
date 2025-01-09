@@ -1,0 +1,75 @@
+<ModOps>
+  <!-- Text -->
+  <ModOp GUID="11147" Type="addNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505539</GUID>
+          <Name>Industry Module Category Infocorner</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505540</GUID>
+          <Name>Railway description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Tweaks -->
+  <Group>
+    <!-- Railway Infocorner -->
+    <ModOp GUID="1010136" Type="replace" Path="/Values/Standard/InfoDescription">
+      <InfoDescription>2143505540</InfoDescription>
+    </ModOp>
+
+    <!-- No Rail Connection Infolayer -->
+    <Group>
+      <ModOp GUID="2001218" Type="addNextSibling">
+        <Asset>
+          <Template>InfoLayerIcon</Template>
+          <Values>
+            <Standard>
+              <GUID>2143505541</GUID>
+              <Name>NoRailConnection</Name>
+              <ID>Infolayer_NoRailConnection</ID>
+            </Standard>
+            <InfoLayerIcon>
+              <Config>data/graphics/ui/infolayer3d/infolayer_a7_feedback_train_red.cfg</Config>
+            </InfoLayerIcon>
+          </Values>
+        </Asset>
+      </ModOp>
+      <ModOp GUID="2001218" Type="replace" Path="/Values/Text/">
+        <Text>
+          <TextOverride>2143505541</TextOverride>
+        </Text>
+      </ModOp>
+    </Group>
+
+    <!-- Goods cannot be traded -->
+    <Group>
+      <ModOp GUID="23210" Type="addNextSibling">
+        <Asset>
+          <Template>Text</Template>
+          <Values>
+            <Standard>
+              <GUID>2143505542</GUID>
+              <Name>Passive trade disabled</Name>
+            </Standard>
+          </Values>
+        </Asset>
+      </ModOp>
+      <ModOp GUID="23210" Type="replace" Path="/Values/Text/">
+        <Text>
+          <TextOverride>2143505542</TextOverride>
+        </Text>
+      </ModOp>
+    </Group>
+  </Group>
+</ModOps>

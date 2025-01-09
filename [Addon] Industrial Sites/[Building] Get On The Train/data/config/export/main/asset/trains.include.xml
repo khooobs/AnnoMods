@@ -1,0 +1,161 @@
+<ModOps>
+
+	<!-- changing default skin -->
+	<!--
+	<ModOp Type="replace" GUID="1010174" Path="Values/Object/Variations">
+		<Variations>
+			<Item>
+				<Filename>data\modgraphics\jdg\vehicle\railway\railway_steam_01.cfg</Filename>
+			</Item>
+		</Variations>
+	</ModOp>  
+	-->
+
+	<ModOp Type="replace" GUID="2001174" Path="Values/Trailer/TrailerCount">
+		<TrailerCount>5</TrailerCount>
+	</ModOp>
+
+
+	<!-- static trains -->
+
+	<ModOp Type="addNextSibling" GUID="2001174">
+		<Asset>
+			<Template>TrafficFeedbackUnit</Template>
+			<Values>
+				<Standard>
+					<GUID>2077040011</GUID>
+					<Name>Steam Train I</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\jdg\icon_train_steam_01.png</IconFilename>
+				</Standard>
+				<TrafficFeedbackUnit>
+					<UnitType>Train</UnitType>
+					<CfgPath>data\modgraphics\jdg\vehicle\railway\railway_steam_01.cfg</CfgPath>
+					<SpeedSource>Managed</SpeedSource>
+				</TrafficFeedbackUnit>
+				<Trailer>
+					<TrailerType>TrainStatic</TrailerType>
+					<TrailerCount>5</TrailerCount>
+					<TrailerEndPartCfgVariations>
+						<Item>
+							<CfgVariation>data\modgraphics\jdg\vehicle\railway\railway_cargo_02.cfg</CfgVariation>
+						</Item>
+					</TrailerEndPartCfgVariations>
+				</Trailer>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp Type="addNextSibling" GUID="2001174">
+		<Asset>
+			<Template>TrafficFeedbackUnit</Template>
+			<Values>
+				<Standard>
+					<GUID>2077040012</GUID>
+					<Name>Steam Train II</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\jdg\icon_train_steam_01.png</IconFilename>
+				</Standard>
+				<TrafficFeedbackUnit>
+					<UnitType>Train</UnitType>
+					<CfgPath>data\modgraphics\jdg\vehicle\railway\railway_steam_01.cfg</CfgPath>
+					<SpeedSource>Managed</SpeedSource>
+				</TrafficFeedbackUnit>
+				<Trailer>
+					<TrailerType>TrainStatic</TrailerType>
+					<TrailerCount>6</TrailerCount>
+					<TrailerMiddlePartCfgVariations>
+						<Item>
+							<CfgVariation>data\modgraphics\jdg\vehicle\railway\railway_tourism_02.cfg</CfgVariation>
+							<RelativeProbability>100</RelativeProbability>
+						</Item>
+						<Item>
+							<CfgVariation>data\modgraphics\jdg\vehicle\railway\railway_tourism_01.cfg</CfgVariation>
+							<RelativeProbability>100</RelativeProbability>
+						</Item>
+					</TrailerMiddlePartCfgVariations>
+					<TrailerEndPartCfgVariations>
+						<Item>
+							<CfgVariation>data\modgraphics\jdg\vehicle\railway\railway_mail_01.cfg</CfgVariation>
+							<FormationPriority>1</FormationPriority>
+						</Item>
+					</TrailerEndPartCfgVariations>
+				</Trailer>
+			</Values>
+		</Asset>
+	</ModOp>
+
+
+	<!-- Default Train [GUID: 2001175] / FeedbackUnitClass - adding new trains -->
+
+	<ModOp Type="add" GUID="2001175" Path="Values/TrafficFeedbackClass/UnitAssets">
+		<Item>
+			<UnitAsset>2077040011</UnitAsset>
+		</Item>
+		<Item>
+			<UnitAsset>2077040012</UnitAsset>
+		</Item>
+	</ModOp>
+	
+	<!-- sFeedbackBalancingModerate - trains new config  -->
+	
+	<ModOp Type="merge" GUID="2001096" Path="Values/FeedbackSessionDescription/TrailerStyleToCfgs/Oil/TrailerCfgs">
+		<TrailerCfgs>
+			<Item>
+				<RelativeProbability>200</RelativeProbability>
+				<TrailerCfg>data\graphics\vehicle\railway_oil_01\railway_oil_01.cfg</TrailerCfg>
+			</Item>
+			<Item>
+				<RelativeProbability>200</RelativeProbability>
+				<TrailerCfg>data\graphics\vehicle\railway_oil_02\railway_oil_02.cfg</TrailerCfg>
+			</Item>
+			<Item>
+				<RelativeProbability>100</RelativeProbability>
+				<TrailerCfg>data\graphics\vehicle\railway_cargo_01\railway_cargo_01.cfg</TrailerCfg>
+			</Item>
+			<Item>
+				<RelativeProbability>100</RelativeProbability>
+				<TrailerCfg>data\modgraphics\jdg\vehicle\railway\railway_cargo_02.cfg</TrailerCfg>
+			</Item>
+		</TrailerCfgs>
+	</ModOp>
+	
+	<!-- TRIGGERS -->
+	<ModOp Type="addNextSibling"
+	       GUID="130253">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>2077040102</GUID>
+					<Name>Unlock Steam Train</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionAlwaysTrue</Template>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action/>
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>2077040011</Asset>
+											</Item>
+											<Item>
+												<Asset>2077040012</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

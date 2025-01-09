@@ -1,0 +1,57 @@
+<ModOps>
+  <!-- Product -->
+  <Group>
+    <!-- Steel -->
+    <ModOp Type="addNextSibling" GUID="120021">
+        <Asset>
+          <Template>ProductStorageList</Template>
+          <Values>
+            <Standard>
+              <GUID>2143505534</GUID>
+              <Name>StrategicSteelStorageList</Name>
+            </Standard>
+            <ProductStorageList>
+              <ProductList>
+                <Item>
+                  <Product>2143505535</Product>
+                </Item>
+                <Item>
+                  <Product>1010566</Product>
+                </Item>
+              </ProductList>
+            </ProductStorageList>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>Product</Template>
+          <Values>
+            <Standard>
+              <GUID>2143505535</GUID>
+              <Name>Steel from Train Network</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_bulk_steel.png</IconFilename>
+              <InfoDescription>11765</InfoDescription>
+            </Standard>
+            <Locked/>
+            <Product>
+              <StorageLevel>Building</StorageLevel>
+              <ProductCategory>11703</ProductCategory>
+              <BasePrice>1</BasePrice>
+              <PathLayer>Railway</PathLayer>
+              <IsStrategicResource>1</IsStrategicResource>
+              <AssociatedRegion>Moderate</AssociatedRegion>
+              <ProductionRegions>
+                <Item>
+                  <RegionType>Moderate</RegionType>
+                </Item>
+              </ProductionRegions>
+              <HighscoreValueModifier>1</HighscoreValueModifier>
+            </Product>
+            <ExpeditionAttribute/>
+            <Text>
+              <TextOverride>1010219</TextOverride>
+            </Text>
+          </Values>
+        </Asset>
+    </ModOp>
+  </Group>
+</ModOps>

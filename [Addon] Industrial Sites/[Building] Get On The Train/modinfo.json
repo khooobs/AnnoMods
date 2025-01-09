@@ -1,0 +1,55 @@
+{
+  "Version": "1.0",
+  "ModID": "JDG_04_get_on_the_train",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": null,
+    "English": "Building",
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": null,
+    "English": "Get On The Train",
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "New locomotive models, passenger train, more trains, train platform for ornamental platform (passenger and cargo).",
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "Tourism, Industrial Zone",
+      "Dependant": "required"
+    }
+	],
+  "CreatorName": "JimDiGriz77",
+  "CreatorContact": "https://www.nexusmods.com/users/40898860",
+  "Image" : null
+}

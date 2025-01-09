@@ -1,0 +1,18 @@
+This mod adds to the game:
+- 3 new locomotive models
+- new variants of trains: passenger (tourist), freight train
+- new variants for RailwayHall Large building from DLC Industrial Pack for passengers / tourists (use Shift + V)
+
+It also unlocks an unused vanilla freight car and changes the composition of the default train by mixing it with oil cars.
+
+Railway platforms have been extended including RailwayHall Large, Guard House (use Shift+V). They match Jakob's "Railway Stations" mod from "Industrial Cities".
+
+Unfortunately, the passenger train behaves like a freight train and enters the port, so if it bothers you and you don't want new trainsets, but only locomotive models, comment or remove the line in the assets.xml file: <Include File="./trains.include.xml"/>
+
+The Industrial Pack DLC is required for railway structures.
+
+Compatibility:
+
+Full for "Railway Stations (Jakob)" mod. The locomotives fit and complement Jakob's lineup of great models - I recommend using this mod.
+
+Partial for "Train-Stations and Hotels". It's fine to use station buildings to build a separate network, but this mod replaces the default train, so mixed trains and the default vanilla skin won't work.

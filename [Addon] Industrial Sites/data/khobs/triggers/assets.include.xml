@@ -1,0 +1,133 @@
+<ModOps>
+  <ModOp GUID="130248" Type="addNextSibling">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000100</GUID>
+          <Name>Creative Trigger</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Values>
+              <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+            <Template>ConditionIsCreativeMode</Template>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2001000002</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2001000054</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2001000058</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2001000065</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2001000067</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2001000069</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2001000071</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2001000052</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2001000075</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2001000078</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2001000080</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2001000082</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2001000084</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000101</GUID>
+          <Name>Unlock Sandbox</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+                <ConditionPlayerCounter>
+                  <PlayerCounter>PopulationByLevel</PlayerCounter>
+                  <Context>15000003</Context>
+                  <CounterAmount>1</CounterAmount>
+                </ConditionPlayerCounter>
+              </Values>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2001000002</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>  
+  </ModOp>
+</ModOps>

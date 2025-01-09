@@ -1,0 +1,59 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+	
+	<!--- TRAINS -->
+
+		<Text>
+			<GUID>2077040022</GUID>
+			<Text>Duża parowóz</Text>
+		</Text>	
+		<Text>
+			<GUID>2077040023</GUID>
+			<Text>Black Hole Sun</Text>
+		</Text>	
+
+		<Text>
+			<GUID>2077040025</GUID>
+			<Text>Mały parowóz</Text>
+		</Text>	
+		<Text>
+			<GUID>2077040026</GUID>
+			<Text>Mała czarna, zgrabna i elegancka</Text>
+		</Text>	
+
+		<Text>
+			<GUID>2077040028</GUID>
+			<Text>Mały parowóz z tendrem</Text>
+		</Text>	
+		<Text>
+			<GUID>2077040029</GUID>
+			<Text>Mała czarna, zgrabna i elegancka z doczepką</Text>
+		</Text>	
+
+	
+	<!--- STATIONS -->
+
+		<Text>
+			<GUID>2077040041</GUID>
+			<Text>Pasażerowie</Text>
+		</Text>	
+
+		<Text>
+			<GUID>2077040043</GUID>
+			<Text>Duża Hala: Stacja kolejowa</Text>
+		</Text>	
+
+		<Text>
+			<GUID>2077040045</GUID>
+			<Text>Dworzec Centralny dla tranzytu turystów</Text>
+		</Text>	
+
+		<Text>
+			<GUID>2077040047</GUID>
+			<Text>Dworzec centralny - usługi turystyczne</Text>
+		</Text>	
+
+	
+  </ModOp>
+</ModOps>
