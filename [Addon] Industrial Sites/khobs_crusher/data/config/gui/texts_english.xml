@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2001000050</GUID>
+      <Text>Minerals</Text>
+    </Text>
+    <Text>
+      <GUID>2001000051</GUID>
+      <Text>The efforts of excavating the zone provides some extra stones, geodes and gravels that can be sieved for additionnal goods.</Text>
+    </Text>
+    <Text>
+      <GUID>2001000052</GUID>
+      <Text>Crusher: Blank</Text>
+    </Text>
+    <Text>
+      <GUID>2001000053</GUID>
+      <Text>Produce additionnal goods</Text>
+    </Text>
+    <Text>
+      <GUID>2001000072</GUID>
+      <Text>Crushing processes</Text>
+    </Text>
+    <Text>
+      <GUID>2001000073</GUID>
+      <Text>A dedicated building with crushing machines and chains for large chunks of minerals and geodes.</Text>
+    </Text>
+    <Text>
+      <GUID>2001000074</GUID>
+      <Text>Crusher: Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2001000075</GUID>
+      <Text>Crusher: Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2001000076</GUID>
+      <Text>Please, be careful to not lean entirely above the crusher!</Text>
+    </Text>
+    <Text>
+      <GUID>2001000077</GUID>
+      <Text>Crusher: Copper</Text>
+    </Text>
+    <Text>
+      <GUID>2001000078</GUID>
+      <Text>Crusher: Copper</Text>
+    </Text>
+    <Text>
+      <GUID>2001000079</GUID>
+      <Text>Crusher: Zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2001000080</GUID>
+      <Text>Crusher: Zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2001000081</GUID>
+      <Text>Crusher: Coal</Text>
+    </Text>
+    <Text>
+      <GUID>2001000082</GUID>
+      <Text>Crusher: Coal</Text>
+    </Text>
+    <Text>
+      <GUID>2001000083</GUID>
+      <Text>Crusher: Gold</Text>
+    </Text>
+    <Text>
+      <GUID>2001000084</GUID>
+      <Text>Crusher: Gold</Text>
+    </Text>
+  </ModOp>
+</ModOps>
