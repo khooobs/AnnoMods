@@ -97,7 +97,7 @@
 	
 	<!-- sFeedbackBalancingModerate - trains new config  -->
 	
-	<ModOp Type="merge" GUID="2001096" Path="Values/FeedbackSessionDescription/TrailerStyleToCfgs/Oil/TrailerCfgs">
+	<ModOp Type="merge" GUID="2001096" Path="Values/FeedbackSessionDescription/TrailerStyleToCfgs/Oil/TrailerCfgs/">
 		<TrailerCfgs>
 			<Item>
 				<RelativeProbability>200</RelativeProbability>
