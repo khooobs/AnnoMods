@@ -1,0 +1,32 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302134</GUID>
+        <Text>Текстильная фабрика</Text>
+      </Text>
+      <Text>
+        <GUID>1500302135</GUID>
+        <Text>Текстильный завод</Text>
+      </Text>
+      <Text>
+        <GUID>1500302136</GUID>
+        <Text>Прядильная фабрика</Text>
+      </Text>
+      <Text>
+        <GUID>1500302137</GUID>
+        <Text>Прядильный завод</Text>
+      </Text>
+      <Text>
+        <GUID>1500302139</GUID>
+        <Text>Льняная фабрика</Text>
+      </Text>
+      <Text>
+        <GUID>1500302146</GUID>
+        <Text>Швейная мастерская</Text>
+      </Text>
+      <Text>
+        <GUID>1500302147</GUID>
+        <Text>Парусный завод</Text>
+      </Text>
+  </ModOp>
+</ModOps>

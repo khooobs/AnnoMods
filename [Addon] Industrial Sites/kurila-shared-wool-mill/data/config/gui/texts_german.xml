@@ -1,0 +1,32 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302134</GUID>
+        <Text>Wollweberei</Text>
+      </Text>
+      <Text>
+        <GUID>1500302135</GUID>
+        <Text>Wollfabrik</Text>
+      </Text>
+      <Text>
+        <GUID>1500302136</GUID>
+        <Text>Garnspinnerei</Text>
+      </Text>
+      <Text>
+        <GUID>1500302137</GUID>
+        <Text>Garnfabrik</Text>
+      </Text>
+      <Text>
+        <GUID>1500302139</GUID>
+        <Text>Leinenfabrik</Text>
+      </Text>
+      <Text>
+        <GUID>1500302146</GUID>
+        <Text>Textilwerkstatt</Text>
+      </Text>
+      <Text>
+        <GUID>1500302147</GUID>
+        <Text>Segelfabik</Text>
+      </Text>
+  </ModOp>
+</ModOps>

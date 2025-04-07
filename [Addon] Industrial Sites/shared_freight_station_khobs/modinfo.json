@@ -1,0 +1,51 @@
+{
+	"Version": "1.0",
+	"ModID": "khobs_freight_station",
+	"IncompatibleIds": null,
+	"ModDependencies": [],
+	"LoadAfterIds": [
+		"shared_neutral_train"
+	],
+	"Category": {
+		"Chinese": "建筑",
+		"English": "Building",
+		"French": "Bâtiment",
+		"German": "Gebäude",
+		"Italian": "Edificio",
+		"Japanese": "建物",
+		"Korean": "건물",
+		"Polish": "Budowla",
+		"Russian": "Здание",
+		"Spanish": "Edificio",
+		"Taiwanese": "建築"
+	},
+	"ModName": {
+		"Chinese": "货运站",
+		"English": "Freight Station",
+		"French": "Gare de fret",
+		"German": "Güterbahnhof",
+		"Italian": "Stazione merci",
+		"Japanese": "貨物駅",
+		"Korean": "화물 역",
+		"Polish": "Stacja towarowa",
+		"Russian": "Грузовая станция",
+		"Spanish": "Estación de carga",
+		"Taiwanese": "貨運站"
+	},
+	"Description": {
+		"Chinese": null,
+		"English": "file::README.md",
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	},
+	"DLCDependencies": [],
+	"CreatorName": "Khobs",
+	"CreatorContact": "https://github.com/Khorbos/AnnoMods"
+}

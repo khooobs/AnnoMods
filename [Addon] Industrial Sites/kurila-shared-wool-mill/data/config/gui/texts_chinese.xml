@@ -1,0 +1,32 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302134</GUID>
+        <Text>织布厂</Text>
+      </Text>
+      <Text>
+        <GUID>1500302135</GUID>
+        <Text>大型织布厂</Text>
+      </Text>
+      <Text>
+        <GUID>1500302136</GUID>
+        <Text>纱线厂</Text>
+      </Text>
+      <Text>
+        <GUID>1500302137</GUID>
+        <Text>大型纱线厂</Text>
+      </Text>
+      <Text>
+        <GUID>1500302139</GUID>
+        <Text>大型亚麻磨坊</Text>
+      </Text>
+      <Text>
+        <GUID>1500302146</GUID>
+        <Text>纺织工厂</Text>
+      </Text>
+      <Text>
+        <GUID>1500302147</GUID>
+        <Text>大型船帆制造厂</Text>
+      </Text>
+  </ModOp>
+</ModOps>

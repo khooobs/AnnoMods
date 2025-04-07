@@ -1,0 +1,178 @@
+<ModOps>
+	<ModOp Type="addNextSibling" Template="HarborDepot">
+		<Template>
+			<Name>FreightDepot</Name>
+			<Properties>
+				<Standard/>
+				<Building>
+					<BuildingType>Logistic</BuildingType>
+					<BuildingCategoryName>11151</BuildingCategoryName>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AllowChangeVariation>1</AllowChangeVariation>
+				</Building>
+				<Blocking>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Mesh/>
+				<Object/>
+				<AmbientMoodProvider/>
+				<Constructable/>
+				<Selection/>
+				<Text/>
+				<Cost/>
+				<Attackable/>
+				<Warehouse/>
+				<StorageBase/>
+				<Locked/>
+				<Maintenance>
+					<IncomeCategory>InfrastructureBuildings</IncomeCategory>
+				</Maintenance>
+				<Pausable/>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<VectorElement>
+									<InheritedIndex>0</InheritedIndex>
+								</VectorElement>
+								<Sound>214784</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<IncidentSounds>
+						<ExplosionOneShots>
+							<Item>
+								<Sound>203849</Sound>
+							</Item>
+						</ExplosionOneShots>
+					</IncidentSounds>
+				</SoundEmitter>
+				<Infolayer/>
+				<UpgradeList/>
+				<LogisticNode/>
+				<FeedbackController/>
+			</Properties>
+		</Template>
+	</ModOp>
+	<ModOp Type="addNextSibling" Template="HarborWarehouseStrategic">
+		<Template>
+			<Name>FreightStation</Name>
+			<Properties>
+				<Standard />
+				<Text />
+				<Blocking />
+				<Building>
+					<BuildingType>Factory</BuildingType>
+				</Building>
+				<Cost />
+				<Selection>
+					<GUIType>RouteServiceModule</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+					<AllowedDragType>ItemSocket;CargoProductStack;CargoItemStack</AllowedDragType>
+					<UnlockSecondGUI>1500300092</UnlockSecondGUI>
+					<SecondGUIType>CoalOilHarbor</SecondGUIType>
+				</Selection>
+				<Object>
+					<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+				</Object>
+				<Constructable>
+					<DestructionCategory>Production</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+				</SoundEmitter>
+				<Locked />
+				<Infolayer />
+				<FeedbackController />
+				<Warehouse>
+					<WarehouseStorage>
+						<StorageMax>200</StorageMax>
+					</WarehouseStorage>
+					<StorageType>StrategicKontor</StorageType>
+				</Warehouse>
+				<LogisticNode>
+					<TransporterCountMax>5</TransporterCountMax>
+					<QueueConfiguration>
+						<ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
+					</QueueConfiguration>
+					<PathLayers>Railway</PathLayers>
+				</LogisticNode>
+				<MinimapToken>
+					<TokenAsset>2001544</TokenAsset>
+				</MinimapToken>
+				<AmbientMoodProvider />
+				<StorageBase />
+				<Attackable />
+				<Upgradable />
+				<Factory7>
+					<IsAgriculture>0</IsAgriculture>
+				</Factory7>
+				<Maintenance>
+					<IncomeCategory>InfrastructureBuildings</IncomeCategory>
+				</Maintenance>
+				<Pausable>
+					<CanPauseManually>1</CanPauseManually>
+				</Pausable>
+				<BuildingUnique />
+				<UpgradeList />
+				<TrainStation>
+					<MaxTrainCount>5</MaxTrainCount>
+				</TrainStation>
+			</Properties>
+		</Template>
+	</ModOp>
+</ModOps>

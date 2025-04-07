@@ -1,0 +1,60 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505305</GUID>
+      <Text>Freight Station</Text>
+    </Text>
+    <Text>
+      <GUID>2143505308</GUID>
+      <Text>A centralized train freight station to export, import or unload goods. Expandable with modules.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505314</GUID>
+      <Text>Freight Export Dock: Oil</Text>
+    </Text>
+    <Text>
+      <GUID>2143505319</GUID>
+      <Text>Freight Export Dock: Beer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505310</GUID>
+      <Text>Freight Export Dock: Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505311</GUID>
+      <Text>Freight Export Dock: Coal</Text>
+    </Text>
+    <Text>
+      <GUID>2143505313</GUID>
+      <Text>Freight Export Dock: Spectacles</Text>
+    </Text>
+    <Text>
+      <GUID>2143505312</GUID>
+      <Text>Freight Export Dock: Canned Food</Text>
+    </Text>
+    <Text>
+      <GUID>2143505306</GUID>
+      <Text>Freight Station Administration</Text>
+    </Text>
+    <Text>
+      <GUID>2143505309</GUID>
+      <Text>Increase capacity for trades agreement for the import/export of your products.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505315</GUID>
+      <Text>Import Freight Dock: Caoutchouc</Text>
+    </Text>
+    <Text>
+      <GUID>2143505316</GUID>
+      <Text>Import Freight Dock: Coffee</Text>
+    </Text>
+    <Text>
+      <GUID>2143505317</GUID>
+      <Text>Import Freight Dock: Felt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505318</GUID>
+      <Text>Import Freight Dock: Ethanol</Text>
+    </Text>
+  </ModOp>
+</ModOps>

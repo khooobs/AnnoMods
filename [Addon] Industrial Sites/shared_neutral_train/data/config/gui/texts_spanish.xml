@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>13658</GUID>
+      <Text>Almacenamiento de carga</Text>
+    </Text>
+    <Text>
+      <GUID>10947</GUID>
+      <Text>Permitir el transporte de mercancías en trenes.</Text>
+    </Text>
+    <Text>
+      <GUID>2001218</GUID>
+      <Text>Vía férrea perdida</Text>
+    </Text>
+    <Text>
+      <GUID>23210</GUID>
+      <Text>Este bien específico no puede ser el comercio.</Text>
+    </Text>
+    <Text>
+      <GUID>11597</GUID>
+      <Text>Capacidad total de carga</Text>
+    </Text>
+    <Text>
+      <GUID>11717</GUID>
+      <Text>Rutas Estratégicas</Text>
+    </Text>
+    <Text>
+      <GUID>11887</GUID>
+      <Text>Crea rutas para enviar mercancías estratégicas entre tus puertos.</Text>
+    </Text>
+    <Text>
+      <GUID>19153</GUID>
+      <Text>Crear Ruta Estratégica</Text>
+    </Text>
+    <Text>
+      <GUID>25530</GUID>
+      <Text>Usa barcos especiales para distribuir bienes estratégicos entre los puertos de las islas que controlas.</Text>
+    </Text>
+    <Text>
+      <GUID>5628</GUID>
+      <Text>Rutas Estratégicas</Text>
+    </Text>
+  </ModOp>
+</ModOps>
