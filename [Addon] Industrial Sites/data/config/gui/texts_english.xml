@@ -1,154 +1,386 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <GUID>2001000002</GUID>
-      <Text>Steel Head Office</Text>
-    </Text>
-    <Text>
-      <GUID>2001000003</GUID>
+      <GUID>2143505402</GUID>
       <Text>Industrial Site</Text>
     </Text>
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>Industrial Warehouse</Text>
+    </Text>
+    <Text>
+      <GUID>2143505404</GUID>
+      <Text>Accepts and distribute goods from, and to your industrial sites.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505405</GUID>
+      <Text>No Coal Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505406</GUID>
+      <Text>Supplied with Coal Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505407</GUID>
+      <Text>Coal Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505512</GUID>
+      <Text>A centralized coal depot. It is required by the steelworks industry.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505408</GUID>
+      <Text>Concrete Road</Text>
+    </Text>
+    <Text>
+      <GUID>2143505409</GUID>
+      <Text>Large Brick Wall Gate</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>Large Industries</Text>
+    </Text>
+    <Text>
+      <GUID>2143505451</GUID>
+      <Text>Textile Company</Text>
+    </Text>
+    <Text>
+      <GUID>2143505450</GUID>
+      <Text>Textiles</Text>
+    </Text>
+    <Text>
+      <GUID>2143505452</GUID>
+      <Text>Engineering Department</Text>
+    </Text>
+    <Text>
+      <GUID>2143505413</GUID>
+      <Text>The administrative core of your industry. Allows to build specific industrial buildings, modules and to have specialists for your industrial sites.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505420</GUID>
+      <Text>Bulk Steel</Text>
+    </Text>  
+    <Text>
+      <GUID>2143505421</GUID>
+      <Text>Steelworks Factory</Text>
+    </Text>  
+    <Text>
+      <GUID>2143505422</GUID>
+      <Text>This is the main factory module of your site. It needs a &lt;font overrideTextColor="true" color='#edc891'&gt;road and a railtrack connections&lt;/font&gt; to provide goods. Additionnal modules can be built to enhanced the production.</Text>
+    </Text>  
+    <Text>
+      <GUID>2143505423</GUID>
+      <Text>Steelworks Module</Text>
+    </Text>   
+    <Text>
+      <GUID>2143505424</GUID>
+      <Text>A module for the &lt;font overrideTextColor="true" color='#edc891'&gt;steel industry&lt;/font&gt;. You can also hire a specialist here to enhanced your productions.</Text>
+    </Text>  
+    <Text>
+      <GUID>2143505425</GUID>
+      <Text>Module efficiency</Text>
+    </Text>   
+    <Text>
+      <GUID>2143505411</GUID>
+      <Text>Ores</Text>
+    </Text>
+    <Text>
+      <GUID>2143505412</GUID>
+      <Text>Casting Steel Beams</Text>
+    </Text>   
+    <Text>
+      <GUID>2143505426</GUID>
+      <Text>Beam Foundry</Text>
+    </Text>   
+    <Text>
+      <GUID>2143505427</GUID>
+      <Text>Enables your steelworks to mix the production of ingots and &lt;font overrideTextColor="true" color='#edc891'&gt;casting steel beams&lt;/font&gt;, at the cost of a slighly reduced global yield.</Text>
+    </Text>    
+    <Text>
+      <GUID>2143505428</GUID>
+      <Text>Steelworks Module</Text>
+    </Text>      
+    <Text>
+      <GUID>2143505429</GUID>
+      <Text>Enables your steelworks to mix the production of ingots and casting steel beams, at the cost of a slighly reduced global yield.</Text>
+    </Text>     
+    <Text>
+      <GUID>2143505430</GUID>
+      <Text>Chimney</Text>
+    </Text>   
+    <Text>
+      <GUID>2143505431</GUID>
+      <Text>This is actually a chimney</Text>
+    </Text>
+    <Text>
+      <GUID>2143505432</GUID>
+      <Text>Chimney Productivity</Text>
+    </Text>  
+    <Text>
+      <GUID>2143505433</GUID>
+      <Text>The smoke is highter, and the people can breath air less populated.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505434</GUID>
+      <Text>Brick Wall Large Gate</Text>
+    </Text>
+    <Text>
+      <GUID>2143505435</GUID>
+      <Text>Casting steel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505436</GUID>
+      <Text>Metallurgy Expertise</Text>
+    </Text>
+    <Text>
+      <GUID>2143505437</GUID>
+      <Text>With these machines and the supervision of these sector experts, your metallurgy industry will experience productivity growth.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505438</GUID>
+      <Text>Metallurgy Expertise</Text>
+    </Text>
+    <Text>
+      <GUID>2143505439</GUID>
+      <Text>All this expertise in alloy casting makes it possible to recover slag from cast irons for use as aggregate in other industrial sectors.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505440</GUID>
+      <Text>Steelwork Company</Text>
+    </Text>
+    <Text>
+      <GUID>2143505441</GUID>
+      <Text>A dedicated engineering department for study how a large scale industrial steelworks can be used and be upgraded.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505442</GUID>
+      <Text>Your Industrial Modules</Text>
+    </Text>
+    <Text>
+      <GUID>2143505443</GUID>
+      <Text>Industrial Modules</Text>
+    </Text>
+    <Text>
+      <GUID>2143505444</GUID>
+      <Text>Unload Freight Dock: Steel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505445</GUID>
+      <Text>Connect this Dock to a &lt;font overrideTextColor="true" color='#edc891'&gt;freight station&lt;/font&gt; with railways to unload train supplied goods in the warehouse.</Text>
+    </Text>
 
+    <Text>
+      <GUID>2143505453</GUID>
+      <Text>Loom Factory</Text>
+    </Text>
+    <Text>
+      <GUID>2143505454</GUID>
+      <Text>Designs looms for the textile industry. It is essential to the smooth running of the industry.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505482</GUID>
+      <Text>Textile Mill Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505483</GUID>
+      <Text>Textile Mill Module Description</Text>
+    </Text>
+    <Text>
+      <GUID>2143505488</GUID>
+      <Text>TEXTILE FASHIONS</Text>
+    </Text>
+    <Text>
+      <GUID>2143505489</GUID>
+      <Text>Textile Fashions Description</Text>
+    </Text>
+    <Text>
+      <GUID>2143505490</GUID>
+      <Text>Textile Fashions Buff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505552</GUID>
+      <Text>Textile Fashions Buff Description</Text>
+    </Text>
+    <Text>
+      <GUID>2143505485</GUID>
+      <Text>TEXTILE MILLS</Text>
+    </Text>
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>Textile Mills Description</Text>
+    </Text>
+    <Text>
+      <GUID>2143505486</GUID>
+      <Text>Textile Mills Buff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505487</GUID>
+      <Text>Textile Mills Buff Description</Text>
+    </Text>
+    <Text>
+      <GUID>2143505491</GUID>
+      <Text>INDUSTRIAL MILLS</Text>
+    </Text>
+    <Text>
+      <GUID>2143505492</GUID>
+      <Text>Industrial Mills Description</Text>
+    </Text>
+    <Text>
+      <GUID>2143505494</GUID>
+      <Text>Industrial Mills Buff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505495</GUID>
+      <Text>Industrial Mills Buff Description</Text>
+    </Text>
+    <Text>
+      <GUID>2143505481</GUID>
+      <Text>Textile</Text>
+    </Text>
+    <Text>
+      <GUID>2143505484</GUID>
+      <Text>Textile Mill Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505455</GUID>
+      <Text>Looms</Text>
+    </Text>
+    <Text>
+      <GUID>2143505456</GUID>
+      <Text>No Looms</Text>
+    </Text>
+    <Text>
+      <GUID>2143505462</GUID>
+      <Text>Spinning Mill: Cotton</Text>
+    </Text>
+    <Text>
+      <GUID>2143505477</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Textiles from cotton&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>2143505459</GUID>
+      <Text>Spinning Mill: Wool</Text>
+    </Text>
+    <Text>
+      <GUID>2143505476</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Textiles from wool&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>2143505465</GUID>
+      <Text>Spinning Mill: Fur</Text>
+    </Text>
+    <Text>
+      <GUID>2143505478</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Textiles from fur&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>2143505468</GUID>
+      <Text>Spinning Mill: Linen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505480</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Textiles from linen&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>2143505471</GUID>
+      <Text>Spinning Mill: Felt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505479</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Textiles from felt&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>2143505474</GUID>
+      <Text>Spinning Mill: Blank</Text>
+    </Text>
+    <Text>
+      <GUID>2143505475</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Blank&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>2143505460</GUID>
+      <Text>Spinning Mill: Wool</Text>
+    </Text>
+    <Text>
+      <GUID>2143505463</GUID>
+      <Text>Spinning Mill: Cotton</Text>
+    </Text>
+    <Text>
+      <GUID>2143505466</GUID>
+      <Text>Spinning Mill: Fur</Text>
+    </Text>
+    <Text>
+      <GUID>2143505469</GUID>
+      <Text>Spinning Mill: Linen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505472</GUID>
+      <Text>Spinning Mill: Felt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505456</GUID>
+      <Text>No Looms</Text>
+    </Text>
+    <Text>
+      <GUID>2143505449</GUID>
+      <Text>Textiles</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505446</GUID>
+      <Text>Brick Wall Barrier Gate</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505498</GUID>
+      <Text>Framework Knitters</Text>
+    </Text>
+    <Text>
+      <GUID>2143505499</GUID>
+      <Text>Framework Knitters Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Framework Knitters Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Coat Maker</Text>
+    </Text>
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Coat Maker Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>Suits Maker</Text>
+    </Text>
+    <Text>
+      <GUID>2143505504</GUID>
+      <Text>Suits Maker Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>Tapestry Loom</Text>
+    </Text>
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Tapestry Loom Module</Text>
+    </Text>
     
     <Text>
-      <GUID>2001000050</GUID>
-      <Text>Minerals</Text>
-    </Text>
+      <GUID>2143505493</GUID>
+      <Text>Industrial Mills</Text>
+    </Text>    
+
     <Text>
-      <GUID>2001000051</GUID>
-      <Text>The efforts of excavating the zone provides some extra stones, geodes and gravels that can be sieved for additionnal goods.</Text>
+      <GUID>2143505447</GUID>
+      <Text>Brick Wall Large Barrier Gate</Text>
     </Text>
+
     <Text>
-      <GUID>2001000052</GUID>
-      <Text>Crusher: Blank</Text>
-    </Text>
-    <Text>
-      <GUID>2001000053</GUID>
-      <Text>Produce additionnal goods</Text>
-    </Text>
-    <Text>
-      <GUID>2001000054</GUID>
-      <Text>Sifter: Blank</Text>
-    </Text>
-    <Text>
-      <GUID>2001000055</GUID>
-      <Text>Produce additionnal goods</Text>
-    </Text>
-    <Text>
-      <GUID>2001000056</GUID>
-      <Text>Sieving processes</Text>
-    </Text>
-    <Text>
-      <GUID>2001000057</GUID>
-      <Text>Sieving iron</Text>
-    </Text>
-    <Text>
-      <GUID>2001000058</GUID>
-      <Text>Sifter: Iron</Text>
-    </Text>
-    <Text>
-      <GUID>2001000059</GUID>
-      <Text>Sieving processes</Text>
-    </Text>
-    <Text>
-      <GUID>2001000060</GUID>
-      <Text>Numerous machines for sieving silicon and finding mineral stones for metallurgy.</Text>
-    </Text>
-    <Text>
-      <GUID>2001000061</GUID>
-      <Text>Sifter: Iron</Text>
-    </Text>
-    <Text>
-      <GUID>2001000062</GUID>
-      <Text>The experience of sifting the seas has made it possible to recover more ore, which is particularly prized by the metallurgical sector.</Text>
-    </Text>
-    <Text>
-      <GUID>2001000063</GUID>
-      <Text>Sieving limestone</Text>
-    </Text>
-    <Text>
-      <GUID>2001000064</GUID>
-      <Text>This gravelly deposit has been submerged for so long that erosion has taken its toll.</Text>
-    </Text>
-    <Text>
-      <GUID>2001000065</GUID>
-      <Text>Sifter: Limestone</Text>
-    </Text>
-    <Text>
-      <GUID>2001000066</GUID>
-      <Text>Sieving gold</Text>
-    </Text>
-    <Text>
-      <GUID>2001000067</GUID>
-      <Text>Sifter: Gold</Text>
-    </Text>
-    <Text>
-      <GUID>2001000068</GUID>
-      <Text>Sieving copper</Text>
-    </Text>
-    <Text>
-      <GUID>2001000069</GUID>
-      <Text>Sifter: Copper</Text>
-    </Text>
-    <Text>
-      <GUID>2001000070</GUID>
-      <Text>Sieving zinc</Text>
-    </Text>
-    <Text>
-      <GUID>2001000071</GUID>
-      <Text>Sifter: Zinc</Text>
-    </Text>
-    <Text>
-      <GUID>2001000072</GUID>
-      <Text>Crushing processes</Text>
-    </Text>
-    <Text>
-      <GUID>2001000073</GUID>
-      <Text>A dedicated building with crushing machines and chains for large chunks of minerals and geodes.</Text>
-    </Text>
-    <Text>
-      <GUID>2001000074</GUID>
-      <Text>Crushing to iron</Text>
-    </Text>
-    <Text>
-      <GUID>2001000075</GUID>
-      <Text>Crusher: Iron</Text>
-    </Text>
-    <Text>
-      <GUID>2001000076</GUID>
-      <Text>Please, be careful to not lean entirely above the crusher!</Text>
-    </Text>
-    <Text>
-      <GUID>2001000077</GUID>
-      <Text>Crushing to copper</Text>
-    </Text>
-    <Text>
-      <GUID>2001000078</GUID>
-      <Text>Crusher: Copper</Text>
-    </Text>
-    <Text>
-      <GUID>2001000079</GUID>
-      <Text>Crushing to zinc</Text>
-    </Text>
-    <Text>
-      <GUID>2001000080</GUID>
-      <Text>Crusher: Zinc</Text>
-    </Text>
-    <Text>
-      <GUID>2001000081</GUID>
-      <Text>Crushing to coal</Text>
-    </Text>
-    <Text>
-      <GUID>2001000082</GUID>
-      <Text>Crusher: Coal</Text>
-    </Text>
-    <Text>
-      <GUID>2001000083</GUID>
-      <Text>Crushing to gold</Text>
-    </Text>
-    <Text>
-      <GUID>2001000084</GUID>
-      <Text>Crusher: Gold</Text>
+      <GUID>1010247</GUID>
+      <Text>Coats</Text>
     </Text>
   </ModOp>
 </ModOps>

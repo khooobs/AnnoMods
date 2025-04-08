@@ -1,177 +1,189 @@
 <ModOps>
-	<ModOp Type="addNextSibling" Path="//Template[Name='FactoryBuilding7']">
+	<ModOp Type="addNextSibling" Template="CultureBuilding">
 		<Template>
-			<Name>IndustryBuffFactoryModule</Name>
+			<Name>IndustrialBuilding</Name>
 			<Properties>
-				<Standard />
+				<Standard>
+					<InfoDescription>11143</InfoDescription>
+				</Standard>
 				<Building>
-          <BuildingCategoryName>2143505504</BuildingCategoryName>
 					<BuildingType>Factory</BuildingType>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<AssociatedRegions>Moderate</AssociatedRegions>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildingCategoryName>2143505402</BuildingCategoryName>
 				</Building>
-				<Blocking />
+				<Blocking/>
+				<Cost/>
 				<Object>
 					<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
 				</Object>
-				<Cost />
-				<Mesh />
+				<Mesh/>
 				<Selection>
-					<GUIType>Generic</GUIType>
+					<GUIType>Culture</GUIType>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
 						<Values>
-							<ActionList />
+							<ActionList/>
 						</Values>
 					</OnSelection>
-					<ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+					<AllowedDragType>ItemSocket;CargoItemStack;StorageItemStack;SharedTransferItem</AllowedDragType>
 				</Selection>
+				<Text/>
 				<Constructable>
-          <DestructionCategory>Production</DestructionCategory>
-        </Constructable>
+					<DestructionCategory>Production</DestructionCategory>
+				</Constructable>
+				<Locked/>
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
-						  <Sound>9818756</Sound>
+							<Sound>9818756</Sound>
 						</Item>
 					</DestroySounds>
 					<ConstructionSounds>
 						<BuildSuccessful>
-						  <Item>
-							<Sound>202368</Sound>
-						  </Item>
+							<Item>
+								<VectorElement>
+									<InheritedIndex>0</InheritedIndex>
+								</VectorElement>
+								<Sound>214786</Sound>
+							</Item>
 						</BuildSuccessful>
 						<BuildFailed>
-						  <Item>
-							<Sound>9818387</Sound>
-						  </Item>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
 						</BuildFailed>
 						<BuildMoveStart>
-						  <Item>
-							<Sound>9818755</Sound>
-						  </Item>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
 						</BuildMoveStart>
 						<BuildMoveSuccess>
-						  <Item>
-							<Sound>203995</Sound>
-						  </Item>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
 						</BuildMoveSuccess>
 						<BuildMoveEnd>
-						  <Item>
-							<Sound>200141</Sound>
-						  </Item>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
 						</BuildMoveEnd>
 					</ConstructionSounds>
-					<BuildingRepaired>
-						<Item>
-							<Sound>203866</Sound>
-						</Item>
-            		</BuildingRepaired>
-					<MaterialType>Metal</MaterialType>
 				</SoundEmitter>
-				<FactoryBase>
-					<ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
-          <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
-				</FactoryBase>
-				<Locked />
+				<FeedbackController>
+					<NightBehavior>HideAll</NightBehavior>
+				</FeedbackController>
+				<Infolayer/>
+				<UpgradeList/>
+				<Culture>
+					<!-- <CultureType>Factory</CultureType>-->
+					<UndiscoveredSet>14022</UndiscoveredSet>
+					<ModuleListHeader>2143505430</ModuleListHeader>
+					<OpenSetPages>2143505429</OpenSetPages>
+				</Culture>
+				<ModuleOwner>
+					<ModuleLimits>
+						<Main>
+							<Limit>25</Limit>
+						</Main>
+						<Pavilion>
+							<Limit>1</Limit>
+						</Pavilion>
+						<Connector>
+							<Limit>999</Limit>
+						</Connector>
+					</ModuleLimits>
+					<UseSingleModuleUpgrading>0</UseSingleModuleUpgrading>
+					<BlueprintModuleOption>
+						<ModuleButtonInfotip>1010471</ModuleButtonInfotip>
+						<!--Cultural Connectors InfoTip-->
+					</BlueprintModuleOption>
+				</ModuleOwner>
+				<AmbientMoodProvider/>
 				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
+					<TransporterCountMax>1</TransporterCountMax>
 				</LogisticNode>
+				<Factory7/>
+				<FactoryBase/>
 				<Maintenance>
-					<IncomeCategory>ProductionBuildings</IncomeCategory>
+					<IncomeCategory>CultureBuildings</IncomeCategory>
 				</Maintenance>
-				<Industrializable>
-					<BoostedByIndustrialization>0</BoostedByIndustrialization>
-				</Industrializable>
+				<Attackable>
+					<HasRuinState>1</HasRuinState>
+				</Attackable>
 				<IncidentInfectable>
 					<Infectable>
 						<Fire>
-							<Communication>FireIndustry</Communication>
+							<Base>0</Base>
 						</Fire>
 						<Riot>
-							<Communication>RiotIndustry</Communication>
-							<InitiallySpreadToSameGUID>1</InitiallySpreadToSameGUID>
+							<Base>0</Base>
 						</Riot>
 						<Illness>
 							<Base>0</Base>
-							<Escalated>0</Escalated>
-							<Communication>IllnessIndustry</Communication>
 						</Illness>
-						<Explosion>
-							<Communication>ExplosionIndustry</Communication>
-							<Base>0</Base>
-                            <Escalated>0</Escalated>
-						</Explosion>
 					</Infectable>
-					<IncidentInfectionChanceFactors>
-              <Fire>
-                  <DensityDistance>20</DensityDistance>
-                  <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
-                  <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
-              </Fire>
-              <Riot>
-                  <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
-                  <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
-                  <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
-                  <HappinessThreshold>20</HappinessThreshold>
-              </Riot>
-          </IncidentInfectionChanceFactors>
 				</IncidentInfectable>
-				<Electrifiable />
-				<AmbientMoodProvider>
-					<DynamicEnvironmentType>Building_Industry</DynamicEnvironmentType>
-					<Murmur>Factory</Murmur>
-          		</AmbientMoodProvider>
-				<Attackable>
-					<AttackableType>IslandBuilding</AttackableType>
-            		<HasRuinState>1</HasRuinState>
-					<MaximumHitPoints>3500</MaximumHitPoints>
-            		<SelfHealPerHealTick>6</SelfHealPerHealTick>
-          		</Attackable>
-				<UpgradeList />
-				<Pausable>
-					<CanPauseManually>1</CanPauseManually>
-				</Pausable>
-				<FeedbackController>
-					<NightBehavior>HideNone</NightBehavior>
-				</FeedbackController>
-				<Infolayer />
-				<Culture />
-				<BuffFactory />
-				<Ornament />
+				<Pausable/>
+				<StreetActivation/>
+				<InfluenceSource>
+					<InfluenceSource>Culture</InfluenceSource>
+				</InfluenceSource>
 			</Properties>
 		</Template>
-
+	</ModOp>
+	<ModOp Type="addNextSibling" Template="CultureModule">
 		<Template>
-			<Name>WarehouseStrategic</Name>
+			<Name>IndustrialModule</Name>
 			<Properties>
-				<Standard />
-				<Text />
-				<Blocking />
+				<Standard/>
 				<Building>
-					<BuildingType>Factory</BuildingType>
+					<BuildingType>BuildingModule</BuildingType>
+					<BuildingCategoryName>2143505402</BuildingCategoryName>
 				</Building>
-				<Cost />
-				<Selection>
-					<GUIType>Generic</GUIType>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-					<AllowedDragType>ItemSocket;CargoProductStack;CargoItemStack</AllowedDragType>
-				</Selection>
+				<Blocking/>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>1</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010196</Ingredient>
+						</Item>
+						<Item>
+							<Ingredient>1010205</Ingredient>
+						</Item>
+						<Item>
+							<Ingredient>1010218</Ingredient>
+						</Item>
+						<Item>
+							<Ingredient>1010207</Ingredient>
+						</Item>
+						<Item>
+							<Ingredient>1010202</Ingredient>
+						</Item>
+					</Costs>
+				</Cost>
 				<Object>
 					<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
 				</Object>
+				<Mesh/>
+				<Selection>
+					<GUIType>Module</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList/>
+						</Values>
+					</OnSelection>
+					<AllowedDragType>ItemSocket;CargoItemStack;StorageItemStack</AllowedDragType>
+					<UnlockSecondGUI>1500300092</UnlockSecondGUI>
+					<SecondGUIType>Production</SecondGUIType>
+				</Selection>
+				<Text/>
 				<Constructable>
 					<DestructionCategory>Production</DestructionCategory>
 				</Constructable>
-				<Mesh />
+				<Locked/>
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -201,141 +213,50 @@
 						</BuildMoveEnd>
 					</ConstructionSounds>
 				</SoundEmitter>
-				<Locked />
-				<Infolayer />
-				<FeedbackController />
-				<Warehouse>
-					<WarehouseStorage>
-						<StorageMax>200</StorageMax>
-					</WarehouseStorage>
-					<StorageType>StrategicKontor</StorageType>
-				</Warehouse>
+				<FeedbackController>
+					<NightBehavior>HideAll</NightBehavior>
+				</FeedbackController>
+				<Infolayer/>
+				<BuildingModule>
+					<IsCulturalModule>1</IsCulturalModule>
+				</BuildingModule>
+				<ItemContainer>
+					<SocketCount>1</SocketCount>
+					<SocketAllocation>RadiusBuilding;GuildHouse;Mod1</SocketAllocation>
+					<SocketScope>ModuleOwner</SocketScope>
+				</ItemContainer>
+				<Attackable/>
+				<QuestObject/>
+				<AmbientMoodProvider>
+					<DynamicEnvironmentType>Fog</DynamicEnvironmentType>
+				</AmbientMoodProvider>
 				<LogisticNode>
 					<TransporterCountMax>0</TransporterCountMax>
-					<QueueConfiguration>
-						<ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
-					</QueueConfiguration>
-					<PathLayers>Railway</PathLayers>
 				</LogisticNode>
-				<MinimapToken>
-					<TokenAsset>2001544</TokenAsset>
-				</MinimapToken>
-				<AmbientMoodProvider />
-				<StorageBase />
-				<Attackable />
-				<Upgradable />
-				<Maintenance>
-					<IncomeCategory>InfrastructureBuildings</IncomeCategory>
-				</Maintenance>
-				<Pausable />
-				<BuildingUnique />
-				<UpgradeList />
-				<TrainStation />
-				<QuestObject />
+				<Factory7/>
+				<FactoryBase/>
 			</Properties>
 		</Template>
 	</ModOp>
 	<ModOp Type="addNextSibling" Template="HarborWarehouseStrategic">
 		<Template>
-			<Name>ProductionModuleBuilding</Name>
+			<Name>IndustrialWarehouse</Name>
 			<Properties>
-				<Standard />
-				<Building>
-					<BuildingType>BuildingModule</BuildingType>
-					<BuildingCategoryName>2143505509</BuildingCategoryName>
-					<BuildModeRandomRotation>180</BuildModeRandomRotation>
-					<AllowChangeVariation>1</AllowChangeVariation>
-				</Building>
-				<Blocking>
-					<DisableDefaultTrafficFeedback>1</DisableDefaultTrafficFeedback>
-				</Blocking>
-				<Cost />
-				<Object>
-					<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
-				</Object>
-				<Mesh />
-				<Selection>
-					<GUIType>Generic</GUIType>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-					<Colors>
-						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
-					</Colors>
-				</Selection>
-				<Text />
-				<Constructable>
-					<DestructionCategory>Production</DestructionCategory>
-				</Constructable>
-				<Locked>
-					<DefaultLockedState>0</DefaultLockedState>
-				</Locked>
-				<SoundEmitter>
-					<DestroySounds>
-						<Item>
-							<Sound>278974</Sound>
-						</Item>
-					</DestroySounds>
-					<ConstructionSounds>
-						<BuildSuccessful>
-							<Item>
-								<Sound>202402</Sound>
-							</Item>
-						</BuildSuccessful>
-						<BuildFailed>
-							<Item>
-								<Sound>9818387</Sound>
-							</Item>
-						</BuildFailed>
-						<BuildMoveStart>
-							<Item>
-								<Sound>9818755</Sound>
-							</Item>
-						</BuildMoveStart>
-						<BuildMoveSuccess>
-							<Item>
-								<Sound>202402</Sound>
-							</Item>
-						</BuildMoveSuccess>
-						<BuildMoveEnd>
-							<Item>
-								<Sound>200141</Sound>
-							</Item>
-						</BuildMoveEnd>
-					</ConstructionSounds>
-				</SoundEmitter>
-				<FeedbackController />
-				<Infolayer />
-				<BuffFactory />
-				<BuildingModule>
-					<PlazaSize>20</PlazaSize>
-				</BuildingModule>
-				<AmbientMoodProvider />
-				<ModuleIrrigation />
-			</Properties>
-		</Template>
-		<Template>
-			<Name>WarehouseStrategic</Name>
-			<Properties>
-				<Standard />
-				<Text />
-				<Blocking />
+				<Standard/>
+				<Text/>
+				<Blocking/>
 				<Building>
 					<BuildingType>Factory</BuildingType>
 				</Building>
-				<Cost />
+				<Cost/>
 				<Selection>
 					<GUIType>Generic</GUIType>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
 						<Values>
-							<ActionList />
+							<ActionList/>
 						</Values>
 					</OnSelection>
-					<AllowedDragType>ItemSocket;CargoProductStack;CargoItemStack</AllowedDragType>
 				</Selection>
 				<Object>
 					<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
@@ -343,67 +264,85 @@
 				<Constructable>
 					<DestructionCategory>Production</DestructionCategory>
 				</Constructable>
-				<Mesh />
+				<Mesh>
+					<LogoMode>CorporationLogoFromPlayer</LogoMode>
+					<SetCompanyLogo>1</SetCompanyLogo>
+				</Mesh>
 				<SoundEmitter>
+					<ActiveSounds>
+					<Item>
+						<Sound>282235</Sound>
+					</Item>
+					</ActiveSounds>
 					<DestroySounds>
-						<Item>
-							<Sound>9818756</Sound>
-						</Item>
+					<Item>
+						<Sound>9818756</Sound>
+					</Item>
 					</DestroySounds>
-					<ConstructionSounds>
-						<BuildFailed>
-							<Item>
-								<Sound>9818387</Sound>
-							</Item>
-						</BuildFailed>
-						<BuildMoveStart>
-							<Item>
-								<Sound>9818755</Sound>
-							</Item>
-						</BuildMoveStart>
-						<BuildMoveSuccess>
-							<Item>
-								<Sound>203995</Sound>
-							</Item>
-						</BuildMoveSuccess>
-						<BuildMoveEnd>
-							<Item>
-								<Sound>200141</Sound>
-							</Item>
-						</BuildMoveEnd>
-					</ConstructionSounds>
+					<IncidentSounds>
+					<InfectedFire>
+						<Item>
+						<Sound>214659</Sound>
+						</Item>
+					</InfectedFire>
+					</IncidentSounds>
+					<BuildingRepaired>
+					<Item>
+						<Sound>203866</Sound>
+					</Item>
+					</BuildingRepaired>
 				</SoundEmitter>
-				<Locked />
-				<Infolayer />
-				<FeedbackController />
+				<Locked/>
+				<Infolayer/>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
 				<Warehouse>
 					<WarehouseStorage>
-						<StorageMax>200</StorageMax>
+						<StorageMax>25</StorageMax>
 					</WarehouseStorage>
-					<StorageType>StrategicKontor</StorageType>
+					<StorageType>Depot</StorageType>
 				</Warehouse>
 				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
 					<QueueConfiguration>
-						<ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
+						<ProcessingQueueParallelCount>4</ProcessingQueueParallelCount>
 					</QueueConfiguration>
-					<PathLayers>Railway</PathLayers>
 				</LogisticNode>
-				<MinimapToken>
-					<TokenAsset>2001544</TokenAsset>
-				</MinimapToken>
-				<AmbientMoodProvider />
-				<StorageBase />
-				<Attackable />
-				<Upgradable />
+				<UpgradeList/>
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier1</AmbientMood>
+				</AmbientMoodProvider>
 				<Maintenance>
 					<IncomeCategory>InfrastructureBuildings</IncomeCategory>
 				</Maintenance>
-				<Pausable />
-				<BuildingUnique />
-				<UpgradeList />
-				<TrainStation />
-				<QuestObject />
+				<StorageBase>
+					<ProductStorageList>120055</ProductStorageList>
+				</StorageBase>
+				<Attackable>
+					<HasRuinState>1</HasRuinState>
+				</Attackable>
+				<Pausable/>
+				<BuildingUnique/>
+				<ModuleOwner/>
+				<Hacienda>
+					<HaciendaRadius>0</HaciendaRadius>
+					<AdditionalRadiusThresholds />
+					<Policies />
+				</Hacienda>
+				<IncidentInfectable>
+					<Infectable>
+						<Illness>
+							<Base>0</Base>
+							<Escalated>0</Escalated>
+						</Illness>
+						<Explosion>
+							<Base>0</Base>
+							<Escalated>0</Escalated>
+						</Explosion>
+					</Infectable>
+				</IncidentInfectable>
+				<PublicService/>
+				<Culture/>
 			</Properties>
 		</Template>
 	</ModOp>

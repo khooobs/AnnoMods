@@ -1,79 +1,71 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <GUID>2001000053</GUID>
+      <GUID>2143505519</GUID>
       <Text>Produce additionnal goods</Text>
     </Text>
     <Text>
-      <GUID>2001000054</GUID>
+      <GUID>2143505536</GUID>
       <Text>Sifter: Blank</Text>
     </Text>
     <Text>
-      <GUID>2001000055</GUID>
+      <GUID>2143505537</GUID>
       <Text>Produce additionnal goods</Text>
     </Text>
     <Text>
-      <GUID>2001000056</GUID>
+      <GUID>2143505538</GUID>
       <Text>Sieving processes</Text>
     </Text>
     <Text>
-      <GUID>2001000057</GUID>
+      <GUID>2143505540</GUID>
       <Text>Sifter: Iron</Text>
     </Text>
     <Text>
-      <GUID>2001000058</GUID>
+      <GUID>2143505542</GUID>
       <Text>Sifter: Iron</Text>
     </Text>
     <Text>
-      <GUID>2001000059</GUID>
-      <Text>Sieving processes</Text>
-    </Text>
-    <Text>
-      <GUID>2001000060</GUID>
+      <GUID>2143505539</GUID>
       <Text>Numerous machines for sieving silicon and finding mineral stones for metallurgy.</Text>
     </Text>
     <Text>
-      <GUID>2001000061</GUID>
-      <Text>Sifter: Iron</Text>
-    </Text>
-    <Text>
-      <GUID>2001000062</GUID>
+      <GUID>2143505541</GUID>
       <Text>The experience of sifting the seas has made it possible to recover more ore, which is particularly prized by the metallurgical sector.</Text>
     </Text>
     <Text>
-      <GUID>2001000063</GUID>
+      <GUID>2143505543</GUID>
       <Text>Sifter: Limestone</Text>
     </Text>
     <Text>
-      <GUID>2001000064</GUID>
+      <GUID>2143505544</GUID>
       <Text>This gravelly deposit has been submerged for so long that erosion has taken its toll.</Text>
     </Text>
     <Text>
-      <GUID>2001000065</GUID>
+      <GUID>2143505545</GUID>
       <Text>Sifter: Limestone</Text>
     </Text>
     <Text>
-      <GUID>2001000066</GUID>
+      <GUID>2143505546</GUID>
       <Text>Sifter: Gold</Text>
     </Text>
     <Text>
-      <GUID>2001000067</GUID>
+      <GUID>2143505547</GUID>
       <Text>Sifter: Gold</Text>
     </Text>
     <Text>
-      <GUID>2001000068</GUID>
+      <GUID>2143505548</GUID>
       <Text>Sifter: Copper</Text>
     </Text>
     <Text>
-      <GUID>2001000069</GUID>
+      <GUID>2143505549</GUID>
       <Text>Sifter: Copper</Text>
     </Text>
     <Text>
-      <GUID>2001000070</GUID>
+      <GUID>2143505550</GUID>
       <Text>Sifter: Zinc</Text>
     </Text>
     <Text>
-      <GUID>2001000071</GUID>
+      <GUID>2143505551</GUID>
       <Text>Sifter: Zinc</Text>
     </Text>
   </ModOp>

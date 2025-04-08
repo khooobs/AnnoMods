@@ -1,71 +1,71 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <GUID>2001000050</GUID>
+      <GUID>2143505516</GUID>
       <Text>Minerals</Text>
     </Text>
     <Text>
-      <GUID>2001000051</GUID>
+      <GUID>2143505517</GUID>
       <Text>The efforts of excavating the zone provides some extra stones, geodes and gravels that can be sieved for additionnal goods.</Text>
     </Text>
     <Text>
-      <GUID>2001000052</GUID>
+      <GUID>2143505518</GUID>
       <Text>Crusher: Blank</Text>
     </Text>
     <Text>
-      <GUID>2001000053</GUID>
+      <GUID>2143505519</GUID>
       <Text>Produce additionnal goods</Text>
     </Text>
     <Text>
-      <GUID>2001000072</GUID>
+      <GUID>2143505520</GUID>
       <Text>Crushing processes</Text>
     </Text>
     <Text>
-      <GUID>2001000073</GUID>
+      <GUID>2143505521</GUID>
       <Text>A dedicated building with crushing machines and chains for large chunks of minerals and geodes.</Text>
     </Text>
     <Text>
-      <GUID>2001000074</GUID>
+      <GUID>2143505524</GUID>
       <Text>Crusher: Iron</Text>
     </Text>
     <Text>
-      <GUID>2001000075</GUID>
+      <GUID>2143505522</GUID>
       <Text>Crusher: Iron</Text>
     </Text>
     <Text>
-      <GUID>2001000076</GUID>
+      <GUID>2143505523</GUID>
       <Text>Please, be careful to not lean entirely above the crusher!</Text>
     </Text>
     <Text>
-      <GUID>2001000077</GUID>
+      <GUID>2143505525</GUID>
       <Text>Crusher: Copper</Text>
     </Text>
     <Text>
-      <GUID>2001000078</GUID>
+      <GUID>2143505526</GUID>
       <Text>Crusher: Copper</Text>
     </Text>
     <Text>
-      <GUID>2001000079</GUID>
+      <GUID>2143505527</GUID>
       <Text>Crusher: Zinc</Text>
     </Text>
     <Text>
-      <GUID>2001000080</GUID>
+      <GUID>2143505528</GUID>
       <Text>Crusher: Zinc</Text>
     </Text>
     <Text>
-      <GUID>2001000081</GUID>
+      <GUID>2143505529</GUID>
       <Text>Crusher: Coal</Text>
     </Text>
     <Text>
-      <GUID>2001000082</GUID>
+      <GUID>2143505530</GUID>
       <Text>Crusher: Coal</Text>
     </Text>
     <Text>
-      <GUID>2001000083</GUID>
+      <GUID>2143505531</GUID>
       <Text>Crusher: Gold</Text>
     </Text>
     <Text>
-      <GUID>2001000084</GUID>
+      <GUID>2143505532</GUID>
       <Text>Crusher: Gold</Text>
     </Text>
   </ModOp>

@@ -5,7 +5,7 @@
         <Template>Trigger</Template>
         <Values>
           <Standard>
-            <GUID>2001000089</GUID>
+            <GUID>2143505533</GUID>
             <Name>Creative Trigger</Name>
             <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
           </Standard>
@@ -27,7 +27,7 @@
                     <ActionUnlockAsset>
                       <UnlockAssets>
                         <Item>
-                          <Asset>2001000085</Asset>
+                          <Asset>2143505535</Asset>
                         </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>
@@ -49,7 +49,7 @@
         <Template>Trigger</Template>
         <Values>
           <Standard>
-            <GUID>2001000090</GUID>
+            <GUID>2143505534</GUID>
             <Name>Unlock Sandbox</Name>
           </Standard>
           <Trigger>
@@ -76,7 +76,7 @@
                     <ActionUnlockAsset>
                       <UnlockAssets>
                         <Item>
-                          <Asset>2001000085</Asset>
+                          <Asset>2143505535</Asset>
                         </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>
@@ -103,10 +103,10 @@
         <Template>Multifactory</Template>
         <Values>
           <Standard>
-            <GUID>2001000054</GUID>
+            <GUID>2143505536</GUID>
             <Name>Sifter: Blank</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_siever.png</IconFilename>
-            <InfoDescription>2001000055</InfoDescription>
+            <InfoDescription>2143505537</InfoDescription>
           </Standard>
           <Building>
             <BuildingCategoryName>100000</BuildingCategoryName>
@@ -121,7 +121,7 @@
               </Item>
             </Variations>
             <Skins>
-              <DefaultSkinName>2001000054</DefaultSkinName>
+              <DefaultSkinName>2143505536</DefaultSkinName>
               <DefaultSkinDescription>23853</DefaultSkinDescription>
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
@@ -240,7 +240,7 @@
           <FeedbackController/>
           <Infolayer/>
           <RecipeBuilding>
-            <RecipeList>2001000056</RecipeList>
+            <RecipeList>2143505538</RecipeList>
             <IsBlank>1</IsBlank>
           </RecipeBuilding>
           <Culture>
@@ -252,31 +252,31 @@
         <Template>RecipeList</Template>
         <Values>
           <Standard>
-            <GUID>2001000056</GUID>
+            <GUID>2143505538</GUID>
             <Name>RecipeList_Sifter</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_multifactory_assembly_line.png</IconFilename>
           </Standard>
           <RecipeList>
             <Recipes>
               <Item>
-                <Recipe>2001000057</Recipe>
+                <Recipe>2143505540</Recipe>
               </Item>
               <Item>
-                <Recipe>2001000063</Recipe>
+                <Recipe>2143505543</Recipe>
               </Item>
               <Item>
-                <Recipe>2001000066</Recipe>
+                <Recipe>2143505546</Recipe>
               </Item>
               <Item>
-                <Recipe>2001000068</Recipe>
+                <Recipe>2143505548</Recipe>
               </Item>
               <Item>
-                <Recipe>2001000070</Recipe>
+                <Recipe>2143505550</Recipe>
               </Item>
             </Recipes>
             <RecipeListType>DropGood</RecipeListType>
             <RecipeListMoodImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_assembly_line.png</RecipeListMoodImage>
-            <RecipeListDescription>2001000060</RecipeListDescription>
+            <RecipeListDescription>2143505539</RecipeListDescription>
           </RecipeList>
         </Values>
       </Asset>
@@ -284,13 +284,13 @@
         <Template>Recipe</Template>
         <Values>
           <Standard>
-            <GUID>2001000057</GUID>
+            <GUID>2143505540</GUID>
             <Name>Recipe_Iron</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_iron.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeBuilding>2001000058</RecipeBuilding>
-            <RecipeDescriptionText>2001000062</RecipeDescriptionText>
+            <RecipeBuilding>2143505542</RecipeBuilding>
+            <RecipeDescriptionText>2143505541</RecipeDescriptionText>
             <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_assembly_line.png</RecipeImage>
             <RecipeIngredientUIData>
               <Item>
@@ -316,10 +316,10 @@
         <Template>Multifactory</Template>
         <Values>
           <Standard>
-            <GUID>2001000058</GUID>
+            <GUID>2143505542</GUID>
             <Name>Sifter: Iron</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_siever.png</IconFilename>
-            <InfoDescription>2001000053</InfoDescription>
+            <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
             <BuildingCategoryName>100000</BuildingCategoryName>
@@ -334,7 +334,7 @@
               </Item>
             </Variations>
             <Skins>
-              <DefaultSkinName>2001000058</DefaultSkinName>
+              <DefaultSkinName>2143505542</DefaultSkinName>
               <DefaultSkinDescription>23853</DefaultSkinDescription>
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
@@ -468,7 +468,7 @@
           <FeedbackController/>
           <Infolayer/>
           <RecipeBuilding>
-            <RecipeList>2001000056</RecipeList>
+            <RecipeList>2143505538</RecipeList>
             <IsBlank>0</IsBlank>
           </RecipeBuilding>
           <Culture>
@@ -480,13 +480,13 @@
         <Template>Recipe</Template>
         <Values>
           <Standard>
-            <GUID>2001000063</GUID>
+            <GUID>2143505543</GUID>
             <Name>Recipe_Limestone</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_cement.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeBuilding>2001000065</RecipeBuilding>
-            <RecipeDescriptionText>2001000064</RecipeDescriptionText>
+            <RecipeBuilding>2143505545</RecipeBuilding>
+            <RecipeDescriptionText>2143505544</RecipeDescriptionText>
             <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_assembly_line.png</RecipeImage>
             <RecipeIngredientUIData>
               <Item>
@@ -512,10 +512,10 @@
         <Template>Multifactory</Template>
         <Values>
           <Standard>
-            <GUID>2001000065</GUID>
+            <GUID>2143505545</GUID>
             <Name>Sifter: Limestone</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_siever.png</IconFilename>
-            <InfoDescription>2001000053</InfoDescription>
+            <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
             <BuildingCategoryName>100000</BuildingCategoryName>
@@ -530,7 +530,7 @@
               </Item>
             </Variations>
             <Skins>
-              <DefaultSkinName>2001000065</DefaultSkinName>
+              <DefaultSkinName>2143505545</DefaultSkinName>
               <DefaultSkinDescription>23853</DefaultSkinDescription>
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
@@ -664,7 +664,7 @@
           <FeedbackController/>
           <Infolayer/>
           <RecipeBuilding>
-            <RecipeList>2001000056</RecipeList>
+            <RecipeList>2143505538</RecipeList>
             <IsBlank>0</IsBlank>
           </RecipeBuilding>
           <Culture>
@@ -676,13 +676,13 @@
         <Template>Recipe</Template>
         <Values>
           <Standard>
-            <GUID>2001000066</GUID>
+            <GUID>2143505546</GUID>
             <Name>Recipe_Gold</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_gold_ore.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeBuilding>2001000067</RecipeBuilding>
-            <RecipeDescriptionText>2001000062</RecipeDescriptionText>
+            <RecipeBuilding>2143505547</RecipeBuilding>
+            <RecipeDescriptionText>2143505541</RecipeDescriptionText>
             <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_assembly_line.png</RecipeImage>
             <RecipeIngredientUIData>
               <Item>
@@ -708,10 +708,10 @@
         <Template>Multifactory</Template>
         <Values>
           <Standard>
-            <GUID>2001000067</GUID>
+            <GUID>2143505547</GUID>
             <Name>Sifter: Gold</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_siever.png</IconFilename>
-            <InfoDescription>2001000053</InfoDescription>
+            <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
             <BuildingCategoryName>100000</BuildingCategoryName>
@@ -726,7 +726,7 @@
               </Item>
             </Variations>
             <Skins>
-              <DefaultSkinName>2001000066</DefaultSkinName>
+              <DefaultSkinName>2143505546</DefaultSkinName>
               <DefaultSkinDescription>23853</DefaultSkinDescription>
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
@@ -860,7 +860,7 @@
           <FeedbackController/>
           <Infolayer/>
           <RecipeBuilding>
-            <RecipeList>2001000066</RecipeList>
+            <RecipeList>2143505546</RecipeList>
             <IsBlank>0</IsBlank>
           </RecipeBuilding>
           <Culture>
@@ -872,13 +872,13 @@
         <Template>Recipe</Template>
         <Values>
           <Standard>
-            <GUID>2001000068</GUID>
+            <GUID>2143505548</GUID>
             <Name>Recipe_Copper</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_copper.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeBuilding>2001000069</RecipeBuilding>
-            <RecipeDescriptionText>2001000062</RecipeDescriptionText>
+            <RecipeBuilding>2143505549</RecipeBuilding>
+            <RecipeDescriptionText>2143505541</RecipeDescriptionText>
             <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_assembly_line.png</RecipeImage>
             <RecipeIngredientUIData>
               <Item>
@@ -904,10 +904,10 @@
         <Template>Multifactory</Template>
         <Values>
           <Standard>
-            <GUID>2001000069</GUID>
+            <GUID>2143505549</GUID>
             <Name>Sifter: Copper</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_siever.png</IconFilename>
-            <InfoDescription>2001000053</InfoDescription>
+            <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
             <BuildingCategoryName>100000</BuildingCategoryName>
@@ -922,7 +922,7 @@
               </Item>
             </Variations>
             <Skins>
-              <DefaultSkinName>2001000069</DefaultSkinName>
+              <DefaultSkinName>2143505549</DefaultSkinName>
               <DefaultSkinDescription>23853</DefaultSkinDescription>
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
@@ -1056,7 +1056,7 @@
           <FeedbackController/>
           <Infolayer/>
           <RecipeBuilding>
-            <RecipeList>2001000068</RecipeList>
+            <RecipeList>2143505548</RecipeList>
             <IsBlank>0</IsBlank>
           </RecipeBuilding>
           <Culture>
@@ -1068,13 +1068,13 @@
         <Template>Recipe</Template>
         <Values>
           <Standard>
-            <GUID>2001000070</GUID>
+            <GUID>2143505550</GUID>
             <Name>Recipe_Zinc</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_tin_ore.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeBuilding>2001000071</RecipeBuilding>
-            <RecipeDescriptionText>2001000062</RecipeDescriptionText>
+            <RecipeBuilding>2143505551</RecipeBuilding>
+            <RecipeDescriptionText>2143505541</RecipeDescriptionText>
             <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_assembly_line.png</RecipeImage>
             <RecipeIngredientUIData>
               <Item>
@@ -1100,10 +1100,10 @@
         <Template>Multifactory</Template>
         <Values>
           <Standard>
-            <GUID>2001000071</GUID>
+            <GUID>2143505551</GUID>
             <Name>Sifter: Zinc</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_siever.png</IconFilename>
-            <InfoDescription>2001000053</InfoDescription>
+            <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
             <BuildingCategoryName>100000</BuildingCategoryName>
@@ -1118,7 +1118,7 @@
               </Item>
             </Variations>
             <Skins>
-              <DefaultSkinName>2001000069</DefaultSkinName>
+              <DefaultSkinName>2143505549</DefaultSkinName>
               <DefaultSkinDescription>23853</DefaultSkinDescription>
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
@@ -1252,7 +1252,7 @@
           <FeedbackController/>
           <Infolayer/>
           <RecipeBuilding>
-            <RecipeList>2001000070</RecipeList>
+            <RecipeList>2143505550</RecipeList>
             <IsBlank>0</IsBlank>
           </RecipeBuilding>
           <Culture>
@@ -1264,46 +1264,46 @@
         <Template>AssetPool</Template>
         <Values>
           <Standard>
-            <GUID>2001000085</GUID>
+            <GUID>2143505535</GUID>
             <Name>AssetPool Sifter</Name>
           </Standard>
           <AssetPool>
             <AssetList>
               <Item>
-                <Asset>2001000057</Asset>
+                <Asset>2143505540</Asset>
               </Item>
               <Item>
-                <Asset>2001000063</Asset>
+                <Asset>2143505543</Asset>
               </Item>
               <Item>
-                <Asset>2001000066</Asset>
+                <Asset>2143505546</Asset>
               </Item>
               <Item>
-                <Asset>2001000068</Asset>
+                <Asset>2143505548</Asset>
               </Item>
               <Item>
-                <Asset>2001000070</Asset>
+                <Asset>2143505550</Asset>
               </Item>
               <Item>
-                <Asset>2001000054</Asset>
+                <Asset>2143505536</Asset>
               </Item>
               <Item>
-                <Asset>2001000056</Asset>
+                <Asset>2143505538</Asset>
               </Item>
               <Item>
-                <Asset>2001000058</Asset>
+                <Asset>2143505542</Asset>
               </Item>
               <Item>
-                <Asset>2001000065</Asset>
+                <Asset>2143505545</Asset>
               </Item>
               <Item>
-                <Asset>2001000067</Asset>
+                <Asset>2143505547</Asset>
               </Item>
               <Item>
-                <Asset>2001000069</Asset>
+                <Asset>2143505549</Asset>
               </Item>
               <Item>
-                <Asset>2001000071</Asset>
+                <Asset>2143505551</Asset>
               </Item>
             </AssetList>
           </AssetPool>
@@ -1312,7 +1312,7 @@
     </ModOp>
     <ModOp GUID="25000191" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010362']">
       <Item>
-        <Building>2001000054</Building>
+        <Building>2143505536</Building>
       </Item>
     </ModOp>
   </Group>

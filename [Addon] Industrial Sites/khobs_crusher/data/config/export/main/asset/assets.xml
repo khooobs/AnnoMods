@@ -5,7 +5,7 @@
         <Template>Trigger</Template>
         <Values>
           <Standard>
-            <GUID>2001000091</GUID>
+            <GUID>2143505513</GUID>
             <Name>Creative Trigger</Name>
             <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
           </Standard>
@@ -27,7 +27,7 @@
                     <ActionUnlockAsset>
                       <UnlockAssets>
                         <Item>
-                          <Asset>2001000086</Asset>
+                          <Asset>2143505515</Asset>
                         </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>
@@ -49,7 +49,7 @@
         <Template>Trigger</Template>
         <Values>
           <Standard>
-            <GUID>2001000092</GUID>
+            <GUID>2143505514</GUID>
             <Name>Unlock Sandbox</Name>
           </Standard>
           <Trigger>
@@ -76,7 +76,7 @@
                     <ActionUnlockAsset>
                       <UnlockAssets>
                         <Item>
-                          <Asset>2001000086</Asset>
+                          <Asset>2143505515</Asset>
                         </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>
@@ -103,10 +103,10 @@
         <Template>GuildhouseBuff</Template>
         <Values>
           <Standard>
-            <GUID>2001000050</GUID>
+            <GUID>2143505516</GUID>
             <Name>Mines additionnal goods default</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
-            <InfoDescription>2001000051</InfoDescription>
+            <InfoDescription>2143505517</InfoDescription>
           </Standard>
           <ItemEffect>
             <EffectTargets>
@@ -142,10 +142,10 @@
         <Template>Multifactory</Template>
         <Values>
           <Standard>
-            <GUID>2001000052</GUID>
+            <GUID>2143505518</GUID>
             <Name>Crusher: Blank</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_crusher.png</IconFilename>
-            <InfoDescription>2001000053</InfoDescription>
+            <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
             <BuildingCategoryName>100000</BuildingCategoryName>
@@ -160,7 +160,7 @@
               </Item>
             </Variations>
             <Skins>
-              <DefaultSkinName>2001000052</DefaultSkinName>
+              <DefaultSkinName>2143505518</DefaultSkinName>
               <DefaultSkinDescription>23853</DefaultSkinDescription>
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
@@ -279,7 +279,7 @@
           <FeedbackController/>
           <Infolayer/>
           <RecipeBuilding>
-            <RecipeList>2001000072</RecipeList>
+            <RecipeList>2143505520</RecipeList>
             <IsBlank>1</IsBlank>
           </RecipeBuilding>
           <Culture>
@@ -291,34 +291,34 @@
         <Template>RecipeList</Template>
         <Values>
           <Standard>
-            <GUID>2001000072</GUID>
+            <GUID>2143505520</GUID>
             <Name>RecipeList_Crusher</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_multifactory_assembly_line.png</IconFilename>
           </Standard>
           <RecipeList>
             <Recipes>
               <Item>
-                <Recipe>2001000074</Recipe>
+                <Recipe>2143505524</Recipe>
               </Item>
               <Item>
-                <Recipe>2001000077</Recipe>
+                <Recipe>2143505525</Recipe>
               </Item>
               <Item>
-                <Recipe>2001000079</Recipe>
+                <Recipe>2143505527</Recipe>
               </Item>
               <Item>
-                <Recipe>2001000081</Recipe>
+                <Recipe>2143505529</Recipe>
               </Item>
               <Item>
-                <Recipe>2001000083</Recipe>
+                <Recipe>2143505531</Recipe>
               </Item>
             </Recipes>
             <RecipeListType>DropGood</RecipeListType>
             <RecipeListMoodImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_assembly_line.png</RecipeListMoodImage>
-            <RecipeListDescription>2001000073</RecipeListDescription>
+            <RecipeListDescription>2143505521</RecipeListDescription>
           </RecipeList>
           <Building>
-            <BuildingCategoryName>2001000073</BuildingCategoryName>
+            <BuildingCategoryName>2143505521</BuildingCategoryName>
           </Building>
         </Values>
       </Asset>
@@ -326,13 +326,13 @@
         <Template>Recipe</Template>
         <Values>
           <Standard>
-            <GUID>2001000074</GUID>
+            <GUID>2143505524</GUID>
             <Name>Recipe_Iron</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_iron.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeBuilding>2001000075</RecipeBuilding>
-            <RecipeDescriptionText>2001000076</RecipeDescriptionText>
+            <RecipeBuilding>2143505522</RecipeBuilding>
+            <RecipeDescriptionText>2143505523</RecipeDescriptionText>
             <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_assembly_line.png</RecipeImage>
             <RecipeIngredientUIData>
               <Item>
@@ -358,10 +358,10 @@
         <Template>Multifactory</Template>
         <Values>
           <Standard>
-            <GUID>2001000075</GUID>
+            <GUID>2143505522</GUID>
             <Name>Crusher: Iron</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_crusher.png</IconFilename>
-            <InfoDescription>2001000053</InfoDescription>
+            <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
             <BuildingCategoryName>100000</BuildingCategoryName>
@@ -376,7 +376,7 @@
               </Item>
             </Variations>
             <Skins>
-              <DefaultSkinName>2001000058</DefaultSkinName>
+              <DefaultSkinName>2143505542</DefaultSkinName>
               <DefaultSkinDescription>23853</DefaultSkinDescription>
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
@@ -510,7 +510,7 @@
           <FeedbackController/>
           <Infolayer/>
           <RecipeBuilding>
-            <RecipeList>2001000072</RecipeList>
+            <RecipeList>2143505520</RecipeList>
             <IsBlank>0</IsBlank>
           </RecipeBuilding>
           <Culture>
@@ -522,13 +522,13 @@
         <Template>Recipe</Template>
         <Values>
           <Standard>
-            <GUID>2001000077</GUID>
+            <GUID>2143505525</GUID>
             <Name>Recipe_Copper</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_copper.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeBuilding>2001000078</RecipeBuilding>
-            <RecipeDescriptionText>2001000076</RecipeDescriptionText>
+            <RecipeBuilding>2143505526</RecipeBuilding>
+            <RecipeDescriptionText>2143505523</RecipeDescriptionText>
             <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_assembly_line.png</RecipeImage>
             <RecipeIngredientUIData>
               <Item>
@@ -554,10 +554,10 @@
         <Template>Multifactory</Template>
         <Values>
           <Standard>
-            <GUID>2001000078</GUID>
+            <GUID>2143505526</GUID>
             <Name>Crusher: Copper</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_crusher.png</IconFilename>
-            <InfoDescription>2001000053</InfoDescription>
+            <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
             <BuildingCategoryName>100000</BuildingCategoryName>
@@ -572,7 +572,7 @@
               </Item>
             </Variations>
             <Skins>
-              <DefaultSkinName>2001000058</DefaultSkinName>
+              <DefaultSkinName>2143505542</DefaultSkinName>
               <DefaultSkinDescription>23853</DefaultSkinDescription>
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
@@ -706,7 +706,7 @@
           <FeedbackController/>
           <Infolayer/>
           <RecipeBuilding>
-            <RecipeList>2001000072</RecipeList>
+            <RecipeList>2143505520</RecipeList>
             <IsBlank>0</IsBlank>
           </RecipeBuilding>
           <Culture>
@@ -718,13 +718,13 @@
         <Template>Recipe</Template>
         <Values>
           <Standard>
-            <GUID>2001000079</GUID>
+            <GUID>2143505527</GUID>
             <Name>Recipe_Zinc</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_tin_ore.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeBuilding>2001000080</RecipeBuilding>
-            <RecipeDescriptionText>2001000076</RecipeDescriptionText>
+            <RecipeBuilding>2143505528</RecipeBuilding>
+            <RecipeDescriptionText>2143505523</RecipeDescriptionText>
             <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_assembly_line.png</RecipeImage>
             <RecipeIngredientUIData>
               <Item>
@@ -750,10 +750,10 @@
         <Template>Multifactory</Template>
         <Values>
           <Standard>
-            <GUID>2001000080</GUID>
+            <GUID>2143505528</GUID>
             <Name>Crusher: Zinc</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_crusher.png</IconFilename>
-            <InfoDescription>2001000053</InfoDescription>
+            <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
             <BuildingCategoryName>100000</BuildingCategoryName>
@@ -768,7 +768,7 @@
               </Item>
             </Variations>
             <Skins>
-              <DefaultSkinName>2001000058</DefaultSkinName>
+              <DefaultSkinName>2143505542</DefaultSkinName>
               <DefaultSkinDescription>23853</DefaultSkinDescription>
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
@@ -902,7 +902,7 @@
           <FeedbackController/>
           <Infolayer/>
           <RecipeBuilding>
-            <RecipeList>2001000072</RecipeList>
+            <RecipeList>2143505520</RecipeList>
             <IsBlank>0</IsBlank>
           </RecipeBuilding>
           <Culture>
@@ -914,13 +914,13 @@
         <Template>Recipe</Template>
         <Values>
           <Standard>
-            <GUID>2001000081</GUID>
+            <GUID>2143505529</GUID>
             <Name>Recipe_Coal</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_coal.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeBuilding>2001000082</RecipeBuilding>
-            <RecipeDescriptionText>2001000076</RecipeDescriptionText>
+            <RecipeBuilding>2143505530</RecipeBuilding>
+            <RecipeDescriptionText>2143505523</RecipeDescriptionText>
             <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_assembly_line.png</RecipeImage>
             <RecipeIngredientUIData>
               <Item>
@@ -946,10 +946,10 @@
         <Template>Multifactory</Template>
         <Values>
           <Standard>
-            <GUID>2001000082</GUID>
+            <GUID>2143505530</GUID>
             <Name>Crusher: Coal</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_crusher.png</IconFilename>
-            <InfoDescription>2001000053</InfoDescription>
+            <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
             <BuildingCategoryName>100000</BuildingCategoryName>
@@ -964,7 +964,7 @@
               </Item>
             </Variations>
             <Skins>
-              <DefaultSkinName>2001000058</DefaultSkinName>
+              <DefaultSkinName>2143505542</DefaultSkinName>
               <DefaultSkinDescription>23853</DefaultSkinDescription>
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
@@ -1098,7 +1098,7 @@
           <FeedbackController/>
           <Infolayer/>
           <RecipeBuilding>
-            <RecipeList>2001000072</RecipeList>
+            <RecipeList>2143505520</RecipeList>
             <IsBlank>0</IsBlank>
           </RecipeBuilding>
           <Culture>
@@ -1110,13 +1110,13 @@
         <Template>Recipe</Template>
         <Values>
           <Standard>
-            <GUID>2001000083</GUID>
+            <GUID>2143505531</GUID>
             <Name>Recipe_Gold</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_gold_ore.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeBuilding>2001000084</RecipeBuilding>
-            <RecipeDescriptionText>2001000076</RecipeDescriptionText>
+            <RecipeBuilding>2143505532</RecipeBuilding>
+            <RecipeDescriptionText>2143505523</RecipeDescriptionText>
             <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_assembly_line.png</RecipeImage>
             <RecipeIngredientUIData>
               <Item>
@@ -1142,10 +1142,10 @@
         <Template>Multifactory</Template>
         <Values>
           <Standard>
-            <GUID>2001000084</GUID>
+            <GUID>2143505532</GUID>
             <Name>Crusher: Gold</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_crusher.png</IconFilename>
-            <InfoDescription>2001000053</InfoDescription>
+            <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
             <BuildingCategoryName>100000</BuildingCategoryName>
@@ -1160,7 +1160,7 @@
               </Item>
             </Variations>
             <Skins>
-              <DefaultSkinName>2001000058</DefaultSkinName>
+              <DefaultSkinName>2143505542</DefaultSkinName>
               <DefaultSkinDescription>23853</DefaultSkinDescription>
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
@@ -1294,7 +1294,7 @@
           <FeedbackController/>
           <Infolayer/>
           <RecipeBuilding>
-            <RecipeList>2001000072</RecipeList>
+            <RecipeList>2143505520</RecipeList>
             <IsBlank>0</IsBlank>
           </RecipeBuilding>
           <Culture>
@@ -1306,46 +1306,46 @@
         <Template>AssetPool</Template>
         <Values>
           <Standard>
-            <GUID>2001000086</GUID>
+            <GUID>2143505515</GUID>
             <Name>AssetPool Crusher</Name>
           </Standard>
           <AssetPool>
             <AssetList>
               <Item>
-                <Asset>2001000074</Asset>
+                <Asset>2143505524</Asset>
               </Item>
               <Item>
-                <Asset>2001000077</Asset>
+                <Asset>2143505525</Asset>
               </Item>
               <Item>
-                <Asset>2001000079</Asset>
+                <Asset>2143505527</Asset>
               </Item>
               <Item>
-                <Asset>2001000081</Asset>
+                <Asset>2143505529</Asset>
               </Item>
               <Item>
-                <Asset>2001000083</Asset>
+                <Asset>2143505531</Asset>
               </Item>
               <Item>
-                <Asset>2001000052</Asset>
+                <Asset>2143505518</Asset>
               </Item>
               <Item>
-                <Asset>2001000072</Asset>
+                <Asset>2143505520</Asset>
               </Item>
               <Item>
-                <Asset>2001000075</Asset>
+                <Asset>2143505522</Asset>
               </Item>
               <Item>
-                <Asset>2001000078</Asset>
+                <Asset>2143505526</Asset>
               </Item>
               <Item>
-                <Asset>2001000080</Asset>
+                <Asset>2143505528</Asset>
               </Item>
               <Item>
-                <Asset>2001000082</Asset>
+                <Asset>2143505530</Asset>
               </Item>
               <Item>
-                <Asset>2001000084</Asset>
+                <Asset>2143505532</Asset>
               </Item>
             </AssetList>
           </AssetPool>
@@ -1354,12 +1354,12 @@
     </ModOp>
     <ModOp GUID="100416,1010305,1010304,1010307,1010308,1010309" Type="replace" Path="Values/UpgradeList/">
       <UpgradeList>
-        <DefaultBuff>2001000050</DefaultBuff>
+        <DefaultBuff>2143505516</DefaultBuff>
       </UpgradeList>
     </ModOp>
     <ModOp GUID="25000191" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010362']">
       <Item>
-        <Building>2001000052</Building>
+        <Building>2143505518</Building>
       </Item>   
     </ModOp>
   </Group>
