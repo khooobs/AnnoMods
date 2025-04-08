@@ -2,7 +2,24 @@
   "Version": "1.0",
   "ModID": "khobs_industrial_modules",
   "IncompatibleIds": null,
-  "ModDependencies": [],
+  "ModDependencies": [
+    "JDG_04_get_on_the_train",
+    "lion053_Ornamental_Trains",
+    "khobs_crusher",
+    "khobs_sifter",
+    "shared_freight_station_khobs",
+    "Taludas_neutral_airport",
+    "shared_neutral_culture_modules",
+    "neutral_hacienda_genshi",
+    "shared_ui_change_kurila",
+    "shared_tradingcompany_taludas",
+    "shared-ground-textures-industry-jakob"    
+  ],
+  "LoadAfterIds": [
+    "shared_neutral_culture_modules",
+    "shared_neutral_train",
+    "shared_freight_station_khobs"
+  ],
   "Category": {
     "Chinese": null,
     "English": "Addon",
