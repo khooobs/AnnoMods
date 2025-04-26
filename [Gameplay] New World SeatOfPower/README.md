@@ -21,7 +21,8 @@ In addition, a specific palace has been added in the New World to make this regi
 
 ## Compatibility
 Fully compatible with:
--  Jakob's `New World Cities` mod.
+- Jakob's `New World Cities` mod.
+- New World Tourism mod.
 - If any other mods require compatibility, please let me know.
 
 ## Credits
