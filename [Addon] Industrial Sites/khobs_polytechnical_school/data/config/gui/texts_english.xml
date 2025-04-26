@@ -1,0 +1,188 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505555</GUID>
+      <Text>Polytechnical School</Text>
+    </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Polytechnical School Description</Text>
+    </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Access Polytechnical School</Text>
+    </Text>
+    <Text>
+      <GUID>2143505558</GUID>
+      <Text>Talent Development</Text>
+    </Text>
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>Polytechnicians</Text>
+    </Text>
+    <Text>
+      <GUID>2143505560</GUID>
+      <Text>CategoryDescriptionFluff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505561</GUID>
+      <Text>Polytechnicians</Text>
+    </Text>
+    <Text>
+      <GUID>2143505562</GUID>
+      <Text>DescriptionFluff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505563</GUID>
+      <Text>SelectionText</Text>
+    </Text>
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>RunningText</Text>
+    </Text>
+    <Text>
+      <GUID>2143505565</GUID>
+      <Text>RewardText</Text>
+    </Text>
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>2 specialist engineers</Text>
+    </Text>
+    <Text>
+      <GUID>2143505567</GUID>
+      <Text>Research</Text>
+    </Text>
+    <Text>
+      <GUID>2143505568</GUID>
+      <Text>GoodsOrPool RewardPool</Text>
+    </Text>
+    <Text>
+      <GUID>2143505569</GUID>
+      <Text>Polytechnicians</Text>
+    </Text>
+    <Text>
+      <GUID>2143505570</GUID>
+      <Text>Geologists</Text>
+    </Text>
+    <Text>
+      <GUID>2143505571</GUID>
+      <Text>Various geology specialists, useful for your minerals extractions.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505572</GUID>
+      <Text>Geologists</Text>
+    </Text>
+    <Text>
+      <GUID>2143505573</GUID>
+      <Text>Engineers</Text>
+    </Text>
+    <Text>
+      <GUID>2143505574</GUID>
+      <Text>Trained in various fields, they will be the progress of this century.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505575</GUID>
+      <Text>Engineers</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Chemists</Text>
+    </Text>
+    <Text>
+      <GUID>2143505580</GUID>
+      <Text>Scientists in a fast-growing discipline.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Chemists</Text>
+    </Text>
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>Agricultural experts</Text>
+    </Text>
+    <Text>
+      <GUID>2143505583</GUID>
+      <Text>Specialists who will play a crucial role in optimising plant production and sustainable farming practices.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>Agricultural experts</Text>
+    </Text>
+    <Text>
+      <GUID>2143505585</GUID>
+      <Text>Officers</Text>
+    </Text>
+    <Text>
+      <GUID>2143505586</GUID>
+      <Text>1 officer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505587</GUID>
+      <Text>Officers</Text>
+    </Text>
+    <Text>
+      <GUID>2143505588</GUID>
+      <Text>Army</Text>
+    </Text>
+    <Text>
+      <GUID>2143505589</GUID>
+      <Text>Artillery, logistics or infantry, these officers are the backbone of the military.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505590</GUID>
+      <Text>Army</Text>
+    </Text>
+    <Text>
+      <GUID>2143505576</GUID>
+      <Text>Navy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505577</GUID>
+      <Text>Trained in the most demanding of schools, these officers are the most renowned in the world.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505578</GUID>
+      <Text>Navy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505591</GUID>
+      <Text>Item Development</Text>
+    </Text>
+    <Text>
+      <GUID>2143505592</GUID>
+      <Text>Machines</Text>
+    </Text>
+    <Text>
+      <GUID>2143505593</GUID>
+      <Text>Item Development</Text>
+    </Text>
+    <Text>
+      <GUID>2143505594</GUID>
+      <Text>Machines</Text>
+    </Text>
+    <Text>
+      <GUID>2143505595</GUID>
+      <Text>2 tools or machines</Text>
+    </Text>
+    <Text>
+      <GUID>2143505596</GUID>
+      <Text>Field of Research</Text>
+    </Text>
+    <Text>
+      <GUID>2143505597</GUID>
+      <Text>Field of Research</Text>
+    </Text>
+    <Text>
+      <GUID>2143505598</GUID>
+      <Text>Possible Gain</Text>
+    </Text>
+    <Text>
+      <GUID>2143505599</GUID>
+      <Text>After a great deal of research and study, the polytechnicians finally came to their conclusions.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505600</GUID>
+      <Text>Research Demand</Text>
+    </Text>
+  </ModOp>
+</ModOps>

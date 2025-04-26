@@ -1,0 +1,48 @@
+{
+	"Version": "1.0",
+	"ModID": "khobs_polytechnical_school",
+	"IncompatibleIds": null,
+	"ModDependencies": [],
+	"Category": {
+		"Chinese": "建筑",
+		"English": "Building",
+		"French": "Bâtiment",
+		"German": "Gebäude",
+		"Italian": "Edificio",
+		"Japanese": "建物",
+		"Korean": "건물",
+		"Polish": "Budowla",
+		"Russian": "Здание",
+		"Spanish": "Edificio",
+		"Taiwanese": "建築"
+	},
+	"ModName": {
+		"Chinese": "理工学院",
+		"English": "Polytechnical School",
+		"French": "École polytechnique",
+		"German": "Polytechnische Schule",
+		"Italian": "Scuola Politecnica",
+		"Japanese": "ポリテクニカルスクール",
+		"Korean": "폴리테크니컬 스쿨",
+		"Polish": "Politechnika",
+		"Russian": "Политехническая школа",
+		"Spanish": "Escuela Politécnica",
+		"Taiwanese": "理工學院"
+	},
+	"Description": {
+		"Chinese": null,
+		"English": "file::README.md",
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	},
+	"DLCDependencies": [],
+	"CreatorName": "Khobs",
+	"CreatorContact": "https://github.com/Khorbos/AnnoMods"
+}
