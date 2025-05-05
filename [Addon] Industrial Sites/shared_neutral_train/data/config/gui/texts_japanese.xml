@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>13658</GUID>
+      <Text>貨物保管</Text>
+    </Text>
+    <Text>
+      <GUID>10947</GUID>
+      <Text>列車による商品の輸送を許可します。</Text>
+    </Text>
+    <Text>
+      <GUID>2001218</GUID>
+      <Text>線路の欠落</Text>
+    </Text>
+    <Text>
+      <GUID>23210</GUID>
+      <Text>この特定の商品は取引できません。</Text>
+    </Text>
+    <Text>
+      <GUID>11597</GUID>
+      <Text>総貨物容量</Text>
+    </Text>
+    <Text>
+      <GUID>11717</GUID>
+      <Text>戦略ルート</Text>
+    </Text>
+    <Text>
+      <GUID>11887</GUID>
+      <Text>港湾間で戦略物資を輸送するためのルートを作成します。</Text>
+    </Text>
+    <Text>
+      <GUID>19153</GUID>
+      <Text>戦略ルートの作成</Text>
+    </Text>
+    <Text>
+      <GUID>25530</GUID>
+      <Text>特別な船を使用して、支配する島の港間で戦略物資を分配します。</Text>
+    </Text>
+    <Text>
+      <GUID>5628</GUID>
+      <Text>戦略ルート</Text>
+    </Text>
+  </ModOp>
+</ModOps>

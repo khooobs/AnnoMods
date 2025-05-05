@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>13658</GUID>
+      <Text>화물 보관</Text>
+    </Text>
+    <Text>
+      <GUID>10947</GUID>
+      <Text>기차로 물품을 운송할 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2001218</GUID>
+      <Text>철도 선로 누락</Text>
+    </Text>
+    <Text>
+      <GUID>23210</GUID>
+      <Text>이 특정 재화는 거래가 될 수 없습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>11597</GUID>
+      <Text>총 화물 용량</Text>
+    </Text>
+    <Text>
+      <GUID>11717</GUID>
+      <Text>전략적 경로</Text>
+    </Text>
+    <Text>
+      <GUID>11887</GUID>
+      <Text>항구 간에 전략 물자를 운송할 수 있는 경로를 만드세요.</Text>
+    </Text>
+    <Text>
+      <GUID>19153</GUID>
+      <Text>전략적 경로 창출</Text>
+    </Text>
+    <Text>
+      <GUID>25530</GUID>
+      <Text>특수 함선을 사용하여 통제하는 섬의 항구 간에 전략 물자를 분배하십시오.</Text>
+    </Text>
+    <Text>
+      <GUID>5628</GUID>
+      <Text>전략적 경로</Text>
+    </Text>
+  </ModOp>
+</ModOps>
