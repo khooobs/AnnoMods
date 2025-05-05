@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>13658</GUID>
+      <Text>Entreposage de fret</Text>
+    </Text>
+    <Text>
+      <GUID>10947</GUID>
+      <Text>Permet le transport de marchandises par train.</Text>
+    </Text>
+    <Text>
+      <GUID>2001218</GUID>
+      <Text>Voie ferrée manquante</Text>
+    </Text>
+    <Text>
+      <GUID>23210</GUID>
+      <Text>Ce bien spécifique ne peut pas être échangé.</Text>
+    </Text>
+    <Text>
+      <GUID>11597</GUID>
+      <Text>Capacité totale de fret</Text>
+    </Text>
+    <Text>
+      <GUID>11717</GUID>
+      <Text>Itinéraires stratégiques</Text>
+    </Text>
+    <Text>
+      <GUID>11887</GUID>
+      <Text>Créez des itinéraires pour expédier des marchandises stratégiques entre vos ports.</Text>
+    </Text>
+    <Text>
+      <GUID>19153</GUID>
+      <Text>Créer un itinéraire stratégique</Text>
+    </Text>
+    <Text>
+      <GUID>25530</GUID>
+      <Text>Utilisez des navires spéciaux pour distribuer des marchandises stratégiques entre les ports des îles que vous contrôlez.</Text>
+    </Text>
+    <Text>
+      <GUID>5628</GUID>
+      <Text>Itinéraires stratégiques</Text>
+    </Text>
+  </ModOp>
+</ModOps>

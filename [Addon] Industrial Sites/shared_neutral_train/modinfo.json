@@ -1,0 +1,21 @@
+{
+  "Version": "1.0",
+  "ModID": "shared_neutral_train",
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "shared_ui_change_kurila"
+  ],
+  "LoadAfterIds": null,
+  "Category": {
+    "English": "Shared"
+  },
+  "ModName": {
+    "English": "Neutral Train"
+  },
+  "Description": {
+    "English": "Edit entries related to trains, oil harbor, and oil route to have a neutral/generic interface"
+  },
+  "DLCDependencies": null,
+  "CreatorName": "Drakkam, HierOnimus, Khobs",
+  "CreatorContact": "https://github.com/AnnoMods"
+}

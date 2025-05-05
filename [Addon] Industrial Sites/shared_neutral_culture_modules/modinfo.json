@@ -1,0 +1,19 @@
+{
+  "Version": "1.0",
+  "ModID": "shared_neutral_culture_modules",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "LoadAfterIds": null,
+  "Category": {
+    "English": "Shared"
+  },
+  "ModName": {
+    "English": "Neutral Cultural GUI"
+  },
+  "Description": {
+    "English": "Edit entries related to cultural GUI to have a neutral interface"
+  },
+  "DLCDependencies": null,
+  "CreatorName": "Khobs",
+  "CreatorContact": "https://github.com/AnnoMods"
+}

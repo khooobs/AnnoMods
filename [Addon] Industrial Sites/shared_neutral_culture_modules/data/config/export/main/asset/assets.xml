@@ -1,0 +1,5 @@
+<ModOps>
+    <ModOp GUID="1010471,1010470,110935" Type="replace" Path="Values/Culture/CultureMoodImage">
+	   <CultureMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_main_neutral.png</CultureMoodImage>
+    </ModOp>
+</ModOps>

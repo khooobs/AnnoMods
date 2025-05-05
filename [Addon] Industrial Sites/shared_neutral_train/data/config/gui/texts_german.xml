@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>13658</GUID>
+      <Text>Lagerung von Gütern</Text>
+    </Text>
+    <Text>
+      <GUID>10947</GUID>
+      <Text>Ermöglicht den Transport von Gütern mit der Bahn.</Text>
+    </Text>
+    <Text>
+      <GUID>2001218</GUID>
+      <Text>Fehlende Bahngleise</Text>
+    </Text>
+    <Text>
+      <GUID>23210</GUID>
+      <Text>Dieses spezielle Gut kann nicht gehandelt werden.</Text>
+    </Text>
+    <Text>
+      <GUID>11597</GUID>
+      <Text>Gesamtfrachtkapazität</Text>
+    </Text>
+    <Text>
+      <GUID>11717</GUID>
+      <Text>Strategische Routen</Text>
+    </Text>
+    <Text>
+      <GUID>11887</GUID>
+      <Text>Erstelle Routen, um strategische Güter zwischen deinen Häfen zu verschiffen.</Text>
+    </Text>
+    <Text>
+      <GUID>19153</GUID>
+      <Text>Strategische Route erstellen</Text>
+    </Text>
+    <Text>
+      <GUID>25530</GUID>
+      <Text>Setze spezielle Schiffe ein, um strategische Güter zwischen den Häfen der von dir kontrollierten Inseln zu verteilen.</Text>
+    </Text>
+    <Text>
+      <GUID>5628</GUID>
+      <Text>Strategische Routen</Text>
+    </Text>
+  </ModOp>
+</ModOps>
