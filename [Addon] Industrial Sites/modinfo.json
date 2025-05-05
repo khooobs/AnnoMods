@@ -2,8 +2,17 @@
   "Version": "1.0",
   "ModID": "khobs_industrial_sites",
   "IncompatibleIds": null,
-  "ModDependencies": [],
-  "LoadAfterIds": [],
+  "ModDependencies": [
+    "Taludas_neutral_airport",
+    "neutral_hacienda_genshi",
+    "shared_ui_change_kurila",
+    "shared_neutral_culture_modules",
+    "shared_neutral_train"
+  ],
+  "LoadAfterIds": [
+    "shared_neutral_culture_modules",
+    "shared_neutral_train"
+  ],
   "Category": {
     "Chinese": "Addon",
     "English": "Addon",

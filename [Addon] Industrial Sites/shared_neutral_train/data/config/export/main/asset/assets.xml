@@ -1,0 +1,43 @@
+<ModOps>
+    <ModOp GUID="100783,101403,119259,101404" Type="add" Path="Values/Selection">
+        <UnlockSecondGUI>1500300092</UnlockSecondGUI>
+        <SecondGUIType>RouteServiceModule</SecondGUIType>
+    </ModOp>
+    <ModOp GUID="100784" Type="replace" Path="Values/StorageBase/ProductStorageList">
+        <ProductStorageList>2143505302</ProductStorageList>
+    </ModOp>
+    <ModOp GUID="500748" Type="replace" Path="Values/Standard/IconFilename">
+        <IconFilename>data/ui/2kimages/main/icons/icon_add_goods_socket.png</IconFilename>
+    </ModOp>
+    <ModOp GUID="500710" Type="replace" Path="Values/SessionTradeRouteOverviewScene/RouteCreateButtons/Oil/BackgroundImage">
+        <BackgroundImage>2143505301</BackgroundImage>
+    </ModOp>
+    <ModOp GUID="500801" Type="addNextSibling">
+        <Asset>
+            <Template>Icon</Template>
+            <Values>
+                <Standard>
+                    <GUID>2143505301</GUID>
+                    <Name>TradeRouteStrategicBG</Name>
+                    <IconFilename>data/ui/2kimages/main/assets/trade_route/bgr_stategic_goods.png</IconFilename>
+                </Standard>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ProductStorageList</Template>
+            <Values>
+                <Standard>
+                    <GUID>2143505302</GUID>
+                    <Name>SharedOilHarborStorageList</Name>
+                </Standard>
+                <ProductStorageList>
+                    <ProductList>
+                        <Item>
+                            <Product>1010566</Product>
+                        </Item>
+                    </ProductList>
+                </ProductStorageList>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
