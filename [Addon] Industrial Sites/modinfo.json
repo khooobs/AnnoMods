@@ -1,6 +1,6 @@
 {
   "Version": "1.0",
-  "ModID": "khobs_industrial_modules",
+  "ModID": "khobs_industrial_sites",
   "IncompatibleIds": null,
   "ModDependencies": [
     "JDG_04_get_on_the_train",
@@ -10,10 +10,17 @@
     "shared_freight_station_khobs",
     "Taludas_neutral_airport",
     "shared_neutral_culture_modules",
+    "shared_neutral_train",
     "neutral_hacienda_genshi",
     "shared_ui_change_kurila",
     "shared_tradingcompany_taludas",
-    "shared-ground-textures-industry-jakob"    
+    "shared-ground-textures-industry-jakob",
+    "sewing_thread_kurila",
+    "shared_goods_strings",
+    "wool_fabric_kurila",
+    "kurila-shared-wool-mill",
+    "decals-industry-jakob",
+    "khobs_polytechnical_school"
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",
@@ -35,7 +42,7 @@
   },
   "ModName": {
     "Chinese": null,
-    "English": "Industrial Modules",
+    "English": "Industrial Sites",
     "French": null,
     "German": null,
     "Italian": null,
