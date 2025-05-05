@@ -25,6 +25,18 @@
                     <Action />
                     <ActionUnlockAsset>
                       <UnlockAssets>
+                        <Item>
+                          <Asset>2143505404</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505405</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505406</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505407</Asset>
+                        </Item>
                         
                       </UnlockAssets>
                     </ActionUnlockAsset>
@@ -72,7 +84,18 @@
                     <Action />
                     <ActionUnlockAsset>
                       <UnlockAssets>
-                        
+                        <Item>
+                          <Asset>2143505404</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505405</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505406</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505407</Asset>
+                        </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>
                   </Values>

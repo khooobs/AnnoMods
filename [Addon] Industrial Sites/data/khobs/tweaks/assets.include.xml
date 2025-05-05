@@ -1,0 +1,19 @@
+<ModOps>
+  <ModOp GUID="269779" Type="add" Path="Values/Building/InfluencedByNeighbors/">
+		<Item>
+			<Building>2143505405</Building>
+		</Item>
+		<Item>
+			<Building>2143505406</Building>
+		</Item>
+		<Item>
+			<Building>2143505407</Building>
+		</Item>
+  </ModOp>
+
+  <ModOp GUID="269779,269784" Type="add" Path="Values/">
+    <BuildingModule>
+      	<ModuleType>Main</ModuleType>
+    </BuildingModule>
+  </ModOp>
+</ModOps>
