@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>22387</GUID>
+      <Text>Modules</Text>
+    </Text>
+    <Text>
+      <GUID>22347</GUID>
+      <Text>Equip an item</Text>
+    </Text>
+    <Text>
+      <GUID>22348</GUID>
+      <Text>Modules</Text>
+    </Text>
+    <Text>
+      <GUID>22390</GUID>
+      <Text>Connect your modules</Text>
+    </Text>
+    <Text>
+      <GUID>22349</GUID>
+      <Text>Connect your modules. Some may require you to activate them or gain items first.</Text>
+    </Text>
+    <Text>
+      <GUID>22389</GUID>
+      <Text>Linkable modules</Text>
+    </Text>
+  </ModOp>
+</ModOps>

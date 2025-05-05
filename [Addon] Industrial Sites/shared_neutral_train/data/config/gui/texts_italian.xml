@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>13658</GUID>
+      <Text>Stoccaggio merci</Text>
+    </Text>
+    <Text>
+      <GUID>10947</GUID>
+      <Text>Consentire il trasporto di merci su treni.</Text>
+    </Text>
+    <Text>
+      <GUID>2001218</GUID>
+      <Text>Binario ferroviario mancante</Text>
+    </Text>
+    <Text>
+      <GUID>23210</GUID>
+      <Text>Questo bene specifico non può essere scambiato.</Text>
+    </Text>
+    <Text>
+      <GUID>11597</GUID>
+      <Text>Capacità di carico totale</Text>
+    </Text>
+    <Text>
+      <GUID>11717</GUID>
+      <Text>Percorsi strategici</Text>
+    </Text>
+    <Text>
+      <GUID>11887</GUID>
+      <Text>Crea rotte per spedire merci strategiche tra i tuoi porti.</Text>
+    </Text>
+    <Text>
+      <GUID>19153</GUID>
+      <Text>Crea percorso strategico</Text>
+    </Text>
+    <Text>
+      <GUID>25530</GUID>
+      <Text>Usa navi speciali per distribuire merci strategiche tra i porti delle isole che controlli.</Text>
+    </Text>
+    <Text>
+      <GUID>5628</GUID>
+      <Text>Percorsi strategici</Text>
+    </Text>
+  </ModOp>
+</ModOps>

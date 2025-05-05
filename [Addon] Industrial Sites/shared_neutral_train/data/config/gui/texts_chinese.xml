@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>13658</GUID>
+      <Text>货物储存</Text>
+    </Text>
+    <Text>
+      <GUID>10947</GUID>
+      <Text>允许用火车运输货物。</Text>
+    </Text>
+    <Text>
+      <GUID>2001218</GUID>
+      <Text>缺少铁轨</Text>
+    </Text>
+    <Text>
+      <GUID>23210</GUID>
+      <Text>这种特定商品不能进行交易。</Text>
+    </Text>
+    <Text>
+      <GUID>11597</GUID>
+      <Text>总货运能力</Text>
+    </Text>
+    <Text>
+      <GUID>11717</GUID>
+      <Text>战略路线</Text>
+    </Text>
+    <Text>
+      <GUID>11887</GUID>
+      <Text>创建路线，在您的港口之间运输战略物资。</Text>
+    </Text>
+    <Text>
+      <GUID>19153</GUID>
+      <Text>创建战略路线</Text>
+    </Text>
+    <Text>
+      <GUID>25530</GUID>
+      <Text>使用特殊船只在您控制的岛屿港口之间分发战略物资。</Text>
+    </Text>
+    <Text>
+      <GUID>5628</GUID>
+      <Text>战略路线</Text>
+    </Text>
+  </ModOp>
+</ModOps>
