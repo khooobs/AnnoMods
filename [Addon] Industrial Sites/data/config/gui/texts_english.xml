@@ -1,5 +1,13 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505402</GUID>
+      <Text>Industrial Site</Text>
+    </Text>
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>Large Industries</Text>
+    </Text>
     
   </ModOp>
 </ModOps>
