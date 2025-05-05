@@ -1,0 +1,49 @@
+{
+  "Version": "1.0",
+  "ModID": "khobs_industrial_sites",
+  "IncompatibleIds": null,
+  "ModDependencies": [],
+  "LoadAfterIds": [],
+  "Category": {
+    "Chinese": "Addon",
+    "English": "Addon",
+    "French": "Addon",
+    "German": "Addon",
+    "Italian": "Addon",
+    "Japanese": "Addon",
+    "Korean": "Addon",
+    "Polish": "Addon",
+    "Russian": "Addon",
+    "Spanish": "Addon",
+    "Taiwanese": "Addon"
+  },
+  "ModName": {
+    "Chinese": "Industrial Sites",
+    "English": "Industrial Sites",
+    "French": "Industrial Sites",
+    "German": "Industrial Sites",
+    "Italian": "Industrial Sites",
+    "Japanese": "Industrial Sites",
+    "Korean": "Industrial Sites",
+    "Polish": "Industrial Sites",
+    "Russian": "Industrial Sites",
+    "Spanish": "Industrial Sites",
+    "Taiwanese": "Industrial Sites"
+  },
+  "Description": {
+    "Chinese": "file::README.md",
+    "English": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  },
+  "DLCDependencies": [],
+  "CreatorName": "Khobs",
+  "CreatorContact": "https://github.com/Khorbos/AnnoMods"
+}
