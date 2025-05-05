@@ -1,3 +1,9 @@
+<!-- GUID DOCUMENTATION 
+
+2143505400 - Creative Trigger
+2143505401 - Unlock Trigger
+-->
 <ModOps>
+  <Include File="../../../../khobs/triggers/assets.include.xml" />
 
 </ModOps>
