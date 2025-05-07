@@ -8,6 +8,7 @@
     "shared_ui_change_kurila",
     "shared_neutral_culture_modules",
     "shared_neutral_train"
+	"shared_goods_strings",
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",
