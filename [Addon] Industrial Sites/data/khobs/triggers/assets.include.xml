@@ -52,7 +52,12 @@
                         <Item>
                           <Asset>2143505412</Asset>
                         </Item>
-                        
+                        <Item>
+                          <Asset>2143505416</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505417</Asset>
+                        </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>
                   </Values>
@@ -125,6 +130,12 @@
                         </Item>
                         <Item>
                           <Asset>2143505412</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505416</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505417</Asset>
                         </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>

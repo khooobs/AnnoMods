@@ -56,6 +56,26 @@
       <GUID>2143505415</GUID>
       <Text>Industrial Modules</Text>
     </Text>
-    
+
+    <Text>
+      <GUID>2143505416</GUID>
+      <Text>Textiles</Text>
+    </Text>
+    <Text>
+      <GUID>2143505417</GUID>
+      <Text>Loom Factory</Text>
+    </Text>
+    <Text>
+      <GUID>2143505418</GUID>
+      <Text>Designs looms for the textile industry. Required for the &lt;font overrideTextColor="true" color='#edc891'&gt;textiles mills&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>2143505419</GUID>
+      <Text>Looms</Text>
+    </Text>
+    <Text>
+      <GUID>2143505420</GUID>
+      <Text>No Looms</Text>
+    </Text>
   </ModOp>
 </ModOps>
