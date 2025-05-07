@@ -7,6 +7,8 @@
 					<InfoDescription>11143</InfoDescription>
 				</Standard>
 				<Building>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate</AssociatedRegions>
 					<BuildingType>Factory</BuildingType>
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
 				</Building>
@@ -74,15 +76,15 @@
 				<Infolayer/>
 				<UpgradeList/>
 				<Culture>
-					<!-- <CultureType>Factory</CultureType>-->
+					<CultureType>Culture</CultureType>
 					<UndiscoveredSet>14022</UndiscoveredSet>
-					<ModuleListHeader>2143505430</ModuleListHeader>
-					<OpenSetPages>2143505429</OpenSetPages>
+					<ModuleListHeader>2143505414</ModuleListHeader>
+					<OpenSetPages>2143505415</OpenSetPages>
 				</Culture>
 				<ModuleOwner>
 					<ModuleLimits>
 						<Main>
-							<Limit>25</Limit>
+							<Limit>999</Limit>
 						</Main>
 						<Pavilion>
 							<Limit>1</Limit>
@@ -91,11 +93,12 @@
 							<Limit>999</Limit>
 						</Connector>
 					</ModuleLimits>
+					<AllowModulesInSameHarbor>1</AllowModulesInSameHarbor>
 					<UseSingleModuleUpgrading>0</UseSingleModuleUpgrading>
 					<BlueprintModuleOption>
 						<ModuleButtonInfotip>1010471</ModuleButtonInfotip>
-						<!--Cultural Connectors InfoTip-->
 					</BlueprintModuleOption>
+					<ModuleBuildRadius>30</ModuleBuildRadius>
 				</ModuleOwner>
 				<AmbientMoodProvider/>
 				<LogisticNode>

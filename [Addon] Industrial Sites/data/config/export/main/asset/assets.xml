@@ -8,6 +8,14 @@
 2143505405 - Industrial Gate Large - Ornamental
 2143505406 - Industrial Barrier Gate - Ornamental
 2143505407 - Industrial Barrier Gate Large - Ornamental
+2143505408 - Steel Company - Building
+2143505409 - Textile Company - Building
+2143505410 - Weapons Company - Building
+2143505410 - Heavy Industry Company - Building
+2143505412 - Chemical Company - Building
+2143505413 - Companies - Building - Description
+2143505414 - Companies - Building - ModuleListHeader
+2143505415 - Companies - Building - OpenSetPages
 -->
 <ModOps>
   <!-- Include Region -->
@@ -47,6 +55,21 @@
               </Item>
               <Item>
                 <Building>2143505407</Building>
+              </Item>
+              <Item>
+                <Building>2143505408</Building>
+              </Item>
+              <Item>
+                <Building>2143505409</Building>
+              </Item>
+              <Item>
+                <Building>2143505410</Building>
+              </Item>
+              <Item>
+                <Building>2143505411</Building>
+              </Item>
+              <Item>
+                <Building>2143505412</Building>
               </Item>
             </BuildingList>
             <CategoryDescription>2143505402</CategoryDescription>
@@ -611,6 +634,491 @@
           <Pausable/>
           <Infolayer/>
           <Culture/>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Industrial Companies -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="25546">
+      <Asset>
+        <Template>IndustrialBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505408</GUID>
+            <Name>Steel Company</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steelworks_company.png</IconFilename>
+            <InfoDescription>2143505413</InfoDescription>
+          </Standard>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>10000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/buildings/public/cultural_02/cultural_02_main/cultural_02_main.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Culture>
+            <CultureSpawnGroup>1</CultureSpawnGroup>
+            <Sets>
+              <Item/> <!-- LLT -->
+              <Item/> <!-- LLB -->
+              <Item/> <!-- LT -->
+              <Item/> <!-- LB -->
+              <Item/> 
+              <Item/> <!-- MM -->
+              <Item/> <!-- RM -->
+              <Item/> <!-- RM -->  
+              <Item/> <!-- RT -->
+              <Item/> <!-- RB -->
+              <Item/> <!-- RRT -->
+              <Item/> <!-- RRB -->
+            </Sets>
+            <Attractiveness>-10</Attractiveness>
+            <HasPollution>1</HasPollution>
+          </Culture>
+          <ModuleOwner>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>0</ModuleGUID>
+              </Item>
+              <Item>
+                <ModuleGUID>2143505402</ModuleGUID><!-- Fictive GUID to disable music pavilion -->
+              </Item> 
+              <Item>
+                <ModuleGUID>1010136</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+          </ModuleOwner>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>5000</Amount>
+                <InactiveAmount>2500</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010117</Product>
+                <Amount>100</Amount>
+              </Item>
+            </Maintenances>
+            <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+          </Maintenance>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>IndustrialBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505409</GUID>
+            <Name>Textile Company</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_company.png</IconFilename>
+            <InfoDescription>2143505413</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+					  <BuildingType>Factory</BuildingType>
+          </Building>
+          <Blocking/>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>10000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/buildings/public/cultural_02/cultural_02_main/cultural_02_main.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Culture>
+            <CultureSpawnGroup>1</CultureSpawnGroup>
+            <Sets>
+              <Item/> <!-- LLT -->
+              <Item/> <!-- LLB -->
+              <Item/> <!-- LT -->
+              <Item/> <!-- LB -->
+              <Item/> 
+              <Item/> <!-- MM -->
+              <Item/> <!-- RM -->
+              <Item/> <!-- RM -->  
+              <Item/> <!-- RT -->
+              <Item/> <!-- RB -->
+              <Item/> <!-- RRT -->
+              <Item/> <!-- RRB -->
+            </Sets>
+            <Attractiveness>20</Attractiveness>
+            <HasPollution>0</HasPollution>
+          </Culture>
+          <ModuleOwner>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>0</ModuleGUID>
+              </Item>
+              <Item>
+                <ModuleGUID>2143505402</ModuleGUID><!-- Fictive GUID to disable music pavilion -->
+              </Item> 
+              <Item>
+                <ModuleGUID>1010136</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+          </ModuleOwner>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>5000</Amount>
+                <InactiveAmount>2500</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010117</Product>
+                <Amount>100</Amount>
+              </Item>
+            </Maintenances>
+            <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+          </Maintenance>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>IndustrialBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505410</GUID>
+            <Name>Weapon Company</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_weapon_company.png</IconFilename>
+            <InfoDescription>2143505413</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+					  <BuildingType>Factory</BuildingType>
+          </Building>
+          <Blocking/>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>10000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/buildings/public/cultural_02/cultural_02_main/cultural_02_main.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Culture>
+            <CultureSpawnGroup>1</CultureSpawnGroup>
+            <Sets>
+              <Item/> <!-- LLT -->
+              <Item/> <!-- LLB -->
+              <Item/> <!-- LT -->
+              <Item/> <!-- LB -->
+              <Item/> 
+              <Item/> <!-- MM -->
+              <Item/> <!-- RM -->
+              <Item/> <!-- RM -->  
+              <Item/> <!-- RT -->
+              <Item/> <!-- RB -->
+              <Item/> <!-- RRT -->
+              <Item/> <!-- RRB -->
+            </Sets>
+            <Attractiveness>-10</Attractiveness>
+            <HasPollution>1</HasPollution>
+          </Culture>
+          <ModuleOwner>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>0</ModuleGUID>
+              </Item>
+              <Item>
+                <ModuleGUID>2143505402</ModuleGUID><!-- Fictive GUID to disable music pavilion -->
+              </Item> 
+              <Item>
+                <ModuleGUID>1010136</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+          </ModuleOwner>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>5000</Amount>
+                <InactiveAmount>2500</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010117</Product>
+                <Amount>100</Amount>
+              </Item>
+            </Maintenances>
+            <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+          </Maintenance>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>IndustrialBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505411</GUID>
+            <Name>Heavy Industry Company</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_heavy_industry_company.png</IconFilename>
+            <InfoDescription>2143505413</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+					  <BuildingType>Factory</BuildingType>
+          </Building>
+          <Blocking/>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>10000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/buildings/public/cultural_02/cultural_02_main/cultural_02_main.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Culture>
+            <CultureSpawnGroup>1</CultureSpawnGroup>
+            <Sets>
+              <Item/> <!-- LLT -->
+              <Item/> <!-- LLB -->
+              <Item/> <!-- LT -->
+              <Item/> <!-- LB -->
+              <Item/> 
+              <Item/> <!-- MM -->
+              <Item/> <!-- RM -->
+              <Item/> <!-- RM -->  
+              <Item/> <!-- RT -->
+              <Item/> <!-- RB -->
+              <Item/> <!-- RRT -->
+              <Item/> <!-- RRB -->
+            </Sets>
+            <Attractiveness>0</Attractiveness>
+            <HasPollution>0</HasPollution>
+          </Culture>
+          <ModuleOwner>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>0</ModuleGUID>
+              </Item>
+              <Item>
+                <ModuleGUID>2143505402</ModuleGUID><!-- Fictive GUID to disable music pavilion -->
+              </Item> 
+              <Item>
+                <ModuleGUID>0</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+          </ModuleOwner>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>5000</Amount>
+                <InactiveAmount>2500</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010116</Product>
+                <Amount>100</Amount>
+              </Item>
+            </Maintenances>
+            <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+          </Maintenance>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>IndustrialBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505412</GUID>
+            <Name>Chemical Company</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_company.png</IconFilename>
+            <InfoDescription>2143505413</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+					  <BuildingType>Factory</BuildingType>
+          </Building>
+          <Blocking/>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>10000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/buildings/public/cultural_02/cultural_02_main/cultural_02_main.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Culture>
+            <CultureSpawnGroup>1</CultureSpawnGroup>
+            <Sets>
+              <Item/> <!-- LLT -->
+              <Item/> <!-- LLB -->
+              <Item/> <!-- LT -->
+              <Item/> <!-- LB -->
+              <Item/> 
+              <Item/> <!-- MM -->
+              <Item/> <!-- RM -->
+              <Item/> <!-- RM -->  
+              <Item/> <!-- RT -->
+              <Item/> <!-- RB -->
+              <Item/> <!-- RRT -->
+              <Item/> <!-- RRB -->
+            </Sets>
+            <Attractiveness>-10</Attractiveness>
+            <HasPollution>1</HasPollution>
+          </Culture>
+          <ModuleOwner>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>0</ModuleGUID>
+              </Item>
+              <Item>
+                <ModuleGUID>2143505402</ModuleGUID><!-- Fictive GUID to disable music pavilion -->
+              </Item> 
+              <Item>
+                <ModuleGUID>1010136</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+          </ModuleOwner>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>5000</Amount>
+                <InactiveAmount>2500</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010117</Product>
+                <Amount>100</Amount>
+              </Item>
+            </Maintenances>
+            <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+          </Maintenance>
         </Values>
       </Asset>
     </ModOp>
