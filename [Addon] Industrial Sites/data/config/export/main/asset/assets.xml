@@ -41,6 +41,11 @@
 2143505437 - Textile - Spinning Mill Felt - Building
 2143505438 - Textile - Spinning Mill Blank- Building
 2143505439 - Textile - Spinning Mill Blank - Building - Description
+2143505440 - Textile - AssetPool
+2143505441 - Textile - FakeProduct - Product
+2143505442 - Textile - Spinning Mill - Building
+2143505443 - Textile - Spinning Mill - Building - Description
+2143505444 - Textile - Spinning Mill Buff - GuildhouseBuff 
 -->
 <ModOps>
   <!-- Include Region -->
@@ -858,6 +863,9 @@
               <Item>
                 <ModuleGUID>2143505437</ModuleGUID>
               </Item>
+              <Item>
+                <ModuleGUID>2143505442</ModuleGUID>
+              </Item>
             </ConstructionOptions>
           </ModuleOwner>
           <Maintenance>
@@ -1235,6 +1243,12 @@
               </Item>
               <Item>
                 <Asset>2143505438</Asset>
+              </Item>
+              <Item>
+                <Asset>2143505441</Asset>
+              </Item>
+              <Item>
+                <Asset>2143505442</Asset>
               </Item>
             </AssetList>
           </AssetPool>
@@ -2682,6 +2696,335 @@
               <IsBlank>0</IsBlank>
             </RecipeBuilding>
             <Upgradable/>
+          </Values>
+        </Asset>
+      </ModOp>
+
+      <!-- Spinning Mill - Module -->
+      <ModOp GUID="1010197" Type="addNextSibling">
+        <Asset>
+          <Template>Product</Template>
+          <Values>
+            <Standard>
+              <GUID>2143505441</GUID>
+              <Name>FakeInputTextileProduct</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_correct_decoration.png</IconFilename>
+            </Standard>
+            <Locked/>
+            <Product>
+              <DeltaOnly>1</DeltaOnly>
+              <IsAbstract>1</IsAbstract>
+              <AssociatedRegion>Moderate</AssociatedRegion>
+              <HideInUI>0</HideInUI>
+            </Product>
+            <ExpeditionAttribute/>
+          </Values>
+        </Asset>
+        
+        <Asset>
+          <Template>IndustrialModule</Template>
+          <Values>
+            <Standard>
+              <GUID>2143505442</GUID>
+              <Name>Spinning_Mill_Module</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_module.png</IconFilename>
+              <InfoDescription>2143505443</InfoDescription>
+            </Standard>
+            <Building>
+              <BuildingCategoryName>2143505402</BuildingCategoryName>
+              <BuildModeRandomRotation>180</BuildModeRandomRotation>
+              <AssociatedRegions>Moderate</AssociatedRegions>
+              <AllowChangeVariation>1</AllowChangeVariation>
+              <AllowChangeDirection>1</AllowChangeDirection>
+              <InfluencedVariationDirection>
+                <Item />
+                <Item>
+                  <!-- end, south-west -->
+                  <Direction>3</Direction>
+                  <Type>End</Type>
+                </Item>
+                <Item>
+                  <!-- end, south-east -->
+                  <Type>End</Type>
+                </Item>
+                <Item>
+                  <!-- corner, south -->
+                  <Direction>2</Direction>
+                  <Type>Corner</Type>
+                </Item>
+                <Item>
+                  <!-- end, north-east -->
+                  <Direction>1</Direction>
+                  <Type>Crossing</Type>
+                </Item>
+                <Item>
+                  <!-- mid, south-west to north-east -->
+                  <Direction>3</Direction>
+                  <Type>Mid</Type>
+                </Item>
+                <Item>
+                  <!-- corner, east -->
+                  <Direction>1</Direction>
+                  <Type>TCrossing</Type>
+                </Item>
+                <Item>
+                  <!-- T, front facing south-east -->
+                  <Direction>1</Direction>
+                  <Type>Mid</Type>
+                </Item>
+                <Item>
+                  <!-- end, north-west -->
+                  <Direction>2</Direction>
+                  <Type>Crossing</Type>
+                </Item>
+                <Item>
+                  <!-- corner, west -->
+                  <Direction>3</Direction>
+                  <Type>TCrossing</Type>
+                </Item>
+                <Item>
+                  <!-- mid, north-west to south-east -->
+                  <Type>Mid</Type>
+                </Item>
+                <Item>
+                  <!-- T, front facing south-west  -->
+                  <Direction>0</Direction>
+                  <Type>Mid</Type>
+                </Item>
+                <Item>
+                  <!-- corner, north -->
+                  <Type>Corner</Type>
+                </Item>
+                <Item>
+                  <!-- T, front facing north-west -->
+                  <Direction>3</Direction>
+                  <Type>Mid</Type>
+                </Item>
+                <Item>
+                  <!-- T, front facing north-east -->
+                  <Direction>2</Direction>
+                  <Type>Mid</Type>
+                </Item>
+                <Item>
+                  <!-- crossing -->
+                </Item>
+              </InfluencedVariationDirection>
+              <BuildingBlockPool>
+                <DontCare />
+                <Single />
+                <Mid>
+                  <Pool>
+                    <Item>
+                      <DirectionOffet>1</DirectionOffet>
+                      <Variation>2</Variation>
+                    </Item>
+                    <Item>
+                      <DirectionOffet>2</DirectionOffet>
+                      <Variation>2</Variation>
+                    </Item>
+                  </Pool>
+                </Mid>
+                <Corner/>
+                <End>
+                  <Pool>
+                    <!-- left side -->
+                    <Item>
+                      <DirectionOffet>3</DirectionOffet>
+                      <Variation>3</Variation>
+                    </Item>
+                    <Item>
+                      <DirectionOffet>3</DirectionOffet>
+                      <Variation>1</Variation>
+                    </Item>
+                  </Pool>
+                </End>
+                <TCrossing>
+                  <Pool>
+                    <Item>
+                      <DirectionOffet>3</DirectionOffet>
+                      <Variation>2</Variation>
+                    </Item>
+                  </Pool>
+                </TCrossing>
+                <Crossing>
+                  <Pool>
+                    <!-- right side -->
+                    <Item>
+                      <Variation>1</Variation>
+                    </Item>
+                  </Pool>
+                </Crossing>
+              </BuildingBlockPool>
+            </Building>
+            <Blocking/>
+            <Cost>
+              <Costs>
+                <Item>
+                  <Ingredient>1010017</Ingredient>
+                  <Amount>500</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010196</Ingredient>
+                </Item>
+                <Item>
+                  <Ingredient>1010205</Ingredient>
+                </Item>
+                <Item>
+                  <Ingredient>1010218</Ingredient>
+                </Item>
+                <Item>
+                  <Ingredient>1010207</Ingredient>
+                </Item>
+                <Item>
+                  <Ingredient>1010202</Ingredient>
+                </Item>
+              </Costs>
+            </Cost>
+            <Object>
+              <GUIType>GuildHouse</GUIType>
+              <Variations>
+                <Item>
+                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module.cfg</Filename>
+                </Item>
+                <Item>
+                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_right_end.cfg</Filename>
+                </Item>
+                <Item>
+                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_left_end.cfg</Filename>
+                </Item>
+                <Item>
+                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_small.cfg</Filename>
+                </Item>
+                <Item>
+                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_small_middle.cfg</Filename>
+                </Item>
+                <Item>
+                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_small_end.cfg</Filename>
+                </Item>
+              </Variations>
+              <Skins>
+                <DefaultSkinName>2143505482</DefaultSkinName>
+                <DefaultSkinDescription>23853</DefaultSkinDescription>
+                <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+              </Skins>
+              <UnlockSecondGUI>1500300092</UnlockSecondGUI>
+              <SecondGUIType>Production</SecondGUIType>
+            </Object>
+            <Mesh/>
+            <Selection>
+              <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ActionList/>
+                </Values>
+              </OnSelection>
+              <Colors>
+                <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+              </Colors>
+              <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+            </Selection>
+            <Constructable/>
+            <Locked>
+              <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <SoundEmitter/>
+            <FeedbackController/>
+            <Infolayer/>
+            <FactoryBase>
+              <FactoryInputs>
+                <Item>
+                  <Product>2143505441</Product>
+                  <Amount>0</Amount>
+                  <StorageAmount>1</StorageAmount>
+                </Item>
+              </FactoryInputs>
+              <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+              <CycleTime>120</CycleTime>
+            </FactoryBase>
+            <BuffFactory>
+              <ProductionBuffs>
+                <Item>
+                  <ProductivityBuff>2143505444</ProductivityBuff>
+                </Item>
+              </ProductionBuffs>
+              <ProductionBuffScope>Radius</ProductionBuffScope>
+              <ProductionBuffDistance>7</ProductionBuffDistance>
+            </BuffFactory>
+            <Maintenance>
+              <Maintenances>
+                <Item>
+                  <Product>1010017</Product>
+                  <Amount>1500</Amount>
+                  <InactiveAmount>750</InactiveAmount>
+                </Item>
+                <Item>
+                  <Product>1010115</Product>
+                  <Amount>50</Amount>
+                </Item>
+              </Maintenances>
+            </Maintenance>
+            <BuildingModule>
+              <PlazaSize>20</PlazaSize>
+            </BuildingModule>
+            <Attackable/>
+            <QuestObject/>
+            <AmbientMoodProvider/>
+            <Pausable>
+              <CanPauseManually>1</CanPauseManually>
+            </Pausable>
+            <Culture>
+              <Attractiveness>0</Attractiveness>
+              <HasPollution>0</HasPollution>
+            </Culture>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GuildhouseBuff</Template>
+          <Values>
+            <Standard>
+              <GUID>2143505444</GUID>
+              <Name>Spinning_Mill_Module_Buff</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_loom_2.png</IconFilename>
+            </Standard>
+            <ItemEffect>
+              <EffectTargets>
+                <Item>
+                  <GUID>2143505425</GUID>
+                </Item>
+                <Item>
+                  <GUID>2143505428</GUID>
+                </Item>
+                <Item>
+                  <GUID>2143505431</GUID>
+                </Item>
+                <Item>
+                  <GUID>2143505434</GUID>
+                </Item>
+                <Item>
+                  <GUID>2143505437</GUID>
+                </Item>
+              </EffectTargets>
+            </ItemEffect>
+            <FactoryUpgrade>
+              <ProductivityUpgrade>
+                <Value>50</Value>
+                <Percental>1</Percental>
+              </ProductivityUpgrade>
+            </FactoryUpgrade>
+            <BuildingUpgrade/>
+            <Buff/>
+            <CultureUpgrade>
+              <HideBuff>1</HideBuff>
+            </CultureUpgrade>
+            <ModuleOwnerUpgrade/>
+            <IncidentInfectableUpgrade/>
+            <PowerplantUpgrade/>
+            <IndustrializableUpgrade/>
+            <ItemContainerUpgrade/>
+            <IncidentInfluencerUpgrade/>
+            <IrrigationUpgrade/>
+            <EcoSystemProviderUpgrade/>
+            <ResourceUpgrade/>
           </Values>
         </Asset>
       </ModOp>
