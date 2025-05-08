@@ -77,5 +77,82 @@
       <GUID>2143505420</GUID>
       <Text>No Looms</Text>
     </Text>
+
+    <Text>
+      <GUID>2143505421</GUID>
+      <Text>Textile Recipes</Text>
+    </Text>
+    <Text>
+      <GUID>2143505422</GUID>
+      <Text>One of the symbols of the revolution of this era, these brick walls contain a textile magic that few people seem to understand yet.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505423</GUID>
+      <Text>Spinning Mill: Wool</Text>
+    </Text>
+    <Text>
+      <GUID>2143505424</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Textiles from wool&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>2143505425</GUID>
+      <Text>Spinning Mill: Wool</Text>
+    </Text>
+    <Text>
+      <GUID>2143505426</GUID>
+      <Text>Spinning Mill: Cotton</Text>
+    </Text>
+    <Text>
+      <GUID>2143505427</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Textiles from cotton&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>2143505428</GUID>
+      <Text>Spinning Mill: Cotton</Text>
+    </Text>
+    <Text>
+      <GUID>2143505429</GUID>
+      <Text>Spinning Mill: Fur</Text>
+    </Text>
+    <Text>
+      <GUID>2143505430</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Textiles from fur&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>2143505431</GUID>
+      <Text>Spinning Mill: Fur</Text>
+    </Text>
+    <Text>
+      <GUID>2143505432</GUID>
+      <Text>Spinning Mill: Linen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505433</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Textiles from linen&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>2143505434</GUID>
+      <Text>Spinning Mill: Linen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505435</GUID>
+      <Text>Spinning Mill: Felt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505436</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Textiles from felt&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>2143505437</GUID>
+      <Text>Spinning Mill: Felt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505438</GUID>
+      <Text>Spinning Mill: Blank</Text>
+    </Text>
+    <Text>
+      <GUID>2143505439</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Blank&lt;/font&gt;</Text>
+    </Text>
   </ModOp>
 </ModOps>
