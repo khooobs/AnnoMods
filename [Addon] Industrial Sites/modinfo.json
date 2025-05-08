@@ -9,6 +9,7 @@
     "shared_neutral_culture_modules",
     "shared_neutral_train"
 	"shared_goods_strings",
+	"shared-ground-textures-industry-jakob",
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",
