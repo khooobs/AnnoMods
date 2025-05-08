@@ -154,5 +154,21 @@
       <GUID>2143505439</GUID>
       <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Blank&lt;/font&gt;</Text>
     </Text>
+    <Text>
+      <GUID>2143505441</GUID>
+      <Text>Textile</Text>
+    </Text>
+    <Text>
+      <GUID>2143505442</GUID>
+      <Text>Spinning Mill Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505443</GUID>
+      <Text>Boost &lt;font overrideTextColor="true" color='#edc891'&gt;Spinning Mills&lt;/font&gt; production. Can host machines items or even industrial specialists.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505444</GUID>
+      <Text>Spinning Mill Module</Text>
+    </Text>
   </ModOp>
 </ModOps>
