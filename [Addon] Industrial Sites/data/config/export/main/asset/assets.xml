@@ -840,28 +840,13 @@
                 <ModuleGUID>2143505402</ModuleGUID><!-- Fictive GUID to disable music pavilion -->
               </Item> 
               <Item>
-                <ModuleGUID>1010136</ModuleGUID>
-              </Item>
-              <Item>
                 <ModuleGUID>1742200004</ModuleGUID>
               </Item>
               <Item>
                 <ModuleGUID>2143505438</ModuleGUID>
               </Item>
               <Item>
-                <ModuleGUID>2143505425</ModuleGUID>
-              </Item>
-              <Item>
-                <ModuleGUID>2143505428</ModuleGUID>
-              </Item>
-              <Item>
-                <ModuleGUID>2143505431</ModuleGUID>
-              </Item>
-              <Item>
-                <ModuleGUID>2143505434</ModuleGUID>
-              </Item>
-              <Item>
-                <ModuleGUID>2143505437</ModuleGUID>
+                <ModuleGUID>2143505442</ModuleGUID>
               </Item>
               <Item>
                 <ModuleGUID>2143505442</ModuleGUID>
