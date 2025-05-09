@@ -170,5 +170,49 @@
       <GUID>2143505444</GUID>
       <Text>Spinning Mill Module</Text>
     </Text>
+    <Text>
+      <GUID>2143505445</GUID>
+      <Text>Clothmaker: Work Clothes (basic)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505446</GUID>
+      <Text>Clothmaker: Work Clothes (advanced)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505447</GUID>
+      <Text>Clothmaker: Suits</Text>
+    </Text>
+    <Text>
+      <GUID>2143505448</GUID>
+      <Text>Clothmaker: Coats (basic)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505449</GUID>
+      <Text>Clothmaker: Coats (advanced)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505450</GUID>
+      <Text>Clothmaker: Parka</Text>
+    </Text>
+    <Text>
+      <GUID>2143505451</GUID>
+      <Text>Clothmaker: Tapestries (basic)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505452</GUID>
+      <Text>Clothmaker: Tapestries (advanced)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505453</GUID>
+      <Text>Produces work clothes. Upgradable to &lt;font overrideTextColor="true" color='#edc891'&gt;3 tiers&lt;/font&gt;. At tier 3, produces suits.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505454</GUID>
+      <Text>Produces coats. Upgradable to &lt;font overrideTextColor="true" color='#edc891'&gt;3 tiers&lt;/font&gt;. At tier 3, produces parka.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505455</GUID>
+      <Text>Produces tapestries. Upgradable to &lt;font overrideTextColor="true" color='#edc891'&gt;2 tiers&lt;/font&gt;.</Text>
+    </Text>
   </ModOp>
 </ModOps>
