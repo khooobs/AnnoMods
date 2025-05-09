@@ -1265,7 +1265,7 @@
             <Standard>
               <GUID>2143505416</GUID>
               <Name>Textiles</Name>
-              <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_correct_decoration.png</IconFilename>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile.png</IconFilename>
             </Standard>
             <Locked/>
             <Product>
@@ -1383,7 +1383,7 @@
             <Standard>
               <GUID>2143505429</GUID>
               <Name>Recipe_Textile_From_Fur</Name>
-              <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_luxury_decoration.png</IconFilename>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_fur.png</IconFilename>
             </Standard>
             <Recipe>
               <RecipeDescriptionText/>
@@ -1431,7 +1431,7 @@
             <Standard>
               <GUID>2143505435</GUID>
               <Name>Recipe_Textile_From_Felt</Name>
-              <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_correct_decoration.png</IconFilename>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_felt.png</IconFilename>
             </Standard>
             <Recipe>
               <RecipeDescriptionText/>
@@ -1754,7 +1754,7 @@
             <Standard>
               <GUID>2143505438</GUID>
               <Name>Spinning_Mill_Blank</Name>
-              <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_correct_decoration.png</IconFilename>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile.png</IconFilename>
               <InfoDescription>2143505439</InfoDescription>
             </Standard>
             <Building>
@@ -2208,7 +2208,7 @@
             <Standard>
               <GUID>2143505431</GUID>
               <Name>Spinning_Mill_Fur</Name>
-              <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_luxury_decoration.png</IconFilename>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_fur.png</IconFilename>
               <InfoDescription>2143505430</InfoDescription>
             </Standard>
             <Building>
@@ -2538,7 +2538,7 @@
             <Standard>
               <GUID>2143505437</GUID>
               <Name>Spinning_Mill_Felt</Name>
-              <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_correct_decoration.png</IconFilename>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_felt.png</IconFilename>
               <InfoDescription>2143505436</InfoDescription>
             </Standard>
             <Building>
