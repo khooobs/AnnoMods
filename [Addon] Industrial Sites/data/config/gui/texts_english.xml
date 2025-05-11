@@ -214,5 +214,25 @@
       <GUID>2143505455</GUID>
       <Text>Produces tapestries. Upgradable to &lt;font overrideTextColor="true" color='#edc891'&gt;2 tiers&lt;/font&gt;.</Text>
     </Text>
+    <Text>
+      <GUID>2143505456</GUID>
+      <Text>INDUSTRIAL LOOMS</Text>
+    </Text>
+    <Text>
+      <GUID>2143505457</GUID>
+      <Text>INDUSTRIAL LOOMS</Text>
+    </Text>
+    <Text>
+      <GUID>2143505458</GUID>
+      <Text>These looms are fascinating and can run day and night!</Text>
+    </Text>
+    <Text>
+      <GUID>2143505459</GUID>
+      <Text>All Spinning Industries</Text>
+    </Text>
+    <Text>
+      <GUID>2143505460</GUID>
+      <Text>All Clothmakers Industries</Text>
+    </Text>
   </ModOp>
 </ModOps>
