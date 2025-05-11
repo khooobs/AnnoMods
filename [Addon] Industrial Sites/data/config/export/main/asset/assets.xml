@@ -786,7 +786,6 @@
           <Building>
             <BuildModeRandomRotation>180</BuildModeRandomRotation>
             <AssociatedRegions>Moderate</AssociatedRegions>
-					  <BuildingType>Factory</BuildingType>
           </Building>
           <Blocking/>
           <Cost>
@@ -845,7 +844,7 @@
           <ModuleOwner>
             <ConstructionOptions>
               <Item>
-                <ModuleGUID>2143505417</ModuleGUID>
+                <ModuleGUID>2143505442</ModuleGUID>
               </Item>
               <Item>
                 <ModuleGUID>2143505402</ModuleGUID><!-- Fictive GUID to disable music pavilion -->
@@ -854,10 +853,10 @@
                 <ModuleGUID>1742200004</ModuleGUID>
               </Item>
               <Item>
-                <ModuleGUID>2143505438</ModuleGUID>
+                <ModuleGUID>2143505417</ModuleGUID>
               </Item>
               <Item>
-                <ModuleGUID>2143505442</ModuleGUID>
+                <ModuleGUID>2143505438</ModuleGUID>
               </Item>
               <Item>
                 <ModuleGUID>2143505445</ModuleGUID>
@@ -3026,6 +3025,11 @@
               <Attractiveness>0</Attractiveness>
               <HasPollution>0</HasPollution>
             </Culture>
+            <ItemContainer>
+              <SocketCount>1</SocketCount>
+              <SocketAllocation>RadiusBuilding;GuildHouse;TownHall;HarborOffice;Ship;Mod1</SocketAllocation>
+              <SocketScope>ModuleOwner</SocketScope>
+            </ItemContainer>
           </Values>
         </Asset>
         <Asset>
