@@ -57,6 +57,11 @@
 2143505453 - Textile - Clothmaker_WorkClothes - Building - Description
 2143505454 - Textile - Clothmaker_Coats - Building - Description
 2143505455 - Textile - Clothmaker_Tapestries - Building - Description
+2143505456 - Textile - Industrial Looms - ItemSet
+2143505457 - Textile - Industrial Looms - Boost - Buff
+2143505458 - Textile - Industrial Looms - Boost - Buff - Description
+2143505459 - Textile - All spinning mills textile industry - ItemEffectTargetPool
+2143505460 - Textile - All clothmakers textile industry - ItemEffectTargetPool
 -->
 <ModOps>
   <!-- Include Region -->
@@ -828,8 +833,9 @@
               <Item/> <!-- LLT -->
               <Item/> <!-- LLB -->
               <Item/> <!-- LT -->
-              <Item/> <!-- LB -->
-              <Item/> 
+              <Item>  <!-- LB -->
+                <Set>2143505456</Set>
+              </Item> 
               <Item/> <!-- MM -->
               <Item/> <!-- RM -->
               <Item/> <!-- RM -->  
@@ -1279,6 +1285,76 @@
           </AssetPool>
         </Values>
       </Asset>
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505459</GUID>
+            <Name>all spinning mills textile industry</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_coffe_cup.png</IconFilename>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>2143505425</GUID>
+              </Item>
+              <Item>
+                <GUID>2143505428</GUID>
+              </Item>
+              <Item>
+                <GUID>2143505431</GUID>
+              </Item>
+              <Item>
+                <GUID>2143505434</GUID>
+              </Item>
+              <Item>
+                <GUID>2143505437</GUID>
+              </Item>
+              <Item>
+                <GUID>2143505438</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505460</GUID>
+            <Name>all clothmakers textile industry</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_coffe_cup.png</IconFilename>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>2143505445</GUID>
+              </Item>
+              <Item>
+                <GUID>2143505446</GUID>
+              </Item>
+              <Item>
+                <GUID>2143505447</GUID>
+              </Item>
+              <Item>
+                <GUID>2143505448</GUID>
+              </Item>
+              <Item>
+                <GUID>2143505449</GUID>
+              </Item>
+              <Item>
+                <GUID>2143505450</GUID>
+              </Item>
+              <Item>
+                <GUID>2143505451</GUID>
+              </Item>
+              <Item>
+                <GUID>2143505452</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
     </ModOp>
 
     <!-- Textile Product -->
@@ -1690,43 +1766,10 @@
             <ItemEffect>
               <EffectTargets>
                 <Item>
-                  <GUID>2143505425</GUID>
+                  <GUID>2143505459</GUID>
                 </Item>
                 <Item>
-                  <GUID>2143505428</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505431</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505434</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505437</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505445</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505446</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505447</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505448</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505449</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505450</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505451</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505452</GUID>
+                  <GUID>2143505460</GUID>
                 </Item>
               </EffectTargets>
               <AllowStacking>0</AllowStacking>
@@ -3043,19 +3086,7 @@
             <ItemEffect>
               <EffectTargets>
                 <Item>
-                  <GUID>2143505425</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505428</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505431</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505434</GUID>
-                </Item>
-                <Item>
-                  <GUID>2143505437</GUID>
+                  <GUID>2143505459</GUID>
                 </Item>
               </EffectTargets>
             </ItemEffect>
@@ -4493,6 +4524,87 @@
             </Pausable>
           </Values>
         </Asset>
+      </ModOp>
+    </Group>
+
+    <!-- ItemSet -->
+    <Group>
+      <Group>
+        <ModOp Type="addNextSibling" GUID="190884">
+          <Asset>
+            <Template>ItemSet</Template>
+            <Values>
+              <Standard>
+                <GUID>2143505456</GUID>
+                <Name>Industrial Looms</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_loom_2.png</IconFilename>
+              </Standard>
+              <ItemSocketSet>
+                <RegionSetBuff>
+                  <Moderate>
+                    <SetBuff>2143505457</SetBuff>
+                  </Moderate>
+                </RegionSetBuff>
+			          <BuffScope>Area</BuffScope>
+              </ItemSocketSet>
+              <Locked/>
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+              <Standard>
+                <GUID>2143505457</GUID>
+                <Name>Industrial Looms - Boost - Buff</Name>
+                <IconFilename>data\ui\2kimages\main\3dicons\machine_items\icon_loom_2.png</IconFilename>
+                <InfoDescription>2143505458</InfoDescription>
+              </Standard>
+              <ItemEffect>
+                <EffectTargets>
+                  <Item>
+                    <GUID>2143505459</GUID>
+                  </Item>
+                  <Item>
+                    <GUID>2143505460</GUID>
+                  </Item>
+                </EffectTargets>
+                <AllowStacking>0</AllowStacking>
+              </ItemEffect>
+              <BuildingUpgrade>
+                <MaintenanceUpgrade>
+                  <Value>50</Value>
+                  <Percental>1</Percental>
+                </MaintenanceUpgrade>
+              </BuildingUpgrade>
+              <Buff />
+              <FactoryUpgrade>
+                <ProductivityUpgrade>
+                  <Value>1000</Value>
+                  <Percental>1</Percental>
+                </ProductivityUpgrade>
+              </FactoryUpgrade>
+              <PopulationUpgrade />
+              <ResidenceUpgrade />
+              <IncidentInfectableUpgrade />
+              <CultureUpgrade/>
+              <InfluenceSourceUpgrade />
+              <DistributionUpgrade />
+              <ItemContainerUpgrade />
+            </Values>
+          </Asset>
+        </ModOp>
+      </Group>
+
+      <ModOp GUID="190883,190884,190885" Type="add" Path="Values/Item/">
+        <ItemSet>2143505456</ItemSet>
+      </ModOp>
+
+      <ModOp GUID="191329,191328,192039" Type="add" Path="Values/Item/">
+        <ItemSet></ItemSet>
+      </ModOp>
+
+      <ModOp GUID="191326,191325,191337,191336" Type="add" Path="Values/Item/">
+        <ItemSet></ItemSet>
       </ModOp>
     </Group>
   </Group>
