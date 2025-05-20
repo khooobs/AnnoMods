@@ -952,6 +952,35 @@
       </Asset>
     </ModOp>
     <!-- END -->
+
+    <!-- LAND REFORM ACT - TALUDAS HACIENDA OVERHAUL COMPATIBILITY -->
+    <Group Condition="#Taludas_TheWholesomeHaciendaHaul">
+      <ModOp GUID="2143505036" Type="add" Path="Values/ItemEffect/EffectTargets/">
+        <Item>
+          <GUID>1999002001</GUID>
+        </Item>
+      </ModOp>
+      <ModOp GUID="2143505038" Type="add" Path="Values/ItemEffect/EffectTargets/">
+        <Item>
+          <GUID>1999002004</GUID>
+        </Item>
+      </ModOp>
+      <ModOp GUID="2143505043" Type="add" Path="Values/ItemEffect/EffectTargets/">
+        <Item>
+          <GUID>1999002007</GUID>
+        </Item>
+      </ModOp>
+      <ModOp GUID="2143505142" Type="add" Path="Values/ItemEffect/EffectTargets/">
+        <Item>
+          <GUID>1999002164</GUID>
+        </Item>
+      </ModOp>
+      <ModOp GUID="2143505143" Type="add" Path="Values/ItemEffect/EffectTargets/">
+        <Item>
+          <GUID>1999002169</GUID>
+        </Item>
+      </ModOp>
+    </Group>
   </Group>
   <!-- END - LAND REFORM ACT -->
   
