@@ -62,6 +62,7 @@
 2143505458 - Textile - Industrial Looms - Boost - Buff - Description
 2143505459 - Textile - All spinning mills textile industry - ItemEffectTargetPool
 2143505460 - Textile - All clothmakers textile industry - ItemEffectTargetPool
+
 -->
 <ModOps>
   <!-- Include Region -->
@@ -832,7 +833,9 @@
             <Sets>
               <Item/> <!-- LLT -->
               <Item/> <!-- LLB -->
-              <Item/> <!-- LT -->
+              <Item>
+                <Set>2143505461</Set>
+              </Item> <!-- LT -->
               <Item>  <!-- LB -->
                 <Set>2143505456</Set>
               </Item> 
@@ -868,7 +871,13 @@
                 <ModuleGUID>2143505445</ModuleGUID>
               </Item>
               <Item>
+                <ModuleGUID>2143505447</ModuleGUID>
+              </Item>
+              <Item>
                 <ModuleGUID>2143505448</ModuleGUID>
+              </Item>
+              <Item>
+                <ModuleGUID>2143505450</ModuleGUID>
               </Item>
               <Item>
                 <ModuleGUID>2143505451</ModuleGUID>
@@ -1804,13 +1813,6 @@
               <Name>Loom Factory - Module - Negative - Buff</Name>
               <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_loom_1.png</IconFilename>
             </Standard>
-            <ItemEffect>
-              <EffectTargets>
-                <Item>
-                  <GUID></GUID>
-                </Item>
-              </EffectTargets>
-            </ItemEffect>
             <FactoryUpgrade>
               <ProductivityUpgrade>
                 <Value>-1000</Value>
@@ -1900,7 +1902,7 @@
                   <ActionList/>
                 </Values>
               </OnSelection>
-              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+              <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
               <Colors>
                 <WeakSelectionColorType>NoColor</WeakSelectionColorType>
               </Colors>
@@ -1943,7 +1945,7 @@
                   <InactiveAmount>500</InactiveAmount>
                 </Item>
                 <Item>
-                  <Product>1010116</Product>
+                  <Product>1010117</Product>
                   <Amount>50</Amount>
                 </Item>
               </Maintenances>
@@ -2022,7 +2024,7 @@
                   <ActionList/>
                 </Values>
               </OnSelection>
-              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+              <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
               <Colors>
                 <WeakSelectionColorType>NoColor</WeakSelectionColorType>
               </Colors>
@@ -2070,7 +2072,9 @@
               <CycleTime>45</CycleTime>
               <IsMainFactory>0</IsMainFactory>
             </FactoryBase>
-            <LogisticNode/>
+            <LogisticNode>
+              <TransporterCountMax>1</TransporterCountMax>
+            </LogisticNode>
             <AmbientMoodProvider>
               <Murmur>Factory</Murmur>
               <DynamicEnvironmentType>None</DynamicEnvironmentType>
@@ -2083,7 +2087,7 @@
                   <InactiveAmount>500</InactiveAmount>
                 </Item>
                 <Item>
-                  <Product>1010116</Product>
+                  <Product>1010117</Product>
                   <Amount>50</Amount>
                 </Item>
               </Maintenances>
@@ -2188,7 +2192,7 @@
                   <ActionList/>
                 </Values>
               </OnSelection>
-              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+              <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
               <Colors>
                 <WeakSelectionColorType>NoColor</WeakSelectionColorType>
               </Colors>
@@ -2236,7 +2240,9 @@
               <CycleTime>15</CycleTime>
               <IsMainFactory>0</IsMainFactory>
             </FactoryBase>
-            <LogisticNode/>
+            <LogisticNode>
+              <TransporterCountMax>1</TransporterCountMax>
+            </LogisticNode>
             <AmbientMoodProvider>
               <Murmur>Factory</Murmur>
               <DynamicEnvironmentType>None</DynamicEnvironmentType>
@@ -2249,7 +2255,7 @@
                   <InactiveAmount>500</InactiveAmount>
                 </Item>
                 <Item>
-                  <Product>1010116</Product>
+                  <Product>1010117</Product>
                   <Amount>50</Amount>
                 </Item>
               </Maintenances>
@@ -2354,7 +2360,7 @@
                   <ActionList/>
                 </Values>
               </OnSelection>
-              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+              <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
               <Colors>
                 <WeakSelectionColorType>NoColor</WeakSelectionColorType>
               </Colors>
@@ -2402,7 +2408,9 @@
               <CycleTime>60</CycleTime>
               <IsMainFactory>0</IsMainFactory>
             </FactoryBase>
-            <LogisticNode/>
+            <LogisticNode>
+              <TransporterCountMax>1</TransporterCountMax>
+            </LogisticNode>
             <AmbientMoodProvider>
               <Murmur>Factory</Murmur>
               <DynamicEnvironmentType>None</DynamicEnvironmentType>
@@ -2415,7 +2423,7 @@
                   <InactiveAmount>500</InactiveAmount>
                 </Item>
                 <Item>
-                  <Product>1010116</Product>
+                  <Product>1010117</Product>
                   <Amount>50</Amount>
                 </Item>
               </Maintenances>
@@ -2508,7 +2516,7 @@
                 <Item>
                   <Filename>data/modgraphics/buildings/production/spinning_mill/spinning_mill.cfg</Filename>
                 </Item>
-              </Variations>>
+              </Variations>
             </Object>
             <Mesh/>
             <Selection>
@@ -2519,7 +2527,7 @@
                   <ActionList/>
                 </Values>
               </OnSelection>
-              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+              <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
               <Colors>
                 <WeakSelectionColorType>NoColor</WeakSelectionColorType>
               </Colors>
@@ -2567,7 +2575,9 @@
               <CycleTime>15</CycleTime>
               <IsMainFactory>0</IsMainFactory>
             </FactoryBase>
-            <LogisticNode/>
+            <LogisticNode>
+              <TransporterCountMax>1</TransporterCountMax>
+            </LogisticNode>
             <AmbientMoodProvider>
               <Murmur>Factory</Murmur>
               <DynamicEnvironmentType>None</DynamicEnvironmentType>
@@ -2580,7 +2590,7 @@
                   <InactiveAmount>500</InactiveAmount>
                 </Item>
                 <Item>
-                  <Product>1010116</Product>
+                  <Product>1010117</Product>
                   <Amount>50</Amount>
                 </Item>
               </Maintenances>
@@ -2684,7 +2694,7 @@
                   <ActionList/>
                 </Values>
               </OnSelection>
-              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+              <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
               <Colors>
                 <WeakSelectionColorType>NoColor</WeakSelectionColorType>
               </Colors>
@@ -2732,7 +2742,9 @@
               <CycleTime>20</CycleTime>
               <IsMainFactory>0</IsMainFactory>
             </FactoryBase>
-            <LogisticNode/>
+            <LogisticNode>
+              <TransporterCountMax>1</TransporterCountMax>
+            </LogisticNode>
             <AmbientMoodProvider>
               <Murmur>Factory</Murmur>
               <DynamicEnvironmentType>None</DynamicEnvironmentType>
@@ -2745,7 +2757,7 @@
                   <InactiveAmount>500</InactiveAmount>
                 </Item>
                 <Item>
-                  <Product>1010116</Product>
+                  <Product>1010117</Product>
                   <Amount>50</Amount>
                 </Item>
               </Maintenances>
@@ -3046,8 +3058,8 @@
               <Maintenances>
                 <Item>
                   <Product>1010017</Product>
-                  <Amount>1500</Amount>
-                  <InactiveAmount>750</InactiveAmount>
+                  <Amount>500</Amount>
+                  <InactiveAmount>250</InactiveAmount>
                 </Item>
                 <Item>
                   <Product>1010115</Product>
@@ -3096,7 +3108,16 @@
                 <Percental>1</Percental>
               </ProductivityUpgrade>
             </FactoryUpgrade>
-            <BuildingUpgrade/>
+            <BuildingUpgrade>
+              <MaintenanceUpgrade>
+                <Value>25</Value>
+                <Percental>1</Percental>
+              </MaintenanceUpgrade>
+              <WorkforceAmountUpgrade>
+                <Value>25</Value>
+                <Percental>1</Percental>
+              </WorkforceAmountUpgrade>
+            </BuildingUpgrade>
             <Buff/>
             <CultureUpgrade>
               <HideBuff>1</HideBuff>
@@ -4529,6 +4550,7 @@
 
     <!-- ItemSet -->
     <Group>
+      <!-- Industrial Looms -->
       <Group>
         <ModOp Type="addNextSibling" GUID="190884">
           <Asset>
@@ -4593,19 +4615,108 @@
             </Values>
           </Asset>
         </ModOp>
+        <ModOp GUID="190883,190884,190885" Type="add" Path="Values/Item/">
+          <ItemSet>2143505456</ItemSet>
+        </ModOp>
       </Group>
 
-      <ModOp GUID="190883,190884,190885" Type="add" Path="Values/Item/">
-        <ItemSet>2143505456</ItemSet>
-      </ModOp>
+      <!-- Spinning Expertise -->
+      <Group>
+        <ModOp Type="addNextSibling" GUID="190884">
+          <Asset>
+            <Template>ItemSet</Template>
+            <Values>
+              <Standard>
+                <GUID>2143505461</GUID>
+                <Name>Spinning Expertise</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_wool.png</IconFilename>
+              </Standard>
+              <ItemSocketSet>
+                <RegionSetBuff>
+                  <Moderate>
+                    <SetBuff>2143505462</SetBuff>
+                  </Moderate>
+                </RegionSetBuff>
+                <BuffScope>Area</BuffScope>
+              </ItemSocketSet>
+              <Locked/>
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+              <Standard>
+                <GUID>2143505462</GUID>
+                <Name>Spinning Expertise - Boost - Buff</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_wool.png</IconFilename>
+                <InfoDescription>2143505463</InfoDescription>
+              </Standard>
+              <ItemEffect>
+                <EffectTargets>
+                  <Item>
+                    <GUID>2143505459</GUID>
+                  </Item>
+                </EffectTargets>
+                <AllowStacking>1</AllowStacking>
+              </ItemEffect>
+              <FactoryUpgrade>
+                <ProductivityUpgrade>
+                  <Value>50</Value>
+                  <Percental>1</Percental>
+                </ProductivityUpgrade>
+              </FactoryUpgrade>
+              <BuildingUpgrade>
+                <WorkforceAmountUpgrade>
+			            <ReplacingWorkforce>1010115</ReplacingWorkforce>
+                  <Value>50</Value>
+                  <Percental>1</Percental>
+                </WorkforceAmountUpgrade>
+              </BuildingUpgrade>
+              <Buff />
+              <PopulationUpgrade />
+              <ResidenceUpgrade />
+              <IncidentInfectableUpgrade />
+              <CultureUpgrade>
+                <HideBuff>0</HideBuff>
+              </CultureUpgrade>
+              <InfluenceSourceUpgrade />
+              <DistributionUpgrade />
+              <ItemContainerUpgrade />
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>ForwardBuff</Template>
+            <Values>
+              <Standard>
+                <GUID>2143505463</GUID>
+                <Name>Spinning Expertise - Base Buff Forward</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_wool.png</IconFilename>
+              </Standard>
+              <Buff/>
+              <ItemEffect>
+                <EffectTargets>
+                  <Item>
+                    <GUID>2143505442</GUID>
+                  </Item>
+                </EffectTargets>
+              </ItemEffect>
+              <EffectForward>
+                <ForwardEffect>2143505462</ForwardEffect>
+                <ForwardEffectRange>15</ForwardEffectRange>
+              </EffectForward>
+            </Values>
+          </Asset>
+        </ModOp>
+        <ModOp GUID="191325,191326,191336" Type="add" Path="Values/Item/">
+          <ItemSet>2143505461</ItemSet>
+        </ModOp>
+      </Group>
 
       <ModOp GUID="191329,191328,192039" Type="add" Path="Values/Item/">
         <ItemSet></ItemSet>
       </ModOp>
 
-      <ModOp GUID="191326,191325,191337,191336" Type="add" Path="Values/Item/">
-        <ItemSet></ItemSet>
-      </ModOp>
+      
     </Group>
   </Group>
 </ModOps>

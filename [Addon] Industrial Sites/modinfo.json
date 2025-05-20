@@ -7,13 +7,23 @@
     "neutral_hacienda_genshi",
     "shared_ui_change_kurila",
     "shared_neutral_culture_modules",
-    "shared_neutral_train"
-	"shared_goods_strings",
-	"shared-ground-textures-industry-jakob",
+    "shared_neutral_train",
+    "shared_goods_strings",
+    "shared-ground-textures-industry-jakob",
+    "suits-jakob",
+    "sewing_thread_kurila",
+    "JDG_04_get_on_the_train",
+    "lion053_Ornamental_Trains",
+    "khobs_crusher",
+    "khobs_sifter",
+    "khobs_polytechnical_school",
+    "shared_freight_station_khobs",
+    "shared_tradingcompany_taludas"
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",
-    "shared_neutral_train"
+    "shared_neutral_train",
+    "shared_freight_station_khobs"
   ],
   "Category": {
     "Chinese": "Addon",
