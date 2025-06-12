@@ -1,3 +1,43 @@
+<!--
+2143505308 - Unhide Menu I - Trigger
+2143505309 - Unlock_01_Regular - Trigger
+2143505310 - Unlock Creative Mode - Trigger
+2143505311 - Downtown - ConstructionCategory
+2143505312  - Downtown - ConstructionCategory - Description
+2143505313 - Small Market - Market
+2143505314 - Small Market - Skin - DefaultSkinCategoryName
+2143505315 - Marketplace Fancy - Skin
+2143505316 - Small Boxing Arena - PublicServiceBuilding
+2143505317 - ?
+2143505318 - Small Fire Station - CityInstitutionBuilding
+2143505319 - Small Fire Department - CityInstitutionBuildingAdvanced
+2143505320 - Small Fire Department OldTown Skin - DefaultSkinCategoryName
+2143505321 - Small Fire Station OldTown Skin - Skin
+2143505322 - Small Fire Department OldTown Skin - Skin
+2143505323 - Small Police Station - CityInstitutionBuilding
+2143505324 - Small Police Station - SkinCategoryDescription
+2143505325 - Small Police Station OldTown Skin - Skin
+2143505326 - Small Police Headquarters - CityInstitutionBuildingAdvanced
+2143505327 - Small Police Headquarters OldTown Skin - Skin
+2143505328 - Small Hospital - CityInstitutionBuilding
+2143505329 - Small Hospital Luxurious Skin - Skin
+2143505330 - Small Hospital Luxurious Skin - DefaultSkinCategoryName
+2143505331 - Small Hospital Luxurious Skin - SkinDescription
+2143505332 - Small City Hospital - CityInstitutionBuilding
+2143505333 - Small Church - PublicServiceBuilding
+2143505334 - Post Office - PostBoxBuildingWithDepot
+2143505335 - Tiny Hotel - ResidenceBuilding7
+2143505336 - Tiny Hotel Resident Debuff - TownhallBuff
+2143505337 - Tiny Hotel - DefaultSkinCategoryName
+2143505338 - Tiny Hotel Variation 2 - Skin
+2143505339 - Tiny Hotel Skin Yellow low - Skin
+2143505340 - Tiny Hotel Skin Yellow low - SkinDescription
+2143505341 - Tiny Hotel Skin White low - Skin
+2143505342 - Tiny Hotel Skin White low - SkinDescription
+2143505343 - ?
+2143505344 - Small Clubhouse - PublicServiceBuilding
+-->
+
 <ModOps>
 
   <!-- New World Downtown v1 -->
