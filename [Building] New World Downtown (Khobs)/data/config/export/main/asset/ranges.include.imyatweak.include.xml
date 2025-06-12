@@ -1,0 +1,22 @@
+<ModOps>
+  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2143505313" Type="replace">
+    <FullSatisfactionDistance>22</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2143505316" Type="replace">
+    <FullSatisfactionDistance>19</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2143505333" Type="replace">
+    <FullSatisfactionDistance>35</FullSatisfactionDistance>
+  </ModOp>
+  <!-- TODO: NW school -->
+  <!-- <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="" Type="replace">
+    <FullSatisfactionDistance>22</FullSatisfactionDistance>
+  </ModOp> -->
+  <!-- TODO: NW bank -->
+  <!-- <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="" Type="replace">
+    <FullSatisfactionDistance>24</FullSatisfactionDistance>
+  </ModOp> -->
+  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2143505344" Type="replace">
+    <FullSatisfactionDistance>20</FullSatisfactionDistance>
+  </ModOp>
+</ModOps>
