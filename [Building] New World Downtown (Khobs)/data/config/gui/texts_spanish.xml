@@ -1,0 +1,141 @@
+<ModOps>
+  <!-- empty entries use TextOverrides -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505311</GUID>
+      <Text>Centro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505312</GUID>
+      <Text>Variaciones de construcción 3x3</Text>
+    </Text>
+    <Text>
+      <GUID>2143505313</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505314</GUID>
+      <Text>Pieles de mercado</Text>
+    </Text>
+    <Text>
+      <GUID>2143505315</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505316</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505317</GUID>
+      <Text>Boxing Arena Skins</Text>
+    </Text>
+    <Text>
+      <GUID>2143505318</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505319</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505320</GUID>
+      <Text>Aspectos de estación de bomberos</Text>
+    </Text>
+    <Text>
+      <GUID>2143505321</GUID>
+      <Text>Antigua Estación de Bomberos</Text>
+    </Text>
+    <Text>
+      <GUID>2143505322</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505323</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505324</GUID>
+      <Text>Skins de comisaría</Text>
+    </Text>
+    <Text>
+      <GUID>2143505325</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505326</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505327</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505328</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505329</GUID>
+      <Text>Lujoso hospital</Text>
+    </Text>
+    <Text>
+      <GUID>2143505330</GUID>
+      <Text>Pieles de hospital</Text>
+    </Text>
+    <Text>
+      <GUID>2143505331</GUID>
+      <Text>¡Nos preocupamos por su éxito!</Text>
+    </Text>
+    <Text>
+      <GUID>2143505332</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505333</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505334</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505335</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505336</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505337</GUID>
+      <Text>Pieles de hotel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505338</GUID>
+      <Text>Pequeño hotel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505339</GUID>
+      <Text>Pequeño hotel (techo bajo)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505340</GUID>
+      <Text>¡Desde aquí, incluso podemos ver la parada de autobús!</Text>
+    </Text>
+    <Text>
+      <GUID>2143505341</GUID>
+      <Text>Pequeño hotel (techo bajo)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505342</GUID>
+      <Text>¡Desde aquí, incluso podemos ver la parada de autobús!</Text>
+    </Text>
+    <Text>
+      <GUID>2143505343</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505344</GUID>
+      <Text></Text>
+    </Text>
+  </ModOp>
+</ModOps>
