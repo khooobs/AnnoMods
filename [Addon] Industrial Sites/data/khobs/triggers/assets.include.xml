@@ -1,0 +1,115 @@
+<ModOps>
+  <ModOp GUID="130248" Type="addNextSibling"> 
+    <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505400</GUID>
+            <Name>Creative Trigger</Name>
+            <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Values>
+                <ConditionPropsNegatable />
+                <Condition />
+                <ConditionIsCreativeMode />
+              </Values>
+              <Template>ConditionIsCreativeMode</Template>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>2143505404</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505405</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505406</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505407</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+            <ResetTrigger>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <EmptyAutoCreateValue />
+              </Values>
+            </ResetTrigger>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+    </Asset>
+    <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505401</GUID>
+            <Name>Unlock Sandbox</Name>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <Template>ConditionPlayerCounter</Template>
+                <Values>
+                  <Condition />
+                  <ConditionPlayerCounter>
+                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                    <Context>15000003</Context>
+                    <CounterAmount>1</CounterAmount>
+                  </ConditionPlayerCounter>
+                </Values>
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>2143505404</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505405</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505406</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505407</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+            <ResetTrigger>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <EmptyAutoCreateValue />
+              </Values>
+            </ResetTrigger>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+    </Asset> 
+  </ModOp>
+</ModOps>
