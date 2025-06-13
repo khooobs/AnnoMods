@@ -1,5 +1,28 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-    
+    <Text>
+      <GUID>2143505402</GUID>
+      <Text>Industrial Site</Text>
+    </Text>
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>Large Industries</Text>
+    </Text>
+    <Text>
+      <GUID>2143505404</GUID>
+      <Text>Concrete Road</Text>
+    </Text>
+    <Text>
+      <GUID>2143505405</GUID>
+      <Text>Large Brick Wall Gate</Text>
+    </Text>
+    <Text>
+      <GUID>2143505406</GUID>
+      <Text>Industrial Barrier Gate</Text>
+    </Text>
+    <Text>
+      <GUID>2143505407</GUID>
+      <Text>Industrial Barrier Gate Large</Text>
+    </Text>
   </ModOp>
 </ModOps>
