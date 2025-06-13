@@ -141,6 +141,81 @@
 				<Building>
 					<BuildingType>BuildingModule</BuildingType>
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<!-- end, south-west -->
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-east -->
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, south -->
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- end, north-east -->
+							<Direction>1</Direction>
+							<Type>Crossing</Type>
+						</Item>
+						<Item>
+							<!-- mid, south-west to north-east -->
+							<Direction>3</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- corner, east -->
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-east -->
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- end, north-west -->
+							<Direction>2</Direction>
+							<Type>Crossing</Type>
+						</Item>
+						<Item>
+							<!-- corner, west -->
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- mid, north-west to south-east -->
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-west  -->
+							<Direction>0</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- corner, north -->
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-west -->
+							<Direction>3</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-east -->
+							<Direction>2</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- crossing -->
+						</Item>
+					</InfluencedVariationDirection>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<AllowChangeDirection>1</AllowChangeDirection>
 				</Building>
 				<Blocking/>
 				<Cost>

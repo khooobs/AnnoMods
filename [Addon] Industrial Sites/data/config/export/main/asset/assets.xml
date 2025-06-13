@@ -62,6 +62,7 @@
 2143505458 - Textile - Industrial Looms - Boost - Buff - Description
 2143505459 - Textile - All spinning mills textile industry - ItemEffectTargetPool
 2143505460 - Textile - All clothmakers textile industry - ItemEffectTargetPool
+
 -->
 <ModOps>
   <!-- Include Region -->
@@ -77,7 +78,7 @@
           <Standard>
             <GUID>2143505403</GUID>
             <Name>Industrial Sites Menu</Name>
-            <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_industrial_administration.png</IconFilename>
+            <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_industry_menu.png</IconFilename>
           </Standard>
           <ConstructionCategory>
             <BuildingList>
@@ -832,7 +833,9 @@
             <Sets>
               <Item/> <!-- LLT -->
               <Item/> <!-- LLB -->
-              <Item/> <!-- LT -->
+              <Item>
+                <Set>2143505461</Set>
+              </Item> <!-- LT -->
               <Item>  <!-- LB -->
                 <Set>2143505456</Set>
               </Item> 
@@ -868,7 +871,13 @@
                 <ModuleGUID>2143505445</ModuleGUID>
               </Item>
               <Item>
+                <ModuleGUID>2143505447</ModuleGUID>
+              </Item>
+              <Item>
                 <ModuleGUID>2143505448</ModuleGUID>
+              </Item>
+              <Item>
+                <ModuleGUID>2143505450</ModuleGUID>
               </Item>
               <Item>
                 <ModuleGUID>2143505451</ModuleGUID>
@@ -1804,13 +1813,6 @@
               <Name>Loom Factory - Module - Negative - Buff</Name>
               <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_loom_1.png</IconFilename>
             </Standard>
-            <ItemEffect>
-              <EffectTargets>
-                <Item>
-                  <GUID></GUID>
-                </Item>
-              </EffectTargets>
-            </ItemEffect>
             <FactoryUpgrade>
               <ProductivityUpgrade>
                 <Value>-1000</Value>
@@ -1900,7 +1902,7 @@
                   <ActionList/>
                 </Values>
               </OnSelection>
-              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+              <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
               <Colors>
                 <WeakSelectionColorType>NoColor</WeakSelectionColorType>
               </Colors>
@@ -1943,7 +1945,7 @@
                   <InactiveAmount>500</InactiveAmount>
                 </Item>
                 <Item>
-                  <Product>1010116</Product>
+                  <Product>1010117</Product>
                   <Amount>50</Amount>
                 </Item>
               </Maintenances>
@@ -2022,7 +2024,7 @@
                   <ActionList/>
                 </Values>
               </OnSelection>
-              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+              <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
               <Colors>
                 <WeakSelectionColorType>NoColor</WeakSelectionColorType>
               </Colors>
@@ -2070,7 +2072,9 @@
               <CycleTime>45</CycleTime>
               <IsMainFactory>0</IsMainFactory>
             </FactoryBase>
-            <LogisticNode/>
+            <LogisticNode>
+              <TransporterCountMax>1</TransporterCountMax>
+            </LogisticNode>
             <AmbientMoodProvider>
               <Murmur>Factory</Murmur>
               <DynamicEnvironmentType>None</DynamicEnvironmentType>
@@ -2083,7 +2087,7 @@
                   <InactiveAmount>500</InactiveAmount>
                 </Item>
                 <Item>
-                  <Product>1010116</Product>
+                  <Product>1010117</Product>
                   <Amount>50</Amount>
                 </Item>
               </Maintenances>
@@ -2188,7 +2192,7 @@
                   <ActionList/>
                 </Values>
               </OnSelection>
-              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+              <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
               <Colors>
                 <WeakSelectionColorType>NoColor</WeakSelectionColorType>
               </Colors>
@@ -2236,7 +2240,9 @@
               <CycleTime>15</CycleTime>
               <IsMainFactory>0</IsMainFactory>
             </FactoryBase>
-            <LogisticNode/>
+            <LogisticNode>
+              <TransporterCountMax>1</TransporterCountMax>
+            </LogisticNode>
             <AmbientMoodProvider>
               <Murmur>Factory</Murmur>
               <DynamicEnvironmentType>None</DynamicEnvironmentType>
@@ -2249,7 +2255,7 @@
                   <InactiveAmount>500</InactiveAmount>
                 </Item>
                 <Item>
-                  <Product>1010116</Product>
+                  <Product>1010117</Product>
                   <Amount>50</Amount>
                 </Item>
               </Maintenances>
@@ -2354,7 +2360,7 @@
                   <ActionList/>
                 </Values>
               </OnSelection>
-              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+              <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
               <Colors>
                 <WeakSelectionColorType>NoColor</WeakSelectionColorType>
               </Colors>
@@ -2402,7 +2408,9 @@
               <CycleTime>60</CycleTime>
               <IsMainFactory>0</IsMainFactory>
             </FactoryBase>
-            <LogisticNode/>
+            <LogisticNode>
+              <TransporterCountMax>1</TransporterCountMax>
+            </LogisticNode>
             <AmbientMoodProvider>
               <Murmur>Factory</Murmur>
               <DynamicEnvironmentType>None</DynamicEnvironmentType>
@@ -2415,7 +2423,7 @@
                   <InactiveAmount>500</InactiveAmount>
                 </Item>
                 <Item>
-                  <Product>1010116</Product>
+                  <Product>1010117</Product>
                   <Amount>50</Amount>
                 </Item>
               </Maintenances>
@@ -2508,7 +2516,7 @@
                 <Item>
                   <Filename>data/modgraphics/buildings/production/spinning_mill/spinning_mill.cfg</Filename>
                 </Item>
-              </Variations>>
+              </Variations>
             </Object>
             <Mesh/>
             <Selection>
@@ -2519,7 +2527,7 @@
                   <ActionList/>
                 </Values>
               </OnSelection>
-              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+              <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
               <Colors>
                 <WeakSelectionColorType>NoColor</WeakSelectionColorType>
               </Colors>
@@ -2567,7 +2575,9 @@
               <CycleTime>15</CycleTime>
               <IsMainFactory>0</IsMainFactory>
             </FactoryBase>
-            <LogisticNode/>
+            <LogisticNode>
+              <TransporterCountMax>1</TransporterCountMax>
+            </LogisticNode>
             <AmbientMoodProvider>
               <Murmur>Factory</Murmur>
               <DynamicEnvironmentType>None</DynamicEnvironmentType>
@@ -2580,7 +2590,7 @@
                   <InactiveAmount>500</InactiveAmount>
                 </Item>
                 <Item>
-                  <Product>1010116</Product>
+                  <Product>1010117</Product>
                   <Amount>50</Amount>
                 </Item>
               </Maintenances>
@@ -2684,7 +2694,7 @@
                   <ActionList/>
                 </Values>
               </OnSelection>
-              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+              <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
               <Colors>
                 <WeakSelectionColorType>NoColor</WeakSelectionColorType>
               </Colors>
@@ -2732,7 +2742,9 @@
               <CycleTime>20</CycleTime>
               <IsMainFactory>0</IsMainFactory>
             </FactoryBase>
-            <LogisticNode/>
+            <LogisticNode>
+              <TransporterCountMax>1</TransporterCountMax>
+            </LogisticNode>
             <AmbientMoodProvider>
               <Murmur>Factory</Murmur>
               <DynamicEnvironmentType>None</DynamicEnvironmentType>
@@ -2745,7 +2757,7 @@
                   <InactiveAmount>500</InactiveAmount>
                 </Item>
                 <Item>
-                  <Product>1010116</Product>
+                  <Product>1010117</Product>
                   <Amount>50</Amount>
                 </Item>
               </Maintenances>
@@ -2824,128 +2836,67 @@
             </Standard>
             <Building>
               <BuildingCategoryName>2143505402</BuildingCategoryName>
-              <BuildModeRandomRotation>180</BuildModeRandomRotation>
+              <BuildModeRandomRotation>90</BuildModeRandomRotation>
               <AssociatedRegions>Moderate</AssociatedRegions>
               <AllowChangeVariation>1</AllowChangeVariation>
               <AllowChangeDirection>1</AllowChangeDirection>
-              <InfluencedVariationDirection>
-                <Item />
+              <SecondPartyRelevant>0</SecondPartyRelevant>
+              <InfluencedByNeighbors>
                 <Item>
-                  <!-- end, south-west -->
-                  <Direction>3</Direction>
-                  <Type>End</Type>
+                  <Building>2143505442</Building>
                 </Item>
-                <Item>
-                  <!-- end, south-east -->
-                  <Type>End</Type>
-                </Item>
-                <Item>
-                  <!-- corner, south -->
-                  <Direction>2</Direction>
-                  <Type>Corner</Type>
-                </Item>
-                <Item>
-                  <!-- end, north-east -->
-                  <Direction>1</Direction>
-                  <Type>Crossing</Type>
-                </Item>
-                <Item>
-                  <!-- mid, south-west to north-east -->
-                  <Direction>3</Direction>
-                  <Type>Mid</Type>
-                </Item>
-                <Item>
-                  <!-- corner, east -->
-                  <Direction>1</Direction>
-                  <Type>TCrossing</Type>
-                </Item>
-                <Item>
-                  <!-- T, front facing south-east -->
-                  <Direction>1</Direction>
-                  <Type>Mid</Type>
-                </Item>
-                <Item>
-                  <!-- end, north-west -->
-                  <Direction>2</Direction>
-                  <Type>Crossing</Type>
-                </Item>
-                <Item>
-                  <!-- corner, west -->
-                  <Direction>3</Direction>
-                  <Type>TCrossing</Type>
-                </Item>
-                <Item>
-                  <!-- mid, north-west to south-east -->
-                  <Type>Mid</Type>
-                </Item>
-                <Item>
-                  <!-- T, front facing south-west  -->
-                  <Direction>0</Direction>
-                  <Type>Mid</Type>
-                </Item>
-                <Item>
-                  <!-- corner, north -->
-                  <Type>Corner</Type>
-                </Item>
-                <Item>
-                  <!-- T, front facing north-west -->
-                  <Direction>3</Direction>
-                  <Type>Mid</Type>
-                </Item>
-                <Item>
-                  <!-- T, front facing north-east -->
-                  <Direction>2</Direction>
-                  <Type>Mid</Type>
-                </Item>
-                <Item>
-                  <!-- crossing -->
-                </Item>
-              </InfluencedVariationDirection>
+              </InfluencedByNeighbors>
               <BuildingBlockPool>
                 <DontCare />
-                <Single />
+                <Single>
+                  <Pool>
+                    <Item>
+                      <Variation>3</Variation>
+                      <DirectionOffet>0</DirectionOffet>
+                    </Item>
+                  </Pool>
+                </Single>
                 <Mid>
+                  <Pool>
+                    <Item>
+                      <Variation>1</Variation>
+                      <DirectionOffet>0</DirectionOffet>
+                    </Item>
+                  </Pool>
+                </Mid>
+                <End>
                   <Pool>
                     <Item>
                       <DirectionOffet>1</DirectionOffet>
                       <Variation>2</Variation>
                     </Item>
-                    <Item>
-                      <DirectionOffet>2</DirectionOffet>
-                      <Variation>2</Variation>
-                    </Item>
-                  </Pool>
-                </Mid>
-                <Corner/>
-                <End>
-                  <Pool>
-                    <!-- left side -->
-                    <Item>
-                      <DirectionOffet>3</DirectionOffet>
-                      <Variation>3</Variation>
-                    </Item>
-                    <Item>
-                      <DirectionOffet>3</DirectionOffet>
-                      <Variation>1</Variation>
-                    </Item>
                   </Pool>
                 </End>
-                <TCrossing>
-                  <Pool>
-                    <Item>
-                      <DirectionOffet>3</DirectionOffet>
-                      <Variation>2</Variation>
-                    </Item>
-                  </Pool>
-                </TCrossing>
+                <!-- alt end -->
                 <Crossing>
                   <Pool>
-                    <!-- right side -->
                     <Item>
-                      <Variation>1</Variation>
+                      <DirectionOffet>2</DirectionOffet>
                     </Item>
                   </Pool>
                 </Crossing>
+                <Corner>
+                  <Pool>
+                    <Item>
+                      <DirectionOffet>3</DirectionOffet>
+                      <Variation>0</Variation>
+                    </Item>
+                  </Pool>
+                </Corner>
+                <!-- alt corner -->
+                <TCrossing>
+                  <Pool>
+                    <Item>
+                      <Variation>2</Variation>
+                      <DirectionOffet>1</DirectionOffet>
+                    </Item>
+                  </Pool>
+                </TCrossing>
               </BuildingBlockPool>
             </Building>
             <Blocking/>
@@ -2973,34 +2924,20 @@
               </Costs>
             </Cost>
             <Object>
-              <GUIType>GuildHouse</GUIType>
               <Variations>
                 <Item>
-                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module.cfg</Filename>
+                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_corner_right.cfg</Filename>
                 </Item>
                 <Item>
-                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_right_end.cfg</Filename>
+                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_mid.cfg</Filename>
                 </Item>
                 <Item>
-                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_left_end.cfg</Filename>
+                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_corner_left.cfg</Filename>
                 </Item>
                 <Item>
-                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_small.cfg</Filename>
-                </Item>
-                <Item>
-                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_small_middle.cfg</Filename>
-                </Item>
-                <Item>
-                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_small_end.cfg</Filename>
+                  <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_single.cfg</Filename>
                 </Item>
               </Variations>
-              <Skins>
-                <DefaultSkinName>2143505482</DefaultSkinName>
-                <DefaultSkinDescription>23853</DefaultSkinDescription>
-                <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
-              </Skins>
-              <UnlockSecondGUI>1500300092</UnlockSecondGUI>
-              <SecondGUIType>Production</SecondGUIType>
             </Object>
             <Mesh/>
             <Selection>
@@ -3046,8 +2983,8 @@
               <Maintenances>
                 <Item>
                   <Product>1010017</Product>
-                  <Amount>1500</Amount>
-                  <InactiveAmount>750</InactiveAmount>
+                  <Amount>500</Amount>
+                  <InactiveAmount>250</InactiveAmount>
                 </Item>
                 <Item>
                   <Product>1010115</Product>
@@ -3096,7 +3033,16 @@
                 <Percental>1</Percental>
               </ProductivityUpgrade>
             </FactoryUpgrade>
-            <BuildingUpgrade/>
+            <BuildingUpgrade>
+              <MaintenanceUpgrade>
+                <Value>25</Value>
+                <Percental>1</Percental>
+              </MaintenanceUpgrade>
+              <WorkforceAmountUpgrade>
+                <Value>25</Value>
+                <Percental>1</Percental>
+              </WorkforceAmountUpgrade>
+            </BuildingUpgrade>
             <Buff/>
             <CultureUpgrade>
               <HideBuff>1</HideBuff>
@@ -3112,6 +3058,17 @@
             <ResourceUpgrade/>
           </Values>
         </Asset>
+      </ModOp>
+
+      <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+          <Building>2143505442</Building>
+        </Item>
+      </ModOp>
+      <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='1010294']">
+        <Item>
+          <GUID>2143505442</GUID>
+        </Item>
       </ModOp>
     </Group>
 
@@ -4529,6 +4486,7 @@
 
     <!-- ItemSet -->
     <Group>
+      <!-- Industrial Looms -->
       <Group>
         <ModOp Type="addNextSibling" GUID="190884">
           <Asset>
@@ -4593,19 +4551,108 @@
             </Values>
           </Asset>
         </ModOp>
+        <ModOp GUID="190883,190884,190885" Type="add" Path="Values/Item/">
+          <ItemSet>2143505456</ItemSet>
+        </ModOp>
       </Group>
 
-      <ModOp GUID="190883,190884,190885" Type="add" Path="Values/Item/">
-        <ItemSet>2143505456</ItemSet>
-      </ModOp>
+      <!-- Spinning Expertise -->
+      <Group>
+        <ModOp Type="addNextSibling" GUID="190884">
+          <Asset>
+            <Template>ItemSet</Template>
+            <Values>
+              <Standard>
+                <GUID>2143505461</GUID>
+                <Name>Spinning Expertise</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_wool.png</IconFilename>
+              </Standard>
+              <ItemSocketSet>
+                <RegionSetBuff>
+                  <Moderate>
+                    <SetBuff>2143505462</SetBuff>
+                  </Moderate>
+                </RegionSetBuff>
+                <BuffScope>Area</BuffScope>
+              </ItemSocketSet>
+              <Locked/>
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+              <Standard>
+                <GUID>2143505462</GUID>
+                <Name>Spinning Expertise - Boost - Buff</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_wool.png</IconFilename>
+                <InfoDescription>2143505463</InfoDescription>
+              </Standard>
+              <ItemEffect>
+                <EffectTargets>
+                  <Item>
+                    <GUID>2143505459</GUID>
+                  </Item>
+                </EffectTargets>
+                <AllowStacking>1</AllowStacking>
+              </ItemEffect>
+              <FactoryUpgrade>
+                <ProductivityUpgrade>
+                  <Value>50</Value>
+                  <Percental>1</Percental>
+                </ProductivityUpgrade>
+              </FactoryUpgrade>
+              <BuildingUpgrade>
+                <WorkforceAmountUpgrade>
+			            <ReplacingWorkforce>1010115</ReplacingWorkforce>
+                  <Value>50</Value>
+                  <Percental>1</Percental>
+                </WorkforceAmountUpgrade>
+              </BuildingUpgrade>
+              <Buff />
+              <PopulationUpgrade />
+              <ResidenceUpgrade />
+              <IncidentInfectableUpgrade />
+              <CultureUpgrade>
+                <HideBuff>0</HideBuff>
+              </CultureUpgrade>
+              <InfluenceSourceUpgrade />
+              <DistributionUpgrade />
+              <ItemContainerUpgrade />
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>ForwardBuff</Template>
+            <Values>
+              <Standard>
+                <GUID>2143505463</GUID>
+                <Name>Spinning Expertise - Base Buff Forward</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_wool.png</IconFilename>
+              </Standard>
+              <Buff/>
+              <ItemEffect>
+                <EffectTargets>
+                  <Item>
+                    <GUID>2143505442</GUID>
+                  </Item>
+                </EffectTargets>
+              </ItemEffect>
+              <EffectForward>
+                <ForwardEffect>2143505462</ForwardEffect>
+                <ForwardEffectRange>15</ForwardEffectRange>
+              </EffectForward>
+            </Values>
+          </Asset>
+        </ModOp>
+        <ModOp GUID="191325,191326,191336" Type="add" Path="Values/Item/">
+          <ItemSet>2143505461</ItemSet>
+        </ModOp>
+      </Group>
 
       <ModOp GUID="191329,191328,192039" Type="add" Path="Values/Item/">
         <ItemSet></ItemSet>
       </ModOp>
 
-      <ModOp GUID="191326,191325,191337,191336" Type="add" Path="Values/Item/">
-        <ItemSet></ItemSet>
-      </ModOp>
+      
     </Group>
   </Group>
 </ModOps>

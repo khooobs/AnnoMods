@@ -234,5 +234,17 @@
       <GUID>2143505460</GUID>
       <Text>All Clothmakers Industries</Text>
     </Text>
+    <Text>
+      <GUID>2143505461</GUID>
+      <Text>SPINNING EXPERTISE</Text>
+    </Text>
+    <Text>
+      <GUID>2143505462</GUID>
+      <Text>SPINNING EXPERTISE BOOST</Text>
+    </Text>
+    <Text>
+      <GUID>2143505463</GUID>
+      <Text>SPINNING EXPERTISE BASE BUFF</Text>
+    </Text>
   </ModOp>
 </ModOps>
