@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505516</GUID>
+      <Text>Минералов</Text>
+    </Text>
+    <Text>
+      <GUID>2143505517</GUID>
+      <Text>Усилия по раскопкам зоны дают некоторые дополнительные камни, жеоды и гравий, которые могут быть просеяны для дополнительных товаров.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505518</GUID>
+      <Text>Дробилка: Холостая</Text>
+    </Text>
+    <Text>
+      <GUID>2143505519</GUID>
+      <Text>Производим дополнительные товары</Text>
+    </Text>
+    <Text>
+      <GUID>2143505520</GUID>
+      <Text>Процессы дробления</Text>
+    </Text>
+    <Text>
+      <GUID>2143505521</GUID>
+      <Text>Специальное здание с дробильными машинами и цепями для больших кусков минералов и жеод.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505524</GUID>
+      <Text>Дробилка: Железо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505522</GUID>
+      <Text>Дробилка: Железо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505523</GUID>
+      <Text>Пожалуйста, будьте осторожны, чтобы не наклониться полностью над дробилкой!</Text>
+    </Text>
+    <Text>
+      <GUID>2143505525</GUID>
+      <Text>Дробилка: Медь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505526</GUID>
+      <Text>Дробилка: Медь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505527</GUID>
+      <Text>Дробилка: Цинк</Text>
+    </Text>
+    <Text>
+      <GUID>2143505528</GUID>
+      <Text>Дробилка: Цинк</Text>
+    </Text>
+    <Text>
+      <GUID>2143505529</GUID>
+      <Text>Дробилка: Уголь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505530</GUID>
+      <Text>Дробилка: Уголь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505531</GUID>
+      <Text>Дробилка: Золото</Text>
+    </Text>
+    <Text>
+      <GUID>2143505532</GUID>
+      <Text>Дробилка: Золото</Text>
+    </Text>
+  </ModOp>
+</ModOps>

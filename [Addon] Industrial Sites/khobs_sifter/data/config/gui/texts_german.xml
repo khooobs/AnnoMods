@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505519</GUID>
+      <Text>Produzieren Sie Zusatzgüter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505536</GUID>
+      <Text>Sichter: blank</Text>
+    </Text>
+    <Text>
+      <GUID>2143505537</GUID>
+      <Text>Produzieren Sie Zusatzgüter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505538</GUID>
+      <Text>Siebverfahren</Text>
+    </Text>
+    <Text>
+      <GUID>2143505540</GUID>
+      <Text>Sieb: Eisen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505542</GUID>
+      <Text>Sieb: Eisen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505539</GUID>
+      <Text>Zahlreiche Maschinen zum Sieben von Silizium und zum Auffinden von Mineralsteinen für die Metallurgie.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505541</GUID>
+      <Text>Die Erfahrung bei der Sichtung der Meere hat es ermöglicht, mehr Erz zu gewinnen, das von der Metallurgie besonders geschätzt wird.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505543</GUID>
+      <Text>Sichter: Kalkstein</Text>
+    </Text>
+    <Text>
+      <GUID>2143505544</GUID>
+      <Text>Diese kiesige Lagerstätte stand so lange unter Wasser, dass die Erosion ihren Tribut gefordert hat.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505545</GUID>
+      <Text>Sichter: Kalkstein</Text>
+    </Text>
+    <Text>
+      <GUID>2143505546</GUID>
+      <Text>Sichter: Gold</Text>
+    </Text>
+    <Text>
+      <GUID>2143505547</GUID>
+      <Text>Sichter: Gold</Text>
+    </Text>
+    <Text>
+      <GUID>2143505548</GUID>
+      <Text>Sieb: Kupfer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505549</GUID>
+      <Text>Sieb: Kupfer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505550</GUID>
+      <Text>Sieb: Zink</Text>
+    </Text>
+    <Text>
+      <GUID>2143505551</GUID>
+      <Text>Sieb: Zink</Text>
+    </Text>
+  </ModOp>
+</ModOps>

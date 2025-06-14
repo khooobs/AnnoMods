@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505519</GUID>
+      <Text>Produci beni aggiuntivi</Text>
+    </Text>
+    <Text>
+      <GUID>2143505536</GUID>
+      <Text>Setacciatore: Blank</Text>
+    </Text>
+    <Text>
+      <GUID>2143505537</GUID>
+      <Text>Produci beni aggiuntivi</Text>
+    </Text>
+    <Text>
+      <GUID>2143505538</GUID>
+      <Text>Processi di setacciatura</Text>
+    </Text>
+    <Text>
+      <GUID>2143505540</GUID>
+      <Text>Setacciatore: Ferro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505542</GUID>
+      <Text>Setacciatore: Ferro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505539</GUID>
+      <Text>Numerose macchine per la setacciatura del silicio e la ricerca di pietre minerali per la metallurgia.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505541</GUID>
+      <Text>L'esperienza della setacciatura dei mari ha permesso di recuperare più minerale, particolarmente apprezzato dal settore metallurgico.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505543</GUID>
+      <Text>Setacciare: Calcare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505544</GUID>
+      <Text>Questo deposito ghiaioso è rimasto sommerso per così tanto tempo che l'erosione ha avuto il suo pedaggio.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505545</GUID>
+      <Text>Setacciare: Calcare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505546</GUID>
+      <Text>Setacciatore: Oro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505547</GUID>
+      <Text>Setacciatore: Oro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505548</GUID>
+      <Text>Setacciatore: Rame</Text>
+    </Text>
+    <Text>
+      <GUID>2143505549</GUID>
+      <Text>Setacciatore: Rame</Text>
+    </Text>
+    <Text>
+      <GUID>2143505550</GUID>
+      <Text>Setacciatore: Zinco</Text>
+    </Text>
+    <Text>
+      <GUID>2143505551</GUID>
+      <Text>Setacciatore: Zinco</Text>
+    </Text>
+  </ModOp>
+</ModOps>

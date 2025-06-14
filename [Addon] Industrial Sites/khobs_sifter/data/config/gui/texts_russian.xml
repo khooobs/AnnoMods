@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505519</GUID>
+      <Text>Производим дополнительные товары</Text>
+    </Text>
+    <Text>
+      <GUID>2143505536</GUID>
+      <Text>Просеиватель: Пустой</Text>
+    </Text>
+    <Text>
+      <GUID>2143505537</GUID>
+      <Text>Производим дополнительные товары</Text>
+    </Text>
+    <Text>
+      <GUID>2143505538</GUID>
+      <Text>Процессы просеивания</Text>
+    </Text>
+    <Text>
+      <GUID>2143505540</GUID>
+      <Text>Просеиватель: Железо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505542</GUID>
+      <Text>Просеиватель: Железо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505539</GUID>
+      <Text>Многочисленные машины для просеивания кремния и поиска минеральных камней для металлургии.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505541</GUID>
+      <Text>Опыт просеивания морей позволил извлечь больше руды, что особенно ценится металлургическим сектором.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505543</GUID>
+      <Text>Просеиватель: Известняк</Text>
+    </Text>
+    <Text>
+      <GUID>2143505544</GUID>
+      <Text>Это гравийное отложение было затоплено так долго, что эрозия сделала свое дело.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505545</GUID>
+      <Text>Просеиватель: Известняк</Text>
+    </Text>
+    <Text>
+      <GUID>2143505546</GUID>
+      <Text>Просеиватель: Золото</Text>
+    </Text>
+    <Text>
+      <GUID>2143505547</GUID>
+      <Text>Просеиватель: Золото</Text>
+    </Text>
+    <Text>
+      <GUID>2143505548</GUID>
+      <Text>Просеиватель: Медь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505549</GUID>
+      <Text>Просеиватель: Медь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505550</GUID>
+      <Text>Просеиватель: Цинк</Text>
+    </Text>
+    <Text>
+      <GUID>2143505551</GUID>
+      <Text>Просеиватель: Цинк</Text>
+    </Text>
+  </ModOp>
+</ModOps>

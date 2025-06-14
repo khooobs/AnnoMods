@@ -10,6 +10,8 @@
     "shared_neutral_train",
     "shared_goods_strings",
     "shared-ground-textures-industry-jakob",
+    "khobs_sifter",
+    "khobs_crusher"
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",

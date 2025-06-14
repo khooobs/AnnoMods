@@ -1,0 +1,48 @@
+{
+	"Version": "1.0",
+	"ModID": "khobs_crusher",
+	"IncompatibleIds": null,
+	"ModDependencies": [],
+	"Category": {
+		"Chinese": "建筑",
+		"English": "Building",
+		"French": "Bâtiment",
+		"German": "Gebäude",
+		"Italian": "Edificio",
+		"Japanese": "建物",
+		"Korean": "건물",
+		"Polish": "Budowla",
+		"Russian": "Здание",
+		"Spanish": "Edificio",
+		"Taiwanese": "建築"
+	},
+	"ModName": {
+		"Chinese": "破碎机",
+		"English": "Crusher",
+		"French": "Broyeur",
+		"German": "Brecher",
+		"Italian": "Frantumatore",
+		"Japanese": "クラッシャー",
+		"Korean": "순경",
+		"Polish": "Kruszarka",
+		"Russian": "Дробилка",
+		"Spanish": "Crusher",
+		"Taiwanese": "破碎機"
+	},
+	"Description": {
+		"Chinese": null,
+		"English": "file::README.md",
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	},
+	"DLCDependencies": [],
+	"CreatorName": "Khobs",
+	"CreatorContact": "https://github.com/Khorbos/AnnoMods"
+}

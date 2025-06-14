@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505519</GUID>
+      <Text>Produire des biens supplémentaires</Text>
+    </Text>
+    <Text>
+      <GUID>2143505536</GUID>
+      <Text>Sifter : Blanc</Text>
+    </Text>
+    <Text>
+      <GUID>2143505537</GUID>
+      <Text>Produire des biens supplémentaires</Text>
+    </Text>
+    <Text>
+      <GUID>2143505538</GUID>
+      <Text>Procédés de tamisage</Text>
+    </Text>
+    <Text>
+      <GUID>2143505540</GUID>
+      <Text>Tamis : Fer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505542</GUID>
+      <Text>Tamis : Fer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505539</GUID>
+      <Text>De nombreuses machines pour tamiser le silicium et trouver des pierres minérales pour la métallurgie.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505541</GUID>
+      <Text>L’expérience du tamisage des mers a permis de récupérer davantage de minerai, particulièrement prisé par le secteur métallurgique.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505543</GUID>
+      <Text>Tamis : Calcaire</Text>
+    </Text>
+    <Text>
+      <GUID>2143505544</GUID>
+      <Text>Ce dépôt graveleux a été submergé pendant si longtemps que l’érosion a fait des ravages.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505545</GUID>
+      <Text>Tamis : Calcaire</Text>
+    </Text>
+    <Text>
+      <GUID>2143505546</GUID>
+      <Text>Tamiseur : Or</Text>
+    </Text>
+    <Text>
+      <GUID>2143505547</GUID>
+      <Text>Tamiseur : Or</Text>
+    </Text>
+    <Text>
+      <GUID>2143505548</GUID>
+      <Text>Tamis : Cuivre</Text>
+    </Text>
+    <Text>
+      <GUID>2143505549</GUID>
+      <Text>Tamis : Cuivre</Text>
+    </Text>
+    <Text>
+      <GUID>2143505550</GUID>
+      <Text>Tamis : Zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2143505551</GUID>
+      <Text>Tamis : Zinc</Text>
+    </Text>
+  </ModOp>
+</ModOps>

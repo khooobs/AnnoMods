@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505519</GUID>
+      <Text>Produkcja towarów dodatkowych</Text>
+    </Text>
+    <Text>
+      <GUID>2143505536</GUID>
+      <Text>Przesiewacz: Pusty</Text>
+    </Text>
+    <Text>
+      <GUID>2143505537</GUID>
+      <Text>Produkcja towarów dodatkowych</Text>
+    </Text>
+    <Text>
+      <GUID>2143505538</GUID>
+      <Text>Procesy przesiewania</Text>
+    </Text>
+    <Text>
+      <GUID>2143505540</GUID>
+      <Text>Przesiewacz: Żelazo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505542</GUID>
+      <Text>Przesiewacz: Żelazo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505539</GUID>
+      <Text>Liczne maszyny do przesiewania krzemu i znajdowania kamieni mineralnych dla hutnictwa.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505541</GUID>
+      <Text>Doświadczenie w przesiewaniu mórz umożliwiło odzyskanie większej ilości rudy, która jest szczególnie ceniona przez sektor metalurgiczny.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505543</GUID>
+      <Text>Przesiewacz: Wapień</Text>
+    </Text>
+    <Text>
+      <GUID>2143505544</GUID>
+      <Text>Ten żwirowy osad był zanurzony tak długo, że erozja zebrała swoje żniwo.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505545</GUID>
+      <Text>Przesiewacz: Wapień</Text>
+    </Text>
+    <Text>
+      <GUID>2143505546</GUID>
+      <Text>Przesiewacz: Złoto</Text>
+    </Text>
+    <Text>
+      <GUID>2143505547</GUID>
+      <Text>Przesiewacz: Złoto</Text>
+    </Text>
+    <Text>
+      <GUID>2143505548</GUID>
+      <Text>Przesiewacz: Miedź</Text>
+    </Text>
+    <Text>
+      <GUID>2143505549</GUID>
+      <Text>Przesiewacz: Miedź</Text>
+    </Text>
+    <Text>
+      <GUID>2143505550</GUID>
+      <Text>Przesiewacz:</Text>
+    </Text>
+    <Text>
+      <GUID>2143505551</GUID>
+      <Text>Przesiewacz:</Text>
+    </Text>
+  </ModOp>
+</ModOps>

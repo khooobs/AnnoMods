@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505519</GUID>
+      <Text>Producir bienes adicionales</Text>
+    </Text>
+    <Text>
+      <GUID>2143505536</GUID>
+      <Text>Tamiz: En blanco</Text>
+    </Text>
+    <Text>
+      <GUID>2143505537</GUID>
+      <Text>Producir bienes adicionales</Text>
+    </Text>
+    <Text>
+      <GUID>2143505538</GUID>
+      <Text>Procesos de tamizado</Text>
+    </Text>
+    <Text>
+      <GUID>2143505540</GUID>
+      <Text>Tamiz: Hierro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505542</GUID>
+      <Text>Tamiz: Hierro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505539</GUID>
+      <Text>Numerosas máquinas para tamizar silicio y encontrar piedras minerales para la metalurgia.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505541</GUID>
+      <Text>La experiencia de tamizar los mares ha permitido recuperar más mineral, que es particularmente apreciado por el sector metalúrgico.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505543</GUID>
+      <Text>Tamiz: Piedra caliza</Text>
+    </Text>
+    <Text>
+      <GUID>2143505544</GUID>
+      <Text>Este depósito de grava ha estado sumergido durante tanto tiempo que la erosión ha pasado factura.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505545</GUID>
+      <Text>Tamiz: Piedra caliza</Text>
+    </Text>
+    <Text>
+      <GUID>2143505546</GUID>
+      <Text>Tamiz: Oro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505547</GUID>
+      <Text>Tamiz: Oro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505548</GUID>
+      <Text>Tamiz: Cobre</Text>
+    </Text>
+    <Text>
+      <GUID>2143505549</GUID>
+      <Text>Tamiz: Cobre</Text>
+    </Text>
+    <Text>
+      <GUID>2143505550</GUID>
+      <Text>Tamiz: Zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2143505551</GUID>
+      <Text>Tamiz: Zinc</Text>
+    </Text>
+  </ModOp>
+</ModOps>
