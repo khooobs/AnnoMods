@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505516</GUID>
+      <Text>Minéraux</Text>
+    </Text>
+    <Text>
+      <GUID>2143505517</GUID>
+      <Text>Les efforts d’excavation de la zone fournissent des pierres, des géodes et des graviers supplémentaires qui peuvent être tamisés pour des marchandises supplémentaires.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505518</GUID>
+      <Text>Concasseur : Blank</Text>
+    </Text>
+    <Text>
+      <GUID>2143505519</GUID>
+      <Text>Produire des biens supplémentaires</Text>
+    </Text>
+    <Text>
+      <GUID>2143505520</GUID>
+      <Text>Procédés de broyage</Text>
+    </Text>
+    <Text>
+      <GUID>2143505521</GUID>
+      <Text>Un bâtiment dédié avec des machines de concassage et des chaînes pour de gros morceaux de minéraux et de géodes.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505524</GUID>
+      <Text>Concasseur : Fer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505522</GUID>
+      <Text>Concasseur : Fer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505523</GUID>
+      <Text>Attention à ne pas se pencher entièrement au-dessus du broyeur !</Text>
+    </Text>
+    <Text>
+      <GUID>2143505525</GUID>
+      <Text>Concasseur : Cuivre</Text>
+    </Text>
+    <Text>
+      <GUID>2143505526</GUID>
+      <Text>Concasseur : Cuivre</Text>
+    </Text>
+    <Text>
+      <GUID>2143505527</GUID>
+      <Text>Concasseur : Zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2143505528</GUID>
+      <Text>Concasseur : Zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2143505529</GUID>
+      <Text>Concasseur : Charbon</Text>
+    </Text>
+    <Text>
+      <GUID>2143505530</GUID>
+      <Text>Concasseur : Charbon</Text>
+    </Text>
+    <Text>
+      <GUID>2143505531</GUID>
+      <Text>Concasseur : Or</Text>
+    </Text>
+    <Text>
+      <GUID>2143505532</GUID>
+      <Text>Concasseur : Or</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505519</GUID>
+      <Text>추가 제품 생산</Text>
+    </Text>
+    <Text>
+      <GUID>2143505536</GUID>
+      <Text>체: 공백</Text>
+    </Text>
+    <Text>
+      <GUID>2143505537</GUID>
+      <Text>추가 제품 생산</Text>
+    </Text>
+    <Text>
+      <GUID>2143505538</GUID>
+      <Text>분체 공정</Text>
+    </Text>
+    <Text>
+      <GUID>2143505540</GUID>
+      <Text>체: 철</Text>
+    </Text>
+    <Text>
+      <GUID>2143505542</GUID>
+      <Text>체: 철</Text>
+    </Text>
+    <Text>
+      <GUID>2143505539</GUID>
+      <Text>실리콘을 체질하고 야금용 광석을 찾는 수많은 기계.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505541</GUID>
+      <Text>바다를 걸러낸 경험을 통해 더 많은 광석을 회수할 수 있게 되었으며, 이는 특히 야금 부문에서 높이 평가됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505543</GUID>
+      <Text>체: 석회암</Text>
+    </Text>
+    <Text>
+      <GUID>2143505544</GUID>
+      <Text>이 자갈 퇴적물은 너무 오랫동안 물에 잠겨 있어 침식으로 인해 큰 피해를 입었습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505545</GUID>
+      <Text>체: 석회암</Text>
+    </Text>
+    <Text>
+      <GUID>2143505546</GUID>
+      <Text>체: 골드</Text>
+    </Text>
+    <Text>
+      <GUID>2143505547</GUID>
+      <Text>체: 골드</Text>
+    </Text>
+    <Text>
+      <GUID>2143505548</GUID>
+      <Text>체: 구리</Text>
+    </Text>
+    <Text>
+      <GUID>2143505549</GUID>
+      <Text>체: 구리</Text>
+    </Text>
+    <Text>
+      <GUID>2143505550</GUID>
+      <Text>체: 아연</Text>
+    </Text>
+    <Text>
+      <GUID>2143505551</GUID>
+      <Text>체: 아연</Text>
+    </Text>
+  </ModOp>
+</ModOps>

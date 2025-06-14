@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505516</GUID>
+      <Text>미네랄</Text>
+    </Text>
+    <Text>
+      <GUID>2143505517</GUID>
+      <Text>이 지역을 굴착하려는 노력은 추가 상품을 위해 체질할 수 있는 추가 돌, 정동석 및 자갈을 제공합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505518</GUID>
+      <Text>크러셔 : 빈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505519</GUID>
+      <Text>추가 제품 생산</Text>
+    </Text>
+    <Text>
+      <GUID>2143505520</GUID>
+      <Text>파쇄 공정</Text>
+    </Text>
+    <Text>
+      <GUID>2143505521</GUID>
+      <Text>큰 광물과 정동석 덩어리를 위한 분쇄 기계와 사슬이 있는 전용 건물입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505524</GUID>
+      <Text>크러셔 : 철</Text>
+    </Text>
+    <Text>
+      <GUID>2143505522</GUID>
+      <Text>크러셔 : 철</Text>
+    </Text>
+    <Text>
+      <GUID>2143505523</GUID>
+      <Text>크러셔 위로 완전히 기대지 않도록 주의하세요!</Text>
+    </Text>
+    <Text>
+      <GUID>2143505525</GUID>
+      <Text>크러셔 : 구리</Text>
+    </Text>
+    <Text>
+      <GUID>2143505526</GUID>
+      <Text>크러셔 : 구리</Text>
+    </Text>
+    <Text>
+      <GUID>2143505527</GUID>
+      <Text>크러셔 : 아연</Text>
+    </Text>
+    <Text>
+      <GUID>2143505528</GUID>
+      <Text>크러셔 : 아연</Text>
+    </Text>
+    <Text>
+      <GUID>2143505529</GUID>
+      <Text>크 러 셔 : 석탄</Text>
+    </Text>
+    <Text>
+      <GUID>2143505530</GUID>
+      <Text>크 러 셔 : 석탄</Text>
+    </Text>
+    <Text>
+      <GUID>2143505531</GUID>
+      <Text>크러셔 : 골드</Text>
+    </Text>
+    <Text>
+      <GUID>2143505532</GUID>
+      <Text>크러셔 : 골드</Text>
+    </Text>
+  </ModOp>
+</ModOps>
