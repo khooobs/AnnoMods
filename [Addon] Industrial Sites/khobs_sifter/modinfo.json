@@ -1,0 +1,48 @@
+{
+	"Version": "1.0",
+	"ModID": "khobs_sifter",
+	"IncompatibleIds": null,
+	"ModDependencies": [],
+	"Category": {
+		"Chinese": "建筑",
+		"English": "Building",
+		"French": "Bâtiment",
+		"German": "Gebäude",
+		"Italian": "Edificio",
+		"Japanese": "建物",
+		"Korean": "건물",
+		"Polish": "Budowla",
+		"Russian": "Здание",
+		"Spanish": "Edificio",
+		"Taiwanese": "建築"
+	},
+	"ModName": {
+		"Chinese": "筛子",
+		"English": "Sifter",
+		"French": "Tamis",
+		"German": "Sieb",
+		"Italian": "Setaccio",
+		"Japanese": "ふるい",
+		"Korean": "Sifter",
+		"Polish": "Sito",
+		"Russian": "Рассев",
+		"Spanish": "Colador",
+		"Taiwanese": "篩子"
+	},
+	"Description": {
+		"Chinese": null,
+		"English": "file::README.md",
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	},
+	"DLCDependencies": [],
+	"CreatorName": "Khobs",
+	"CreatorContact": "https://github.com/Khorbos/AnnoMods"
+}
