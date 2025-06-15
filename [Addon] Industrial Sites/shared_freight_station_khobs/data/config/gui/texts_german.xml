@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505412</GUID>
+      <Text>Güterbahnhof</Text>
+    </Text>
+    <Text>
+      <GUID>2143505413</GUID>
+      <Text>Ein zentraler Güterbahnhof zum Exportieren, Importieren oder Entladen von Waren. Erweiterbar mit Modulen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505414</GUID>
+      <Text>Verwaltung von Güterbahnhöfen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505415</GUID>
+      <Text>Erhöhen Sie die Kapazität für Handelsvereinbarungen für den Import/Export Ihrer Produkte.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505416</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505417</GUID>
+      <Text>Fracht-Exportdock: Öl</Text>
+    </Text>
+    <Text>
+      <GUID>2143505418</GUID>
+      <Text>Fracht-Exportdock: Konserven</Text>
+    </Text>
+    <Text>
+      <GUID>2143505419</GUID>
+      <Text>Fracht-Exportdock: Bier</Text>
+    </Text>
+    <Text>
+      <GUID>2143505420</GUID>
+      <Text>Frachtexportdock: Kohle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505421</GUID>
+      <Text>Frachtexportdock: Spectacles</Text>
+    </Text>
+  </ModOp>
+</ModOps>

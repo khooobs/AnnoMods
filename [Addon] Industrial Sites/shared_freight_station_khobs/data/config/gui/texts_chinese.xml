@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505412</GUID>
+      <Text>货运站</Text>
+    </Text>
+    <Text>
+      <GUID>2143505413</GUID>
+      <Text>一个集中的火车货运站，用于出口、进口或卸货。可通过模块进行扩展。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505414</GUID>
+      <Text>货运站管理</Text>
+    </Text>
+    <Text>
+      <GUID>2143505415</GUID>
+      <Text>提高产品进出口协议的贸易能力。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505416</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505417</GUID>
+      <Text>货运出口码头：石油</Text>
+    </Text>
+    <Text>
+      <GUID>2143505418</GUID>
+      <Text>货运出口码头：罐头食品</Text>
+    </Text>
+    <Text>
+      <GUID>2143505419</GUID>
+      <Text>货运出口码头：啤酒</Text>
+    </Text>
+    <Text>
+      <GUID>2143505420</GUID>
+      <Text>货运出口码头 ： 煤炭</Text>
+    </Text>
+    <Text>
+      <GUID>2143505421</GUID>
+      <Text>货运出口码头：眼镜</Text>
+    </Text>
+  </ModOp>
+</ModOps>

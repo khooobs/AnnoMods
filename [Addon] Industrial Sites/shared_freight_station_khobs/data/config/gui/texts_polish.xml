@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505412</GUID>
+      <Text>Stacja towarowa</Text>
+    </Text>
+    <Text>
+      <GUID>2143505413</GUID>
+      <Text>Scentralizowana stacja towarowa do eksportu, importu lub rozładunku towarów. Możliwość rozbudowy o moduły.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505414</GUID>
+      <Text>Administracja stacji towarowej</Text>
+    </Text>
+    <Text>
+      <GUID>2143505415</GUID>
+      <Text>Zwiększ zdolność do zawierania umów handlowych w zakresie importu/eksportu swoich produktów.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505416</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505417</GUID>
+      <Text>Dok eksportowy towarów: Ropa naftowa</Text>
+    </Text>
+    <Text>
+      <GUID>2143505418</GUID>
+      <Text>Dok eksportowy towarów: żywność w puszkach</Text>
+    </Text>
+    <Text>
+      <GUID>2143505419</GUID>
+      <Text>Dok eksportowy towarów: piwo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505420</GUID>
+      <Text>Dok eksportowy towarów: Węgiel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505421</GUID>
+      <Text>Dok eksportowy towarów: Okulary</Text>
+    </Text>
+  </ModOp>
+</ModOps>

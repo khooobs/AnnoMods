@@ -614,4 +614,10 @@
     </ModOp>
   </Group>
 
+  <!-- Freight Station integration -->
+  <ModOp GUID="25000192" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500506']">
+    <Item>
+      <Building>2143505416</Building>
+    </Item>
+  </ModOp>
 </ModOps>

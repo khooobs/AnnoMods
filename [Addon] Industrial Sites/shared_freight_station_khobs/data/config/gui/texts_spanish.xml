@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505412</GUID>
+      <Text>Estación de carga</Text>
+    </Text>
+    <Text>
+      <GUID>2143505413</GUID>
+      <Text>Una estación de tren de carga centralizada para exportar, importar o descargar mercancías. Ampliable con módulos.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505414</GUID>
+      <Text>Administración de la Estación de Carga</Text>
+    </Text>
+    <Text>
+      <GUID>2143505415</GUID>
+      <Text>Aumente la capacidad de acuerdos comerciales para la importación/exportación de sus productos.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505416</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505417</GUID>
+      <Text>Muelle de exportación de mercancías: Petróleo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505418</GUID>
+      <Text>Muelle de exportación de carga: Alimentos enlatados</Text>
+    </Text>
+    <Text>
+      <GUID>2143505419</GUID>
+      <Text>Muelle de exportación de mercancías: Cerveza</Text>
+    </Text>
+    <Text>
+      <GUID>2143505420</GUID>
+      <Text>Muelle de exportación de mercancías: Carbón</Text>
+    </Text>
+    <Text>
+      <GUID>2143505421</GUID>
+      <Text>Muelle de exportación de mercancías: Spectacles</Text>
+    </Text>
+  </ModOp>
+</ModOps>
