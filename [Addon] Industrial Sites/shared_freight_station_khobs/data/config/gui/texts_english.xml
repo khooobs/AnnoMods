@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505412</GUID>
+      <Text>Freight Station</Text>
+    </Text>
+    <Text>
+      <GUID>2143505413</GUID>
+      <Text>A centralized train freight station to export, import or unload goods. Expandable with modules.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505414</GUID>
+      <Text>Freight Station Administration</Text>
+    </Text>
+    <Text>
+      <GUID>2143505415</GUID>
+      <Text>Increase capacity for trades agreement for the import/export of your products.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505416</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505417</GUID>
+      <Text>Freight Export Dock: Oil</Text>
+    </Text>
+    <Text>
+      <GUID>2143505418</GUID>
+      <Text>Freight Export Dock: Canned Food</Text>
+    </Text>
+    <Text>
+      <GUID>2143505419</GUID>
+      <Text>Freight Export Dock: Beer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505420</GUID>
+      <Text>Freight Export Dock: Coal</Text>
+    </Text>
+    <Text>
+      <GUID>2143505421</GUID>
+      <Text>Freight Export Dock: Spectacles</Text>
+    </Text>
+  </ModOp>
+</ModOps>

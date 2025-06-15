@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505412</GUID>
+      <Text>화물 역</Text>
+    </Text>
+    <Text>
+      <GUID>2143505413</GUID>
+      <Text>상품을 수출, 수입 또는 하역하는 중앙 집중식 열차 화물 역입니다. 모듈로 확장 가능.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505414</GUID>
+      <Text>화물 스테이션 관리</Text>
+    </Text>
+    <Text>
+      <GUID>2143505415</GUID>
+      <Text>제품의 수입/수출을 위한 무역 계약 용량을 늘립니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505416</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505417</GUID>
+      <Text>화물 수출 부두 : 석유</Text>
+    </Text>
+    <Text>
+      <GUID>2143505418</GUID>
+      <Text>화물 수출 부두: 통조림 식품</Text>
+    </Text>
+    <Text>
+      <GUID>2143505419</GUID>
+      <Text>화물 수출 부두 : 맥주</Text>
+    </Text>
+    <Text>
+      <GUID>2143505420</GUID>
+      <Text>화물 수출 부두 : 석탄</Text>
+    </Text>
+    <Text>
+      <GUID>2143505421</GUID>
+      <Text>화물 수출 부두: Spectacles</Text>
+    </Text>
+  </ModOp>
+</ModOps>
