@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505412</GUID>
+      <Text>貨物駅</Text>
+    </Text>
+    <Text>
+      <GUID>2143505413</GUID>
+      <Text>商品を輸出、輸入、または荷降ろしするための集中的な列車貨物駅。モジュールで拡張可能。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505414</GUID>
+      <Text>貨物駅管理</Text>
+    </Text>
+    <Text>
+      <GUID>2143505415</GUID>
+      <Text>製品の輸出入のための貿易協定の能力を高めます。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505416</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505417</GUID>
+      <Text>貨物輸出ドック:石油</Text>
+    </Text>
+    <Text>
+      <GUID>2143505418</GUID>
+      <Text>貨物輸出ドック:缶詰食品</Text>
+    </Text>
+    <Text>
+      <GUID>2143505419</GUID>
+      <Text>貨物輸出ドック:ビール</Text>
+    </Text>
+    <Text>
+      <GUID>2143505420</GUID>
+      <Text>貨物輸出ドック:石炭</Text>
+    </Text>
+    <Text>
+      <GUID>2143505421</GUID>
+      <Text>貨物輸出ドック:眼鏡</Text>
+    </Text>
+  </ModOp>
+</ModOps>

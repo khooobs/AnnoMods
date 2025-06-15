@@ -11,7 +11,8 @@
     "shared_goods_strings",
     "shared-ground-textures-industry-jakob",
     "khobs_sifter",
-    "khobs_crusher"
+    "khobs_crusher",
+    "shared_freight_station_khobs"
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",
