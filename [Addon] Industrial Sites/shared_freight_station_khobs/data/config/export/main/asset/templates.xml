@@ -168,6 +168,7 @@
 				<UpgradeList/>
 				<TrainStation/>
 				<QuestObject/>
+				<ModuleOwner/>
 			</Properties>
 		</Template>
 	</ModOp>
