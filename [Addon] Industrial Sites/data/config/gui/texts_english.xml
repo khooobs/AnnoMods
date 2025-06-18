@@ -24,5 +24,21 @@
       <GUID>2143505407</GUID>
       <Text>Industrial Barrier Gate Large</Text>
     </Text>
+    <Text>
+      <GUID>2143505408</GUID>
+      <Text>Steel Company</Text>
+    </Text>
+    <Text>
+      <GUID>2143505409</GUID>
+      <Text>The core of your large industries. You can build specific &lt;font overrideTextColor="true" color='#edc891'&gt;industrial buildings&lt;/font&gt;, &lt;font overrideTextColor="true" color='#edc891'&gt;modules&lt;/font&gt; and assign specialists.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>Your Industrial Modules</Text>
+    </Text>
+    <Text>
+      <GUID>2143505411</GUID>
+      <Text>Industrial Modules</Text>
+    </Text>
   </ModOp>
 </ModOps>
