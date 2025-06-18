@@ -7,10 +7,18 @@
 2143505405 - Industrial Gate Large - Ornamental
 2143505406 - Industrial Barrier Gate - Ornamental
 2143505407 - Industrial Barrier Gate Large - Ornamental
+
+2143505408 - Steel Company - Building
+2143505409 - Companies - Building - Description
+2143505410 - Companies - Building - ModuleListHeader
+2143505411 - Companies - Building - OpenSetPages
+-->
 <ModOps>
   <!-- Include Region -->
   <Include File="../../../../khobs/tweaks/assets.include.xml" />
   <Include File="../../../../khobs/triggers/assets.include.xml" />
+
+  <Include File="./steel.include.xml" />
 
   <!-- Industrial Menus -->
   <Group>
@@ -45,6 +53,9 @@
               </Item>
               <Item>
                 <Building>2143505407</Building>
+              </Item>
+              <Item>
+                <Building>2143505408</Building>
               </Item>
             </BuildingList>
             <CategoryDescription>2143505402</CategoryDescription>
