@@ -1,6 +1,6 @@
 {
 	"Version": "1.0",
-	"ModID": "khobs_freight_station",
+	"ModID": "shared_freight_station_khobs",
 	"IncompatibleIds": null,
 	"ModDependencies": [
 		"sharedproduct_tradelicense_taludas"
