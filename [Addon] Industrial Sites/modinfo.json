@@ -12,11 +12,14 @@
     "shared-ground-textures-industry-jakob",
     "khobs_sifter",
     "khobs_crusher",
-    "shared_freight_station_khobs"
+    "shared_freight_station_khobs",
+    "shared_freight_import_caoutchouc"
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",
-    "shared_neutral_train"
+    "shared_neutral_train",
+    "shared_freight_station_khobs",
+    "shared_freight_import_caoutchouc"
   ],
   "Category": {
     "Chinese": "Addon",

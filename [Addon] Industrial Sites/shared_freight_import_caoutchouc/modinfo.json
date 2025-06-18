@@ -1,0 +1,56 @@
+{
+  "Version": "1.0",
+  "ModID": "shared_freight_import_caoutchouc",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "shared_freight_station_khobs"
+  ],
+  "LoadAfterIds": [
+    "shared_freight_station_khobs"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "shared_freight_import_caoutchouc (Khobs)",
+    "English": "shared_freight_import_caoutchouc (Khobs)",
+    "French": "shared_freight_import_caoutchouc (Khobs)",
+    "German": " shared_freight_import_caoutchouc (Khobs)",
+    "Italian": "shared_freight_import_caoutchouc (Khobs)",
+    "Japanese": "shared_freight_import_caoutchouc (Khobs)",
+    "Korean": "shared_freight_import_caoutchouc (Khobs)",
+    "Polish": "shared_freight_import_caoutchouc (Khobs)",
+    "Russian": "shared_freight_import_caoutchouc (Khobs)",
+    "Spanish": "shared_freight_import_caoutchouc (Khobs)",
+    "Taiwanese": "shared_freight_import_caoutchouc (Khobs)"
+  },
+  "Description": {
+    "English": "# Extra Building \n\n Extra Buildings implemented by me for use in some of my mods. \n\n - New building: import Freight Caoutchouc for use in the Freight Station",
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Khobs",
+  "Image": null
+}
