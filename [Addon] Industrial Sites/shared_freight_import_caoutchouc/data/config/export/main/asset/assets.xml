@@ -1,0 +1,108 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="24800">
+    <Asset>
+      <Template>FreightDepotModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505422</GUID>
+          <Name>Import Freight Caoutchouc</Name>
+          <IconFilename>data/ui/icon_import_freight_caoutchouc.png</IconFilename>
+          <InfoDescription>11143</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingType>Factory</BuildingType>
+          <BuildingCategoryName>100000</BuildingCategoryName>
+          <AllowChangeVariation>1</AllowChangeVariation>
+        </Building>
+        <Blocking>
+				  <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Mesh />
+        <Object>
+          <Variations>
+            <Item>
+				      <Filename>data/modgraphics/buildings/special/freight_dock/freight_dock.cfg</Filename>
+            </Item>
+            <Item>
+				      <Filename>data/modgraphics/buildings/special/freight_dock/freight_dock_no_tracks.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>1500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>12</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>6</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>4</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+        </Cost>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1999005351</Product>
+              <Amount>1</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1010255</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>120</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>100</Amount>
+                <InactiveAmount>50</InactiveAmount>
+              </Item>
+            </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2143505422</GUID>
+    </Item>
+  </ModOp>
+
+  <!-- Add Export Freight to the module list of the shared main building -->
+  <ModOp Type="add" GUID="2143505412" Path="/Values/ModuleOwner/ConstructionOptions">
+    <Item>
+      <ModuleGUID>2143505422</ModuleGUID>
+    </Item>
+  </ModOp>
+
+  <!-- Add Export Freight to Freight Menu -->
+  <ModOp Type="add" GUID="2143505416" Path="/Values/ConstructionCategory/BuildingList/">
+    <Item>
+      <Building>2143505422</Building>
+    </Item>
+  </ModOp>
+</ModOps>

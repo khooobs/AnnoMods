@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505422</GUID>
+      <Text>進口貨運碼頭： Caoutchouc</Text>
+    </Text>
+  </ModOp>
+</ModOps>
