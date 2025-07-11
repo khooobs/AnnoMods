@@ -258,6 +258,8 @@
 				<Infolayer/>
 				<BuildingModule>
 					<IsCulturalModule>1</IsCulturalModule>
+					<PlazaSize>20</PlazaSize>
+					<ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_neutral.png</ModuleMoodImage>
 				</BuildingModule>
 				<ItemContainer>
 					<SocketCount>1</SocketCount>
@@ -271,7 +273,12 @@
 					<TransporterCountMax>0</TransporterCountMax>
 				</LogisticNode>
 				<Factory7/>
-				<FactoryBase/>
+				<FactoryBase>
+			      <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+				</FactoryBase>
+				<Pausable>
+					<CanPauseManually>1</CanPauseManually>
+				</Pausable>
 			</Properties>
 		</Template>
 	</ModOp>
@@ -380,6 +387,142 @@
 				</IncidentInfectable>
 				<PublicService/>
 				<Culture/>
+			</Properties>
+		</Template>
+	</ModOp>
+	<ModOp Type="addNextSibling" Template="FactoryBuilding7">
+		<Template>
+			<Name>IndustrialFactory</Name>
+			<Properties>
+				<Standard>
+					<InfoDescription>11143</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+					<BuildingType>Factory</BuildingType>
+					<BuildingCategoryName>2143505402</BuildingCategoryName>
+				</Building>
+				<Blocking/>
+				<Cost/>
+				<Object>
+					<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+				</Object>
+				<Mesh/>
+				<Selection>
+					<GUIType>Production</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList/>
+						</Values>
+					</OnSelection>
+					<ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+				</Selection>
+				<Text/>
+				<Constructable>
+					<DestructionCategory>Production</DestructionCategory>
+				</Constructable>
+				<Locked/>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+							<!--wwe_sfx_aui_delete-->
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>202368</Sound>
+								<!--wwe_sfx_aui_bld_place_stone-->
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+								<!--wwe_sfx_aui_deny-->
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+								<!--wwe_sfx_aui_move-->
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+								<!--wwe_sfx_aui_move_replace_stone-->
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+								<!--wwe_sfx_aui_move_end-->
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<IncidentSounds>
+						<ExplosionOneShots>
+							<Item>
+								<Sound>203849</Sound>
+								<!--wwe_sfx_aui_destroy_small-->
+							</Item>
+						</ExplosionOneShots>
+					</IncidentSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+							<!--wwe_sfx_aui_bld_3d_renovate-->
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<FeedbackController/>
+				<Infolayer/>
+				<UpgradeList/>
+				<Factory7/>
+				<FactoryBase/>
+				<LogisticNode/>
+				<AmbientMoodProvider>
+					<DynamicEnvironmentType>Building_Industry</DynamicEnvironmentType>
+				</AmbientMoodProvider>
+				<Maintenance>
+					<ConsumerPriority>1</ConsumerPriority>
+				</Maintenance>
+				<Attackable>
+					<HasRuinState>1</HasRuinState>
+					<SelfHealPerHealTick>300</SelfHealPerHealTick>
+				</Attackable>
+				<Pausable>
+					<CanPauseManually>1</CanPauseManually>
+				</Pausable>
+				<IncidentInfectable>
+					<Infectable>
+						<Fire>
+							<Communication>FireIndustry</Communication>
+						</Fire>
+						<Riot>
+							<Communication>RiotIndustry</Communication>
+							<InitiallySpreadToSameGUID>1</InitiallySpreadToSameGUID>
+						</Riot>
+						<Illness>
+							<Base>0</Base>
+							<Escalated>0</Escalated>
+							<Communication>IllnessIndustry</Communication>
+						</Illness>
+						<Explosion>
+							<Communication>ExplosionIndustry</Communication>
+						</Explosion>
+					</Infectable>
+				</IncidentInfectable>
+				<Industrializable/>
+				<Culture>
+					<CultureType>Factory</CultureType>
+				</Culture>
+				<QuestObject/>
+				<Electrifiable/>
+				<EcoSystemProvider/>
 			</Properties>
 		</Template>
 	</ModOp>
