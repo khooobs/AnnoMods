@@ -40,5 +40,89 @@
       <GUID>2143505411</GUID>
       <Text>Industrial Modules</Text>
     </Text>
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Coal Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Centralize the storage of coal for your industry.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505502</GUID>
+      <Text>Supplied with coal</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>No coal supply</Text>
+    </Text>
+    <Text>
+      <GUID>2143505504</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505505</GUID>
+      <Text>Requires Coal Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505506</GUID>
+      <Text>Industry Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>Blast Furnace</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>Produces bulk goods.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Blast Furnace - Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>Look for the &lt;font overrideTextColor="true" color='#edc891'&gt;Blast Furnace&lt;/font&gt; in the modules list for this building.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>Ores</Text>
+    </Text>
+    <Text>
+      <GUID>2143505512</GUID>
+      <Text>Blast Furnace Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505552</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>Bulk Steel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Require Coal Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505555</GUID>
+      <Text>Boostable by Modules</Text>
+    </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Require Blast Furnace</Text>
+    </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Boost Factory</Text>
+    </Text>
+    <Text>
+      <GUID>2143505558</GUID>
+      <Text>Slotable Items</Text>
+    </Text>
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>Logistics by Rails</Text>
+    </Text>
   </ModOp>
 </ModOps>

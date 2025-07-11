@@ -1,0 +1,225 @@
+<ModOps>
+  <!-- # Construction Menu Building InfoTip -->
+  <ModOp Type="addPrevSibling"
+    Path="//InfoTipData[Guid='25000020']//InfoElement/InfoElement[Text/Text='[ToolOneHelper InfoDescription([RefGuid]) Text]']">
+    <!-- Coal Depot -->
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>2</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2143505501</ExpectedValueInt>
+          <Condition>[ToolOneHelper InfoDescription([RefGuid]) Guid]</Condition>
+        </VisibilityElement>
+        <OperatorType>
+          <OperatorType>1</OperatorType>
+        </OperatorType>
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>1</ChildCount>
+        <Icon>
+          <IconText>[AssetData(2143505506) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2143505506</TextGUID>
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+    <!-- Blast Furnace Factory -->
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>2</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2143505508</ExpectedValueInt>
+          <Condition>[ToolOneHelper InfoDescription([RefGuid]) Guid]</Condition>
+        </VisibilityElement>
+        <OperatorType>
+          <OperatorType>1</OperatorType>
+        </OperatorType>
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>1</ChildCount>
+        <Icon>
+          <IconText>[AssetData(2143505554) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2143505554</TextGUID>
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>1</ChildCount>
+        <Icon>
+          <IconText>[AssetData(2143505555) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2143505555</TextGUID>
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>1</ChildCount>
+        <Icon>
+          <IconText>[AssetData(2143505559) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2143505559</TextGUID>
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+    <!-- Blast Furnace module -->
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>2</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2143505510</ExpectedValueInt>
+          <Condition>[ToolOneHelper InfoDescription([RefGuid]) Guid]</Condition>
+        </VisibilityElement>
+        <OperatorType>
+          <OperatorType>1</OperatorType>
+        </OperatorType>
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>1</ChildCount>
+        <Icon>
+          <IconText>[AssetData(2143505506) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2143505506</TextGUID>
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>1</ChildCount>
+        <Icon>
+          <IconText>[AssetData(2143505557) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2143505557</TextGUID>
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>1</ChildCount>
+        <Icon>
+          <IconText>[AssetData(2143505558) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2143505558</TextGUID>
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>1</ChildCount>
+        <Icon>
+          <IconText>[AssetData(2143505556) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2143505556</TextGUID>
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+  </ModOp>
+  <!-- show double speed -->
+  <ModOp Type="addNextSibling"
+    Path="//InfoTipData[Guid='25000020']//InfoElement/InfoElement[Value/Text='[StaticData Factory CycleTimeRespectElectricity([RefGuid]) &gt;&gt; time]']">
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>1</ElementType>
+        </ElementType>
+        <CompareOperator />
+        <ResultType>
+          <ResultType>1</ResultType>
+        </ResultType>
+        <ExpectedValueInt>1500011683</ExpectedValueInt>
+        <Condition>[ToolOneHelper InfoDescription([RefGuid]) Guid]</Condition>
+      </VisibilityElement>
+      <Icon>
+        <IconText>[AssetData(1500011684) Icon]</IconText>
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>1500011684</TextGUID>
+        <Style />
+      </Text>
+      <Value>
+        <Text>[StaticData Factory CycleTimeRespectElectricity([RefGuid]) &gt;&gt; time]</Text>
+        <Style />
+      </Value>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+  </ModOp>
+</ModOps>
