@@ -79,7 +79,10 @@
               <Item>
                 <ModuleGUID>2143505507</ModuleGUID>
               </Item>
-            </ConstructionOptions>2143505509
+              <Item>
+                <ModuleGUID>2143505560</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
           </ModuleOwner>
           <Maintenance>
             <Maintenances>
@@ -275,6 +278,9 @@
               </Item>
               <Item>
                 <Asset>2143505509</Asset>
+              </Item>
+              <Item>
+                <Asset>2143505560</Asset>
               </Item>
             </AssetList>
           </AssetPool>
@@ -580,6 +586,156 @@
           </Standard>
         </Values>
       </Asset>
+      <Asset>
+        <Template>IndustrialModule</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505560</GUID>
+            <Name>Steelworks - Module</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_beams.png</IconFilename>
+            <InfoDescription>2143505561</InfoDescription>
+          </Standard>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>1500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <GUIType>GuildHouse</GUIType>
+            <Variations>
+              <Item>
+					      <Filename>data/modgraphics/buildings/modules/steelworks/steelworks.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh/>
+          <Selection>
+            <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          </Selection>
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505562</Product>
+                <Amount>1</Amount>
+                <StorageAmount>1</StorageAmount>
+                <TeleportProducedGoodsIntoAreaStorage>1</TeleportProducedGoodsIntoAreaStorage>
+              </Item>
+            </FactoryInputs>
+            <CycleTime>120</CycleTime>
+          </FactoryBase>
+          <BuffFactory>
+            <ProductionBuffs>
+              <Item>
+                <ProductivityBuff>2143505563</ProductivityBuff>
+              </Item>
+            </ProductionBuffs>
+            <ProductionBuffScope>Radius</ProductionBuffScope>
+            <ProductionBuffDistance>20</ProductionBuffDistance>
+          </BuffFactory>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>1500</Amount>
+                <InactiveAmount>750</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010115</Product>
+                <Amount>50</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Culture>
+            <Attractiveness>-10</Attractiveness>
+            <HasPollution>1</HasPollution>
+          </Culture>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505562</GUID>
+            <Name>Fake - Input Steel Resource - Modules</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_steel.png</IconFilename>
+          </Standard>
+          <Locked/>
+          <Product>
+            <DeltaOnly>1</DeltaOnly>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <HideInUI>0</HideInUI>
+          </Product>
+          <ExpeditionAttribute/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505563</GUID>
+            <Name>Steelworks - Module - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_calciner_2.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>2143505507</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>1</AllowStacking>
+          </ItemEffect>
+          <FactoryUpgrade>
+            <ProductivityUpgrade>
+              <Value>-50</Value>
+              <Percental>1</Percental>
+            </ProductivityUpgrade>
+            <AdditionalOutput>
+              <Item>
+                <Product>1010218</Product>
+                <AdditionalOutputCycle>4</AdditionalOutputCycle>
+                <Amount>1</Amount>
+              </Item>
+            </AdditionalOutput>
+          </FactoryUpgrade>
+          <BuildingUpgrade/>
+          <Buff/>
+          <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade/>
+          <IncidentInfectableUpgrade/>
+          <PowerplantUpgrade/>
+          <IndustrializableUpgrade/>
+          <ItemContainerUpgrade/>
+          <IncidentInfluencerUpgrade/>
+          <IrrigationUpgrade/>
+          <EcoSystemProviderUpgrade/>
+          <ResourceUpgrade/>
+        </Values>
+      </Asset>
+      
     </ModOp>
     
     <ModOp GUID="120056" Type="add" Path="Values/ProductStorageList/ProductList/">

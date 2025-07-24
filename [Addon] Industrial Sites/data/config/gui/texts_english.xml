@@ -124,5 +124,21 @@
       <GUID>2143505559</GUID>
       <Text>Logistics by Rails</Text>
     </Text>
+    <Text>
+      <GUID>2143505560</GUID>
+      <Text>Steelworks - Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505561</GUID>
+      <Text>Allows the production of steel beams but slightly reduces global production.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505562</GUID>
+      <Text>Steel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505563</GUID>
+      <Text>Steelworks Module</Text>
+    </Text>
   </ModOp>
 </ModOps>
