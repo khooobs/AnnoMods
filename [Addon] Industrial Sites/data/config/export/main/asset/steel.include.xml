@@ -82,6 +82,9 @@
               <Item>
                 <ModuleGUID>2143505560</ModuleGUID>
               </Item>
+              <Item>
+                <ModuleGUID>2143505564</ModuleGUID>
+              </Item>
             </ConstructionOptions>
           </ModuleOwner>
           <Maintenance>
@@ -281,6 +284,9 @@
               </Item>
               <Item>
                 <Asset>2143505560</Asset>
+              </Item>
+              <Item>
+                <Asset>2143505564</Asset>
               </Item>
             </AssetList>
           </AssetPool>
@@ -735,7 +741,99 @@
           <ResourceUpgrade/>
         </Values>
       </Asset>
-      
+      <Asset>
+        <Template>FreightDepotModule</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505564</GUID>
+            <Name>Unload Freight Steel</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_unload_freight_steel.png</IconFilename>
+            <InfoDescription>11143</InfoDescription>
+          </Standard>
+          <Mesh />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/buildings/modules/freight_steel/freight_steel.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Selection>
+            <GUIType>Production</GUIType>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Cost>
+              <Costs>
+                <Item>
+                  <Ingredient>1010017</Ingredient>
+                  <Amount>1500</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010196</Ingredient>
+                  <Amount>10</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010205</Ingredient>
+                  <Amount>12</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010218</Ingredient>
+                  <Amount>6</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010207</Ingredient>
+                  <Amount>4</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010202</Ingredient>
+                </Item>
+              </Costs>
+          </Cost>
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505553</Product>
+                <Amount>3</Amount>
+                <StorageAmount>100</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1010219</Product>
+                <Amount>1</Amount>
+                <StorageAmount>8</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+            <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+            <TeleportProducedGoodsIntoAreaStorage>1</TeleportProducedGoodsIntoAreaStorage>
+          </FactoryBase>
+          <Maintenance>
+              <Maintenances>
+                <Item>
+                  <Product>1010017</Product>
+                  <Amount>100</Amount>
+                  <InactiveAmount>50</InactiveAmount>
+                </Item>
+              </Maintenances>
+          </Maintenance>
+          <Pausable />
+          <LogisticNode>
+            <TransporterCountMax>0</TransporterCountMax>
+            <TransporterAsset>120028</TransporterAsset>
+            <PathLayers>Street;Railway</PathLayers>
+          </LogisticNode>
+        </Values>
+      </Asset>
     </ModOp>
     
     <ModOp GUID="120056" Type="add" Path="Values/ProductStorageList/ProductList/">
@@ -743,6 +841,14 @@
         <Product>2143505553</Product>
       </Item>
     </ModOp>
+
+    <Group Condition="#shared_freight_station_khobs">
+      <ModOp GUID="2143505416" Type="add" Path="Values/ConstructionCategory/BuildingList/">
+        <Item>
+          <Building>2143505564</Building>
+        </Item>
+      </ModOp>
+    </Group>
 
     <Group Condition="#IndustrializedLowTierProduction">
       <ModOp GUID="1404423040" Type="replace" Path="Values/Upgradable/">

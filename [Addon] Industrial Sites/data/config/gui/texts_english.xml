@@ -140,5 +140,9 @@
       <GUID>2143505563</GUID>
       <Text>Steelworks Module</Text>
     </Text>
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>Freight Unload Dock: Steel</Text>
+    </Text>
   </ModOp>
 </ModOps>
