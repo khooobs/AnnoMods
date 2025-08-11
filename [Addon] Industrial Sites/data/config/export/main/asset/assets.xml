@@ -19,6 +19,7 @@
   <Include File="../../../../khobs/triggers/assets.include.xml" />
 
   <Include File="./steel.include.xml" />
+  <Include File="./chemical.include.xml" />
 
   <!-- Industrial Menus -->
   <Group>
