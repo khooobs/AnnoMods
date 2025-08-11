@@ -144,5 +144,13 @@
       <GUID>2143505564</GUID>
       <Text>Freight Unload Dock: Steel</Text>
     </Text>
+    <Text>
+      <GUID>2143505565</GUID>
+      <Text>Methane Tanker</Text>
+    </Text>
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>Designed and build to carry chemical products. The hull is reinforced with metal to prevent dangerous leaks.</Text>
+    </Text>
   </ModOp>
 </ModOps>
