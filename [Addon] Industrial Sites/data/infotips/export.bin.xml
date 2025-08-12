@@ -256,37 +256,191 @@
         <BackgroundType />
       </InfoElement>
     </InfoElement>
-  </ModOp>
-  <!-- show double speed -->
-  <ModOp Type="addNextSibling"
-    Path="//InfoTipData[Guid='25000020']//InfoElement/InfoElement[Value/Text='[StaticData Factory CycleTimeRespectElectricity([RefGuid]) &gt;&gt; time]']">
+    <!-- Coking Factory -->
     <InfoElement>
-      <ElementType>4</ElementType>
+        <ElementType>8</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>2</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>2143505576</ExpectedValueInt>
+            <Condition>[ToolOneHelper InfoDescription([RefGuid]) Guid]</Condition>
+          </VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <ChildCount>1</ChildCount>
+          <Icon>
+            <IconText>[AssetData(2143505506) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>2143505506</TextGUID>
+            <Style />
+          </Text>
+          <WarningType />
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <ChildCount>1</ChildCount>
+          <Icon>
+            <IconText>[AssetData(2143505558) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>2143505558</TextGUID>
+            <Style />
+          </Text>
+          <WarningType />
+          <BackgroundType />
+        </InfoElement>
+    </InfoElement>
+    <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>2</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>2143505573</ExpectedValueInt>
+            <Condition>[ToolOneHelper InfoDescription([RefGuid]) Guid]</Condition>
+          </VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <ChildCount>1</ChildCount>
+          <Icon>
+            <IconText>[AssetData(2143505574) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>2143505574</TextGUID>
+            <Style />
+          </Text>
+          <WarningType />
+          <BackgroundType />
+        </InfoElement>
+    </InfoElement>
+  </ModOp>
+
+  <!-- Buffs -->
+  <ModOp Type ="addNextSibling" Path ="//InfoTipData[Guid='454144439']/InfoElement/InfoElement[InfoElement/Text/TextGUID = '20083' and InfoElement/VisibilityElement/ElementType/ElementType='2' and InfoElement/ElementType='5']">
+    <!-- Unlock Coking Factory -->
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>2</ChildCount>
       <VisibilityElement>
         <ElementType>
-          <ElementType>1</ElementType>
+          <ElementType>2</ElementType>
         </ElementType>
-        <CompareOperator />
-        <ResultType>
-          <ResultType>1</ResultType>
-        </ResultType>
-        <ExpectedValueInt>1500011683</ExpectedValueInt>
-        <Condition>[ToolOneHelper InfoDescription([RefGuid]) Guid]</Condition>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>2143505571</ExpectedValueInt> <!-- Infotip linked to this DefaultBuff -->
+            <Condition>[ItemAssetData({ItemGuid}) Guid]</Condition>
+          </VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+        </VisibilityElement>
+        <OperatorType />
       </VisibilityElement>
-      <Icon>
-        <IconText>[AssetData(1500011684) Icon]</IconText>
-        <Style />
-      </Icon>
-      <Text>
-        <TextGUID>1500011684</TextGUID>
-        <Style />
-      </Text>
-      <Value>
-        <Text>[StaticData Factory CycleTimeRespectElectricity([RefGuid]) &gt;&gt; time]</Text>
-        <Style />
-      </Value>
-      <WarningType />
-      <BackgroundType />
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>1</ChildCount>
+        <Icon>
+          <IconText>[AssetData(2143505572) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2143505572</TextGUID>
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>2</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>2143505573</ExpectedValueInt> <!-- Infotip linked to this DefaultBuff -->
+            <Condition>[ItemAssetData({ItemGuid}) Guid]</Condition>
+          </VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>1</ChildCount>
+        <Icon>
+          <IconText>[AssetData(2143505572) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2143505572</TextGUID>
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
     </InfoElement>
   </ModOp>
 </ModOps>
