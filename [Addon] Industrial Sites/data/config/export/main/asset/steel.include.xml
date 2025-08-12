@@ -48,7 +48,9 @@
             <Sets>
               <Item/> <!-- LLT -->
               <Item/> <!-- LLB -->
-              <Item/> <!-- LT -->
+              <Item>
+                <Set>2143505567</Set>
+              </Item> <!-- LT -->
               <Item/> <!-- LB -->
               <Item/> 
               <Item/> <!-- MM -->
@@ -835,6 +837,69 @@
         </Values>
       </Asset>
     </ModOp>
+   
+    <!-- Cultural Sets -->
+    <ModOp GUID="191114" Type="addNextSibling">
+      <Asset>
+        <Template>ItemSet</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505567</GUID>
+            <Name>Industrial Converters</Name>
+			      <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_calciner_1.png</IconFilename>
+            <InfoDescription>2143505568</InfoDescription>
+          </Standard>
+          <ItemSocketSet>
+            <SetBuff>2143505569</SetBuff>
+            <BuffScope>Area</BuffScope>
+          </ItemSocketSet>
+          <Locked/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505569</GUID>
+            <Name>Industrial Converters</Name>
+			      <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_calciner_1.png</IconFilename>
+            <InfoDescription>2143505570</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>2143505507</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <FactoryUpgrade>
+            <ProductivityUpgrade>
+              <Value>200</Value>
+              <Percental>1</Percental>
+            </ProductivityUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade/>
+          <Buff/>
+          <CultureUpgrade/>
+          <ModuleOwnerUpgrade/>
+          <IncidentInfectableUpgrade>
+            <IncidentFireIncreaseUpgrade>
+              <Value>25</Value>
+            </IncidentFireIncreaseUpgrade>
+          </IncidentInfectableUpgrade>
+          <PowerplantUpgrade/>
+          <IndustrializableUpgrade/>
+          <ItemContainerUpgrade/>
+          <IncidentInfluencerUpgrade/>
+          <IrrigationUpgrade/>
+          <EcoSystemProviderUpgrade/>
+          <ResourceUpgrade/>
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp GUID="190832,190831,190830" Type="Add" Path="Values/Item/">
+      <ItemSet>2143505567</ItemSet>
+    </ModOp>     
     
     <ModOp GUID="120056" Type="add" Path="Values/ProductStorageList/ProductList/">
       <Item>
