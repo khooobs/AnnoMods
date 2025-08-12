@@ -168,5 +168,29 @@
       <GUID>2143505570</GUID>
       <Text></Text>
     </Text>
+    <Text>
+      <GUID>2143505571</GUID>
+      <Text>COKE PRODUCTION</Text>
+    </Text>
+    <Text>
+      <GUID>2143505572</GUID>
+      <Text>Unlock Coking Factory</Text>
+    </Text>
+    <Text>
+      <GUID>2143505573</GUID>
+      <Text>COKE PRODUCTION</Text>
+    </Text>
+    <Text>
+      <GUID>2143505574</GUID>
+      <Text>Allows the construction of Coking Factory, an enhanced factory used for your Coal Depots. As better than coal, the depot will need less of it.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505575</GUID>
+      <Text>Coking Factory</Text>
+    </Text>
+    <Text>
+      <GUID>2143505576</GUID>
+      <Text>Produces coke, a fuel that is more efficient than coal.</Text>
+    </Text>
   </ModOp>
 </ModOps>
