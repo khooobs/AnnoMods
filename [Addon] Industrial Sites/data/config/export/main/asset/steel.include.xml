@@ -649,9 +649,7 @@
             <FactoryInputs>
               <Item>
                 <Product>2143505562</Product>
-                <Amount>1</Amount>
                 <StorageAmount>1</StorageAmount>
-                <TeleportProducedGoodsIntoAreaStorage>1</TeleportProducedGoodsIntoAreaStorage>
               </Item>
             </FactoryInputs>
             <CycleTime>120</CycleTime>
@@ -720,13 +718,13 @@
           </ItemEffect>
           <FactoryUpgrade>
             <ProductivityUpgrade>
-              <Value>-50</Value>
+              <Value>-100</Value>
               <Percental>1</Percental>
             </ProductivityUpgrade>
             <AdditionalOutput>
               <Item>
                 <Product>1010218</Product>
-                <AdditionalOutputCycle>4</AdditionalOutputCycle>
+                <AdditionalOutputCycle>5</AdditionalOutputCycle>
                 <Amount>1</Amount>
               </Item>
             </AdditionalOutput>
