@@ -78,7 +78,7 @@
     </Text>
     <Text>
       <GUID>2143505509</GUID>
-      <Text>Blast Furnace - Module</Text>
+      <Text>Blast Furnace Module</Text>
     </Text>
     <Text>
       <GUID>2143505510</GUID>
@@ -90,7 +90,7 @@
     </Text>
     <Text>
       <GUID>2143505512</GUID>
-      <Text>Blast Furnace Module</Text>
+      <Text>Blast Furnace - Module</Text>
     </Text>
     <Text>
       <GUID>2143505552</GUID>
@@ -126,7 +126,7 @@
     </Text>
     <Text>
       <GUID>2143505560</GUID>
-      <Text>Steelworks - Module</Text>
+      <Text>Beam Foundry</Text>
     </Text>
     <Text>
       <GUID>2143505561</GUID>
@@ -138,7 +138,7 @@
     </Text>
     <Text>
       <GUID>2143505563</GUID>
-      <Text>Steelworks Module</Text>
+      <Text>Beam Foundry - Module</Text>
     </Text>
     <Text>
       <GUID>2143505564</GUID>
@@ -191,6 +191,50 @@
     <Text>
       <GUID>2143505576</GUID>
       <Text>Produces coke, a fuel that is more efficient than coal.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>SLAG BY-PRODUCT</Text>
+    </Text>
+    <Text>
+      <GUID>2143505580</GUID>
+      <Text>As a co-product of steelmaking, slag is typically produced either through blasts furnaces. Can be used for roads or into concrete factory.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Slag by-product</Text>
+    </Text>
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>As a co-product of steelmaking, slag is typically produced either through blasts furnaces. Can be used for roads or into concrete factory.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>BEAM PRODUCTION</Text>
+    </Text>
+    <Text>
+      <GUID>2143505585</GUID>
+      <Text>Enables foundries to produce additional steel beams, at the cost of reduced overall efficiency.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505588</GUID>
+      <Text>Enables foundries to produce additional steel beams, at the cost of reduced overall efficiency.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505589</GUID>
+      <Text>Require COKE INDUSTRY set</Text>
+    </Text>
+    <Text>
+      <GUID>2143505590</GUID>
+      <Text>Require BEAM PRODUCTION set</Text>
+    </Text>
+    <Text>
+      <GUID>2143505591</GUID>
+      <Text>Unlock Beam Foundry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505592</GUID>
+      <Text>Beam Foundry - Module</Text>
     </Text>
   </ModOp>
 </ModOps>
