@@ -104,8 +104,12 @@
                 <Ingredient>1010202</Ingredient>
                 <Amount>1</Amount>
               </Item>
+              <Item>
+                <Ingredient>2143505583</Ingredient>
+                <Amount>2</Amount>
+              </Item>
             </Costs>
-            <ItemsPerCost>4</ItemsPerCost>
+            <ItemsPerCost>8</ItemsPerCost>
           </Cost>
           <Selection />
           <Object>
