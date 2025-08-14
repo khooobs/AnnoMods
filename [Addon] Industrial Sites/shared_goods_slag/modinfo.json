@@ -1,0 +1,44 @@
+{
+	"Version": "1.4",
+	"ModID": "shared_goods_slag",
+	"IncompatibleIds": [],
+	"ModDependencies": [],
+	"Category": {
+		"English": "Shared",
+		"Chinese": "共同",
+		"French": "Partagé",
+		"German": "Gemeinsam",
+		"Italian": "Condiviso",
+		"Japanese": "シェアード",
+		"Korean": "공유",
+		"Polish": "Udostępniony",
+		"Russian": "общий",
+		"Spanish": "Compartido"
+	},
+	"ModName": {
+		"English": "Slag",
+		"Chinese": "渣",
+		"French": "Scorie",
+		"German": "Schlacke ",
+		"Italian": "Scoria",
+		"Japanese": "スラグ",
+		"Korean": "슬래그",
+		"Polish": "Osad",
+		"Russian": "Сланец",
+		"Spanish": "Escoria"
+	},
+	"Description": {
+		"English": "A by-product of smelting ores and recycled metals",
+		"Chinese": "冶炼矿石和回收金属的副产品",
+		"French": "Un sous-produit de la fusion des minerais et des métaux recyclés",
+		"German": "Ein Nebenprodukt der Schmelzung von Erzen und recycelten Metallen",
+		"Italian": "Un sottoprodotto della fusione dei minerali e dei metalli riciclati",
+		"Japanese": "鉱石とリサイクル金属を精錬する副産物",
+		"Korean": "광석 및 재활용 금속 제련의 부산물",
+		"Polish": "Produkt uboczny wytopu rud i przetworzonych metali",
+		"Russian": "Побочный продукт плавки руды и переработанных металлов",
+		"Spanish": "Un subproducto de la fundición de minerales y metales reciclados"
+	},
+	"KnownIssues": null,
+	"DLCDependencies": []
+}
