@@ -1,0 +1,32 @@
+{
+	"Version": "1.4",
+	"ModID": "shared_goods_fabric",
+	"IncompatibleIds": [],
+	"ModDependencies": [],
+	"Category": {
+		"English": "Shared",
+		"Chinese": "共同",
+		"French": "Partagé",
+		"German": "Gemeinsam",
+		"Italian": "Condiviso",
+		"Japanese": "シェアード",
+		"Korean": "공유",
+		"Polish": "Udostępniony",
+		"Russian": "общий",
+		"Spanish": "Compartido"
+	},
+	"ModName": {
+		"English": "Fabric",
+		"Chinese": "面料",
+		"French": "Tissu",
+		"German": "Stoff",
+		"Italian": "Fabric",
+		"Japanese": "生地",
+		"Korean": "직물",
+		"Polish": "Tkanina",
+		"Russian": "Ткань",
+		"Spanish": "Tela"
+	},
+	"KnownIssues": null,
+	"DLCDependencies": []
+}

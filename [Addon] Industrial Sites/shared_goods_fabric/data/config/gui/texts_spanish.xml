@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>Tejido</Text>
+    </Text>
+  </ModOp>
+</ModOps>
