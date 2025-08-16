@@ -76,6 +76,9 @@
                         <Item>
                           <Asset>2143505575</Asset>
                         </Item>
+                        <Item>
+                          <Asset>2143505594</Asset>
+                        </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>
                   </Values>
@@ -169,6 +172,9 @@
                         </Item>
                         <Item>
                           <Asset>2143505565</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2143505594</Asset>
                         </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>

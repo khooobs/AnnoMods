@@ -361,6 +361,123 @@
           <BackgroundType />
         </InfoElement>
     </InfoElement>
+    <!-- Loom Factory -->
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>2</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2143505596</ExpectedValueInt>
+          <Condition>[ToolOneHelper InfoDescription([RefGuid]) Guid]</Condition>
+        </VisibilityElement>
+        <OperatorType>
+          <OperatorType>1</OperatorType>
+        </OperatorType>
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>1</ChildCount>
+        <Icon>
+          <IconText>[AssetData(2143505506) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2143505506</TextGUID>
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+    <!-- Spinning Mill -->
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>2</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2143505604</ExpectedValueInt>
+          <Condition>[ToolOneHelper InfoDescription([RefGuid]) Guid]</Condition>
+        </VisibilityElement>
+        <OperatorType>
+          <OperatorType>1</OperatorType>
+        </OperatorType>
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>1</ChildCount>
+        <Icon>
+          <IconText>[AssetData(2143505555) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2143505555</TextGUID>
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+    <!-- Spinning Mill Module -->
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>2</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2143505625</ExpectedValueInt>
+          <Condition>[ToolOneHelper InfoDescription([RefGuid]) Guid]</Condition>
+        </VisibilityElement>
+        <OperatorType>
+          <OperatorType>1</OperatorType>
+        </OperatorType>
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>1</ChildCount>
+        <Icon>
+          <IconText>[AssetData(2143505506) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2143505506</TextGUID>
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
   </ModOp>
 
   <!-- Buffs -->
