@@ -1905,5 +1905,28 @@
       </Item>
     </ModOp>
   </Group>
-  
+
+  <!-- New World Seat Of Power -->
+  <Group Condition="#khobs_new_world_seat_of_power">
+    <ModOp Type="addNextSibling" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='134257']">
+      <Item>
+        <Product>2143505236</Product>
+        <HappinessValue>3</HappinessValue>
+        <IsOptionalHappinessValue>1</IsOptionalHappinessValue>
+        <MoneyValue>75</MoneyValue>
+        <FullWeightPopulationCount>1100</FullWeightPopulationCount>
+        <NoWeightPopulationCount>899</NoWeightPopulationCount>
+        <AdditionalGlobalUnlockRequirement>
+          <Population>601379</Population>
+          <MinPopulationAmount>900</MinPopulationAmount>
+        </AdditionalGlobalUnlockRequirement>
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>2143505335</RequiredBuilding>
+            <Region>Colony01</Region>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+    </ModOp>
+  </Group>
 </ModOps>
