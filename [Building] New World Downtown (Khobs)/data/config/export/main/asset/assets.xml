@@ -562,7 +562,7 @@
   <!-- # Boxing Arena -->
   <ModOp Type="addNextSibling" GUID="1010358">
     <Asset>
-	    <BaseAssetGUID>1010358</BaseAssetGUID>
+      <Template>PublicServiceBuildingWithBus</Template>
       <Values>
         <Standard>
           <GUID>2143505316</GUID>
@@ -591,6 +591,9 @@
             </Item>
           </Costs>
         </Cost>
+				<Selection>
+					<GUIType>PublicService</GUIType>
+				</Selection>
         <Object>
           <Variations>
             <Item>
@@ -619,10 +622,10 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <Attackable>
-          <MaximumHitPoints>2650</MaximumHitPoints>
-        </Attackable>
         <Pausable />
+				<BusActivation>
+					<BusNeed>1440134405</BusNeed>
+				</BusActivation>
       </Values>
     </Asset>
   </ModOp>
