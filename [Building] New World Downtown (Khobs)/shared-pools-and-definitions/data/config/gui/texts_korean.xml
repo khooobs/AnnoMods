@@ -62,7 +62,7 @@
     </Text>
     <Text>
       <GUID>1500200678</GUID>
-      <Text>所有[AssetData(1010313) Text]</Text> <!-- 1010313 -->
+      <Text>모든 [AssetData(1010313) Text]</Text> <!-- 1010313 -->
     </Text>
     <Text>
       <GUID>1500200679</GUID>
@@ -94,15 +94,15 @@
     </Text>     
     <Text>
       <GUID>1500300911</GUID>
-      <Text>所有露天矿场</Text> <!-- 191592 -->
+      <Text>모든 노천 광산</Text> <!-- 191592 -->
     </Text>
     <Text>
       <GUID>1500300912</GUID>
-      <Text>所有粘土消费者</Text>
+      <Text>모든 점토 사용자</Text>
     </Text>
     <Text>
       <GUID>1500300913</GUID>
-      <Text>所有钢铁消费者</Text>
+      <Text>모든 철강 사용자</Text>
     </Text>     
     <Text>
       <GUID>1500300914</GUID>
@@ -122,91 +122,99 @@
     </Text>   
     <Text>
       <GUID>2100115287</GUID>
-      <Text>地铁站</Text>
+      <Text>지하철역</Text>
     </Text>          
     <Text>
       <GUID>1500300916</GUID>
-      <Text>制酪厂</Text>
+      <Text>치즈 공장</Text>
     </Text>
     <Text>
       <GUID>1500301937</GUID>
-      <Text>肥料工作坊</Text>
+      <Text>비료 생산소</Text>
     </Text>
     <Text>
       <GUID>1500301938</GUID>
-      <Text>所有庄园宿舍</Text>
+      <Text>모든 대농장 숙소</Text>
     </Text>
     <Text>
       <GUID>1500301940</GUID>
-      <Text>所有冶炼厂</Text>
+      <Text>모든 제련소</Text>
     </Text>
     <Text>
       <GUID>1500301941</GUID>
-      <Text>所有武器工厂</Text>
+      <Text>모든 무기 공장</Text>
     </Text>
     <Text>
       <GUID>1500301942</GUID>
-      <Text>所有狩猎小屋</Text>
+      <Text>모든 사냥꾼 건물</Text>
     </Text>
     <Text>
       <GUID>1500301944</GUID>
-      <Text>综合北极狩猎小屋</Text>
+      <Text>모든 북극 사냥 오두막</Text>
     </Text>
     <Text>
       <GUID>191042</GUID>
-      <Text>所有钻机</Text>
+      <Text>모든 시추 장비들</Text>
     </Text>
     <Text>
       <GUID>1500301945</GUID>
-      <Text>所有面料厂</Text>
+      <Text>모든 원단 공장</Text>
     </Text>
     <Text>
       <GUID>1500301946</GUID>
-      <Text>所有马达工厂</Text>
+      <Text>모든 모터 공장</Text>
     </Text>
     <Text>
       <GUID>1500301947</GUID>
-      <Text>所有河流建筑物</Text>
+      <Text>모든 리버 빌딩</Text>
     </Text>
     <Text>
       <GUID>1500301948</GUID>
-      <Text>所有农民住所</Text>
+      <Text>모든 파머 레지던스</Text>
     </Text>
     <Text>
       <GUID>1500301949</GUID>
-      <Text>所有工人住所</Text>
+      <Text>모든 작업자 숙소</Text>
     </Text>
     <Text>
       <GUID>1500301950</GUID>
-      <Text>所有工匠住所</Text>
+      <Text>모든 아티스타 레지던스</Text>
     </Text>
     <Text>
       <GUID>1500301951</GUID>
-      <Text>所有牧羊人住所</Text>
+      <Text>모든 셰퍼드 레지던스</Text>
     </Text>
     <Text>
       <GUID>1500301952</GUID>
-      <Text>所有长老住所</Text>
+      <Text>A모든 엘더 레지던스</Text>
     </Text>
     <Text>
       <GUID>1500301024</GUID>
-      <Text>所有饲料筒仓</Text>
+      <Text>모든 사료 사일로</Text>
     </Text>
     <Text>
       <GUID>1500301025</GUID>
-      <Text>所有化肥筒仓</Text>
+      <Text>모든 비료 사일로</Text>
     </Text>
     <Text>
       <GUID>1500301026</GUID>
-      <Text>所有矿井模块</Text>
+      <Text>모든 광산 모듈</Text>
     </Text>
     <Text>
       <GUID>1500301029</GUID>
-      <Text>所有北极矿区</Text>
+      <Text>모든 북극 광산</Text>
     </Text>
     <Text>
       <GUID>2100115704</GUID>
-      <Text>汽水厂</Text>
+      <Text>소다공장</Text>
+    </Text>
+    <Text>
+      <GUID>1742000199</GUID>
+      <Text>모든 우체국 및 우체통</Text>
+    </Text>
+    <Text>
+      <GUID>1742000423</GUID>
+      <Text>모든 차 회사</Text>
     </Text>
   </ModOp>
 </ModOps>

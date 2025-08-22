@@ -71,7 +71,18 @@ Result:
 - Include previous population if you add an entry to a lower tier, e.g. add `Farmer` if you want to add an `Worker` unlocked chain into the Farmers tab.
 
 Currently available populations are:
-- OW: `Farmer`, `Worker`, `Artisan`, `Engineer`
+
+Menu | GUID | Valid Tags
+---|---|---
+Farmers | 25000189 | `Farmer`, `Worker`, `Artisan`, `Engineer`, `Investor`
+Workers | 25000190 | `Worker`, `Artisan`, `Engineer`, `Investor`
+Artisans | 25000191 | `Artisan`, `Engineer`, `Investor`
+Tourists | 132779 | `Tourist`, `Artisan`, `Investor`
+Engineers | 25000192 | `Engineer`, `Investor`
+Investors | 500447 | `Investor`
+Jornaleros | 25000193 | `Jornalero`, `Obrero`, `Artista`
+Obreros | 25000194 | `Obrero`, `Artista`
+OW Consumables | 500945 | `Farmer`, `Worker`, `Artisan`, `Tourist`, `Engineer`, `Investor`, `Scholar`
 
 Feel free to contribute other populations as well.
 
@@ -92,6 +103,36 @@ Feel free to contribute other populations as well.
   </Item>
 </ModOp>
 ```
+
+When adding a need, make sure to flag the region.
+
+```xml
+<ModOp Type="addNextSibling" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010213']">
+  <Item>
+    <Product>1500300060</Product>
+    <Amount>0.008333333</Amount>
+    <SupplyWeight>55</SupplyWeight>
+    <MoneyValue>55</MoneyValue>
+    <FullWeightPopulationCount>30</FullWeightPopulationCount>
+    <NoWeightPopulationCount>29</NoWeightPopulationCount>
+    <RequiredBuildings>
+      <Item>
+        <RequiredBuilding>601445</RequiredBuilding>
+        <Region>Moderate</Region>
+      </Item>
+    </RequiredBuildings>
+  </Item>
+</ModOp>
+```
+
+Do the following if you want to remove a need, e.g. bread from OW hotels.
+
+```xml
+<ModOp Type="remove" GUID="601379"
+    Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010213']/RequiredBuildings/Item[Region='Moderate']" />
+```
+
+Never replace a need, always remove and add.
 
 ### Construction Menu Descriptions
 

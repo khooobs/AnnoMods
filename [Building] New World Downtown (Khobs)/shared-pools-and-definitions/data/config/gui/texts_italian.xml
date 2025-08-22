@@ -62,7 +62,7 @@
     </Text>
     <Text>
       <GUID>1500200678</GUID>
-      <Text>Tous les moulins</Text> <!-- 1010313 -->
+      <Text>Tutti i mulini</Text> <!-- 1010313 -->
     </Text>
     <Text>
       <GUID>1500200679</GUID>
@@ -94,15 +94,15 @@
     </Text>     
     <Text>
       <GUID>1500300911</GUID>
-      <Text>Toutes les mines à ciel ouvert</Text> <!-- 191592 -->
+      <Text>Tutte le miniere a cielo aperto</Text> <!-- 191592 -->
     </Text>
     <Text>
       <GUID>1500300912</GUID>
-      <Text>Tous les consommateurs d'argile</Text>
+      <Text>Tutti i consumatori di argilla</Text>
     </Text>
     <Text>
       <GUID>1500300913</GUID>
-      <Text>Tous les consommateurs d'acier</Text>
+      <Text>Tutti i consumatori di acciaio</Text>
     </Text>     
     <Text>
       <GUID>1500300914</GUID>
@@ -122,91 +122,99 @@
     </Text>   
     <Text>
       <GUID>2100115287</GUID>
-      <Text>Station de métro</Text>
+      <Text>Stazione della metro</Text>
     </Text>          
     <Text>
       <GUID>1500300916</GUID>
-      <Text>Fromagerie</Text>
+      <Text>Caseificio </Text>
     </Text>
     <Text>
       <GUID>1500301937</GUID>
-      <Text>Usines d'engrais</Text>
+      <Text>Fabbrica di fertilizzanti</Text>
     </Text>
     <Text>
       <GUID>1500301938</GUID>
-      <Text>Tous les quartiers de l'Hacienda</Text>
+      <Text>Tutti i quartieri Hacienda</Text>
     </Text>
     <Text>
       <GUID>1500301940</GUID>
-      <Text>Toutes les fonderies</Text>
+      <Text>Tutti gli smelter</Text>
     </Text>
     <Text>
       <GUID>1500301941</GUID>
-      <Text>Toutes les fabriques d'armes</Text>
+      <Text>Tutte le fabbriche di armi</Text>
     </Text>
     <Text>
       <GUID>1500301942</GUID>
-      <Text>Toutes les cabanes de chasse</Text>
+      <Text>Tutte le cabine di caccia</Text>
     </Text>
     <Text>
       <GUID>1500301944</GUID>
-      <Text>Toutes les cabanes de chasse Arctique</Text>
+      <Text>Tutte le cabine di caccia dell'Artico</Text>
     </Text>
     <Text>
       <GUID>191042</GUID>
-      <Text>Toutes les plates-formes de forage</Text>
+      <Text>Tutti gli impianti di perforazione</Text>
     </Text>
     <Text>
       <GUID>1500301945</GUID>
-      <Text>Toutes les usines à tissus</Text>
+      <Text>Tutte le tessiture di tessuti</Text>
     </Text>
     <Text>
       <GUID>1500301946</GUID>
-      <Text>Toutes les usines de moteurs</Text>
+      <Text>Tutti gli impianti di motorizzazione</Text>
     </Text>
     <Text>
       <GUID>1500301947</GUID>
-      <Text>Tous les bâtiments fluviaux</Text>
+      <Text>Tutti gli edifici fluviali</Text>
     </Text>
     <Text>
       <GUID>1500301948</GUID>
-      <Text>Toutes les résidences de fermier</Text>
+      <Text>Tutte le residenze dei Contadini</Text>
     </Text>
     <Text>
       <GUID>1500301949</GUID>
-      <Text>Toutes les résidences d'ouvrier </Text>
+      <Text>Tutte le residenze dei Lavoratori</Text>
     </Text>
     <Text>
       <GUID>1500301950</GUID>
-      <Text>Toutes les résidences d'artiste</Text>
+      <Text>Tutte le residenze degli Artisti</Text>
     </Text>
     <Text>
       <GUID>1500301951</GUID>
-      <Text>Toutes les résidences de berger</Text>
+      <Text>Tutte le residenze Shepherd</Text>
     </Text>
     <Text>
       <GUID>1500301952</GUID>
-      <Text>Toutes les résidences d'ancien</Text>
+      <Text>Tutte le residenze per anziani</Text>
     </Text>
     <Text>
       <GUID>1500301024</GUID>
-      <Text>Tous les silos à fourrage</Text>
+      <Text>Tutti i silos per foraggi</Text>
     </Text>
     <Text>
       <GUID>1500301025</GUID>
-      <Text>Tous les silos à engrais</Text>
+      <Text>Tutti i silos per fertilizzanti</Text>
     </Text>
     <Text>
       <GUID>1500301026</GUID>
-      <Text>Tous les modules de la mine</Text>
+      <Text>Tutti i moduli della miniera</Text>
     </Text>
     <Text>
       <GUID>1500301029</GUID>
-      <Text>Toutes les mines de l'Arctique</Text>
+      <Text>Tutte le miniere dell'Artico</Text>
     </Text>
     <Text>
       <GUID>2100115704</GUID>
-      <Text>Usine de Soude</Text>
+      <Text>Fabbrica di Soda</Text>
+    </Text>
+    <Text>
+      <GUID>1742000199</GUID>
+      <Text>Tutti gli uffici postali e le caselle postali</Text>
+    </Text>
+    <Text>
+      <GUID>1742000423</GUID>
+      <Text>Tutte le aziende del tè</Text>
     </Text>
   </ModOp>
 </ModOps>

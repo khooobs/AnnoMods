@@ -62,7 +62,7 @@
     </Text>
     <Text>
       <GUID>1500200678</GUID>
-      <Text>すべての[AssetData(1010313) Text]</Text> <!-- 1010313 -->
+      <Text>Tous les moulins</Text> <!-- 1010313 -->
     </Text>
     <Text>
       <GUID>1500200679</GUID>
@@ -94,15 +94,15 @@
     </Text>     
     <Text>
       <GUID>1500300911</GUID>
-      <Text>すべての竪穴</Text> <!-- 191592 -->
+      <Text>Toutes les mines à ciel ouvert</Text> <!-- 191592 -->
     </Text>
     <Text>
       <GUID>1500300912</GUID>
-      <Text>粘土を消費する工場</Text>
+      <Text>Tous les consommateurs d'argile</Text>
     </Text>
     <Text>
       <GUID>1500300913</GUID>
-      <Text>鋼鉄を消費する工場</Text>
+      <Text>Tous les consommateurs d'acier</Text>
     </Text>     
     <Text>
       <GUID>1500300914</GUID>
@@ -122,91 +122,99 @@
     </Text>   
     <Text>
       <GUID>2100115287</GUID>
-      <Text>地下鉄の駅</Text>
+      <Text>Station de métro</Text>
     </Text>          
     <Text>
       <GUID>1500300916</GUID>
-      <Text>乳業</Text>
+      <Text>Fromagerie</Text>
     </Text>
     <Text>
       <GUID>1500301937</GUID>
-      <Text>肥料工場</Text>
+      <Text>Usines d'engrais</Text>
     </Text>
     <Text>
       <GUID>1500301938</GUID>
-      <Text>すべてのハシエンダ宿舎</Text>
+      <Text>Tous les quartiers de l'Hacienda</Text>
     </Text>
     <Text>
       <GUID>1500301940</GUID>
-      <Text>全製錬所</Text>
+      <Text>Toutes les fonderies</Text>
     </Text>
     <Text>
       <GUID>1500301941</GUID>
-      <Text>全武器工場</Text>
+      <Text>Toutes les fabriques d'armes</Text>
     </Text>
     <Text>
       <GUID>1500301942</GUID>
-      <Text>すべてのハンティングキャビン</Text>
+      <Text>Toutes les cabanes de chasse</Text>
     </Text>
     <Text>
       <GUID>1500301944</GUID>
-      <Text>すべての北極圏ハンティングキャビン</Text>
+      <Text>Toutes les cabanes de chasse Arctique</Text>
     </Text>
     <Text>
       <GUID>191042</GUID>
-      <Text>すべての掘削リグ</Text>
+      <Text>Toutes les plates-formes de forage</Text>
     </Text>
     <Text>
       <GUID>1500301945</GUID>
-      <Text>すべての織物工場</Text>
+      <Text>Toutes les usines à tissus</Text>
     </Text>
     <Text>
       <GUID>1500301946</GUID>
-      <Text>全エンジン工場</Text>
+      <Text>Toutes les usines de moteurs</Text>
     </Text>
     <Text>
       <GUID>1500301947</GUID>
-      <Text>オール・リバー・ビル</Text>
+      <Text>Tous les bâtiments fluviaux</Text>
     </Text>
     <Text>
       <GUID>1500301948</GUID>
-      <Text>全農レジデンス</Text>
+      <Text>Toutes les résidences de fermier</Text>
     </Text>
     <Text>
       <GUID>1500301949</GUID>
-      <Text>全労働者の住居</Text>
+      <Text>Toutes les résidences d'ouvrier </Text>
     </Text>
     <Text>
       <GUID>1500301950</GUID>
-      <Text>すべてのアルティスタ・レジデンス</Text>
+      <Text>Toutes les résidences d'artiste</Text>
     </Text>
     <Text>
       <GUID>1500301951</GUID>
-      <Text>すべてのシェパード・レジデンス</Text>
+      <Text>Toutes les résidences de berger</Text>
     </Text>
     <Text>
       <GUID>1500301952</GUID>
-      <Text>すべてのエルダー・レジデンス</Text>
+      <Text>Toutes les résidences d'ancien</Text>
     </Text>
     <Text>
       <GUID>1500301024</GUID>
-      <Text>すべての飼料サイロ</Text>
+      <Text>Tous les silos à fourrage</Text>
     </Text>
     <Text>
       <GUID>1500301025</GUID>
-      <Text>すべての肥料サイロ</Text>
+      <Text>Tous les silos à engrais</Text>
     </Text>
     <Text>
       <GUID>1500301026</GUID>
-      <Text>すべての鉱山モジュール</Text>
+      <Text>Tous les modules de la mine</Text>
     </Text>
     <Text>
       <GUID>1500301029</GUID>
-      <Text>すべての北極鉱山</Text>
+      <Text>Toutes les mines de l'Arctique</Text>
     </Text>
     <Text>
       <GUID>2100115704</GUID>
-      <Text>ソーダ工場</Text>
+      <Text>Usine de Soude</Text>
+    </Text>
+    <Text>
+      <GUID>1742000199</GUID>
+      <Text>Tous les bureaux de poste et boîtes postales</Text>
+    </Text>
+    <Text>
+      <GUID>1742000423</GUID>
+      <Text>Toutes les entreprises de thé</Text>
     </Text>
   </ModOp>
 </ModOps>

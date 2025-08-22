@@ -62,7 +62,7 @@
     </Text>
     <Text>
       <GUID>1500200678</GUID>
-      <Text>Wszystkie młyny zbożowe</Text> <!-- 1010313 -->
+      <Text>Todos los molinos de harina</Text> <!-- 1010313 -->
     </Text>
     <Text>
       <GUID>1500200679</GUID>
@@ -94,15 +94,15 @@
     </Text>     
     <Text>
       <GUID>1500300911</GUID>
-      <Text>Wszystkie kopalnie odkrywkowe</Text> <!-- 191592 -->
+      <Text>Todas las minas a cielo abierto</Text> <!-- 191592 -->
     </Text>
     <Text>
       <GUID>1500300912</GUID>
-      <Text>Wszyscy konsumenci gliny</Text>
+      <Text>Todos los consumidores de arcilla</Text>
     </Text>
     <Text>
       <GUID>1500300913</GUID>
-      <Text>Wszyscy konsumenci stali</Text>
+      <Text>Todos los consumidores de acero</Text>
     </Text>     
     <Text>
       <GUID>1500300914</GUID>
@@ -122,91 +122,99 @@
     </Text>   
     <Text>
       <GUID>2100115287</GUID>
-      <Text>Stacja metra</Text>
+      <Text>Estacion de metro</Text>
     </Text>          
     <Text>
       <GUID>1500300916</GUID>
-      <Text>Mleczarnia</Text>
+      <Text>Lácteos de queso</Text>
     </Text>
     <Text>
       <GUID>1500301937</GUID>
-      <Text>Zakłady Nawozowe</Text>
+      <Text>Trabajos de fertilizantes</Text>
     </Text>
     <Text>
       <GUID>1500301938</GUID>
-      <Text>Wszystkie kwatery hacjendy</Text>
+      <Text>Todos los alojamientos de Hacienda</Text>
     </Text>
     <Text>
       <GUID>1500301940</GUID>
-      <Text>Wszystkie Odlewnie</Text>
+      <Text>Todas las fundiciones</Text>
     </Text>
     <Text>
       <GUID>1500301941</GUID>
-      <Text>Wszystkie fabryki broni</Text>
+      <Text>Todas las fábricas de armas</Text>
     </Text>
     <Text>
       <GUID>1500301942</GUID>
-      <Text>Wszystkie chaty myśliwskie</Text>
+      <Text>Todas las cabañas de caza</Text>
     </Text>
     <Text>
       <GUID>1500301944</GUID>
-      <Text>Wszystkie Arktyczne Chaty Myśliwskie</Text>
+      <Text>Todas las cabañas del Ártico</Text>
     </Text>
     <Text>
       <GUID>191042</GUID>
-      <Text>Wszystkie Platformy Wiertnicze</Text>
+      <Text>Todas las plataformas de perforación</Text>
     </Text>
     <Text>
       <GUID>1500301945</GUID>
-      <Text>Wszystkie fabryki tkanin'</Text>
+      <Text>Todas las fábricas de tejidos</Text>
     </Text>
     <Text>
       <GUID>1500301946</GUID>
-      <Text>Wszystkie fabryki silników</Text>
+      <Text>Todas las fábricas de motores</Text>
     </Text>
     <Text>
       <GUID>1500301947</GUID>
-      <Text>Wszystkie Budynki Rzeczne</Text>
+      <Text>Todos los edificios fluviales</Text>
     </Text>
     <Text>
       <GUID>1500301948</GUID>
-      <Text>Wszystkie Domy Farmerów</Text>
+      <Text>Todas las residencias de agricultores</Text>
     </Text>
     <Text>
       <GUID>1500301949</GUID>
-      <Text>Wszystkie Domy Robotników</Text>
+      <Text>Todas las residencias de trabajadores</Text>
     </Text>
     <Text>
       <GUID>1500301950</GUID>
-      <Text>Wszystkie Domy Artystów</Text>
+      <Text>Todas las residencias Artista</Text>
     </Text>
     <Text>
       <GUID>1500301951</GUID>
-      <Text>Wszystkie Domy Pasterzy</Text>
+      <Text>Todas las residencias Shepherd</Text>
     </Text>
     <Text>
       <GUID>1500301952</GUID>
-      <Text>Wszystkie Domy Starszych</Text>
+      <Text>Todas las residencias de ancianos</Text>
     </Text>
     <Text>
       <GUID>1500301024</GUID>
-      <Text>Wszystkie silosy paszowe</Text>
+      <Text>Todos los Silos de forraje</Text>
     </Text>
     <Text>
       <GUID>1500301025</GUID>
-      <Text>Wszystkie silosy nawozowe</Text>
+      <Text>Todos los silos de fertilizantes</Text>
     </Text>
     <Text>
       <GUID>1500301026</GUID>
-      <Text>Wszystkie moduły kopalni</Text>
+      <Text>Todos los módulos de minas</Text>
     </Text>
     <Text>
       <GUID>1500301029</GUID>
-      <Text>Wszystkie kopalnie arktyczne</Text>
+      <Text>Todas las minas del Ártico</Text>
     </Text>
     <Text>
       <GUID>2100115704</GUID>
-      <Text>Fabryka Sody</Text>
+      <Text>Fábrica de Refrescos</Text>
+    </Text>
+    <Text>
+      <GUID>1742000199</GUID>
+      <Text>Todas las oficinas de correos y buzones</Text>
+    </Text>
+    <Text>
+      <GUID>1742000423</GUID>
+      <Text>Todas las empresas de té</Text>
     </Text>
   </ModOp>
 </ModOps>

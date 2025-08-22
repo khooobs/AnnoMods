@@ -39,10 +39,6 @@
 -->
 
 <ModOps>
-
-  <!-- New World Downtown v1 -->
-  <Include File="./assets-hotel-needs.include.xml" />
-  
   <!-- # Menu -->
   <ModOp Type="addNextSibling" GUID="25000194">
     <Asset>
@@ -148,7 +144,9 @@
             </SkinList>
           </Skins>
         </Object>
-        <Text />
+        <Text>
+          <TextOverride>601445</TextOverride>
+        </Text>
         <Locked>
           <DefaultLockedState>1</DefaultLockedState>
           <DLCDependency>410084</DLCDependency>
@@ -241,13 +239,15 @@
       </Values>
     </Asset>
   </ModOp>
+  
   <!-- Fill Tiny Hotel with vanilla needs (load after shared hotel needs) -->
-  <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item/RequiredBuildings[Item/Region='Moderate']">
+  <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item/RequiredBuildings[Item/Region='Colony01']">
     <Item>
       <RequiredBuilding>2143505335</RequiredBuilding>
       <Region>Colony01</Region>
     </Item>
   </ModOp>
+
   <!-- Set Tiny Hotel resident maximum to 150 (without lifestyle needs) -->
   <ModOp Type="addNextSibling" GUID="191587">
     <Asset>
@@ -315,12 +315,6 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- Change name -->
-  <ModOp Type="merge" GUID="2143505335" Path="/Values" Condition="!#jakob_small_hotels">
-    <Text>
-      <TextOverride>601445</TextOverride>
-    </Text>
-  </ModOp>
 
   <ModOp Type="addNextSibling" GUID="25000194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='101259' or (not(../Item/Building='101259'))][last()]">
     <Item>
@@ -341,6 +335,12 @@
     <Item>
       <Building>2143505316</Building>
     </Item>
+  </ModOp>
+
+  <ModOp GUID='134346' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+		<Item>
+			<Building>2143505316</Building>
+		</Item>
   </ModOp>
 
   <!-- # Effect Pools -->

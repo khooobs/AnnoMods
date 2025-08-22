@@ -130,11 +130,11 @@
     </Text>
     <Text>
       <GUID>1500301937</GUID>
-      <Text>Завод по производству удобрений</Text>
+      <Text>Завод удобрений</Text>
     </Text>
     <Text>
       <GUID>1500301938</GUID>
-      <Text>Все кварталы Гасиенды</Text>
+      <Text>Все апартаменты Асьенды</Text>
     </Text>
     <Text>
       <GUID>1500301940</GUID>
@@ -207,6 +207,14 @@
     <Text>
       <GUID>2100115704</GUID>
       <Text>содовый завод</Text>
+    </Text>
+    <Text>
+      <GUID>1742000199</GUID>
+      <Text>Все почтовые отделения и почтовые ящики</Text>
+    </Text>
+    <Text>
+      <GUID>1742000423</GUID>
+      <Text>Все чайные компании</Text>
     </Text>
   </ModOp>
 </ModOps>
