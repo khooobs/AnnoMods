@@ -16,7 +16,8 @@
   <!-- <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="" Type="replace">
     <FullSatisfactionDistance>24</FullSatisfactionDistance>
   </ModOp> -->
-  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2143505344" Type="replace">
+  <!-- TODO: NW Clubhouse -->
+  <!-- <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2143505344" Type="replace">
     <FullSatisfactionDistance>20</FullSatisfactionDistance>
-  </ModOp>
+  </ModOp>-->
 </ModOps>

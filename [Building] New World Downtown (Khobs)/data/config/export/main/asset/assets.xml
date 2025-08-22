@@ -337,12 +337,6 @@
     </Item>
   </ModOp>
 
-  <ModOp GUID='134346' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
-		<Item>
-			<Building>2143505316</Building>
-		</Item>
-  </ModOp>
-
   <!-- # Effect Pools -->
   <!-- The specific service pool guids replace the single building entries in items / buffs within 'Shared Pools' -> sufficient to add mod-buildings to these pools. -->
   <Group>
@@ -411,37 +405,6 @@
     <ModOp Type="replace" GUID="136668,136697,136699" Path="/Values/ItemEffect/EffectTargets/Item[GUID='601445']" Condition="!/Values/ItemEffect/EffectTargets/Item[GUID='194016']">
       <Item>
         <GUID>194016</GUID>
-      </Item>
-    </ModOp>
-  </Group>
-
-  <!-- # Institution Loading Bar -->
-  <Group>
-    <!-- Add green loading bar to Police Stations -->
-    <ModOp Type="add" GUID="1902" Path="/Values/OnScreenIconScene/SpecialConstructionHighlights/Item/Buildings[Item/BuildingGUID='1010462']">
-      <Item>
-        <BuildingGUID>2143505323</BuildingGUID>
-      </Item>
-      <Item>
-        <BuildingGUID>2143505326</BuildingGUID>
-      </Item>
-    </ModOp>
-    <!-- Add green loading bar to Fire Department -->
-    <ModOp Type="add" GUID="1902" Path="/Values/OnScreenIconScene/SpecialConstructionHighlights/Item/Buildings[Item/BuildingGUID='1010463']">
-      <Item>
-        <BuildingGUID>2143505318</BuildingGUID>
-      </Item>
-      <Item>
-        <BuildingGUID>2143505319</BuildingGUID>
-      </Item>
-    </ModOp>
-    <!-- Add green loading bar to Hospital -->
-    <ModOp Type="add" GUID="1902" Path="/Values/OnScreenIconScene/SpecialConstructionHighlights/Item/Buildings[Item/BuildingGUID='1010464']">
-      <Item>
-        <BuildingGUID>2143505328</BuildingGUID>
-      </Item>
-      <Item>
-        <BuildingGUID>2143505332</BuildingGUID>
       </Item>
     </ModOp>
   </Group>
@@ -562,7 +525,7 @@
   <!-- # Boxing Arena -->
   <ModOp Type="addNextSibling" GUID="1010358">
     <Asset>
-      <Template>PublicServiceBuildingWithBus</Template>
+      <Template>PublicServiceBuilding</Template>
       <Values>
         <Standard>
           <GUID>2143505316</GUID>
@@ -623,9 +586,6 @@
           </Maintenances>
         </Maintenance>
         <Pausable />
-				<BusActivation>
-					<BusNeed>1440134405</BusNeed>
-				</BusActivation>
       </Values>
     </Asset>
   </ModOp>
@@ -1899,38 +1859,25 @@
         <Building>2143505335</Building>
       </Item>
     </ModOp>
+    <ModOp GUID='134346' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+      <Item>
+        <Building>2143505316</Building>
+      </Item>
+    </ModOp>
+    <ModOp GUID='2143505316' Type="replace" Path="Template/">
+      <Template>PublicServiceBuildingWithBus</Template>
+    </ModOp>
+    <ModOp GUID='2143505316' Type="add" Path="Values/">
+			<BusActivation>
+				<BusNeed>1440134405</BusNeed>
+			</BusActivation>
+    </ModOp>
   </Group>
 
   <Group Condition="#nw-tier4">
     <ModOp GUID="2143505311" Type="add" Path="Values/ConstructionCategory/BuildingList">
       <Item>
         <Building>2143505344</Building>
-      </Item>
-    </ModOp>
-  </Group>
-
-  <!-- New World Seat Of Power -->
-  <Group Condition="#khobs_new_world_seat_of_power">
-    <ModOp Type="addNextSibling" GUID="601379"
-      Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product='2143505236']"
-      Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='134257']">
-      <Item>
-        <Product>2143505236</Product>
-        <HappinessValue>3</HappinessValue>
-        <IsOptionalHappinessValue>1</IsOptionalHappinessValue>
-        <MoneyValue>75</MoneyValue>
-        <FullWeightPopulationCount>1100</FullWeightPopulationCount>
-        <NoWeightPopulationCount>899</NoWeightPopulationCount>
-        <AdditionalGlobalUnlockRequirement>
-          <Population>601379</Population>
-          <MinPopulationAmount>900</MinPopulationAmount>
-        </AdditionalGlobalUnlockRequirement>
-        <RequiredBuildings>
-          <Item>
-            <RequiredBuilding>2143505335</RequiredBuilding>
-            <Region>Colony01</Region>
-          </Item>
-        </RequiredBuildings>
       </Item>
     </ModOp>
   </Group>
