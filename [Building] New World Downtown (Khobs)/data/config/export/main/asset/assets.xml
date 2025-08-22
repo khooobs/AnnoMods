@@ -1908,7 +1908,9 @@
 
   <!-- New World Seat Of Power -->
   <Group Condition="#khobs_new_world_seat_of_power">
-    <ModOp Type="addNextSibling" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='134257']">
+    <ModOp Type="addNextSibling" GUID="601379"
+      Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product='2143505236']"
+      Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='134257']">
       <Item>
         <Product>2143505236</Product>
         <HappinessValue>3</HappinessValue>
