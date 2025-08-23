@@ -19,7 +19,7 @@
   <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_market_nw" ExposeID="Public Service Range Market" Description="The range within the public service of the small markets is provided by 100 %&#xD;&#xA;Default value is 22." Kind="Slider">
     <SliderDefinition Min="12" Max="38" Stepping="1" />
   </ImyaExpose>
-  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_boxing_arena" ExposeID="Public Service Range Pub" Description="The range within the public service of the small pubs is provided by 100 %&#xD;&#xA;Default value is 19." Kind="Slider">
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_boxing_arena" ExposeID="Public Service Range Boxing Arena" Description="The range within the public service of the small boxing arena is provided by 100 %&#xD;&#xA;Default value is 19." Kind="Slider">
     <SliderDefinition Min="12" Max="38" Stepping="1" />
   </ImyaExpose>
   <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_church_nw" ExposeID="Public Service Range Church" Description="The range within the public service of the small churches is provided by 100 %&#xD;&#xA;Default value is 35." Kind="Slider">
