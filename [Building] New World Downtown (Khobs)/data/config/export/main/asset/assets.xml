@@ -1881,4 +1881,75 @@
       </Item>
     </ModOp>
   </Group>
+
+  <Group Condition="#public_service_overhaul_kurila">
+    <ModOp Type="merge" GUID="2143505316" Path="/Values">
+      <Building>
+        <SecondPartyRelevant>0</SecondPartyRelevant>
+      </Building>
+      <Selection>
+        <GUIType>Production</GUIType>
+        <ParticipantMessageArcheType>[NONE]</ParticipantMessageArcheType>
+      </Selection>
+      <FactoryBase>
+        <FactoryInputs>
+          <Item>
+            <Product>120033</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+          <Item>
+            <Product>1500302903</Product>
+            <Amount>0</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+          <Item>
+            <Product>1500302909</Product>
+            <Amount>0</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+        </FactoryInputs>
+        <CycleTime>60</CycleTime>
+        <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+        <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+      </FactoryBase>
+      <Maintenance>
+        <Maintenances>
+          <Item>
+            <Product>1010017</Product>
+          </Item>
+          <Item>
+            <Product>1010367</Product>
+            <Amount>10</Amount>
+            <ShutdownThreshold>0.5</ShutdownThreshold>
+          </Item>
+        </Maintenances>
+        <ConsumerPriority>3</ConsumerPriority>
+      </Maintenance>
+      <BuffFactory>
+        <ProductionBuffs>
+          <Item>
+            <ProductivityBuff>1500302908</ProductivityBuff>
+            <ProductivityThresholdUp>0.01</ProductivityThresholdUp>
+            <ProductivityThresholdDown>0.8</ProductivityThresholdDown>
+          </Item>
+        </ProductionBuffs>
+        <ProductionBuffScope>Local</ProductionBuffScope>
+      </BuffFactory>
+      <LogisticNode>
+        <TransporterCountMax>2</TransporterCountMax>
+        <NeedsTransporterQueue>1</NeedsTransporterQueue>
+      </LogisticNode>
+      <Electrifiable>
+        <ElectricityBoost>0</ElectricityBoost>
+        <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+      </Electrifiable>
+      <Industrializable>
+        <BoostedByIndustrialization>1</BoostedByIndustrialization>
+      </Industrializable>
+      <Pausable>
+        <CanPauseManually>1</CanPauseManually>
+      </Pausable>
+    </ModOp>
+  </Group>
 </ModOps>
