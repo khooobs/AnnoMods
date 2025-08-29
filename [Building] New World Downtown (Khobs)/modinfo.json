@@ -1,0 +1,64 @@
+{
+  "Version": "1.0.3",
+  "ModID": "khobs_nw_downtown",
+  "IncompatibleIds": [],
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "shared-ground-textures-industry-jakob",
+    "shared-ground-textures-city-jakob"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions",
+    "HacknerWorkforceRequired",
+    "FamTaubeLexy_NewWorldHotels",
+    "khobs_new_world_seat_of_power"
+  ],
+
+  "Category": {
+    "Chinese": "Building",
+    "English": "Building",
+    "French": "Building",
+    "German": "Building",
+    "Italian": "Building",
+    "Japanese": "Building",
+    "Korean": "Building",
+    "Polish": "Building",
+    "Russian": "Building",
+    "Spanish": "Building",
+    "Taiwanese": "Building"
+  },
+
+  "ModName": {
+    "Chinese": "New World Downtown (Khobs)",
+    "English": "New World Downtown (Khobs)",
+    "French": "New World Downtown (Khobs)",
+    "German": "New World Downtown (Khobs)",
+    "Italian": "New World Downtown (Khobs)",
+    "Japanese": "New World Downtown (Khobs)",
+    "Korean": "New World Downtown (Khobs)",
+    "Polish": "New World Downtown (Khobs)",
+    "Russian": "New World Downtown (Khobs)",
+    "Spanish": "New World Downtown (Khobs)",
+    "Taiwanese": "New World Downtown (Khobs)"
+  },
+
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+  
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Khobs",
+  "CreatorContact": "https://github.com/khooobs/AnnoMods",
+  "Image": null
+}

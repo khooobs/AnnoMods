@@ -1,0 +1,35 @@
+<!-- IMYA tweaks for building service ranges -->
+<ModOps>
+  <ImyaTweaks Title="Public Service Ranges" />
+  <ModOp Type="replace" GUID="2143505313" ModOpID="satisfaction_market_nw" Path="/Values/PublicService/FullSatisfactionDistance" Skip="1">
+    <FullSatisfactionDistance>22</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2143505316" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_boxing_arena" Skip="1">
+    <FullSatisfactionDistance>19</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2143505333" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_church_nw" Skip="1">
+    <FullSatisfactionDistance>35</FullSatisfactionDistance>
+  </ModOp>
+  <!-- <ModOp Type="replace" GUID="" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_bank_nw" Skip="1">
+    <FullSatisfactionDistance>24</FullSatisfactionDistance>
+  </ModOp> -->
+  <!-- <ModOp Type="replace" GUID="2143505344" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_clubhouse_nw" Skip="1">
+    <FullSatisfactionDistance>20</FullSatisfactionDistance>
+  </ModOp> -->
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_market_nw" ExposeID="Public Service Range Market" Description="The range within the public service of the small markets is provided by 100 %&#xD;&#xA;Default value is 22." Kind="Slider">
+    <SliderDefinition Min="12" Max="38" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_boxing_arena" ExposeID="Public Service Range Boxing Arena" Description="The range within the public service of the small boxing arena is provided by 100 %&#xD;&#xA;Default value is 19." Kind="Slider">
+    <SliderDefinition Min="12" Max="38" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_church_nw" ExposeID="Public Service Range Church" Description="The range within the public service of the small churches is provided by 100 %&#xD;&#xA;Default value is 35." Kind="Slider">
+    <SliderDefinition Min="12" Max="45" Stepping="1" />
+  </ImyaExpose>
+  <!-- <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_bank_nw" ExposeID="Public Service Range Bank" Description="The range within the public service of the small banks is provided by 100 %&#xD;&#xA;Default value is 24." Kind="Slider">
+    <SliderDefinition Min="12" Max="36" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_clubhouse_nw" ExposeID="Public Service Range Clubhouse" Description="The range within the public service of the small clubhouses is provided by 100 %&#xD;&#xA;Default value is 20." Kind="Slider">
+    <SliderDefinition Min="12" Max="36" Stepping="1" />
+  </ImyaExpose> -->
+  <Include File="./ranges.include.imyatweak.include.xml" />
+</ModOps>
