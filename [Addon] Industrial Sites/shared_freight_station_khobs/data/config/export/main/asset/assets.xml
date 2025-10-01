@@ -56,7 +56,7 @@
           </Variations>
         </Object>
         <Selection>
-			    <GUIType>Airport</GUIType>
+			    <GUIType>CoalOilHarbour</GUIType>
           <OnSelection>
             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
             <Values>
