@@ -1952,4 +1952,10 @@
       </Pausable>
     </ModOp>
   </Group>
+
+  <ModOp GUID="4455" Type="Add" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+    <Item>
+      <GUID>2143505334</GUID>
+    </Item>
+  </ModOp>
 </ModOps>
