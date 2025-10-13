@@ -1850,6 +1850,63 @@
       </Asset>
     </ModOp>
     <!-- END -->
+
+    <ModOp GUID="193875" Type="add" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+			<Item>
+				<GUID>101261</GUID><!--factory_colony01_01 (Timber Factory)-->
+			</Item>
+			<Item>
+				<GUID>101265</GUID><!--factory_colony01_02 (Sailcloth Factory)-->
+			</Item>
+			<Item>
+				<GUID>1010318</GUID><!--factory_colony01_03 (Cotton Cloth Processing)-->
+			</Item>
+			<Item>
+				<GUID>101267</GUID><!--factory_colony01_04 (Clay Pit)-->
+			</Item>
+			<Item>
+				<GUID>101268</GUID><!--factory_colony01_05 (Brick Factory)-->
+			</Item>
+			<Item>
+				<GUID>101415</GUID><!--factory_colony01_06 (Felt Maker)-->
+			</Item>
+			<Item>
+				<GUID>101273</GUID><!--factory_colony01_07 (Bombin Maker)-->
+			</Item>
+			<Item>
+				<GUID>1010340</GUID><!--food_colony01_01 (Rum Maker)-->
+			</Item>
+			<Item>
+				<GUID>1010341</GUID><!--food_colony01_02 (Chocolate Maker)-->
+			</Item>
+			<Item>
+				<GUID>101252</GUID><!--food_colony01_03 (Coffee Maker)-->
+			</Item>
+			<Item>
+				<GUID>101264</GUID><!--food_colony01_04 (Fried Banana Maker)-->
+			</Item>
+			<Item>
+				<GUID>101271</GUID><!--food_colony01_05 (Burrito Maker)-->
+			</Item>
+			<Item>
+				<GUID>1010561</GUID><!--heavy_colony01_01 (Oil Heavy Industry)-->
+			</Item>
+			<Item>
+				<GUID>1010317</GUID><!--processing_colony01_01 (Sugar Processing)-->
+			</Item>
+			<Item>
+				<GUID>101266</GUID><!--processing_colony01_02 (Poncho Maker)-->
+			</Item>
+			<Item>
+				<GUID>101296</GUID><!--processing_colony01_03 (Inlay Processing)-->
+			</Item>
+			<Item>
+				<GUID>1010342</GUID><!--workshop_colony01_01 (Cigars Workshop)-->
+			</Item>
+			<Item>
+				<GUID>101311</GUID><!--mining_colony01_01 (Gold Ore Mine)-->
+			</Item>
+    </ModOp>
   </Group>
   <!-- END - GALVANIC GRANTS ACT -->
 
