@@ -1906,6 +1906,15 @@
 			<Item>
 				<GUID>101311</GUID><!--mining_colony01_01 (Gold Ore Mine)-->
 			</Item>
+			<Item>
+				<GUID>1345</GUID><!--heavy_03 (Coal Heavy Industry) Colony01 -->
+			</Item>
+			<Item>
+				<GUID>835</GUID><!--factory_colony01_10 (Aluminium Smelter)-->
+			</Item>
+			<Item>
+				<GUID>435</GUID>
+			</Item>
     </ModOp>
   </Group>
   <!-- END - GALVANIC GRANTS ACT -->
