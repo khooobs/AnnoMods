@@ -7,7 +7,6 @@
           <Standard>
             <GUID>2143505513</GUID>
             <Name>Creative Trigger</Name>
-            <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
           </Standard>
           <Trigger>
             <TriggerCondition>
@@ -355,7 +354,7 @@
           <Standard>
             <GUID>2143505522</GUID>
             <Name>Crusher: Iron</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_crusher.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/consumables/icon_ore_finder_3.png</IconFilename>
             <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
@@ -546,7 +545,7 @@
           <Standard>
             <GUID>2143505526</GUID>
             <Name>Crusher: Copper</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_crusher.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/consumables/icon_ore_finder_3.png</IconFilename>
             <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
@@ -737,7 +736,7 @@
           <Standard>
             <GUID>2143505528</GUID>
             <Name>Crusher: Zinc</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_crusher.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/consumables/icon_ore_finder_3.png</IconFilename>
             <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
@@ -928,7 +927,7 @@
           <Standard>
             <GUID>2143505530</GUID>
             <Name>Crusher: Coal</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_crusher.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/consumables/icon_ore_finder_3.png</IconFilename>
             <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
@@ -1119,7 +1118,7 @@
           <Standard>
             <GUID>2143505532</GUID>
             <Name>Crusher: Gold</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_crusher.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/consumables/icon_ore_finder_3.png</IconFilename>
             <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
