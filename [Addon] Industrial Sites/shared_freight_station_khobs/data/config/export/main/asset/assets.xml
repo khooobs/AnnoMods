@@ -386,11 +386,7 @@
             </Maintenances>
         </Maintenance>
         <Pausable />
-        <LogisticNode>
-          <TransporterCountMax>0</TransporterCountMax>
-          <TransporterAsset>120028</TransporterAsset>
-          <PathLayers>Street;Railway</PathLayers>
-        </LogisticNode>
+        <LogisticNode />
       </Values>
     </Asset>
   </ModOp>

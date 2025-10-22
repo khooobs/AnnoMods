@@ -310,8 +310,6 @@
 				<Text/>
 				<Cost/>
 				<Attackable/>
-				<Warehouse/>
-				<StorageBase/>
 				<Locked/>
 				<Factory7/>
 				<FactoryBase>
