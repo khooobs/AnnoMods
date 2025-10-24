@@ -304,7 +304,7 @@
       </Asset>
       <!-- Blast Furnace -->
       <Asset>
-        <Template>IndustrialFactory</Template>
+        <Template>HeavyFactoryBuilding</Template>
         <Values>
           <Standard>
             <GUID>2143505507</GUID>
@@ -312,36 +312,39 @@
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_factory.png</IconFilename>
             <InfoDescription>2143505508</InfoDescription>
           </Standard>
+          <Building>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
+          </Building>
           <Blocking>
             <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
           </Blocking>
           <Cost>
             <Costs>
-              <Item>
-                <Ingredient>1010017</Ingredient>
-                <Amount>25000</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010196</Ingredient>
-                <Amount>10</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010218</Ingredient>
-                <Amount>10</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010207</Ingredient>
-                <Amount>5</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010202</Ingredient>
-                <Amount>5</Amount>
-              </Item>
-              <InfluenceCostType>GuildHouse</InfluenceCostType>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
             </Costs>
           </Cost>
           <Object>
@@ -353,11 +356,70 @@
           </Object>
           <Mesh/>
           <Selection>
-            <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+            <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+            <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
           </Selection>
+          <Constructable/>
+          <Locked/>
+          <SoundEmitter>
+            <ActiveSounds>
+            <Item>
+              <Sound>214813</Sound>
+            </Item>
+            <Item>
+              <Sound>202247</Sound>
+            </Item>
+            </ActiveSounds>
+            <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                <Entry>
+                  <TemplateName>FarmBuilding</TemplateName>
+                  <Index>0</Index>
+                </Entry>
+                <Entry>
+                  <TemplateName>HeavyFactoryBuilding</TemplateName>
+                  <Index>0</Index>
+                </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Sound>203830</Sound>
+              </Item>
+            </BuildSuccessful>
+            </ConstructionSounds>
+            <IncidentSounds>
+            <InfectedFire>
+              <Item>
+              <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+            </IncidentSounds>
+            <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+            </BuildingRepaired>
+            <MaterialType>Metal</MaterialType>
+          </SoundEmitter>
+          <FeedbackController>
+            <UpdateMeshSequence>0</UpdateMeshSequence>
+          </FeedbackController>
+          <Infolayer/>
           <UpgradeList>
             <DefaultBuff>2143505503</DefaultBuff>
           </UpgradeList>
+          <Factory7/>
           <FactoryBase>
             <FactoryInputs>
               <Item>
@@ -373,7 +435,7 @@
                 <StorageAmount>200</StorageAmount>
               </Item>
             </FactoryOutputs>
-            <CycleTime>30</CycleTime>
+            <CycleTime>15</CycleTime>
             <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
             <IsMainFactory>0</IsMainFactory>
           </FactoryBase>
@@ -382,26 +444,73 @@
             <TransporterAsset>120028</TransporterAsset>
             <PathLayers>Street;Railway</PathLayers>
           </LogisticNode>
+          <AmbientMoodProvider>
+            <AmbientMood>IndustryHeavy</AmbientMood>
+            <Murmur>Factory</Murmur>
+          </AmbientMoodProvider>
           <Maintenance>
             <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>1000</Amount>
-                <InactiveAmount>500</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010117</Product>
-                <Amount>100</Amount>
-              </Item>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1750</Amount>
+              <InactiveAmount>880</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>300</Amount>
+            </Item>
             </Maintenances>
           </Maintenance>
-          <Industrializable>
-            <MandatoryIndustrialization>0</MandatoryIndustrialization>
-          </Industrializable>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>3500</MaximumHitPoints>
+            <SelfHealPerHealTick>6</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable/>
+          <IncidentInfectable>
+            <Infectable>
+            <Illness>
+              <Escalated>0</Escalated>
+            </Illness>
+            </Infectable>
+            <Explosion>
+            <ExplosionCoreDamage>2000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+            <Explosion>
+              <BaseChance>4</BaseChance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Explosion>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
           <Culture>
             <Attractiveness>-15</Attractiveness>
             <HasPollution>1</HasPollution>
           </Culture>
+          <IncidentInfluencer>
+            <Influence>
+            <Illness>
+              <Distance>10</Distance>
+            </Illness>
+            </Influence>
+          </IncidentInfluencer>
+          <Industrializable/>
+          <QuestObject/>
+          <Electrifiable/>
+          <EcoSystemProvider/>
         </Values>
       </Asset>
       <Asset>
@@ -1268,8 +1377,8 @@
       </ModOp>
     </Group>
 
-    <Group Condition="#IndustrializedLowTierProduction">
-      <ModOp GUID="1404423040" Type="replace" Path="Values/Upgradable/">
+    <Group Condition="//Values[Standard/GUID='1404423040']">
+      <ModOp GUID="1404423040" Type="add" Path="Values/">
         <Upgradable>
           <NextGUID>2143505507</NextGUID>
           <UpgradeCost>

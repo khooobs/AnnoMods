@@ -1,5 +1,5 @@
 {
-  "Version": "0.6",
+  "Version": "0.7",
   "ModID": "khobs_industrial_sites",
   "IncompatibleIds": null,
   "ModDependencies": [
@@ -21,7 +21,9 @@
     "shared_neutral_culture_modules",
     "shared_strategic_harbour",
     "shared_freight_station_khobs",
-    "shared_freight_import_caoutchouc"
+    "shared_freight_import_caoutchouc",
+    "IndustrializedLowTierProduction",
+    "production_works_kurila"
   ],
   "Category": {
     "Chinese": "Addon",
