@@ -962,6 +962,7 @@
           </Object>
           <Selection>
             <GUIType>Production</GUIType>
+            <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
             <OnSelection>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
@@ -1003,18 +1004,18 @@
             <FactoryInputs>
               <Item>
                 <Product>2143505553</Product>
-                <Amount>3</Amount>
+                <Amount>1</Amount>
                 <StorageAmount>100</StorageAmount>
               </Item>
             </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>1010219</Product>
-                <Amount>1</Amount>
-                <StorageAmount>8</StorageAmount>
+                <Amount>10</Amount>
+                <StorageAmount>100</StorageAmount>
               </Item>
             </FactoryOutputs>
-            <CycleTime>30</CycleTime>
+            <CycleTime>20</CycleTime>
             <IsMainFactory>0</IsMainFactory>
             <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
             <TeleportProducedGoodsIntoAreaStorage>1</TeleportProducedGoodsIntoAreaStorage>
@@ -1023,8 +1024,12 @@
               <Maintenances>
                 <Item>
                   <Product>1010017</Product>
-                  <Amount>100</Amount>
-                  <InactiveAmount>50</InactiveAmount>
+                  <Amount>500</Amount>
+                  <InactiveAmount>400</InactiveAmount>
+                </Item>
+                <Item>
+                  <Product>1010115</Product>
+                  <Amount>25</Amount>
                 </Item>
               </Maintenances>
           </Maintenance>
