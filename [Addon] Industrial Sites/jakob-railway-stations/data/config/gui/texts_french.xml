@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500011080</GUID>
+      <Text>Plateforme de fret</Text> <!-- Freight Platform -->
+    </Text>
+    <Text>
+      <GUID>1500011081</GUID>
+      <Text>Plateforme de passagers</Text> <!-- Passenger Platform -->
+    </Text>
+    <Text>
+      <GUID>1500011082</GUID>
+      <Text>Terre</Text> <!-- Dirt -->
+    </Text>
+  </ModOp>
+</ModOps>

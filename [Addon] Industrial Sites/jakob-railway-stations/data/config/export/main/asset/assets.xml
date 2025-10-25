@@ -1,0 +1,9 @@
+<ModOps>
+  <!-- Add empty dirt and concrete to Railway ornament menu -->
+  <Include File="/data/jakob/railway/assets.include.xml" />
+  <!-- Platforms -->
+  <Include File="./platform.include.xml" />
+  <!-- Random Freight Trains -->
+  <Include File="/data/jakob/trains/assets.include.xml" />
+</ModOps>
+<!-- force cache refresh: 1746471663333 -->
