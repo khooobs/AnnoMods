@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500011080</GUID>
+      <Text>화물 적하장</Text> <!-- Freight Platform -->
+    </Text>
+    <Text>
+      <GUID>1500011081</GUID>
+      <Text>여객 승강장</Text> <!-- Passenger Platform -->
+    </Text>
+    <Text>
+      <GUID>1500011082</GUID>
+      <Text>흙(Dirt)</Text> <!-- Dirt -->
+    </Text>
+  </ModOp>
+</ModOps>

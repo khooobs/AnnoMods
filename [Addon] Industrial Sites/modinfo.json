@@ -1,5 +1,5 @@
 {
-  "Version": "0.7",
+  "Version": "0.7.2",
   "ModID": "khobs_industrial_sites",
   "IncompatibleIds": null,
   "ModDependencies": [
@@ -15,7 +15,9 @@
     "khobs_sifter",
     "khobs_crusher",
     "shared_freight_station_khobs",
-    "shared_freight_import_caoutchouc"
+    "shared_freight_import_caoutchouc",
+    "jakob-railway-stations",
+    "models-railway-jakob"
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",

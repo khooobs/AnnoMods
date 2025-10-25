@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500011080</GUID>
+      <Text>Грузовая платформа</Text> <!-- Freight Platform -->
+    </Text>
+    <Text>
+      <GUID>1500011081</GUID>
+      <Text>Пассажирская платформа</Text> <!-- Passenger Platform -->
+    </Text>
+    <Text>
+      <GUID>1500011082</GUID>
+      <Text>Земля</Text> <!-- Dirt -->
+    </Text>
+  </ModOp>
+</ModOps>
