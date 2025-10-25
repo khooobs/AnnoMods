@@ -303,6 +303,7 @@
         </Values>
       </Asset>
       <!-- Blast Furnace -->
+      <!-- Template isn't IndustrialFactory to allowing a tier upgrade with ITLP -->
       <Asset>
         <Template>HeavyFactoryBuilding</Template>
         <Values>
@@ -637,7 +638,12 @@
               <Percental>1</Percental>
             </ProductivityUpgrade>
           </FactoryUpgrade>
-          <BuildingUpgrade/>
+          <BuildingUpgrade>
+            <MaintenanceUpgrade>
+              <Value>100</Value>
+              <Percental>1</Percental>
+            </MaintenanceUpgrade>
+          </BuildingUpgrade>
           <Buff/>
           <CultureUpgrade>
             <HideBuff>1</HideBuff>
@@ -712,7 +718,8 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialModule</Template>
+        <!-- Template isn't IndustryModule to allowing a tier upgrade with ITLP -->
+        <Template>HeavyFactoryBuilding</Template>
         <Values>
           <Standard>
             <GUID>2143505560</GUID>
@@ -720,11 +727,18 @@
             <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
             <InfoDescription>2143505561</InfoDescription>
           </Standard>
+          <Building>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
+          </Building>
+          <Blocking/>
           <Cost>
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
+                <Amount>25000</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -732,11 +746,11 @@
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
+                <Amount>40</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>5</Amount>
+                <Amount>10</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
@@ -747,17 +761,70 @@
             </Costs>
           </Cost>
           <Object>
-            <GUIType>GuildHouse</GUIType>
             <Variations>
               <Item>
-					      <Filename>data/modgraphics/buildings/modules/steelworks/steelworks.cfg</Filename>
+					      <Filename>data/modgraphics/buildings/modules/beam_foundry/beam_foundry.cfg</Filename>
               </Item>
             </Variations>
           </Object>
           <Mesh/>
           <Selection>
+            <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+            </OnSelection>
             <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+            <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
           </Selection>
+          <Constructable/>
+          <Locked/>
+          <SoundEmitter>
+            <ActiveSounds>
+            <Item>
+              <Sound>214813</Sound>
+            </Item>
+            <Item>
+              <Sound>202429</Sound>
+            </Item>
+            </ActiveSounds>
+            <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                <Entry>
+                  <TemplateName>FarmBuilding</TemplateName>
+                  <Index>0</Index>
+                </Entry>
+                <Entry>
+                  <TemplateName>HeavyFactoryBuilding</TemplateName>
+                  <Index>0</Index>
+                </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Sound>203830</Sound>
+              </Item>
+            </BuildSuccessful>
+            </ConstructionSounds>
+            <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+            </BuildingRepaired>
+            <MaterialType>Metal</MaterialType>
+          </SoundEmitter>
+          <FeedbackController/>
+          <Infolayer/>
+          <UpgradeList/>
+          <Factory7/>
+          <Pausable>
+            <CanPauseManually>1</CanPauseManually>
+          </Pausable>
           <FactoryBase>
             <FactoryInputs>
               <Item>
@@ -766,7 +833,13 @@
               </Item>
             </FactoryInputs>
             <CycleTime>120</CycleTime>
+            <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
           </FactoryBase>
+          <LogisticNode/>
+          <AmbientMoodProvider>
+            <AmbientMood>IndustryHeavy</AmbientMood>
+            <Murmur>Factory</Murmur>
+          </AmbientMoodProvider>
           <BuffFactory>
             <ProductionBuffs>
               <Item>
@@ -780,19 +853,66 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
+                <Amount>400</Amount>
+                <InactiveAmount>100</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010115</Product>
-                <Amount>50</Amount>
+                <Amount>400</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>4750</MaximumHitPoints>
+            <SelfHealPerHealTick>6</SelfHealPerHealTick>
+          </Attackable>
+          <IncidentInfectable>
+            <Infectable>
+            <Illness>
+              <Escalated>0</Escalated>
+            </Illness>
+            </Infectable>
+            <Explosion>
+            <ExplosionCoreDamage>2000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+            <Explosion>
+              <BaseChance>4</BaseChance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Explosion>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
           <Culture>
-            <Attractiveness>-10</Attractiveness>
+            <Attractiveness>-20</Attractiveness>
             <HasPollution>1</HasPollution>
           </Culture>
+          <IncidentInfluencer>
+            <Influence>
+            <Illness>
+              <Distance>10</Distance>
+            </Illness>
+            </Influence>
+          </IncidentInfluencer>
+          <Industrializable>
+            <BoostedByIndustrialization>0</BoostedByIndustrialization>
+          </Industrializable>
+          <QuestObject/>
+          <Electrifiable/>
+          <EcoSystemProvider/>
         </Values>
       </Asset>
       <Asset>
@@ -1273,11 +1393,11 @@
                 <GUID>2143505507</GUID>
               </Item>
             </EffectTargets>
-            <AllowStacking>1</AllowStacking>
+            <AllowStacking>0</AllowStacking>
           </ItemEffect>
           <FactoryUpgrade>
             <ProductivityUpgrade>
-              <Value>-100</Value>
+              <Value>-300</Value>
               <Percental>1</Percental>
             </ProductivityUpgrade>
             <AdditionalOutput>
@@ -1288,7 +1408,13 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade/>
+          <BuildingUpgrade>
+            <ReplacingWorkforce>1010117</ReplacingWorkforce><!--moderate workforce 4-->
+            <MaintenanceUpgrade>
+              <Value>300</Value>
+              <Percental>1</Percental>
+            </MaintenanceUpgrade>
+          </BuildingUpgrade>
           <Buff/>
           <CultureUpgrade>
             <HideBuff>0</HideBuff>
@@ -1404,6 +1530,39 @@
             </Item>
             <Item>
               <Amount>3</Amount>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </UpgradeCost>
+        </Upgradable>
+      </ModOp>
+    </Group>
+    
+    <Group Condition="//Values[Standard/GUID='1404423045']">
+      <ModOp GUID="1404423045" Type="add" Path="Values/">
+        <BuffFactory/>
+        <Upgradable>
+          <NextGUID>2143505560</NextGUID>
+          <UpgradeCost>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>25000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
               <Ingredient>1010202</Ingredient>
             </Item>
           </UpgradeCost>
