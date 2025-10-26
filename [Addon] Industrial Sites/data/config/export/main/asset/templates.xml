@@ -198,8 +198,6 @@
 							<!-- crossing -->
 						</Item>
 					</InfluencedVariationDirection>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<AllowChangeDirection>1</AllowChangeDirection>
 				</Building>
 				<Blocking/>
 				<Object>

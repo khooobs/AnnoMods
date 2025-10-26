@@ -19,6 +19,24 @@
 			<zf>3.699171</zf>
 		</Extents>
 	</BoundingBox>
+	<BuildBlocker>
+		<Position>
+			<xf>5.500000</xf>
+			<zf>-2.500000</zf>
+		</Position>
+		<Position>
+			<xf>-5.500000</xf>
+			<zf>-2.500000</zf>
+		</Position>
+		<Position>
+			<xf>-5.500000</xf>
+			<zf>2.500000</zf>
+		</Position>
+		<Position>
+			<xf>5.500000</xf>
+			<zf>2.500000</zf>
+		</Position>
+	</BuildBlocker>
 	<Dummy>
 		<Name>DamageImpact41688</Name>
 		<Position>
@@ -152,6 +170,24 @@
 			<zf>0.100000</zf>
 		</Extents>
 	</Dummy>
+	<FeedbackBlocker>
+		<Position>
+			<xf>-4.989317</xf>
+			<zf>-2.300000</zf>
+		</Position>
+		<Position>
+			<xf>-4.989317</xf>
+			<zf>2.300000</zf>
+		</Position>
+		<Position>
+			<xf>-5.500000</xf>
+			<zf>2.300000</zf>
+		</Position>
+		<Position>
+			<xf>-5.500000</xf>
+			<zf>-2.300000</zf>
+		</Position>
+	</FeedbackBlocker>
 	<FeedbackBlocker>
 		<Position>
 			<xf>5.496503</xf>
@@ -308,42 +344,6 @@
 		<Position>
 			<xf>-5.500000</xf>
 			<zf>2.108153</zf>
-		</Position>
-	</FeedbackBlocker>
-	<BuildBlocker>
-		<Position>
-			<xf>5.500000</xf>
-			<zf>-2.500000</zf>
-		</Position>
-		<Position>
-			<xf>-5.500000</xf>
-			<zf>-2.500000</zf>
-		</Position>
-		<Position>
-			<xf>-5.500000</xf>
-			<zf>2.500000</zf>
-		</Position>
-		<Position>
-			<xf>5.500000</xf>
-			<zf>2.500000</zf>
-		</Position>
-	</BuildBlocker>
-	<FeedbackBlocker>
-		<Position>
-			<xf>-4.989317</xf>
-			<zf>-2.300000</zf>
-		</Position>
-		<Position>
-			<xf>-4.989317</xf>
-			<zf>2.300000</zf>
-		</Position>
-		<Position>
-			<xf>-5.500000</xf>
-			<zf>2.300000</zf>
-		</Position>
-		<Position>
-			<xf>-5.500000</xf>
-			<zf>-2.300000</zf>
 		</Position>
 	</FeedbackBlocker>
 	<IntersectBox>
