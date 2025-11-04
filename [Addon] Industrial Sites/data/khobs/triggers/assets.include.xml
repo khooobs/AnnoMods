@@ -79,6 +79,12 @@
                         <Item>
                           <Asset>2143505594</Asset>
                         </Item>
+                        <Item>
+                          <Asset>1500010153</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1500010154</Asset>
+                        </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>
                   </Values>
@@ -175,6 +181,12 @@
                         </Item>
                         <Item>
                           <Asset>2143505594</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1500010153</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1500010154</Asset>
                         </Item>
                       </UnlockAssets>
                     </ActionUnlockAsset>
