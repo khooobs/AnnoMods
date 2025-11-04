@@ -1,5 +1,5 @@
 {
-  "Version": "0.7.2",
+  "Version": "0.7.3",
   "ModID": "khobs_industrial_sites",
   "IncompatibleIds": null,
   "ModDependencies": [
@@ -27,7 +27,8 @@
     "shared_freight_station_khobs",
     "shared_freight_import_caoutchouc",
     "IndustrializedLowTierProduction",
-    "production_works_kurila"
+    "production_works_kurila",
+    "Taludas_VanillaRiverSlotBuildingsOW"
   ],
   "Category": {
     "Chinese": "Addon",

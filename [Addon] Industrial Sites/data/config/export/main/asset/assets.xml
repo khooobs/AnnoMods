@@ -21,7 +21,8 @@
   <Include File="./steel.include.xml" />
   <Include File="./chemical.include.xml" />
   <Include File="./textile.include.xml" />
-
+  <Include File="./mechanical.include.xml" />
+  
   <!-- Industrial Menus -->
   <Group>
     <ModOp Type="addNextSibling" GUID="25546">
