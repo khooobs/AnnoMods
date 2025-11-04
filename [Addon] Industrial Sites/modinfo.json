@@ -17,7 +17,9 @@
     "shared_freight_station_khobs",
     "shared_freight_import_caoutchouc",
     "jakob-railway-stations",
-    "models-railway-jakob"
+    "models-railway-jakob",
+    "ow-tools-jakob",
+    "tools-jakob"
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",
