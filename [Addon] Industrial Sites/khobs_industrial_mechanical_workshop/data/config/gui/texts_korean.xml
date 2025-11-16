@@ -1,0 +1,100 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505667</GUID>
+      <Text>산업용 기계 작업장</Text>
+    </Text>
+    <Text>
+      <GUID>2143505668</GUID>
+      <Text>업계에 다양한 장비와 도구를 제공합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505670</GUID>
+      <Text>슬라이서</Text>
+    </Text>
+    <Text>
+      <GUID>2143505671</GUID>
+      <Text>산업 기계 작업장: 슬라이서</Text>
+    </Text>
+    <Text>
+      <GUID>2143505672</GUID>
+      <Text>예상 슬라이서 판매</Text>
+    </Text>
+    <Text>
+      <GUID>2143505673</GUID>
+      <Text>산업용 기계 작업장: 호이스트</Text>
+    </Text>
+    <Text>
+      <GUID>2143505674</GUID>
+      <Text>호 이스트</Text>
+    </Text>
+    <Text>
+      <GUID>2143505675</GUID>
+      <Text>무거운 짐을 들어 올리고 내리도록 설계된 도구입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505676</GUID>
+      <Text>산업 또는 장인 정신을 위한 장비의 설계 및 조립에 전념하는 작업장입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505677</GUID>
+      <Text>반기계식 절단기로, 특히 손가락을 잃지 않으려는 작업자에게 높이 평가됩니다. 빵과 고기에 효과가 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505678</GUID>
+      <Text>예상 호이스트 판매</Text>
+    </Text>
+    <Text>
+      <GUID>2143505679</GUID>
+      <Text>산업용 기계 작업장: 수확기</Text>
+    </Text>
+    <Text>
+      <GUID>2143505680</GUID>
+      <Text>수확기</Text>
+    </Text>
+    <Text>
+      <GUID>2143505681</GUID>
+      <Text>예상 수확기 판매</Text>
+    </Text>
+    <Text>
+      <GUID>2143505682</GUID>
+      <Text>최근의 기술 발전으로 자체 추진 수확기의 설계가 가능해졌습니다. 이 포효하는 엔진의 힘을 발휘하고 광활한 들판이 이 기계에 의해 집어삼켜지는 것을 지켜보세요.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505683</GUID>
+      <Text>산업용 기계 작업장: 원형 톱</Text>
+    </Text>
+    <Text>
+      <GUID>2143505684</GUID>
+      <Text>원형 톱</Text>
+    </Text>
+    <Text>
+      <GUID>2143505685</GUID>
+      <Text>매우 날카로운 칼날로 특히 숲을 개간하는 데 유용합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505686</GUID>
+      <Text>예상 원형 톱 판매</Text>
+    </Text>
+    <Text>
+      <GUID>2143505687</GUID>
+      <Text>산업용 기계 작업장: 발전기</Text>
+    </Text>
+    <Text>
+      <GUID>2143505688</GUID>
+      <Text>발생기</Text>
+    </Text>
+    <Text>
+      <GUID>2143505689</GUID>
+      <Text>예상 발전기 판매</Text>
+    </Text>
+    <Text>
+      <GUID>2143505690</GUID>
+      <Text>조력으로 생산을 지원하는 강력한 터빈.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505691</GUID>
+      <Text>모든 하천 건물</Text>
+    </Text>
+  </ModOp>
+</ModOps>

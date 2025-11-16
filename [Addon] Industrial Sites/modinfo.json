@@ -1,5 +1,5 @@
 {
-  "Version": "0.7.3",
+  "Version": "0.7.4",
   "ModID": "khobs_industrial_sites",
   "IncompatibleIds": null,
   "ModDependencies": [
@@ -19,7 +19,8 @@
     "jakob-railway-stations",
     "models-railway-jakob",
     "ow-tools-jakob",
-    "tools-jakob"
+    "tools-jakob",
+    "khobs_industrial_mechanical_workshop"
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",

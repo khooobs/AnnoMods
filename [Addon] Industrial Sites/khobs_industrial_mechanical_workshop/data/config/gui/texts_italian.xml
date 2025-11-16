@@ -1,0 +1,100 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505667</GUID>
+      <Text>Officina Meccanica Industriale</Text>
+    </Text>
+    <Text>
+      <GUID>2143505668</GUID>
+      <Text>Offre varie attrezzature e strumenti all'industria.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505670</GUID>
+      <Text>Affettatrice</Text>
+    </Text>
+    <Text>
+      <GUID>2143505671</GUID>
+      <Text>Officina Meccanica Industriale: Affettatrice</Text>
+    </Text>
+    <Text>
+      <GUID>2143505672</GUID>
+      <Text>Vendite stimate di affettatrici</Text>
+    </Text>
+    <Text>
+      <GUID>2143505673</GUID>
+      <Text>Officina Meccanica Industriale: Paranco</Text>
+    </Text>
+    <Text>
+      <GUID>2143505674</GUID>
+      <Text>Issare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505675</GUID>
+      <Text>Uno strumento progettato per il sollevamento e l'abbassamento di carichi pesanti.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505676</GUID>
+      <Text>Un'officina dedicata alla progettazione e all'assemblaggio di attrezzature per l'industria o l'artigianato.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505677</GUID>
+      <Text>Una taglierina semi-meccanica, particolarmente apprezzata dai lavoratori che desiderano evitare di perdere le dita. Funziona per pane e carne.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505678</GUID>
+      <Text>Vendite stimate di paranco</Text>
+    </Text>
+    <Text>
+      <GUID>2143505679</GUID>
+      <Text>Officina Meccanica Industriale: Harvester</Text>
+    </Text>
+    <Text>
+      <GUID>2143505680</GUID>
+      <Text>Mietitore</Text>
+    </Text>
+    <Text>
+      <GUID>2143505681</GUID>
+      <Text>Vendite stimate della mietitrebbia</Text>
+    </Text>
+    <Text>
+      <GUID>2143505682</GUID>
+      <Text>I recenti progressi tecnologici hanno permesso la progettazione di una mietitrebbia semovente. Scatena la potenza di questi motori ruggenti e osserva come vasti campi vengono divorati da questa macchina.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505683</GUID>
+      <Text>Officina Meccanica Industriale: Sega Circolare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505684</GUID>
+      <Text>Sega circolare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505685</GUID>
+      <Text>Una lama così affilata, particolarmente utile per disboscare una foresta.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505686</GUID>
+      <Text>Vendite stimate di seghe circolari</Text>
+    </Text>
+    <Text>
+      <GUID>2143505687</GUID>
+      <Text>Officina Meccanica Industriale: Generatore</Text>
+    </Text>
+    <Text>
+      <GUID>2143505688</GUID>
+      <Text>Generatore</Text>
+    </Text>
+    <Text>
+      <GUID>2143505689</GUID>
+      <Text>Vendite stimate del generatore</Text>
+    </Text>
+    <Text>
+      <GUID>2143505690</GUID>
+      <Text>Potenti turbine che, con l'energia delle maree, contribuiranno alla produzione.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505691</GUID>
+      <Text>Tutti gli edifici fluviali</Text>
+    </Text>
+  </ModOp>
+</ModOps>
