@@ -488,5 +488,61 @@
       <GUID>2143505662</GUID>
       <Text>High activity in cities and city centres is encouraging many designers and stylists to revisit new clothing lines.</Text>
     </Text>
+    <Text>
+      <GUID>2143505692</GUID>
+      <Text>Chemical Company</Text>
+    </Text>
+    <Text>
+      <GUID>2143505694</GUID>
+      <Text>Synthesis Laboratory</Text>
+    </Text>
+    <Text>
+      <GUID>2143505695</GUID>
+      <Text>Cleanroom</Text>
+    </Text>
+    <Text>
+      <GUID>2143505696</GUID>
+      <Text>Laboratory</Text>
+    </Text>
+    <Text>
+      <GUID>2143505697</GUID>
+      <Text>Chemical Engineer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505698</GUID>
+      <Text>Chemical Engineer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505699</GUID>
+      <Text>Chemical Compound</Text>
+    </Text>
+    <Text>
+      <GUID>2143505700</GUID>
+      <Text>Chemical Plant</Text>
+    </Text>
+    <Text>
+      <GUID>2143505714</GUID>
+      <Text>Chemical Plant Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505715</GUID>
+      <Text>Provides chemical experimentations area.</Text>
+    </Text>
+    <!-- <Text>
+      <GUID>2143505715</GUID>
+      <Text>Look for the &lt;font overrideTextColor="true" color='#edc891'&gt;Chemical Plant&lt;/font&gt; in the modules list for this building.</Text>
+    </Text> -->
+    <Text>
+      <GUID>2143505716</GUID>
+      <Text>Storage Tank</Text>
+    </Text>
+    <Text>
+      <GUID>2143505717</GUID>
+      <Text>All Chemical Plant Sites</Text>
+    </Text>
+    <Text>
+      <GUID>2143505718</GUID>
+      <Text>Chemical Compound</Text>
+    </Text>
   </ModOp>
 </ModOps>
