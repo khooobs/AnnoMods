@@ -1,0 +1,100 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505667</GUID>
+      <Text>Atelier de mécanique industrielle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505668</GUID>
+      <Text>Offre divers équipements et outils à l’industrie.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505670</GUID>
+      <Text>Trancheuse</Text>
+    </Text>
+    <Text>
+      <GUID>2143505671</GUID>
+      <Text>Atelier de mécanique industrielle : trancheuse</Text>
+    </Text>
+    <Text>
+      <GUID>2143505672</GUID>
+      <Text>Estimation des ventes de trancheuses</Text>
+    </Text>
+    <Text>
+      <GUID>2143505673</GUID>
+      <Text>Atelier de mécanique industrielle : Palan</Text>
+    </Text>
+    <Text>
+      <GUID>2143505674</GUID>
+      <Text>Hisser</Text>
+    </Text>
+    <Text>
+      <GUID>2143505675</GUID>
+      <Text>Un outil conçu pour soulever et abaisser des charges lourdes.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505676</GUID>
+      <Text>Un atelier dédié à la conception et à l’assemblage d’équipements pour l’industrie ou l’artisanat.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505677</GUID>
+      <Text>Une fraise semi-mécanique, particulièrement appréciée des travailleurs qui souhaitent éviter de perdre des doigts. Fonctionne pour le pain et la viande.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505678</GUID>
+      <Text>Estimation des ventes de palans</Text>
+    </Text>
+    <Text>
+      <GUID>2143505679</GUID>
+      <Text>Atelier de mécanique industrielle : Moissonneuse</Text>
+    </Text>
+    <Text>
+      <GUID>2143505680</GUID>
+      <Text>Moissonneur</Text>
+    </Text>
+    <Text>
+      <GUID>2143505681</GUID>
+      <Text>Estimation des ventes de moissonneuses-batteuses</Text>
+    </Text>
+    <Text>
+      <GUID>2143505682</GUID>
+      <Text>Les récentes avancées technologiques ont permis de concevoir une arracheuse automotrice. Libérez la puissance de ces moteurs rugissants et regardez de vastes champs être dévorés par cette machine.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505683</GUID>
+      <Text>Atelier de mécanique industrielle : scie circulaire</Text>
+    </Text>
+    <Text>
+      <GUID>2143505684</GUID>
+      <Text>Scie circulaire</Text>
+    </Text>
+    <Text>
+      <GUID>2143505685</GUID>
+      <Text>Une lame si tranchante, particulièrement utile pour défricher une forêt.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505686</GUID>
+      <Text>Estimation des ventes de scies circulaires</Text>
+    </Text>
+    <Text>
+      <GUID>2143505687</GUID>
+      <Text>Atelier de mécanique industrielle : Groupe électrogène</Text>
+    </Text>
+    <Text>
+      <GUID>2143505688</GUID>
+      <Text>Générateur</Text>
+    </Text>
+    <Text>
+      <GUID>2143505689</GUID>
+      <Text>Estimation des ventes de génératrices</Text>
+    </Text>
+    <Text>
+      <GUID>2143505690</GUID>
+      <Text>Des turbines puissantes qui, avec l’énergie marémotrice, aideront à la production.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505691</GUID>
+      <Text>Tous les bâtiments fluviaux</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -21,7 +21,6 @@
   <Include File="./steel.include.xml" />
   <Include File="./chemical.include.xml" />
   <Include File="./textile.include.xml" />
-  <Include File="./mechanical.include.xml" />
   
   <!-- Industrial Menus -->
   <Group>
@@ -704,4 +703,14 @@
       </Values>
     </Asset>
   </ModOp>
+
+  <!-- START - Industrial Mechanical Workshop - Add to category -->
+  <Group Condition="#khobs_industrial_mechanical_workshop">
+    <ModOp GUID="25000192" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500506']">
+      <Item>
+        <Building>2143505667</Building>
+      </Item>
+    </ModOp>
+  </Group>
+  <!-- END - Industrial Mechanical Workshop - Add to category -->
 </ModOps>
