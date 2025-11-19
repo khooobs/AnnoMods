@@ -10,7 +10,6 @@
     "shared_strategic_harbour",
     "shared_goods_strings",
     "shared_goods_slag",
-    "shared_goods_fabric",
     "shared-ground-textures-industry-jakob",
     "khobs_sifter",
     "khobs_crusher",
@@ -31,7 +30,8 @@
     "shared_freight_import_caoutchouc",
     "IndustrializedLowTierProduction",
     "production_works_kurila",
-    "Taludas_VanillaRiverSlotBuildingsOW"
+    "Taludas_VanillaRiverSlotBuildingsOW",
+    "wool_fabric_kurila"
   ],
   "Category": {
     "Chinese": "Addon",
