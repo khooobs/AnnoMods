@@ -1,4 +1,5 @@
 <ModOps>
+    <!-- START - Textile Company -->
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
         <Template>IndustrialBuilding</Template>
@@ -123,7 +124,11 @@
           </Maintenance>
         </Values>
       </Asset>
-      <!-- Asset Pool -->
+    </ModOp>
+    <!-- END - Textile Company -->
+      
+    <!-- START - Textile Asset Pool -->
+    <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
         <Template>AssetPool</Template>
         <Values>
@@ -185,7 +190,7 @@
                 <Asset>2143505620</Asset>
               </Item>
               <Item>
-                <Asset>2143505621</Asset>
+                <Asset>1500020000</Asset>
               </Item>
               <Item>
                 <Asset>2143505624</Asset>
@@ -194,7 +199,11 @@
           </AssetPool>
         </Values>
       </Asset>
-      <!-- Loom Factory -->
+    </ModOp>
+    <!-- END - Textile Asset Pool -->
+
+    <!-- START - Loom Factory --> 
+    <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
         <Template>IndustrialFactory</Template>
         <Values>
@@ -359,14 +368,131 @@
             <ResourceUpgrade/>
           </Values>
       </Asset>
-      <!-- Spinning Mill -->
+    </ModOp>
+    <!-- END - Loom Factory -->
+    
+    <ModOp Type="addNextSibling" GUID="120042">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505608</GUID>
+            <Name>Chooseable_Input_Fabric</Name>
+            <IconFilename>data/ui/2kimages/main/icons/icon_resource_health.png</IconFilename>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505610</GUID>
+            <Name>Demand_Wool</Name>
+            <IconFilename>data/ui/kurila/icon_wool_raw.png</IconFilename>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505612</GUID>
+            <Name>Demand_ExoticWool</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_alpaca_wool.png</IconFilename>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505614</GUID>
+            <Name>Demand_Felt</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_felt.png</IconFilename>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505629</GUID>
+            <Name>Demand_Cotton</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_cotton.png</IconFilename>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505631</GUID>
+            <Name>Demand_Linen</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_linen_fabric.png</IconFilename>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505633</GUID>
+            <Name>Supply_Wool</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool.png</IconFilename>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505696</GUID>
+            <Name>Supply_ExoticWool</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool_2.png</IconFilename>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505635</GUID>
+            <Name>Supply_Felt</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_felt.png</IconFilename>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505637</GUID>
+            <Name>Supply_Cotton</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_cotton.png</IconFilename>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505639</GUID>
+            <Name>Supply_Linen</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_linen.png</IconFilename>
+          </Standard>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- START - Spinning Mill -->
+    <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
         <Template>IndustrialFactory</Template>
         <Values>
           <Standard>
             <GUID>2143505603</GUID>
             <Name>Spinning_Mill_Blank</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_fabric.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_cloth.png</IconFilename>
             <InfoDescription>2143505604</InfoDescription>
           </Standard>
           <Cost>
@@ -395,7 +521,6 @@
                 <Ingredient>1010202</Ingredient>
                 <Amount>10</Amount>
               </Item>
-              <InfluenceCostType>GuildHouse</InfluenceCostType>
             </Costs>
           </Cost>
           <Object>
@@ -421,7 +546,47 @@
           </Selection>
           <Factory7/>
           <UpgradeList/>
-          <FactoryBase/>
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>1500010153</Product>
+                <Amount>1</Amount>
+                <StorageAmount>0</StorageAmount>
+              </Item>
+              <Item>
+                <Product>2143505608</Product>
+                <Amount>1</Amount>
+                <StorageAmount>0</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>2143505633</Product>
+                <Amount>1</Amount>
+                <StorageAmount>0</StorageAmount>
+              </Item>
+              <Item>
+                <Product>2143505696</Product>
+                <Amount>2</Amount>
+                <StorageAmount>0</StorageAmount>
+              </Item>
+              <Item>
+                <Product>2143505635</Product>
+                <Amount>3</Amount>
+                <StorageAmount>0</StorageAmount>
+              </Item>
+              <Item>
+                <Product>2143505637</Product>
+                <Amount>4</Amount>
+                <StorageAmount>0</StorageAmount>
+              </Item>
+              <Item>
+                <Product>2143505639</Product>
+                <Amount>6</Amount>
+                <StorageAmount>0</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+          </FactoryBase>
           <LogisticNode/>
           <Maintenance>
             <Maintenances>
@@ -448,9 +613,8 @@
         <Values>
           <Standard>
             <GUID>2143505605</GUID>
-            <Name>Spinning_Mill_Lvl1</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_fabric.png</IconFilename>
-            <InfoDescription>2143505606</InfoDescription>
+            <Name>Spinning_Mill_1t</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool.png</IconFilename>
           </Standard>
           <Cost>
             <Costs>
@@ -509,17 +673,17 @@
               <Item>
                 <Product>1010197</Product>
                 <Amount>1</Amount>
-                <StorageAmount>30</StorageAmount>
+                <StorageAmount>10</StorageAmount>
               </Item>
             </FactoryInputs>
             <FactoryOutputs>
               <Item>
-                <Product>2143505621</Product>
+                <Product>1500020000</Product>
                 <Amount>1</Amount>
-                <StorageAmount>20</StorageAmount>
+                <StorageAmount>10</StorageAmount>
               </Item>
             </FactoryOutputs>
-            <CycleTime>45</CycleTime>
+            <CycleTime>30</CycleTime>
             <IsMainFactory>0</IsMainFactory>
           </FactoryBase>
           <LogisticNode/>
@@ -548,9 +712,8 @@
         <Values>
           <Standard>
             <GUID>2143505607</GUID>
-            <Name>Spinning_Mill_Lvl2</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_fabric.png</IconFilename>
-            <InfoDescription>2143505608</InfoDescription>
+            <Name>Spinning_Mill_2t</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool_2.png</IconFilename>
           </Standard>
           <Cost>
             <Costs>
@@ -607,24 +770,19 @@
           <FactoryBase>
             <FactoryInputs>
               <Item>
-                <Product>1010197</Product>
+                <Product>120036</Product>
                 <Amount>1</Amount>
-                <StorageAmount>30</StorageAmount>
-              </Item>
-              <Item>
-                <Product>1010240</Product>
-                <Amount>1</Amount>
-                <StorageAmount>30</StorageAmount>
+                <StorageAmount>10</StorageAmount>
               </Item>
             </FactoryInputs>
             <FactoryOutputs>
               <Item>
-                <Product>2143505621</Product>
-                <Amount>1</Amount>
-                <StorageAmount>20</StorageAmount>
+                <Product>1500020000</Product>
+                <Amount>2</Amount>
+                <StorageAmount>10</StorageAmount>
               </Item>
             </FactoryOutputs>
-            <CycleTime>15</CycleTime>
+            <CycleTime>30</CycleTime>
             <IsMainFactory>0</IsMainFactory>
           </FactoryBase>
           <LogisticNode/>
@@ -653,9 +811,8 @@
         <Values>
           <Standard>
             <GUID>2143505609</GUID>
-            <Name>Spinning_Mill_Lvl3</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_fabric.png</IconFilename>
-            <InfoDescription>2143505610</InfoDescription>
+            <Name>Spinning_Mill_3t</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_felt.png</IconFilename>
           </Standard>
           <Cost>
             <Costs>
@@ -683,7 +840,6 @@
                 <Ingredient>1010202</Ingredient>
                 <Amount>10</Amount>
               </Item>
-              <InfluenceCostType>GuildHouse</InfluenceCostType>
             </Costs>
           </Cost>
           <Object>
@@ -713,29 +869,19 @@
           <FactoryBase>
             <FactoryInputs>
               <Item>
-                <Product>1010197</Product>
+                <Product>120044</Product>
                 <Amount>1</Amount>
-                <StorageAmount>30</StorageAmount>
-              </Item>
-              <Item>
-                <Product>1010240</Product>
-                <Amount>1</Amount>
-                <StorageAmount>30</StorageAmount>
-              </Item>
-              <Item>
-                <Product>1010209</Product>
-                <Amount>1</Amount>
-                <StorageAmount>30</StorageAmount>
+                <StorageAmount>10</StorageAmount>
               </Item>
             </FactoryInputs>
             <FactoryOutputs>
               <Item>
-                <Product>2143505621</Product>
+                <Product>1500020000</Product>
                 <Amount>3</Amount>
-                <StorageAmount>20</StorageAmount>
+                <StorageAmount>12</StorageAmount>
               </Item>
             </FactoryOutputs>
-            <CycleTime>60</CycleTime>
+            <CycleTime>30</CycleTime>
             <IsMainFactory>0</IsMainFactory>
           </FactoryBase>
           <LogisticNode/>
@@ -764,9 +910,8 @@
         <Values>
           <Standard>
             <GUID>2143505611</GUID>
-            <Name>Spinning_Mill_Lvl4</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_fabric.png</IconFilename>
-            <InfoDescription>2143505612</InfoDescription>
+            <Name>Spinning_Mill_4t</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_cotton.png</IconFilename>
           </Standard>
           <Cost>
             <Costs>
@@ -794,7 +939,6 @@
                 <Ingredient>1010202</Ingredient>
                 <Amount>10</Amount>
               </Item>
-              <InfluenceCostType>GuildHouse</InfluenceCostType>
             </Costs>
           </Cost>
           <Object>
@@ -824,34 +968,19 @@
           <FactoryBase>
             <FactoryInputs>
               <Item>
-                <Product>1010197</Product>
+                <Product>1010253</Product>
                 <Amount>1</Amount>
-                <StorageAmount>30</StorageAmount>
-              </Item>
-              <Item>
-                <Product>1010240</Product>
-                <Amount>1</Amount>
-                <StorageAmount>30</StorageAmount>
-              </Item>
-              <Item>
-                <Product>114391</Product>
-                <Amount>1</Amount>
-                <StorageAmount>8</StorageAmount>
-              </Item>
-              <Item>
-                <Product>1010209</Product>
-                <Amount>1</Amount>
-                <StorageAmount>30</StorageAmount>
+                <StorageAmount>10</StorageAmount>
               </Item>
             </FactoryInputs>
             <FactoryOutputs>
               <Item>
-                <Product>2143505621</Product>
+                <Product>1500020000</Product>
                 <Amount>4</Amount>
-                <StorageAmount>10</StorageAmount>
+                <StorageAmount>12</StorageAmount>
               </Item>
             </FactoryOutputs>
-            <CycleTime>15</CycleTime>
+            <CycleTime>30</CycleTime>
             <IsMainFactory>0</IsMainFactory>
           </FactoryBase>
           <LogisticNode/>
@@ -880,9 +1009,8 @@
         <Values>
           <Standard>
             <GUID>2143505613</GUID>
-            <Name>Spinning_Mill_Lvl5</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_fabric.png</IconFilename>
-            <InfoDescription>2143505614</InfoDescription>
+            <Name>Spinning_Mill_6t</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_linen.png</IconFilename>
           </Standard>
           <Cost>
             <Costs>
@@ -910,7 +1038,6 @@
                 <Ingredient>1010202</Ingredient>
                 <Amount>10</Amount>
               </Item>
-              <InfluenceCostType>GuildHouse</InfluenceCostType>
             </Costs>
           </Cost>
           <Object>
@@ -940,34 +1067,19 @@
           <FactoryBase>
             <FactoryInputs>
               <Item>
-                <Product>1010240</Product>
-                <Amount>1</Amount>
-                <StorageAmount>12</StorageAmount>
-              </Item>
-              <Item>
                 <Product>114391</Product>
-                <Amount>1</Amount>
-                <StorageAmount>12</StorageAmount>
-              </Item>
-              <Item>
-                <Product>1010209</Product>
-                <Amount>1</Amount>
-                <StorageAmount>12</StorageAmount>
-              </Item>
-              <Item>
-                <Product>120044</Product>
                 <Amount>1</Amount>
                 <StorageAmount>12</StorageAmount>
               </Item>
             </FactoryInputs>
             <FactoryOutputs>
               <Item>
-                <Product>2143505621</Product>
-                <Amount>5</Amount>
-                <StorageAmount>20</StorageAmount>
+                <Product>1500020000</Product>
+                <Amount>6</Amount>
+                <StorageAmount>24</StorageAmount>
               </Item>
             </FactoryOutputs>
-            <CycleTime>20</CycleTime>
+            <CycleTime>30</CycleTime>
             <IsMainFactory>0</IsMainFactory>
           </FactoryBase>
           <LogisticNode/>
@@ -991,13 +1103,18 @@
           </RecipeBuilding>
         </Values>
       </Asset>
+    </ModOp>
+    <!-- END - Spinning Mill -->
+
+    <!-- START - Spinning Module -->
+    <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
         <Template>IndustrialModule</Template>
         <Values>
           <Standard>
             <GUID>2143505624</GUID>
             <Name>Spinning_Mill_Module</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_fabric_module.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_module.png</IconFilename>
             <InfoDescription>2143505625</InfoDescription>
           </Standard>
           <Building>
@@ -1194,6 +1311,11 @@
           <ResourceUpgrade/>
         </Values>
       </Asset>
+    </ModOp>
+    <!-- END - Spinning Module -->
+
+    <!-- START - Products -->
+    <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
         <Template>Product</Template>
         <Values>
@@ -1212,7 +1334,11 @@
           <ExpeditionAttribute/>
         </Values>
       </Asset>
-      <!-- All Mills pool -->
+    </ModOp>
+    <!-- END - Products -->
+    
+    <!-- START - AssetPool ItemEffectTargetPool -->
+    <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
 	      <Template>ItemEffectTargetPool</Template>
         <Values>
@@ -1241,7 +1367,11 @@
           </ItemEffectTargetPool>
         </Values>
       </Asset>
-      <!-- Spinning Mill Recipes -->
+    </ModOp>
+    <!-- END - AssetPool ItemEffectTargetPool -->
+
+    <!-- START - Recipes -->
+    <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
           <Template>RecipeList</Template>
           <Values>
@@ -1279,8 +1409,8 @@
           <Values>
             <Standard>
               <GUID>2143505616</GUID>
-              <Name>Recipe_Textile_Lvl1</Name>
-              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_fabric.png</IconFilename>
+              <Name>Recipe_Textile_1t</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool.png</IconFilename>
             </Standard>
             <Recipe>
               <RecipeDescriptionText/>
@@ -1293,7 +1423,7 @@
                   <UICirclePointer>SouthEast</UICirclePointer>
                 </Item>
               </RecipeIngredientUIData>
-              <RecipeUnlockConditionText>2100115270</RecipeUnlockConditionText>
+              <RecipeUnlockConditionText>135017</RecipeUnlockConditionText>
             </Recipe>
             <Locked />
           </Values>
@@ -1303,8 +1433,8 @@
           <Values>
             <Standard>
               <GUID>2143505617</GUID>
-              <Name>Recipe_Textile_Lvl2</Name>
-              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_fabric.png</IconFilename>
+              <Name>Recipe_Textile_2t</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool_2.png</IconFilename>
             </Standard>
             <Recipe>
               <RecipeDescriptionText/>
@@ -1312,17 +1442,12 @@
               <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/icon_fabric_recipe.png</RecipeImage>
               <RecipeIngredientUIData>
                 <Item>
-                  <PosX>10</PosX>
-                  <PosY>15</PosY>
-                  <UICirclePointer>SouthEast</UICirclePointer>
-                </Item>
-                <Item>
                   <PosX>375</PosX>
                   <PosY>50</PosY>
                   <UICirclePointer>West</UICirclePointer>
                 </Item>
               </RecipeIngredientUIData>
-              <RecipeUnlockConditionText>2100115270</RecipeUnlockConditionText>
+              <RecipeUnlockConditionText>135017</RecipeUnlockConditionText>
             </Recipe>
             <Locked />
           </Values>
@@ -1332,8 +1457,8 @@
           <Values>
             <Standard>
               <GUID>2143505618</GUID>
-              <Name>Recipe_Textile_Lvl3</Name>
-              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_fabric.png</IconFilename>
+              <Name>Recipe_Textile_3t</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_felt.png</IconFilename>
             </Standard>
             <Recipe>
               <RecipeDescriptionText/>
@@ -1356,7 +1481,7 @@
                   <UICirclePointer>NorthWest</UICirclePointer>
                 </Item>
               </RecipeIngredientUIData>
-              <RecipeUnlockConditionText>2100115270</RecipeUnlockConditionText>
+              <RecipeUnlockConditionText>135017</RecipeUnlockConditionText>
             </Recipe>
             <Locked />
           </Values>
@@ -1366,8 +1491,8 @@
           <Values>
             <Standard>
               <GUID>2143505619</GUID>
-              <Name>Recipe_Textile_Lvl4</Name>
-              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_fabric.png</IconFilename>
+              <Name>Recipe_Textile_4t</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_cotton.png</IconFilename>
             </Standard>
             <Recipe>
               <RecipeDescriptionText/>
@@ -1375,27 +1500,12 @@
               <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/icon_fabric_recipe.png</RecipeImage>
               <RecipeIngredientUIData>
                 <Item>
-                  <PosX>10</PosX>
-                  <PosY>15</PosY>
-                  <UICirclePointer>SouthEast</UICirclePointer>
-                </Item>
-                <Item>
-                  <PosX>375</PosX>
-                  <PosY>50</PosY>
-                  <UICirclePointer>West</UICirclePointer>
-                </Item>
-                <Item>
                   <PosX>375</PosX>
                   <PosY>350</PosY>
                   <UICirclePointer>NorthWest</UICirclePointer>
                 </Item>
-                <Item>
-                  <PosX>10</PosX>
-                  <PosY>300</PosY>
-                  <UICirclePointer>NorthEast</UICirclePointer>
-                </Item>
               </RecipeIngredientUIData>
-              <RecipeUnlockConditionText>2100115270</RecipeUnlockConditionText>
+              <RecipeUnlockConditionText>135017</RecipeUnlockConditionText>
             </Recipe>
             <Locked />
           </Values>
@@ -1405,8 +1515,8 @@
           <Values>
             <Standard>
               <GUID>2143505620</GUID>
-              <Name>Recipe_Textile_Lvl5</Name>
-              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_fabric.png</IconFilename>
+              <Name>Recipe_Textile_6t</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_linen.png</IconFilename>
             </Standard>
             <Recipe>
               <RecipeDescriptionText/>
@@ -1415,32 +1525,21 @@
               <RecipeIngredientUIData>
                 <Item>
                   <PosX>10</PosX>
-                  <PosY>15</PosY>
-                  <UICirclePointer>SouthEast</UICirclePointer>
-                </Item>
-                <Item>
-                  <PosX>375</PosX>
-                  <PosY>50</PosY>
-                  <UICirclePointer>West</UICirclePointer>
-                </Item>
-                <Item>
-                  <PosX>375</PosX>
-                  <PosY>350</PosY>
-                  <UICirclePointer>NorthWest</UICirclePointer>
-                </Item>
-                <Item>
-                  <PosX>10</PosX>
                   <PosY>300</PosY>
                   <UICirclePointer>NorthEast</UICirclePointer>
                 </Item>
               </RecipeIngredientUIData>
-              <RecipeUnlockConditionText>2100115270</RecipeUnlockConditionText>
+              <RecipeUnlockConditionText>135017</RecipeUnlockConditionText>
             </Recipe>
             <Locked />
           </Values>
       </Asset>
-      <!-- Weaver -->
-       <!-- Tier 1 -->
+    </ModOp>
+  <!-- END - Recipes -->
+
+  <!-- START - Weaver -->
+    <ModOp Type="addNextSibling" GUID="25546">
+    <!-- Tier 1 -->
       <Asset>
         <Template>IndustrialModule</Template>
         <Values>
@@ -1448,7 +1547,7 @@
             <GUID>2143505628</GUID>
             <Name>Weaver_WorkClothes_Tier1</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_working_cloth.png</IconFilename>
-            <InfoDescription>2143505629</InfoDescription>
+			      <InfoDescription>11143</InfoDescription>
           </Standard>
           <Cost>
             <Costs>
@@ -1476,7 +1575,6 @@
                 <Ingredient>1010202</Ingredient>
                 <Amount>10</Amount>
               </Item>
-              <InfluenceCostType>GuildHouse</InfluenceCostType>
             </Costs>
           </Cost>
           <Object>
@@ -1506,7 +1604,7 @@
           <FactoryBase>
             <FactoryInputs>
               <Item>
-                <Product>2143505621</Product>
+                <Product>1500020000</Product>
                 <Amount>1</Amount>
                 <StorageAmount>10</StorageAmount>
               </Item>
@@ -1551,7 +1649,7 @@
             <GUID>2143505630</GUID>
             <Name>Weaver_Tapestries_Tier1</Name>
 			      <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_tapestries.png</IconFilename>
-            <InfoDescription>2143505631</InfoDescription>
+            <InfoDescription>11143</InfoDescription>
           </Standard>
           <Cost>
             <Costs>
@@ -1579,7 +1677,6 @@
                 <Ingredient>1010202</Ingredient>
                 <Amount>10</Amount>
               </Item>
-              <InfluenceCostType>GuildHouse</InfluenceCostType>
             </Costs>
           </Cost>
           <Object>
@@ -1609,7 +1706,7 @@
           <FactoryBase>
             <FactoryInputs>
               <Item>
-                <Product>2143505621</Product>
+                <Product>1500020000</Product>
                 <Amount>1</Amount>
                 <StorageAmount>10</StorageAmount>
               </Item>
@@ -1654,7 +1751,7 @@
             <GUID>2143505632</GUID>
             <Name>Weaver_Parkas_Tier1</Name>
 			      <IconFilename>data/ui/2kimages/main/3dicons/icon_fur_parka.png</IconFilename>
-            <InfoDescription>2143505633</InfoDescription>
+            <InfoDescription>11143</InfoDescription>
           </Standard>
           <Cost>
             <Costs>
@@ -1682,7 +1779,6 @@
                 <Ingredient>1010202</Ingredient>
                 <Amount>10</Amount>
               </Item>
-              <InfluenceCostType>GuildHouse</InfluenceCostType>
             </Costs>
           </Cost>
           <Object>
@@ -1712,7 +1808,7 @@
           <FactoryBase>
             <FactoryInputs>
               <Item>
-                <Product>2143505621</Product>
+                <Product>1500020000</Product>
                 <Amount>1</Amount>
                 <StorageAmount>10</StorageAmount>
               </Item>
@@ -1750,7 +1846,7 @@
           </ItemContainer>
         </Values>
       </Asset>
-      <!-- Tier 2 -->
+    <!-- Tier 2 -->
       <Asset>
         <Template>IndustrialModule</Template>
         <Values>
@@ -1758,7 +1854,7 @@
             <GUID>2143505634</GUID>
             <Name>Weaver_Coats_Tier2</Name>
 			      <IconFilename>data/ui/2kimages/main/3dicons/icon_fur_coats.png</IconFilename>
-            <InfoDescription>2143505635</InfoDescription>
+			      <InfoDescription>11143</InfoDescription>
           </Standard>
           <Cost>
             <Costs>
@@ -1786,7 +1882,6 @@
                 <Ingredient>1010202</Ingredient>
                 <Amount>10</Amount>
               </Item>
-              <InfluenceCostType>GuildHouse</InfluenceCostType>
             </Costs>
           </Cost>
           <Object>
@@ -1816,7 +1911,7 @@
           <FactoryBase>
             <FactoryInputs>
               <Item>
-                <Product>2143505621</Product>
+                <Product>1500020000</Product>
                 <Amount>1</Amount>
                 <StorageAmount>10</StorageAmount>
               </Item>
@@ -1861,7 +1956,7 @@
             <GUID>2143505636</GUID>
             <Name>Weaver_Suits_Tier2</Name>
 			      <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_suits.png</IconFilename>
-            <InfoDescription>2143505637</InfoDescription>
+            <InfoDescription>11143</InfoDescription>
           </Standard>
           <Cost>
             <Costs>
@@ -1889,7 +1984,6 @@
                 <Ingredient>1010202</Ingredient>
                 <Amount>10</Amount>
               </Item>
-              <InfluenceCostType>GuildHouse</InfluenceCostType>
             </Costs>
           </Cost>
           <Object>
@@ -1919,7 +2013,7 @@
           <FactoryBase>
             <FactoryInputs>
               <Item>
-                <Product>2143505621</Product>
+                <Product>1500020000</Product>
                 <Amount>1</Amount>
                 <StorageAmount>10</StorageAmount>
               </Item>
@@ -1964,7 +2058,7 @@
             <GUID>2143505638</GUID>
             <Name>Weaver_Bombins_Tier2</Name>
 			      <IconFilename>data/ui/2kimages/main/3dicons/icon_bowler_hat.png</IconFilename>
-            <InfoDescription>2143505639</InfoDescription>
+            <InfoDescription>11143</InfoDescription>
           </Standard>
           <Cost>
             <Costs>
@@ -1992,7 +2086,6 @@
                 <Ingredient>1010202</Ingredient>
                 <Amount>10</Amount>
               </Item>
-              <InfluenceCostType>GuildHouse</InfluenceCostType>
             </Costs>
           </Cost>
           <Object>
@@ -2022,7 +2115,7 @@
           <FactoryBase>
             <FactoryInputs>
               <Item>
-                <Product>2143505621</Product>
+                <Product>1500020000</Product>
                 <Amount>1</Amount>
                 <StorageAmount>10</StorageAmount>
               </Item>
@@ -2061,10 +2154,11 @@
         </Values>
       </Asset>
     </ModOp>
-      
-    <!-- Cultural Sets -->
+  <!-- END - Weaver -->
+
+  <!-- START - Cultural Sets -->
     <ModOp GUID="191114" Type="addNextSibling">
-      <!-- Items -->
+    <!-- Items -->
       <Asset>
         <Template>GuildhouseItem</Template>
         <Values>
@@ -2185,7 +2279,7 @@
           <EcoSystemProviderUpgrade/>
         </Values>
       </Asset>
-      <!-- ItemSet -->
+    <!-- ItemSet -->
       <Asset>
         <Template>ItemSet</Template>
         <Values>
@@ -2558,6 +2652,15 @@
 
     <ModOp GUID="191348,192039,2143505601" Type="Add" Path="Values/Item/">
       <ItemSet>2143505661</ItemSet>
-    </ModOp>   
+    </ModOp>
+  <!-- END - Cultural Sets -->
 
+  <!-- START - Tweaks -->
+  <Group Condition="#wool_fabric_kurila">
+    <ModOp GUID="1500020000" Type="add" Path="Values/">
+      <Text>
+        <TextOverride>2143505606</TextOverride>
+      </Text>
+    </ModOp>
+  </Group>
 </ModOps>
