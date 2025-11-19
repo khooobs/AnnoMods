@@ -274,71 +274,75 @@
     </Text>
     <Text>
       <GUID>2143505603</GUID>
-      <Text>Spinning Mill: Blank</Text>
-    </Text>
-    <Text>
-      <GUID>2143505604</GUID>
-      <Text>Spinning Mill: Blank</Text>
-    </Text>
-    <Text>
-      <GUID>2143505605</GUID>
       <Text>Spinning Mill</Text>
     </Text>
     <Text>
       <GUID>2143505606</GUID>
-      <Text>Spinning Mill: Lvl1</Text>
+      <Text>Spinning Mill</Text>
+    </Text>
+    <Text>
+      <GUID>2143505604</GUID>
+      <Text>One of the following</Text>
+    </Text>
+    <Text>
+      <GUID>2143505605</GUID>
+      <Text>Spinning Mill: Wool</Text>
+    </Text>
+    <Text>
+      <GUID>2143505606</GUID>
+      <Text>Fabric</Text>
     </Text>
     <Text>
       <GUID>2143505607</GUID>
-      <Text>Spinning Mill</Text>
+      <Text>Spinning Mill: Exotic Wool</Text>
     </Text>
     <Text>
       <GUID>2143505608</GUID>
-      <Text>Spinning Mill: Lvl2</Text>
-    </Text>
+      <Text>[AssetData(2143505604) Text]&#xD;&#xA;[AssetData(2143505610) Text]&#xD;&#xA;[AssetData(2143505612) Text]&#xD;&#xA;[AssetData(2143505614) Text]&#xD;&#xA;[AssetData(2143505629) Text]&#xD;&#xA;[AssetData(2143505631) Text]</Text>
+     </Text>
     <Text>
       <GUID>2143505609</GUID>
-      <Text>Spinning Mill</Text>
+      <Text>Spinning Mill: Felt</Text>
     </Text>
     <Text>
       <GUID>2143505610</GUID>
-      <Text>Spinning Mill: Lvl3</Text>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1010197) Icon]"/&gt; [AssetData(1010197) Text]&lt;/font&gt;</Text>
     </Text>
     <Text>
       <GUID>2143505611</GUID>
-      <Text>Spinning Mill</Text>
+      <Text>Spinning Mill: Cotton</Text>
     </Text>
     <Text>
       <GUID>2143505612</GUID>
-      <Text>Spinning Mill: Lvl4</Text>
-    </Text>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(120036) Icon]"/&gt; [AssetData(120036) Text]&lt;/font&gt;</Text>
+   </Text>
     <Text>
       <GUID>2143505613</GUID>
-      <Text>Spinning Mill</Text>
+      <Text>Spinning Mill: Linen</Text>
     </Text>
     <Text>
       <GUID>2143505614</GUID>
-      <Text>Spinning Mill: Lvl5</Text>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(120044) Icon]"/&gt; [AssetData(120044) Text]&lt;/font&gt;</Text>
     </Text>
     <Text>
       <GUID>2143505616</GUID>
-      <Text>Make Fabric</Text>
+      <Text>Wool Fabric 1t</Text>
     </Text>
     <Text>
       <GUID>2143505617</GUID>
-      <Text>Make Fabric x2</Text>
+      <Text>Exotic Wool Fabric 2t</Text>
     </Text>
     <Text>
       <GUID>2143505618</GUID>
-      <Text>Make Fabric x3</Text>
+      <Text>Felt Fabric 3t</Text>
     </Text>
     <Text>
       <GUID>2143505619</GUID>
-      <Text>Make Fabric x4</Text>
+      <Text>Cotton Fabric 4t</Text>
     </Text>
     <Text>
       <GUID>2143505620</GUID>
-      <Text>Make Fabric x5</Text>
+      <Text>Linen Fabric 6t</Text>
     </Text>
     <Text>
       <GUID>2143505622</GUID>
@@ -370,7 +374,7 @@
     </Text>
     <Text>
       <GUID>2143505629</GUID>
-      <Text>Produces goods.</Text>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1010253) Icon]"/&gt; [AssetData(1010253) Text]&lt;/font&gt;</Text>
     </Text>
     <Text>
       <GUID>2143505630</GUID>
@@ -378,7 +382,7 @@
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>Produces goods.</Text>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(114391) Icon]"/&gt; [AssetData(114391) Text]&lt;/font&gt;</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
@@ -386,7 +390,7 @@
     </Text>
     <Text>
       <GUID>2143505633</GUID>
-      <Text>Produces goods.</Text>
+      <Text>[AssetData(2143505606) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1010197) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>2143505634</GUID>
@@ -394,7 +398,7 @@
     </Text>
     <Text>
       <GUID>2143505635</GUID>
-      <Text>Produces goods.</Text>
+      <Text>[AssetData(2143505606) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(120044) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>2143505636</GUID>
@@ -402,7 +406,7 @@
     </Text>
     <Text>
       <GUID>2143505637</GUID>
-      <Text>Produces goods.</Text>
+      <Text>[AssetData(2143505606) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1010253) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>2143505638</GUID>
@@ -410,7 +414,7 @@
     </Text>
     <Text>
       <GUID>2143505639</GUID>
-      <Text>Produces goods.</Text>
+      <Text>[AssetData(2143505606) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(114391) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>2143505640</GUID>
@@ -502,7 +506,7 @@
     </Text>
     <Text>
       <GUID>2143505696</GUID>
-      <Text>Laboratory</Text>
+      <Text>[AssetData(2143505606) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(120036) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>2143505697</GUID>
