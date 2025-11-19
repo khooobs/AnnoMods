@@ -20,7 +20,9 @@
     "models-railway-jakob",
     "ow-tools-jakob",
     "tools-jakob",
-    "khobs_industrial_mechanical_workshop"
+    "khobs_industrial_mechanical_workshop",
+    "wool_fabric_kurila",
+    "sewing_thread_kurila"
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",
