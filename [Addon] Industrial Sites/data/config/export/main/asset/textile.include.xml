@@ -239,13 +239,12 @@
                   <Ingredient>1010202</Ingredient>
                   <Amount>10</Amount>
                 </Item>
-                <InfluenceCostType>GuildHouse</InfluenceCostType>
               </Costs>
           </Cost>
           <Object>
               <Variations>
                 <Item>
-                  <Filename>data/modgraphics/buildings/production/loom_factory/loom_factory.cfg</Filename>
+                  <Filename>data/modgraphics/buildings/production/loom_factory/loom_factory2.cfg</Filename>
                 </Item>
               </Variations>
           </Object>
