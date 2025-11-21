@@ -3,9 +3,9 @@
 	<BoundingBox>
 		<Name>BoundingBox</Name>
 		<Position>
-			<xf>0.049765</xf>
-			<yf>0.873966</yf>
-			<zf>0.275286</zf>
+			<xf>-0.500000</xf>
+			<yf>0.973966</yf>
+			<zf>0.500000</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -16,33 +16,33 @@
 		<Extents>
 			<xf>2.249765</xf>
 			<yf>1.202428</yf>
-			<zf>2.475286</zf>
+			<zf>4.450570</zf>
 		</Extents>
 	</BoundingBox>
 	<BuildBlocker>
 		<Position>
-			<xf>-2.000000</xf>
-			<zf>-2.000000</zf>
+			<xf>-2.500000</xf>
+			<zf>-3.500000</zf>
 		</Position>
 		<Position>
-			<xf>-2.000000</xf>
-			<zf>2.000000</zf>
+			<xf>-2.500000</xf>
+			<zf>4.500000</zf>
 		</Position>
 		<Position>
-			<xf>2.000000</xf>
-			<zf>2.000000</zf>
+			<xf>1.500000</xf>
+			<zf>4.500000</zf>
 		</Position>
 		<Position>
-			<xf>2.000000</xf>
-			<zf>-2.000000</zf>
+			<xf>1.500000</xf>
+			<zf>-3.500000</zf>
 		</Position>
 	</BuildBlocker>
 	<Dummy>
 		<Name>DamageImpact116286</Name>
 		<Position>
-			<xf>0.045865</xf>
+			<xf>-0.454135</xf>
 			<yf>0.970343</yf>
-			<zf>-1.228177</zf>
+			<zf>-0.728177</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -59,9 +59,9 @@
 	<Dummy>
 		<Name>DamageImpact119251</Name>
 		<Position>
-			<xf>-0.626617</xf>
+			<xf>-1.126617</xf>
 			<yf>0.905009</yf>
-			<zf>1.051188</zf>
+			<zf>1.551188</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -78,9 +78,9 @@
 	<Dummy>
 		<Name>infolayer</Name>
 		<Position>
-			<xf>0.000000</xf>
+			<xf>-0.500000</xf>
 			<yf>2.300000</yf>
-			<zf>0.000000</zf>
+			<zf>0.500000</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -97,9 +97,9 @@
 	<Dummy>
 		<Name>transporter_spawn</Name>
 		<Position>
-			<xf>-1.664887</xf>
+			<xf>-2.164887</xf>
 			<yf>0.000000</yf>
-			<zf>-1.259829</zf>
+			<zf>-0.759829</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -115,154 +115,154 @@
 	</Dummy>
 	<FeedbackBlocker>
 		<Position>
-			<xf>2.000000</xf>
-			<zf>-1.000000</zf>
+			<xf>1.000000</xf>
+			<zf>-1.250000</zf>
+		</Position>
+		<Position>
+			<xf>1.000000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>-1.500000</zf>
 		</Position>
 		<Position>
 			<xf>1.500000</xf>
 			<zf>-1.000000</zf>
 		</Position>
+		<Position>
+			<xf>1.250000</xf>
+			<zf>-1.000000</zf>
+		</Position>
+		<Position>
+			<xf>1.250000</xf>
+			<zf>-1.250000</zf>
+		</Position>
+	</FeedbackBlocker>
+	<FeedbackBlocker>
 		<Position>
 			<xf>1.500000</xf>
 			<zf>-0.500000</zf>
 		</Position>
 		<Position>
-			<xf>1.750000</xf>
+			<xf>1.000000</xf>
 			<zf>-0.500000</zf>
 		</Position>
 		<Position>
-			<xf>1.750000</xf>
-			<zf>1.750000</zf>
+			<xf>1.000000</xf>
+			<zf>-0.000000</zf>
+		</Position>
+		<Position>
+			<xf>1.250000</xf>
+			<zf>-0.000000</zf>
+		</Position>
+		<Position>
+			<xf>1.250000</xf>
+			<zf>2.250000</zf>
+		</Position>
+		<Position>
+			<xf>1.000000</xf>
+			<zf>2.250000</zf>
+		</Position>
+		<Position>
+			<xf>1.000000</xf>
+			<zf>2.500000</zf>
 		</Position>
 		<Position>
 			<xf>1.500000</xf>
-			<zf>1.750000</zf>
-		</Position>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>2.000000</zf>
-		</Position>
-		<Position>
-			<xf>2.000000</xf>
-			<zf>2.000000</zf>
+			<zf>2.500000</zf>
 		</Position>
 	</FeedbackBlocker>
 	<FeedbackBlocker>
+		<Position>
+			<xf>-2.500000</xf>
+			<zf>2.500000</zf>
+		</Position>
+		<Position>
+			<xf>-2.500000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.750000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.750000</xf>
+			<zf>-1.250000</zf>
+		</Position>
+		<Position>
+			<xf>-2.250000</xf>
+			<zf>-1.250000</zf>
+		</Position>
+		<Position>
+			<xf>-2.250000</xf>
+			<zf>-0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-2.000000</xf>
+			<zf>-0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-2.000000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.250000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.250000</xf>
+			<zf>1.500000</zf>
+		</Position>
+		<Position>
+			<xf>-2.000000</xf>
+			<zf>1.500000</zf>
+		</Position>
 		<Position>
 			<xf>-2.000000</xf>
 			<zf>2.000000</zf>
 		</Position>
 		<Position>
-			<xf>-2.000000</xf>
-			<zf>-2.000000</zf>
-		</Position>
-		<Position>
-			<xf>-1.250000</xf>
-			<zf>-2.000000</zf>
-		</Position>
-		<Position>
-			<xf>-1.250000</xf>
-			<zf>-1.750000</zf>
-		</Position>
-		<Position>
-			<xf>-1.750000</xf>
-			<zf>-1.750000</zf>
-		</Position>
-		<Position>
-			<xf>-1.750000</xf>
-			<zf>-1.000000</zf>
-		</Position>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>-1.000000</zf>
-		</Position>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>-0.000000</zf>
-		</Position>
-		<Position>
-			<xf>-0.750000</xf>
-			<zf>-0.000000</zf>
-		</Position>
-		<Position>
-			<xf>-0.750000</xf>
-			<zf>1.000000</zf>
-		</Position>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>1.000000</zf>
-		</Position>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>1.500000</zf>
-		</Position>
-		<Position>
-			<xf>-0.412229</xf>
-			<zf>1.500000</zf>
-		</Position>
-		<Position>
-			<xf>-0.407557</xf>
-			<zf>1.750000</zf>
-		</Position>
-		<Position>
-			<xf>0.500000</xf>
-			<zf>1.750000</zf>
-		</Position>
-		<Position>
-			<xf>0.500000</xf>
+			<xf>-0.912229</xf>
 			<zf>2.000000</zf>
 		</Position>
-	</FeedbackBlocker>
-	<FeedbackBlocker>
 		<Position>
-			<xf>-1.250000</xf>
-			<zf>-1.750000</zf>
+			<xf>-0.907557</xf>
+			<zf>2.250000</zf>
 		</Position>
 		<Position>
-			<xf>-0.500000</xf>
-			<zf>-1.750000</zf>
+			<xf>-0.000000</xf>
+			<zf>2.250000</zf>
 		</Position>
 		<Position>
-			<xf>-0.500000</xf>
-			<zf>-2.000000</zf>
-		</Position>
-		<Position>
-			<xf>-1.250000</xf>
-			<zf>-2.000000</zf>
+			<xf>-0.000000</xf>
+			<zf>2.500000</zf>
 		</Position>
 	</FeedbackBlocker>
 	<FeedbackBlocker>
 		<Position>
-			<xf>1.500000</xf>
-			<zf>-1.750000</zf>
+			<xf>-1.750000</xf>
+			<zf>-1.250000</zf>
 		</Position>
 		<Position>
-			<xf>1.500000</xf>
-			<zf>-2.000000</zf>
+			<xf>-1.000000</xf>
+			<zf>-1.250000</zf>
 		</Position>
 		<Position>
-			<xf>2.000000</xf>
-			<zf>-2.000000</zf>
-		</Position>
-		<Position>
-			<xf>2.000000</xf>
+			<xf>-1.000000</xf>
 			<zf>-1.500000</zf>
 		</Position>
 		<Position>
-			<xf>1.750000</xf>
+			<xf>-1.750000</xf>
 			<zf>-1.500000</zf>
-		</Position>
-		<Position>
-			<xf>1.750000</xf>
-			<zf>-1.750000</zf>
 		</Position>
 	</FeedbackBlocker>
 	<IntersectBox>
 		<Name>Hitbox1619</Name>
 		<Position>
-			<xf>0.596966</xf>
+			<xf>0.096966</xf>
 			<yf>0.460206</yf>
-			<zf>-0.194794</zf>
+			<zf>0.305206</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -279,9 +279,9 @@
 	<MeshBoundingBox>
 		<Name>MeshBoundingBox</Name>
 		<Position>
-			<xf>0.087893</xf>
-			<yf>0.713236</yf>
-			<zf>-0.040065</zf>
+			<xf>-0.412107</xf>
+			<yf>0.813236</yf>
+			<zf>0.459935</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -290,9 +290,9 @@
 			<wf>1.000000</wf>
 		</Rotation>
 		<Extents>
-			<xf>1.807913</xf>
-			<yf>1.128076</yf>
-			<zf>1.901588</zf>
+			<xf>1.807915</xf>
+			<yf>1.378075</yf>
+			<zf>3.803180</zf>
 		</Extents>
 	</MeshBoundingBox>
 	<Sequence>
@@ -309,52 +309,52 @@
 	</Sequence>
 	<UnevenBlocker>
 		<Position>
-			<xf>1.250000</xf>
-			<zf>1.893963</zf>
+			<xf>0.750000</xf>
+			<zf>2.393963</zf>
 		</Position>
 		<Position>
-			<xf>0.400444</xf>
+			<xf>-0.099556</xf>
+			<zf>2.250000</zf>
+		</Position>
+		<Position>
+			<xf>-0.162618</xf>
+			<zf>2.000000</zf>
+		</Position>
+		<Position>
+			<xf>-1.335572</xf>
 			<zf>1.750000</zf>
 		</Position>
 		<Position>
-			<xf>0.337382</xf>
-			<zf>1.500000</zf>
+			<xf>-1.102461</xf>
+			<zf>0.660418</zf>
 		</Position>
 		<Position>
-			<xf>-0.835572</xf>
-			<zf>1.250000</zf>
+			<xf>-2.000000</xf>
+			<zf>0.500000</zf>
 		</Position>
 		<Position>
-			<xf>-0.602461</xf>
-			<zf>0.160418</zf>
+			<xf>-1.750000</xf>
+			<zf>-1.250000</zf>
 		</Position>
 		<Position>
-			<xf>-1.500000</xf>
-			<zf>-0.000000</zf>
+			<xf>-0.750000</xf>
+			<zf>-1.136670</zf>
 		</Position>
 		<Position>
-			<xf>-1.250000</xf>
-			<zf>-1.750000</zf>
+			<xf>-0.750000</xf>
+			<zf>-1.378829</zf>
 		</Position>
 		<Position>
-			<xf>-0.250000</xf>
-			<zf>-1.636670</zf>
+			<xf>0.750000</xf>
+			<zf>-1.000000</zf>
 		</Position>
 		<Position>
-			<xf>-0.250000</xf>
-			<zf>-1.878829</zf>
-		</Position>
-		<Position>
-			<xf>1.250000</xf>
-			<zf>-1.500000</zf>
+			<xf>0.750000</xf>
+			<zf>-0.097408</zf>
 		</Position>
 		<Position>
 			<xf>1.250000</xf>
-			<zf>-0.597408</zf>
-		</Position>
-		<Position>
-			<xf>1.750000</xf>
-			<zf>-0.410744</zf>
+			<zf>0.089256</zf>
 		</Position>
 	</UnevenBlocker>
 </Info>
