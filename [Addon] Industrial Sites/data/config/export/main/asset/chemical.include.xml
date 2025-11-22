@@ -96,10 +96,10 @@
         <QuestObject />
         <Infolayer />
         <ItemContainer>
-          <SocketCount>1</SocketCount>
+          <SocketCount>2</SocketCount>
           <SocketAllocation>Ship;SteamShip;Tradeship</SocketAllocation>
-          <SlotCount>1</SlotCount>
-          <StackLimit>400</StackLimit>
+          <SlotCount>4</SlotCount>
+          <StackLimit>200</StackLimit>
           <FixedSlotContent>2143505699</FixedSlotContent>
         </ItemContainer>
         <FeedbackController />
@@ -754,18 +754,15 @@
         </Standard>
         <Product>
           <StorageLevel>Building</StorageLevel>
-          <ProductCategory>4333</ProductCategory>
-          <BasePrice>1</BasePrice>
+          <ProductCategory>11702</ProductCategory>
+          <BasePrice>750</BasePrice>
           <CivLevel>1</CivLevel>
-          <IsStrategicResource>1</IsStrategicResource>
-          <AssociatedRegion>Moderate</AssociatedRegion>
+          <AssociatedRegion>Moderate;Colony01;Arctic;Africa</AssociatedRegion>
           <ProductionRegions>
             <Item>
               <RegionType>Moderate</RegionType>
             </Item>
           </ProductionRegions>
-          <BlockTransfer>1</BlockTransfer>
-          <HighscoreValueModifier>1</HighscoreValueModifier>
         </Product>
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
