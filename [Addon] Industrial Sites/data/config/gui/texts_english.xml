@@ -552,5 +552,13 @@
       <GUID>2143505719</GUID>
       <Text>Storage Tank</Text>
     </Text>
+    <Text>
+      <GUID>2143505720</GUID>
+      <Text>Soda</Text>
+    </Text>
+    <Text>
+      <GUID>2143505721</GUID>
+      <Text>Chemical Plant: Soda</Text>
+    </Text>
   </ModOp>
 </ModOps>
