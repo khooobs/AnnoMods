@@ -361,7 +361,7 @@
         <Object>
           <Variations>
             <Item>
-					    <Filename>data/dlc08/graphics/buildings/production/multifactory_01/multifactory_01_empty.cfg</Filename>
+					    <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -381,60 +381,26 @@
         <Constructable/>
         <Locked/>
         <SoundEmitter>
-          <ActiveSounds>
-            <Item>
-              <Sound>214813</Sound>
-              <!--wwe_sfx_bld_heavy_typeCluster_tag-->
-            </Item>
-            <Item>
-              <Sound>239321</Sound>
-              <!--wwe_sfx_bld_heavy_10_lp-->
-            </Item>
-          </ActiveSounds>
-          <ConstructionSounds>
-            <BuildSuccessful>
-              <Item>
-                <VectorElement>
-                  <InheritedIndex>0</InheritedIndex>
-                  <InheritanceMapV2>
-                    <Entry>
-                      <TemplateName>FarmBuilding</TemplateName>
-                      <Index>0</Index>
-                    </Entry>
-                  </InheritanceMapV2>
-                </VectorElement>
-                <Sound>203830</Sound>
-                <!--wwe_sfx_aui_bld_place_metal-->
-              </Item>
-            </BuildSuccessful>
-          </ConstructionSounds>
-          <IncidentSounds>
-            <InfectedFire>
-              <Item>
-                <Sound>214659</Sound>
-                <!--wwe_sfx_bld_inc_burn-->
-              </Item>
-            </InfectedFire>
-          </IncidentSounds>
-          <BuildingRepaired>
-            <Item>
-              <VectorElement>
-                <InheritedIndex>0</InheritedIndex>
-                <InheritanceMapV2>
-                  <Entry>
-                    <TemplateName>FarmBuilding</TemplateName>
-                    <Index>0</Index>
-                  </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
-            </Item>
-            <Item>
-              <Sound>203866</Sound>
-              <!--wwe_sfx_aui_bld_3d_renovate-->
-            </Item>
-          </BuildingRepaired>
-          <MaterialType>Metal</MaterialType>
-        </SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>Multifactory</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Sound>200802</Sound>
+							<!--wwe_sfx_bld_factory_col01_typeCluster_tag-->
+						</Item>
+						<Item>
+							<Sound>201689</Sound>
+							<!--wwe_sfx_bld_nwr_receipe_medicine_lp-->
+						</Item>
+					</ActiveSounds>
+				</SoundEmitter>
         <FeedbackController/>
         <Infolayer/>
         <UpgradeList/>
@@ -833,7 +799,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/dlc08/graphics/buildings/production/multifactory_01/multifactory_01_empty.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -902,7 +868,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/dlc08/graphics/buildings/production/multifactory_01/multifactory_01.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1019,7 +985,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/dlc08/graphics/buildings/production/multifactory_01/multifactory_01_02.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1135,7 +1101,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/dlc08/graphics/buildings/production/multifactory_01/multifactory_01_03.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1250,7 +1216,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/dlc09/graphics/buildings/production/multifactory_01/multifactory_01_04.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1294,11 +1260,11 @@
         </Text>
         <FactoryBase>
           <FactoryInputs>
-              <Item>
-                <Product>2143505718</Product>
-                <Amount>0</Amount>
-                <StorageAmount>1</StorageAmount>
-              </Item>
+            <Item>
+              <Product>2143505718</Product>
+              <Amount>0</Amount>
+              <StorageAmount>1</StorageAmount>
+            </Item>
             <Item>
               <Product>1010228</Product>
               <!--quartz sand-->
@@ -1368,7 +1334,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/dlc09/graphics/buildings/production/multifactory_01/multifactory_01_04.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1412,11 +1378,11 @@
         </Text>
         <FactoryBase>
           <FactoryInputs>
-              <Item>
+            <Item>
                 <Product>2143505718</Product>
                 <Amount>0</Amount>
                 <StorageAmount>1</StorageAmount>
-              </Item>
+            </Item>
             <Item>
               <Product>1010253</Product>
               <!--cotton-->
@@ -1486,7 +1452,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/dlc09/graphics/buildings/production/multifactory_01/multifactory_01_04.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
