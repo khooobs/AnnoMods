@@ -561,23 +561,23 @@
 				<Locked/>
 				<SoundEmitter>
 					<ActiveSounds>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>Multifactory</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-							<Sound>200802</Sound>
-							<!--wwe_sfx_bld_factory_col01_typeCluster_tag-->
-						</Item>
-						<Item>
-							<Sound>201689</Sound>
-							<!--wwe_sfx_bld_nwr_receipe_medicine_lp-->
-						</Item>
+					<Item>
+						<VectorElement>
+						<InheritedIndex>0</InheritedIndex>
+						<InheritanceMapV2>
+							<Entry>
+							<TemplateName>Multifactory</TemplateName>
+							<Index>0</Index>
+							</Entry>
+						</InheritanceMapV2>
+						</VectorElement>
+						<Sound>200802</Sound>
+						<!--wwe_sfx_bld_factory_col01_typeCluster_tag-->
+					</Item>
+					<Item>
+						<Sound>201685</Sound>
+						<!--wwe_sfx_bld_nwr_receipe_fire_extinguisher_lp-->
+					</Item>
 					</ActiveSounds>
 				</SoundEmitter>
 				<FeedbackController/>
