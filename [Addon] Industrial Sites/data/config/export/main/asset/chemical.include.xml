@@ -249,7 +249,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/dlc08/graphics/buildings/production/multifactory_01/multifactory_01_empty.cfg</Filename>
+              <Filename>data/modgraphics/buildings/special/chemical_company/chemical_company.cfg</Filename>
             </Item>
           </Variations>
         </Object>
