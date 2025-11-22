@@ -1881,13 +1881,15 @@
         </Attackable>
         <Maintenance/>
         <AmbientMoodProvider/>
-        <LogisticNode/>
+        <LogisticNode>
+          <TransporterCountMax>0</TransporterCountMax>
+        </LogisticNode>
         <Constructable/>
         <IncidentInfectable/>
         <Object>
           <Variations>
             <Item>
-					    <Filename>data/dlc10/graphics/buildings/production/agriculture_silo_02/agriculture_silo_02.cfg</Filename>
+					    <Filename>data/modgraphics/buildings/modules/storage_tank/storage_tank.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1895,13 +1897,11 @@
           <ActiveSounds>
             <Item>
               <Sound>270121</Sound>
-              <!--wwe_sfx_bld_agriculture_production_module_03_blp-->
             </Item>
           </ActiveSounds>
           <DestroySounds>
             <Item>
               <Sound>9818756</Sound>
-              <!--wwe_sfx_aui_delete-->
             </Item>
           </DestroySounds>
         </SoundEmitter>
@@ -2021,24 +2021,32 @@
         </Standard>
         <ItemEffect/>
         <FactoryUpgrade>
-          <InputAmountUpgrade>
+          <ReplaceInputs>
             <Item>
-              <Product>135130</Product>
-              <Amount>-1</Amount>
+              <OldInput>135130</OldInput>
+              <NewInput>2143505699</NewInput>
             </Item>
             <Item>
-              <Product>134616</Product>
-              <Amount>-1</Amount>
+              <OldInput>134616</OldInput>
+              <NewInput>2143505699</NewInput>
             </Item>
             <Item>
-              <Product>135086</Product>
-              <Amount>-1</Amount>
+              <OldInput>135086</OldInput>
+              <NewInput>2143505699</NewInput>
             </Item>
             <Item>
-              <Product>1010232</Product>
-              <Amount>-1</Amount>
+              <OldInput>1010232</OldInput>
+              <NewInput>2143505699</NewInput>
             </Item>
-          </InputAmountUpgrade>
+            <Item>
+              <OldInput>1010192</OldInput>
+              <NewInput>2143505699</NewInput>
+            </Item>
+            <Item>
+              <OldInput>2100115089</OldInput>
+              <NewInput>2143505699</NewInput>
+            </Item>
+          </ReplaceInputs>
         </FactoryUpgrade>
         <BuildingUpgrade/>
         <Buff/>
