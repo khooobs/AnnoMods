@@ -548,5 +548,9 @@
       <GUID>2143505718</GUID>
       <Text>Chemical Compound</Text>
     </Text>
+    <Text>
+      <GUID>2143505719</GUID>
+      <Text>Storage Tank</Text>
+    </Text>
   </ModOp>
 </ModOps>
