@@ -1118,7 +1118,6 @@
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <AllowChangeDirection>1</AllowChangeDirection>
             <InfluencedByNeighbors>
                 <Item>
                   <Building>2143505624</Building>
@@ -1204,7 +1203,6 @@
             </Costs>
           </Cost>
           <Object>
-            <GUIType>GuildHouse</GUIType>
             <Variations>
               <Item>
                 <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_corner_right.cfg</Filename>
@@ -1222,6 +1220,7 @@
           </Object>
           <Mesh/>
           <Selection>
+            <GUIType>Guildhouse</GUIType>
             <OnSelection>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
@@ -1268,8 +1267,9 @@
           </Maintenance>
           <ItemContainer>
             <SocketCount>1</SocketCount>
-            <SocketAllocation>RadiusBuilding;GuildHouse;TownHall;Mod1</SocketAllocation>
-            <SocketScope>ModuleOwner</SocketScope>
+            <SocketAllocation>RadiusBuilding;GuildHouse;TownHall;HarborOffice;Mod1</SocketAllocation>
+            <SocketScope>Radius</SocketScope>
+            <SocketScopeRadius>0</SocketScopeRadius>
           </ItemContainer>
         </Values>
       </Asset>
