@@ -637,6 +637,19 @@
     </ModOp>
   </Group>
 
+  
+  <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2143505408</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505593</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505692</GUID>
+    </Item>
+  </ModOp>
+
   <!-- Freight Station integration -->
   <ModOp GUID="25000192" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500506']">
     <Item>
