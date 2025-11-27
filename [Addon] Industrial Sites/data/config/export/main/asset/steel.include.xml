@@ -524,8 +524,8 @@
             <InfoDescription>2143505510</InfoDescription>
           </Standard>
           <Building>
+            <PickingAsset>2143505509</PickingAsset>
           <AllowChangeVariation>1</AllowChangeVariation>
-          <AllowChangeDirection>1</AllowChangeDirection>
           <BuildModeRandomRotation>90</BuildModeRandomRotation>
           <AssociatedRegions>Moderate</AssociatedRegions>
           <SecondPartyRelevant>0</SecondPartyRelevant>
@@ -614,7 +614,6 @@
             </Costs>
           </Cost>
           <Object>
-            <GUIType>GuildHouse</GUIType>
             <Variations>
               <Item>
 					      <Filename>data/modgraphics/buildings/modules/blast_furnace/blast_furnace_corner1.cfg</Filename>
@@ -632,8 +631,15 @@
           </Object>
           <Mesh/>
           <Selection>
+            <GUIType>Guildhouse</GUIType>
             <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
           </Selection>
+          <ItemContainer>
+            <SocketCount>1</SocketCount>
+            <SocketAllocation>RadiusBuilding;GuildHouse;TownHall;HarborOffice;Mod1</SocketAllocation>
+            <SocketScope>Radius</SocketScope>
+            <SocketScopeRadius>0</SocketScopeRadius>
+          </ItemContainer>
           <FactoryBase>
             <FactoryInputs>
               <Item>
