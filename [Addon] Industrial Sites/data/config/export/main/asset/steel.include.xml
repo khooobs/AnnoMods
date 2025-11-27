@@ -1,7 +1,7 @@
 <ModOps>
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
-        <Template>IndustrialBuilding</Template>
+        <Template>IndustrialCompany</Template>
         <Values>
           <Standard>
             <GUID>2143505408</GUID>
@@ -115,7 +115,7 @@
       </Asset>
       <!-- Coal Depot -->
       <Asset>
-        <Template>IndustrialFactory</Template>
+        <Template>IndustrialCompanyFactory</Template>
         <Values>
           <Standard>
             <GUID>2143505500</GUID>
@@ -303,7 +303,7 @@
         </Values>
       </Asset>
       <!-- Blast Furnace -->
-      <!-- Template isn't IndustrialFactory to allowing a tier upgrade with ITLP -->
+      <!-- Template isn't IndustrialCompanyFactory to allowing a tier upgrade with ITLP -->
       <Asset>
         <Template>HeavyFactoryBuilding</Template>
         <Values>
@@ -515,7 +515,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialModule</Template>
+        <Template>IndustrialCompanyModule</Template>
         <Values>
           <Standard>
             <GUID>2143505509</GUID>
@@ -1118,7 +1118,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialModule</Template>
+        <Template>IndustrialCompanyModule</Template>
         <Values>
           <Standard>
             <GUID>2143505575</GUID>

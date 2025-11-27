@@ -2,7 +2,7 @@
     <!-- START - Textile Company -->
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
-        <Template>IndustrialBuilding</Template>
+        <Template>IndustrialCompany</Template>
         <Values>
           <Standard>
             <GUID>2143505593</GUID>
@@ -205,7 +205,7 @@
     <!-- START - Loom Factory --> 
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
-        <Template>IndustrialFactory</Template>
+        <Template>IndustrialCompanyFactory</Template>
         <Values>
           <Standard>
             <GUID>2143505595</GUID>
@@ -486,7 +486,7 @@
     <!-- START - Spinning Mill -->
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
-        <Template>IndustrialFactory</Template>
+        <Template>IndustrialCompanyFactory</Template>
         <Values>
           <Standard>
             <GUID>2143505603</GUID>
@@ -608,7 +608,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialFactory</Template>
+        <Template>IndustrialCompanyFactory</Template>
         <Values>
           <Standard>
             <GUID>2143505605</GUID>
@@ -707,7 +707,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialFactory</Template>
+        <Template>IndustrialCompanyFactory</Template>
         <Values>
           <Standard>
             <GUID>2143505607</GUID>
@@ -806,7 +806,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialFactory</Template>
+        <Template>IndustrialCompanyFactory</Template>
         <Values>
           <Standard>
             <GUID>2143505609</GUID>
@@ -905,7 +905,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialFactory</Template>
+        <Template>IndustrialCompanyFactory</Template>
         <Values>
           <Standard>
             <GUID>2143505611</GUID>
@@ -1004,7 +1004,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialFactory</Template>
+        <Template>IndustrialCompanyFactory</Template>
         <Values>
           <Standard>
             <GUID>2143505613</GUID>
@@ -1108,7 +1108,7 @@
     <!-- START - Spinning Module -->
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
-        <Template>IndustrialModule</Template>
+        <Template>IndustrialCompanyModule</Template>
         <Values>
           <Standard>
             <GUID>2143505624</GUID>
@@ -1540,7 +1540,7 @@
     <ModOp Type="addNextSibling" GUID="25546">
     <!-- Tier 1 -->
       <Asset>
-        <Template>IndustrialModule</Template>
+        <Template>IndustrialCompanyModule</Template>
         <Values>
           <Standard>
             <GUID>2143505628</GUID>
@@ -1642,7 +1642,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialModule</Template>
+        <Template>IndustrialCompanyModule</Template>
         <Values>
           <Standard>
             <GUID>2143505630</GUID>
@@ -1744,7 +1744,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialModule</Template>
+        <Template>IndustrialCompanyModule</Template>
         <Values>
           <Standard>
             <GUID>2143505632</GUID>
@@ -1847,7 +1847,7 @@
       </Asset>
     <!-- Tier 2 -->
       <Asset>
-        <Template>IndustrialModule</Template>
+        <Template>IndustrialCompanyModule</Template>
         <Values>
           <Standard>
             <GUID>2143505634</GUID>
@@ -1949,7 +1949,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialModule</Template>
+        <Template>IndustrialCompanyModule</Template>
         <Values>
           <Standard>
             <GUID>2143505636</GUID>
@@ -2051,7 +2051,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialModule</Template>
+        <Template>IndustrialCompanyModule</Template>
         <Values>
           <Standard>
             <GUID>2143505638</GUID>

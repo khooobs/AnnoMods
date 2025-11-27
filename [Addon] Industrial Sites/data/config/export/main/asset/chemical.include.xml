@@ -211,7 +211,7 @@
   <!-- START - Chemical Company -->
   <ModOp Type="addNextSibling" GUID="100853">
     <Asset>
-      <Template>IndustrialBuilding</Template>
+      <Template>IndustrialCompany</Template>
       <Values>
         <Standard>
           <GUID>2143505692</GUID>
@@ -785,7 +785,7 @@
   <!-- START - Chemical Plant -->
   <ModOp Type="addNextSibling" GUID="135134">
     <Asset>
-      <Template>ChemicalPlant</Template>
+      <Template>ChemicalCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505700</GUID>
@@ -854,7 +854,7 @@
       </Values>
     </Asset>
     <Asset>
-      <Template>ChemicalPlant</Template>
+      <Template>ChemicalCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505703</GUID>
@@ -972,7 +972,7 @@
       </Values>
     </Asset>
     <Asset>
-      <Template>ChemicalPlant</Template>
+      <Template>ChemicalCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505705</GUID>
@@ -1088,7 +1088,7 @@
       </Values>
     </Asset>
     <Asset>
-      <Template>ChemicalPlant</Template>
+      <Template>ChemicalCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505707</GUID>
@@ -1203,7 +1203,7 @@
       </Values>
     </Asset>
     <Asset>
-      <Template>ChemicalPlant</Template>
+      <Template>ChemicalCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505709</GUID>
@@ -1320,7 +1320,7 @@
       </Values>
     </Asset>
     <Asset>
-      <Template>ChemicalPlant</Template>
+      <Template>ChemicalCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505711</GUID>
@@ -1438,7 +1438,7 @@
       </Values>
     </Asset>
     <Asset>
-      <Template>ChemicalPlant</Template>
+      <Template>ChemicalCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505713</GUID>
@@ -1545,7 +1545,7 @@
       </Values>
     </Asset>
     <Asset>
-      <Template>ChemicalPlant</Template>
+      <Template>ChemicalCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505721</GUID>
