@@ -552,13 +552,12 @@
 			<Name>ChemicalCompanyFactory</Name>
 			<Properties>
 				<Standard>
-					<InfoDescription>11143</InfoDescription>					<!--production
-					building infocorner-->
+					<InfoDescription>11143</InfoDescription>
 				</Standard>
 				<Building>
 					<BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<AssociatedRegions>Moderate</AssociatedRegions>
-					<BuildingType>BuildingModule</BuildingType>
+					<BuildingType>Factory</BuildingType>
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
 				</Building>
 				<Blocking />
