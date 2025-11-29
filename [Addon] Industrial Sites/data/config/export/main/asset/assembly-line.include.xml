@@ -90,7 +90,7 @@
           </ModuleLimits>
           <ConstructionOptions>
             <Item>
-              <ModuleGUID>2143505404</ModuleGUID>
+              <ModuleGUID>2143505724</ModuleGUID>
             </Item>
             <Item>
               <ModuleGUID>134619</ModuleGUID>
@@ -155,10 +155,198 @@
             <Item>
               <Asset>2143505723</Asset>
             </Item>
+            <Item>
+              <Asset>2143505724</Asset>
+            </Item>
           </AssetList>
         </AssetPool>
       </Values>
     </Asset>
   </ModOp>
   <!-- END - AssemblyLine AssetPool -->
+
+  <!-- START - Generators -->
+  <ModOp GUID="120022" Type="addNextSibling">
+    <Asset>
+      <Template>IndustrialCompanyFactory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505724</GUID>
+          <Name>Generators</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_generator.png</IconFilename>
+          <InfoDescription>2143505725</InfoDescription>
+        </Standard>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>25000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>12</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/processing_05/processing_05.cfg</Filename>
+              <!-- <Filename>data/modgraphics/buildings/modules/assembly_line/generators.cfg</Filename> -->
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1414</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010224</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>120</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505726</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>20</ProductionBuffDistance>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Electrifiable>
+          <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+        </Electrifiable>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+          <MandatoryIndustrialization>0</MandatoryIndustrialization>
+        </Industrializable>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505726</GUID>
+          <Name>Generators - Module - Positive - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_generator.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505728</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>1000</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade>
+          <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade>
+          <ProvideIndustrialization>1</ProvideIndustrialization>
+        </IndustrializableUpgrade>
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505727</GUID>
+          <Name>Generators - Module - Negative - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_generator.png</IconFilename>
+        </Standard>
+        <ItemEffect />
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-1000</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade>
+          <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- START - AssetPool ItemEffectTargetPool -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+	    <Template>ItemEffectTargetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505728</GUID>
+          <Name>AssetPool Assembly Lines</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs/>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - AssetPool ItemEffectTargetPool -->
 </ModOps>
