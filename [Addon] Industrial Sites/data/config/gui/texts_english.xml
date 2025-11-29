@@ -560,5 +560,9 @@
       <GUID>2143505721</GUID>
       <Text>Chemical Plant: Soda</Text>
     </Text>
+    <Text>
+      <GUID>2143505723</GUID>
+      <Text>Assembly Line Company</Text>
+    </Text>
   </ModOp>
 </ModOps>

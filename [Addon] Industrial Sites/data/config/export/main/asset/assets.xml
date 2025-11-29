@@ -21,6 +21,7 @@
   <Include File="./steel.include.xml" />
   <Include File="./chemical.include.xml" />
   <Include File="./textile.include.xml" />
+  <Include File="./assembly-line.include.xml" />
   
   <!-- Industrial Menus -->
   <Group>
@@ -64,6 +65,9 @@
               </Item>
               <Item>
                 <Building>2143505692</Building>
+              </Item>
+              <Item>
+                <Building>2143505723</Building>
               </Item>
             </BuildingList>
             <CategoryDescription>2143505402</CategoryDescription>
@@ -647,6 +651,9 @@
     </Item>
     <Item>
       <GUID>2143505692</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505723</GUID>
     </Item>
   </ModOp>
 
