@@ -564,5 +564,25 @@
       <GUID>2143505723</GUID>
       <Text>Assembly Line Company</Text>
     </Text>
+    <Text>
+      <GUID>2143505724</GUID>
+      <Text>Generators</Text>
+    </Text>
+    <Text>
+      <GUID>2143505725</GUID>
+      <Text>You need this to power all these conveyors.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505726</GUID>
+      <Text>Generators are running</Text>
+    </Text>
+    <Text>
+      <GUID>2143505727</GUID>
+      <Text>No Generators</Text>
+    </Text>
+    <Text>
+      <GUID>2143505728</GUID>
+      <Text>All Assembly Lines Site</Text>
+    </Text>
   </ModOp>
 </ModOps>
