@@ -596,5 +596,17 @@
       <GUID>2143505741</GUID>
       <Text>Assembly Line: Steam Carriage</Text>
     </Text>
+    <Text>
+      <GUID>2143505742</GUID>
+      <Text>Company Administration</Text>
+    </Text>
+    <Text>
+      <GUID>2143505743</GUID>
+      <Text>Organises the running of the company, in particular by recruiting workers for assembly line work.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505744</GUID>
+      <Text>Recruitment of workers</Text>
+    </Text>
   </ModOp>
 </ModOps>
