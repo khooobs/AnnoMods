@@ -1389,7 +1389,7 @@
           <Standard>
             <GUID>2143505579</GUID>
             <Name>Slag By-Product</Name>
-			      <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_slag.png</IconFilename>
+			      <IconFilename>data/ui/2kimages/main/3dicons/icon_quartz_sand.png</IconFilename>
             <InfoDescription>2143505580</InfoDescription>
           </Standard>
           <ItemSocketSet>
@@ -1405,7 +1405,7 @@
           <Standard>
             <GUID>2143505581</GUID>
             <Name>Slag By-Product</Name>
-			      <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_slag.png</IconFilename>
+			      <IconFilename>data/ui/2kimages/main/3dicons/icon_quartz_sand.png</IconFilename>
             <InfoDescription>2143505582</InfoDescription>
           </Standard>
           <ItemEffect>
@@ -1421,7 +1421,7 @@
           <FactoryUpgrade>
             <AdditionalOutput>
               <Item>
-                <Product>2143505583</Product>
+                <Product>1010231</Product>
                 <AdditionalOutputCycle>4</AdditionalOutputCycle>
                 <Amount>1</Amount>
               </Item>
