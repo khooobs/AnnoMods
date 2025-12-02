@@ -95,9 +95,6 @@
             <Item>
               <ModuleGUID>2143505737</ModuleGUID>
             </Item>
-            <Item>
-              <ModuleGUID>2143505742</ModuleGUID>
-            </Item>
           </ConstructionOptions>
           <AddModuleLimit>0</AddModuleLimit>
           <BlueprintModuleOption>
@@ -111,29 +108,19 @@
         <Hacienda>
           <Policies>
             <Tier1Decree>
-              <Policy></Policy><!--Decree1-->
-              <Description></Description><!--Decree1_Info-->
+              <Policy>2143505748</Policy><!--Decree1-->
+              <Description>2143505747</Description><!--Decree1_Info-->
             </Tier1Decree>
             <Tier2Decree>
-              <Policy></Policy><!--Decree2A-->
-              <AttractivenessThreshold>Fair</AttractivenessThreshold>
-              <Description></Description><!--Decree2_Info-->
+              <Policy>2143505752</Policy><!--Decree2-->
+              <Description>2143505751</Description><!--Decree2_Info-->
             </Tier2Decree>
             <Tier3Decree>
-              <Policy></Policy><!--Decree3-->
-              <AttractivenessThreshold>Curious</AttractivenessThreshold>
-              <Description></Description><!--Decree3_Info-->
+              <Policy>2143505742</Policy>
+              <Description>2143505744</Description>
             </Tier3Decree>
-            <Tier4Decree>
-              <Policy></Policy><!--Decree4-->
-              <AttractivenessThreshold>Pleasant</AttractivenessThreshold>
-              <Description></Description><!--Decree4_Info-->
-            </Tier4Decree>
-            <Tier5Decree>
-              <Policy></Policy><!--Decree5-->
-              <AttractivenessThreshold>Appealing</AttractivenessThreshold>
-              <Description></Description><!--Decree5_Info-->
-            </Tier5Decree>
+            <Tier4Decree/>
+            <Tier5Decree/>
           </Policies>
         </Hacienda>
         <Culture>
@@ -190,9 +177,6 @@
             </Item>
             <Item>
               <Asset>2143505741</Asset>
-            </Item>
-            <Item>
-              <Asset>2143505742</Asset>
             </Item>
             <Item>
               <Asset>2143505745</Asset>
@@ -667,6 +651,7 @@
           <IsBlank>1</IsBlank>
         </RecipeBuilding>
         <ModuleOwner/>
+        <Culture/>
       </Values>
     </Asset>
     <Asset>
@@ -789,6 +774,10 @@
             </Item>
           </ConstructionOptions>
         </ModuleOwner>
+        <Culture>
+          <Attractiveness>-10</Attractiveness>
+          <HasPollution>1</HasPollution>
+        </Culture>
       </Values>
     </Asset>
     <Asset>
@@ -911,6 +900,10 @@
             </Item>
           </ConstructionOptions>
         </ModuleOwner>
+        <Culture>
+          <Attractiveness>-10</Attractiveness>
+          <HasPollution>1</HasPollution>
+        </Culture>
       </Values>
     </Asset>
     <Asset>
@@ -1033,6 +1026,10 @@
             </Item>
           </ConstructionOptions>
         </ModuleOwner>
+        <Culture>
+          <Attractiveness>-10</Attractiveness>
+          <HasPollution>1</HasPollution>
+        </Culture>
       </Values>
     </Asset>
     <Asset>
@@ -1152,155 +1149,14 @@
             </Item>
           </ConstructionOptions>
         </ModuleOwner>
+        <Culture>
+          <Attractiveness>-10</Attractiveness>
+          <HasPollution>1</HasPollution>
+        </Culture>
       </Values>
     </Asset>
   </ModOp>
   <!-- END - Assembly Line -->
-
-  
-  <!-- START - Administration -->
-  <ModOp Type="addNextSibling" GUID="134619">
-    <Asset>
-      <Template>IndustrialCompanyFactory</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505742</GUID>
-          <Name>Company Administration</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_industrial_administration.png</IconFilename>
-          <InfoDescription>2143505743</InfoDescription>
-        </Standard>
-        <Cost>
-          <Costs>
-            <Item>
-              <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010196</Ingredient>
-              <Amount>8</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010205</Ingredient>
-              <Amount>15</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010218</Ingredient>
-              <Amount>12</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010207</Ingredient>
-              <Amount>10</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010202</Ingredient>
-              <Amount>10</Amount>
-            </Item>
-          </Costs>
-        </Cost>
-        <Object>
-          <Variations>
-            <Item>
-              <Filename>data/graphics/buildings/production/factory_06/factory_06.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <Selection>
-          <GUIType>Production</GUIType>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList />
-            </Values>
-          </OnSelection>
-          <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
-          <Colors>
-            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-          </Colors>
-        </Selection>
-        <Mesh />
-        <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>114431</Product>
-              <Amount>1</Amount>
-              <StorageAmount>10</StorageAmount>
-            </Item>
-            <Item>
-              <Product>117702</Product>
-              <Amount>1</Amount>
-              <StorageAmount>10</StorageAmount>
-            </Item>
-          </FactoryInputs>
-          <CycleTime>90</CycleTime>
-          <IsMainFactory>0</IsMainFactory>
-        </FactoryBase>
-        <BuffFactory>
-          <ProductionBuffs>
-            <Item>
-              <ProductivityBuff>2143505744</ProductivityBuff>
-            </Item>
-          </ProductionBuffs>
-          <ProductionBuffScope>Radius</ProductionBuffScope>
-          <ProductionBuffDistance>20</ProductionBuffDistance>
-        </BuffFactory>
-        <Maintenance>
-          <Maintenances>
-            <Item>
-              <Product>1010017</Product>
-              <Amount>1000</Amount>
-              <InactiveAmount>500</InactiveAmount>
-            </Item>
-            <Item>
-              <Product>1010117</Product>
-              <Amount>100</Amount>
-            </Item>
-          </Maintenances>
-        </Maintenance>
-        <Electrifiable>
-          <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
-        </Electrifiable>
-        <Industrializable>
-          <MandatoryIndustrialization>0</MandatoryIndustrialization>
-        </Industrializable>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505744</GUID>
-          <Name>Recruitment of workers - Buffs</Name>
-          <IconFilename>data/ui/2kimages/main/icons/icon_repair.png</IconFilename>
-        </Standard>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505728</GUID>
-            </Item>
-          </EffectTargets>
-          <AllowStacking>0</AllowStacking>
-        </ItemEffect>
-        <FactoryUpgrade />
-        <BuildingUpgrade>
-          <ReplacingWorkforce>1010115</ReplacingWorkforce>
-        </BuildingUpgrade>
-        <Buff />
-        <CultureUpgrade>
-          <HideBuff>0</HideBuff>
-        </CultureUpgrade>
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
-      </Values>
-    </Asset>
-  </ModOp>
-  <!-- END - Administration -->
 
   <!-- START - Assembly Line Unit -->
   <ModOp Type="addNextSibling" GUID="134619">
@@ -1444,4 +1300,216 @@
     </Asset>
   </ModOp>
   <!-- END - Assembly Line Unit -->
+
+  <!-- START - Policies -->
+  <Group>
+    <!-- START - Mass Production Decree -->
+    <ModOp Type="addNextSibling" GUID="269193">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505747</GUID>
+            <Name>Decree1_Info</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505749</GUID>
+            <Name>Decree1_Fluff</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505748</GUID>
+            <Name>Mass Production Decree</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_forklift_truck_2.png</IconFilename>
+            <InfoDescription>2143505749</InfoDescription>
+          </Standard>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505750</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505750</GUID>
+            <Name>Mass Production - Decree 1 Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_forklift_truck_2.png</IconFilename>
+            <InfoDescription>2143505749</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>2143505728</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <FactoryUpgrade>
+            <ProductivityUpgrade>
+              <Value>75</Value>
+              <Percental>1</Percental>
+            </ProductivityUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade>
+            <MaintenanceUpgrade>
+              <Value>125</Value>
+              <Percental>1</Percental>
+            </MaintenanceUpgrade>
+            <WorkforceAmountUpgrade>
+              <Value>10</Value>
+              <Percental>1</Percental>
+            </WorkforceAmountUpgrade>
+          </BuildingUpgrade>
+          <Buff/>
+          <CultureUpgrade>
+            <AttractivenessUpgrade>
+              <Value>-25</Value>
+            </AttractivenessUpgrade>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade/>
+          <IncidentInfectableUpgrade>
+            <IncidentFireIncreaseUpgrade>
+              <Value>20</Value>
+              <Percental>1</Percental>
+            </IncidentFireIncreaseUpgrade>
+          </IncidentInfectableUpgrade>
+          <PowerplantUpgrade/>
+          <IndustrializableUpgrade/>
+          <ItemContainerUpgrade/>
+          <IncidentInfluencerUpgrade/>
+          <IrrigationUpgrade/>
+          <EcoSystemProviderUpgrade/>
+          <ResourceUpgrade/>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END - Mass Production Decree -->
+     
+    <!-- START - Standard Specification Decree -->
+    <ModOp Type="addNextSibling" GUID="269193">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505751</GUID>
+            <Name>Decree2_Info</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505752</GUID>
+            <Name>Standard Specification - Decree 2 Buff</Name>
+			      <IconFilename>data/ui/2kimages/main/3dicons/consumables/icon_tax_bill_1.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>2143505728</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <FactoryUpgrade>
+            <ProductivityUpgrade>
+              <Value>-50</Value>
+              <Percental>1</Percental>
+            </ProductivityUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade>
+            <MaintenanceUpgrade>
+              <Value>50</Value>
+              <Percental>1</Percental>
+            </MaintenanceUpgrade>
+          </BuildingUpgrade>
+          <Buff/>
+          <CultureUpgrade>
+            <AttractivenessUpgrade>
+              <Value>+10</Value>
+            </AttractivenessUpgrade>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade/>
+          <IncidentInfectableUpgrade>
+            <IncidentFireIncreaseUpgrade>
+              <Value>-10</Value>
+              <Percental>1</Percental>
+            </IncidentFireIncreaseUpgrade>
+          </IncidentInfectableUpgrade>
+          <PowerplantUpgrade/>
+          <IndustrializableUpgrade/>
+          <ItemContainerUpgrade/>
+          <IncidentInfluencerUpgrade/>
+          <IrrigationUpgrade/>
+          <EcoSystemProviderUpgrade/>
+          <ResourceUpgrade/>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END - Standard Specification Decree -->
+
+    <!-- START - Workers Recruitment Decree -->
+    <ModOp Type="addNextSibling" GUID="134619">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505742</GUID>
+            <Name>Decree3_Info</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505744</GUID>
+            <Name>Workers Recruitment - Buffs</Name>
+            <IconFilename>data/ui/2kimages/main/icons/icon_repair.png</IconFilename>
+            <InfoDescription>2143505743</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>2143505728</GUID>
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <FactoryUpgrade />
+          <BuildingUpgrade>
+            <ReplacingWorkforce>1010115</ReplacingWorkforce>
+          </BuildingUpgrade>
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END - Workers Recruitment Decree -->
+  </Group>
+  <!-- END - Policies -->
 </ModOps>
