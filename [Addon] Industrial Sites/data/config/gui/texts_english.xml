@@ -608,5 +608,13 @@
       <GUID>2143505744</GUID>
       <Text>Recruitment of workers</Text>
     </Text>
+    <Text>
+      <GUID>2143505745</GUID>
+      <Text>Assembly Line Unit</Text>
+    </Text>    
+    <Text>
+      <GUID>2143505746</GUID>
+      <Text>An extended production line area</Text>
+    </Text>
   </ModOp>
 </ModOps>
