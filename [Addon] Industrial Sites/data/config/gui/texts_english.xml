@@ -598,7 +598,7 @@
     </Text>
     <Text>
       <GUID>2143505742</GUID>
-      <Text>Company Administration</Text>
+      <Text>Enables the recruitment of workers for assembly lines</Text>
     </Text>
     <Text>
       <GUID>2143505743</GUID>
@@ -606,7 +606,7 @@
     </Text>
     <Text>
       <GUID>2143505744</GUID>
-      <Text>Recruitment of workers</Text>
+      <Text>Workers Recruitment</Text>
     </Text>
     <Text>
       <GUID>2143505745</GUID>
@@ -615,6 +615,30 @@
     <Text>
       <GUID>2143505746</GUID>
       <Text>An extended production line area</Text>
+    </Text> 
+    <Text>
+      <GUID>2143505747</GUID>
+      <Text>Boost efficiency of assembly lines, at cost of money, pollution and workforce</Text>
+    </Text> 
+    <Text>
+      <GUID>2143505748</GUID>
+      <Text>Mass Production</Text>
+    </Text>
+    <Text>
+      <GUID>2143505749</GUID>
+      <Text>"Yes, we live in an era of consumption, and what could be better than a set of mass production lines? Not to mention the profit!"</Text>
+    </Text>
+    <Text>
+      <GUID>2143505750</GUID>
+      <Text>Mass Production</Text>
+    </Text>
+    <Text>
+      <GUID>2143505751</GUID>
+      <Text>Regulates and supervises production lines with manufacturing and safety standards.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505752</GUID>
+      <Text>Standard Specification</Text>
     </Text>
   </ModOp>
 </ModOps>
