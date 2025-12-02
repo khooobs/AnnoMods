@@ -194,6 +194,9 @@
             <Item>
               <Asset>2143505742</Asset>
             </Item>
+            <Item>
+              <Asset>2143505745</Asset>
+            </Item>
           </AssetList>
         </AssetPool>
       </Values>
@@ -663,6 +666,7 @@
           <RecipeBuildingType>Multifactory</RecipeBuildingType>
           <IsBlank>1</IsBlank>
         </RecipeBuilding>
+        <ModuleOwner/>
       </Values>
     </Asset>
     <Asset>
@@ -778,6 +782,13 @@
           <BoostedByIndustrialization>0</BoostedByIndustrialization>
           <MandatoryIndustrialization>1</MandatoryIndustrialization>
         </Industrializable>
+        <ModuleOwner>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>2143505745</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+        </ModuleOwner>
       </Values>
     </Asset>
     <Asset>
@@ -893,6 +904,13 @@
           <BoostedByIndustrialization>0</BoostedByIndustrialization>
           <MandatoryIndustrialization>1</MandatoryIndustrialization>
         </Industrializable>
+        <ModuleOwner>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>2143505745</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+        </ModuleOwner>
       </Values>
     </Asset>
     <Asset>
@@ -1008,6 +1026,13 @@
           <BoostedByIndustrialization>0</BoostedByIndustrialization>
           <MandatoryIndustrialization>1</MandatoryIndustrialization>
         </Industrializable>
+        <ModuleOwner>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>2143505745</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+        </ModuleOwner>
       </Values>
     </Asset>
     <Asset>
@@ -1120,6 +1145,13 @@
           <BoostedByIndustrialization>0</BoostedByIndustrialization>
           <MandatoryIndustrialization>1</MandatoryIndustrialization>
         </Industrializable>
+        <ModuleOwner>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>2143505745</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+        </ModuleOwner>
       </Values>
     </Asset>
   </ModOp>
@@ -1269,4 +1301,147 @@
     </Asset>
   </ModOp>
   <!-- END - Administration -->
+
+  <!-- START - Assembly Line Unit -->
+  <ModOp Type="addNextSibling" GUID="134619">
+    <Asset>
+      <Template>IndustrialCompanyModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505745</GUID>
+          <Name>Assembly_Line_Unit</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
+          <InfoDescription>2143505746</InfoDescription>
+        </Standard>
+        <Building>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <InfluencedByNeighbors>
+            <Item>
+              <Building>2143505745</Building>
+            </Item>
+          </InfluencedByNeighbors>
+          <BuildingBlockPool>
+            <DontCare />
+            <Single>
+              <Pool>
+                <Item>
+                  <Variation>3</Variation>
+                  <DirectionOffet>0</DirectionOffet>
+                </Item>
+              </Pool>
+            </Single>
+            <Mid>
+              <Pool>
+                <Item>
+                  <Variation>1</Variation>
+                  <DirectionOffet>0</DirectionOffet>
+                </Item>
+              </Pool>
+            </Mid>
+            <End>
+              <Pool>
+                <Item>
+                  <DirectionOffet>1</DirectionOffet>
+                  <Variation>2</Variation>
+                </Item>
+              </Pool>
+            </End>
+            <!-- alt end -->
+            <Crossing>
+              <Pool>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                </Item>
+              </Pool>
+            </Crossing>
+            <Corner>
+              <Pool>
+                <Item>
+                  <DirectionOffet>3</DirectionOffet>
+                  <Variation>0</Variation>
+                </Item>
+              </Pool>
+            </Corner>
+            <!-- alt corner -->
+            <TCrossing>
+              <Pool>
+                <Item>
+                  <Variation>2</Variation>
+                  <DirectionOffet>1</DirectionOffet>
+                </Item>
+              </Pool>
+            </TCrossing>
+          </BuildingBlockPool>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/factory_10/factory_10.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Generic</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <FeedbackController />
+        <Infolayer />
+        <BuildingModule>
+          <IsCulturalModule>1</IsCulturalModule>
+          <PlazaSize>20</PlazaSize>
+          <ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_neutral.png</ModuleMoodImage>
+        </BuildingModule>
+        <AmbientMoodProvider />
+        <ModuleIrrigation />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>15000</Amount>
+              <InactiveAmount>7500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Assembly Line Unit -->
 </ModOps>
