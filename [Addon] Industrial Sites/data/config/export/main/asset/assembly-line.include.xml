@@ -181,6 +181,18 @@
             <Item>
               <Asset>2143505745</Asset>
             </Item>
+            <Item>
+              <Asset>2143505753</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505756</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505757</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505758</Asset>
+            </Item>
           </AssetList>
         </AssetPool>
       </Values>
@@ -299,12 +311,7 @@
           </EffectTargets>
           <AllowStacking>0</AllowStacking>
         </ItemEffect>
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>1000</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
+        <FactoryUpgrade />
         <BuildingUpgrade />
         <Buff />
         <CultureUpgrade>
@@ -316,37 +323,6 @@
         <IndustrializableUpgrade>
           <ProvideIndustrialization>1</ProvideIndustrialization>
         </IndustrializableUpgrade>
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505727</GUID>
-          <Name>Generators - Module - Negative - Buff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_generator.png</IconFilename>
-        </Standard>
-        <ItemEffect />
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>-1000</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
-        <BuildingUpgrade />
-        <Buff />
-        <CultureUpgrade>
-          <HideBuff>0</HideBuff>
-        </CultureUpgrade>
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
         <ItemContainerUpgrade />
         <IncidentInfluencerUpgrade />
         <IrrigationUpgrade />
@@ -718,23 +694,6 @@
           <DefaultBuff>2143505727</DefaultBuff>
         </UpgradeList>
         <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1010219</Product><!--steel-->
-              <Amount>1</Amount>
-              <StorageAmount>4</StorageAmount>
-            </Item>
-            <Item>
-              <Product>1010242</Product><!--inlay-->
-              <Amount>1</Amount>
-              <StorageAmount>4</StorageAmount>
-            </Item>
-            <Item>
-              <Product>1010224</Product><!--steam motors-->
-              <Amount>1</Amount>
-              <StorageAmount>4</StorageAmount>
-            </Item>
-          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>134623</Product><!--Elevator-->
@@ -773,6 +732,9 @@
               <ModuleGUID>2143505745</ModuleGUID>
             </Item>
           </ConstructionOptions>
+          <FertilizerModuleData>
+            <Module>2143505753</Module>
+          </FertilizerModuleData>
         </ModuleOwner>
         <Culture>
           <Attractiveness>-10</Attractiveness>
@@ -844,23 +806,6 @@
           <DefaultBuff>2143505727</DefaultBuff>
         </UpgradeList>
         <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1010234</Product><!--tallow-->
-              <Amount>1</Amount>
-              <StorageAmount>4</StorageAmount>
-            </Item>
-            <Item>
-              <Product>1010235</Product><!--flour-->
-              <Amount>1</Amount>
-              <StorageAmount>4</StorageAmount>
-            </Item>
-            <Item>
-              <Product>133097</Product><!--Citrus Fruits-->
-              <Amount>1</Amount>
-              <StorageAmount>4</StorageAmount>
-            </Item>
-          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>135229</Product><!--Biscuits-->
@@ -899,6 +844,9 @@
               <ModuleGUID>2143505745</ModuleGUID>
             </Item>
           </ConstructionOptions>
+          <FertilizerModuleData>
+            <Module>2143505756</Module>
+          </FertilizerModuleData>
         </ModuleOwner>
         <Culture>
           <Attractiveness>-10</Attractiveness>
@@ -970,23 +918,6 @@
           <DefaultBuff>2143505727</DefaultBuff>
         </UpgradeList>
         <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1010219</Product><!--steel-->
-              <Amount>1</Amount>
-              <StorageAmount>4</StorageAmount>
-            </Item>
-            <Item>
-              <Product>1010204</Product><!--brass-->
-              <Amount>1</Amount>
-              <StorageAmount>4</StorageAmount>
-            </Item>
-            <Item>
-              <Product>135129</Product><!--LacquerColor-->
-              <Amount>1</Amount>
-              <StorageAmount>4</StorageAmount>
-            </Item>
-          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>135230</Product><!--Typewriter-->
@@ -1025,6 +956,9 @@
               <ModuleGUID>2143505745</ModuleGUID>
             </Item>
           </ConstructionOptions>
+          <FertilizerModuleData>
+            <Module>2143505757</Module>
+          </FertilizerModuleData>
         </ModuleOwner>
         <Culture>
           <Attractiveness>-10</Attractiveness>
@@ -1093,23 +1027,6 @@
           <DefaultBuff>2143505727</DefaultBuff>
         </UpgradeList>
         <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1010242</Product><!--wood veneers-->
-              <Amount>1</Amount>
-              <StorageAmount>12</StorageAmount>
-            </Item>
-            <Item>
-              <Product>1010211</Product><!--chassis-->
-              <Amount>1</Amount>
-              <StorageAmount>12</StorageAmount>
-            </Item>
-            <Item>
-              <Product>1010224</Product><!--steam motors-->
-              <Amount>1</Amount>
-              <StorageAmount>12</StorageAmount>
-            </Item>
-          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>1010225</Product><!--steam carriages-->
@@ -1148,6 +1065,9 @@
               <ModuleGUID>2143505745</ModuleGUID>
             </Item>
           </ConstructionOptions>
+          <FertilizerModuleData>
+            <Module>2143505758</Module>
+          </FertilizerModuleData>
         </ModuleOwner>
         <Culture>
           <Attractiveness>-10</Attractiveness>
@@ -1512,4 +1432,558 @@
     <!-- END - Workers Recruitment Decree -->
   </Group>
   <!-- END - Policies -->
+
+  <!-- START - Logistics Depot for assembly line -->
+  <ModOp Type="addNextSibling" GUID="25549">
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505753</GUID>
+          <Name>Logistic_Depot (Elevator)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <InfoDescription>2143505755</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingType>BuildingModule</BuildingType>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+          <SkipUnlockMessage>1</SkipUnlockMessage>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <AllowChangeVariation>1</AllowChangeVariation>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>12</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505754</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010219</Product><!--steel-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010242</Product><!--inlay-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010224</Product><!--steam motors-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>15</CycleTime>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <FeedbackController />
+        <Pausable />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <HasRuinState>1</HasRuinState>
+        </Attackable>
+        <Maintenance />
+        <AmbientMoodProvider />
+        <LogisticNode />
+        <Constructable />
+        <Locked />
+        <IncidentInfectable />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/assembly_line/logistic_depot/logistic_depot_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>270121</Sound>
+            </Item>
+          </ActiveSounds>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+        </SoundEmitter>
+        <BuildingModule>
+          <ModuleType>AdditionalModule</ModuleType>
+        </BuildingModule>
+        <Infolayer />
+        <UpgradeList />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505756</GUID>
+          <Name>Logistic_Depot (Biscuit)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <InfoDescription>2143505755</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingType>BuildingModule</BuildingType>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+          <SkipUnlockMessage>1</SkipUnlockMessage>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <AllowChangeVariation>1</AllowChangeVariation>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>12</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505754</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010234</Product>
+              <!--tallow-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010235</Product>
+              <!--flour-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>133097</Product>
+              <!--Citrus Fruits-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>15</CycleTime>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <FeedbackController />
+        <Pausable />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <HasRuinState>1</HasRuinState>
+        </Attackable>
+        <Maintenance />
+        <AmbientMoodProvider />
+        <LogisticNode />
+        <Constructable />
+        <Locked />
+        <IncidentInfectable />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/assembly_line/logistic_depot/logistic_depot_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>270121</Sound>
+            </Item>
+          </ActiveSounds>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+        </SoundEmitter>
+        <BuildingModule>
+          <ModuleType>AdditionalModule</ModuleType>
+        </BuildingModule>
+        <Infolayer />
+        <UpgradeList />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505757</GUID>
+          <Name>Logistic_Depot (Typewriter)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <InfoDescription>2143505755</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingType>BuildingModule</BuildingType>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+          <SkipUnlockMessage>1</SkipUnlockMessage>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <AllowChangeVariation>1</AllowChangeVariation>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>12</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505754</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010219</Product>
+              <!--steel-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010204</Product>
+              <!--brass-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>135129</Product>
+              <!--LacquerColor-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>15</CycleTime>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <FeedbackController />
+        <Pausable />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <HasRuinState>1</HasRuinState>
+        </Attackable>
+        <Maintenance />
+        <AmbientMoodProvider />
+        <LogisticNode />
+        <Constructable />
+        <Locked />
+        <IncidentInfectable />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/assembly_line/logistic_depot/logistic_depot_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>270121</Sound>
+            </Item>
+          </ActiveSounds>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+        </SoundEmitter>
+        <BuildingModule>
+          <ModuleType>AdditionalModule</ModuleType>
+        </BuildingModule>
+        <Infolayer />
+        <UpgradeList />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505758</GUID>
+          <Name>Logistic_Depot (Steam Carriage)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <InfoDescription>2143505755</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingType>BuildingModule</BuildingType>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+          <SkipUnlockMessage>1</SkipUnlockMessage>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <AllowChangeVariation>1</AllowChangeVariation>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>12</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505754</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010211</Product><!--chassis-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010242</Product><!--inlay-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010224</Product><!--steam motors-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>15</CycleTime>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <FeedbackController />
+        <Pausable />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <HasRuinState>1</HasRuinState>
+        </Attackable>
+        <Maintenance />
+        <AmbientMoodProvider />
+        <LogisticNode />
+        <Constructable />
+        <Locked />
+        <IncidentInfectable />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/assembly_line/logistic_depot/logistic_depot_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>270121</Sound>
+            </Item>
+          </ActiveSounds>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+        </SoundEmitter>
+        <BuildingModule>
+          <ModuleType>AdditionalModule</ModuleType>
+        </BuildingModule>
+        <Infolayer />
+        <UpgradeList />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505727</GUID>
+          <Name>Logistic Depot - Module - Negative - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect />
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-1000</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade>
+          <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505754</GUID>
+          <Name>Logistic Depot - Module - Positive - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect/>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>1000</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade/>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
 </ModOps>
