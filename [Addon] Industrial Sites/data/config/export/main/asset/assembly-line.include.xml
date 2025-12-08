@@ -1178,7 +1178,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/production/factory_10/factory_10.cfg</Filename>
+              <Filename>data/modgraphics/buildings/modules/assembly_line/line_unit/assembly_line_unit.cfg</Filename>
             </Item>
           </Variations>
         </Object>
