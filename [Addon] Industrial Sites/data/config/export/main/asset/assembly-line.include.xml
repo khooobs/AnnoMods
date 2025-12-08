@@ -586,7 +586,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/production/factory_10/factory_10.cfg</Filename>
+					    <Filename>data/modgraphics/buildings/production/assembly_line/assembly_line_01.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -672,7 +672,7 @@
         <Object>
           <Variations>
             <Item>
-					    <Filename>data/graphics/buildings/production/factory_10/factory_10.cfg</Filename>
+					    <Filename>data/modgraphics/buildings/production/assembly_line/assembly_line_01.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -784,7 +784,7 @@
         <Object>
           <Variations>
             <Item>
-					    <Filename>data/graphics/buildings/production/factory_10/factory_10.cfg</Filename>
+					    <Filename>data/modgraphics/buildings/production/assembly_line/assembly_line_01.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -896,7 +896,7 @@
         <Object>
           <Variations>
             <Item>
-					    <Filename>data/graphics/buildings/production/factory_10/factory_10.cfg</Filename>
+					    <Filename>data/modgraphics/buildings/production/assembly_line/assembly_line_01.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1005,7 +1005,7 @@
         <Object>
           <Variations>
             <Item>
-					    <Filename>data/graphics/buildings/production/factory_10/factory_10.cfg</Filename>
+					    <Filename>data/modgraphics/buildings/production/assembly_line/assembly_line_01.cfg</Filename>
             </Item>
           </Variations>
         </Object>
