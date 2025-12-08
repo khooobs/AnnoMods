@@ -578,7 +578,7 @@
     </Text>
     <Text>
       <GUID>2143505727</GUID>
-      <Text>No Generators</Text>
+      <Text>No Goods in Depot</Text>
     </Text>
     <Text>
       <GUID>2143505728</GUID>
@@ -639,6 +639,30 @@
     <Text>
       <GUID>2143505752</GUID>
       <Text>Standard Specification</Text>
+    </Text>
+    <Text>
+      <GUID>2143505753</GUID>
+      <Text>Logistic Depot: Elevators</Text>
+    </Text>
+    <Text>
+      <GUID>2143505754</GUID>
+      <Text>Goods in Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505755</GUID>
+      <Text>Stores goods for the assembly line.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505756</GUID>
+      <Text>Logistic Depot: Biscuits</Text>
+    </Text>
+    <Text>
+      <GUID>2143505757</GUID>
+      <Text>Logistic Depot: Typewriters</Text>
+    </Text>
+    <Text>
+      <GUID>2143505758</GUID>
+      <Text>Logistic Depot: Steam Carriages</Text>
     </Text>
   </ModOp>
 </ModOps>
