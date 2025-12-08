@@ -54,7 +54,7 @@
         <Object>
           <Variations>
             <Item>
-					    <Filename>data/dlc09/graphics/buildings/production/multifactory_02/multifactory_02_empty.cfg</Filename>
+					    <Filename>data/modgraphics/buildings/special/assembly_line_company/assembly_line_company.cfg</Filename>
             </Item>
           </Variations>
         </Object>
