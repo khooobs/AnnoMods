@@ -242,8 +242,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/production/processing_05/processing_05.cfg</Filename>
-              <!-- <Filename>data/modgraphics/buildings/modules/assembly_line/generators.cfg</Filename> -->
+              <Filename>data/modgraphics/buildings/modules/assembly_line/generator/assembly_generator.cfg</Filename>
             </Item>
           </Variations>
         </Object>
