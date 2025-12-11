@@ -20,7 +20,7 @@
 
   <Include File="./steel.include.xml" />
   <Include File="./chemical.include.xml" />
-  <Include File="./textile.include.xml" />
+  <!-- <Include File="./textile.include.xml" /> -->
   <Include File="./assembly-line.include.xml" />
   
   <!-- Industrial Menus -->
