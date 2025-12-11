@@ -1,24 +1,16 @@
 {
-  "Version": "0.8.5",
-  "ModID": "khobs_industrial_sites",
+  "Version": "0.1.0",
+  "ModID": "khobs_textile_company",
   "IncompatibleIds": null,
   "ModDependencies": [
     "Taludas_neutral_airport",
     "neutral_hacienda_genshi",
     "shared_ui_change_kurila",
     "shared_neutral_culture_modules",
-    "shared_strategic_harbour",
+    "shared_goods_strings",
     "shared-ground-textures-industry-jakob",
-    "khobs_sifter",
-    "khobs_crusher",
-    "shared_freight_station_khobs",
-    "shared_freight_import_caoutchouc",
-    "jakob-railway-stations",
-    "models-railway-jakob",
-    "ow-tools-jakob",
-    "tools-jakob",
-    "khobs_industrial_mechanical_workshop",
-    "khobs_textile_company"
+    "wool_fabric_kurila",
+    "sewing_thread_kurila"
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",
@@ -27,7 +19,7 @@
     "shared_freight_import_caoutchouc",
     "IndustrializedLowTierProduction",
     "production_works_kurila",
-    "Taludas_VanillaRiverSlotBuildingsOW"
+    "wool_fabric_kurila"
   ],
   "Category": {
     "Chinese": "Addon",
@@ -43,17 +35,17 @@
     "Taiwanese": "Addon"
   },
   "ModName": {
-    "Chinese": "Industrial Sites",
-    "English": "Industrial Sites",
-    "French": "Industrial Sites",
-    "German": "Industrial Sites",
-    "Italian": "Industrial Sites",
-    "Japanese": "Industrial Sites",
-    "Korean": "Industrial Sites",
-    "Polish": "Industrial Sites",
-    "Russian": "Industrial Sites",
-    "Spanish": "Industrial Sites",
-    "Taiwanese": "Industrial Sites"
+    "Chinese": "Textile Company",
+    "English": "Textile Company",
+    "French": "Textile Company",
+    "German": "Textile Company",
+    "Italian": "Textile Company",
+    "Japanese": "Textile Company",
+    "Korean": "Textile Company",
+    "Polish": "Textile Company",
+    "Russian": "Textile Company",
+    "Spanish": "Textile Company",
+    "Taiwanese": "Textile Company"
   },
   "Description": {
     "Chinese": "file::README.md",
