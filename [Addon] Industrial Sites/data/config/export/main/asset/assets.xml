@@ -37,27 +37,6 @@
           <ConstructionCategory>
             <BuildingList>
               <Item>
-                <Building>2143505404</Building>
-              </Item>
-              <Item>
-                <Building>1010136</Building>
-              </Item>
-              <Item>
-                <Building>269779</Building>
-              </Item>
-              <Item>
-                <Building>269784</Building>
-              </Item>
-              <Item>
-                <Building>2143505405</Building>
-              </Item>
-              <Item>
-                <Building>2143505406</Building>
-              </Item>
-              <Item>
-                <Building>2143505407</Building>
-              </Item>
-              <Item>
                 <Building>2143505408</Building>
               </Item>
               <Item>
@@ -74,6 +53,24 @@
           </ConstructionCategory>
         </Values>
       </Asset>
+    </ModOp>
+    
+    <ModOp GUID="5993,269964,269975,500154" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='269784']">
+      <Item>
+        <Building>2143505405</Building>
+      </Item>
+      <Item>
+        <Building>2143505406</Building>
+      </Item>
+      <Item>
+        <Building>2143505407</Building>
+      </Item>
+    </ModOp>
+    
+    <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500016']">
+      <Item>
+        <Building>2143505404</Building>
+      </Item>
     </ModOp>
 
     <ModOp GUID="25000192" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500506']">
