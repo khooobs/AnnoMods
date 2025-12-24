@@ -18,7 +18,8 @@
     "ow-tools-jakob",
     "tools-jakob",
     "khobs_industrial_mechanical_workshop",
-    "khobs_textile_company"
+    "khobs_textile_company",
+    "khobs_assembly_line_company"
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",
