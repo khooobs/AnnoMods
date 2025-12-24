@@ -1326,10 +1326,5 @@
         <DefaultBuff>2143505516</DefaultBuff>
       </UpgradeList>
     </ModOp>
-    <ModOp GUID="25000190" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010360'][last()]">
-      <Item>
-        <Building>2143505518</Building>
-      </Item>   
-    </ModOp>
   </Group>
 </ModOps>

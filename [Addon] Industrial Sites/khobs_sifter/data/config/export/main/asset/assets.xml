@@ -1295,10 +1295,5 @@
         </Values>
       </Asset>
     </ModOp>
-    <ModOp GUID="25000190" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010360'][last()]">
-      <Item>
-        <Building>2143505536</Building>
-      </Item>
-    </ModOp>
   </Group>
 </ModOps>
