@@ -1265,6 +1265,58 @@
       </Asset>
     </ModOp>
    
+  <!-- START - Construction Menu -->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505568</GUID>
+          <Name>Steel Industry Menu</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_company.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>2143505408</Building>
+            </Item>
+            <Item>
+              <Building>1010136</Building>
+            </Item>
+            <Item>
+              <Building>2143505500</Building>
+            </Item>
+            <Item>
+              <Building>2143505507</Building>
+            </Item>
+            <Item>
+              <Building>2143505509</Building>
+            </Item>
+            <Item>
+              <Building>2143505564</Building>
+            </Item>
+            <Item>
+              <Building>2143505560</Building>
+            </Item>
+            <Item>
+              <Building>2143505575</Building>
+            </Item>
+          </BuildingList>
+          <CategoryDescription>2143505402</CategoryDescription>
+        </ConstructionCategory>
+        <Text>
+          <TextOverride>2143505408</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500016']">
+    <Item>
+      <Building>2143505568</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Construction Menu -->
+
     <!-- Cultural Sets -->
     <ModOp GUID="191114" Type="addNextSibling">
       <Asset>
@@ -1274,7 +1326,6 @@
             <GUID>2143505567</GUID>
             <Name>Industrial Converters</Name>
 			      <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_calciner_1.png</IconFilename>
-            <InfoDescription>2143505568</InfoDescription>
           </Standard>
           <ItemSocketSet>
             <SetBuff>2143505569</SetBuff>
