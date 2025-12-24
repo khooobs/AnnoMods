@@ -314,6 +314,43 @@
   </ModOp>
   <!-- END - Chemical Company -->
 
+<!-- START - Construction Menu -->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505761</GUID>
+          <Name>Chemical Industry Menu</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_company.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>2143505692</Building>
+            </Item>
+            <Item>
+              <Building>2143505700</Building>
+            </Item>
+            <Item>
+              <Building>2143505694</Building>
+            </Item>
+          </BuildingList>
+          <CategoryDescription>2143505402</CategoryDescription>
+        </ConstructionCategory>
+        <Text>
+          <TextOverride>2143505692</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500016']">
+    <Item>
+      <Building>2143505761</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Construction Menu -->
+
   <!-- START - Synthesis Laboratory -->
   <ModOp Type="addNextSibling" GUID="135134">
     <Asset>
@@ -323,6 +360,7 @@
           <GUID>2143505694</GUID>
           <Name>Synthesis Laboratory</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_synthesis_laboratory.png</IconFilename>
+          <InfoDescription>2143505697</InfoDescription>
         </Standard>
         <Building>
           <BuildModeRandomRotation>90</BuildModeRandomRotation>
@@ -564,52 +602,8 @@
   </ModOp>
   <!-- END - Synthesis Laboratory -->
 
-  <!-- START - Chemical Engineer -->
+  <!-- START - Chemical Compound -->
   <ModOp Type="addNextSibling" GUID="135134">
-    <Asset>
-      <Template>ProductStorageList</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505698</GUID>
-          <Name>Chemical Engineer</Name>
-        </Standard>
-        <ProductStorageList>
-          <ProductList>
-            <Item>
-              <Product>2143505697</Product>
-            </Item>
-          </ProductList>
-        </ProductStorageList>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Product</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505697</GUID>
-          <Name>Chemical Engineer</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_engineer.png</IconFilename>
-        </Standard>
-        <Product>
-          <StorageLevel>Building</StorageLevel>
-          <ProductCategory>4333</ProductCategory>
-          <BasePrice>1</BasePrice>
-          <CivLevel>1</CivLevel>
-          <IsStrategicResource>1</IsStrategicResource>
-          <AssociatedRegion>Moderate</AssociatedRegion>
-          <ProductionRegions>
-            <Item>
-              <RegionType>Moderate</RegionType>
-            </Item>
-          </ProductionRegions>
-          <BlockTransfer>1</BlockTransfer>
-          <HighscoreValueModifier>1</HighscoreValueModifier>
-        </Product>
-        <ExpeditionAttribute>
-          <BaseMorale>0</BaseMorale>
-        </ExpeditionAttribute>
-      </Values>
-    </Asset>
     <Asset>
       <Template>Product</Template>
       <Values>
@@ -646,7 +640,7 @@
       <Product>2143505699</Product>
     </Item>
   </ModOp>
-  <!-- END - Chemical Engineer -->
+  <!-- END - Chemical Compound -->
    
   <!-- START - Chemical Plant -->
   <ModOp Type="addNextSibling" GUID="135134">
@@ -657,7 +651,7 @@
           <GUID>2143505700</GUID>
           <Name>Chemical_Plant_Blank</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_plant_site.png</IconFilename>
-          <InfoDescription>132783</InfoDescription><!--Multifactory building infocorner-->
+          <InfoDescription>2143505698</InfoDescription>
         </Standard>
         <Object>
           <Variations>
@@ -2372,12 +2366,6 @@
             </Item>
             <Item>
               <Asset>2143505695</Asset>
-            </Item>
-            <Item>
-              <Asset>2143505697</Asset>
-            </Item>
-            <Item>
-              <Asset>2143505698</Asset>
             </Item>
             <Item>
               <Asset>2143505699</Asset>
