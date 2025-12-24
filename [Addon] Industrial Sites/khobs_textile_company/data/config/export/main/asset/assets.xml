@@ -2,14 +2,16 @@
   <!-- START - Textile Company -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
-      <Template>IndustrialCompany</Template>
+      <Template>IndustrialCompanyWithItems</Template>
       <Values>
         <Standard>
           <GUID>2143505593</GUID>
           <Name>Textile Company</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_company.png</IconFilename>
-          <InfoDescription>2143505409</InfoDescription>
         </Standard>
+        <Building>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -44,70 +46,34 @@
             </Item>
           </Variations>
         </Object>
-        <Culture>
-          <CultureSpawnGroup>1</CultureSpawnGroup>
-          <Sets>
-            <Item /> <!-- LLT -->
-            <Item /> <!-- LLB -->
+        <!-- These tag are temporary, they will be removed when related items/triggers are ready -->
+				<Selection>
+					<GUIType>Generic</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList/>
+						</Values>
+					</OnSelection>
+				</Selection>
+        <Ornament>
+          <OrnamentDescription>2143505621</OrnamentDescription>
+        </Ornament>
+        <!-- These tag are temporary, they will be removed when related items/triggers are ready -->
+        <ItemContainer>
+          <SocketScopeRadius>25</SocketScopeRadius>
+          <!-- <InitSocketItems>
             <Item>
-              <Set>2143505640</Set>
-            </Item> <!-- LT -->
-            <Item>
-              <Set>2143505651</Set>
-            </Item> <!-- LB -->
-            <Item /> <!-- MM -->
-            <Item>
-              <Set>2143505661</Set>
-            </Item> <!-- RM -->
-            <Item>
-              <Set>2143505647</Set>
-            </Item> <!-- RT -->
-            <Item>
-              <Set>2143505657</Set>
-            </Item> <!-- RB -->
-            <Item /> <!-- RRT -->
-            <Item /> <!-- RRB -->
-          </Sets>
-          <Attractiveness>20</Attractiveness>
-          <HasPollution>0</HasPollution>
-        </Culture>
-        <ModuleOwner>
-          <ConstructionOptions>
-            <Item>
-              <ModuleGUID>2143505624</ModuleGUID>
+              <Item>2143505599</Item>
             </Item>
             <Item>
-              <ModuleGUID>2143505402</ModuleGUID><!-- Fictive GUID to disable music pavilion -->
+              <Item>2143505601</Item>
             </Item>
             <Item>
-              <ModuleGUID>1742200004</ModuleGUID>
+              <Item>2143505661</Item>
             </Item>
-            <Item>
-              <ModuleGUID>2143505595</ModuleGUID>
-            </Item>
-            <Item>
-              <ModuleGUID>2143505603</ModuleGUID>
-            </Item>
-            <Item>
-              <ModuleGUID>2143505628</ModuleGUID>
-            </Item>
-            <Item>
-              <ModuleGUID>2143505630</ModuleGUID>
-            </Item>
-            <Item>
-              <ModuleGUID>2143505632</ModuleGUID>
-            </Item>
-            <Item>
-              <ModuleGUID>2143505634</ModuleGUID>
-            </Item>
-            <Item>
-              <ModuleGUID>2143505636</ModuleGUID>
-            </Item>
-            <Item>
-              <ModuleGUID>2143505638</ModuleGUID>
-            </Item>
-          </ConstructionOptions>
-        </ModuleOwner>
+          </InitSocketItems> -->
+        </ItemContainer>
         <Maintenance>
           <Maintenances>
             <Item>
@@ -116,7 +82,7 @@
               <InactiveAmount>2500</InactiveAmount>
             </Item>
             <Item>
-              <Product>1010116</Product>
+              <Product>1010117</Product>
               <Amount>100</Amount>
             </Item>
           </Maintenances>
@@ -195,12 +161,356 @@
             <Item>
               <Asset>2143505624</Asset>
             </Item>
+            <Item>
+              <Asset>2143505583</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505661</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505640</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505641</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505648</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505649</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505650</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505650</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505651</Asset>
+            </Item>
           </AssetList>
         </AssetPool>
       </Values>
     </Asset>
   </ModOp>
   <!-- END - Textile Asset Pool -->
+
+  <!-- START - Construction Menu -->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505583</GUID>
+          <Name>Textile Industry Menu</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_company.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>2143505593</Building>
+            </Item>
+            <Item>
+              <Building>2143505595</Building>
+            </Item>
+            <Item>
+              <Building>1742200004</Building>
+            </Item>
+            <Item>
+              <Building>2143505603</Building>
+            </Item>
+            <Item>
+              <Building>2143505640</Building>
+            </Item>
+          </BuildingList>
+          <CategoryDescription>2143505402</CategoryDescription>
+        </ConstructionCategory>
+        <Text>
+          <TextOverride>2143505593</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500016']">
+    <Item>
+      <Building>2143505583</Building>
+    </Item>
+  </ModOp> -->
+  <!-- END - Construction Menu -->
+
+  <!-- START - Textile Company Slotables Items -->
+   <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505599</GUID>
+          <Name>Factory Maintenance</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_factory_cycle.png</IconFilename>
+          <InfoDescription>2143505600</InfoDescription>
+        </Standard>
+        <Item>
+          <Allocation>None</Allocation>
+          <Rarity>Legendary</Rarity>
+          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
+          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
+          <MaxStackSize>1</MaxStackSize>
+          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
+          <HasAction>1</HasAction> <!-- enable ItemAction -->
+          <OnlyEquippableOnce>1</OnlyEquippableOnce>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505646</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemWithUI>
+          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
+        </ItemWithUI>
+        <ItemAction>
+          <ActiveBuff>2143505647</ActiveBuff>
+          <ActionScope>SelfRadius</ActionScope>
+          <CanEndItemAction>1</CanEndItemAction>
+          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
+        </ItemAction>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Buff />
+        <CraftableItem />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505601</GUID>
+          <Name>Spinning Mills</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_product.png</IconFilename>
+        </Standard>
+        <Item>
+          <Allocation>None</Allocation>
+          <Rarity>Legendary</Rarity>
+          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
+          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
+          <MaxStackSize>1</MaxStackSize>
+          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
+          <HasAction>1</HasAction> <!-- enable ItemAction -->
+          <OnlyEquippableOnce>1</OnlyEquippableOnce>
+        </Item>
+        <ItemEffect/>
+        <ItemWithUI>
+          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
+        </ItemWithUI>
+        <ItemAction>
+          <ActiveBuff>2143505642</ActiveBuff>
+          <ActionScope>SelfRadius</ActionScope>
+          <CanEndItemAction>1</CanEndItemAction>
+          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
+        </ItemAction>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Buff />
+        <CraftableItem />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505661</GUID>
+          <Name>Team Change</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_worker.png</IconFilename>
+        </Standard>
+        <Item>
+          <Allocation>None</Allocation>
+          <Rarity>Legendary</Rarity>
+          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
+          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
+          <MaxStackSize>1</MaxStackSize>
+          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
+          <HasAction>1</HasAction> <!-- enable ItemAction -->
+          <OnlyEquippableOnce>1</OnlyEquippableOnce>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505646</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemWithUI>
+          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
+        </ItemWithUI>
+        <ItemAction>
+          <ActiveBuff>2143505663</ActiveBuff>
+          <ActionScope>SelfRadius</ActionScope>
+          <CanEndItemAction>1</CanEndItemAction>
+          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
+        </ItemAction>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Buff />
+        <CraftableItem />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Textile Company Slotables Items -->
+   
+  <!-- START - Buffs -->
+  <ModOp GUID="191114" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505642</GUID>
+          <Name>Spinning Mills</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_product.png</IconFilename>
+          <InfoDescription>2143505643</InfoDescription>
+        </Standard>
+        <FactoryUpgrade />
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505647</GUID>
+          <Name>Factory Cycle</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_factory_cycle.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505646</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade />
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505663</GUID>
+          <Name>Team Change</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_worker.png</IconFilename>
+          <InfoDescription>2143505664</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505646</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade />
+        <BuildingUpgrade>
+          <ReplacingWorkforce>1010115</ReplacingWorkforce>
+          <MaintenanceUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+        </BuildingUpgrade>
+        <Buff />
+        <CultureUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Buffs -->
+
+  <!-- START - ItemEffectTargetPool -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505645</GUID>
+          <Name>AssetPool Weavers</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>2143505628</GUID>
+            </Item>
+            <Item>
+              <GUID>2143505630</GUID>
+            </Item>
+            <Item>
+              <GUID>2143505634</GUID>
+            </Item>
+            <Item>
+              <GUID>2143505636</GUID>
+            </Item>
+            <Item>
+              <GUID>2143505638</GUID>
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505646</GUID>
+          <Name>AssetPool Textile Industry</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>2143505623</GUID>
+            </Item>
+            <Item>
+              <GUID>2143505645</GUID>
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - ItemEffectTargetPool -->
 
   <!-- START - Loom Factory -->
   <ModOp Type="addNextSibling" GUID="25546">
@@ -213,6 +523,9 @@
           <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_loom_1.png</IconFilename>
           <InfoDescription>2143505596</InfoDescription>
         </Standard>
+        <Building>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -475,6 +788,56 @@
         </Standard>
       </Values>
     </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505632</GUID>
+          <Name>Chooseable_Weaver_Output_Fabric</Name>
+          <IconFilename>data/ui/2kimages/main/icons/icon_resource_health.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505634</GUID>
+          <Name>Supply_Workclothes</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_working_cloth.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505644</GUID>
+          <Name>Supply_Tapestries</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_tapestries.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505653</GUID>
+          <Name>Supply_Suits</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_suits.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505654</GUID>
+          <Name>Supply_Bombins</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_bowler_hat.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
   </ModOp>
 
   <!-- START - Spinning Mill -->
@@ -488,6 +851,9 @@
           <IconFilename>data/ui/2kimages/main/3dicons/icon_cloth.png</IconFilename>
           <InfoDescription>2143505604</InfoDescription>
         </Standard>
+        <Building>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -541,11 +907,6 @@
         <UpgradeList />
         <FactoryBase>
           <FactoryInputs>
-            <Item>
-              <Product>1500010153</Product>
-              <Amount>1</Amount>
-              <StorageAmount>0</StorageAmount>
-            </Item>
             <Item>
               <Product>2143505608</Product>
               <Amount>1</Amount>
@@ -609,6 +970,9 @@
           <Name>Spinning_Mill_1t</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool.png</IconFilename>
         </Standard>
+        <Building>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -708,6 +1072,9 @@
           <Name>Spinning_Mill_2t</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool_2.png</IconFilename>
         </Standard>
+        <Building>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -807,6 +1174,9 @@
           <Name>Spinning_Mill_3t</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_felt.png</IconFilename>
         </Standard>
+        <Building>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -906,6 +1276,9 @@
           <Name>Spinning_Mill_4t</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_cotton.png</IconFilename>
         </Standard>
+        <Building>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -1005,6 +1378,9 @@
           <Name>Spinning_Mill_6t</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_linen.png</IconFilename>
         </Standard>
+        <Building>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -1112,6 +1488,7 @@
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
         </Building>
         <Cost>
           <Costs>
@@ -1142,16 +1519,20 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_corner_right.cfg</Filename>
+              <Filename>
+                data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_corner_right.cfg</Filename>
             </Item>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_mid.cfg</Filename>
+              <Filename>
+                data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_mid.cfg</Filename>
             </Item>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_corner_left.cfg</Filename>
+              <Filename>
+                data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_corner_left.cfg</Filename>
             </Item>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_mid.cfg</Filename>
+              <Filename>
+                data/modgraphics/buildings/modules/spinning_mill/spinning_mill_module_mid.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1202,6 +1583,12 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <ItemContainer>
+          <SocketCount>1</SocketCount>
+          <SocketAllocation>RadiusBuilding;GuildHouse;TownHall;HarborOffice;Mod1</SocketAllocation>
+          <SocketScope>Radius</SocketScope>
+          <SocketScopeRadius>0</SocketScopeRadius>
+        </ItemContainer>
       </Values>
     </Asset>
     <Asset>
@@ -1346,7 +1733,7 @@
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool.png</IconFilename>
         </Standard>
         <Recipe>
-          <!-- <RecipeDescriptionText /> -->
+          <RecipeDescriptionText />
           <RecipeBuilding>2143505605</RecipeBuilding>
           <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/icon_fabric_recipe.png</RecipeImage>
           <RecipeIngredientUIData>
@@ -1370,7 +1757,7 @@
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool_2.png</IconFilename>
         </Standard>
         <Recipe>
-          <!-- <RecipeDescriptionText /> -->
+          <RecipeDescriptionText />
           <RecipeBuilding>2143505607</RecipeBuilding>
           <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/icon_fabric_recipe.png</RecipeImage>
           <RecipeIngredientUIData>
@@ -1394,7 +1781,7 @@
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_felt.png</IconFilename>
         </Standard>
         <Recipe>
-          <!-- <RecipeDescriptionText /> -->
+          <RecipeDescriptionText />
           <RecipeBuilding>2143505609</RecipeBuilding>
           <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/icon_fabric_recipe.png</RecipeImage>
           <RecipeIngredientUIData>
@@ -1428,7 +1815,7 @@
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_cotton.png</IconFilename>
         </Standard>
         <Recipe>
-          <!-- <RecipeDescriptionText /> -->
+          <RecipeDescriptionText />
           <RecipeBuilding>2143505611</RecipeBuilding>
           <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/icon_fabric_recipe.png</RecipeImage>
           <RecipeIngredientUIData>
@@ -1452,7 +1839,7 @@
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_linen.png</IconFilename>
         </Standard>
         <Recipe>
-          <!-- <RecipeDescriptionText /> -->
+          <RecipeDescriptionText />
           <RecipeBuilding>2143505613</RecipeBuilding>
           <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/icon_fabric_recipe.png</RecipeImage>
           <RecipeIngredientUIData>
@@ -1472,16 +1859,117 @@
 
   <!-- START - Weaver -->
   <ModOp Type="addNextSibling" GUID="25546">
-    <!-- Tier 1 -->
     <Asset>
-      <Template>IndustrialCompanyModule</Template>
+      <Template>IndustrialCompanyFactory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505640</GUID>
+          <Name>Weaver_Blank</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_weaver.png</IconFilename>
+          <InfoDescription>11143</InfoDescription>
+        </Standard>
+        <Building>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>25000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>12</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/weaver/weaver_workcloth.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <UpgradeList/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1500020000</Product>
+              <Amount>1</Amount>
+              <StorageAmount>0</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>2143505632</Product>
+              <Amount>1</Amount>
+              <StorageAmount>0</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+        </FactoryBase>
+        <LogisticNode/>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <RecipeBuilding>
+          <RecipeList>2143505641</RecipeList>
+          <RecipeBuildingType>Multifactory</RecipeBuildingType>
+          <IsBlank>1</IsBlank>
+        </RecipeBuilding>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>IndustrialCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505628</GUID>
-          <Name>Weaver_WorkClothes_Tier1</Name>
+          <Name>Weaver_WorkClothes</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_working_cloth.png</IconFilename>
           <InfoDescription>11143</InfoDescription>
         </Standard>
+        <Building>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -1568,17 +2056,25 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <RecipeBuilding>
+          <RecipeList>2143505641</RecipeList>
+          <RecipeBuildingType>Multifactory</RecipeBuildingType>
+          <IsBlank>0</IsBlank>
+        </RecipeBuilding>
       </Values>
     </Asset>
     <Asset>
-      <Template>IndustrialCompanyModule</Template>
+      <Template>IndustrialCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505630</GUID>
-          <Name>Weaver_Tapestries_Tier1</Name>
+          <Name>Weaver_Tapestries</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_tapestries.png</IconFilename>
           <InfoDescription>11143</InfoDescription>
         </Standard>
+        <Building>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -1665,212 +2161,25 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <RecipeBuilding>
+          <RecipeList>2143505641</RecipeList>
+          <RecipeBuildingType>Multifactory</RecipeBuildingType>
+          <IsBlank>0</IsBlank>
+        </RecipeBuilding>
       </Values>
     </Asset>
     <Asset>
-      <Template>IndustrialCompanyModule</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505632</GUID>
-          <Name>Weaver_Parkas_Tier1</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_fur_parka.png</IconFilename>
-          <InfoDescription>11143</InfoDescription>
-        </Standard>
-        <Cost>
-          <Costs>
-            <Item>
-              <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010196</Ingredient>
-              <Amount>8</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010205</Ingredient>
-              <Amount>15</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010218</Ingredient>
-              <Amount>12</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010207</Ingredient>
-              <Amount>10</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010202</Ingredient>
-              <Amount>10</Amount>
-            </Item>
-          </Costs>
-        </Cost>
-        <Object>
-          <Variations>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/weaver/weaver_workcloth.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <Mesh />
-        <Selection>
-          <GUIType>Production</GUIType>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList />
-            </Values>
-          </OnSelection>
-          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
-          <Colors>
-            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-          </Colors>
-        </Selection>
-        <UpgradeList>
-          <DefaultBuff>2143505598</DefaultBuff>
-        </UpgradeList>
-        <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1500020000</Product>
-              <Amount>1</Amount>
-              <StorageAmount>10</StorageAmount>
-            </Item>
-          </FactoryInputs>
-          <FactoryOutputs>
-            <Item>
-              <Product>112700</Product>
-              <Amount>1</Amount>
-              <StorageAmount>10</StorageAmount>
-            </Item>
-          </FactoryOutputs>
-          <CycleTime>15</CycleTime>
-          <IsMainFactory>0</IsMainFactory>
-        </FactoryBase>
-        <LogisticNode>
-          <TransporterCountMax>1</TransporterCountMax>
-        </LogisticNode>
-        <Maintenance>
-          <Maintenances>
-            <Item>
-              <Product>1010017</Product>
-              <Amount>1000</Amount>
-              <InactiveAmount>500</InactiveAmount>
-            </Item>
-            <Item>
-              <Product>1010115</Product>
-              <Amount>50</Amount>
-            </Item>
-          </Maintenances>
-        </Maintenance>
-      </Values>
-    </Asset>
-    <!-- Tier 2 -->
-    <Asset>
-      <Template>IndustrialCompanyModule</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505634</GUID>
-          <Name>Weaver_Coats_Tier2</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_fur_coats.png</IconFilename>
-          <InfoDescription>11143</InfoDescription>
-        </Standard>
-        <Cost>
-          <Costs>
-            <Item>
-              <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010196</Ingredient>
-              <Amount>8</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010205</Ingredient>
-              <Amount>15</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010218</Ingredient>
-              <Amount>12</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010207</Ingredient>
-              <Amount>10</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010202</Ingredient>
-              <Amount>10</Amount>
-            </Item>
-          </Costs>
-        </Cost>
-        <Object>
-          <Variations>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/weaver/weaver_workcloth.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <Mesh />
-        <Selection>
-          <GUIType>Production</GUIType>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList />
-            </Values>
-          </OnSelection>
-          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
-          <Colors>
-            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-          </Colors>
-        </Selection>
-        <UpgradeList>
-          <DefaultBuff>2143505598</DefaultBuff>
-        </UpgradeList>
-        <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1500020000</Product>
-              <Amount>1</Amount>
-              <StorageAmount>10</StorageAmount>
-            </Item>
-          </FactoryInputs>
-          <FactoryOutputs>
-            <Item>
-              <Product>1010247</Product>
-              <Amount>1</Amount>
-              <StorageAmount>10</StorageAmount>
-            </Item>
-          </FactoryOutputs>
-          <CycleTime>15</CycleTime>
-          <IsMainFactory>0</IsMainFactory>
-        </FactoryBase>
-        <LogisticNode>
-          <TransporterCountMax>1</TransporterCountMax>
-        </LogisticNode>
-        <Maintenance>
-          <Maintenances>
-            <Item>
-              <Product>1010017</Product>
-              <Amount>1000</Amount>
-              <InactiveAmount>500</InactiveAmount>
-            </Item>
-            <Item>
-              <Product>1010115</Product>
-              <Amount>50</Amount>
-            </Item>
-          </Maintenances>
-        </Maintenance>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>IndustrialCompanyModule</Template>
+      <Template>IndustrialCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505636</GUID>
-          <Name>Weaver_Suits_Tier2</Name>
+          <Name>Weaver_Suits</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_suits.png</IconFilename>
           <InfoDescription>11143</InfoDescription>
         </Standard>
+        <Building>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -1957,17 +2266,25 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <RecipeBuilding>
+          <RecipeList>2143505641</RecipeList>
+          <RecipeBuildingType>Multifactory</RecipeBuildingType>
+          <IsBlank>0</IsBlank>
+        </RecipeBuilding>
       </Values>
     </Asset>
     <Asset>
-      <Template>IndustrialCompanyModule</Template>
+      <Template>IndustrialCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505638</GUID>
-          <Name>Weaver_Bombins_Tier2</Name>
+          <Name>Weaver_Bombins</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_bowler_hat.png</IconFilename>
           <InfoDescription>11143</InfoDescription>
         </Standard>
+        <Building>
+					<BuildingCategoryName>2143505602</BuildingCategoryName>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -2054,509 +2371,159 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <RecipeBuilding>
+          <RecipeList>2143505641</RecipeList>
+          <RecipeBuildingType>Multifactory</RecipeBuildingType>
+          <IsBlank>0</IsBlank>
+        </RecipeBuilding>
       </Values>
     </Asset>
   </ModOp>
   <!-- END - Weaver -->
 
-  <!-- START - Cultural Sets -->
-  <ModOp GUID="191114" Type="addNextSibling">
-    <!-- Items -->
+  <!-- START - Weaver Recipes -->
+  <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
-      <Template>GuildhouseItem</Template>
+      <Template>RecipeList</Template>
       <Values>
         <Standard>
-          <GUID>2143505599</GUID>
-          <Name>Stylist Book</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/highlife/icon_assembly_line_item_new_1.png</IconFilename>
-          <InfoDescription>2143505600</InfoDescription>
+          <GUID>2143505641</GUID>
+          <Name>RecipeList_Weaver</Name>
+          <IconFilename>
+            data/ui/2kimages/main/3dicons/monument_products/monument_correct_decoration.png</IconFilename>
         </Standard>
-        <Item>
-          <MaxStackSize>1</MaxStackSize>
-          <Rarity>Rare</Rarity>
-          <TradePrice>29500</TradePrice>
-        </Item>
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>120</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
-        <ItemEffect>
-          <EffectTargets>
+        <RecipeList>
+          <RecipeListType>DropGood</RecipeListType>
+          <RecipeListMoodImage>
+            data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_artisans_workshop.png</RecipeListMoodImage>
+          <RecipeListDescription>2143505622</RecipeListDescription>
+          <Recipes>
             <Item>
-              <GUID>190890</GUID>
+              <Recipe>2143505648</Recipe>
             </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <ItemAction />
-        <ExpeditionAttribute>
-          <ItemDifficulties>Average</ItemDifficulties>
-        </ExpeditionAttribute>
-        <CultureUpgrade>
-          <AttractivenessUpgrade>
-            <Value>-35</Value>
-          </AttractivenessUpgrade>
-        </CultureUpgrade>
-        <BuildingUpgrade>
-          <MaintenanceUpgrade>
-            <Value>100</Value>
-            <Percental>1</Percental>
-          </MaintenanceUpgrade>
-          <WorkforceAmountUpgrade>
-            <Value>100</Value>
-            <Percental>1</Percental>
-          </WorkforceAmountUpgrade>
-        </BuildingUpgrade>
-        <ModuleOwnerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IncidentInfectableUpgrade>
-          <IncidentFireIncreaseUpgrade>
-            <Value>25</Value>
-            <Percental>1</Percental>
-          </IncidentFireIncreaseUpgrade>
-          <IncidentIllnessIncreaseUpgrade>
-            <Value>35</Value>
-            <Percental>1</Percental>
-          </IncidentIllnessIncreaseUpgrade>
-          <IncidentRiotIncreaseUpgrade>
-            <Value>10</Value>
-            <Percental>1</Percental>
-          </IncidentRiotIncreaseUpgrade>
-        </IncidentInfectableUpgrade>
-        <ResidenceUpgrade />
-        <PopulationUpgrade />
-        <IndustrializableUpgrade />
-        <Locked />
-        <Buff />
-        <CraftableItem />
-        <HeaterUpgrade />
-        <PowerplantUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
+            <Item>
+              <Recipe>2143505649</Recipe>
+            </Item>
+            <Item>
+              <Recipe>2143505650</Recipe>
+            </Item>
+            <Item>
+              <Recipe>2143505651</Recipe>
+            </Item>
+          </Recipes>
+        </RecipeList>
       </Values>
     </Asset>
     <Asset>
-      <Template>GuildhouseItem</Template>
+      <Template>Recipe</Template>
       <Values>
         <Standard>
-          <GUID>2143505601</GUID>
-          <Name>Sketches of outfits</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/narative_item/icon_blueprint_pump.png</IconFilename>
-          <InfoDescription>2143505602</InfoDescription>
+          <GUID>2143505648</GUID>
+          <Name>Recipe_Workclothes</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_working_cloth.png</IconFilename>
         </Standard>
-        <Item>
-          <MaxStackSize>1</MaxStackSize>
-          <Rarity>Uncommon</Rarity>
-          <TradePrice>15900</TradePrice>
-        </Item>
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>20</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
-        <ItemEffect>
-          <EffectTargets>
+        <Recipe>
+          <RecipeDescriptionText />
+          <RecipeBuilding>2143505628</RecipeBuilding>
+          <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/icon_fabric_recipe.png</RecipeImage>
+          <RecipeIngredientUIData>
             <Item>
-              <GUID>190890</GUID>
+              <PosX>10</PosX>
+              <PosY>15</PosY>
+              <UICirclePointer>SouthEast</UICirclePointer>
             </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <ItemAction />
-        <ExpeditionAttribute />
-        <CultureUpgrade />
-        <BuildingUpgrade />
-        <ModuleOwnerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IncidentInfectableUpgrade />
-        <ResidenceUpgrade />
-        <PopulationUpgrade />
-        <IndustrializableUpgrade />
-        <Locked />
-        <Buff />
-        <CraftableItem />
-        <HeaterUpgrade />
-        <PowerplantUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-      </Values>
-    </Asset>
-    <!-- ItemSet -->
-    <Asset>
-      <Template>ItemSet</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505640</GUID>
-          <Name>Industrial Loom</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_loom_2.png</IconFilename>
-          <InfoDescription>2143505641</InfoDescription>
-        </Standard>
-        <ItemSocketSet>
-          <SetBuff>2143505642</SetBuff>
-          <BuffScope>Area</BuffScope>
-        </ItemSocketSet>
+          </RecipeIngredientUIData>
+          <RecipeUnlockConditionText>135017</RecipeUnlockConditionText>
+        </Recipe>
+        <Text>
+          <TextOverride>1010237</TextOverride>
+        </Text>
         <Locked />
       </Values>
     </Asset>
     <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505642</GUID>
-          <Name>Industrial Loom</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_loom_2.png</IconFilename>
-          <InfoDescription>2143505643</InfoDescription>
-        </Standard>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505646</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>100</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
-        <BuildingUpgrade />
-        <Buff />
-        <CultureUpgrade />
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>ItemEffectTargetPool</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505645</GUID>
-          <Name>AssetPool Weavers</Name>
-        </Standard>
-        <ItemEffectTargetPool>
-          <EffectTargetGUIDs>
-            <Item>
-              <GUID>2143505628</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505630</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505632</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505634</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505636</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505638</GUID>
-            </Item>
-          </EffectTargetGUIDs>
-        </ItemEffectTargetPool>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>ItemEffectTargetPool</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505646</GUID>
-          <Name>AssetPool Textile Industry</Name>
-        </Standard>
-        <ItemEffectTargetPool>
-          <EffectTargetGUIDs>
-            <Item>
-              <GUID>2143505623</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505645</GUID>
-            </Item>
-          </EffectTargetGUIDs>
-        </ItemEffectTargetPool>
-      </Values>
-    </Asset>
-
-    <Asset>
-      <Template>ItemSet</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505647</GUID>
-          <Name>Advertising Campaign</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/effects_highlife/icon_buff_dlc09_10.png</IconFilename>
-          <InfoDescription>2143505648</InfoDescription>
-        </Standard>
-        <ItemSocketSet>
-          <SetBuff>2143505649</SetBuff>
-          <BuffScope>Area</BuffScope>
-        </ItemSocketSet>
-        <Locked />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>TownhallBuff</Template>
+      <Template>Recipe</Template>
       <Values>
         <Standard>
           <GUID>2143505649</GUID>
-          <Name>Advertising Campaign</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/effects_highlife/icon_buff_dlc09_10.png</IconFilename>
-          <InfoDescription>2143505650</InfoDescription>
+          <Name>Recipe_Tapestries</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_tapestries.png</IconFilename>
         </Standard>
-        <ItemEffect>
-          <EffectTargets>
+        <Recipe>
+          <RecipeDescriptionText />
+          <RecipeBuilding>2143505630</RecipeBuilding>
+          <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/icon_fabric_recipe.png</RecipeImage>
+          <RecipeIngredientUIData>
             <Item>
-              <GUID>190041</GUID>
+              <PosX>10</PosX>
+              <PosY>15</PosY>
+              <UICirclePointer>SouthEast</UICirclePointer>
             </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <FactoryUpgrade />
-        <BuildingUpgrade />
-        <ResidenceUpgrade>
-          <GoodConsumptionUpgrade>
-            <Item>
-              <ProvidedNeed>1010237</ProvidedNeed>
-              <AmountInPercent>30</AmountInPercent>
-            </Item>
-            <Item>
-              <ProvidedNeed>1010247</ProvidedNeed>
-              <AmountInPercent>30</AmountInPercent>
-            </Item>
-            <Item>
-              <ProvidedNeed>114430</ProvidedNeed>
-              <AmountInPercent>15</AmountInPercent>
-            </Item>
-            <Item>
-              <ProvidedNeed>1010206</ProvidedNeed>
-              <AmountInPercent>-75</AmountInPercent>
-            </Item>
-          </GoodConsumptionUpgrade>
-        </ResidenceUpgrade>
-        <PopulationUpgrade>
-          <InputBenefitModifier>
-            <Item>
-              <Product>1010237</Product>
-              <AdditionalMoney>2</AdditionalMoney>
-            </Item>
-            <Item>
-              <Product>1010247</Product>
-              <AdditionalMoney>3</AdditionalMoney>
-            </Item>
-            <Item>
-              <Product>114430</Product>
-              <AdditionalMoney>3</AdditionalMoney>
-            </Item>
-            <Item>
-              <Product>1010206</Product>
-              <AdditionalMoney>-15</AdditionalMoney>
-            </Item>
-          </InputBenefitModifier>
-        </PopulationUpgrade>
-        <Buff />
-        <CultureUpgrade />
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
+          </RecipeIngredientUIData>
+          <RecipeUnlockConditionText>135017</RecipeUnlockConditionText>
+        </Recipe>
+        <Locked />
+        <Text>
+          <TextOverride>114404</TextOverride>
+        </Text>
       </Values>
     </Asset>
-
     <Asset>
-      <Template>ItemSet</Template>
+      <Template>Recipe</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505650</GUID>
+          <Name>Recipe_Suits</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_suits.png</IconFilename>
+        </Standard>
+        <Recipe>
+          <RecipeDescriptionText />
+          <RecipeBuilding>2143505636</RecipeBuilding>
+          <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/icon_fabric_recipe.png</RecipeImage>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>10</PosX>
+              <PosY>15</PosY>
+              <UICirclePointer>SouthEast</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
+          <RecipeUnlockConditionText>135017</RecipeUnlockConditionText>
+        </Recipe>
+        <Locked />
+        <Text>
+          <TextOverride>114430</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Recipe</Template>
       <Values>
         <Standard>
           <GUID>2143505651</GUID>
-          <Name>Spinning Expertise</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_sheep_wool.png</IconFilename>
-          <InfoDescription>2143505652</InfoDescription>
+          <Name>Recipe_Bombins</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_bowler_hat.png</IconFilename>
         </Standard>
-        <ItemSocketSet>
-          <SetBuff>2143505653</SetBuff>
-          <BuffScope>Area</BuffScope>
-        </ItemSocketSet>
+        <Recipe>
+          <RecipeDescriptionText />
+          <RecipeBuilding>2143505638</RecipeBuilding>
+          <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/icon_fabric_recipe.png</RecipeImage>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>10</PosX>
+              <PosY>15</PosY>
+              <UICirclePointer>SouthEast</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
+          <RecipeUnlockConditionText>135017</RecipeUnlockConditionText>
+        </Recipe>
         <Locked />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505653</GUID>
-          <Name>Spinning Expertise</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_sheep_wool.png</IconFilename>
-          <InfoDescription>2143505654</InfoDescription>
-        </Standard>
-        <FactoryUpgrade />
-        <BuildingUpgrade />
-        <Buff />
-        <CultureUpgrade />
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
-      </Values>
-    </Asset>
-
-    <Asset>
-      <Template>ItemSet</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505657</GUID>
-          <Name>Haute Couture</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/machine_items/africa/item_mannequin.png</IconFilename>
-          <InfoDescription>2143505658</InfoDescription>
-        </Standard>
-        <ItemSocketSet>
-          <SetBuff>2143505659</SetBuff>
-          <BuffScope>Area</BuffScope>
-        </ItemSocketSet>
-        <Locked />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505659</GUID>
-          <Name>Haute Couture</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/machine_items/africa/item_mannequin.png</IconFilename>
-          <InfoDescription>2143505660</InfoDescription>
-        </Standard>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505645</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>100</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-          <AdditionalOutput>
-            <Item>
-              <Product>1010247</Product>
-              <AdditionalOutputCycle>3</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Product>114430</Product>
-              <AdditionalOutputCycle>4</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Product>120037</Product>
-              <AdditionalOutputCycle>6</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Product>114427</Product>
-              <AdditionalOutputCycle>4</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-          </AdditionalOutput>
-        </FactoryUpgrade>
-        <BuildingUpgrade>
-          <MaintenanceUpgrade>
-            <Value>50</Value>
-            <Percental>1</Percental>
-          </MaintenanceUpgrade>
-        </BuildingUpgrade>
-        <Buff />
-        <CultureUpgrade />
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
-      </Values>
-    </Asset>
-
-    <Asset>
-      <Template>ItemSet</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505661</GUID>
-          <Name>Urban Fabrics</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_dissidents.png</IconFilename>
-          <InfoDescription>2143505662</InfoDescription>
-        </Standard>
-        <ItemSocketSet>
-          <SetBuff>2143505663</SetBuff>
-          <BuffScope>Area</BuffScope>
-        </ItemSocketSet>
-        <Locked />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505663</GUID>
-          <Name>Urban Fabrics</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_dissidents.png</IconFilename>
-          <InfoDescription>2143505664</InfoDescription>
-        </Standard>
-        <FactoryUpgrade />
-        <BuildingUpgrade />
-        <Buff />
-        <CultureUpgrade />
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
+        <Text>
+          <TextOverride>120037</TextOverride>
+        </Text>
       </Values>
     </Asset>
   </ModOp>
-
-  <ModOp GUID="190885,190884,190883" Type="Add" Path="Values/Item/">
-    <ItemSet>2143505640</ItemSet>
-  </ModOp>
-
-  <ModOp GUID="110936,111045,111169" Type="Add" Path="Values/Item/">
-    <ItemSet>2143505647</ItemSet>
-  </ModOp>
-
-  <ModOp GUID="191336,191326,191325,191342,192034,191337" Type="Add" Path="Values/Item/">
-    <ItemSet>2143505651</ItemSet>
-  </ModOp>
-
-  <ModOp GUID="191329,191328,191327,125066,191347,2143505599" Type="Add" Path="Values/Item/">
-    <ItemSet>2143505657</ItemSet>
-  </ModOp>
-
-  <ModOp GUID="191348,192039,2143505601" Type="Add" Path="Values/Item/">
-    <ItemSet>2143505661</ItemSet>
-  </ModOp>
-  <!-- END - Cultural Sets -->
+  <!-- END - Weaver Recipes -->
 
   <!-- START - Tweaks -->
   <Group Condition="#wool_fabric_kurila">
