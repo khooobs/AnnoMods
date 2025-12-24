@@ -31,14 +31,17 @@
           </Standard>
           <ConstructionCategory>
             <BuildingList>
-              <Item>
-                <Building>2143505408</Building>
-              </Item>
             </BuildingList>
             <CategoryDescription>2143505402</CategoryDescription>
           </ConstructionCategory>
         </Values>
       </Asset>
+    </ModOp>
+    
+    <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500016']">
+      <Item>
+        <Building>2143505403</Building>
+      </Item>
     </ModOp>
     
     <ModOp GUID="5993,269964,269975,500154" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='269784']">
@@ -58,13 +61,37 @@
         <Building>2143505404</Building>
       </Item>
     </ModOp>
+  </Group>
 
-    <ModOp GUID="25000192" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500506']">
+  <!-- START - Industrial Mechanical Workshop - Add to category -->
+  <Group Condition="#khobs_industrial_mechanical_workshop">
+    <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
       <Item>
-        <Building>2143505403</Building>
+        <Building>2143505667</Building>
       </Item>
     </ModOp>
   </Group>
+  <!-- END - Industrial Mechanical Workshop - Add to category -->
+   
+  <!-- START - Crusher - Add to category -->
+  <Group Condition="#khobs_crusher">
+    <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>2143505518</Building>
+      </Item>
+    </ModOp>
+  </Group>
+  <!-- END - Crusher - Add to category -->
+   
+  <!-- START - Sifter - Add to category -->
+  <Group Condition="#khobs_sifter">
+    <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>2143505536</Building>
+      </Item>
+    </ModOp>
+  </Group>
+  <!-- END - Sifter - Add to category -->
 
   
   <!-- START - Textile Company - Add to category -->
@@ -768,14 +795,4 @@
       </Values>
     </Asset>
   </ModOp>
-
-  <!-- START - Industrial Mechanical Workshop - Add to category -->
-  <Group Condition="#khobs_industrial_mechanical_workshop">
-    <ModOp GUID="25000192" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500506']">
-      <Item>
-        <Building>2143505667</Building>
-      </Item>
-    </ModOp>
-  </Group>
-  <!-- END - Industrial Mechanical Workshop - Add to category -->
 </ModOps>
