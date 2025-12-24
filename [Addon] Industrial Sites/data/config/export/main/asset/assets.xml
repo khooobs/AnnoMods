@@ -17,8 +17,6 @@
   <!-- Include Region -->
   <Include File="../../../../khobs/tweaks/assets.include.xml" />
   <Include File="../../../../khobs/triggers/assets.include.xml" />
-
-  <Include File="./steel.include.xml" />
   
   <!-- Industrial Menus -->
   <Group>
