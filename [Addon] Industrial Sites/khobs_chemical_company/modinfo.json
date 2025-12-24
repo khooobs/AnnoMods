@@ -1,35 +1,18 @@
 {
-  "Version": "0.8.5",
-  "ModID": "khobs_industrial_sites",
+  "Version": "0.1.0",
+  "ModID": "khobs_chemical_company",
   "IncompatibleIds": null,
   "ModDependencies": [
     "Taludas_neutral_airport",
     "neutral_hacienda_genshi",
     "shared_ui_change_kurila",
     "shared_neutral_culture_modules",
-    "shared_strategic_harbour",
-    "shared-ground-textures-industry-jakob",
-    "khobs_sifter",
-    "khobs_crusher",
-    "shared_freight_station_khobs",
-    "shared_freight_import_caoutchouc",
-    "jakob-railway-stations",
-    "models-railway-jakob",
-    "ow-tools-jakob",
-    "tools-jakob",
-    "khobs_industrial_mechanical_workshop",
-    "khobs_textile_company",
-    "khobs_assembly_line_company",
-    "khobs_chemical_company"
+    "shared-ground-textures-industry-jakob"
   ],
   "LoadAfterIds": [
     "shared_neutral_culture_modules",
     "shared_strategic_harbour",
-    "shared_freight_station_khobs",
-    "shared_freight_import_caoutchouc",
-    "IndustrializedLowTierProduction",
-    "production_works_kurila",
-    "Taludas_VanillaRiverSlotBuildingsOW"
+    "production_works_kurila"
   ],
   "Category": {
     "Chinese": "Addon",
@@ -45,17 +28,17 @@
     "Taiwanese": "Addon"
   },
   "ModName": {
-    "Chinese": "Industrial Sites",
-    "English": "Industrial Sites",
-    "French": "Industrial Sites",
-    "German": "Industrial Sites",
-    "Italian": "Industrial Sites",
-    "Japanese": "Industrial Sites",
-    "Korean": "Industrial Sites",
-    "Polish": "Industrial Sites",
-    "Russian": "Industrial Sites",
-    "Spanish": "Industrial Sites",
-    "Taiwanese": "Industrial Sites"
+    "Chinese": "Chemical Company",
+    "English": "Chemical Company",
+    "French": "Chemical Company",
+    "German": "Chemical Company",
+    "Italian": "Chemical Company",
+    "Japanese": "Chemical Company",
+    "Korean": "Chemical Company",
+    "Polish": "Chemical Company",
+    "Russian": "Chemical Company",
+    "Spanish": "Chemical Company",
+    "Taiwanese": "Chemical Company"
   },
   "Description": {
     "Chinese": "file::README.md",
