@@ -131,6 +131,43 @@
   </ModOp>
   <!-- END - AssemblyLine Company -->
   
+  <!-- START - Construction Menu -->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505759</GUID>
+          <Name>Assembly Line Industry Menu</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_assembly_line_company.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>2143505723</Building>
+            </Item>
+            <Item>
+              <Building>2143505724</Building>
+            </Item>
+            <Item>
+              <Building>2143505737</Building>
+            </Item>
+          </BuildingList>
+          <CategoryDescription>2143505402</CategoryDescription>
+        </ConstructionCategory>
+        <Text>
+          <TextOverride>2143505723</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500016']">
+    <Item>
+      <Building>2143505759</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Construction Menu -->
+
   <!-- START - AssemblyLine AssetPool -->
   <ModOp GUID="25546" Type="addNextSibling">
     <Asset>
@@ -550,6 +587,7 @@
           <GUID>2143505737</GUID>
           <Name>Assembly_Line_Blank</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_assembly_line.png</IconFilename>
+          <InfoDescription>2143505760</InfoDescription>
         </Standard>
         <Text>
           <TextOverride>134619</TextOverride>
