@@ -19,9 +19,6 @@
   <Include File="../../../../khobs/triggers/assets.include.xml" />
 
   <Include File="./steel.include.xml" />
-  <!-- <Include File="./chemical.include.xml" /> -->
-  <!-- <Include File="./textile.include.xml" /> -->
-  <!-- <Include File="./assembly-line.include.xml" /> -->
   
   <!-- Industrial Menus -->
   <Group>
@@ -38,15 +35,6 @@
             <BuildingList>
               <Item>
                 <Building>2143505408</Building>
-              </Item>
-              <Item>
-                <Building>2143505593</Building>
-              </Item>
-              <Item>
-                <Building>2143505692</Building>
-              </Item>
-              <Item>
-                <Building>2143505723</Building>
               </Item>
             </BuildingList>
             <CategoryDescription>2143505402</CategoryDescription>
