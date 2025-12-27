@@ -1,340 +1,150 @@
 <ModOps>
-    <ModOp Type="addNextSibling" GUID="25546">
-      <Asset>
-        <Template>IndustrialCompany</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505408</GUID>
-            <Name>Steel Company</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_company.png</IconFilename>
-            <InfoDescription>2143505409</InfoDescription>
-          </Standard>
-          <Cost>
-            <Costs>
-              <Item>
-                <Ingredient>1010017</Ingredient>
-                <Amount>10000</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010196</Ingredient>
-                <Amount>30</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010205</Ingredient>
-                <Amount>30</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010218</Ingredient>
-                <Amount>10</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010207</Ingredient>
-                <Amount>5</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010202</Ingredient>
-              </Item>
-            </Costs>
-          </Cost>
-          <Object>
-            <Variations>
-              <Item>
-                <Filename>data/modgraphics/buildings/special/steel_company/steel_company.cfg</Filename>
-              </Item>
-            </Variations>
-          </Object>
-          <Culture>
-            <CultureSpawnGroup>1</CultureSpawnGroup>
-            <Sets>
-              <Item/> <!-- LLT -->
-              <Item/> <!-- LLB -->
-              <Item>
-                <Set>2143505567</Set>
-              </Item> <!-- LT -->
-              <Item>
-                <Set>2143505579</Set>
-              </Item> <!-- LB -->
-              <Item/> 
-              <Item/> <!-- MM -->
-              <Item>
-                <Set>2143505571</Set>
-              </Item> <!-- RT -->
-              <Item>
-                <Set>2143505584</Set>
-              </Item> <!-- RB -->
-              <Item/> <!-- ? -->
-              <Item/> <!-- RRT -->
-              <Item/> <!-- RRB -->
-            </Sets>
-            <Attractiveness>-10</Attractiveness>
-            <HasPollution>1</HasPollution>
-          </Culture>
-          <ModuleOwner>
-            <ConstructionOptions>
-              <Item>
-                <ModuleGUID>2143505509</ModuleGUID>
-              </Item>
-              <Item>
-                <ModuleGUID>2143505402</ModuleGUID><!-- Fictive GUID to disable music pavilion -->
-              </Item> 
-              <Item>
-                <ModuleGUID>1010136</ModuleGUID>
-              </Item>
-              <Item>
-                <ModuleGUID>2143505500</ModuleGUID>
-              </Item>
-              <Item>
-                <ModuleGUID>2143505507</ModuleGUID>
-              </Item>
-              <Item>
-                <ModuleGUID>2143505564</ModuleGUID>
-              </Item>
-              <Item>
-                <ModuleGUID>2143505560</ModuleGUID>
-              </Item>
-              <Item>
-                <ModuleGUID>2143505575</ModuleGUID>
-              </Item>
-            </ConstructionOptions>
-          </ModuleOwner>
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>5000</Amount>
-                <InactiveAmount>2500</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010117</Product>
-                <Amount>100</Amount>
-              </Item>
-            </Maintenances>
-            <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
-          </Maintenance>
-        </Values>
-      </Asset>
-      <!-- Coal Depot -->
-      <Asset>
-        <Template>IndustrialCompanyFactory</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505500</GUID>
-            <Name>Coal Depot - Module</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage.png</IconFilename>
-            <InfoDescription>2143505501</InfoDescription>
-          </Standard>
-          <Cost>
-            <Costs>
-              <Item>
-                <Ingredient>1010017</Ingredient>
-                <Amount>5000</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010226</Ingredient>
-                <Amount>175</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010196</Ingredient>
-                <Amount>20</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010205</Ingredient>
-                <Amount>50</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010218</Ingredient>
-                <Amount>5</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010207</Ingredient>
-              </Item>
-              <Item>
-                <Ingredient>1010202</Ingredient>
-              </Item>
-            </Costs>
-          </Cost>
-          <Object>
-            <GUIType>Production</GUIType>
-            <Variations>
-              <Item>
-                <Filename>data/modgraphics/buildings/production/coal_depot/coal_depot.cfg</Filename>
-              </Item>
-            </Variations>
-          </Object>
-          <Mesh/>
-          <FactoryBase>
-            <FactoryInputs>
-              <Item>
-                <Product>1010226</Product>
-                <Amount>1</Amount>
-                <StorageAmount>30</StorageAmount>
-              </Item>
-            </FactoryInputs>
-			      <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
-            <CycleTime>30</CycleTime>
-          </FactoryBase>
-          <BuffFactory>
-            <ProductionBuffs>
-              <Item>
-                <ProductivityBuff>2143505502</ProductivityBuff>
-              </Item>
-            </ProductionBuffs>
-            <ProductionBuffScope>Radius</ProductionBuffScope>
-            <ProductionBuffDistance>20</ProductionBuffDistance>
-          </BuffFactory>
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010115</Product>
-                <Amount>50</Amount>
-              </Item>
-            </Maintenances>
-          </Maintenance>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>FestivalBuff</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505502</GUID>
-            <Name>Coal Depot - Module - Positive - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage.png</IconFilename>
-          </Standard>
-          <ItemEffect>
-            <EffectTargets>
-              <Item>
-                <GUID>2143505507</GUID>
-              </Item>
-            </EffectTargets>
-          </ItemEffect>
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>1000</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-          </FactoryUpgrade>
-          <BuildingUpgrade/>
-          <Buff/>
-          <CultureUpgrade/>
-          <ModuleOwnerUpgrade/>
-          <IncidentInfectableUpgrade/>
-          <PowerplantUpgrade/>
-          <IndustrializableUpgrade/>
-          <ItemContainerUpgrade/>
-          <IncidentInfluencerUpgrade/>
-          <IrrigationUpgrade/>
-          <EcoSystemProviderUpgrade/>
-          <ResourceUpgrade/>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>FestivalBuff</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505503</GUID>
-            <Name>Coal Depot - Module - Negative - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage.png</IconFilename>
-          </Standard>
-          <ItemEffect>
-            <EffectTargets>
-              <Item>
-                <GUID>2143505507</GUID>
-              </Item>
-            </EffectTargets>
-          </ItemEffect>
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>-1000</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-          </FactoryUpgrade>
-          <BuildingUpgrade/>
-          <Buff/>
-          <CultureUpgrade/>
-          <ModuleOwnerUpgrade/>
-          <IncidentInfectableUpgrade/>
-          <PowerplantUpgrade/>
-          <IndustrializableUpgrade/>
-          <ItemContainerUpgrade/>
-          <IncidentInfluencerUpgrade/>
-          <IrrigationUpgrade/>
-          <EcoSystemProviderUpgrade/>
-          <ResourceUpgrade/>
-        </Values>
-      </Asset>
-      <!-- Asset Pool -->
-      <Asset>
-        <Template>AssetPool</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505504</GUID>
-            <Name>AssetPool Steel Company</Name>
-          </Standard>
-          <AssetPool>
-            <AssetList>
-              <Item>
-                <Asset>2143505408</Asset>
-              </Item>
-              <Item>
-                <Asset>2143505500</Asset>
-              </Item>
-              <Item>
-                <Asset>2143505553</Asset>
-              </Item>
-              <Item>
-                <Asset>2143505507</Asset>
-              </Item>
-              <Item>
-                <Asset>2143505509</Asset>
-              </Item>
-              <Item>
-                <Asset>2143505564</Asset>
-              </Item>
-              <Item>
-                <Asset>2143505583</Asset>
-              </Item>
-            </AssetList>
-          </AssetPool>
-        </Values>
-      </Asset>
-      <!-- Blast Furnace -->
-      <!-- Template isn't IndustrialCompanyFactory to allowing a tier upgrade with ITLP -->
-      <Asset>
-        <Template>HeavyFactoryBuilding</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505507</GUID>
-            <Name>Blast Furnace - Factory</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_factory.png</IconFilename>
-            <InfoDescription>2143505508</InfoDescription>
-          </Standard>
-          <Building>
-            <SecondPartyRelevant>0</SecondPartyRelevant>
-            <BuildModeRandomRotation>180</BuildModeRandomRotation>
-            <AssociatedRegions>Moderate</AssociatedRegions>
-            <BuildingCategoryName>2143505402</BuildingCategoryName>
-          </Building>
-          <Blocking>
-            <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-          </Blocking>
-          <Cost>
-            <Costs>
+  <!-- START - Steel Company -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>IndustrialCompany</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505408</GUID>
+          <Name>Steel Company</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_company.png</IconFilename>
+          <InfoDescription>2143505409</InfoDescription>
+        </Standard>
+        <Cost>
+          <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>1500</Amount>
+              <Amount>10000</Amount>
             </Item>
             <Item>
               <Ingredient>1010196</Ingredient>
-              <Amount>8</Amount>
+              <Amount>30</Amount>
             </Item>
             <Item>
               <Ingredient>1010205</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
               <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/special/steel_company/steel_company.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Culture>
+          <CultureSpawnGroup>1</CultureSpawnGroup>
+          <Sets>
+            <Item/> <!-- LLT -->
+            <Item/> <!-- LLB -->
+            <Item>
+              <Set>2143505567</Set>
+            </Item> <!-- LT -->
+            <Item>
+              <Set>2143505579</Set>
+            </Item> <!-- LB -->
+            <Item/> 
+            <Item/> <!-- MM -->
+            <Item>
+              <Set>2143505571</Set>
+            </Item> <!-- RT -->
+            <Item>
+              <Set>2143505584</Set>
+            </Item> <!-- RB -->
+            <Item/> <!-- ? -->
+            <Item/> <!-- RRT -->
+            <Item/> <!-- RRB -->
+          </Sets>
+          <Attractiveness>-10</Attractiveness>
+          <HasPollution>1</HasPollution>
+        </Culture>
+        <ModuleOwner>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>2143505509</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>2143505402</ModuleGUID><!-- Fictive GUID to disable music pavilion -->
+            </Item> 
+            <Item>
+              <ModuleGUID>1010136</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>2143505500</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>2143505507</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>2143505564</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>2143505560</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>2143505575</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+        </ModuleOwner>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>5000</Amount>
+              <InactiveAmount>2500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>100</Amount>
+            </Item>
+          </Maintenances>
+          <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+        </Maintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Steel Company -->
+
+  <!-- START - Coal Depot -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>IndustrialCompanyFactory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505500</GUID>
+          <Name>Coal Depot - Module</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage.png</IconFilename>
+          <InfoDescription>2143505501</InfoDescription>
+        </Standard>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>5000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010226</Ingredient>
+              <Amount>175</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>50</Amount>
             </Item>
             <Item>
               <Ingredient>1010218</Ingredient>
@@ -346,185 +156,503 @@
             <Item>
               <Ingredient>1010202</Ingredient>
             </Item>
-            </Costs>
-          </Cost>
-          <Object>
-            <Variations>
-              <Item>
-                <Filename>data/modgraphics/buildings/production/blast_furnace/blast_furnace.cfg</Filename>
-              </Item>
-            </Variations>
-          </Object>
-          <Mesh/>
-          <Selection>
-            <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList/>
-            </Values>
-            </OnSelection>
-            <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
-            <Colors>
-            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-            </Colors>
-          </Selection>
-          <Constructable/>
-          <Locked/>
-          <SoundEmitter>
-            <ActiveSounds>
+          </Costs>
+        </Cost>
+        <Object>
+          <GUIType>Production</GUIType>
+          <Variations>
             <Item>
-              <Sound>214813</Sound>
+              <Filename>data/modgraphics/buildings/production/coal_depot/coal_depot.cfg</Filename>
             </Item>
+          </Variations>
+        </Object>
+        <Mesh/>
+        <FactoryBase>
+          <FactoryInputs>
             <Item>
-              <Sound>202247</Sound>
+              <Product>1010226</Product>
+              <Amount>1</Amount>
+              <StorageAmount>30</StorageAmount>
             </Item>
-            </ActiveSounds>
-            <ConstructionSounds>
-            <BuildSuccessful>
-              <Item>
-              <VectorElement>
-                <InheritedIndex>0</InheritedIndex>
-                <InheritanceMapV2>
-                <Entry>
-                  <TemplateName>FarmBuilding</TemplateName>
-                  <Index>0</Index>
-                </Entry>
-                <Entry>
-                  <TemplateName>HeavyFactoryBuilding</TemplateName>
-                  <Index>0</Index>
-                </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
-              <Sound>203830</Sound>
-              </Item>
-            </BuildSuccessful>
-            </ConstructionSounds>
-            <IncidentSounds>
-            <InfectedFire>
-              <Item>
-              <Sound>214659</Sound>
-              </Item>
-            </InfectedFire>
-            </IncidentSounds>
-            <BuildingRepaired>
+          </FactoryInputs>
+		      <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+          <CycleTime>30</CycleTime>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
             <Item>
-              <Sound>203866</Sound>
+              <ProductivityBuff>2143505502</ProductivityBuff>
             </Item>
-            </BuildingRepaired>
-            <MaterialType>Metal</MaterialType>
-          </SoundEmitter>
-          <FeedbackController>
-            <UpdateMeshSequence>0</UpdateMeshSequence>
-          </FeedbackController>
-          <Infolayer/>
-          <UpgradeList>
-            <DefaultBuff>2143505503</DefaultBuff>
-          </UpgradeList>
-          <Factory7/>
-          <FactoryBase>
-            <FactoryInputs>
-              <Item>
-                <Product>1010227</Product>
-                <Amount>1</Amount>
-                <StorageAmount>30</StorageAmount>
-              </Item>
-            </FactoryInputs>
-            <FactoryOutputs>
-              <Item>
-                <Product>2143505553</Product>
-                <Amount>3</Amount>
-                <StorageAmount>200</StorageAmount>
-              </Item>
-            </FactoryOutputs>
-            <CycleTime>15</CycleTime>
-            <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
-            <IsMainFactory>0</IsMainFactory>
-          </FactoryBase>
-          <LogisticNode>
-            <TransporterCountMax>1</TransporterCountMax>
-            <TransporterAsset>120028</TransporterAsset>
-            <PathLayers>Street;Railway</PathLayers>
-          </LogisticNode>
-          <AmbientMoodProvider>
-            <AmbientMood>IndustryHeavy</AmbientMood>
-            <Murmur>Factory</Murmur>
-          </AmbientMoodProvider>
-          <Maintenance>
-            <Maintenances>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>20</ProductionBuffDistance>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
             <Item>
               <Product>1010017</Product>
-              <Amount>1750</Amount>
-              <InactiveAmount>880</InactiveAmount>
+              <Amount>1500</Amount>
+              <InactiveAmount>750</InactiveAmount>
             </Item>
             <Item>
               <Product>1010115</Product>
-              <Amount>300</Amount>
+              <Amount>50</Amount>
             </Item>
-            </Maintenances>
-          </Maintenance>
-          <Attackable>
-            <AttackableType>IslandBuilding</AttackableType>
-            <MaximumHitPoints>3500</MaximumHitPoints>
-            <SelfHealPerHealTick>6</SelfHealPerHealTick>
-          </Attackable>
-          <Pausable/>
-          <IncidentInfectable>
-            <Infectable>
-            <Illness>
-              <Escalated>0</Escalated>
-            </Illness>
-            </Infectable>
-            <Explosion>
-            <ExplosionCoreDamage>2000</ExplosionCoreDamage>
-            </Explosion>
-            <IncidentInfectionChanceFactors>
-            <Fire>
-              <DensityDistance>20</DensityDistance>
-              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
-              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
-            </Fire>
-            <Riot>
-              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
-              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
-              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
-              <HappinessThreshold>20</HappinessThreshold>
-            </Riot>
-            <Explosion>
-              <BaseChance>4</BaseChance>
-              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
-              <FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
-              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
-            </Explosion>
-            </IncidentInfectionChanceFactors>
-          </IncidentInfectable>
-          <Culture>
-            <Attractiveness>-15</Attractiveness>
-            <HasPollution>1</HasPollution>
-          </Culture>
-          <IncidentInfluencer>
-            <Influence>
-            <Illness>
-              <Distance>10</Distance>
-            </Illness>
-            </Influence>
-          </IncidentInfluencer>
-          <Industrializable/>
-          <QuestObject/>
-          <Electrifiable/>
-          <EcoSystemProvider/>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>IndustrialCompanyModule</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505509</GUID>
-            <Name>Blast Furnace - Module</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_module.png</IconFilename>
-            <InfoDescription>2143505510</InfoDescription>
-          </Standard>
-          <Building>
-            <PickingAsset>2143505509</PickingAsset>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>FestivalBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505502</GUID>
+          <Name>Coal Depot - Module - Positive - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505507</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>1000</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade/>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>FestivalBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505503</GUID>
+          <Name>Coal Depot - Module - Negative - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505507</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-1000</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade/>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Coal Depot -->
+  
+  <!-- START - Asset Pool -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>AssetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505504</GUID>
+          <Name>AssetPool Steel Company</Name>
+        </Standard>
+        <AssetPool>
+          <AssetList>
+            <Item>
+              <Asset>2143505408</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505500</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505553</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505507</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505509</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505564</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505583</Asset>
+            </Item>
+          </AssetList>
+        </AssetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Asset Pool -->
+
+  <!-- START - Blast Furnace -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <!-- Template isn't IndustrialCompanyFactory to allowing a tier upgrade with ITLP -->
+      <Template>HeavyFactoryBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505507</GUID>
+          <Name>Blast Furnace - Factory</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_factory.png</IconFilename>
+          <InfoDescription>2143505508</InfoDescription>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+        </Building>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Cost>
+          <Costs>
+          <Item>
+            <Ingredient>1010017</Ingredient>
+            <Amount>1500</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010196</Ingredient>
+            <Amount>8</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010205</Ingredient>
+            <Amount>10</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010218</Ingredient>
+            <Amount>5</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010207</Ingredient>
+          </Item>
+          <Item>
+            <Ingredient>1010202</Ingredient>
+          </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/blast_furnace/blast_furnace.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh/>
+        <Selection>
+          <OnSelection>
+          <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+          <Values>
+            <ActionList/>
+          </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+          <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Constructable/>
+        <Locked/>
+        <SoundEmitter>
+          <ActiveSounds>
+          <Item>
+            <Sound>214813</Sound>
+          </Item>
+          <Item>
+            <Sound>202247</Sound>
+          </Item>
+          </ActiveSounds>
+          <ConstructionSounds>
+          <BuildSuccessful>
+            <Item>
+            <VectorElement>
+              <InheritedIndex>0</InheritedIndex>
+              <InheritanceMapV2>
+              <Entry>
+                <TemplateName>FarmBuilding</TemplateName>
+                <Index>0</Index>
+              </Entry>
+              <Entry>
+                <TemplateName>HeavyFactoryBuilding</TemplateName>
+                <Index>0</Index>
+              </Entry>
+              </InheritanceMapV2>
+            </VectorElement>
+            <Sound>203830</Sound>
+            </Item>
+          </BuildSuccessful>
+          </ConstructionSounds>
+          <IncidentSounds>
+          <InfectedFire>
+            <Item>
+            <Sound>214659</Sound>
+            </Item>
+          </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+          <Item>
+            <Sound>203866</Sound>
+          </Item>
+          </BuildingRepaired>
+          <MaterialType>Metal</MaterialType>
+        </SoundEmitter>
+        <FeedbackController>
+          <UpdateMeshSequence>0</UpdateMeshSequence>
+        </FeedbackController>
+        <Infolayer/>
+        <UpgradeList>
+          <DefaultBuff>2143505503</DefaultBuff>
+        </UpgradeList>
+        <Factory7/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010227</Product>
+              <Amount>1</Amount>
+              <StorageAmount>30</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>2143505553</Product>
+              <Amount>3</Amount>
+              <StorageAmount>200</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>15</CycleTime>
+          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>1</TransporterCountMax>
+          <TransporterAsset>120028</TransporterAsset>
+          <PathLayers>Street;Railway</PathLayers>
+        </LogisticNode>
+        <AmbientMoodProvider>
+          <AmbientMood>IndustryHeavy</AmbientMood>
+          <Murmur>Factory</Murmur>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+          <Item>
+            <Product>1010017</Product>
+            <Amount>1750</Amount>
+            <InactiveAmount>880</InactiveAmount>
+          </Item>
+          <Item>
+            <Product>1010115</Product>
+            <Amount>300</Amount>
+          </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>3500</MaximumHitPoints>
+          <SelfHealPerHealTick>6</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable/>
+        <IncidentInfectable>
+          <Infectable>
+          <Illness>
+            <Escalated>0</Escalated>
+          </Illness>
+          </Infectable>
+          <Explosion>
+          <ExplosionCoreDamage>2000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+          <Fire>
+            <DensityDistance>20</DensityDistance>
+            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+          </Fire>
+          <Riot>
+            <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+            <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+            <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+            <HappinessThreshold>20</HappinessThreshold>
+          </Riot>
+          <Explosion>
+            <BaseChance>4</BaseChance>
+            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+            <FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
+            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+          </Explosion>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Culture>
+          <Attractiveness>-15</Attractiveness>
+          <HasPollution>1</HasPollution>
+        </Culture>
+        <IncidentInfluencer>
+          <Influence>
+          <Illness>
+            <Distance>10</Distance>
+          </Illness>
+          </Influence>
+        </IncidentInfluencer>
+        <Industrializable/>
+        <QuestObject/>
+        <Electrifiable/>
+        <EcoSystemProvider/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Blast Furnace -->
+   
+  <!-- START - Freight Unload -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>FreightDepotModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505564</GUID>
+          <Name>Unload Freight Steel</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_unload_freight_steel.png</IconFilename>
+          <InfoDescription>11143</InfoDescription>
+        </Standard>
+        <Mesh />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/freight_steel/freight_steel.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Selection>
+          <GUIType>Production</GUIType>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>12</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>6</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>2143505553</Product>
+              <Amount>1</Amount>
+              <StorageAmount>100</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1010219</Product>
+              <Amount>10</Amount>
+              <StorageAmount>100</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>20</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+          <TeleportProducedGoodsIntoAreaStorage>1</TeleportProducedGoodsIntoAreaStorage>
+        </FactoryBase>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>500</Amount>
+              <InactiveAmount>400</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>25</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Pausable />
+        <LogisticNode>
+          <TransporterCountMax>0</TransporterCountMax>
+          <TransporterAsset>120028</TransporterAsset>
+          <PathLayers>Street;Railway</PathLayers>
+        </LogisticNode>
+      </Values>
+    </Asset>
+  </ModOp>
+  <Group Condition="#shared_freight_station_khobs">
+    <ModOp GUID="2143505416" Type="add" Path="Values/ConstructionCategory/BuildingList/">
+      <Item>
+        <Building>2143505564</Building>
+      </Item>
+    </ModOp>
+  </Group>
+  <!-- END - Freight Unload -->
+
+  <!-- START - Blast Furnace Module -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>IndustrialCompanyModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505509</GUID>
+          <Name>Blast Furnace - Module</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_module.png</IconFilename>
+          <InfoDescription>2143505510</InfoDescription>
+        </Standard>
+        <Building>
+          <PickingAsset>2143505509</PickingAsset>
           <AllowChangeVariation>1</AllowChangeVariation>
           <BuildModeRandomRotation>90</BuildModeRandomRotation>
           <AssociatedRegions>Moderate</AssociatedRegions>
@@ -587,372 +715,304 @@
             </TCrossing>
           </BuildingBlockPool>
         </Building>
-          <Cost>
-            <Costs>
-              <Item>
-                <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010196</Ingredient>
-                <Amount>10</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010218</Ingredient>
-                <Amount>5</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010207</Ingredient>
-              </Item>
-              <Item>
-                <Ingredient>1010202</Ingredient>
-              </Item>
-            </Costs>
-          </Cost>
-          <Object>
-            <Variations>
-              <Item>
-					      <Filename>data/modgraphics/buildings/modules/blast_furnace/blast_furnace_corner1.cfg</Filename>
-              </Item>
-              <Item>
-					      <Filename>data/modgraphics/buildings/modules/blast_furnace/blast_furnace_mid.cfg</Filename>
-              </Item>
-              <Item>
-					      <Filename>data/modgraphics/buildings/modules/blast_furnace/blast_furnace_corner2.cfg</Filename>
-              </Item>
-              <Item>
-					      <Filename>data/modgraphics/buildings/modules/blast_furnace/blast_furnace_single.cfg</Filename>
-              </Item>
-            </Variations>
-          </Object>
-          <Mesh/>
-          <Selection>
-            <GUIType>Guildhouse</GUIType>
-            <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
-          </Selection>
-          <ItemContainer>
-            <SocketCount>1</SocketCount>
-            <SocketAllocation>RadiusBuilding;GuildHouse;TownHall;HarborOffice;Mod1</SocketAllocation>
-            <SocketScope>Radius</SocketScope>
-            <SocketScopeRadius>0</SocketScopeRadius>
-          </ItemContainer>
-          <FactoryBase>
-            <FactoryInputs>
-              <Item>
-                <Product>2143505511</Product>
-                <Amount>0</Amount>
-                <StorageAmount>1</StorageAmount>
-              </Item>
-            </FactoryInputs>
-            <CycleTime>120</CycleTime>
-          </FactoryBase>
-          <BuffFactory>
-            <ProductionBuffs>
-              <Item>
-                <ProductivityBuff>2143505512</ProductivityBuff>
-              </Item>
-            </ProductionBuffs>
-            <ProductionBuffScope>Radius</ProductionBuffScope>
-            <ProductionBuffDistance>20</ProductionBuffDistance>
-          </BuffFactory>
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010115</Product>
-                <Amount>50</Amount>
-              </Item>
-            </Maintenances>
-          </Maintenance>
-          <Culture>
-            <Attractiveness>-10</Attractiveness>
-            <HasPollution>1</HasPollution>
-          </Culture>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>Product</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505511</GUID>
-            <Name>Fake - Input Mineral Resource - Modules</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
-          </Standard>
-          <Locked/>
-          <Product>
-            <DeltaOnly>1</DeltaOnly>
-            <IsAbstract>1</IsAbstract>
-            <AssociatedRegion>Moderate</AssociatedRegion>
-            <HideInUI>0</HideInUI>
-          </Product>
-          <ExpeditionAttribute/>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>GuildhouseBuff</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505512</GUID>
-            <Name>Blast Furnace - Module - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_calciner_2.png</IconFilename>
-          </Standard>
-          <ItemEffect>
-            <EffectTargets>
-              <Item>
-                <GUID>2143505507</GUID>
-              </Item>
-            </EffectTargets>
-          </ItemEffect>
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>50</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-          </FactoryUpgrade>
-          <BuildingUpgrade>
-            <MaintenanceUpgrade>
-              <Value>100</Value>
-              <Percental>1</Percental>
-            </MaintenanceUpgrade>
-          </BuildingUpgrade>
-          <Buff/>
-          <CultureUpgrade>
-            <HideBuff>1</HideBuff>
-          </CultureUpgrade>
-          <ModuleOwnerUpgrade/>
-          <IncidentInfectableUpgrade/>
-          <PowerplantUpgrade/>
-          <IndustrializableUpgrade/>
-          <ItemContainerUpgrade/>
-          <IncidentInfluencerUpgrade/>
-          <IrrigationUpgrade/>
-          <EcoSystemProviderUpgrade/>
-          <ResourceUpgrade/>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>Product</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505552</GUID>
-            <Name>Fake - Input Steel Resource - Modules</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_steel.png</IconFilename>
-          </Standard>
-          <Locked/>
-          <Product>
-            <DeltaOnly>1</DeltaOnly>
-            <IsAbstract>1</IsAbstract>
-            <AssociatedRegion>Moderate</AssociatedRegion>
-            <HideInUI>0</HideInUI>
-          </Product>
-          <ExpeditionAttribute/>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>Product</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505553</GUID>
-            <Name>Bulk Steel</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_factory.png</IconFilename>
-            <InfoDescription>11758</InfoDescription>
-          </Standard>
-          <Locked/>
-          <Product>
-            <StorageLevel>Building</StorageLevel>
-            <ProductCategory>11797</ProductCategory>
-			      <BasePrice>4</BasePrice>
-            <PathLayer>Railway</PathLayer>
-            <IsStrategicResource>1</IsStrategicResource>
-            <AssociatedRegion>Moderate</AssociatedRegion>
-            <ProductionRegions>
-              <Item>
-                <RegionType>Moderate</RegionType>
-              </Item>
-            </ProductionRegions>
-            <HighscoreValueModifier>1</HighscoreValueModifier>
-          </Product>
-          <ExpeditionAttribute/>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>Text</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505556</GUID>
-            <Name>Blast Furnace Requirement Infotip</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_factory.png</IconFilename>
-          </Standard>
-        </Values>
-      </Asset>
-      <Asset>
-        <!-- Template isn't IndustryModule to allowing a tier upgrade with ITLP -->
-        <Template>HeavyFactoryBuilding</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505560</GUID>
-            <Name>Beam Foundry - Module</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
-            <InfoDescription>2143505561</InfoDescription>
-          </Standard>
-          <Building>
-            <SecondPartyRelevant>0</SecondPartyRelevant>
-            <BuildModeRandomRotation>180</BuildModeRandomRotation>
-            <AssociatedRegions>Moderate</AssociatedRegions>
-            <BuildingCategoryName>2143505402</BuildingCategoryName>
-          </Building>
-          <Blocking/>
-          <Cost>
-            <Costs>
-              <Item>
-                <Ingredient>1010017</Ingredient>
-                <Amount>25000</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010196</Ingredient>
-                <Amount>10</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010205</Ingredient>
-                <Amount>40</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010218</Ingredient>
-                <Amount>10</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010207</Ingredient>
-              </Item>
-              <Item>
-                <Ingredient>1010202</Ingredient>
-              </Item>
-            </Costs>
-          </Cost>
-          <Object>
-            <Variations>
-              <Item>
-					      <Filename>data/modgraphics/buildings/modules/beam_foundry/beam_foundry.cfg</Filename>
-              </Item>
-            </Variations>
-          </Object>
-          <Mesh/>
-          <Selection>
-            <OnSelection>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/blast_furnace/blast_furnace_corner1.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/blast_furnace/blast_furnace_mid.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/blast_furnace/blast_furnace_corner2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/blast_furnace/blast_furnace_single.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Guildhouse</GUIType>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <ItemContainer>
+          <SocketCount>1</SocketCount>
+          <SocketAllocation>RadiusBuilding;GuildHouse;TownHall;HarborOffice;Mod1</SocketAllocation>
+          <SocketScope>Radius</SocketScope>
+          <SocketScopeRadius>0</SocketScopeRadius>
+        </ItemContainer>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>2143505511</Product>
+              <Amount>0</Amount>
+              <StorageAmount>1</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>120</CycleTime>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505512</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>20</ProductionBuffDistance>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1500</Amount>
+              <InactiveAmount>750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Culture>
+          <Attractiveness>-10</Attractiveness>
+          <HasPollution>1</HasPollution>
+        </Culture>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505512</GUID>
+          <Name>Blast Furnace - Module - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_calciner_2.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505507</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade>
+          <MaintenanceUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+        </BuildingUpgrade>
+        <Buff />
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Blast Furnace Module -->
+
+  <!-- START - Beam Foundry -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <!-- Template isn't IndustryModule to allowing a tier upgrade with ITLP -->
+    <Asset>
+      <Template>HeavyFactoryBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505560</GUID>
+          <Name>Beam Foundry - Module</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
+          <InfoDescription>2143505561</InfoDescription>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>25000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/beam_foundry/beam_foundry.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
             <Values>
-              <ActionList/>
+              <ActionList />
             </Values>
-            </OnSelection>
-            <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
-            <Colors>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
             <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-            </Colors>
-          </Selection>
-          <Constructable/>
-          <Locked/>
-          <SoundEmitter>
-            <ActiveSounds>
+          </Colors>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
             <Item>
               <Sound>214813</Sound>
             </Item>
             <Item>
               <Sound>202429</Sound>
             </Item>
-            </ActiveSounds>
-            <ConstructionSounds>
+          </ActiveSounds>
+          <ConstructionSounds>
             <BuildSuccessful>
               <Item>
-              <VectorElement>
-                <InheritedIndex>0</InheritedIndex>
-                <InheritanceMapV2>
-                <Entry>
-                  <TemplateName>FarmBuilding</TemplateName>
-                  <Index>0</Index>
-                </Entry>
-                <Entry>
-                  <TemplateName>HeavyFactoryBuilding</TemplateName>
-                  <Index>0</Index>
-                </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
-              <Sound>203830</Sound>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>FarmBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                    <Entry>
+                      <TemplateName>HeavyFactoryBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Sound>203830</Sound>
               </Item>
             </BuildSuccessful>
-            </ConstructionSounds>
-            <BuildingRepaired>
+          </ConstructionSounds>
+          <BuildingRepaired>
             <Item>
               <Sound>203866</Sound>
             </Item>
-            </BuildingRepaired>
-            <MaterialType>Metal</MaterialType>
-          </SoundEmitter>
-          <FeedbackController/>
-          <Infolayer/>
-          <UpgradeList/>
-          <Factory7/>
-          <Pausable>
-            <CanPauseManually>1</CanPauseManually>
-          </Pausable>
-          <FactoryBase>
-            <FactoryInputs>
-              <Item>
-                <Product>2143505562</Product>
-                <StorageAmount>1</StorageAmount>
-              </Item>
-            </FactoryInputs>
-            <CycleTime>120</CycleTime>
-            <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
-          </FactoryBase>
-          <LogisticNode/>
-          <AmbientMoodProvider>
-            <AmbientMood>IndustryHeavy</AmbientMood>
-            <Murmur>Factory</Murmur>
-          </AmbientMoodProvider>
-          <BuffFactory>
-            <ProductionBuffs>
-              <Item>
-                <ProductivityBuff>2143505563</ProductivityBuff>
-              </Item>
-            </ProductionBuffs>
-            <ProductionBuffScope>Radius</ProductionBuffScope>
-            <ProductionBuffDistance>20</ProductionBuffDistance>
-          </BuffFactory>
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>400</Amount>
-                <InactiveAmount>100</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010115</Product>
-                <Amount>400</Amount>
-              </Item>
-            </Maintenances>
-          </Maintenance>
-          <Attackable>
-            <AttackableType>IslandBuilding</AttackableType>
-            <MaximumHitPoints>4750</MaximumHitPoints>
-            <SelfHealPerHealTick>6</SelfHealPerHealTick>
-          </Attackable>
-          <IncidentInfectable>
-            <Infectable>
+          </BuildingRepaired>
+          <MaterialType>Metal</MaterialType>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <Pausable>
+          <CanPauseManually>1</CanPauseManually>
+        </Pausable>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>2143505562</Product>
+              <StorageAmount>1</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>120</CycleTime>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <AmbientMood>IndustryHeavy</AmbientMood>
+          <Murmur>Factory</Murmur>
+        </AmbientMoodProvider>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505563</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>20</ProductionBuffDistance>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>400</Amount>
+              <InactiveAmount>100</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>400</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>4750</MaximumHitPoints>
+          <SelfHealPerHealTick>6</SelfHealPerHealTick>
+        </Attackable>
+        <IncidentInfectable>
+          <Infectable>
             <Illness>
               <Escalated>0</Escalated>
             </Illness>
-            </Infectable>
-            <Explosion>
+          </Infectable>
+          <Explosion>
             <ExplosionCoreDamage>2000</ExplosionCoreDamage>
-            </Explosion>
-            <IncidentInfectionChanceFactors>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
             <Fire>
               <DensityDistance>20</DensityDistance>
               <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
@@ -970,28 +1030,219 @@
               <FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
               <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
             </Explosion>
-            </IncidentInfectionChanceFactors>
-          </IncidentInfectable>
-          <Culture>
-            <Attractiveness>-20</Attractiveness>
-            <HasPollution>1</HasPollution>
-          </Culture>
-          <IncidentInfluencer>
-            <Influence>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Culture>
+          <Attractiveness>-20</Attractiveness>
+          <HasPollution>1</HasPollution>
+        </Culture>
+        <IncidentInfluencer>
+          <Influence>
             <Illness>
               <Distance>10</Distance>
             </Illness>
-            </Influence>
-          </IncidentInfluencer>
-          <Industrializable>
-            <BoostedByIndustrialization>0</BoostedByIndustrialization>
-          </Industrializable>
-          <QuestObject/>
-          <Electrifiable/>
-          <EcoSystemProvider/>
+          </Influence>
+        </IncidentInfluencer>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <QuestObject />
+        <Electrifiable />
+        <EcoSystemProvider />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Beam Foundry -->
+
+  <!-- START - Coking Factory -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>IndustrialCompanyModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505575</GUID>
+          <Name>Coking Factory - Module</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
+          <InfoDescription>2143505576</InfoDescription>
+        </Standard>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/steelworks/steelworks.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010226</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>24821</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>1</TransporterCountMax>
+        </LogisticNode>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1500</Amount>
+              <InactiveAmount>750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Culture>
+          <Attractiveness>-10</Attractiveness>
+          <HasPollution>1</HasPollution>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Coking Factory -->
+
+  <!-- START - Product -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505553</GUID>
+          <Name>Bulk Steel</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_factory.png</IconFilename>
+          <InfoDescription>11758</InfoDescription>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11797</ProductCategory>
+          <BasePrice>4</BasePrice>
+          <PathLayer>Railway</PathLayer>
+          <IsStrategicResource>1</IsStrategicResource>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+          <HighscoreValueModifier>1</HighscoreValueModifier>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505552</GUID>
+          <Name>Fake - Input Steel Resource - Modules</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_steel.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <HideInUI>0</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505511</GUID>
+          <Name>Fake - Input Mineral Resource - Modules</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <HideInUI>0</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505562</GUID>
+          <Name>Fake - Input Steel Resource - Modules</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_steel.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <HideInUI>0</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Product -->
+
+  <!-- START - Texts -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505556</GUID>
+            <Name>Blast Furnace Requirement Infotip</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_factory.png</IconFilename>
+          </Standard>
         </Values>
-      </Asset>
-      <Asset>
+    </Asset>
+    <Asset>
         <Template>Text</Template>
         <Values>
           <Standard>
@@ -1000,210 +1251,8 @@
             <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_4.png</IconFilename>
           </Standard>
         </Values>
-      </Asset>
-      <Asset>
-        <Template>Product</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505562</GUID>
-            <Name>Fake - Input Steel Resource - Modules</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_steel.png</IconFilename>
-          </Standard>
-          <Locked/>
-          <Product>
-            <DeltaOnly>1</DeltaOnly>
-            <IsAbstract>1</IsAbstract>
-            <AssociatedRegion>Moderate</AssociatedRegion>
-            <HideInUI>0</HideInUI>
-          </Product>
-          <ExpeditionAttribute/>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>FreightDepotModule</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505564</GUID>
-            <Name>Unload Freight Steel</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_unload_freight_steel.png</IconFilename>
-            <InfoDescription>11143</InfoDescription>
-          </Standard>
-          <Mesh />
-          <Object>
-            <Variations>
-              <Item>
-                <Filename>data/modgraphics/buildings/modules/freight_steel/freight_steel.cfg</Filename>
-              </Item>
-            </Variations>
-          </Object>
-          <Selection>
-            <GUIType>Production</GUIType>
-            <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
-            <OnSelection>
-              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-              <Values>
-                <ActionList />
-              </Values>
-            </OnSelection>
-            <Colors>
-              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-            </Colors>
-          </Selection>
-          <Cost>
-              <Costs>
-                <Item>
-                  <Ingredient>1010017</Ingredient>
-                  <Amount>1500</Amount>
-                </Item>
-                <Item>
-                  <Ingredient>1010196</Ingredient>
-                  <Amount>10</Amount>
-                </Item>
-                <Item>
-                  <Ingredient>1010205</Ingredient>
-                  <Amount>12</Amount>
-                </Item>
-                <Item>
-                  <Ingredient>1010218</Ingredient>
-                  <Amount>6</Amount>
-                </Item>
-                <Item>
-                  <Ingredient>1010207</Ingredient>
-                  <Amount>4</Amount>
-                </Item>
-                <Item>
-                  <Ingredient>1010202</Ingredient>
-                </Item>
-              </Costs>
-          </Cost>
-          <FactoryBase>
-            <FactoryInputs>
-              <Item>
-                <Product>2143505553</Product>
-                <Amount>1</Amount>
-                <StorageAmount>100</StorageAmount>
-              </Item>
-            </FactoryInputs>
-            <FactoryOutputs>
-              <Item>
-                <Product>1010219</Product>
-                <Amount>10</Amount>
-                <StorageAmount>100</StorageAmount>
-              </Item>
-            </FactoryOutputs>
-            <CycleTime>20</CycleTime>
-            <IsMainFactory>0</IsMainFactory>
-            <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
-            <TeleportProducedGoodsIntoAreaStorage>1</TeleportProducedGoodsIntoAreaStorage>
-          </FactoryBase>
-          <Maintenance>
-              <Maintenances>
-                <Item>
-                  <Product>1010017</Product>
-                  <Amount>500</Amount>
-                  <InactiveAmount>400</InactiveAmount>
-                </Item>
-                <Item>
-                  <Product>1010115</Product>
-                  <Amount>25</Amount>
-                </Item>
-              </Maintenances>
-          </Maintenance>
-          <Pausable />
-          <LogisticNode>
-            <TransporterCountMax>0</TransporterCountMax>
-            <TransporterAsset>120028</TransporterAsset>
-            <PathLayers>Street;Railway</PathLayers>
-          </LogisticNode>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>IndustrialCompanyModule</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505575</GUID>
-            <Name>Coking Factory - Module</Name>
-			      <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
-            <InfoDescription>2143505576</InfoDescription>
-          </Standard>
-          <Cost>
-            <Costs>
-              <Item>
-                <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010196</Ingredient>
-                <Amount>10</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010218</Ingredient>
-                <Amount>5</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010207</Ingredient>
-              </Item>
-              <Item>
-                <Ingredient>1010202</Ingredient>
-              </Item>
-            </Costs>
-          </Cost>
-          <Object>
-            <GUIType>GuildHouse</GUIType>
-            <Variations>
-              <Item>
-					      <Filename>data/modgraphics/buildings/modules/steelworks/steelworks.cfg</Filename>
-              </Item>
-            </Variations>
-          </Object>
-          <Mesh/>
-          <Selection>
-            <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
-          </Selection>
-          <FactoryBase>
-            <FactoryInputs>
-              <Item>
-                <Product>1010226</Product>
-                <Amount>1</Amount>
-                <StorageAmount>6</StorageAmount>
-              </Item>
-            </FactoryInputs>
-            <FactoryOutputs>
-              <Item>
-                <Product>24821</Product>
-                <Amount>1</Amount>
-                <StorageAmount>6</StorageAmount>
-              </Item>
-            </FactoryOutputs>
-            <CycleTime>60</CycleTime>
-          </FactoryBase>
-          <LogisticNode>
-            <TransporterCountMax>1</TransporterCountMax>
-          </LogisticNode>
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010115</Product>
-                <Amount>50</Amount>
-              </Item>
-            </Maintenances>
-          </Maintenance>
-          <Culture>
-            <Attractiveness>-10</Attractiveness>
-            <HasPollution>1</HasPollution>
-          </Culture>
-        </Values>
-      </Asset>
-      <Asset>
+    </Asset>
+    <Asset>
         <Template>Text</Template>
         <Values>
           <Standard>
@@ -1212,8 +1261,8 @@
 			      <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
           </Standard>
         </Values>
-      </Asset>
-      <Asset>
+    </Asset>
+    <Asset>
         <Template>Text</Template>
         <Values>
           <Standard>
@@ -1222,8 +1271,8 @@
 			      <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
           </Standard>
         </Values>
-      </Asset>
-      <Asset>
+    </Asset>
+    <Asset>
         <Template>Text</Template>
         <Values>
           <Standard>
@@ -1232,8 +1281,8 @@
 			      <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
           </Standard>
         </Values>
-      </Asset>
-      <Asset>
+    </Asset>
+    <Asset>
         <Template>Text</Template>
         <Values>
           <Standard>
@@ -1242,8 +1291,8 @@
 			      <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
           </Standard>
         </Values>
-      </Asset>
-      <Asset>
+    </Asset>
+    <Asset>
         <Template>Text</Template>
         <Values>
           <Standard>
@@ -1252,8 +1301,8 @@
 			      <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
           </Standard>
         </Values>
-      </Asset>
-      <Asset>
+    </Asset>
+    <Asset>
         <Template>Text</Template>
         <Values>
           <Standard>
@@ -1262,9 +1311,10 @@
 			      <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
           </Standard>
         </Values>
-      </Asset>
-    </ModOp>
-   
+    </Asset>
+  </ModOp>
+  <!-- END - Texts -->
+
   <!-- START - Construction Menu -->
   <ModOp Type="addNextSibling" GUID="1010303">
     <Asset>
@@ -1317,393 +1367,380 @@
   </ModOp>
   <!-- END - Construction Menu -->
 
-    <!-- Cultural Sets -->
-    <ModOp GUID="191114" Type="addNextSibling">
-      <Asset>
-        <Template>ItemSet</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505567</GUID>
-            <Name>Industrial Converters</Name>
-			      <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_calciner_1.png</IconFilename>
-          </Standard>
-          <ItemSocketSet>
-            <SetBuff>2143505569</SetBuff>
-            <BuffScope>Area</BuffScope>
-          </ItemSocketSet>
-          <Locked/>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>GuildhouseBuff</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505569</GUID>
-            <Name>Industrial Converters</Name>
-			      <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_calciner_1.png</IconFilename>
-            <InfoDescription>2143505570</InfoDescription>
-          </Standard>
-          <ItemEffect>
-            <EffectTargets>
-              <Item>
-                <GUID>2143505507</GUID>
-              </Item>
-            </EffectTargets>
-          </ItemEffect>
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>200</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-          </FactoryUpgrade>
-          <BuildingUpgrade/>
-          <Buff/>
-          <CultureUpgrade/>
-          <ModuleOwnerUpgrade/>
-          <IncidentInfectableUpgrade>
-            <IncidentFireIncreaseUpgrade>
-              <Value>25</Value>
-            </IncidentFireIncreaseUpgrade>
-          </IncidentInfectableUpgrade>
-          <PowerplantUpgrade/>
-          <IndustrializableUpgrade/>
-          <ItemContainerUpgrade/>
-          <IncidentInfluencerUpgrade/>
-          <IrrigationUpgrade/>
-          <EcoSystemProviderUpgrade/>
-          <ResourceUpgrade/>
-        </Values>
-      </Asset>
-      
-      <Asset>
-        <Template>ItemSet</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505571</GUID>
-            <Name>Coke Production</Name>
-			      <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
-            <InfoDescription>2143505572</InfoDescription>
-          </Standard>
-          <ItemSocketSet>
-            <SetBuff>2143505573</SetBuff>
-            <BuffScope>Area</BuffScope>
-          </ItemSocketSet>
-          <Locked/>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>GuildhouseBuff</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505573</GUID>
-            <Name>Coke Production</Name>
-			      <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
-            <InfoDescription>2143505574</InfoDescription>
-          </Standard>
-          <ItemEffect>
-            <EffectTargets>
-              <Item>
-                <GUID>2143505500</GUID>
-              </Item>
-            </EffectTargets>
-          </ItemEffect>
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>-80</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-            <ReplaceInputs>
-              <Item>
-                <OldInput>1010226</OldInput>
-                <NewInput>24821</NewInput>
-              </Item>
-            </ReplaceInputs>
-          </FactoryUpgrade>
-          <BuildingUpgrade/>
-          <Buff/>
-          <CultureUpgrade/>
-          <ModuleOwnerUpgrade/>
-          <IncidentInfectableUpgrade/>
-          <PowerplantUpgrade/>
-          <IndustrializableUpgrade/>
-          <ItemContainerUpgrade/>
-          <IncidentInfluencerUpgrade/>
-          <IrrigationUpgrade/>
-          <EcoSystemProviderUpgrade/>
-          <ResourceUpgrade/>
-        </Values>
-      </Asset>
+  <!-- START - Cultural Sets -->
+  <ModOp GUID="191114" Type="addNextSibling">
+    <Asset>
+      <Template>ItemSet</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505567</GUID>
+          <Name>Industrial Converters</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_calciner_1.png</IconFilename>
+        </Standard>
+        <ItemSocketSet>
+          <SetBuff>2143505569</SetBuff>
+          <BuffScope>Area</BuffScope>
+        </ItemSocketSet>
+        <Locked/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505569</GUID>
+          <Name>Industrial Converters</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_calciner_1.png</IconFilename>
+          <InfoDescription>2143505570</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505507</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>200</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade/>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade>
+          <IncidentFireIncreaseUpgrade>
+            <Value>25</Value>
+          </IncidentFireIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ItemSet</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505571</GUID>
+          <Name>Coke Production</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
+          <InfoDescription>2143505572</InfoDescription>
+        </Standard>
+        <ItemSocketSet>
+          <SetBuff>2143505573</SetBuff>
+          <BuffScope>Area</BuffScope>
+        </ItemSocketSet>
+        <Locked/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505573</GUID>
+          <Name>Coke Production</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
+          <InfoDescription>2143505574</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505500</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-80</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>1010226</OldInput>
+              <NewInput>24821</NewInput>
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade/>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ItemSet</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505579</GUID>
+          <Name>Slag By-Product</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/icon_quartz_sand.png</IconFilename>
+          <InfoDescription>2143505580</InfoDescription>
+        </Standard>
+        <ItemSocketSet>
+          <SetBuff>2143505581</SetBuff>
+          <BuffScope>Area</BuffScope>
+        </ItemSocketSet>
+        <Locked/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505581</GUID>
+          <Name>Slag By-Product</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/icon_quartz_sand.png</IconFilename>
+          <InfoDescription>2143505582</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505507</GUID>
+            </Item>
+            <Item>
+              <GUID>193771</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010231</Product>
+              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade/>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>    
+    <Asset>
+      <Template>ItemSet</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505584</GUID>
+          <Name>Beam Foundry</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
+          <InfoDescription>2143505585</InfoDescription>
+        </Standard>
+        <ItemSocketSet>
+          <SetBuff>2143505592</SetBuff>
+          <BuffScope>Area</BuffScope>
+        </ItemSocketSet>
+        <Locked/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505563</GUID>
+          <Name>Beam Foundry - Module - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
+          <InfoDescription>2143505588</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505507</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-300</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010218</Product>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade>
+          <ReplacingWorkforce>1010117</ReplacingWorkforce><!--moderate workforce 4-->
+          <MaintenanceUpgrade>
+            <Value>300</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+        </BuildingUpgrade>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505592</GUID>
+          <Name>Beam Foundry - Module - Buff - ItemSet</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505507</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>1</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-100</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp GUID="190832,190831,190830" Type="Add" Path="Values/Item/">
+    <ItemSet>2143505567</ItemSet>
+  </ModOp>     
+  <ModOp GUID="191686,191676,190740" Type="Add" Path="Values/Item/">
+    <ItemSet>2143505571</ItemSet>
+  </ModOp>     
+  <ModOp GUID="190912,191464,191462" Type="Add" Path="Values/Item/">
+    <ItemSet>2143505579</ItemSet>
+  </ModOp>     
+  <ModOp GUID="190703,190701,190699" Type="Add" Path="Values/Item/">
+    <ItemSet>2143505584</ItemSet>
+  </ModOp>     
+  <ModOp GUID="120055" Type="add" Path="Values/ProductStorageList/ProductList/">
+    <Item>
+      <Product>24821</Product>
+    </Item>
+  </ModOp>
+  <ModOp GUID="120056" Type="add" Path="Values/ProductStorageList/ProductList/">
+    <Item>
+      <Product>2143505553</Product>
+    </Item>
+  </ModOp>
+  <ModOp GUID="501961" Type="add" Path="Values/ProductList/List/">
+    <Item>
+      <Product>2143505553</Product>
+    </Item>
+  </ModOp>
+  <!-- END - Cultural Sets -->
 
-      <Asset>
-        <Template>ItemSet</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505579</GUID>
-            <Name>Slag By-Product</Name>
-			      <IconFilename>data/ui/2kimages/main/3dicons/icon_quartz_sand.png</IconFilename>
-            <InfoDescription>2143505580</InfoDescription>
-          </Standard>
-          <ItemSocketSet>
-            <SetBuff>2143505581</SetBuff>
-            <BuffScope>Area</BuffScope>
-          </ItemSocketSet>
-          <Locked/>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>GuildhouseBuff</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505581</GUID>
-            <Name>Slag By-Product</Name>
-			      <IconFilename>data/ui/2kimages/main/3dicons/icon_quartz_sand.png</IconFilename>
-            <InfoDescription>2143505582</InfoDescription>
-          </Standard>
-          <ItemEffect>
-            <EffectTargets>
-              <Item>
-                <GUID>2143505507</GUID>
-              </Item>
-              <Item>
-                <GUID>193771</GUID>
-              </Item>
-            </EffectTargets>
-          </ItemEffect>
-          <FactoryUpgrade>
-            <AdditionalOutput>
-              <Item>
-                <Product>1010231</Product>
-                <AdditionalOutputCycle>4</AdditionalOutputCycle>
-                <Amount>1</Amount>
-              </Item>
-            </AdditionalOutput>
-          </FactoryUpgrade>
-          <BuildingUpgrade/>
-          <Buff/>
-          <CultureUpgrade/>
-          <ModuleOwnerUpgrade/>
-          <IncidentInfectableUpgrade/>
-          <PowerplantUpgrade/>
-          <IndustrializableUpgrade/>
-          <ItemContainerUpgrade/>
-          <IncidentInfluencerUpgrade/>
-          <IrrigationUpgrade/>
-          <EcoSystemProviderUpgrade/>
-          <ResourceUpgrade/>
-        </Values>
-      </Asset>
-
-      
-      <Asset>
-        <Template>ItemSet</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505584</GUID>
-            <Name>Beam Foundry</Name>
-			      <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
-            <InfoDescription>2143505585</InfoDescription>
-          </Standard>
-          <ItemSocketSet>
-            <SetBuff>2143505592</SetBuff>
-            <BuffScope>Area</BuffScope>
-          </ItemSocketSet>
-          <Locked/>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>GuildhouseBuff</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505563</GUID>
-            <Name>Beam Foundry - Module - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
-            <InfoDescription>2143505588</InfoDescription>
-          </Standard>
-          <ItemEffect>
-            <EffectTargets>
-              <Item>
-                <GUID>2143505507</GUID>
-              </Item>
-            </EffectTargets>
-            <AllowStacking>0</AllowStacking>
-          </ItemEffect>
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>-300</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-            <AdditionalOutput>
-              <Item>
-                <Product>1010218</Product>
-                <AdditionalOutputCycle>3</AdditionalOutputCycle>
-                <Amount>1</Amount>
-              </Item>
-            </AdditionalOutput>
-          </FactoryUpgrade>
-          <BuildingUpgrade>
-            <ReplacingWorkforce>1010117</ReplacingWorkforce><!--moderate workforce 4-->
-            <MaintenanceUpgrade>
-              <Value>300</Value>
-              <Percental>1</Percental>
-            </MaintenanceUpgrade>
-          </BuildingUpgrade>
-          <Buff/>
-          <CultureUpgrade>
-            <HideBuff>0</HideBuff>
-          </CultureUpgrade>
-          <ModuleOwnerUpgrade/>
-          <IncidentInfectableUpgrade/>
-          <PowerplantUpgrade/>
-          <IndustrializableUpgrade/>
-          <ItemContainerUpgrade/>
-          <IncidentInfluencerUpgrade/>
-          <IrrigationUpgrade/>
-          <EcoSystemProviderUpgrade/>
-          <ResourceUpgrade/>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>GuildhouseBuff</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505592</GUID>
-            <Name>Beam Foundry - Module - Buff - ItemSet</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
-          </Standard>
-          <ItemEffect>
-            <EffectTargets>
-              <Item>
-                <GUID>2143505507</GUID>
-              </Item>
-            </EffectTargets>
-            <AllowStacking>1</AllowStacking>
-          </ItemEffect>
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>-100</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-          </FactoryUpgrade>
-          <BuildingUpgrade/>
-          <Buff/>
-          <CultureUpgrade>
-            <HideBuff>1</HideBuff>
-          </CultureUpgrade>
-          <ModuleOwnerUpgrade/>
-          <IncidentInfectableUpgrade/>
-          <PowerplantUpgrade/>
-          <IndustrializableUpgrade/>
-          <ItemContainerUpgrade/>
-          <IncidentInfluencerUpgrade/>
-          <IrrigationUpgrade/>
-          <EcoSystemProviderUpgrade/>
-          <ResourceUpgrade/>
-        </Values>
-      </Asset>
-
+  <!-- START - ILTP Compatibility -->
+  <Group Condition="//Values[Standard/GUID='1404423040']">
+    <ModOp GUID="1404423040" Type="add" Path="Values/">
+      <Upgradable>
+        <NextGUID>2143505507</NextGUID>
+        <UpgradeCost>
+          <Item>
+            <Amount>10000</Amount>
+            <Ingredient>1010017</Ingredient>
+          </Item>
+          <Item>
+            <Amount>10</Amount>
+            <Ingredient>1010196</Ingredient>
+          </Item>
+          <Item>
+            <Amount>4</Amount>
+            <Ingredient>1010205</Ingredient>
+          </Item>
+          <Item>
+            <Amount>3</Amount>
+            <Ingredient>1010218</Ingredient>
+          </Item>
+          <Item>
+            <Amount>3</Amount>
+            <Ingredient>1010207</Ingredient>
+          </Item>
+          <Item>
+            <Amount>3</Amount>
+            <Ingredient>1010202</Ingredient>
+          </Item>
+        </UpgradeCost>
+      </Upgradable>
     </ModOp>
-    <ModOp GUID="190832,190831,190830" Type="Add" Path="Values/Item/">
-      <ItemSet>2143505567</ItemSet>
-    </ModOp>     
-    <ModOp GUID="191686,191676,190740" Type="Add" Path="Values/Item/">
-      <ItemSet>2143505571</ItemSet>
-    </ModOp>     
-    <ModOp GUID="190912,191464,191462" Type="Add" Path="Values/Item/">
-      <ItemSet>2143505579</ItemSet>
-    </ModOp>     
-    <ModOp GUID="190703,190701,190699" Type="Add" Path="Values/Item/">
-      <ItemSet>2143505584</ItemSet>
-    </ModOp>     
-    <ModOp GUID="120055" Type="add" Path="Values/ProductStorageList/ProductList/">
-      <Item>
-        <Product>24821</Product>
-      </Item>
+  </Group>
+  <Group Condition="//Values[Standard/GUID='1404423045']">
+    <ModOp GUID="1404423045" Type="add" Path="Values/">
+      <BuffFactory/>
+      <Upgradable>
+        <NextGUID>2143505560</NextGUID>
+        <UpgradeCost>
+          <Item>
+            <Ingredient>1010017</Ingredient>
+            <Amount>25000</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010196</Ingredient>
+            <Amount>10</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010205</Ingredient>
+            <Amount>40</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010218</Ingredient>
+            <Amount>10</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010207</Ingredient>
+          </Item>
+          <Item>
+            <Ingredient>1010202</Ingredient>
+          </Item>
+        </UpgradeCost>
+      </Upgradable>
     </ModOp>
-
-    
-    <ModOp GUID="120056" Type="add" Path="Values/ProductStorageList/ProductList/">
-      <Item>
-        <Product>2143505553</Product>
-      </Item>
-    </ModOp>
-    <ModOp GUID="501961" Type="add" Path="Values/ProductList/List/">
-      <Item>
-        <Product>2143505553</Product>
-      </Item>
-    </ModOp>
-
-    <Group Condition="#shared_freight_station_khobs">
-      <ModOp GUID="2143505416" Type="add" Path="Values/ConstructionCategory/BuildingList/">
-        <Item>
-          <Building>2143505564</Building>
-        </Item>
-      </ModOp>
-    </Group>
-
-    <Group Condition="//Values[Standard/GUID='1404423040']">
-      <ModOp GUID="1404423040" Type="add" Path="Values/">
-        <Upgradable>
-          <NextGUID>2143505507</NextGUID>
-          <UpgradeCost>
-            <Item>
-              <Amount>10000</Amount>
-              <Ingredient>1010017</Ingredient>
-            </Item>
-            <Item>
-              <Amount>10</Amount>
-              <Ingredient>1010196</Ingredient>
-            </Item>
-            <Item>
-              <Amount>4</Amount>
-              <Ingredient>1010205</Ingredient>
-            </Item>
-            <Item>
-              <Amount>3</Amount>
-              <Ingredient>1010218</Ingredient>
-            </Item>
-            <Item>
-              <Amount>3</Amount>
-              <Ingredient>1010207</Ingredient>
-            </Item>
-            <Item>
-              <Amount>3</Amount>
-              <Ingredient>1010202</Ingredient>
-            </Item>
-          </UpgradeCost>
-        </Upgradable>
-      </ModOp>
-    </Group>
-    
-    <Group Condition="//Values[Standard/GUID='1404423045']">
-      <ModOp GUID="1404423045" Type="add" Path="Values/">
-        <BuffFactory/>
-        <Upgradable>
-          <NextGUID>2143505560</NextGUID>
-          <UpgradeCost>
-            <Item>
-              <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010196</Ingredient>
-              <Amount>10</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010205</Ingredient>
-              <Amount>40</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010218</Ingredient>
-              <Amount>10</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010207</Ingredient>
-            </Item>
-            <Item>
-              <Ingredient>1010202</Ingredient>
-            </Item>
-          </UpgradeCost>
-        </Upgradable>
-      </ModOp>
-    </Group>
+  </Group>
+  <!-- END - ILTP Compatibility -->
 </ModOps>
