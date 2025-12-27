@@ -116,6 +116,24 @@
   </Group>
   <!-- END - Textile Company - Add to category -->
   
+  <!-- START - Brickworks - Add to category -->
+  <Group Condition="#khobs_brickworks">
+    <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>2143505801</Building>
+      </Item>
+      <Item>
+        <Building>2143505803</Building>
+      </Item>
+      <Item>
+        <Building>2143505812</Building>
+      </Item>
+      <Item>
+        <Building>2143505813</Building>
+      </Item>
+    </ModOp>
+  </Group>
+  <!-- END - Brickworks - Add to category -->
 
   <!-- Industrial Ornaments -->
   <Group>

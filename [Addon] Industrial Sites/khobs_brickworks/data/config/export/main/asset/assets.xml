@@ -1,0 +1,872 @@
+<ModOps> 
+  <!-- START - Brickworks Asset Pool -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>AssetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505800</GUID>
+          <Name>AssetPool Brickworks</Name>
+        </Standard>
+        <AssetPool>
+          <AssetList>
+            <Item>
+              <Asset>2143505801</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505803</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505805</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505807</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505812</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505813</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505815</Asset>
+            </Item>
+          </AssetList>
+        </AssetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Brickworks Asset Pool -->
+
+  <!-- START - Brick Company -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>IndustrialCompanyWithItems</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505801</GUID>
+          <Name>Brick Company</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_brick_company.png</IconFilename>
+        </Standard>
+        <Building>
+					<BuildingCategoryName>2143505811</BuildingCategoryName>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>10000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/public/logistic_03/logistic_03.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Selection>
+          <GUIType>Generic</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Ornament>
+          <OrnamentDescription>2143505802</OrnamentDescription>
+        </Ornament>
+        <ItemContainer>
+          <SocketScopeRadius>25</SocketScopeRadius>
+          <!-- <InitSocketItems>
+            <Item>
+              <Item></Item>
+            </Item>
+            <Item>
+              <Item></Item>
+            </Item>
+            <Item>
+              <Item></Item>
+            </Item>
+          </InitSocketItems> -->
+        </ItemContainer>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>5000</Amount>
+              <InactiveAmount>2500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>100</Amount>
+            </Item>
+          </Maintenances>
+          <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+        </Maintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Brick Company -->
+
+  <!-- START - Brickworks -->
+  <ModOp Type="addNextSibling" GUID="1010283">
+    <Asset>
+      <Template>IndustrialCompanyFactory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505803</GUID>
+          <Name>Brickworks</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_brick.png</IconFilename>
+          <InfoDescription>2143505804</InfoDescription>
+        </Standard>
+        <Building>
+					<BuildingCategoryName>2143505811</BuildingCategoryName>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>25000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>12</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/factory_04/factory_04.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <UpgradeList>
+          <DefaultBuff>2143505809</DefaultBuff>
+        </UpgradeList>
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>1010205</Product>
+              <Amount>1</Amount>
+              <StorageAmount>32</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <BuffFactory/>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <ModuleOwner>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>2143505805</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+          <FertilizerModuleData>
+            <Module>2143505807</Module>
+          </FertilizerModuleData>
+        </ModuleOwner>
+        <Ornament>
+          <OrnamentDescription>2143505804</OrnamentDescription>
+        </Ornament>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Brickworks -->
+
+  <!-- START - Brickworks Module -->
+  <ModOp Type="addNextSibling" GUID="1010283">
+    <Asset>
+      <Template>IndustrialCompanyModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505805</GUID>
+          <Name>Brick Kilns</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
+          <InfoDescription>2143505806</InfoDescription>
+        </Standard>
+        <Building>
+					<BuildingCategoryName>2143505811</BuildingCategoryName>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <InfluencedByNeighbors>
+            <Item>
+              <Building>2143505805</Building>
+            </Item>
+          </InfluencedByNeighbors>
+          <BuildingBlockPool>
+            <DontCare />
+            <Single>
+              <Pool>
+                <Item>
+                  <Variation>3</Variation>
+                  <DirectionOffet>0</DirectionOffet>
+                </Item>
+              </Pool>
+            </Single>
+            <Mid>
+              <Pool>
+                <Item>
+                  <Variation>1</Variation>
+                  <DirectionOffet>0</DirectionOffet>
+                </Item>
+              </Pool>
+            </Mid>
+            <End>
+              <Pool>
+                <Item>
+                  <DirectionOffet>1</DirectionOffet>
+                  <Variation>2</Variation>
+                </Item>
+              </Pool>
+            </End>
+            <!-- alt end -->
+            <Crossing>
+              <Pool>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                </Item>
+              </Pool>
+            </Crossing>
+            <Corner>
+              <Pool>
+                <Item>
+                  <DirectionOffet>3</DirectionOffet>
+                  <Variation>0</Variation>
+                </Item>
+              </Pool>
+            </Corner>
+            <!-- alt corner -->
+            <TCrossing>
+              <Pool>
+                <Item>
+                  <Variation>2</Variation>
+                  <DirectionOffet>1</DirectionOffet>
+                </Item>
+              </Pool>
+            </TCrossing>
+          </BuildingBlockPool>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/factory_04/factory_04.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Generic</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <FeedbackController />
+        <Infolayer />
+        <BuildingModule>
+          <IsCulturalModule>1</IsCulturalModule>
+          <PlazaSize>20</PlazaSize>
+          <ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_neutral.png</ModuleMoodImage>
+        </BuildingModule>
+        <AmbientMoodProvider />
+        <ModuleIrrigation />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>7500</Amount>
+              <InactiveAmount>3750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Brickworks Module -->
+
+  <!-- START - Depot -->
+  <ModOp Type="addNextSibling" GUID="25549">
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505807</GUID>
+          <Name>Logistic Depot</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <InfoDescription>2143505808</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingType>BuildingModule</BuildingType>
+					<BuildingCategoryName>2143505811</BuildingCategoryName>
+          <SkipUnlockMessage>1</SkipUnlockMessage>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <AllowChangeVariation>1</AllowChangeVariation>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>12</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505810</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010201</Product><!--clay-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>15</CycleTime>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <FeedbackController />
+        <Pausable />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <HasRuinState>1</HasRuinState>
+        </Attackable>
+        <Maintenance />
+        <AmbientMoodProvider />
+        <LogisticNode />
+        <Constructable />
+        <Locked />
+        <IncidentInfectable />
+        <Object>
+          <Variations>
+            <Item>
+					    <Filename>data/dlc05/graphics/buildings/production/agriculture_tractor_modules/tractor_module_2x3/tractor_module_2x3_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>270121</Sound>
+            </Item>
+          </ActiveSounds>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+        </SoundEmitter>
+        <BuildingModule>
+          <ModuleType>AdditionalModule</ModuleType>
+        </BuildingModule>
+        <Infolayer />
+        <UpgradeList />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505809</GUID>
+          <Name>Logistic Depot - Module - Negative - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect />
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-1000</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade>
+          <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505810</GUID>
+          <Name>Logistic Depot - Module - Positive - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect/>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>1000</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade/>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Depot -->
+
+  <!-- START - Clay Subsidiary -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>IndustrialCompanyWithItems</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505812</GUID>
+          <Name>Clay Subsidiary</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_clay_subsidiary.png</IconFilename>
+          <InfoDescription>2143505570</InfoDescription>
+        </Standard>
+        <Building>
+					<BuildingCategoryName>2143505811</BuildingCategoryName>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>10000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/public/logistic_03/logistic_03.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Selection>
+          <GUIType>Generic</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Constructable/>
+        <Mesh/>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product><!--Money-->
+              <Amount>5000</Amount>
+              <InactiveAmount>5000</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product><!--Moderate workforce 4-->
+              <Amount>50</Amount>
+              <InactiveAmount>50</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Ornament>
+          <OrnamentDescription>2143505570</OrnamentDescription>
+        </Ornament>
+        <ItemContainer>
+          <SocketScopeRadius>25</SocketScopeRadius>
+          <!-- <InitSocketItems>
+            <Item>
+              <Item></Item>
+            </Item>
+            <Item>
+              <Item></Item>
+            </Item>
+            <Item>
+              <Item></Item>
+            </Item>
+          </InitSocketItems> -->
+        </ItemContainer>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Clay Subsidiary -->
+
+  <!-- START - Clay Pit -->
+  <ModOp Type="addNextSibling" GUID="1010283">
+    <Asset>
+      <Template>IndustrialCompanyFactory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505813</GUID>
+          <Name>Clay Pit</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_clay.png</IconFilename>
+          <InfoDescription>2143505814</InfoDescription>
+        </Standard>
+        <Text>
+          <TextOverride>100416</TextOverride>
+        </Text>
+        <Building>
+					<BuildingCategoryName>2143505811</BuildingCategoryName>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>25000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>32</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/open_pit_03.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <UpgradeList/>
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>1010201</Product>
+              <Amount>1</Amount>
+              <StorageAmount>32</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>20</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <BuffFactory/>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>500</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>75</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <ModuleOwner>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>2143505815</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+          <FertilizerModuleData/>
+        </ModuleOwner>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Clay Pit -->
+  
+  <!-- START - Clay Extraction Point -->
+  <ModOp Type="addNextSibling" GUID="1010283">
+    <Asset>
+      <Template>IndustrialCompanyModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505815</GUID>
+          <Name>Clay Extraction Point</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
+          <InfoDescription>2143505816</InfoDescription>
+        </Standard>
+        <Building>
+					<BuildingCategoryName>2143505811</BuildingCategoryName>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <InfluencedByNeighbors>
+            <Item>
+              <Building>2143505815</Building>
+            </Item>
+          </InfluencedByNeighbors>
+          <BuildingBlockPool>
+            <DontCare />
+            <Single>
+              <Pool>
+                <Item>
+                  <Variation>3</Variation>
+                  <DirectionOffet>0</DirectionOffet>
+                </Item>
+              </Pool>
+            </Single>
+            <Mid>
+              <Pool>
+                <Item>
+                  <Variation>1</Variation>
+                  <DirectionOffet>0</DirectionOffet>
+                </Item>
+              </Pool>
+            </Mid>
+            <End>
+              <Pool>
+                <Item>
+                  <DirectionOffet>1</DirectionOffet>
+                  <Variation>2</Variation>
+                </Item>
+              </Pool>
+            </End>
+            <!-- alt end -->
+            <Crossing>
+              <Pool>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                </Item>
+              </Pool>
+            </Crossing>
+            <Corner>
+              <Pool>
+                <Item>
+                  <DirectionOffet>3</DirectionOffet>
+                  <Variation>0</Variation>
+                </Item>
+              </Pool>
+            </Corner>
+            <!-- alt corner -->
+            <TCrossing>
+              <Pool>
+                <Item>
+                  <Variation>2</Variation>
+                  <DirectionOffet>1</DirectionOffet>
+                </Item>
+              </Pool>
+            </TCrossing>
+          </BuildingBlockPool>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+    					<Filename>data/graphics/buildings/production/factory_11/factory_11.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Generic</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <FeedbackController />
+        <Infolayer />
+        <AmbientMoodProvider />
+        <ModuleIrrigation />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>7500</Amount>
+              <InactiveAmount>3750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Clay Extraction Point -->
+</ModOps>
