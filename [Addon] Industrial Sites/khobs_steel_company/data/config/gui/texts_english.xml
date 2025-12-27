@@ -138,7 +138,7 @@
     </Text>
     <Text>
       <GUID>2143505571</GUID>
-      <Text>COKE PRODUCTION</Text>
+      <Text>Industry Expansion: Coke</Text>
     </Text>
     <Text>
       <GUID>2143505572</GUID>
@@ -146,7 +146,7 @@
     </Text>
     <Text>
       <GUID>2143505573</GUID>
-      <Text>COKE PRODUCTION</Text>
+      <Text>Coke Production</Text>
     </Text>
     <Text>
       <GUID>2143505574</GUID>
@@ -178,7 +178,7 @@
     </Text>
     <Text>
       <GUID>2143505584</GUID>
-      <Text>BEAM PRODUCTION</Text>
+      <Text>Industry Expansion: Beam</Text>
     </Text>
     <Text>
       <GUID>2143505585</GUID>
@@ -190,7 +190,7 @@
     </Text>
     <Text>
       <GUID>2143505589</GUID>
-      <Text>Require COKE INDUSTRY set</Text>
+      <Text>Require Coke Research</Text>
     </Text>
     <Text>
       <GUID>2143505590</GUID>

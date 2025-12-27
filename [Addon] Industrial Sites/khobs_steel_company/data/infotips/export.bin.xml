@@ -298,21 +298,7 @@
           <ElementType>4</ElementType>
           <ChildCount>1</ChildCount>
           <Icon>
-            <IconText>[AssetData(2143505558) Icon]</IconText>
-            <Style />
-          </Icon>
-          <Text>
-            <TextGUID>2143505558</TextGUID>
-            <Style />
-          </Text>
-          <WarningType />
-          <BackgroundType />
-        </InfoElement>
-        <InfoElement>
-          <ElementType>4</ElementType>
-          <ChildCount>1</ChildCount>
-          <Icon>
-            <IconText>[AssetData(2143505589) Icon]</IconText>
+            <IconText>[AssetData(2143505571) Icon]</IconText>
             <Style />
           </Icon>
           <Text>
@@ -410,52 +396,6 @@
         <WarningType />
         <BackgroundType />
       </InfoElement>
-    </InfoElement>
-    <InfoElement>
-      <ElementType>8</ElementType>
-      <ChildCount>2</ChildCount>
-      <VisibilityElement>
-        <ElementType>
-          <ElementType>2</ElementType>
-        </ElementType>
-        <ChildCount>1</ChildCount>
-        <VisibilityElement>
-          <ElementType>
-            <ElementType>2</ElementType>
-          </ElementType>
-          <ChildCount>1</ChildCount>
-          <VisibilityElement>
-            <ElementType>
-              <ElementType>1</ElementType>
-            </ElementType>
-            <CompareOperator />
-            <ResultType>
-              <ResultType>1</ResultType>
-            </ResultType>
-            <ExpectedValueInt>2143505573</ExpectedValueInt> <!-- Infotip linked to this DefaultBuff -->
-            <Condition>[ItemAssetData({ItemGuid}) Guid]</Condition>
-          </VisibilityElement>
-          <OperatorType>
-            <OperatorType>1</OperatorType>
-          </OperatorType>
-        </VisibilityElement>
-        <OperatorType />
-      </VisibilityElement>
-      <InfoElement>
-        <ElementType>4</ElementType>
-        <ChildCount>1</ChildCount>
-        <Icon>
-          <IconText>[AssetData(2143505572) Icon]</IconText>
-          <Style />
-        </Icon>
-        <Text>
-          <TextGUID>2143505572</TextGUID>
-          <Style />
-        </Text>
-        <WarningType />
-        <BackgroundType />
-      </InfoElement>
-    
     </InfoElement>
     <!-- Unlock Beam Foundry -->
     <InfoElement>
