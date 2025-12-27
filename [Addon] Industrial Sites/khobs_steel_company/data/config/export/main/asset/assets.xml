@@ -2,7 +2,7 @@
   <!-- START - Steel Company -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
-      <Template>IndustrialCompany</Template>
+      <Template>IndustrialCompanyWithItems</Template>
       <Values>
         <Standard>
           <GUID>2143505408</GUID>
@@ -45,59 +45,20 @@
           </Variations>
         </Object>
         <Culture>
-          <CultureSpawnGroup>1</CultureSpawnGroup>
-          <Sets>
-            <Item/> <!-- LLT -->
-            <Item/> <!-- LLB -->
-            <Item>
-              <Set>2143505567</Set>
-            </Item> <!-- LT -->
-            <Item>
-              <Set>2143505579</Set>
-            </Item> <!-- LB -->
-            <Item/> 
-            <Item/> <!-- MM -->
-            <Item>
-              <Set>2143505571</Set>
-            </Item> <!-- RT -->
-            <Item>
-              <Set>2143505584</Set>
-            </Item> <!-- RB -->
-            <Item/> <!-- ? -->
-            <Item/> <!-- RRT -->
-            <Item/> <!-- RRB -->
-          </Sets>
           <Attractiveness>-10</Attractiveness>
           <HasPollution>1</HasPollution>
         </Culture>
-        <ModuleOwner>
-          <ConstructionOptions>
+        <ItemContainer>
+          <SocketScopeRadius>25</SocketScopeRadius>
+          <InitSocketItems>
             <Item>
-              <ModuleGUID>2143505509</ModuleGUID>
+              <Item>2143505571</Item>
             </Item>
             <Item>
-              <ModuleGUID>2143505402</ModuleGUID><!-- Fictive GUID to disable music pavilion -->
-            </Item> 
-            <Item>
-              <ModuleGUID>1010136</ModuleGUID>
+              <Item>2143505584</Item>
             </Item>
-            <Item>
-              <ModuleGUID>2143505500</ModuleGUID>
-            </Item>
-            <Item>
-              <ModuleGUID>2143505507</ModuleGUID>
-            </Item>
-            <Item>
-              <ModuleGUID>2143505564</ModuleGUID>
-            </Item>
-            <Item>
-              <ModuleGUID>2143505560</ModuleGUID>
-            </Item>
-            <Item>
-              <ModuleGUID>2143505575</ModuleGUID>
-            </Item>
-          </ConstructionOptions>
-        </ModuleOwner>
+          </InitSocketItems>
+        </ItemContainer>
         <Maintenance>
           <Maintenances>
             <Item>
@@ -293,6 +254,9 @@
               <Asset>2143505500</Asset>
             </Item>
             <Item>
+              <Asset>2143505552</Asset>
+            </Item>
+            <Item>
               <Asset>2143505553</Asset>
             </Item>
             <Item>
@@ -305,7 +269,10 @@
               <Asset>2143505564</Asset>
             </Item>
             <Item>
-              <Asset>2143505583</Asset>
+              <Asset>2143505571</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505584</Asset>
             </Item>
           </AssetList>
         </AssetPool>
@@ -1057,12 +1024,12 @@
   <!-- START - Coking Factory -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
-      <Template>IndustrialCompanyModule</Template>
+      <Template>IndustrialCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505575</GUID>
           <Name>Coking Factory - Module</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
+	        <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
           <InfoDescription>2143505576</InfoDescription>
         </Standard>
         <Cost>
@@ -1094,7 +1061,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/steelworks/steelworks.cfg</Filename>
+              <Filename>data/graphics/buildings/production/heavy_03/heavy_03.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1112,7 +1079,7 @@
           </FactoryInputs>
           <FactoryOutputs>
             <Item>
-              <Product>24821</Product>
+              <Product>2143505552</Product>
               <Amount>1</Amount>
               <StorageAmount>6</StorageAmount>
             </Item>
@@ -1178,8 +1145,9 @@
       <Values>
         <Standard>
           <GUID>2143505552</GUID>
-          <Name>Fake - Input Steel Resource - Modules</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_steel.png</IconFilename>
+          <Name>Coke</Name>
+			    <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
+          <InfoDescription>24822</InfoDescription>
         </Standard>
         <Locked />
         <Product>
@@ -1189,6 +1157,9 @@
           <HideInUI>0</HideInUI>
         </Product>
         <ExpeditionAttribute />
+        <Text>
+          <TextOverride>24821</TextOverride>
+        </Text>
       </Values>
     </Asset>
     <Asset>
@@ -1227,6 +1198,21 @@
         <ExpeditionAttribute />
       </Values>
     </Asset>
+  </ModOp>
+  <ModOp GUID="120055" Type="add" Path="Values/ProductStorageList/ProductList/">
+    <Item>
+      <Product>2143505552</Product>
+    </Item>
+  </ModOp>
+  <ModOp GUID="120056" Type="add" Path="Values/ProductStorageList/ProductList/">
+    <Item>
+      <Product>2143505553</Product>
+    </Item>
+  </ModOp>
+  <ModOp GUID="501961" Type="add" Path="Values/ProductList/List/">
+    <Item>
+      <Product>2143505553</Product>
+    </Item>
   </ModOp>
   <!-- END - Product -->
 
@@ -1425,19 +1411,45 @@
       </Values>
     </Asset>
     <Asset>
-      <Template>ItemSet</Template>
+      <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
           <GUID>2143505571</GUID>
           <Name>Coke Production</Name>
-	        <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
-          <InfoDescription>2143505572</InfoDescription>
+	        <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_research_coke_01.png</IconFilename>
+          <InfoDescription>2143505574</InfoDescription>
         </Standard>
-        <ItemSocketSet>
-          <SetBuff>2143505573</SetBuff>
-          <BuffScope>Area</BuffScope>
-        </ItemSocketSet>
-        <Locked/>
+        <Item>
+          <Allocation>None</Allocation>
+          <Rarity>Legendary</Rarity>
+          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
+          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
+          <MaxStackSize>1</MaxStackSize>
+          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
+          <HasAction>1</HasAction> <!-- enable ItemAction -->
+          <OnlyEquippableOnce>1</OnlyEquippableOnce>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505500</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemWithUI>
+          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
+        </ItemWithUI>
+        <ItemAction>
+          <ActiveBuff>2143505573</ActiveBuff>
+          <ActionScope>SelfRadius</ActionScope>
+          <CanEndItemAction>1</CanEndItemAction>
+          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
+        </ItemAction>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Buff />
+        <CraftableItem />
       </Values>
     </Asset>
     <Asset>
@@ -1447,7 +1459,6 @@
           <GUID>2143505573</GUID>
           <Name>Coke Production</Name>
 	        <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_fertilizer_1.png</IconFilename>
-          <InfoDescription>2143505574</InfoDescription>
         </Standard>
         <ItemEffect>
           <EffectTargets>
@@ -1458,13 +1469,13 @@
         </ItemEffect>
         <FactoryUpgrade>
           <ProductivityUpgrade>
-            <Value>-80</Value>
+            <Value>-50</Value>
             <Percental>1</Percental>
           </ProductivityUpgrade>
           <ReplaceInputs>
             <Item>
               <OldInput>1010226</OldInput>
-              <NewInput>24821</NewInput>
+              <NewInput>2143505552</NewInput>
             </Item>
           </ReplaceInputs>
         </FactoryUpgrade>
@@ -1541,19 +1552,45 @@
       </Values>
     </Asset>    
     <Asset>
-      <Template>ItemSet</Template>
+      <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
           <GUID>2143505584</GUID>
-          <Name>Beam Foundry</Name>
-	        <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
+          <Name>Beam Production</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_research_beam.png</IconFilename>
           <InfoDescription>2143505585</InfoDescription>
         </Standard>
-        <ItemSocketSet>
-          <SetBuff>2143505592</SetBuff>
-          <BuffScope>Area</BuffScope>
-        </ItemSocketSet>
-        <Locked/>
+        <Item>
+          <Allocation>None</Allocation>
+          <Rarity>Legendary</Rarity>
+          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
+          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
+          <MaxStackSize>1</MaxStackSize>
+          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
+          <HasAction>1</HasAction> <!-- enable ItemAction -->
+          <OnlyEquippableOnce>1</OnlyEquippableOnce>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505507</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemWithUI>
+          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
+        </ItemWithUI>
+        <ItemAction>
+          <ActiveBuff>2143505563</ActiveBuff>
+          <ActionScope>SelfRadius</ActionScope>
+          <CanEndItemAction>1</CanEndItemAction>
+          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
+        </ItemAction>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Buff />
+        <CraftableItem />
       </Values>
     </Asset>
     <Asset>
@@ -1562,7 +1599,7 @@
         <Standard>
           <GUID>2143505563</GUID>
           <Name>Beam Foundry - Module - Buff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_4.png</IconFilename>
           <InfoDescription>2143505588</InfoDescription>
         </Standard>
         <ItemEffect>
@@ -1614,7 +1651,7 @@
         <Standard>
           <GUID>2143505592</GUID>
           <Name>Beam Foundry - Module - Buff - ItemSet</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_3.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_beams_4.png</IconFilename>
         </Standard>
         <ItemEffect>
           <EffectTargets>
@@ -1646,33 +1683,6 @@
         <ResourceUpgrade/>
       </Values>
     </Asset>
-  </ModOp>
-  <ModOp GUID="190832,190831,190830" Type="Add" Path="Values/Item/">
-    <ItemSet>2143505567</ItemSet>
-  </ModOp>     
-  <ModOp GUID="191686,191676,190740" Type="Add" Path="Values/Item/">
-    <ItemSet>2143505571</ItemSet>
-  </ModOp>     
-  <ModOp GUID="190912,191464,191462" Type="Add" Path="Values/Item/">
-    <ItemSet>2143505579</ItemSet>
-  </ModOp>     
-  <ModOp GUID="190703,190701,190699" Type="Add" Path="Values/Item/">
-    <ItemSet>2143505584</ItemSet>
-  </ModOp>     
-  <ModOp GUID="120055" Type="add" Path="Values/ProductStorageList/ProductList/">
-    <Item>
-      <Product>24821</Product>
-    </Item>
-  </ModOp>
-  <ModOp GUID="120056" Type="add" Path="Values/ProductStorageList/ProductList/">
-    <Item>
-      <Product>2143505553</Product>
-    </Item>
-  </ModOp>
-  <ModOp GUID="501961" Type="add" Path="Values/ProductList/List/">
-    <Item>
-      <Product>2143505553</Product>
-    </Item>
   </ModOp>
   <!-- END - Cultural Sets -->
 
