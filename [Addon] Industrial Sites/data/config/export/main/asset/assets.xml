@@ -135,6 +135,20 @@
   </Group>
   <!-- END - Brickworks - Add to category -->
 
+  
+  <!-- START - Chemical Society - Add to category -->
+  <Group Condition="#khobs_chemical_society">
+    <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>2143505692</Building>
+      </Item>
+      <Item>
+        <Building>2143505700</Building>
+      </Item>
+    </ModOp>
+  </Group>
+  <!-- END - Chemical Society - Add to category -->
+
   <!-- Industrial Ornaments -->
   <Group>
     <ModOp Type="addNextSibling" GUID="25546">
@@ -689,7 +703,6 @@
     </ModOp>
   </Group>
 
-  
   <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
     <Item>
       <GUID>2143505408</GUID>
@@ -720,9 +733,6 @@
     </Item>
     <Item>
       <GUID>2143505646</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505694</GUID>
     </Item>
     <Item>
       <GUID>2143505695</GUID>
