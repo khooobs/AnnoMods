@@ -224,5 +224,9 @@
       <GUID>2143505661</GUID>
       <Text>Team Change</Text>
     </Text>
+    <Text>
+      <GUID>2143505696</GUID>
+      <Text>[AssetData(2143505606) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(120036) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
+    </Text>
   </ModOp>
 </ModOps>
