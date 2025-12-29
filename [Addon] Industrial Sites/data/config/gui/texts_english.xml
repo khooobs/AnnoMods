@@ -24,5 +24,21 @@
       <GUID>2143505407</GUID>
       <Text>Industrial Barrier Gate Large</Text>
     </Text>
+    <Text>
+      <GUID>2143505409</GUID>
+      <Text>The core of your industries. You can choose specific industrial policies, unlocking production chain or activate factories cycles.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505567</GUID>
+      <Text>Industry core-sector</Text>
+    </Text>
+    <Text>
+      <GUID>2143505569</GUID>
+      <Text>Industry sub-sector</Text>
+    </Text>
+    <Text>
+      <GUID>2143505570</GUID>
+      <Text>The functioning of a sector, represented by a company. It is possible to decide on operational policies.</Text>
+    </Text>
   </ModOp>
 </ModOps>

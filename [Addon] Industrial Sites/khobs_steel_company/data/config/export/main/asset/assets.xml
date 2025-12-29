@@ -1356,61 +1356,6 @@
   <!-- START - Cultural Sets -->
   <ModOp GUID="191114" Type="addNextSibling">
     <Asset>
-      <Template>ItemSet</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505567</GUID>
-          <Name>Industrial Converters</Name>
-	        <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_calciner_1.png</IconFilename>
-        </Standard>
-        <ItemSocketSet>
-          <SetBuff>2143505569</SetBuff>
-          <BuffScope>Area</BuffScope>
-        </ItemSocketSet>
-        <Locked/>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505569</GUID>
-          <Name>Industrial Converters</Name>
-	        <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_calciner_1.png</IconFilename>
-          <InfoDescription>2143505570</InfoDescription>
-        </Standard>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505507</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>200</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
-        <BuildingUpgrade/>
-        <Buff/>
-        <CultureUpgrade/>
-        <ModuleOwnerUpgrade/>
-        <IncidentInfectableUpgrade>
-          <IncidentFireIncreaseUpgrade>
-            <Value>25</Value>
-          </IncidentFireIncreaseUpgrade>
-        </IncidentInfectableUpgrade>
-        <PowerplantUpgrade/>
-        <IndustrializableUpgrade/>
-        <ItemContainerUpgrade/>
-        <IncidentInfluencerUpgrade/>
-        <IrrigationUpgrade/>
-        <EcoSystemProviderUpgrade/>
-        <ResourceUpgrade/>
-      </Values>
-    </Asset>
-    <Asset>
       <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
