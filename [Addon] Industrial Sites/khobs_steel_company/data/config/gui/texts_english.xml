@@ -5,10 +5,6 @@
       <Text>Steel Company</Text>
     </Text>
     <Text>
-      <GUID>2143505409</GUID>
-      <Text>The core of your large industries. You can build specific &lt;font overrideTextColor="true" color='#edc891'&gt;industrial buildings&lt;/font&gt;, &lt;font overrideTextColor="true" color='#edc891'&gt;modules&lt;/font&gt; and assign specialists.</Text>
-    </Text>
-    <Text>
       <GUID>2143505410</GUID>
       <Text>Your Industrial Modules</Text>
     </Text>
@@ -123,18 +119,6 @@
     <Text>
       <GUID>2143505566</GUID>
       <Text>Designed and build to carry chemical products. The hull is reinforced with metal to prevent dangerous leaks. Only usable on trade routes, no manual loading or unloading.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505567</GUID>
-      <Text>INDUSTRIAL CONVERTERS</Text>
-    </Text>
-    <Text>
-      <GUID>2143505569</GUID>
-      <Text>INDUSTRIAL CONVERTERS</Text>
-    </Text>
-    <Text>
-      <GUID>2143505570</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505571</GUID>
