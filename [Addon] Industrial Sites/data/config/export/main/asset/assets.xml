@@ -31,6 +31,9 @@
           </Standard>
           <ConstructionCategory>
             <BuildingList>
+              <Item>
+                <Building>1010136</Building>
+              </Item>
             </BuildingList>
             <CategoryDescription>2143505402</CategoryDescription>
           </ConstructionCategory>
@@ -134,8 +137,26 @@
     </ModOp>
   </Group>
   <!-- END - Brickworks - Add to category -->
-
   
+  <!-- START - Steel Society - Add to category -->
+  <Group Condition="#khobs_steel_company">
+    <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>2143505408</Building>
+      </Item>
+      <Item>
+        <Building>2143505500</Building>
+      </Item>
+      <Item>
+        <Building>2143505507</Building>
+      </Item>
+      <Item>
+        <Building>2143505564</Building>
+      </Item>
+    </ModOp>
+  </Group>
+  <!-- END - Steel Society - Add to category -->
+
   <!-- START - Chemical Society - Add to category -->
   <Group Condition="#khobs_chemical_society">
     <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
@@ -723,12 +744,6 @@
       <GUID>2143505564</GUID>
     </Item>
     <Item>
-      <GUID>2143505560</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505575</GUID>
-    </Item>
-    <Item>
       <GUID>2143505595</GUID>
     </Item>
     <Item>
@@ -775,7 +790,7 @@
         <Standard>
           <GUID>2143505554</GUID>
           <Name>Coal Depot Requirement Infotip</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage_01.png</IconFilename>
         </Standard>
       </Values>
     </Asset>

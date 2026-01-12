@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505408</GUID>
-      <Text>Steel Company</Text>
+      <Text>Company: Steelworks</Text>
     </Text>
     <Text>
       <GUID>2143505410</GUID>
@@ -14,19 +14,19 @@
     </Text>
     <Text>
       <GUID>2143505500</GUID>
-      <Text>Coal Depot</Text>
+      <Text>Ore Depot</Text>
     </Text>
     <Text>
       <GUID>2143505501</GUID>
-      <Text>Centralize the storage of coal for your industry.</Text>
+      <Text>Centralize the storage of ores for your industry.</Text>
     </Text>
     <Text>
       <GUID>2143505502</GUID>
-      <Text>Supplied with coal</Text>
+      <Text>Supplied with ores</Text>
     </Text>
     <Text>
       <GUID>2143505503</GUID>
-      <Text>No coal supply</Text>
+      <Text>No ores supply</Text>
     </Text>
     <Text>
       <GUID>2143505504</GUID>
@@ -34,7 +34,7 @@
     </Text>
     <Text>
       <GUID>2143505505</GUID>
-      <Text>Requires Coal Depot</Text>
+      <Text>Requires Ore Depot</Text>
     </Text>
     <Text>
       <GUID>2143505506</GUID>
@@ -54,7 +54,7 @@
     </Text>
     <Text>
       <GUID>2143505510</GUID>
-      <Text>Look for the &lt;font overrideTextColor="true" color='#edc891'&gt;Blast Furnace&lt;/font&gt; in the modules list for this building.</Text>
+      <Text>Additionnal Workshop dedicated to steel production.</Text>
     </Text>
     <Text>
       <GUID>2143505511</GUID>
@@ -74,7 +74,7 @@
     </Text>
     <Text>
       <GUID>2143505554</GUID>
-      <Text>Require Coal Depot</Text>
+      <Text>Require Ore Depot</Text>
     </Text>
     <Text>
       <GUID>2143505555</GUID>
@@ -82,7 +82,7 @@
     </Text>
     <Text>
       <GUID>2143505556</GUID>
-      <Text>Require Blast Furnace</Text>
+      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505557</GUID>
@@ -97,64 +97,24 @@
       <Text>Logistics by Rails</Text>
     </Text>
     <Text>
-      <GUID>2143505560</GUID>
-      <Text>Beam Foundry</Text>
-    </Text>
-    <Text>
-      <GUID>2143505561</GUID>
-      <Text>Allows the production of steel beams but slightly reduces global production.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505562</GUID>
-      <Text>Steel</Text>
-    </Text>
-    <Text>
-      <GUID>2143505563</GUID>
-      <Text>Beam Foundry - Module</Text>
-    </Text>
-    <Text>
       <GUID>2143505564</GUID>
       <Text>Freight Unload Dock: Steel</Text>
     </Text>
     <Text>
-      <GUID>2143505571</GUID>
-      <Text>Industry Expansion: Coke</Text>
-    </Text>
-    <Text>
-      <GUID>2143505572</GUID>
-      <Text>Unlock Coking Factory</Text>
-    </Text>
-    <Text>
-      <GUID>2143505573</GUID>
-      <Text>Coke Production</Text>
-    </Text>
-    <Text>
-      <GUID>2143505574</GUID>
-      <Text>Allows the construction of Coking Factory, an enhanced factory used for your Coal Depots. As better than coal, the depot will need less of it.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505575</GUID>
-      <Text>Coking Factory</Text>
-    </Text>
-    <Text>
-      <GUID>2143505576</GUID>
-      <Text>Produces coke, a fuel that is more efficient than coal.</Text>
-    </Text>
-    <Text>
       <GUID>2143505579</GUID>
-      <Text>SLAG BY-PRODUCT</Text>
+      <Text>Ore Depot</Text>
     </Text>
     <Text>
       <GUID>2143505580</GUID>
-      <Text>As a co-product of steelmaking, slag is typically produced either through blasts furnaces. Can be used for roads or into concrete factory.</Text>
+      <Text>Store ores.</Text>
     </Text>
     <Text>
       <GUID>2143505581</GUID>
-      <Text>Slag by-product</Text>
+      <Text>Logistic Depot</Text>
     </Text>
     <Text>
       <GUID>2143505582</GUID>
-      <Text>As a co-product of steelmaking, slag is typically produced either through blasts furnaces. Can be used for roads or into concrete factory.</Text>
+      <Text>Steelworks Industry Module</Text>
     </Text>
     <Text>
       <GUID>2143505584</GUID>
@@ -163,26 +123,6 @@
     <Text>
       <GUID>2143505585</GUID>
       <Text>Enables foundries to produce additional steel beams, at the cost of reduced overall efficiency.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505588</GUID>
-      <Text>Enables foundries to produce additional steel beams, at the cost of reduced overall efficiency.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505589</GUID>
-      <Text>Require Coke Research</Text>
-    </Text>
-    <Text>
-      <GUID>2143505590</GUID>
-      <Text>Require BEAM PRODUCTION set</Text>
-    </Text>
-    <Text>
-      <GUID>2143505591</GUID>
-      <Text>Unlock Beam Foundry</Text>
-    </Text>
-    <Text>
-      <GUID>2143505592</GUID>
-      <Text>Beam Foundry - Module</Text>
     </Text>
   </ModOp>
 </ModOps>
