@@ -423,16 +423,13 @@
 				</Object>
 				<Mesh />
 				<Selection>
-					<GUIType>Module</GUIType>
+					<GUIType>Generic</GUIType>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
 						<Values>
 							<ActionList />
 						</Values>
 					</OnSelection>
-					<AllowedDragType>ItemSocket;CargoItemStack;StorageItemStack;SharedTransferItem</AllowedDragType>
-					<UnlockSecondGUI>1500300092</UnlockSecondGUI>
-					<SecondGUIType>Production</SecondGUIType>
 				</Selection>
 				<Text />
 				<Constructable>
@@ -477,11 +474,6 @@
 					<PlazaSize>20</PlazaSize>
 					<ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_neutral.png</ModuleMoodImage>
 				</BuildingModule>
-				<ItemContainer>
-					<SocketCount>1</SocketCount>
-					<SocketAllocation>RadiusBuilding;GuildHouse;Mod1</SocketAllocation>
-					<SocketScope>ModuleOwner</SocketScope>
-				</ItemContainer>
 				<AmbientMoodProvider>
 					<DynamicEnvironmentType>Fog</DynamicEnvironmentType>
 				</AmbientMoodProvider>
