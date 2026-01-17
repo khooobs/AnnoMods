@@ -67,7 +67,7 @@
   </Group>
 
   <!-- START - Industrial Mechanical Workshop - Add to category -->
-  <Group Condition="#khobs_industrial_mechanical_workshop">
+  <Group Condition="#khobs_workshop">
     <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
       <Item>
         <Building>2143505667</Building>

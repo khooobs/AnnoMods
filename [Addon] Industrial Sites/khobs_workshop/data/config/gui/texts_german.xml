@@ -1,0 +1,100 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505667</GUID>
+      <Text>Werkstatt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505668</GUID>
+      <Text>Bietet der Branche verschiedene Geräte und Werkzeuge an.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505670</GUID>
+      <Text>Slicer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505671</GUID>
+      <Text>Werkstatt: Slicer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505672</GUID>
+      <Text>Geschätzte Slicer-Verkäufe</Text>
+    </Text>
+    <Text>
+      <GUID>2143505673</GUID>
+      <Text>Werkstatt: Hebe</Text>
+    </Text>
+    <Text>
+      <GUID>2143505674</GUID>
+      <Text>Hebel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505675</GUID>
+      <Text>Ein Werkzeug, das zum Heben und Absenken schwerer Lasten entwickelt wurde.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505676</GUID>
+      <Text>Eine Werkstatt, die sich der Konstruktion und Montage von Geräten für Industrie oder Handwerk widmet.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505677</GUID>
+      <Text>Ein halbmechanischer Cutter, der besonders von Arbeitern geschätzt wird, die den Fingerverlust vermeiden wollen. Funktioniert für Brot und Fleisch.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505678</GUID>
+      <Text>Geschätzte Verkauf der Hebe</Text>
+    </Text>
+    <Text>
+      <GUID>2143505679</GUID>
+      <Text>Werkstatt: Harvester</Text>
+    </Text>
+    <Text>
+      <GUID>2143505680</GUID>
+      <Text>Harvester</Text>
+    </Text>
+    <Text>
+      <GUID>2143505681</GUID>
+      <Text>Geschätzte Harvester-Verkäufe</Text>
+    </Text>
+    <Text>
+      <GUID>2143505682</GUID>
+      <Text>Jüngste technologische Fortschritte haben die Entwicklung eines selbstfahrenden Erntemaschinen ermöglicht. Entfessle die Kraft dieser dröhnenden Motoren und beobachte, wie riesige Felder von dieser Maschine verschlungen werden.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505683</GUID>
+      <Text>Werkstatt: Kreissäge</Text>
+    </Text>
+    <Text>
+      <GUID>2143505684</GUID>
+      <Text>Kreissäge</Text>
+    </Text>
+    <Text>
+      <GUID>2143505685</GUID>
+      <Text>Eine so scharfe Klinge, besonders nützlich zum Roden eines Waldes.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505686</GUID>
+      <Text>Geschätzte Rundsägenverkäufe</Text>
+    </Text>
+    <Text>
+      <GUID>2143505687</GUID>
+      <Text>Werkstatt: Generator</Text>
+    </Text>
+    <Text>
+      <GUID>2143505688</GUID>
+      <Text>Generator</Text>
+    </Text>
+    <Text>
+      <GUID>2143505689</GUID>
+      <Text>Geschätzte Generatorverkäufe</Text>
+    </Text>
+    <Text>
+      <GUID>2143505690</GUID>
+      <Text>Leistungsstarke Turbinen, die mit Gezeitenkraft die Produktion unterstützen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505691</GUID>
+      <Text>Der gesamte Flussbau</Text>
+    </Text>
+  </ModOp>
+</ModOps>

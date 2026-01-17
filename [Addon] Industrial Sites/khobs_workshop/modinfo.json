@@ -1,0 +1,51 @@
+{
+	"Version": "1.0",
+	"ModID": "khobs_workshop",
+	"IncompatibleIds": null,
+	"ModDependencies": [],
+	"LoadAfterIds": [
+		"Taludas_VanillaRiverSlotBuildingsOW"
+	],
+	"Category": {
+		"Chinese": "建筑",
+		"English": "Building",
+		"French": "Bâtiment",
+		"German": "Gebäude",
+		"Italian": "Edificio",
+		"Japanese": "建物",
+		"Korean": "건물",
+		"Polish": "Budowla",
+		"Russian": "Здание",
+		"Spanish": "Edificio",
+		"Taiwanese": "建築"
+	},
+	"ModName": {
+		"Chinese": "工业车间",
+		"English": "Industrial Workshop",
+		"French": "Atelier industriel",
+		"German": "Industriewerkstatt",
+		"Italian": "Officina industriale",
+		"Japanese": "工業用作業場",
+		"Korean": "산업 작업장",
+		"Polish": "Warsztat przemysłowy",
+		"Russian": "Промышленная мастерская",
+		"Spanish": "Taller industrial",
+		"Taiwanese": "工業工作坊"
+	},
+	"Description": {
+		"Chinese": null,
+		"English": "file::README.md",
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	},
+	"DLCDependencies": [],
+	"CreatorName": "Khobs",
+	"CreatorContact": "https://github.com/Khooobs/AnnoMods"
+}

@@ -1,0 +1,100 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505667</GUID>
+      <Text>Laboratorio</Text>
+    </Text>
+    <Text>
+      <GUID>2143505668</GUID>
+      <Text>Offre varie attrezzature e strumenti all'industria.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505670</GUID>
+      <Text>Slicer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505671</GUID>
+      <Text>Workshop: Slicer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505672</GUID>
+      <Text>Vendite stimate di Slicer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505673</GUID>
+      <Text>Officina: Sollevatore</Text>
+    </Text>
+    <Text>
+      <GUID>2143505674</GUID>
+      <Text>Sollevatore</Text>
+    </Text>
+    <Text>
+      <GUID>2143505675</GUID>
+      <Text>Uno strumento progettato per sollevare e abbassare carichi pesanti.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505676</GUID>
+      <Text>Un laboratorio dedicato alla progettazione e all'assemblaggio di attrezzature per l'industria o l'artigianato.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505677</GUID>
+      <Text>Un taglio semi-meccanico, particolarmente apprezzato dagli operai che vogliono evitare di perdere dita. Funziona per pane e carne.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505678</GUID>
+      <Text>Vendite stimate di paranco</Text>
+    </Text>
+    <Text>
+      <GUID>2143505679</GUID>
+      <Text>Laboratorio: Mietitore</Text>
+    </Text>
+    <Text>
+      <GUID>2143505680</GUID>
+      <Text>Raccoglitore</Text>
+    </Text>
+    <Text>
+      <GUID>2143505681</GUID>
+      <Text>Vendite stimate delle mietitrici</Text>
+    </Text>
+    <Text>
+      <GUID>2143505682</GUID>
+      <Text>I recenti progressi tecnologici hanno permesso la progettazione di un mietittore semovente. Scatena la potenza di questi motori ruggenti e guarda mentre vasti campi vengono divorati da questa macchina.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505683</GUID>
+      <Text>Officina: Sega circolare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505684</GUID>
+      <Text>Sega circolare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505685</GUID>
+      <Text>Una lama così affilata, particolarmente utile per disboscare una foresta.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505686</GUID>
+      <Text>Vendite stime della sega circolare</Text>
+    </Text>
+    <Text>
+      <GUID>2143505687</GUID>
+      <Text>Laboratorio: Generatore</Text>
+    </Text>
+    <Text>
+      <GUID>2143505688</GUID>
+      <Text>Generatore</Text>
+    </Text>
+    <Text>
+      <GUID>2143505689</GUID>
+      <Text>Vendite stime di generatori</Text>
+    </Text>
+    <Text>
+      <GUID>2143505690</GUID>
+      <Text>Potenti turbine che, con l'energia mareomotrice, aiuteranno nella produzione.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505691</GUID>
+      <Text>Tutta costruzione fluviale</Text>
+    </Text>
+  </ModOp>
+</ModOps>
