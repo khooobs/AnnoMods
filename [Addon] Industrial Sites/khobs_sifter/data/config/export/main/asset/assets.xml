@@ -105,7 +105,7 @@
           <Standard>
             <GUID>2143505536</GUID>
             <Name>Sifter: Blank</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_siever.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_siever.png</IconFilename>
             <InfoDescription>2143505537</InfoDescription>
           </Standard>
           <Building>
@@ -313,7 +313,7 @@
           <Standard>
             <GUID>2143505542</GUID>
             <Name>Sifter: Iron</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_siever.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_siever.png</IconFilename>
             <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
@@ -504,7 +504,7 @@
           <Standard>
             <GUID>2143505545</GUID>
             <Name>Sifter: Limestone</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_siever.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_siever.png</IconFilename>
             <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
@@ -695,7 +695,7 @@
           <Standard>
             <GUID>2143505547</GUID>
             <Name>Sifter: Gold</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_siever.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_siever.png</IconFilename>
             <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
@@ -891,7 +891,7 @@
           <Standard>
             <GUID>2143505549</GUID>
             <Name>Sifter: Copper</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_siever.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_siever.png</IconFilename>
             <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
@@ -1087,7 +1087,7 @@
           <Standard>
             <GUID>2143505551</GUID>
             <Name>Sifter: Zinc</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_multifactory_siever.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_siever.png</IconFilename>
             <InfoDescription>2143505519</InfoDescription>
           </Standard>
           <Building>
