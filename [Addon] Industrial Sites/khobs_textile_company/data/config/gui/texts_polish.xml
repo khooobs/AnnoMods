@@ -2,65 +2,65 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505593</GUID>
-      <Text>Company: Textile</Text>
+      <Text>Firma: Textile</Text>
     </Text>
     <Text>
       <GUID>2143505595</GUID>
-      <Text>Loom Factory</Text>
+      <Text>Fabryka Krosien</Text>
     </Text>
     <Text>
       <GUID>2143505596</GUID>
-      <Text>Designs looms for the textile industry.</Text>
+      <Text>Wzory są dla przemysłu tekstylnego.</Text>
     </Text>
     <Text>
       <GUID>2143505597</GUID>
-      <Text>Looms</Text>
+      <Text>Krosna</Text>
     </Text>
     <Text>
       <GUID>2143505598</GUID>
-      <Text>No Looms</Text>
+      <Text>Brak krosien</Text>
     </Text>
     <Text>
       <GUID>2143505599</GUID>
-      <Text>Textile Industry Module</Text>
+      <Text>Moduł Przemysłu Tekstylnego</Text>
     </Text>
     <Text>
       <GUID>2143505600</GUID>
-      <Text>Spinning Mill</Text>
+      <Text>Przędzalnia</Text>
     </Text>
     <Text>
       <GUID>2143505601</GUID>
-      <Text>Spinning Mill: Wool</Text>
+      <Text>Przędzalnia: Wełna</Text>
     </Text>
     <Text>
       <GUID>2143505602</GUID>
-      <Text>Spinning Mill: Exotic Wool</Text>
+      <Text>Przędzalnia: Egzotyczna wełna</Text>
     </Text>
     <Text>
       <GUID>2143505603</GUID>
-      <Text>Spinning Mill: Felt</Text>
+      <Text>Przędzalnia: filc</Text>
     </Text>
     <Text>
       <GUID>2143505604</GUID>
-      <Text>Spinning Mill: Cotton</Text>
+      <Text>Przędzalnia: Bawełna</Text>
     </Text>
     <Text>
       <GUID>2143505605</GUID>
-      <Text>Spinning Mill: Linen</Text>
+      <Text>Przędzalnia: Len</Text>
     </Text>
     <Text>
       <GUID>2143505606</GUID>
       <!-- No need to translate -->
-      <Text>Spinning Recipes</Text>
+      <Text>Przepisy na przędzenie</Text>
     </Text>
     <Text>
       <GUID>2143505607</GUID>
       <!-- Spinning Recipe List Description -->
-      <Text>One of the symbols of the revolution of this era, these brick walls contain textile machines and efficiency that few people seem to understand yet.</Text>
+      <Text>Jeden z symboli rewolucji tamtej epoki, te ceglane ściany zawierają maszyny tekstylne i efektywność, której niewielu ludzi jeszcze rozumie.</Text>
     </Text>
     <Text>
       <GUID>2143505608</GUID>
-      <Text>Wool Fabric 1t</Text>
+      <Text>Tkanina wełniana 1t</Text>
     </Text>
     <Text>
       <GUID>2143505609</GUID>
@@ -68,7 +68,7 @@
     </Text>
     <Text>
       <GUID>2143505610</GUID>
-      <Text>Exotic Wool Fabric 2t</Text>
+      <Text>Tkanina z egzotycznej wełny 2t</Text>
     </Text>
     <Text>
       <GUID>2143505611</GUID>
@@ -76,7 +76,7 @@
     </Text>
     <Text>
       <GUID>2143505612</GUID>
-      <Text>Felt Fabric 3t</Text>
+      <Text>Filcowa tkanina 3t</Text>
     </Text>
     <Text>
       <GUID>2143505613</GUID>
@@ -84,7 +84,7 @@
     </Text>
     <Text>
       <GUID>2143505614</GUID>
-      <Text>Cotton Fabric 4t</Text>
+      <Text>Bawełniana tkanina 4t</Text>
     </Text>
     <Text>
       <GUID>2143505615</GUID>
@@ -92,7 +92,7 @@
     </Text>
     <Text>
       <GUID>2143505616</GUID>
-      <Text>Linen Fabric 6t</Text>
+      <Text>Tkanina lniana 6t</Text>
     </Text>
     <Text>
       <GUID>2143505617</GUID>
@@ -100,51 +100,51 @@
     </Text>
     <Text>
       <GUID>2143505618</GUID>
-      <Text>All Spinning Mills</Text>
+      <Text>Wszystkie przędzalnie</Text>
     </Text>
     <Text>
       <GUID>2143505619</GUID>
-      <Text>Spinning Mill Module</Text>
+      <Text>Moduł przędzalni</Text>
     </Text>
     <Text>
       <GUID>2143505620</GUID>
-      <Text>An additional workshop dedicated to textiles.</Text>
+      <Text>Dodatkowy warsztat poświęcony tekstyliom.</Text>
     </Text>
     <Text>
       <GUID>2143505621</GUID>
-      <Text>No goods in depot</Text>
+      <Text>Brak towarów w magazynie</Text>
     </Text>
     <Text>
       <GUID>2143505622</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Magazyn logistyczny</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Magazyn logistyczny</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Magazyn logistyczny</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Magazyn logistyczny</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Magazyn logistyczny</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
-      <Text>Store goods.</Text>
+      <Text>Przechowywać towary.</Text>
     </Text>
     <Text>
       <GUID>2143505628</GUID>
-      <Text>Goods in Depot</Text>
+      <Text>Towary w zajezdni</Text>
     </Text>
     <Text>
       <GUID>2143505629</GUID>
-      <Text>Fabric</Text>
+      <Text>Tkanina</Text>
     </Text>
     <Text>
       <GUID>2143505630</GUID>
@@ -152,7 +152,7 @@
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>Weaver: Work Clothes</Text>
+      <Text>Tkaczka: Ubrania robocze</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
@@ -160,11 +160,11 @@
     </Text>
     <Text>
       <GUID>2143505633</GUID>
-      <Text>Weaver: Suits</Text>
+      <Text>Weaver: Garnitury</Text>
     </Text>
     <Text>
       <GUID>2143505634</GUID>
-      <Text>Weaver: Tapestries</Text>
+      <Text>Weaver: Gobeliny</Text>
     </Text>
     <Text>
       <GUID>2143505635</GUID>
@@ -208,67 +208,71 @@
     </Text>
     <Text>
       <GUID>2143505644</GUID>
-      <Text>All Weavers</Text>
+      <Text>Wszyscy tkacze</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Magazyn logistyczny</Text>
     </Text>
     <Text>
       <GUID>2143505646</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Magazyn logistyczny</Text>
     </Text>
     <Text>
       <GUID>2143505647</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Magazyn logistyczny</Text>
     </Text>
     <Text>
       <GUID>2143505648</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Magazyn logistyczny</Text>
     </Text>
     <Text>
       <GUID>2143505649</GUID>
-      <Text>Weaver Module</Text>
+      <Text>Moduł Weaver</Text>
     </Text>
     <Text>
       <GUID>2143505650</GUID>
-      <Text>All Depots from Weavers</Text>
+      <Text>Wszystkie magazyny od Weavers</Text>
     </Text>
     <Text>
       <GUID>2143505651</GUID>
-      <Text>Industry Expansion: Fabric</Text>
+      <Text>Ekspansja przemysłu: Fabric</Text>
     </Text>
     <Text>
       <GUID>2143505652</GUID>
-      <Text>The use and standardisation of fabrics enables the industry to improve its production and logistics.</Text>
+      <Text>Wykorzystanie i standaryzacja tkanin umożliwia branży poprawę produkcji i logistyki.</Text>
     </Text>
     <Text>
       <GUID>2143505653</GUID>
-      <Text>Industry Expansion: Fabric</Text>
+      <Text>Ekspansja przemysłu: Fabric</Text>
     </Text>
     <Text>
       <GUID>2143505654</GUID>
-      <Text>Factory Cycle (WIP)</Text>
+      <Text>Cykl fabryczny (WIP)</Text>
     </Text>
     <Text>
       <GUID>2143505655</GUID>
-      <Text>Work In Progress</Text>
+      <Text>Prace w toku</Text>
     </Text>
     <Text>
       <GUID>2143505656</GUID>
-      <Text>Factory Cycle (WIP)</Text>
+      <Text>Cykl fabryczny (WIP)</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>
-      <Text>Team Change</Text>
+      <Text>Zmiana drużyny</Text>
     </Text>
     <Text>
       <GUID>2143505658</GUID>
-      <Text>With this recruitment campaign, you should have all the workforce you need.</Text>
+      <Text>Dzięki tej kampanii rekrutacyjnej powinieneś mieć całą potrzebną kadrę.</Text>
     </Text>
     <Text>
       <GUID>2143505659</GUID>
-      <Text>Team Change</Text>
+      <Text>Zmiana drużyny</Text>
     </Text>
+    <!-- START - SPINNING MILLS INDUSTRY -->
+    <!-- END - SPINNING MILLS INDUSTRY -->
+    <!-- START - WEAVING INDUSTRY -->
+    <!-- END - WEAVING INDUSTRY -->
   </ModOp>
 </ModOps>

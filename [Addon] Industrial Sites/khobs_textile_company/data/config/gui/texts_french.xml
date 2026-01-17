@@ -2,51 +2,51 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505593</GUID>
-      <Text>Company: Textile</Text>
+      <Text>Société : Textile</Text>
     </Text>
     <Text>
       <GUID>2143505595</GUID>
-      <Text>Loom Factory</Text>
+      <Text>Usine de métiers à tisser</Text>
     </Text>
     <Text>
       <GUID>2143505596</GUID>
-      <Text>Designs looms for the textile industry.</Text>
+      <Text>Fabrique des métiers à tisser pour l’industrie textile.</Text>
     </Text>
     <Text>
       <GUID>2143505597</GUID>
-      <Text>Looms</Text>
+      <Text>Métier à tisser</Text>
     </Text>
     <Text>
       <GUID>2143505598</GUID>
-      <Text>No Looms</Text>
+      <Text>Aucun métier à tisser</Text>
     </Text>
     <Text>
       <GUID>2143505599</GUID>
-      <Text>Textile Industry Module</Text>
+      <Text>Module de l’industrie textile</Text>
     </Text>
     <Text>
       <GUID>2143505600</GUID>
-      <Text>Spinning Mill</Text>
+      <Text>Filature</Text>
     </Text>
     <Text>
       <GUID>2143505601</GUID>
-      <Text>Spinning Mill: Wool</Text>
+      <Text>Filature : Laine</Text>
     </Text>
     <Text>
       <GUID>2143505602</GUID>
-      <Text>Spinning Mill: Exotic Wool</Text>
+      <Text>Filature : Laine exotique</Text>
     </Text>
     <Text>
       <GUID>2143505603</GUID>
-      <Text>Spinning Mill: Felt</Text>
+      <Text>Filature : feutre</Text>
     </Text>
     <Text>
       <GUID>2143505604</GUID>
-      <Text>Spinning Mill: Cotton</Text>
+      <Text>Filature : coton</Text>
     </Text>
     <Text>
       <GUID>2143505605</GUID>
-      <Text>Spinning Mill: Linen</Text>
+      <Text>Filature : lin</Text>
     </Text>
     <Text>
       <GUID>2143505606</GUID>
@@ -56,11 +56,11 @@
     <Text>
       <GUID>2143505607</GUID>
       <!-- Spinning Recipe List Description -->
-      <Text>One of the symbols of the revolution of this era, these brick walls contain textile machines and efficiency that few people seem to understand yet.</Text>
+      <Text>L’un des symboles de la révolution de cette époque, ces murs de briques contiennent des machines textiles et une efficacité que peu de gens semblent encore comprendre.</Text>
     </Text>
     <Text>
       <GUID>2143505608</GUID>
-      <Text>Wool Fabric 1t</Text>
+      <Text>Tissu en laine 1t</Text>
     </Text>
     <Text>
       <GUID>2143505609</GUID>
@@ -68,7 +68,7 @@
     </Text>
     <Text>
       <GUID>2143505610</GUID>
-      <Text>Exotic Wool Fabric 2t</Text>
+      <Text>Tissu en laine exotique 2t</Text>
     </Text>
     <Text>
       <GUID>2143505611</GUID>
@@ -76,7 +76,7 @@
     </Text>
     <Text>
       <GUID>2143505612</GUID>
-      <Text>Felt Fabric 3t</Text>
+      <Text>Tissu feutré 3t</Text>
     </Text>
     <Text>
       <GUID>2143505613</GUID>
@@ -84,7 +84,7 @@
     </Text>
     <Text>
       <GUID>2143505614</GUID>
-      <Text>Cotton Fabric 4t</Text>
+      <Text>Tissu de coton 4t</Text>
     </Text>
     <Text>
       <GUID>2143505615</GUID>
@@ -92,7 +92,7 @@
     </Text>
     <Text>
       <GUID>2143505616</GUID>
-      <Text>Linen Fabric 6t</Text>
+      <Text>Tissu en lin 6t</Text>
     </Text>
     <Text>
       <GUID>2143505617</GUID>
@@ -100,74 +100,76 @@
     </Text>
     <Text>
       <GUID>2143505618</GUID>
-      <Text>All Spinning Mills</Text>
+      <Text>Toutes les filatures</Text>
     </Text>
     <Text>
       <GUID>2143505619</GUID>
-      <Text>Spinning Mill Module</Text>
+      <Text>Atelier de filage</Text>
     </Text>
     <Text>
       <GUID>2143505620</GUID>
-      <Text>An additional workshop dedicated to textiles.</Text>
+      <Text>Un atelier supplémentaire dédié au textile.</Text>
     </Text>
     <Text>
       <GUID>2143505621</GUID>
-      <Text>No goods in depot</Text>
+      <Text>Aucune marchandise au dépôt</Text>
     </Text>
     <Text>
       <GUID>2143505622</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Dépôt logistique</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Dépôt logistique</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Dépôt logistique</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Dépôt logistique</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Dépôt logistique</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
-      <Text>Store goods.</Text>
+      <Text>Stocke les marchandises.</Text>
     </Text>
     <Text>
       <GUID>2143505628</GUID>
-      <Text>Goods in Depot</Text>
+      <Text>Marchandises au dépôt</Text>
     </Text>
     <Text>
       <GUID>2143505629</GUID>
-      <Text>Fabric</Text>
+      <Text>Tissu</Text>
     </Text>
     <Text>
       <GUID>2143505630</GUID>
-      <Text>Weaver</Text>
+      <Text>Tisserand</Text>
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>Weaver: Work Clothes</Text>
+      <Text>Tisserand : Vêtements de travail</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
-      <Text>Weaver: Bombins</Text>
+      <Text>Tisserand : Bombins</Text>
     </Text>
     <Text>
       <GUID>2143505633</GUID>
-      <Text>Weaver: Suits</Text>
+      <Text>Tisserand : Costumes</Text>
     </Text>
     <Text>
       <GUID>2143505634</GUID>
-      <Text>Weaver: Tapestries</Text>
+      <Text>Tisserand : Tapisseries</Text>
     </Text>
     <Text>
       <GUID>2143505635</GUID>
+      <!-- No need to translate -->
+
       <Text>Weaver</Text>
     </Text>
     <Text>
@@ -208,47 +210,47 @@
     </Text>
     <Text>
       <GUID>2143505644</GUID>
-      <Text>All Weavers</Text>
+      <Text>Tous les tisserands</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Dépôt logistique</Text>
     </Text>
     <Text>
       <GUID>2143505646</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Dépôt logistique</Text>
     </Text>
     <Text>
       <GUID>2143505647</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Dépôt logistique</Text>
     </Text>
     <Text>
       <GUID>2143505648</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Dépôt logistique</Text>
     </Text>
     <Text>
       <GUID>2143505649</GUID>
-      <Text>Weaver Module</Text>
+      <Text>Atelier de tisserand</Text>
     </Text>
     <Text>
       <GUID>2143505650</GUID>
-      <Text>All Depots from Weavers</Text>
+      <Text>Tous les dépôts de tisserands</Text>
     </Text>
     <Text>
       <GUID>2143505651</GUID>
-      <Text>Industry Expansion: Fabric</Text>
+      <Text>Expansion industrielle : Tissu</Text>
     </Text>
     <Text>
       <GUID>2143505652</GUID>
-      <Text>The use and standardisation of fabrics enables the industry to improve its production and logistics.</Text>
+      <Text>L’utilisation et la standardisation des tissus permettent à l’industrie d’améliorer sa production et sa logistique.</Text>
     </Text>
     <Text>
       <GUID>2143505653</GUID>
-      <Text>Industry Expansion: Fabric</Text>
+      <Text>Expansion industrielle : Tissu</Text>
     </Text>
     <Text>
       <GUID>2143505654</GUID>
-      <Text>Factory Cycle (WIP)</Text>
+      <Text>Cycle d’usine (WIP)</Text>
     </Text>
     <Text>
       <GUID>2143505655</GUID>
@@ -256,19 +258,19 @@
     </Text>
     <Text>
       <GUID>2143505656</GUID>
-      <Text>Factory Cycle (WIP)</Text>
+      <Text>Cycle d’usine (WIP)</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>
-      <Text>Team Change</Text>
+      <Text>Changement d’équipe</Text>
     </Text>
     <Text>
       <GUID>2143505658</GUID>
-      <Text>With this recruitment campaign, you should have all the workforce you need.</Text>
+      <Text>Avec cette campagne de recrutement, vous devriez disposer de toute la main-d’œuvre dont vous avez besoin.</Text>
     </Text>
     <Text>
       <GUID>2143505659</GUID>
-      <Text>Team Change</Text>
+      <Text>Changement d’équipe</Text>
     </Text>
   </ModOp>
 </ModOps>

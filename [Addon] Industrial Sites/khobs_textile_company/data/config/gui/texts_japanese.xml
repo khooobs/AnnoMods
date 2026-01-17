@@ -2,65 +2,65 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505593</GUID>
-      <Text>Company: Textile</Text>
+      <Text>会社:繊維</Text>
     </Text>
     <Text>
       <GUID>2143505595</GUID>
-      <Text>Loom Factory</Text>
+      <Text>織機工場</Text>
     </Text>
     <Text>
       <GUID>2143505596</GUID>
-      <Text>Designs looms for the textile industry.</Text>
+      <Text>デザインは繊維産業に迫っています。</Text>
     </Text>
     <Text>
       <GUID>2143505597</GUID>
-      <Text>Looms</Text>
+      <Text>織機</Text>
     </Text>
     <Text>
       <GUID>2143505598</GUID>
-      <Text>No Looms</Text>
+      <Text>織機は使わない</Text>
     </Text>
     <Text>
       <GUID>2143505599</GUID>
-      <Text>Textile Industry Module</Text>
+      <Text>繊維産業モジュール</Text>
     </Text>
     <Text>
       <GUID>2143505600</GUID>
-      <Text>Spinning Mill</Text>
+      <Text>紡績工場</Text>
     </Text>
     <Text>
       <GUID>2143505601</GUID>
-      <Text>Spinning Mill: Wool</Text>
+      <Text>紡績工場:羊毛</Text>
     </Text>
     <Text>
       <GUID>2143505602</GUID>
-      <Text>Spinning Mill: Exotic Wool</Text>
+      <Text>スピニングミル:エキゾチックウール</Text>
     </Text>
     <Text>
       <GUID>2143505603</GUID>
-      <Text>Spinning Mill: Felt</Text>
+      <Text>スピニングミル:フェルト</Text>
     </Text>
     <Text>
       <GUID>2143505604</GUID>
-      <Text>Spinning Mill: Cotton</Text>
+      <Text>紡績工場:綿花</Text>
     </Text>
     <Text>
       <GUID>2143505605</GUID>
-      <Text>Spinning Mill: Linen</Text>
+      <Text>紡績工場:リネン</Text>
     </Text>
     <Text>
       <GUID>2143505606</GUID>
       <!-- No need to translate -->
-      <Text>Spinning Recipes</Text>
+      <Text>紡績レシピ</Text>
     </Text>
     <Text>
       <GUID>2143505607</GUID>
       <!-- Spinning Recipe List Description -->
-      <Text>One of the symbols of the revolution of this era, these brick walls contain textile machines and efficiency that few people seem to understand yet.</Text>
+      <Text>この時代の革命の象徴の一つであるこれらのレンガの壁には、繊維機械と効率性が入っており、まだ多くの人が理解していないようです。</Text>
     </Text>
     <Text>
       <GUID>2143505608</GUID>
-      <Text>Wool Fabric 1t</Text>
+      <Text>ウールファブリック 1t</Text>
     </Text>
     <Text>
       <GUID>2143505609</GUID>
@@ -68,7 +68,7 @@
     </Text>
     <Text>
       <GUID>2143505610</GUID>
-      <Text>Exotic Wool Fabric 2t</Text>
+      <Text>エキゾチックウールファブリック 2t</Text>
     </Text>
     <Text>
       <GUID>2143505611</GUID>
@@ -76,7 +76,7 @@
     </Text>
     <Text>
       <GUID>2143505612</GUID>
-      <Text>Felt Fabric 3t</Text>
+      <Text>フェルトファブリック3t</Text>
     </Text>
     <Text>
       <GUID>2143505613</GUID>
@@ -84,7 +84,7 @@
     </Text>
     <Text>
       <GUID>2143505614</GUID>
-      <Text>Cotton Fabric 4t</Text>
+      <Text>コットンファブリック 4t</Text>
     </Text>
     <Text>
       <GUID>2143505615</GUID>
@@ -92,7 +92,7 @@
     </Text>
     <Text>
       <GUID>2143505616</GUID>
-      <Text>Linen Fabric 6t</Text>
+      <Text>リネンファブリック 6t</Text>
     </Text>
     <Text>
       <GUID>2143505617</GUID>
@@ -100,75 +100,75 @@
     </Text>
     <Text>
       <GUID>2143505618</GUID>
-      <Text>All Spinning Mills</Text>
+      <Text>すべての紡績工場</Text>
     </Text>
     <Text>
       <GUID>2143505619</GUID>
-      <Text>Spinning Mill Module</Text>
+      <Text>スピニングミルモジュール</Text>
     </Text>
     <Text>
       <GUID>2143505620</GUID>
-      <Text>An additional workshop dedicated to textiles.</Text>
+      <Text>テキスタイルに特化した追加のワークショップも設けられています。</Text>
     </Text>
     <Text>
       <GUID>2143505621</GUID>
-      <Text>No goods in depot</Text>
+      <Text>倉庫に商品はありません</Text>
     </Text>
     <Text>
       <GUID>2143505622</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>物流倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>物流倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>物流倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>物流倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>物流倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
-      <Text>Store goods.</Text>
+      <Text>店の品物。</Text>
     </Text>
     <Text>
       <GUID>2143505628</GUID>
-      <Text>Goods in Depot</Text>
+      <Text>デポ内の貨物</Text>
     </Text>
     <Text>
       <GUID>2143505629</GUID>
-      <Text>Fabric</Text>
+      <Text>生地</Text>
     </Text>
     <Text>
       <GUID>2143505630</GUID>
-      <Text>Weaver</Text>
+      <Text>ウィーバー</Text>
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>Weaver: Work Clothes</Text>
+      <Text>織り手:作業着</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
-      <Text>Weaver: Bombins</Text>
+      <Text>ウィーバー:ボンビンズ</Text>
     </Text>
     <Text>
       <GUID>2143505633</GUID>
-      <Text>Weaver: Suits</Text>
+      <Text>ウィーバー:スーツ</Text>
     </Text>
     <Text>
       <GUID>2143505634</GUID>
-      <Text>Weaver: Tapestries</Text>
+      <Text>織り手:タペストリー</Text>
     </Text>
     <Text>
       <GUID>2143505635</GUID>
-      <Text>Weaver</Text>
+      <Text>ウィーバー</Text>
     </Text>
     <Text>
       <GUID>2143505636</GUID>
@@ -208,67 +208,71 @@
     </Text>
     <Text>
       <GUID>2143505644</GUID>
-      <Text>All Weavers</Text>
+      <Text>すべての織り手</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>物流倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505646</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>物流倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505647</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>物流倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505648</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>物流倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505649</GUID>
-      <Text>Weaver Module</Text>
+      <Text>ウィーバーモジュール</Text>
     </Text>
     <Text>
       <GUID>2143505650</GUID>
-      <Text>All Depots from Weavers</Text>
+      <Text>織工からの全デポ</Text>
     </Text>
     <Text>
       <GUID>2143505651</GUID>
-      <Text>Industry Expansion: Fabric</Text>
+      <Text>産業拡大:ファブリック</Text>
     </Text>
     <Text>
       <GUID>2143505652</GUID>
-      <Text>The use and standardisation of fabrics enables the industry to improve its production and logistics.</Text>
+      <Text>繊維の使用と標準化により、業界は生産と物流を向上させることができます。</Text>
     </Text>
     <Text>
       <GUID>2143505653</GUID>
-      <Text>Industry Expansion: Fabric</Text>
+      <Text>産業拡大:ファブリック</Text>
     </Text>
     <Text>
       <GUID>2143505654</GUID>
-      <Text>Factory Cycle (WIP)</Text>
+      <Text>ファクトリーサイクル(WIP)</Text>
     </Text>
     <Text>
       <GUID>2143505655</GUID>
-      <Text>Work In Progress</Text>
+      <Text>進行中の作業</Text>
     </Text>
     <Text>
       <GUID>2143505656</GUID>
-      <Text>Factory Cycle (WIP)</Text>
+      <Text>ファクトリーサイクル(WIP)</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>
-      <Text>Team Change</Text>
+      <Text>チームチェンジ</Text>
     </Text>
     <Text>
       <GUID>2143505658</GUID>
-      <Text>With this recruitment campaign, you should have all the workforce you need.</Text>
+      <Text>この採用キャンペーンで、必要な労働力をすべて確保できるはずです。</Text>
     </Text>
     <Text>
       <GUID>2143505659</GUID>
-      <Text>Team Change</Text>
+      <Text>チームチェンジ</Text>
     </Text>
+    <!-- START - SPINNING MILLS INDUSTRY -->
+    <!-- END - SPINNING MILLS INDUSTRY -->
+    <!-- START - WEAVING INDUSTRY -->
+    <!-- END - WEAVING INDUSTRY -->
   </ModOp>
 </ModOps>
