@@ -22,9 +22,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>0.630875</x>
-							<y>0.000000</y>
-							<z>-1.416091</z>
+							<x>-1.020827</x>
+							<y>0.106350</y>
+							<z>-1.459090</z>
 						</Position>
 						<RotationY>0.976265</RotationY>
 						<Extents>
@@ -45,9 +45,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-0.163500</x>
-							<y>0.000000</y>
-							<z>-1.472052</z>
+							<x>-1.778405</x>
+							<y>0.137326</y>
+							<z>-1.299503</z>
 						</Position>
 						<RotationY>3.157891</RotationY>
 						<Extents>
@@ -68,9 +68,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-0.489522</x>
-							<y>0.000000</y>
-							<z>-1.475471</z>
+							<x>-1.770248</x>
+							<y>0.137326</y>
+							<z>-0.792885</z>
 						</Position>
 						<RotationY>2.567397</RotationY>
 						<Extents>
@@ -91,9 +91,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-0.609912</x>
-							<y>0.000000</y>
-							<z>-1.644625</z>
+							<x>-0.955325</x>
+							<y>0.137326</y>
+							<z>-0.235627</z>
 						</Position>
 						<RotationY>0.205328</RotationY>
 						<Extents>
@@ -122,9 +122,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>0.297129</x>
-							<y>0.000000</y>
-							<z>-2.912016</z>
+							<x>-1.208345</x>
+							<y>0.138667</y>
+							<z>-1.321185</z>
 						</Position>
 						<RotationY>5.197668</RotationY>
 						<Extents>
@@ -145,9 +145,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-1.090537</x>
-							<y>0.000000</y>
-							<z>3.724221</z>
+							<x>-1.360615</x>
+							<y>0.138666</y>
+							<z>1.498541</z>
 						</Position>
 						<RotationY>1.819066</RotationY>
 						<Extents>
@@ -176,11 +176,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-2.738865</x>
-							<y>0.000000</y>
-							<z>-3.204834</z>
+							<x>-1.586989</x>
+							<y>0.125197</y>
+							<z>1.485419</z>
 						</Position>
-						<RotationY>-1.409014</RotationY>
+						<RotationY>-0.231037</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -199,11 +199,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-2.699196</x>
-							<y>0.000000</y>
-							<z>-3.517791</z>
+							<x>-1.345443</x>
+							<y>0.125197</y>
+							<z>1.608590</z>
 						</Position>
-						<RotationY>1.519627</RotationY>
+						<RotationY>2.697604</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -222,11 +222,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.516312</x>
-							<y>0.000000</y>
-							<z>3.405451</z>
+							<x>0.215997</x>
+							<y>0.175197</y>
+							<z>-1.394823</z>
 						</Position>
-						<RotationY>2.824945</RotationY>
+						<RotationY>-0.202901</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -245,11 +245,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.147402</x>
-							<y>0.000000</y>
-							<z>3.470024</z>
+							<x>0.589854</x>
+							<y>0.125197</y>
+							<z>-1.417107</z>
 						</Position>
-						<RotationY>6.034937</RotationY>
+						<RotationY>3.007091</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -276,9 +276,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.830923</x>
-							<y>0.000000</y>
-							<z>2.429142</z>
+							<x>1.094870</x>
+							<y>0.145719</y>
+							<z>1.267193</z>
 						</Position>
 						<RotationY>4.739717</RotationY>
 						<Extents>
@@ -299,9 +299,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.765100</x>
-							<y>0.000000</y>
-							<z>0.407368</z>
+							<x>1.138523</x>
+							<y>0.123156</y>
+							<z>0.545576</z>
 						</Position>
 						<RotationY>4.732183</RotationY>
 						<Extents>
@@ -322,9 +322,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.807436</x>
-							<y>0.000000</y>
-							<z>-0.860984</z>
+							<x>1.155446</x>
+							<y>0.123156</y>
+							<z>-0.519281</z>
 						</Position>
 						<RotationY>5.412895</RotationY>
 						<Extents>
@@ -345,9 +345,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>0.523981</x>
-							<y>0.000000</y>
-							<z>-0.811722</z>
+							<x>1.109388</x>
+							<y>0.123156</y>
+							<z>-1.299293</z>
 						</Position>
 						<RotationY>1.539375</RotationY>
 						<Extents>
@@ -368,11 +368,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.757040</x>
-							<y>0.000000</y>
-							<z>-0.892441</z>
+							<x>0.470391</x>
+							<y>0.123156</y>
+							<z>-1.146864</z>
 						</Position>
-						<RotationY>1.599562</RotationY>
+						<RotationY>0.244100</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -391,11 +391,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.782354</x>
-							<y>0.000000</y>
-							<z>-2.581602</z>
+							<x>0.372907</x>
+							<y>0.123156</y>
+							<z>-0.849901</z>
 						</Position>
-						<RotationY>1.628818</RotationY>
+						<RotationY>0.273355</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -414,11 +414,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>0.247580</x>
-							<y>0.000000</y>
-							<z>-2.743264</z>
+							<x>0.193903</x>
+							<y>0.123156</y>
+							<z>0.036656</z>
 						</Position>
-						<RotationY>1.588930</RotationY>
+						<RotationY>0.233467</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -437,11 +437,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>0.196193</x>
-							<y>0.000000</y>
-							<z>-2.709852</z>
+							<x>0.036063</x>
+							<y>0.123156</y>
+							<z>0.932823</z>
 						</Position>
-						<RotationY>4.747766</RotationY>
+						<RotationY>6.659828</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
