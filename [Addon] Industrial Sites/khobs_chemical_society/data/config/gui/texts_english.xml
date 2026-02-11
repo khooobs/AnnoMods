@@ -44,25 +44,13 @@
       <GUID>2143505715</GUID>
       <Text>Provides chemical experimentations area.</Text>
     </Text>
-    <!-- <Text>
-      <GUID>2143505715</GUID>
-      <Text>Look for the &lt;font overrideTextColor="true" color='#edc891'&gt;Chemical Plant&lt;/font&gt; in the modules list for this building.</Text>
-    </Text> -->
     <Text>
       <GUID>2143505716</GUID>
-      <Text>Storage Tank</Text>
-    </Text>
-    <Text>
-      <GUID>2143505717</GUID>
       <Text>All Chemical Plant Sites</Text>
     </Text>
     <Text>
-      <GUID>2143505718</GUID>
+      <GUID>2143505717</GUID>
       <Text>Chemical Industry Module</Text>
-    </Text>
-    <Text>
-      <GUID>2143505719</GUID>
-      <Text>Storage Tank</Text>
     </Text>
     <Text>
       <GUID>2143505720</GUID>
@@ -73,8 +61,48 @@
       <Text>Chemical Plant: Soda</Text>
     </Text>
     <Text>
-      <GUID>2143505722</GUID>
-      <Text>Storage Tank</Text>
+      <GUID>2143505724</GUID>
+      <Text>No Goods in Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505725</GUID>
+      <Text>Goods in Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505726</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505727</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505728</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505729</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505730</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505731</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505732</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505733</GUID>
+      <Text>Petrochemical Experimentations</Text>
+    </Text>
+    <Text>
+      <GUID>2143505734</GUID>
+      <Text>Logistic Depot</Text>
     </Text>
   </ModOp>
 </ModOps>

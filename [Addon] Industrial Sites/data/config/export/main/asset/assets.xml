@@ -160,9 +160,9 @@
   <!-- START - Chemical Society - Add to category -->
   <Group Condition="#khobs_chemical_society">
     <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
-      <Item>
+      <!-- <Item>
         <Building>2143505692</Building>
-      </Item>
+      </Item> -->
       <Item>
         <Building>2143505700</Building>
       </Item>
@@ -756,7 +756,7 @@
       <GUID>2143505714</GUID>
     </Item>
     <Item>
-      <GUID>2143505717</GUID>
+      <GUID>2143505716</GUID>
     </Item>
     <Item>
       <GUID>2143505728</GUID>
