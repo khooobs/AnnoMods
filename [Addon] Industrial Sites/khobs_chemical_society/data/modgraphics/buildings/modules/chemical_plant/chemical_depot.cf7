@@ -22,7 +22,7 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-1.732317</x>
+							<x>-1.303978</x>
 							<y>0.000046</y>
 							<z>-0.938530</z>
 						</Position>
@@ -152,9 +152,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-1.021615</x>
-							<y>0.918565</y>
-							<z>1.883318</z>
+							<x>-0.600486</x>
+							<y>1.635742</y>
+							<z>1.356984</z>
 						</Position>
 						<RotationY>0.173421</RotationY>
 						<Extents>
@@ -320,9 +320,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>0.911212</x>
+							<x>1.186726</x>
 							<y>0.000000</y>
-							<z>1.069209</z>
+							<z>1.109840</z>
 						</Position>
 						<RotationY>1.816341</RotationY>
 						<Extents>

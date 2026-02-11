@@ -97,9 +97,9 @@
 	<Dummy>
 		<Name>transporter_spawn</Name>
 		<Position>
-			<xf>2.186149</xf>
+			<xf>-0.346195</xf>
 			<yf>0.000046</yf>
-			<zf>0.434899</zf>
+			<zf>2.031571</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>

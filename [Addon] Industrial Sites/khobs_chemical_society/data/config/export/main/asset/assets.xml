@@ -10,7 +10,7 @@
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_company.png</IconFilename>
         </Standard>
         <Building>
-					<BuildingCategoryName>2143505718</BuildingCategoryName>
+					<BuildingCategoryName>2143505717</BuildingCategoryName>
         </Building>
         <Cost>
           <Costs>
@@ -82,43 +82,6 @@
     </Asset>
   </ModOp>
   <!-- END - Chemical Company -->
-
-  <!-- START - Construction Menu -->
-  <!-- <ModOp Type="addNextSibling" GUID="1010303">
-    <Asset>
-      <Template>ConstructionCategory</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505761</GUID>
-          <Name>Chemical Industry Menu</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_company.png</IconFilename>
-        </Standard>
-        <ConstructionCategory>
-          <BuildingList>
-            <Item>
-              <Building>2143505692</Building>
-            </Item>
-            <Item>
-              <Building>2143505700</Building>
-            </Item>
-            <Item>
-              <Building>2143505694</Building>
-            </Item>
-          </BuildingList>
-          <CategoryDescription>2143505402</CategoryDescription>
-        </ConstructionCategory>
-        <Text>
-          <TextOverride>2143505692</TextOverride>
-        </Text>
-      </Values>
-    </Asset>
-  </ModOp>
-  <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500016']">
-    <Item>
-      <Building>2143505761</Building>
-    </Item>
-  </ModOp> -->
-  <!-- END - Construction Menu -->
 
   <!-- START - Chemical Compound -->
   <ModOp Type="addNextSibling" GUID="135134">
@@ -382,7 +345,7 @@
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505718</BuildingCategoryName>
+		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
           <InfluencedByNeighbors>
             <Item>
               <Building>2143505700</Building>
@@ -416,13 +379,13 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid.cfg</Filename>
-            </Item>
-            <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
             </Item>
             <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
@@ -493,7 +456,7 @@
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505718</BuildingCategoryName>
+		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
           <InfluencedByNeighbors>
             <Item>
               <Building>2143505700</Building>
@@ -527,13 +490,13 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid.cfg</Filename>
-            </Item>
-            <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
             </Item>
             <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
@@ -579,26 +542,6 @@
           <TextOverride>132786</TextOverride>
         </Text>
         <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1010203</Product>
-              <!--soap-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-            <Item>
-              <Product>133095</Product>
-              <!--Coconut Butter-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-            <Item>
-              <Product>133093</Product>
-              <!--Cinnamon-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>133181</Product>
@@ -625,6 +568,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <UpgradeList>
+          <DefaultBuff>2143505724</DefaultBuff>
+        </UpgradeList>
         <RecipeBuilding>
           <RecipeList>2143505701</RecipeList><!--RecipeList_Chemical-->
         </RecipeBuilding>
@@ -634,6 +580,9 @@
               <ModuleGUID>2143505714</ModuleGUID>
             </Item>
           </ConstructionOptions>
+          <FertilizerModuleData>
+            <Module>2143505726</Module>
+          </FertilizerModuleData>
         </ModuleOwner>
       </Values>
     </Asset>
@@ -647,7 +596,7 @@
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505718</BuildingCategoryName>
+		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
           <InfluencedByNeighbors>
             <Item>
               <Building>2143505700</Building>
@@ -681,13 +630,13 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid.cfg</Filename>
-            </Item>
-            <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
             </Item>
             <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
@@ -733,26 +682,6 @@
           <TextOverride>132777</TextOverride>
         </Text>
         <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1010232</Product>
-              <!--salpeter-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-            <Item>
-              <Product>1010239</Product>
-              <!--sugar-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-            <Item>
-              <Product>133097</Product>
-              <!--Citrus Fruits-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>133185</Product>
@@ -778,6 +707,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <UpgradeList>
+          <DefaultBuff>2143505724</DefaultBuff>
+        </UpgradeList>
         <RecipeBuilding>
           <RecipeList>2143505701</RecipeList><!--RecipeList_Chemical-->
         </RecipeBuilding>
@@ -787,7 +719,10 @@
               <ModuleGUID>2143505714</ModuleGUID>
             </Item>
           </ConstructionOptions>
-          </ModuleOwner>
+          <FertilizerModuleData>
+            <Module>2143505727</Module>
+          </FertilizerModuleData>
+        </ModuleOwner>
       </Values>
     </Asset>
     <Asset>
@@ -795,12 +730,12 @@
       <Values>
         <Standard>
           <GUID>2143505707</GUID>
-          <Name>Chemical_Plant_Souvenier</Name>
+          <Name>Chemical_Plant_Souvenir</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_souvenir.png</IconFilename>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505718</BuildingCategoryName>
+		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
           <InfluencedByNeighbors>
             <Item>
               <Building>2143505700</Building>
@@ -834,13 +769,13 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid.cfg</Filename>
-            </Item>
-            <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
             </Item>
             <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
@@ -886,26 +821,6 @@
           <TextOverride>133533</TextOverride>
         </Text>
         <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1010241</Product>
-              <!--glass-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-            <Item>
-              <Product>1010253</Product>
-              <!--cotton-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-            <Item>
-              <Product>134616</Product>
-              <!--Camphor-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>133532</Product>
@@ -930,6 +845,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <UpgradeList>
+          <DefaultBuff>2143505724</DefaultBuff>
+        </UpgradeList>
         <RecipeBuilding>
           <RecipeList>2143505701</RecipeList><!--RecipeList_Chemical-->
         </RecipeBuilding>
@@ -939,7 +857,10 @@
               <ModuleGUID>2143505714</ModuleGUID>
             </Item>
           </ConstructionOptions>
-          </ModuleOwner>
+          <FertilizerModuleData>
+            <Module>2143505728</Module>
+          </FertilizerModuleData>
+        </ModuleOwner>
       </Values>
     </Asset>
     <Asset>
@@ -947,12 +868,12 @@
       <Values>
         <Standard>
           <GUID>2143505709</GUID>
-          <Name>Chemical_Plant_LaqcuerColor</Name>
+          <Name>Chemical_Plant_LacquerColor</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_lacquer.png</IconFilename>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505718</BuildingCategoryName>
+		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
           <InfluencedByNeighbors>
             <Item>
               <Building>2143505700</Building>
@@ -986,13 +907,13 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid.cfg</Filename>
-            </Item>
-            <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
             </Item>
             <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
@@ -1038,26 +959,6 @@
           <TextOverride>135133</TextOverride>
         </Text>
         <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1010228</Product>
-              <!--quartz sand-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-            <Item>
-              <Product>135086</Product>
-              <!--Resin-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-            <Item>
-              <Product>135130</Product>
-              <!--Ethanol-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>135129</Product>
@@ -1083,6 +984,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <UpgradeList>
+          <DefaultBuff>2143505724</DefaultBuff>
+        </UpgradeList>
         <RecipeBuilding>
           <RecipeList>2143505701</RecipeList>
           <!--RecipeList_Chemical-->
@@ -1093,7 +997,10 @@
               <ModuleGUID>2143505714</ModuleGUID>
             </Item>
           </ConstructionOptions>
-          </ModuleOwner>
+          <FertilizerModuleData>
+            <Module>2143505729</Module>
+          </FertilizerModuleData>
+        </ModuleOwner>
       </Values>
     </Asset>
     <Asset>
@@ -1106,7 +1013,7 @@
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505718</BuildingCategoryName>
+		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
           <InfluencedByNeighbors>
             <Item>
               <Building>2143505700</Building>
@@ -1140,13 +1047,13 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid.cfg</Filename>
-            </Item>
-            <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
             </Item>
             <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
@@ -1192,26 +1099,6 @@
           <TextOverride>135224</TextOverride>
         </Text>
         <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1010253</Product>
-              <!--cotton-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-            <Item>
-              <Product>134616</Product>
-              <!--Camphor-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-            <Item>
-              <Product>135130</Product>
-              <!--Ethanol-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>135150</Product>
@@ -1237,6 +1124,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <UpgradeList>
+          <DefaultBuff>2143505724</DefaultBuff>
+        </UpgradeList>
         <RecipeBuilding>
           <RecipeList>2143505701</RecipeList>
           <!--RecipeList_Chemical-->
@@ -1247,7 +1137,10 @@
               <ModuleGUID>2143505714</ModuleGUID>
             </Item>
           </ConstructionOptions>
-          </ModuleOwner>
+          <FertilizerModuleData>
+            <Module>2143505730</Module>
+          </FertilizerModuleData>
+        </ModuleOwner>
       </Values>
     </Asset>
     <Asset>
@@ -1260,7 +1153,7 @@
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505718</BuildingCategoryName>
+		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
           <InfluencedByNeighbors>
             <Item>
               <Building>2143505700</Building>
@@ -1294,13 +1187,13 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid.cfg</Filename>
-            </Item>
-            <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
             </Item>
             <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
@@ -1346,20 +1239,6 @@
           <TextOverride>135134</TextOverride>
         </Text>
         <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>120008</Product>
-              <!--wood-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-            <Item>
-              <Product>1010192</Product>
-              <!--grain-->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>135130</Product>
@@ -1385,6 +1264,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <UpgradeList>
+          <DefaultBuff>2143505724</DefaultBuff>
+        </UpgradeList>
         <RecipeBuilding>
           <RecipeList>2143505701</RecipeList>
           <!--RecipeList_Chemical-->
@@ -1395,7 +1277,10 @@
               <ModuleGUID>2143505714</ModuleGUID>
             </Item>
           </ConstructionOptions>
-          </ModuleOwner>
+          <FertilizerModuleData>
+            <Module>2143505731</Module>
+          </FertilizerModuleData>
+        </ModuleOwner>
       </Values>
     </Asset>
     <Asset>
@@ -1408,7 +1293,7 @@
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505718</BuildingCategoryName>
+		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
           <InfluencedByNeighbors>
             <Item>
               <Building>2143505700</Building>
@@ -1442,13 +1327,13 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid.cfg</Filename>
-            </Item>
-            <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
             </Item>
             <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
@@ -1494,18 +1379,6 @@
           <TextOverride>135134</TextOverride>
         </Text>
         <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1010231</Product>
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-            <Item>
-              <Product>1010226</Product>
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>1999002300</Product>
@@ -1528,6 +1401,9 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <UpgradeList>
+          <DefaultBuff>2143505724</DefaultBuff>
+        </UpgradeList>
         <RecipeBuilding>
           <RecipeList>2143505701</RecipeList>
         </RecipeBuilding>
@@ -1537,7 +1413,10 @@
               <ModuleGUID>2143505714</ModuleGUID>
             </Item>
           </ConstructionOptions>
-          </ModuleOwner>
+          <FertilizerModuleData>
+            <Module>2143505734</Module>
+          </FertilizerModuleData>
+        </ModuleOwner>
       </Values>
     </Asset>
     <Asset>
@@ -1550,7 +1429,7 @@
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505718</BuildingCategoryName>
+		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
           <InfluencedByNeighbors>
             <Item>
               <Building>2143505700</Building>
@@ -1584,13 +1463,13 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid.cfg</Filename>
-            </Item>
-            <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
             </Item>
             <Item>
               <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
@@ -1630,7 +1509,6 @@
         <Locked/>
         <FeedbackController/>
         <Infolayer/>
-        <UpgradeList/>
         <Factory7>
           <IsAgriculture>1</IsAgriculture>
         </Factory7>
@@ -1645,15 +1523,14 @@
           <CycleTime>180</CycleTime>
         </FactoryBase>
         <LogisticNode/>
+        <UpgradeList/>
         <RecipeBuilding>
           <RecipeList>2143505701</RecipeList>
         </RecipeBuilding>
         <ModuleOwner>
-          <ConstructionOptions>
-            <Item>
-              <ModuleGUID>2143505714</ModuleGUID>
-            </Item>
-          </ConstructionOptions>
+          <FertilizerModuleData>
+            <Module>2143505732</Module>
+          </FertilizerModuleData>
         </ModuleOwner>
         <AmbientMoodProvider>
           <AmbientMood>IndustryHeavy</AmbientMood>
@@ -1723,6 +1600,134 @@
           <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
           <InfoDescription>2143505715</InfoDescription>
         </Standard>
+        <Building>
+          
+          <InfluencedVariationDirection>
+            <Item />
+            <Item>
+              <!-- end, south-west -->
+              <Direction>3</Direction>
+              <Type>End</Type>
+            </Item>
+            <Item>
+              <!-- end, south-east -->
+              <Type>End</Type>
+            </Item>
+            <Item>
+              <!-- corner, south -->
+              <Direction>2</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <!-- end, north-east -->
+              <Direction>1</Direction>
+              <Type>Crossing</Type>
+            </Item>
+            <Item>
+              <!-- mid, south-west to north-east -->
+              <Direction>3</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <!-- corner, east -->
+              <Direction>1</Direction>
+              <Type>TCrossing</Type>
+            </Item>
+            <Item>
+              <!-- T, front facing south-east -->
+              <Direction>1</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <!-- end, north-west -->
+              <Direction>2</Direction>
+              <Type>Crossing</Type>
+            </Item>
+            <Item>
+              <!-- corner, west -->
+              <Direction>3</Direction>
+              <Type>TCrossing</Type>
+            </Item>
+            <Item>
+              <!-- mid, north-west to south-east -->
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <!-- T, front facing south-west  -->
+              <Direction>0</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <!-- corner, north -->
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <!-- T, front facing north-west -->
+              <Direction>3</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <!-- T, front facing north-east -->
+              <Direction>2</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <!-- crossing -->
+            </Item>
+          </InfluencedVariationDirection>
+          <BuildingBlockPool>
+          	<DontCare />
+          	<Single>
+          	  <Pool>
+          	    <Item>
+          	      <Variation>3</Variation>
+          	      <DirectionOffet>0</DirectionOffet>
+          	    </Item>
+          	  </Pool>
+          	</Single>
+          	<Mid>
+          	  <Pool>
+          	    <Item>
+          	      <Variation>1</Variation>
+          	      <DirectionOffet>0</DirectionOffet>
+          	    </Item>
+          	  </Pool>
+          	</Mid>
+          	<End>
+          	  <Pool>
+          	    <Item>
+          	      <DirectionOffet>1</DirectionOffet>
+          	      <Variation>2</Variation>
+          	    </Item>
+          	  </Pool>
+          	</End>
+          	<!-- alt end -->
+          	<Crossing>
+          	  <Pool>
+          	    <Item>
+          	      <DirectionOffet>2</DirectionOffet>
+          	    </Item>
+          	  </Pool>
+          	</Crossing>
+          	<Corner>
+          	  <Pool>
+          	    <Item>
+          	      <DirectionOffet>3</DirectionOffet>
+          	      <Variation>0</Variation>
+          	    </Item>
+          	  </Pool>
+          	</Corner>
+          	<!-- alt corner -->
+          	<TCrossing>
+          	  <Pool>
+          	    <Item>
+          	      <Variation>2</Variation>
+          	      <DirectionOffet>1</DirectionOffet>
+          	    </Item>
+          	  </Pool>
+          	</TCrossing>
+          </BuildingBlockPool>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -1752,7 +1757,16 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_laboratory_wing.cfg</Filename>
+              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_module_corner1.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_module_mid.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_module_corner2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_module_mid.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1792,278 +1806,16 @@
         </Maintenance>
       </Values>
     </Asset>
-    <Asset>
-      <Template>BuffFactoryModule</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505716</GUID>
-          <Name>Storage Tank Module</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_storage_tank.png</IconFilename>
-        </Standard>
-        <Building>
-          <BuildingType>BuildingModule</BuildingType>
-          <BuildingCategoryName>2143505402</BuildingCategoryName>
-          <SkipUnlockMessage>1</SkipUnlockMessage>
-          <AssociatedRegions>Moderate</AssociatedRegions>
-          <SecondPartyRelevant>0</SecondPartyRelevant>
-        </Building>
-        <Blocking/>
-        <Mesh/>
-        <BuffFactory>
-          <ProductionBuffs>
-            <Item>
-              <ProductivityBuff>2143505722</ProductivityBuff>
-            </Item>
-          </ProductionBuffs>
-        </BuffFactory>
-        <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>2143505699</Product>
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-          </FactoryInputs>
-          <CycleTime>30</CycleTime>
-          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
-          <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
-        </FactoryBase>
-        <FeedbackController/>
-        <Pausable/>
-        <Selection>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList/>
-            </Values>
-          </OnSelection>
-        </Selection>
-        <Attackable>
-          <AttackableType>IslandBuilding</AttackableType>
-          <HasRuinState>1</HasRuinState>
-        </Attackable>
-        <Maintenance/>
-        <AmbientMoodProvider/>
-        <LogisticNode>
-          <TransporterCountMax>0</TransporterCountMax>
-        </LogisticNode>
-        <Constructable/>
-        <IncidentInfectable/>
-        <Object>
-          <Variations>
-            <Item>
-					    <Filename>data/modgraphics/buildings/modules/storage_tank/storage_tank.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <SoundEmitter>
-          <ActiveSounds>
-            <Item>
-              <Sound>270121</Sound>
-            </Item>
-          </ActiveSounds>
-          <DestroySounds>
-            <Item>
-              <Sound>9818756</Sound>
-            </Item>
-          </DestroySounds>
-        </SoundEmitter>
-        <Cost>
-          <Costs>
-            <Item>
-              <VectorElement>
-                <InheritedIndex>0</InheritedIndex>
-                <InheritanceMapV2>
-                  <Entry>
-                    <TemplateName>BuffFactory</TemplateName>
-                    <Index>0</Index>
-                  </Entry>
-                  <Entry>
-                    <TemplateName>BuffFactoryModule</TemplateName>
-                    <Index>0</Index>
-                  </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
-              <Amount>1000</Amount>
-            </Item>
-            <Item>
-              <VectorElement>
-                <InheritedIndex>1</InheritedIndex>
-                <InheritanceMapV2>
-                  <Entry>
-                    <TemplateName>BuffFactory</TemplateName>
-                    <Index>1</Index>
-                  </Entry>
-                  <Entry>
-                    <TemplateName>BuffFactoryModule</TemplateName>
-                    <Index>1</Index>
-                  </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
-              <Amount>20</Amount>
-            </Item>
-            <Item>
-              <VectorElement>
-                <InheritedIndex>2</InheritedIndex>
-                <InheritanceMapV2>
-                  <Entry>
-                    <TemplateName>BuffFactory</TemplateName>
-                    <Index>2</Index>
-                  </Entry>
-                  <Entry>
-                    <TemplateName>BuffFactoryModule</TemplateName>
-                    <Index>2</Index>
-                  </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
-              <Amount>10</Amount>
-            </Item>
-            <Item>
-              <VectorElement>
-                <InheritedIndex>3</InheritedIndex>
-                <InheritanceMapV2>
-                  <Entry>
-                    <TemplateName>BuffFactory</TemplateName>
-                    <Index>3</Index>
-                  </Entry>
-                  <Entry>
-                    <TemplateName>BuffFactoryModule</TemplateName>
-                    <Index>3</Index>
-                  </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
-            </Item>
-            <Item>
-              <VectorElement>
-                <InheritedIndex>4</InheritedIndex>
-                <InheritanceMapV2>
-                  <Entry>
-                    <TemplateName>BuffFactory</TemplateName>
-                    <Index>4</Index>
-                  </Entry>
-                  <Entry>
-                    <TemplateName>BuffFactoryModule</TemplateName>
-                    <Index>4</Index>
-                  </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
-            </Item>
-            <Item>
-              <VectorElement>
-                <InheritedIndex>5</InheritedIndex>
-                <InheritanceMapV2>
-                  <Entry>
-                    <TemplateName>BuffFactory</TemplateName>
-                    <Index>5</Index>
-                  </Entry>
-                  <Entry>
-                    <TemplateName>BuffFactoryModule</TemplateName>
-                    <Index>5</Index>
-                  </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
-            </Item>
-          </Costs>
-        </Cost>
-        <BuildingModule>
-          <ModuleType>FertilizerModule</ModuleType>
-        </BuildingModule>
-        <Infolayer/>
-        <UpgradeList/>
-        <Warehouse/>
-        <StorageBase/>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505719</GUID>
-          <Name>StorageTank_Buff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_storage_tank.png</IconFilename>
-        </Standard>
-        <ItemEffect/>
-        <FactoryUpgrade>
-          <ReplaceInputs>
-            <Item>
-              <OldInput>135130</OldInput>
-              <NewInput>2143505699</NewInput>
-            </Item>
-            <Item>
-              <OldInput>134616</OldInput>
-              <NewInput>2143505699</NewInput>
-            </Item>
-            <Item>
-              <OldInput>135086</OldInput>
-              <NewInput>2143505699</NewInput>
-            </Item>
-            <Item>
-              <OldInput>1010232</OldInput>
-              <NewInput>2143505699</NewInput>
-            </Item>
-            <Item>
-              <OldInput>1010192</OldInput>
-              <NewInput>2143505699</NewInput>
-            </Item>
-            <Item>
-              <OldInput>2100115089</OldInput>
-              <NewInput>2143505699</NewInput>
-            </Item>
-          </ReplaceInputs>
-        </FactoryUpgrade>
-        <BuildingUpgrade/>
-        <Buff/>
-        <CultureUpgrade/>
-        <ModuleOwnerUpgrade/>
-        <IncidentInfectableUpgrade/>
-        <PowerplantUpgrade/>
-        <IndustrializableUpgrade/>
-        <ItemContainerUpgrade/>
-        <IncidentInfluencerUpgrade/>
-        <IrrigationUpgrade/>
-        <EcoSystemProviderUpgrade/>
-        <ResourceUpgrade/>
-      </Values>
-    </Asset>
-    <Asset> 
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505722</GUID>
-          <Name>StorageTank_Buff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_storage_tank.png</IconFilename>
-        </Standard>
-        <ItemEffect/>
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>300</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
-        <BuildingUpgrade/>
-        <Buff/>
-        <CultureUpgrade/>
-        <ModuleOwnerUpgrade/>
-        <IncidentInfectableUpgrade/>
-        <PowerplantUpgrade/>
-        <IndustrializableUpgrade/>
-        <ItemContainerUpgrade/>
-        <IncidentInfluencerUpgrade/>
-        <IrrigationUpgrade/>
-        <EcoSystemProviderUpgrade/>
-        <ResourceUpgrade/>
-      </Values>
-    </Asset>
   </ModOp>
   <!-- END - Chemical Plant Modules -->
 
-  <!-- START - Chemical Plant Module -->
+  <!-- START - ItemEffectTargetPool -->
   <ModOp Type="addNextSibling" GUID="194011">
     <Asset>
       <Template>ItemEffectTargetPool</Template>
       <Values>
         <Standard>
-          <GUID>2143505717</GUID>
+          <GUID>2143505716</GUID>
           <Name>All chemical plants sites</Name>
         </Standard>
         <ItemEffectTargetPool>
@@ -2091,7 +1843,7 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- END - Chemical Plant Module -->
+  <!-- END - ItemEffectTargetPool -->
 
   <!-- START - Recipes -->
   <ModOp Type="addNextSibling" GUID="132774">
@@ -2415,6 +2167,900 @@
     </Asset>
   </ModOp>
   <!-- END - Recipes -->
+   
+  <!-- START - Depot -->
+  <ModOp Type="addNextSibling" GUID="132774">
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505724</GUID>
+          <Name>Depot - Module - Negative - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect/>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-1000</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade>
+          <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505725</GUID>
+          <Name>Depot - Module - Positive - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect/>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>1000</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade>
+          <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505726</GUID>
+          <Name>Depot (Shampoo)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <Building>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <BuildingCategoryName>2143505717</BuildingCategoryName>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_depot.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>133181</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+            <Item>
+              <Product>133093</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+            <Item>
+              <Product>133095</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+          <CycleTime>15</CycleTime>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505725</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1500</Amount>
+              <InactiveAmount>750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505727</GUID>
+          <Name>Depot (Lemonade)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <Building>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <BuildingCategoryName>2143505717</BuildingCategoryName>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_depot.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010232</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+            <Item>
+              <Product>133097</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010239</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+          <CycleTime>15</CycleTime>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505725</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1500</Amount>
+              <InactiveAmount>750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505728</GUID>
+          <Name>Depot (Souvenir)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <Building>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <BuildingCategoryName>2143505717</BuildingCategoryName>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_depot.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010241</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010253</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+            <Item>
+              <Product>134616</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+          <CycleTime>15</CycleTime>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505725</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1500</Amount>
+              <InactiveAmount>750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505729</GUID>
+          <Name>Depot (Lacquer)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <Building>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <BuildingCategoryName>2143505717</BuildingCategoryName>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_depot.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>135130</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010228</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+            <Item>
+              <Product>135086</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+          <CycleTime>15</CycleTime>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505725</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1500</Amount>
+              <InactiveAmount>750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505730</GUID>
+          <Name>Depot (Celluloid)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <Building>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <BuildingCategoryName>2143505717</BuildingCategoryName>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_depot.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010253</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+            <Item>
+              <Product>134616</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+            <Item>
+              <Product>135130</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+          <CycleTime>15</CycleTime>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505725</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1500</Amount>
+              <InactiveAmount>750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505731</GUID>
+          <Name>Depot (Ethanol)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <Building>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <BuildingCategoryName>2143505717</BuildingCategoryName>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_depot.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>120008</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010192</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+          <CycleTime>15</CycleTime>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505725</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1500</Amount>
+              <InactiveAmount>750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505732</GUID>
+          <Name>Depot (Compound)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <Building>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <BuildingCategoryName>2143505717</BuildingCategoryName>
+        </Building>
+        <Blocking>
+				  <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_compound_depot.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010566</Product>
+              <Amount>1</Amount>
+              <StorageAmount>100</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+          <CycleTime>15</CycleTime>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505733</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1500</Amount>
+              <InactiveAmount>750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505733</GUID>
+          <Name>Depot - Compound - Boost - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>300</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade>
+          <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505734</GUID>
+          <Name>Depot (Soda)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <Building>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <BuildingCategoryName>2143505717</BuildingCategoryName>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_depot.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1999002300</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+          <CycleTime>15</CycleTime>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505733</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1500</Amount>
+              <InactiveAmount>750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Depot -->
 
   <!-- START - PRODUCTION WORKS compat -->
   <Group Condition="#production_works_kurila">
@@ -2495,9 +3141,6 @@
               <Asset>2143505714</Asset>
             </Item>
             <Item>
-              <Asset>2143505716</Asset>
-            </Item>
-            <Item>
               <Asset>2143505720</Asset>
             </Item>
             <Item>
@@ -2505,6 +3148,30 @@
             </Item>
             <Item>
               <Asset>2143505723</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505726</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505727</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505728</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505729</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505730</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505731</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505732</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505734</Asset>
             </Item>
           </AssetList>
         </AssetPool>
