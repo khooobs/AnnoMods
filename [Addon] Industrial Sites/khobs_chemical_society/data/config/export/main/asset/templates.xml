@@ -328,6 +328,9 @@
 						<Main>
 							<Limit>6</Limit>
 						</Main>
+						<FertilizerModule>
+							<Limit>1</Limit>
+						</FertilizerModule>
 					</ModuleLimits>
 					<ConstructionOptions>
 						<Item>
