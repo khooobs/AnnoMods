@@ -26,7 +26,10 @@
               <Asset>2143505812</Asset>
             </Item>
             <Item>
-              <Asset>2143505815</Asset>
+              <Asset>2143505814</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505818</Asset>
             </Item>
           </AssetList>
         </AssetPool>
@@ -83,7 +86,7 @@
           </Variations>
         </Object>
         <Selection>
-          <GUIType>Generic</GUIType>
+          <GUIType>Guildhouse</GUIType>
           <OnSelection>
             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
             <Values>
@@ -96,17 +99,17 @@
         </Ornament>
         <ItemContainer>
           <SocketScopeRadius>25</SocketScopeRadius>
-          <!-- <InitSocketItems>
+          <InitSocketItems>
             <Item>
-              <Item></Item>
+              <Item>2143505814</Item>
             </Item>
             <Item>
-              <Item></Item>
+              <Item>2143505818</Item>
             </Item>
-            <Item>
+            <!-- <Item>
               <Item></Item>
-            </Item>
-          </InitSocketItems> -->
+            </Item> -->
+          </InitSocketItems>
         </ItemContainer>
         <Maintenance>
           <Maintenances>
@@ -714,4 +717,183 @@
     </Asset>
   </ModOp>
   <!-- END - Large Clay Pit -->
+
+  
+  <!-- START - Items and Buffs -->
+  <ModOp Type="addNextSibling" GUID="1010283">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505814</GUID>
+          <Name>Industry Expansion - Mud Bricks</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_product.png</IconFilename>
+          <InfoDescription>2143505815</InfoDescription>
+        </Standard>
+        <Item>
+          <Allocation>None</Allocation>
+          <Rarity>Legendary</Rarity>
+          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
+          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
+          <MaxStackSize>1</MaxStackSize>
+          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
+          <HasAction>1</HasAction> <!-- enable ItemAction -->
+          <OnlyEquippableOnce>1</OnlyEquippableOnce>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505803</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemWithUI>
+          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
+        </ItemWithUI>
+        <ItemAction>
+          <ActiveBuff>2143505816</ActiveBuff>
+          <ActionScope>SelfRadius</ActionScope>
+          <CanEndItemAction>1</CanEndItemAction>
+          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
+        </ItemAction>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Buff />
+        <CraftableItem />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505816</GUID>
+          <Name>Industry Expansion - Mud Bricks - Buff</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_product.png</IconFilename>
+          <InfoDescription>2143505817</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505803</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>114402</Product>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505818</GUID>
+          <Name>Excavation - Quartz Sand</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_product.png</IconFilename>
+          <InfoDescription>2143505819</InfoDescription>
+        </Standard>
+        <Item>
+          <Allocation>None</Allocation>
+          <Rarity>Legendary</Rarity>
+          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
+          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
+          <MaxStackSize>1</MaxStackSize>
+          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
+          <HasAction>1</HasAction> <!-- enable ItemAction -->
+          <OnlyEquippableOnce>1</OnlyEquippableOnce>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505812</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemWithUI>
+          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
+        </ItemWithUI>
+        <ItemAction>
+          <ActiveBuff>2143505820</ActiveBuff>
+          <ActionScope>SelfRadius</ActionScope>
+          <CanEndItemAction>1</CanEndItemAction>
+          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
+        </ItemAction>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Buff />
+        <CraftableItem />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505820</GUID>
+          <Name>Excavation - Quartz Sand - Buff</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_product.png</IconFilename>
+          <InfoDescription>2143505821</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505812</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010228</Product>
+              <AdditionalOutputCycle>1</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Items and Buffs -->
 </ModOps>

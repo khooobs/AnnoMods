@@ -52,5 +52,37 @@
       <GUID>2143505813</GUID>
       <Text>Produces goods.</Text>
     </Text>
+    <Text>
+      <GUID>2143505814</GUID>
+      <Text>Industry Expansion: Adobe Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505815</GUID>
+      <Text>Certain brick derivatives are now produced by this industry, meeting a wider range of construction needs.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505816</GUID>
+      <Text>Industry Expansion: Adobe Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505817</GUID>
+      <Text>Certain brick derivatives are now produced by this industry, meeting a wider range of construction needs.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505818</GUID>
+      <Text>Excavation: Quartz Sand</Text>
+    </Text>
+    <Text>
+      <GUID>2143505819</GUID>
+      <Text>Open-pit excavation of clay also allows for the extraction of quartz sand, which is useful for other industries.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505820</GUID>
+      <Text>Excavation: Quartz Sand</Text>
+    </Text>
+    <Text>
+      <GUID>2143505821</GUID>
+      <Text>Open-pit excavation of clay also allows for the extraction of quartz sand, which is useful for other industries.</Text>
+    </Text>
   </ModOp>
 </ModOps>

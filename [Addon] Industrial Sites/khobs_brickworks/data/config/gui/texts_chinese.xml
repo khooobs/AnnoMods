@@ -52,5 +52,37 @@
       <GUID>2143505813</GUID>
       <Text>生产商品。</Text>
     </Text>
+    <Text>
+      <GUID>2143505814</GUID>
+      <Text>行业扩展：泥砖</Text>
+    </Text>
+    <Text>
+      <GUID>2143505815</GUID>
+      <Text>该行业现已生产某些砖块衍生品，以满足更广泛的建筑需求。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505816</GUID>
+      <Text>行业扩展：泥砖</Text>
+    </Text>
+    <Text>
+      <GUID>2143505817</GUID>
+      <Text>该行业现已生产某些砖块衍生品，以满足更广泛的建筑需求。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505818</GUID>
+      <Text>开采：石英砂</Text>
+    </Text>
+    <Text>
+      <GUID>2143505819</GUID>
+      <Text>露天开采粘土还允许提取石英砂，这对其他工业非常有用。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505820</GUID>
+      <Text>开采：石英砂</Text>
+    </Text>
+    <Text>
+      <GUID>2143505821</GUID>
+      <Text>露天开采粘土还允许提取石英砂，这对其他工业非常有用。</Text>
+    </Text>
   </ModOp>
 </ModOps>
