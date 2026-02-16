@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505801</GUID>
-      <Text>Company: Bricks</Text>
+      <Text>公司：磚塊</Text>
     </Text>
     <Text>
       <GUID>2143505802</GUID>
@@ -10,15 +10,15 @@
     </Text>
     <Text>
       <GUID>2143505803</GUID>
-      <Text>Brickworks</Text>
+      <Text>磚廠</Text>
     </Text>
     <Text>
       <GUID>2143505804</GUID>
-      <Text>Produces goods.</Text>
+      <Text>生產商品。</Text>
     </Text>
     <Text>
       <GUID>2143505805</GUID>
-      <Text>Brick Kilns</Text>
+      <Text>磚窯</Text>
     </Text>
     <Text>
       <GUID>2143505806</GUID>
@@ -26,31 +26,31 @@
     </Text>
     <Text>
       <GUID>2143505807</GUID>
-      <Text>Logistic Depot: Brickworks</Text>
+      <Text>物流倉庫：磚廠</Text>
     </Text>
     <Text>
       <GUID>2143505808</GUID>
-      <Text>Store goods.</Text>
+      <Text>商店商品。</Text>
     </Text>
     <Text>
       <GUID>2143505809</GUID>
-      <Text>No Goods in Depot</Text>
+      <Text>倉庫內無貨物</Text>
     </Text>
     <Text>
       <GUID>2143505810</GUID>
-      <Text>Goods in Depot</Text>
+      <Text>貨倉貨物</Text>
     </Text>
     <Text>
       <GUID>2143505811</GUID>
-      <Text>Brickworks Industry Module</Text>
+      <Text>磚廠產業模組</Text>
     </Text>
     <Text>
       <GUID>2143505812</GUID>
-      <Text>Large Clay Pit</Text>
+      <Text>大型黏土坑</Text>
     </Text>
     <Text>
       <GUID>2143505813</GUID>
-      <Text>Produces goods.</Text>
+      <Text>生產商品。</Text>
     </Text>
   </ModOp>
 </ModOps>

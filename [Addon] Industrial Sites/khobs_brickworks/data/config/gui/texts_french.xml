@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505801</GUID>
-      <Text>Company: Bricks</Text>
+      <Text>Société : Briques</Text>
     </Text>
     <Text>
       <GUID>2143505802</GUID>
@@ -10,15 +10,15 @@
     </Text>
     <Text>
       <GUID>2143505803</GUID>
-      <Text>Brickworks</Text>
+      <Text>Briqueterie</Text>
     </Text>
     <Text>
       <GUID>2143505804</GUID>
-      <Text>Produces goods.</Text>
+      <Text>Produit des biens.</Text>
     </Text>
     <Text>
       <GUID>2143505805</GUID>
-      <Text>Brick Kilns</Text>
+      <Text>Fours à briques</Text>
     </Text>
     <Text>
       <GUID>2143505806</GUID>
@@ -26,31 +26,31 @@
     </Text>
     <Text>
       <GUID>2143505807</GUID>
-      <Text>Logistic Depot: Brickworks</Text>
+      <Text>Dépôt logistique : Briqueterie</Text>
     </Text>
     <Text>
       <GUID>2143505808</GUID>
-      <Text>Store goods.</Text>
+      <Text>Stocke les marchandises.</Text>
     </Text>
     <Text>
       <GUID>2143505809</GUID>
-      <Text>No Goods in Depot</Text>
+      <Text>Aucune marchandise au dépôt</Text>
     </Text>
     <Text>
       <GUID>2143505810</GUID>
-      <Text>Goods in Depot</Text>
+      <Text>Marchandises au dépôt</Text>
     </Text>
     <Text>
       <GUID>2143505811</GUID>
-      <Text>Brickworks Industry Module</Text>
+      <Text>Module industriel de la briqueterie</Text>
     </Text>
     <Text>
       <GUID>2143505812</GUID>
-      <Text>Large Clay Pit</Text>
+      <Text>Grande carrière d’argile</Text>
     </Text>
     <Text>
       <GUID>2143505813</GUID>
-      <Text>Produces goods.</Text>
+      <Text>Produit des biens.</Text>
     </Text>
   </ModOp>
 </ModOps>

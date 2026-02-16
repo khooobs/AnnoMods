@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505801</GUID>
-      <Text>Company: Bricks</Text>
+      <Text>Компания: Bricks</Text>
     </Text>
     <Text>
       <GUID>2143505802</GUID>
@@ -10,15 +10,15 @@
     </Text>
     <Text>
       <GUID>2143505803</GUID>
-      <Text>Brickworks</Text>
+      <Text>Кирпичный завод</Text>
     </Text>
     <Text>
       <GUID>2143505804</GUID>
-      <Text>Produces goods.</Text>
+      <Text>Производит товары.</Text>
     </Text>
     <Text>
       <GUID>2143505805</GUID>
-      <Text>Brick Kilns</Text>
+      <Text>Кирпичные печи</Text>
     </Text>
     <Text>
       <GUID>2143505806</GUID>
@@ -26,31 +26,31 @@
     </Text>
     <Text>
       <GUID>2143505807</GUID>
-      <Text>Logistic Depot: Brickworks</Text>
+      <Text>Логистический склад: кирпичный завод</Text>
     </Text>
     <Text>
       <GUID>2143505808</GUID>
-      <Text>Store goods.</Text>
+      <Text>Магазинные товары.</Text>
     </Text>
     <Text>
       <GUID>2143505809</GUID>
-      <Text>No Goods in Depot</Text>
+      <Text>Товаров в депо нет</Text>
     </Text>
     <Text>
       <GUID>2143505810</GUID>
-      <Text>Goods in Depot</Text>
+      <Text>Товары в депо</Text>
     </Text>
     <Text>
       <GUID>2143505811</GUID>
-      <Text>Brickworks Industry Module</Text>
+      <Text>Модуль индустрии кирпичного завода</Text>
     </Text>
     <Text>
       <GUID>2143505812</GUID>
-      <Text>Large Clay Pit</Text>
+      <Text>Большой глиняный карьер</Text>
     </Text>
     <Text>
       <GUID>2143505813</GUID>
-      <Text>Produces goods.</Text>
+      <Text>Производит товары.</Text>
     </Text>
   </ModOp>
 </ModOps>

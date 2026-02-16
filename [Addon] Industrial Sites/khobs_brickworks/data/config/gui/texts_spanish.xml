@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505801</GUID>
-      <Text>Company: Bricks</Text>
+      <Text>Empresa: Bricks</Text>
     </Text>
     <Text>
       <GUID>2143505802</GUID>
@@ -10,15 +10,15 @@
     </Text>
     <Text>
       <GUID>2143505803</GUID>
-      <Text>Brickworks</Text>
+      <Text>Fábrica de ladrillos</Text>
     </Text>
     <Text>
       <GUID>2143505804</GUID>
-      <Text>Produces goods.</Text>
+      <Text>Produce bienes.</Text>
     </Text>
     <Text>
       <GUID>2143505805</GUID>
-      <Text>Brick Kilns</Text>
+      <Text>Hornos de ladrillos</Text>
     </Text>
     <Text>
       <GUID>2143505806</GUID>
@@ -26,31 +26,31 @@
     </Text>
     <Text>
       <GUID>2143505807</GUID>
-      <Text>Logistic Depot: Brickworks</Text>
+      <Text>Depósito logístico: Brickworks</Text>
     </Text>
     <Text>
       <GUID>2143505808</GUID>
-      <Text>Store goods.</Text>
+      <Text>Guarda productos.</Text>
     </Text>
     <Text>
       <GUID>2143505809</GUID>
-      <Text>No Goods in Depot</Text>
+      <Text>No hay mercancías en el depósito</Text>
     </Text>
     <Text>
       <GUID>2143505810</GUID>
-      <Text>Goods in Depot</Text>
+      <Text>Mercancías en el depósito</Text>
     </Text>
     <Text>
       <GUID>2143505811</GUID>
-      <Text>Brickworks Industry Module</Text>
+      <Text>Módulo de Industria de Ladrillería</Text>
     </Text>
     <Text>
       <GUID>2143505812</GUID>
-      <Text>Large Clay Pit</Text>
+      <Text>Gran Pozo de Arcilla</Text>
     </Text>
     <Text>
       <GUID>2143505813</GUID>
-      <Text>Produces goods.</Text>
+      <Text>Produce bienes.</Text>
     </Text>
   </ModOp>
 </ModOps>
