@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505801</GUID>
-      <Text>Company: Bricks</Text>
+      <Text>会社:ブリック</Text>
     </Text>
     <Text>
       <GUID>2143505802</GUID>
@@ -10,15 +10,15 @@
     </Text>
     <Text>
       <GUID>2143505803</GUID>
-      <Text>Brickworks</Text>
+      <Text>レンガ工場</Text>
     </Text>
     <Text>
       <GUID>2143505804</GUID>
-      <Text>Produces goods.</Text>
+      <Text>商品を生産する。</Text>
     </Text>
     <Text>
       <GUID>2143505805</GUID>
-      <Text>Brick Kilns</Text>
+      <Text>レンガ窯</Text>
     </Text>
     <Text>
       <GUID>2143505806</GUID>
@@ -26,31 +26,31 @@
     </Text>
     <Text>
       <GUID>2143505807</GUID>
-      <Text>Logistic Depot: Brickworks</Text>
+      <Text>物流基地:ブリックワークス</Text>
     </Text>
     <Text>
       <GUID>2143505808</GUID>
-      <Text>Store goods.</Text>
+      <Text>店の品物。</Text>
     </Text>
     <Text>
       <GUID>2143505809</GUID>
-      <Text>No Goods in Depot</Text>
+      <Text>デポに貨物はありません</Text>
     </Text>
     <Text>
       <GUID>2143505810</GUID>
-      <Text>Goods in Depot</Text>
+      <Text>デポ内の貨物</Text>
     </Text>
     <Text>
       <GUID>2143505811</GUID>
-      <Text>Brickworks Industry Module</Text>
+      <Text>ブリックワークス産業モジュール</Text>
     </Text>
     <Text>
       <GUID>2143505812</GUID>
-      <Text>Large Clay Pit</Text>
+      <Text>大きな粘土採掘場</Text>
     </Text>
     <Text>
       <GUID>2143505813</GUID>
-      <Text>Produces goods.</Text>
+      <Text>商品を生産する。</Text>
     </Text>
   </ModOp>
 </ModOps>

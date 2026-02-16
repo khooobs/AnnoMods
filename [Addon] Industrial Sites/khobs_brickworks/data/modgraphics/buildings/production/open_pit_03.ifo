@@ -19,6 +19,24 @@
 			<zf>5.600000</zf>
 		</Extents>
 	</BoundingBox>
+	<BuildBlocker>
+		<Position>
+			<xf>-7.500000</xf>
+			<zf>5.500000</zf>
+		</Position>
+		<Position>
+			<xf>7.500000</xf>
+			<zf>5.500000</zf>
+		</Position>
+		<Position>
+			<xf>7.500000</xf>
+			<zf>-5.500000</zf>
+		</Position>
+		<Position>
+			<xf>-7.500000</xf>
+			<zf>-5.500000</zf>
+		</Position>
+	</BuildBlocker>
 	<Dummy>
 		<Name>infolayer</Name>
 		<Position>
@@ -101,24 +119,6 @@
 			<zf>5.500000</zf>
 		</Position>
 	</FeedbackBlocker>
-	<BuildBlocker>
-		<Position>
-			<xf>-7.500000</xf>
-			<zf>5.500000</zf>
-		</Position>
-		<Position>
-			<xf>7.500000</xf>
-			<zf>5.500000</zf>
-		</Position>
-		<Position>
-			<xf>7.500000</xf>
-			<zf>-5.500000</zf>
-		</Position>
-		<Position>
-			<xf>-7.500000</xf>
-			<zf>-5.500000</zf>
-		</Position>
-	</BuildBlocker>
 	<FeedbackBlocker>
 		<Position>
 			<xf>6.500000</xf>
