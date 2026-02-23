@@ -10,6 +10,10 @@
       <Text>"And so, that's why we need to include these works of art in our culture!"</Text>
     </Text>
     <Text>
+      <GUID>2143505145</GUID>
+      <Text>Capitolio</Text>
+    </Text>
+    <Text>
       <GUID>2143505146</GUID>
       <Text>Calling the Assembly</Text>
     </Text>
@@ -385,5 +389,17 @@
       <GUID>2143505241</GUID>
       <Text>Confident deputies</Text>
     </Text>
+    <Text>
+      <GUID>2143505242</GUID>
+      <Text>Capitolio: Foundations</Text>
+    </Text>
+    <Text>
+      <GUID>2143505243</GUID>
+      <Text>Capitolio: Structure</Text>
+    </Text>
+    <Text>
+      <GUID>2143505244</GUID>
+      <Text>Capitolio: Dome</Text>
+    </Text>    
   </ModOp>
 </ModOps>
