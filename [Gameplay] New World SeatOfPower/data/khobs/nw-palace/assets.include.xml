@@ -708,7 +708,7 @@
               <Event>2143505181</Event>
             </Item>
           </Events>
-          <CategoryBackground>data/modgraphics/ui/assets/monument_event/bg_monument_parlament.png</CategoryBackground>
+          <CategoryBackground>data/modgraphics/ui/assets/monument_event/bg_monument_parlament.dds</CategoryBackground>
           <SizeSelectionBackground>data/graphics/ui/assets/monument_event/monument_event_architecture.png</SizeSelectionBackground>
         </MonumentEventCategory>
       </Values>
@@ -735,7 +735,7 @@
               <Event>2143505225</Event>
             </Item>
           </Events>
-          <CategoryBackground>data/modgraphics/ui/assets/bg_card_talentdeveloptment.png</CategoryBackground>
+          <CategoryBackground>data/modgraphics/ui/assets/bg_card_talentdeveloptment.dds</CategoryBackground>
           <SizeSelectionBackground>data/graphics/ui/assets/monument_event/monument_event_architecture.png</SizeSelectionBackground>
         </MonumentEventCategory>
       </Values>
@@ -760,7 +760,7 @@
           <MaxUsableWorkforceAmount>750</MaxUsableWorkforceAmount>
           <DescriptionFluff>6761</DescriptionFluff>
           <BackgroundPreparation>data/ui/2kimages/main/assets/monument_event/monument_event_preparation.png</BackgroundPreparation>
-          <BackgroundRunning>data/modgraphics/ui/assets/monument_event/monument_parlament.png</BackgroundRunning>
+          <BackgroundRunning>data/modgraphics/ui/assets/monument_event/monument_parlamentpreparation.dds</BackgroundRunning>
           <SelectionText>6793</SelectionText>
           <ShortSizeName>2143505150</ShortSizeName>
           <RunningText>2143505151</RunningText>
@@ -1022,7 +1022,7 @@
           <MaxUsableWorkforceAmount>750</MaxUsableWorkforceAmount>
           <DescriptionFluff>6761</DescriptionFluff>
           <BackgroundPreparation>data/ui/2kimages/main/assets/monument_event/monument_event_preparation.png</BackgroundPreparation>
-          <BackgroundRunning>data/modgraphics/ui/assets/monument_event/monument_parlament.png</BackgroundRunning>
+          <BackgroundRunning>data/modgraphics/ui/assets/monument_event/monument_parlamentpreparation.dds</BackgroundRunning>
           <SelectionText>6793</SelectionText>
           <ShortSizeName>2143505167</ShortSizeName>
           <RunningText>2143505168</RunningText>
@@ -1280,7 +1280,7 @@
           <MaxUsableWorkforceAmount>750</MaxUsableWorkforceAmount>
           <DescriptionFluff>6761</DescriptionFluff>
           <BackgroundPreparation>data/ui/2kimages/main/assets/monument_event/monument_event_preparation.png</BackgroundPreparation>
-          <BackgroundRunning>data/modgraphics/ui/assets/monument_event/monument_parlament.png</BackgroundRunning>
+          <BackgroundRunning>data/modgraphics/ui/assets/monument_event/monument_parlamentpreparation.dds</BackgroundRunning>
           <SelectionText>6793</SelectionText>
           <ShortSizeName>2143505182</ShortSizeName>
           <RunningText>2143505183</RunningText>
@@ -1539,7 +1539,7 @@
           <MaxUsableWorkforceAmount>750</MaxUsableWorkforceAmount>
           <DescriptionFluff>6761</DescriptionFluff>
           <BackgroundPreparation>data/ui/2kimages/main/assets/monument_event/monument_event_preparation.png</BackgroundPreparation>
-          <BackgroundRunning>data/ui/2kimages/main/assets/monument_event/monument_event_reward.png</BackgroundRunning>
+          <BackgroundRunning>data/modgraphics/ui/assets/monument_event/monument_talentdeveloptment.dds</BackgroundRunning>
           <SelectionText>6793</SelectionText>
           <ShortSizeName>2143505198</ShortSizeName>
           <RunningText>2143505199</RunningText>
@@ -1793,7 +1793,7 @@
           <MaxUsableWorkforceAmount>750</MaxUsableWorkforceAmount>
           <DescriptionFluff>6761</DescriptionFluff>
           <BackgroundPreparation>data/ui/2kimages/main/assets/monument_event/monument_event_preparation.png</BackgroundPreparation>
-          <BackgroundRunning>data/ui/2kimages/main/assets/monument_event/monument_event_reward.png</BackgroundRunning>
+          <BackgroundRunning>data/modgraphics/ui/assets/monument_event/monument_talentdeveloptment.dds</BackgroundRunning>
           <SelectionText>6793</SelectionText>
           <ShortSizeName>2143505209</ShortSizeName>
           <RunningText>2143505210</RunningText>
@@ -2055,7 +2055,7 @@
           <MaxUsableWorkforceAmount>750</MaxUsableWorkforceAmount>
           <DescriptionFluff>6761</DescriptionFluff>
           <BackgroundPreparation>data/ui/2kimages/main/assets/monument_event/monument_event_preparation.png</BackgroundPreparation>
-          <BackgroundRunning>data/ui/2kimages/main/assets/monument_event/monument_event_reward.png</BackgroundRunning>
+          <BackgroundRunning>data/modgraphics/ui/assets/monument_event/monument_talentdeveloptment.dds</BackgroundRunning>
           <SelectionText>6793</SelectionText>
           <ShortSizeName>2143505226</ShortSizeName>
           <RunningText>2143505227</RunningText>
