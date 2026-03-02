@@ -58,7 +58,7 @@
         <TriggerSetup />
       </Values>
     </Asset>
-    <!--UNLOCK -->
+    <!--UNLOCK OLD -->
     <Asset>
       <Template>Trigger</Template>
       <Values>
@@ -99,9 +99,6 @@
                       </Item>
                       <Item>
                         <Asset>2143505018</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2143505019</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -155,7 +152,7 @@
         <TriggerSetup />
       </Values>
     </Asset>
-    <!--RELOCK -->
+    <!--RELOCK OLD -->
     <Asset>
       <Template>Trigger</Template>
       <Values>
@@ -219,6 +216,373 @@
                   <ActionRegisterTrigger>
                     <TriggerAsset>2143505016</TriggerAsset>
                   </ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>410059</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable />
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>0</AutoRegisterTrigger>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+    
+    <!--UNLOCK DEPARTMENT NEW - NW TIER 4 COMPAT -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505245</GUID>
+          <Name>Unlock New World Local Department</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <Context>2143505145</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505242</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505243</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505244</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505145</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505018</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505019</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>2143505246</TriggerAsset>
+                  </ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>410059</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable />
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <!--RELOCK DEPARTMENT NEW - NW TIER 4 COMPAT -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505246</GUID>
+          <Name>Relock New World Local Department</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <Context>2143505145</Context>
+                <ComparisonOp>Equals</ComparisonOp>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionLockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionLockAsset>
+                    <LockAssets>
+                      <Item>
+                        <Asset>2143505018</Asset>
+                      </Item>
+                    </LockAssets>
+                  </ActionLockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2143505242</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505018</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505019</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>2143505245</TriggerAsset>
+                  </ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>410059</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable />
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>0</AutoRegisterTrigger>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+
+    <!--UNLOCK CAPITOLIO NEW - NW TIER 4 COMPAT -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505247</GUID>
+          <Name>Unhide Capitolio</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <!-- <Context>1500011557</Context> -->
+                <Context>15000006</Context>
+                <CounterAmount>500</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2143505242</Asset>
+                      </Item>
+                    </UnhideAssets>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505019</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>410059</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable />
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>0</AutoRegisterTrigger>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505248</GUID>
+          <Name>Unlock Capitolio</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <!-- <Context>1500011557</Context> -->
+                <Context>15000006</Context>
+                <CounterAmount>2000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505242</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505243</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505244</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505145</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
                 </Values>
               </TriggerAction>
             </Item>

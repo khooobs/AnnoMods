@@ -18,9 +18,12 @@
         </Building>
         <Blocking />
         <Object>
-          <Variations>
-            <Item>
+         <Variations>
+             <!-- <Item>
               <Filename>data/modgraphics/buildings/special/localdpt/local_department.cfg</Filename>
+            </Item> -->
+            <Item>
+              <Filename>data/jje/nw-local-department/nw_localdepartment.cfg</Filename>
             </Item>
           </Variations>
         </Object>
