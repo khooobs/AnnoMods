@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505801</GUID>
-      <Text>Company: Bricks</Text>
+      <Text>Azienda: Bricks</Text>
     </Text>
     <Text>
       <GUID>2143505802</GUID>
@@ -10,15 +10,15 @@
     </Text>
     <Text>
       <GUID>2143505803</GUID>
-      <Text>Brickworks</Text>
+      <Text>Fornace di mattoni</Text>
     </Text>
     <Text>
       <GUID>2143505804</GUID>
-      <Text>Produces goods.</Text>
+      <Text>Produce beni.</Text>
     </Text>
     <Text>
       <GUID>2143505805</GUID>
-      <Text>Brick Kilns</Text>
+      <Text>Forni per mattoni</Text>
     </Text>
     <Text>
       <GUID>2143505806</GUID>
@@ -26,63 +26,63 @@
     </Text>
     <Text>
       <GUID>2143505807</GUID>
-      <Text>Logistic Depot: Brickworks</Text>
+      <Text>Deposito Logistico: Brickworks</Text>
     </Text>
     <Text>
       <GUID>2143505808</GUID>
-      <Text>Store goods.</Text>
+      <Text>Conserva i beni.</Text>
     </Text>
     <Text>
       <GUID>2143505809</GUID>
-      <Text>No Goods in Depot</Text>
+      <Text>Nessuna merce nel deposito</Text>
     </Text>
     <Text>
       <GUID>2143505810</GUID>
-      <Text>Goods in Depot</Text>
+      <Text>Merci nel deposito</Text>
     </Text>
     <Text>
       <GUID>2143505811</GUID>
-      <Text>Brickworks Industry Module</Text>
+      <Text>Modulo Industria dei Mattoni</Text>
     </Text>
     <Text>
       <GUID>2143505812</GUID>
-      <Text>Large Clay Pit</Text>
+      <Text>Grande Cava di Argilla</Text>
     </Text>
     <Text>
       <GUID>2143505813</GUID>
-      <Text>Produces goods.</Text>
+      <Text>Produce beni.</Text>
     </Text>
     <Text>
       <GUID>2143505814</GUID>
-      <Text>Industry Expansion: Adobe Bricks</Text>
+      <Text>Espansione dell'industria: Muds Bricks</Text>
     </Text>
     <Text>
       <GUID>2143505815</GUID>
-      <Text>Certain brick derivatives are now produced by this industry, meeting a wider range of construction needs.</Text>
+      <Text>Alcuni derivati del mattone sono ora prodotti da questa industria, soddisfacendo una gamma più ampia di esigenze costruttive.</Text>
     </Text>
     <Text>
       <GUID>2143505816</GUID>
-      <Text>Industry Expansion: Adobe Bricks</Text>
+      <Text>Espansione dell'industria: Muds Bricks</Text>
     </Text>
     <Text>
       <GUID>2143505817</GUID>
-      <Text>Certain brick derivatives are now produced by this industry, meeting a wider range of construction needs.</Text>
+      <Text>Alcuni derivati del mattone sono ora prodotti da questa industria, soddisfacendo una gamma più ampia di esigenze costruttive.</Text>
     </Text>
     <Text>
       <GUID>2143505818</GUID>
-      <Text>Excavation: Quartz Sand</Text>
+      <Text>Scavo: Sabbia di quarzo</Text>
     </Text>
     <Text>
       <GUID>2143505819</GUID>
-      <Text>Open-pit excavation of clay also allows for the extraction of quartz sand, which is useful for other industries.</Text>
+      <Text>Lo scavo a cielo aperto dell'argilla consente anche l'estrazione di sabbia di quarzo, utile per altre industrie.</Text>
     </Text>
     <Text>
       <GUID>2143505820</GUID>
-      <Text>Excavation: Quartz Sand</Text>
+      <Text>Scavo: Sabbia di quarzo</Text>
     </Text>
     <Text>
       <GUID>2143505821</GUID>
-      <Text>Open-pit excavation of clay also allows for the extraction of quartz sand, which is useful for other industries.</Text>
+      <Text>Lo scavo a cielo aperto dell'argilla consente anche l'estrazione di sabbia di quarzo, utile per altre industrie.</Text>
     </Text>
   </ModOp>
 </ModOps>

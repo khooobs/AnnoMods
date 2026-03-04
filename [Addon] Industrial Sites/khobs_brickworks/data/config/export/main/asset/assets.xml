@@ -26,10 +26,10 @@
               <Asset>2143505812</Asset>
             </Item>
             <Item>
-              <Asset>2143505813</Asset>
+              <Asset>2143505814</Asset>
             </Item>
             <Item>
-              <Asset>2143505815</Asset>
+              <Asset>2143505818</Asset>
             </Item>
           </AssetList>
         </AssetPool>
@@ -81,12 +81,12 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/public/logistic_03/logistic_03.cfg</Filename>
+              <Filename>data/modgraphics/buildings/special/brick_company.cfg</Filename>
             </Item>
           </Variations>
         </Object>
         <Selection>
-          <GUIType>Generic</GUIType>
+          <GUIType>Guildhouse</GUIType>
           <OnSelection>
             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
             <Values>
@@ -99,17 +99,17 @@
         </Ornament>
         <ItemContainer>
           <SocketScopeRadius>25</SocketScopeRadius>
-          <!-- <InitSocketItems>
+          <InitSocketItems>
             <Item>
-              <Item></Item>
+              <Item>2143505814</Item>
             </Item>
             <Item>
-              <Item></Item>
+              <Item>2143505818</Item>
             </Item>
-            <Item>
+            <!-- <Item>
               <Item></Item>
-            </Item>
-          </InitSocketItems> -->
+            </Item> -->
+          </InitSocketItems>
         </ItemContainer>
         <Maintenance>
           <Maintenances>
@@ -175,7 +175,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/production/factory_04/factory_04.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/brickworks_01.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -209,6 +209,14 @@
           </Maintenances>
         </Maintenance>
         <ModuleOwner>
+					<ModuleLimits>
+						<Main>
+							<Limit>6</Limit>
+						</Main>
+						<FertilizerModule>
+							<Limit>1</Limit>
+						</FertilizerModule>
+					</ModuleLimits>
           <ConstructionOptions>
             <Item>
               <ModuleGUID>2143505805</ModuleGUID>
@@ -217,6 +225,9 @@
           <FertilizerModuleData>
             <Module>2143505807</Module>
           </FertilizerModuleData>
+					<ModuleBuildRadius>100</ModuleBuildRadius>
+					<ImplicitProductivityModules>0</ImplicitProductivityModules>
+					<ModulesRequiredForFullProductivity>1</ModulesRequiredForFullProductivity>
         </ModuleOwner>
         <Ornament>
           <OrnamentDescription>2143505804</OrnamentDescription>
@@ -226,7 +237,7 @@
   </ModOp>
   <!-- END - Brickworks -->
 
-  <!-- START - Brickworks Module -->
+  <!-- START - Brick Kilns Module -->
   <ModOp Type="addNextSibling" GUID="1010283">
     <Asset>
       <Template>IndustrialCompanyModule</Template>
@@ -240,62 +251,130 @@
         <Building>
 					<BuildingCategoryName>2143505811</BuildingCategoryName>
           <AllowChangeVariation>1</AllowChangeVariation>
-          <InfluencedByNeighbors>
+          <InfluencedVariationDirection>
+            <Item />
             <Item>
-              <Building>2143505805</Building>
+              <!-- end, south-west -->
+              <Direction>3</Direction>
+              <Type>End</Type>
             </Item>
-          </InfluencedByNeighbors>
+            <Item>
+              <!-- end, south-east -->
+              <Type>End</Type>
+            </Item>
+            <Item>
+              <!-- corner, south -->
+              <Direction>2</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <!-- end, north-east -->
+              <Direction>1</Direction>
+              <Type>Crossing</Type>
+            </Item>
+            <Item>
+              <!-- mid, south-west to north-east -->
+              <Direction>3</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <!-- corner, east -->
+              <Direction>1</Direction>
+              <Type>TCrossing</Type>
+            </Item>
+            <Item>
+              <!-- T, front facing south-east -->
+              <Direction>1</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <!-- end, north-west -->
+              <Direction>2</Direction>
+              <Type>Crossing</Type>
+            </Item>
+            <Item>
+              <!-- corner, west -->
+              <Direction>3</Direction>
+              <Type>TCrossing</Type>
+            </Item>
+            <Item>
+              <!-- mid, north-west to south-east -->
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <!-- T, front facing south-west  -->
+              <Direction>0</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <!-- corner, north -->
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <!-- T, front facing north-west -->
+              <Direction>3</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <!-- T, front facing north-east -->
+              <Direction>2</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <!-- crossing -->
+            </Item>
+          </InfluencedVariationDirection>
           <BuildingBlockPool>
-            <DontCare />
-            <Single>
-              <Pool>
-                <Item>
-                  <Variation>3</Variation>
-                  <DirectionOffet>0</DirectionOffet>
-                </Item>
-              </Pool>
-            </Single>
-            <Mid>
-              <Pool>
-                <Item>
-                  <Variation>1</Variation>
-                  <DirectionOffet>0</DirectionOffet>
-                </Item>
-              </Pool>
-            </Mid>
-            <End>
-              <Pool>
-                <Item>
-                  <DirectionOffet>1</DirectionOffet>
-                  <Variation>2</Variation>
-                </Item>
-              </Pool>
-            </End>
-            <!-- alt end -->
-            <Crossing>
-              <Pool>
-                <Item>
-                  <DirectionOffet>2</DirectionOffet>
-                </Item>
-              </Pool>
-            </Crossing>
-            <Corner>
-              <Pool>
-                <Item>
-                  <DirectionOffet>3</DirectionOffet>
-                  <Variation>0</Variation>
-                </Item>
-              </Pool>
-            </Corner>
-            <!-- alt corner -->
-            <TCrossing>
-              <Pool>
-                <Item>
-                  <Variation>2</Variation>
-                  <DirectionOffet>1</DirectionOffet>
-                </Item>
-              </Pool>
-            </TCrossing>
+          	<DontCare />
+          	<Single>
+          	  <Pool>
+          	    <Item>
+          	      <Variation>3</Variation>
+          	      <DirectionOffet>0</DirectionOffet>
+          	    </Item>
+          	  </Pool>
+          	</Single>
+          	<Mid>
+          	  <Pool>
+          	    <Item>
+          	      <Variation>1</Variation>
+          	      <DirectionOffet>0</DirectionOffet>
+          	    </Item>
+          	  </Pool>
+          	</Mid>
+          	<End>
+          	  <Pool>
+          	    <Item>
+          	      <DirectionOffet>1</DirectionOffet>
+          	      <Variation>2</Variation>
+          	    </Item>
+          	  </Pool>
+          	</End>
+          	<!-- alt end -->
+          	<Crossing>
+          	  <Pool>
+          	    <Item>
+          	      <DirectionOffet>2</DirectionOffet>
+          	    </Item>
+          	  </Pool>
+          	</Crossing>
+          	<Corner>
+          	  <Pool>
+          	    <Item>
+          	      <DirectionOffet>3</DirectionOffet>
+          	      <Variation>0</Variation>
+          	    </Item>
+          	  </Pool>
+          	</Corner>
+          	<!-- alt corner -->
+          	<TCrossing>
+          	  <Pool>
+          	    <Item>
+          	      <Variation>2</Variation>
+          	      <DirectionOffet>1</DirectionOffet>
+          	    </Item>
+          	  </Pool>
+          	</TCrossing>
           </BuildingBlockPool>
         </Building>
         <Cost>
@@ -327,7 +406,16 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/production/factory_04/factory_04.cfg</Filename>
+              <Filename>data/modgraphics/buildings/modules/brick_kiln_corner02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/brick_kiln_mid.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/brick_kiln_corner01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/brick_kiln_mid.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -460,7 +548,7 @@
         <Object>
           <Variations>
             <Item>
-					    <Filename>data/dlc05/graphics/buildings/production/agriculture_tractor_modules/tractor_module_2x3/tractor_module_2x3_01.cfg</Filename>
+					    <Filename>data/modgraphics/buildings/modules/brick_depot_01.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -546,115 +634,17 @@
   </ModOp>
   <!-- END - Depot -->
 
-  <!-- START - Clay Subsidiary -->
-  <ModOp Type="addNextSibling" GUID="25546">
-    <Asset>
-      <Template>IndustrialCompanyWithItems</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505812</GUID>
-          <Name>Clay Subsidiary</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_clay_subsidiary.png</IconFilename>
-          <InfoDescription>2143505570</InfoDescription>
-        </Standard>
-        <Building>
-					<BuildingCategoryName>2143505811</BuildingCategoryName>
-        </Building>
-        <Cost>
-          <Costs>
-            <Item>
-              <Ingredient>1010017</Ingredient>
-              <Amount>10000</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010196</Ingredient>
-              <Amount>30</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010205</Ingredient>
-              <Amount>30</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010218</Ingredient>
-              <Amount>10</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010207</Ingredient>
-              <Amount>5</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010202</Ingredient>
-            </Item>
-          </Costs>
-        </Cost>
-        <Object>
-          <Variations>
-            <Item>
-              <Filename>data/graphics/buildings/public/logistic_03/logistic_03.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <Selection>
-          <GUIType>Generic</GUIType>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList />
-            </Values>
-          </OnSelection>
-        </Selection>
-        <Constructable/>
-        <Mesh/>
-        <Maintenance>
-          <Maintenances>
-            <Item>
-              <Product>1010017</Product><!--Money-->
-              <Amount>5000</Amount>
-              <InactiveAmount>5000</InactiveAmount>
-            </Item>
-            <Item>
-              <Product>1010117</Product><!--Moderate workforce 4-->
-              <Amount>50</Amount>
-              <InactiveAmount>50</InactiveAmount>
-            </Item>
-          </Maintenances>
-        </Maintenance>
-        <Ornament>
-          <OrnamentDescription>2143505570</OrnamentDescription>
-        </Ornament>
-        <ItemContainer>
-          <SocketScopeRadius>25</SocketScopeRadius>
-          <!-- <InitSocketItems>
-            <Item>
-              <Item></Item>
-            </Item>
-            <Item>
-              <Item></Item>
-            </Item>
-            <Item>
-              <Item></Item>
-            </Item>
-          </InitSocketItems> -->
-        </ItemContainer>
-      </Values>
-    </Asset>
-  </ModOp>
-  <!-- END - Clay Subsidiary -->
-
-  <!-- START - Clay Pit -->
+  <!-- START - Large Clay Pit -->
   <ModOp Type="addNextSibling" GUID="1010283">
     <Asset>
       <Template>IndustrialCompanyFactory</Template>
       <Values>
         <Standard>
-          <GUID>2143505813</GUID>
-          <Name>Clay Pit</Name>
+          <GUID>2143505812</GUID>
+          <Name>Large Clay Pit</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_clay.png</IconFilename>
-          <InfoDescription>2143505814</InfoDescription>
+          <InfoDescription>2143505813</InfoDescription>
         </Standard>
-        <Text>
-          <TextOverride>100416</TextOverride>
-        </Text>
         <Building>
 					<BuildingCategoryName>2143505811</BuildingCategoryName>
         </Building>
@@ -697,11 +687,11 @@
           <FactoryOutputs>
             <Item>
               <Product>1010201</Product>
-              <Amount>1</Amount>
-              <StorageAmount>32</StorageAmount>
+              <Amount>2</Amount>
+              <StorageAmount>10</StorageAmount>
             </Item>
           </FactoryOutputs>
-          <CycleTime>20</CycleTime>
+          <CycleTime>30</CycleTime>
           <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
         <BuffFactory/>
@@ -718,155 +708,192 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <ModuleOwner>
-          <ConstructionOptions>
-            <Item>
-              <ModuleGUID>2143505815</ModuleGUID>
-            </Item>
-          </ConstructionOptions>
-          <FertilizerModuleData/>
-        </ModuleOwner>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+          <MandatoryIndustrialization>0</MandatoryIndustrialization>
+        </Industrializable>
+        <ModuleOwner/>
       </Values>
     </Asset>
   </ModOp>
-  <!-- END - Clay Pit -->
+  <!-- END - Large Clay Pit -->
+
   
-  <!-- START - Clay Extraction Point -->
+  <!-- START - Items and Buffs -->
   <ModOp Type="addNextSibling" GUID="1010283">
     <Asset>
-      <Template>IndustrialCompanyModule</Template>
+      <Template>GuildhouseItem</Template>
       <Values>
         <Standard>
-          <GUID>2143505815</GUID>
-          <Name>Clay Extraction Point</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
-          <InfoDescription>2143505816</InfoDescription>
+          <GUID>2143505814</GUID>
+          <Name>Industry Expansion - Mud Bricks</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_product.png</IconFilename>
+          <InfoDescription>2143505815</InfoDescription>
         </Standard>
-        <Building>
-					<BuildingCategoryName>2143505811</BuildingCategoryName>
-          <AllowChangeVariation>1</AllowChangeVariation>
-          <InfluencedByNeighbors>
+        <Item>
+          <Allocation>None</Allocation>
+          <Rarity>Legendary</Rarity>
+          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
+          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
+          <MaxStackSize>1</MaxStackSize>
+          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
+          <HasAction>1</HasAction> <!-- enable ItemAction -->
+          <OnlyEquippableOnce>1</OnlyEquippableOnce>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
             <Item>
-              <Building>2143505815</Building>
+              <GUID>2143505803</GUID>
             </Item>
-          </InfluencedByNeighbors>
-          <BuildingBlockPool>
-            <DontCare />
-            <Single>
-              <Pool>
-                <Item>
-                  <Variation>3</Variation>
-                  <DirectionOffet>0</DirectionOffet>
-                </Item>
-              </Pool>
-            </Single>
-            <Mid>
-              <Pool>
-                <Item>
-                  <Variation>1</Variation>
-                  <DirectionOffet>0</DirectionOffet>
-                </Item>
-              </Pool>
-            </Mid>
-            <End>
-              <Pool>
-                <Item>
-                  <DirectionOffet>1</DirectionOffet>
-                  <Variation>2</Variation>
-                </Item>
-              </Pool>
-            </End>
-            <!-- alt end -->
-            <Crossing>
-              <Pool>
-                <Item>
-                  <DirectionOffet>2</DirectionOffet>
-                </Item>
-              </Pool>
-            </Crossing>
-            <Corner>
-              <Pool>
-                <Item>
-                  <DirectionOffet>3</DirectionOffet>
-                  <Variation>0</Variation>
-                </Item>
-              </Pool>
-            </Corner>
-            <!-- alt corner -->
-            <TCrossing>
-              <Pool>
-                <Item>
-                  <Variation>2</Variation>
-                  <DirectionOffet>1</DirectionOffet>
-                </Item>
-              </Pool>
-            </TCrossing>
-          </BuildingBlockPool>
-        </Building>
-        <Cost>
-          <Costs>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemWithUI>
+          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
+        </ItemWithUI>
+        <ItemAction>
+          <ActiveBuff>2143505816</ActiveBuff>
+          <ActionScope>SelfRadius</ActionScope>
+          <CanEndItemAction>1</CanEndItemAction>
+          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
+        </ItemAction>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Buff />
+        <CraftableItem />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505816</GUID>
+          <Name>Industry Expansion - Mud Bricks - Buff</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_product.png</IconFilename>
+          <InfoDescription>2143505817</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
             <Item>
-              <Ingredient>1010017</Ingredient>
-              <Amount>1500</Amount>
+              <GUID>2143505803</GUID>
             </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
             <Item>
-              <Ingredient>1010196</Ingredient>
-              <Amount>10</Amount>
+              <Product>114402</Product>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
             </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505818</GUID>
+          <Name>Excavation - Quartz Sand</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_product.png</IconFilename>
+          <InfoDescription>2143505819</InfoDescription>
+        </Standard>
+        <Item>
+          <Allocation>None</Allocation>
+          <Rarity>Legendary</Rarity>
+          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
+          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
+          <MaxStackSize>1</MaxStackSize>
+          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
+          <HasAction>1</HasAction> <!-- enable ItemAction -->
+          <OnlyEquippableOnce>1</OnlyEquippableOnce>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
             <Item>
-              <Ingredient>1010205</Ingredient>
-              <Amount>25</Amount>
+              <GUID>2143505812</GUID>
             </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemWithUI>
+          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
+        </ItemWithUI>
+        <ItemAction>
+          <ActiveBuff>2143505820</ActiveBuff>
+          <ActionScope>SelfRadius</ActionScope>
+          <CanEndItemAction>1</CanEndItemAction>
+          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
+        </ItemAction>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Buff />
+        <CraftableItem />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505820</GUID>
+          <Name>Excavation - Quartz Sand - Buff</Name>
+	        <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_product.png</IconFilename>
+          <InfoDescription>2143505821</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
             <Item>
-              <Ingredient>1010218</Ingredient>
-              <Amount>5</Amount>
+              <GUID>2143505812</GUID>
             </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <AdditionalOutput>
             <Item>
-              <Ingredient>1010207</Ingredient>
+              <Product>1010228</Product>
+              <AdditionalOutputCycle>1</AdditionalOutputCycle>
+              <Amount>1</Amount>
             </Item>
-            <Item>
-              <Ingredient>1010202</Ingredient>
-            </Item>
-          </Costs>
-        </Cost>
-        <Object>
-          <Variations>
-            <Item>
-    					<Filename>data/graphics/buildings/production/factory_11/factory_11.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <Mesh />
-        <Selection>
-          <GUIType>Generic</GUIType>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList />
-            </Values>
-          </OnSelection>
-        </Selection>
-        <Constructable />
-        <Locked />
-        <FeedbackController />
-        <Infolayer />
-        <AmbientMoodProvider />
-        <ModuleIrrigation />
-        <Maintenance>
-          <Maintenances>
-            <Item>
-              <Product>1010017</Product>
-              <Amount>7500</Amount>
-              <InactiveAmount>3750</InactiveAmount>
-            </Item>
-            <Item>
-              <Product>1010115</Product>
-              <Amount>50</Amount>
-            </Item>
-          </Maintenances>
-        </Maintenance>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
       </Values>
     </Asset>
   </ModOp>
-  <!-- END - Clay Extraction Point -->
+  <!-- END - Items and Buffs -->
 </ModOps>

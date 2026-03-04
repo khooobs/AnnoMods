@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505801</GUID>
-      <Text>Company: Bricks</Text>
+      <Text>公司：砖块</Text>
     </Text>
     <Text>
       <GUID>2143505802</GUID>
@@ -10,15 +10,15 @@
     </Text>
     <Text>
       <GUID>2143505803</GUID>
-      <Text>Brickworks</Text>
+      <Text>砖厂</Text>
     </Text>
     <Text>
       <GUID>2143505804</GUID>
-      <Text>Produces goods.</Text>
+      <Text>生产商品。</Text>
     </Text>
     <Text>
       <GUID>2143505805</GUID>
-      <Text>Brick Kilns</Text>
+      <Text>砖窑</Text>
     </Text>
     <Text>
       <GUID>2143505806</GUID>
@@ -26,63 +26,63 @@
     </Text>
     <Text>
       <GUID>2143505807</GUID>
-      <Text>Logistic Depot: Brickworks</Text>
+      <Text>物流仓库：砖厂</Text>
     </Text>
     <Text>
       <GUID>2143505808</GUID>
-      <Text>Store goods.</Text>
+      <Text>商店商品。</Text>
     </Text>
     <Text>
       <GUID>2143505809</GUID>
-      <Text>No Goods in Depot</Text>
+      <Text>车库内无货物</Text>
     </Text>
     <Text>
       <GUID>2143505810</GUID>
-      <Text>Goods in Depot</Text>
+      <Text>车辆库中的货物</Text>
     </Text>
     <Text>
       <GUID>2143505811</GUID>
-      <Text>Brickworks Industry Module</Text>
+      <Text>砖厂工业模块</Text>
     </Text>
     <Text>
       <GUID>2143505812</GUID>
-      <Text>Large Clay Pit</Text>
+      <Text>大型粘土坑</Text>
     </Text>
     <Text>
       <GUID>2143505813</GUID>
-      <Text>Produces goods.</Text>
+      <Text>生产商品。</Text>
     </Text>
     <Text>
       <GUID>2143505814</GUID>
-      <Text>Industry Expansion: Adobe Bricks</Text>
+      <Text>行业扩展：泥砖</Text>
     </Text>
     <Text>
       <GUID>2143505815</GUID>
-      <Text>Certain brick derivatives are now produced by this industry, meeting a wider range of construction needs.</Text>
+      <Text>该行业现已生产某些砖块衍生品，以满足更广泛的建筑需求。</Text>
     </Text>
     <Text>
       <GUID>2143505816</GUID>
-      <Text>Industry Expansion: Adobe Bricks</Text>
+      <Text>行业扩展：泥砖</Text>
     </Text>
     <Text>
       <GUID>2143505817</GUID>
-      <Text>Certain brick derivatives are now produced by this industry, meeting a wider range of construction needs.</Text>
+      <Text>该行业现已生产某些砖块衍生品，以满足更广泛的建筑需求。</Text>
     </Text>
     <Text>
       <GUID>2143505818</GUID>
-      <Text>Excavation: Quartz Sand</Text>
+      <Text>开采：石英砂</Text>
     </Text>
     <Text>
       <GUID>2143505819</GUID>
-      <Text>Open-pit excavation of clay also allows for the extraction of quartz sand, which is useful for other industries.</Text>
+      <Text>露天开采粘土还允许提取石英砂，这对其他工业非常有用。</Text>
     </Text>
     <Text>
       <GUID>2143505820</GUID>
-      <Text>Excavation: Quartz Sand</Text>
+      <Text>开采：石英砂</Text>
     </Text>
     <Text>
       <GUID>2143505821</GUID>
-      <Text>Open-pit excavation of clay also allows for the extraction of quartz sand, which is useful for other industries.</Text>
+      <Text>露天开采粘土还允许提取石英砂，这对其他工业非常有用。</Text>
     </Text>
   </ModOp>
 </ModOps>
