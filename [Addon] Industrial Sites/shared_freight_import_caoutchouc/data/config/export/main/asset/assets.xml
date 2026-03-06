@@ -21,10 +21,7 @@
         <Object>
           <Variations>
             <Item>
-				      <Filename>data/modgraphics/buildings/special/freight_dock/freight_dock.cfg</Filename>
-            </Item>
-            <Item>
-				      <Filename>data/modgraphics/buildings/special/freight_dock/freight_dock_no_tracks.cfg</Filename>
+				      <Filename>data/modgraphics/buildings/freight_docks/freight_dock_no_rails.cfg</Filename>
             </Item>
           </Variations>
         </Object>
