@@ -1,0 +1,128 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505408</GUID>
+      <Text>Компания: Сталелитейный завод</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>Ваши промышленные модули</Text>
+    </Text>
+    <Text>
+      <GUID>2143505411</GUID>
+      <Text>Промышленные модули</Text>
+    </Text>
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Рудное депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Централизуйте хранение руды для вашей отрасли.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505502</GUID>
+      <Text>Снабжение рудами</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>Нет запасов руды</Text>
+    </Text>
+    <Text>
+      <GUID>2143505504</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505505</GUID>
+      <Text>Требуется рудный склад</Text>
+    </Text>
+    <Text>
+      <GUID>2143505506</GUID>
+      <Text>Промышленный модуль</Text>
+    </Text>
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>Доменная печь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>Производит оптовые товары.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Доменный модуль</Text>
+    </Text>
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>Дополнительная мастерская, посвящённая производству стали.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>Руды</Text>
+    </Text>
+    <Text>
+      <GUID>2143505512</GUID>
+      <Text>Доменная печь — модуль</Text>
+    </Text>
+    <Text>
+      <GUID>2143505552</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>Опучная сталь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Требуется рудный склад</Text>
+    </Text>
+    <Text>
+      <GUID>2143505555</GUID>
+      <Text>Усиливать с помощью Модулей</Text>
+    </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Boost Factory</Text>
+    </Text>
+    <Text>
+      <GUID>2143505558</GUID>
+      <Text>Популярные предметы</Text>
+    </Text>
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>Логистика по железным дорогам</Text>
+    </Text>
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>Грузовой разгрузочный док: сталь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Рудное депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505580</GUID>
+      <Text>Храните руды.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>Модуль сталелитейной промышленности</Text>
+    </Text>
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>Расширение отрасли: Beam</Text>
+    </Text>
+    <Text>
+      <GUID>2143505585</GUID>
+      <Text>Позволяет литейным заводам производить дополнительные стальные балки за счёт снижения общей эффективности.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

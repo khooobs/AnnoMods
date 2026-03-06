@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505402</GUID>
+      <Text>Teren przemysłowy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>Duże przemysły</Text>
+    </Text>
+    <Text>
+      <GUID>2143505404</GUID>
+      <Text>Concrete Road</Text>
+    </Text>
+    <Text>
+      <GUID>2143505405</GUID>
+      <Text>Duża brama z ceglanej ściany</Text>
+    </Text>
+    <Text>
+      <GUID>2143505406</GUID>
+      <Text>Przemysłowa brama barierowa</Text>
+    </Text>
+    <Text>
+      <GUID>2143505407</GUID>
+      <Text>Przemysłowa brama barierowa duża</Text>
+    </Text>
+    <Text>
+      <GUID>2143505409</GUID>
+      <Text>Rdzeń twoich branż. Możesz wybrać konkretne polityki przemysłowe, odblokowując łańcuch produkcji lub aktywując cykle fabryk.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505567</GUID>
+      <Text>Sektor rdzeniowy przemysłu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505569</GUID>
+      <Text>Podsektor przemysłu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505570</GUID>
+      <Text>Funkcjonowanie sektora, reprezentowanego przez firmę. Możliwe jest ustalanie polityki operacyjnej.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

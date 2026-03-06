@@ -1,0 +1,136 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505565</GUID>
+      <Text>LNG-Tanker</Text>
+    </Text>
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>Konstruiert und gebaut, um chemische Produkte zu transportieren. Der Rumpf ist mit Metall verstärkt, um gefährliche Lecks zu verhindern. Nur auf Handelsrouten nutzbar, kein manuelles Be- oder Entladen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505692</GUID>
+      <Text>Gesellschaft: Chemisch</Text>
+    </Text>
+    <Text>
+      <GUID>2143505694</GUID>
+      <Text>Labor: Chemische Verbindung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505695</GUID>
+      <Text>Laborflügel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505697</GUID>
+      <Text>Chemische Verbindungen aus chemischer Synthese herstellen. Teurer Bau.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505698</GUID>
+      <Text>Produziert Güter.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505699</GUID>
+      <Text>Chemische Verbindung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505700</GUID>
+      <Text>Chemiefabrik</Text>
+    </Text>
+    <Text>
+      <GUID>2143505714</GUID>
+      <Text>Modul für chemische Anlagen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505715</GUID>
+      <Text>Bietet einen Bereich für chemische Experimente.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505716</GUID>
+      <Text>Alle Standorte des Chemiewerks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505717</GUID>
+      <Text>Modul Chemieindustrie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505720</GUID>
+      <Text>Limonade</Text>
+    </Text>
+    <Text>
+      <GUID>2143505721</GUID>
+      <Text>Chemiefabrik: Limonade</Text>
+    </Text>
+    <Text>
+      <GUID>2143505737</GUID>
+      <Text>Keine Güter im Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505738</GUID>
+      <Text>Güter im Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505726</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505727</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505728</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505729</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505730</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505731</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505732</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505733</GUID>
+      <Text>Petrochemische Experimente</Text>
+    </Text>
+    <Text>
+      <GUID>2143505734</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505739</GUID>
+      <Text>Chemische Innovation – Chemie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505740</GUID>
+      <Text>Arbeit und Forschung in der synthetischen Chemie ermöglichen die Entwicklung von Prozessen, die darauf abzielen, Moleküle zu ersetzen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505741</GUID>
+      <Text>Chemische Innovation – Chemie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505742</GUID>
+      <Text>Industrie – Expansion</Text>
+    </Text>
+    <Text>
+      <GUID>2143505743</GUID>
+      <Text>Es wurde beschlossen, die chemische Anlage zu erweitern, um Experimente weiter zu fördern und so die Produktivität zu steigern. Allerdings treten auch Probleme mit der Luft- und Wasserqualität in der Umgebung auf.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505744</GUID>
+      <Text>Industrie – Expansion</Text>
+    </Text>
+    <Text>
+      <GUID>2143505745</GUID>
+      <Text>Alle chemischen Depots</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,128 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505408</GUID>
+      <Text>Firma: Huta Stali</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>Twoje moduły przemysłowe</Text>
+    </Text>
+    <Text>
+      <GUID>2143505411</GUID>
+      <Text>Moduły przemysłowe</Text>
+    </Text>
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Magazyn rudy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Scentralizuj magazynowanie rud dla swojej branży.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505502</GUID>
+      <Text>Zaopatrywane w rudy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>Brak dostaw rud</Text>
+    </Text>
+    <Text>
+      <GUID>2143505504</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505505</GUID>
+      <Text>Wymaga magazynu rudy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505506</GUID>
+      <Text>Moduł Industry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>Wielki piec</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>Produkuje towary luzowe.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Moduł wielkiego pieca</Text>
+    </Text>
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>Dodatkowy warsztat poświęcony produkcji stali.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>Rudy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505512</GUID>
+      <Text>Wielki piec - moduł</Text>
+    </Text>
+    <Text>
+      <GUID>2143505552</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>Stal masowa</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Wymagaj magazynu rudy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505555</GUID>
+      <Text>Można je podnieść przez moduły</Text>
+    </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Fabryka Boost</Text>
+    </Text>
+    <Text>
+      <GUID>2143505558</GUID>
+      <Text>Elementy do wsuwania</Text>
+    </Text>
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>Logistyka kolejowa</Text>
+    </Text>
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>Rampa rozładunkowa dla towarów: Stal</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Magazyn rudy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505580</GUID>
+      <Text>Przechowywać rudy.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Magazyn logistyczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>Moduł Przemysłu Hutniczego</Text>
+    </Text>
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>Ekspansja przemysłu: Beam</Text>
+    </Text>
+    <Text>
+      <GUID>2143505585</GUID>
+      <Text>Umożliwia odlewniom produkcję dodatkowych belek stalowych, kosztem obniżonej ogólnej wydajności.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
