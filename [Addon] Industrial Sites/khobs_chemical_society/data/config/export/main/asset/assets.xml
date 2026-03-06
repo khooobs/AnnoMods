@@ -42,13 +42,13 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/special/chemical_company/chemical_company.cfg</Filename>
+              <Filename>data/modgraphics/buildings/special/chemical_society/chemical_society.cfg</Filename>
             </Item>
           </Variations>
         </Object>
         <ItemContainer>
           <SocketScopeRadius>25</SocketScopeRadius>
-          <!-- <InitSocketItems>
+          <InitSocketItems>
             <Item>
               <Item></Item>
             </Item>
@@ -58,7 +58,7 @@
             <Item>
               <Item></Item>
             </Item>
-          </InitSocketItems> -->
+          </InitSocketItems>
         </ItemContainer>
         <Culture>
           <Attractiveness>-10</Attractiveness>
