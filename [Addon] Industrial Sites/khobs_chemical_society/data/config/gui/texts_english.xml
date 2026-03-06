@@ -61,11 +61,11 @@
       <Text>Chemical Plant: Soda</Text>
     </Text>
     <Text>
-      <GUID>2143505724</GUID>
+      <GUID>2143505737</GUID>
       <Text>No Goods in Depot</Text>
     </Text>
     <Text>
-      <GUID>2143505725</GUID>
+      <GUID>2143505738</GUID>
       <Text>Goods in Depot</Text>
     </Text>
     <Text>
@@ -103,6 +103,34 @@
     <Text>
       <GUID>2143505734</GUID>
       <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505739</GUID>
+      <Text>Chemical Innovation - Chemistry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505740</GUID>
+      <Text>Work and research in synthetic chemistry enable the development of processes aimed at replacing molecules.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505741</GUID>
+      <Text>Chemical Innovation - Chemistry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505742</GUID>
+      <Text>Industry - Expansion</Text>
+    </Text>
+    <Text>
+      <GUID>2143505743</GUID>
+      <Text>It was decided to expand the chemical plant to further promote experimentation, thereby boosting productivity. However, problems with air and water quality in the surrounding area are also beginning to emerge..</Text>
+    </Text>
+    <Text>
+      <GUID>2143505744</GUID>
+      <Text>Industry - Expansion</Text>
+    </Text>
+    <Text>
+      <GUID>2143505745</GUID>
+      <Text>All Chemical Depots</Text>
     </Text>
   </ModOp>
 </ModOps>

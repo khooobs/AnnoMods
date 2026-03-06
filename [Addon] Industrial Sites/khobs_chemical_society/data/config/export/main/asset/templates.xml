@@ -373,7 +373,9 @@
 					<CanPauseManually>1</CanPauseManually>
 				</Pausable>
 				<Culture>
-					<CultureType>Factory</CultureType>
+					<Attractiveness>-5</Attractiveness>
+					<CultureType>Factory</CultureType>	
+					<HasPollution>1</HasPollution>
 				</Culture>
 				<QuestObject />
 				<Industrializable />
@@ -596,6 +598,11 @@
 					<DynamicEnvironmentType>Field</DynamicEnvironmentType>
 				</AmbientMoodProvider>
 				<ModuleIrrigation />
+				<Culture>
+					<Attractiveness>-5</Attractiveness>
+					<CultureType>Factory</CultureType>	
+					<HasPollution>1</HasPollution>
+				</Culture>
 			</Properties>
 		</Template>
 	</ModOp>
