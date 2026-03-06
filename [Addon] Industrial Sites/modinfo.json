@@ -6,7 +6,6 @@
     "Taludas_neutral_airport",
     "neutral_hacienda_genshi",
     "shared_ui_change_kurila",
-    "shared_neutral_culture_modules",
     "shared_strategic_harbour",
     "shared-ground-textures-industry-jakob",
     "khobs_sifter",
@@ -23,7 +22,6 @@
     "khobs_steel_company"
   ],
   "LoadAfterIds": [
-    "shared_neutral_culture_modules",
     "shared_strategic_harbour",
     "shared_freight_station_khobs",
     "shared_freight_import_caoutchouc",
