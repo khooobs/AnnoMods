@@ -579,7 +579,9 @@
 				<FeedbackController />
 				<Infolayer />
 				<UpgradeList />
-				<Factory7 />
+				<Factory7>
+					<IsAgriculture>1</IsAgriculture>
+				</Factory7>
 				<FactoryBase />
 				<LogisticNode />
 				<AmbientMoodProvider>
@@ -621,6 +623,18 @@
 				<QuestObject />
 				<Electrifiable />
 				<EcoSystemProvider />
+				<ModuleOwner>
+					<ModuleLimits>
+					  <Main>
+					    <Limit>4</Limit>
+					  </Main>
+					  <FertilizerModule>
+					    <Limit>1</Limit>
+					  </FertilizerModule>
+					</ModuleLimits>
+					<ModulesRequiredForFullProductivity>1</ModulesRequiredForFullProductivity>
+					<FarmType>PlantFarm</FarmType>
+				</ModuleOwner>
 			</Properties>
 		</Template>
 	</ModOp>

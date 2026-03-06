@@ -1218,6 +1218,9 @@
               </Item>
             </Maintenances>
           </Maintenance>
+          <BuildingModule>
+            <ModuleType>FertilizerModule</ModuleType>
+          </BuildingModule>
         </Values>
       </Asset>
       <Asset>
@@ -1311,6 +1314,9 @@
               </Item>
             </Maintenances>
           </Maintenance>
+          <BuildingModule>
+            <ModuleType>FertilizerModule</ModuleType>
+          </BuildingModule>
         </Values>
       </Asset>
       <Asset>
@@ -1404,6 +1410,9 @@
               </Item>
             </Maintenances>
           </Maintenance>
+          <BuildingModule>
+            <ModuleType>FertilizerModule</ModuleType>
+          </BuildingModule>
         </Values>
       </Asset>
       <Asset>
@@ -1497,6 +1506,9 @@
               </Item>
             </Maintenances>
           </Maintenance>
+          <BuildingModule>
+            <ModuleType>FertilizerModule</ModuleType>
+          </BuildingModule>
         </Values>
       </Asset>
       <Asset>
@@ -1590,6 +1602,9 @@
               </Item>
             </Maintenances>
           </Maintenance>
+          <BuildingModule>
+            <ModuleType>FertilizerModule</ModuleType>
+          </BuildingModule>
         </Values>
       </Asset>
       <Asset>
@@ -2416,6 +2431,9 @@
               </Item>
             </Maintenances>
           </Maintenance>
+          <BuildingModule>
+            <ModuleType>FertilizerModule</ModuleType>
+          </BuildingModule>
         </Values>
       </Asset>
       <Asset>
@@ -2514,6 +2532,9 @@
               </Item>
             </Maintenances>
           </Maintenance>
+          <BuildingModule>
+            <ModuleType>FertilizerModule</ModuleType>
+          </BuildingModule>
         </Values>
       </Asset>
       <Asset>
@@ -2612,6 +2633,9 @@
               </Item>
             </Maintenances>
           </Maintenance>
+          <BuildingModule>
+            <ModuleType>FertilizerModule</ModuleType>
+          </BuildingModule>
         </Values>
       </Asset>
       <Asset>
@@ -2710,6 +2734,9 @@
               </Item>
             </Maintenances>
           </Maintenance>
+          <BuildingModule>
+            <ModuleType>FertilizerModule</ModuleType>
+          </BuildingModule>
         </Values>
       </Asset>
     </ModOp>
