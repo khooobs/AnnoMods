@@ -44,25 +44,13 @@
       <GUID>2143505715</GUID>
       <Text>Provides chemical experimentations area.</Text>
     </Text>
-    <!-- <Text>
-      <GUID>2143505715</GUID>
-      <Text>Look for the &lt;font overrideTextColor="true" color='#edc891'&gt;Chemical Plant&lt;/font&gt; in the modules list for this building.</Text>
-    </Text> -->
     <Text>
       <GUID>2143505716</GUID>
-      <Text>Storage Tank</Text>
-    </Text>
-    <Text>
-      <GUID>2143505717</GUID>
       <Text>All Chemical Plant Sites</Text>
     </Text>
     <Text>
-      <GUID>2143505718</GUID>
+      <GUID>2143505717</GUID>
       <Text>Chemical Industry Module</Text>
-    </Text>
-    <Text>
-      <GUID>2143505719</GUID>
-      <Text>Storage Tank</Text>
     </Text>
     <Text>
       <GUID>2143505720</GUID>
@@ -73,8 +61,76 @@
       <Text>Chemical Plant: Soda</Text>
     </Text>
     <Text>
-      <GUID>2143505722</GUID>
-      <Text>Storage Tank</Text>
+      <GUID>2143505737</GUID>
+      <Text>No Goods in Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505738</GUID>
+      <Text>Goods in Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505726</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505727</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505728</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505729</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505730</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505731</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505732</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505733</GUID>
+      <Text>Petrochemical Experimentations</Text>
+    </Text>
+    <Text>
+      <GUID>2143505734</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505739</GUID>
+      <Text>Chemical Innovation - Chemistry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505740</GUID>
+      <Text>Work and research in synthetic chemistry enable the development of processes aimed at replacing molecules.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505741</GUID>
+      <Text>Chemical Innovation - Chemistry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505742</GUID>
+      <Text>Industry - Expansion</Text>
+    </Text>
+    <Text>
+      <GUID>2143505743</GUID>
+      <Text>It was decided to expand the chemical plant to further promote experimentation, thereby boosting productivity. However, problems with air and water quality in the surrounding area are also beginning to emerge..</Text>
+    </Text>
+    <Text>
+      <GUID>2143505744</GUID>
+      <Text>Industry - Expansion</Text>
+    </Text>
+    <Text>
+      <GUID>2143505745</GUID>
+      <Text>All Chemical Depots</Text>
     </Text>
   </ModOp>
 </ModOps>
