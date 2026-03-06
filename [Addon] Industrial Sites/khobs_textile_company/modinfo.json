@@ -1,5 +1,5 @@
 {
-  "Version": "0.1.0",
+  "Version": "1.0.0",
   "ModID": "khobs_textile_company",
   "IncompatibleIds": null,
   "ModDependencies": [
@@ -7,7 +7,6 @@
     "neutral_hacienda_genshi",
     "shared_ui_change_kurila",
     "shared_neutral_culture_modules",
-    "shared_goods_strings",
     "shared-ground-textures-industry-jakob",
     "wool_fabric_kurila",
     "sewing_thread_kurila"

@@ -2,49 +2,49 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505593</GUID>
-      <Text>Company: Textile</Text>
+      <Text>公司：紡織業</Text>
     </Text>
     <Text>
       <GUID>2143505599</GUID>
-      <Text>Textile Industry Module</Text>
+      <Text>紡織產業模組</Text>
     </Text>
     <Text>
       <GUID>2143505600</GUID>
-      <Text>Spinning Mill</Text>
+      <Text>紡紗廠</Text>
     </Text>
     <Text>
       <GUID>2143505601</GUID>
-      <Text>Spinning Mill: Wool</Text>
+      <Text>紡紗廠：羊毛</Text>
     </Text>
     <Text>
       <GUID>2143505602</GUID>
-      <Text>Spinning Mill: Exotic Wool</Text>
+      <Text>紡紗廠：異國羊毛</Text>
     </Text>
     <Text>
       <GUID>2143505603</GUID>
-      <Text>Spinning Mill: Felt</Text>
+      <Text>紡紗機：氈</Text>
     </Text>
     <Text>
       <GUID>2143505604</GUID>
-      <Text>Spinning Mill: Cotton</Text>
+      <Text>紡紗廠：棉花</Text>
     </Text>
     <Text>
       <GUID>2143505605</GUID>
-      <Text>Spinning Mill: Linen</Text>
+      <Text>紡紗廠：亞麻</Text>
     </Text>
     <Text>
       <GUID>2143505606</GUID>
       <!-- No need to translate -->
-      <Text>Spinning Recipes</Text>
+      <Text>紡紗配方</Text>
     </Text>
     <Text>
       <GUID>2143505607</GUID>
       <!-- Spinning Recipe List Description -->
-      <Text>One of the symbols of the revolution of this era, these brick walls contain textile machines and efficiency that few people seem to understand yet.</Text>
+      <Text>作為這個時代革命的象徵之一，這些磚牆內藏著紡織機械與效率，而這些技術似乎尚未被少數人理解。</Text>
     </Text>
     <Text>
       <GUID>2143505608</GUID>
-      <Text>Wool Fabric 1t</Text>
+      <Text>羊毛布料 1 噸</Text>
     </Text>
     <Text>
       <GUID>2143505609</GUID>
@@ -52,7 +52,7 @@
     </Text>
     <Text>
       <GUID>2143505610</GUID>
-      <Text>Exotic Wool Fabric 2t</Text>
+      <Text>異國羊毛布料 2t</Text>
     </Text>
     <Text>
       <GUID>2143505611</GUID>
@@ -60,7 +60,7 @@
     </Text>
     <Text>
       <GUID>2143505612</GUID>
-      <Text>Felt Fabric 3t</Text>
+      <Text>毛氈布 3 噸</Text>
     </Text>
     <Text>
       <GUID>2143505613</GUID>
@@ -68,7 +68,7 @@
     </Text>
     <Text>
       <GUID>2143505614</GUID>
-      <Text>Cotton Fabric 4t</Text>
+      <Text>棉布 4 噸</Text>
     </Text>
     <Text>
       <GUID>2143505615</GUID>
@@ -76,7 +76,7 @@
     </Text>
     <Text>
       <GUID>2143505616</GUID>
-      <Text>Linen Fabric 6t</Text>
+      <Text>亞麻布料 6 噸</Text>
     </Text>
     <Text>
       <GUID>2143505617</GUID>
@@ -84,75 +84,75 @@
     </Text>
     <Text>
       <GUID>2143505618</GUID>
-      <Text>All Spinning Mills</Text>
+      <Text>所有紡紗廠</Text>
     </Text>
     <Text>
       <GUID>2143505619</GUID>
-      <Text>Spinning Mill Module</Text>
+      <Text>紡紗機模組</Text>
     </Text>
     <Text>
       <GUID>2143505620</GUID>
-      <Text>An additional workshop dedicated to textiles.</Text>
+      <Text>另有一個專門針對紡織品的工作坊。</Text>
     </Text>
     <Text>
       <GUID>2143505621</GUID>
-      <Text>No goods in depot</Text>
+      <Text>倉庫內無貨物</Text>
     </Text>
     <Text>
       <GUID>2143505622</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>後勤倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>後勤倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>後勤倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>後勤倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>後勤倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
-      <Text>Store goods.</Text>
+      <Text>商店商品。</Text>
     </Text>
     <Text>
       <GUID>2143505628</GUID>
-      <Text>Goods in Depot</Text>
+      <Text>貨倉貨物</Text>
     </Text>
     <Text>
       <GUID>2143505629</GUID>
-      <Text>Fabric</Text>
+      <Text>布料</Text>
     </Text>
     <Text>
       <GUID>2143505630</GUID>
-      <Text>Weaver</Text>
+      <Text>韋弗</Text>
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>Weaver: Work Clothes</Text>
+      <Text>Weaver：工作服</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
-      <Text>Weaver: Bombins</Text>
+      <Text>織者：炸彈</Text>
     </Text>
     <Text>
       <GUID>2143505633</GUID>
-      <Text>Weaver: Suits</Text>
+      <Text>韋弗：西裝</Text>
     </Text>
     <Text>
       <GUID>2143505634</GUID>
-      <Text>Weaver: Tapestries</Text>
+      <Text>織工：掛毯</Text>
     </Text>
     <Text>
       <GUID>2143505635</GUID>
-      <Text>Weaver</Text>
+      <Text>韋弗</Text>
     </Text>
     <Text>
       <GUID>2143505636</GUID>
@@ -192,67 +192,67 @@
     </Text>
     <Text>
       <GUID>2143505644</GUID>
-      <Text>All Weavers</Text>
+      <Text>所有織布者</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>後勤倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505646</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>後勤倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505647</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>後勤倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505648</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>後勤倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505649</GUID>
-      <Text>Weaver Module</Text>
+      <Text>織布模組</Text>
     </Text>
     <Text>
       <GUID>2143505650</GUID>
-      <Text>All Depots from Weavers</Text>
+      <Text>所有Weavers的倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505651</GUID>
-      <Text>Industry Expansion: Fabric</Text>
+      <Text>產業擴展：布料</Text>
     </Text>
     <Text>
       <GUID>2143505652</GUID>
-      <Text>The use and standardisation of fabrics enables the industry to improve its production and logistics.</Text>
+      <Text>布料的使用與標準化使產業能提升生產與物流。</Text>
     </Text>
     <Text>
       <GUID>2143505653</GUID>
-      <Text>Industry Expansion: Fabric</Text>
+      <Text>產業擴展：布料</Text>
     </Text>
     <Text>
       <GUID>2143505654</GUID>
-      <Text>Factory Cycle (WIP)</Text>
+      <Text>工廠自行車（WIP）</Text>
     </Text>
     <Text>
       <GUID>2143505655</GUID>
-      <Text>Work In Progress</Text>
+      <Text>進行中</Text>
     </Text>
     <Text>
       <GUID>2143505656</GUID>
-      <Text>Factory Cycle (WIP)</Text>
+      <Text>工廠自行車（WIP）</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>
-      <Text>Team Change</Text>
+      <Text>球隊變動</Text>
     </Text>
     <Text>
       <GUID>2143505658</GUID>
-      <Text>With this recruitment campaign, you should have all the workforce you need.</Text>
+      <Text>透過這次招募活動，你應該已經擁有所需的全部勞動力。</Text>
     </Text>
     <Text>
       <GUID>2143505659</GUID>
-      <Text>Team Change</Text>
+      <Text>球隊變動</Text>
     </Text>
   </ModOp>
 </ModOps>
