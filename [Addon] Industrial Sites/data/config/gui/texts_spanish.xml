@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505402</GUID>
+      <Text>Emplazamiento industrial</Text>
+    </Text>
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>Grandes industrias</Text>
+    </Text>
+    <Text>
+      <GUID>2143505404</GUID>
+      <Text>Carretera de Hormigón</Text>
+    </Text>
+    <Text>
+      <GUID>2143505405</GUID>
+      <Text>Gran puerta de muro de ladrillo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505406</GUID>
+      <Text>Puerta de barrera industrial</Text>
+    </Text>
+    <Text>
+      <GUID>2143505407</GUID>
+      <Text>Gran puerta de barrera industrial</Text>
+    </Text>
+    <Text>
+      <GUID>2143505409</GUID>
+      <Text>El núcleo de tus industrias. Puedes elegir políticas industriales específicas, desbloquear la cadena de producción o activar ciclos de fábricas.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505567</GUID>
+      <Text>Sector núcleo industrial</Text>
+    </Text>
+    <Text>
+      <GUID>2143505569</GUID>
+      <Text>Subsector industrial</Text>
+    </Text>
+    <Text>
+      <GUID>2143505570</GUID>
+      <Text>El funcionamiento de un sector, representado por una empresa. Es posible decidir sobre las políticas operativas.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

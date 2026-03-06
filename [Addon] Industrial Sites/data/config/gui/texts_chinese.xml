@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505402</GUID>
+      <Text>工业区</Text>
+    </Text>
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>大型工业</Text>
+    </Text>
+    <Text>
+      <GUID>2143505404</GUID>
+      <Text>混凝土路</Text>
+    </Text>
+    <Text>
+      <GUID>2143505405</GUID>
+      <Text>大型砖墙门</Text>
+    </Text>
+    <Text>
+      <GUID>2143505406</GUID>
+      <Text>工业屏障门</Text>
+    </Text>
+    <Text>
+      <GUID>2143505407</GUID>
+      <Text>大型工业屏障门</Text>
+    </Text>
+    <Text>
+      <GUID>2143505409</GUID>
+      <Text>你们产业的核心。你可以选择特定的工业政策，解锁生产链或启动工厂周期。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505567</GUID>
+      <Text>产业核心部门</Text>
+    </Text>
+    <Text>
+      <GUID>2143505569</GUID>
+      <Text>工业子部门</Text>
+    </Text>
+    <Text>
+      <GUID>2143505570</GUID>
+      <Text>一个行业的运作，由一家公司代表。运营政策是可以决定的。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

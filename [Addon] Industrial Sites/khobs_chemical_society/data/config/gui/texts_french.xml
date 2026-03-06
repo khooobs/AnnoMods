@@ -1,0 +1,136 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505565</GUID>
+      <Text>Tanker</Text>
+    </Text>
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>Conçu et construit pour transporter des produits chimiques. La coque est renforcée de métal pour éviter les fuites dangereuses. Utilisable uniquement sur les routes commerciales, pas de chargement ou de déchargement manuel.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505692</GUID>
+      <Text>Société : Chimie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505694</GUID>
+      <Text>Laboratoire : Composé chimique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505695</GUID>
+      <Text>Aile de laboratoire</Text>
+    </Text>
+    <Text>
+      <GUID>2143505697</GUID>
+      <Text>Produit un composé chimique par synthèse chimique. Construction coûteuse.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505698</GUID>
+      <Text>Produit des marchandises.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505699</GUID>
+      <Text>Composé chimique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505700</GUID>
+      <Text>Usine chimique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505714</GUID>
+      <Text>Module d'usine chimique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505715</GUID>
+      <Text>Fournit un domaine d’expérimentation chimique.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505716</GUID>
+      <Text>Tous les sites des usines chimiques</Text>
+    </Text>
+    <Text>
+      <GUID>2143505717</GUID>
+      <Text>Module d'Industrie Chimique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505720</GUID>
+      <Text>Soda</Text>
+    </Text>
+    <Text>
+      <GUID>2143505721</GUID>
+      <Text>Usine chimique : Soda</Text>
+    </Text>
+    <Text>
+      <GUID>2143505737</GUID>
+      <Text>Aucune marchandise au dépôt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505738</GUID>
+      <Text>Marchandises au dépôt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505726</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505727</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505728</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505729</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505730</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505731</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505732</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505733</GUID>
+      <Text>Expérimentations pétrochimiques</Text>
+    </Text>
+    <Text>
+      <GUID>2143505734</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505739</GUID>
+      <Text>Innovation chimique - Synthèse</Text>
+    </Text>
+    <Text>
+      <GUID>2143505740</GUID>
+      <Text>Les travaux et recherches en chimie synthétique permettent le développement de procédés visant à remplacer certains matériaux.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505741</GUID>
+      <Text>Innovation chimique - Synthèse</Text>
+    </Text>
+    <Text>
+      <GUID>2143505742</GUID>
+      <Text>Industrie - Expansion</Text>
+    </Text>
+    <Text>
+      <GUID>2143505743</GUID>
+      <Text>Il a été décidé d’agrandir l’usine chimique pour promouvoir davantage l’expérimentation, augmentant ainsi la productivité. Cependant, des problèmes de qualité de l’air et de l’eau dans les environs commencent également à apparaître...</Text>
+    </Text>
+    <Text>
+      <GUID>2143505744</GUID>
+      <Text>Industrie - Expansion</Text>
+    </Text>
+    <Text>
+      <GUID>2143505745</GUID>
+      <Text>Tous les dépôts chimiques</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,136 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505565</GUID>
+      <Text>Petroliera di GNL</Text>
+    </Text>
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>Progettato e costruito per trasportare prodotti chimici. Lo scafo è rinforzato con metallo per prevenire perdite pericolose. Utilizzabile solo su rotte commerciali, niente caricamento o scarico manuale.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505692</GUID>
+      <Text>Società: Chimica</Text>
+    </Text>
+    <Text>
+      <GUID>2143505694</GUID>
+      <Text>Laboratorio: Composto chimico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505695</GUID>
+      <Text>Ala di laboratorio</Text>
+    </Text>
+    <Text>
+      <GUID>2143505697</GUID>
+      <Text>Produrre composto chimico dalla sintesi chimica. Costruzione costosa.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505698</GUID>
+      <Text>Produce beni.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505699</GUID>
+      <Text>Composto chimico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505700</GUID>
+      <Text>Impianto chimico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505714</GUID>
+      <Text>Modulo Impianto Chimico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505715</GUID>
+      <Text>Fornisce un'area di sperimentazione chimica.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505716</GUID>
+      <Text>Tutti i siti degli impianti chimici</Text>
+    </Text>
+    <Text>
+      <GUID>2143505717</GUID>
+      <Text>Modulo sull'Industria Chimica</Text>
+    </Text>
+    <Text>
+      <GUID>2143505720</GUID>
+      <Text>Soda</Text>
+    </Text>
+    <Text>
+      <GUID>2143505721</GUID>
+      <Text>Impianto chimico: soda</Text>
+    </Text>
+    <Text>
+      <GUID>2143505737</GUID>
+      <Text>Nessuna merce nel deposito</Text>
+    </Text>
+    <Text>
+      <GUID>2143505738</GUID>
+      <Text>Merci nel deposito</Text>
+    </Text>
+    <Text>
+      <GUID>2143505726</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505727</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505728</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505729</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505730</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505731</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505732</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505733</GUID>
+      <Text>Sperimentazioni petrolchimiche</Text>
+    </Text>
+    <Text>
+      <GUID>2143505734</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505739</GUID>
+      <Text>Innovazione Chimica - Chimica</Text>
+    </Text>
+    <Text>
+      <GUID>2143505740</GUID>
+      <Text>Il lavoro e la ricerca nella chimica sintetica permettono lo sviluppo di processi volti a sostituire le molecole.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505741</GUID>
+      <Text>Innovazione Chimica - Chimica</Text>
+    </Text>
+    <Text>
+      <GUID>2143505742</GUID>
+      <Text>Industria - Espansione</Text>
+    </Text>
+    <Text>
+      <GUID>2143505743</GUID>
+      <Text>Si decise di espandere l'impianto chimico per promuovere ulteriormente la sperimentazione, aumentando così la produttività. Tuttavia, stanno iniziando a emergere anche problemi di qualità dell'aria e dell'acqua nell'area circostante.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505744</GUID>
+      <Text>Industria - Espansione</Text>
+    </Text>
+    <Text>
+      <GUID>2143505745</GUID>
+      <Text>Tutti i depositi chimici</Text>
+    </Text>
+  </ModOp>
+</ModOps>

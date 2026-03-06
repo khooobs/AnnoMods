@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505402</GUID>
+      <Text>工業區</Text>
+    </Text>
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>大型工業</Text>
+    </Text>
+    <Text>
+      <GUID>2143505404</GUID>
+      <Text>混凝土路</Text>
+    </Text>
+    <Text>
+      <GUID>2143505405</GUID>
+      <Text>大型磚牆大門</Text>
+    </Text>
+    <Text>
+      <GUID>2143505406</GUID>
+      <Text>工業障礙門</Text>
+    </Text>
+    <Text>
+      <GUID>2143505407</GUID>
+      <Text>大型工業障礙閘</Text>
+    </Text>
+    <Text>
+      <GUID>2143505409</GUID>
+      <Text>你們產業的核心。你可以選擇特定的工業政策、解鎖生產鏈或啟動工廠週期。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505567</GUID>
+      <Text>產業核心部門</Text>
+    </Text>
+    <Text>
+      <GUID>2143505569</GUID>
+      <Text>產業子部門</Text>
+    </Text>
+    <Text>
+      <GUID>2143505570</GUID>
+      <Text>一個產業的運作，由公司代表。可以自行決定營運政策。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

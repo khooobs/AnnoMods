@@ -1,0 +1,136 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505565</GUID>
+      <Text>LNG 탱커</Text>
+    </Text>
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>화학 제품을 운반하도록 설계되고 제작되었습니다. 선체는 위험한 누수를 방지하기 위해 금속으로 보강되어 있습니다. 무역로에서만 사용 가능하며, 수동 적재나 하역 불가입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505692</GUID>
+      <Text>사회: 화학</Text>
+    </Text>
+    <Text>
+      <GUID>2143505694</GUID>
+      <Text>실험실: 화학 화합물</Text>
+    </Text>
+    <Text>
+      <GUID>2143505695</GUID>
+      <Text>실험실 구역</Text>
+    </Text>
+    <Text>
+      <GUID>2143505697</GUID>
+      <Text>화학 합성으로 화학 화합물을 생산하세요. 비용이 많이 드는 건축물.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505698</GUID>
+      <Text>상품을 생산합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505699</GUID>
+      <Text>화학 화합물</Text>
+    </Text>
+    <Text>
+      <GUID>2143505700</GUID>
+      <Text>화학 공장</Text>
+    </Text>
+    <Text>
+      <GUID>2143505714</GUID>
+      <Text>화학 공장 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505715</GUID>
+      <Text>화학 실험 구역을 제공합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505716</GUID>
+      <Text>모든 화학 공장 부지</Text>
+    </Text>
+    <Text>
+      <GUID>2143505717</GUID>
+      <Text>화학 산업 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505720</GUID>
+      <Text>소다</Text>
+    </Text>
+    <Text>
+      <GUID>2143505721</GUID>
+      <Text>화학 공장: 소다</Text>
+    </Text>
+    <Text>
+      <GUID>2143505737</GUID>
+      <Text>창고에 물품 없음</Text>
+    </Text>
+    <Text>
+      <GUID>2143505738</GUID>
+      <Text>차량기지 내 화물</Text>
+    </Text>
+    <Text>
+      <GUID>2143505726</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505727</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505728</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505729</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505730</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505731</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505732</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505733</GUID>
+      <Text>석유화학 실험</Text>
+    </Text>
+    <Text>
+      <GUID>2143505734</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505739</GUID>
+      <Text>화학 혁신 - 화학</Text>
+    </Text>
+    <Text>
+      <GUID>2143505740</GUID>
+      <Text>합성 화학 분야의 연구와 연구는 분자를 대체하기 위한 공정 개발을 가능하게 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505741</GUID>
+      <Text>화학 혁신 - 화학</Text>
+    </Text>
+    <Text>
+      <GUID>2143505742</GUID>
+      <Text>산업 - 확장</Text>
+    </Text>
+    <Text>
+      <GUID>2143505743</GUID>
+      <Text>실험을 더욱 촉진하고 생산성을 높이기 위해 화학 공장을 확장하기로 결정했습니다. 하지만 주변 지역의 대기와 수질 문제도 점차 드러나고 있습니다..</Text>
+    </Text>
+    <Text>
+      <GUID>2143505744</GUID>
+      <Text>산업 - 확장</Text>
+    </Text>
+    <Text>
+      <GUID>2143505745</GUID>
+      <Text>모든 화학 저장소</Text>
+    </Text>
+  </ModOp>
+</ModOps>
