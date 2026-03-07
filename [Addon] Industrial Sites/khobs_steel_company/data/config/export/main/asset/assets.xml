@@ -487,6 +487,13 @@
         <Electrifiable/>
         <EcoSystemProvider/>
         <ModuleOwner>
+					<ModuleLimits>
+					  <Main>
+					    <Limit>6</Limit>
+					  </Main>
+					</ModuleLimits>
+					<ModulesRequiredForFullProductivity>1</ModulesRequiredForFullProductivity>
+					<FarmType>PlantFarm</FarmType>
 					<ModuleBuildRadius>100</ModuleBuildRadius>
           <ConstructionOptions>
             <Item>
