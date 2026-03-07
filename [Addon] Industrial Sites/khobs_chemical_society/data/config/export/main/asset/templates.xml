@@ -10,7 +10,37 @@
 					<BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<AssociatedRegions>Moderate</AssociatedRegions>
 					<BuildingType>Factory</BuildingType>
-					<BuildingCategoryName>2143505402</BuildingCategoryName>
+          <AllowChangeVariation>1</AllowChangeVariation>
+		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
+          <InfluencedByNeighbors>
+            <Item>
+              <Building>2143505700</Building>
+            </Item>
+            <Item>
+              <Building>2143505703</Building>
+            </Item>
+            <Item>
+              <Building>2143505705</Building>
+            </Item>
+            <Item>
+              <Building>2143505707</Building>
+            </Item>
+            <Item>
+              <Building>2143505709</Building>
+            </Item>
+            <Item>
+              <Building>2143505711</Building>
+            </Item>
+            <Item>
+              <Building>2143505713</Building>
+            </Item>
+            <Item>
+              <Building>2143505721</Building>
+            </Item>
+            <Item>
+              <Building>2143505694</Building>
+            </Item>
+          </InfluencedByNeighbors>
           <InfluencedVariationDirection>
             <Item />
             <Item>
@@ -111,13 +141,6 @@
                 </Pool>
               </End>
               <!-- alt end -->
-              <Crossing>
-                <Pool>
-                  <Item>
-                    <DirectionOffet>2</DirectionOffet>
-                  </Item>
-                </Pool>
-              </Crossing>
               <Corner>
                 <Pool>
                   <Item>
@@ -256,10 +279,20 @@
 					<InfoDescription>11147</InfoDescription>
 				</Standard>
 				<Building>
+					<PickingAsset>2143505714</PickingAsset>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
 					<BuildingType>BuildingModule</BuildingType>
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
 					<BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<AllowChangeVariation>1</AllowChangeVariation>
+          <InfluencedByNeighbors>
+            <Item>
+              <Building>2143505714</Building>
+            </Item>
+          </InfluencedByNeighbors>
           <InfluencedVariationDirection>
             <Item />
             <Item>
@@ -334,56 +367,49 @@
             </Item>
           </InfluencedVariationDirection>
           <BuildingBlockPool>
-          	<DontCare />
-          	<Single>
-          	  <Pool>
-          	    <Item>
-          	      <Variation>3</Variation>
-          	      <DirectionOffet>0</DirectionOffet>
-          	    </Item>
-          	  </Pool>
-          	</Single>
-          	<Mid>
-          	  <Pool>
-          	    <Item>
-          	      <Variation>1</Variation>
-          	      <DirectionOffet>0</DirectionOffet>
-          	    </Item>
-          	  </Pool>
-          	</Mid>
-          	<End>
-          	  <Pool>
-          	    <Item>
-          	      <DirectionOffet>1</DirectionOffet>
-          	      <Variation>2</Variation>
-          	    </Item>
-          	  </Pool>
-          	</End>
-          	<!-- alt end -->
-          	<Crossing>
-          	  <Pool>
-          	    <Item>
-          	      <DirectionOffet>2</DirectionOffet>
-          	    </Item>
-          	  </Pool>
-          	</Crossing>
-          	<Corner>
-          	  <Pool>
-          	    <Item>
-          	      <DirectionOffet>3</DirectionOffet>
-          	      <Variation>0</Variation>
-          	    </Item>
-          	  </Pool>
-          	</Corner>
-          	<!-- alt corner -->
-          	<TCrossing>
-          	  <Pool>
-          	    <Item>
-          	      <Variation>2</Variation>
-          	      <DirectionOffet>1</DirectionOffet>
-          	    </Item>
-          	  </Pool>
-          	</TCrossing>
+            <DontCare />
+            <Single>
+              <Pool>
+                <Item>
+                  <Variation>3</Variation>
+                  <DirectionOffet>0</DirectionOffet>
+                </Item>
+              </Pool>
+            </Single>
+            <Mid>
+              <Pool>
+                <Item>
+                  <Variation>1</Variation>
+                  <DirectionOffet>1</DirectionOffet>
+                </Item>
+              </Pool>
+            </Mid>
+            <End>
+              <Pool>
+                <Item>
+                  <DirectionOffet>1</DirectionOffet>
+                  <Variation>2</Variation>
+                </Item>
+              </Pool>
+            </End>
+            <!-- alt end -->
+            <Corner>
+              <Pool>
+                <Item>
+                  <DirectionOffet>4</DirectionOffet>
+                  <Variation>0</Variation>
+                </Item>
+              </Pool>
+            </Corner>
+            <!-- alt corner -->
+            <TCrossing>
+              <Pool>
+                <Item>
+                  <Variation>2</Variation>
+                  <DirectionOffet>1</DirectionOffet>
+                </Item>
+              </Pool>
+            </TCrossing>
           </BuildingBlockPool>
 				</Building>
 				<Blocking>

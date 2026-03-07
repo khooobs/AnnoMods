@@ -250,80 +250,11 @@
         </Standard>
         <Building>
 					<BuildingCategoryName>2143505811</BuildingCategoryName>
-          <AllowChangeVariation>1</AllowChangeVariation>
-          <InfluencedVariationDirection>
-            <Item />
+          <InfluencedByNeighbors>
             <Item>
-              <!-- end, south-west -->
-              <Direction>3</Direction>
-              <Type>End</Type>
+              <Building>2143505805</Building>
             </Item>
-            <Item>
-              <!-- end, south-east -->
-              <Type>End</Type>
-            </Item>
-            <Item>
-              <!-- corner, south -->
-              <Direction>2</Direction>
-              <Type>Corner</Type>
-            </Item>
-            <Item>
-              <!-- end, north-east -->
-              <Direction>1</Direction>
-              <Type>Crossing</Type>
-            </Item>
-            <Item>
-              <!-- mid, south-west to north-east -->
-              <Direction>3</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- corner, east -->
-              <Direction>1</Direction>
-              <Type>TCrossing</Type>
-            </Item>
-            <Item>
-              <!-- T, front facing south-east -->
-              <Direction>1</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- end, north-west -->
-              <Direction>2</Direction>
-              <Type>Crossing</Type>
-            </Item>
-            <Item>
-              <!-- corner, west -->
-              <Direction>3</Direction>
-              <Type>TCrossing</Type>
-            </Item>
-            <Item>
-              <!-- mid, north-west to south-east -->
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- T, front facing south-west  -->
-              <Direction>0</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- corner, north -->
-              <Type>Corner</Type>
-            </Item>
-            <Item>
-              <!-- T, front facing north-west -->
-              <Direction>3</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- T, front facing north-east -->
-              <Direction>2</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- crossing -->
-            </Item>
-          </InfluencedVariationDirection>
+          </InfluencedByNeighbors>
           <BuildingBlockPool>
           	<DontCare />
           	<Single>
@@ -338,7 +269,7 @@
           	  <Pool>
           	    <Item>
           	      <Variation>1</Variation>
-          	      <DirectionOffet>0</DirectionOffet>
+          	      <DirectionOffet>1</DirectionOffet>
           	    </Item>
           	  </Pool>
           	</Mid>
@@ -351,17 +282,10 @@
           	  </Pool>
           	</End>
           	<!-- alt end -->
-          	<Crossing>
-          	  <Pool>
-          	    <Item>
-          	      <DirectionOffet>2</DirectionOffet>
-          	    </Item>
-          	  </Pool>
-          	</Crossing>
           	<Corner>
           	  <Pool>
           	    <Item>
-          	      <DirectionOffet>3</DirectionOffet>
+          	      <DirectionOffet>4</DirectionOffet>
           	      <Variation>0</Variation>
           	    </Item>
           	  </Pool>
@@ -420,26 +344,6 @@
           </Variations>
         </Object>
         <Mesh />
-        <Selection>
-          <GUIType>Generic</GUIType>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList />
-            </Values>
-          </OnSelection>
-        </Selection>
-        <Constructable />
-        <Locked />
-        <FeedbackController />
-        <Infolayer />
-        <BuildingModule>
-          <IsCulturalModule>1</IsCulturalModule>
-          <PlazaSize>20</PlazaSize>
-          <ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_neutral.png</ModuleMoodImage>
-        </BuildingModule>
-        <AmbientMoodProvider />
-        <ModuleIrrigation />
         <Maintenance>
           <Maintenances>
             <Item>

@@ -55,9 +55,6 @@
             <Item>
               <Item>2143505742</Item>
             </Item>
-            <Item>
-              <Item></Item>
-            </Item>
           </InitSocketItems>
         </ItemContainer>
         <Culture>
@@ -343,39 +340,6 @@
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_plant_site.png</IconFilename>
           <InfoDescription>2143505698</InfoDescription>
         </Standard>
-        <Building>
-          <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
-          <InfluencedByNeighbors>
-            <Item>
-              <Building>2143505700</Building>
-            </Item>
-            <Item>
-              <Building>2143505703</Building>
-            </Item>
-            <Item>
-              <Building>2143505705</Building>
-            </Item>
-            <Item>
-              <Building>2143505707</Building>
-            </Item>
-            <Item>
-              <Building>2143505709</Building>
-            </Item>
-            <Item>
-              <Building>2143505711</Building>
-            </Item>
-            <Item>
-              <Building>2143505713</Building>
-            </Item>
-            <Item>
-              <Building>2143505721</Building>
-            </Item>
-            <Item>
-              <Building>2143505694</Building>
-            </Item>
-          </InfluencedByNeighbors>
-        </Building>
         <Object>
           <Variations>
             <Item>
@@ -454,39 +418,6 @@
           <IconFilename>data/ui/2kimages/main/3dicons/icon_shampoo.png</IconFilename>
           <InfoDescription>132783</InfoDescription><!--Multifactory building infocorner-->
         </Standard>
-        <Building>
-          <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
-          <InfluencedByNeighbors>
-            <Item>
-              <Building>2143505700</Building>
-            </Item>
-            <Item>
-              <Building>2143505703</Building>
-            </Item>
-            <Item>
-              <Building>2143505705</Building>
-            </Item>
-            <Item>
-              <Building>2143505707</Building>
-            </Item>
-            <Item>
-              <Building>2143505709</Building>
-            </Item>
-            <Item>
-              <Building>2143505711</Building>
-            </Item>
-            <Item>
-              <Building>2143505713</Building>
-            </Item>
-            <Item>
-              <Building>2143505721</Building>
-            </Item>
-            <Item>
-              <Building>2143505694</Building>
-            </Item>
-          </InfluencedByNeighbors>
-        </Building>
         <Object>
           <Variations>
             <Item>
@@ -594,39 +525,6 @@
           <Name>Chemical_Plant_Lemonade</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_lemonade.png</IconFilename>
         </Standard>
-        <Building>
-          <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
-          <InfluencedByNeighbors>
-            <Item>
-              <Building>2143505700</Building>
-            </Item>
-            <Item>
-              <Building>2143505703</Building>
-            </Item>
-            <Item>
-              <Building>2143505705</Building>
-            </Item>
-            <Item>
-              <Building>2143505707</Building>
-            </Item>
-            <Item>
-              <Building>2143505709</Building>
-            </Item>
-            <Item>
-              <Building>2143505711</Building>
-            </Item>
-            <Item>
-              <Building>2143505713</Building>
-            </Item>
-            <Item>
-              <Building>2143505721</Building>
-            </Item>
-            <Item>
-              <Building>2143505694</Building>
-            </Item>
-          </InfluencedByNeighbors>
-        </Building>
         <Object>
           <Variations>
             <Item>
@@ -733,39 +631,6 @@
           <Name>Chemical_Plant_Souvenir</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_souvenir.png</IconFilename>
         </Standard>
-        <Building>
-          <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
-          <InfluencedByNeighbors>
-            <Item>
-              <Building>2143505700</Building>
-            </Item>
-            <Item>
-              <Building>2143505703</Building>
-            </Item>
-            <Item>
-              <Building>2143505705</Building>
-            </Item>
-            <Item>
-              <Building>2143505707</Building>
-            </Item>
-            <Item>
-              <Building>2143505709</Building>
-            </Item>
-            <Item>
-              <Building>2143505711</Building>
-            </Item>
-            <Item>
-              <Building>2143505713</Building>
-            </Item>
-            <Item>
-              <Building>2143505721</Building>
-            </Item>
-            <Item>
-              <Building>2143505694</Building>
-            </Item>
-          </InfluencedByNeighbors>
-        </Building>
         <Object>
           <Variations>
             <Item>
@@ -871,39 +736,6 @@
           <Name>Chemical_Plant_LacquerColor</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_lacquer.png</IconFilename>
         </Standard>
-        <Building>
-          <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
-          <InfluencedByNeighbors>
-            <Item>
-              <Building>2143505700</Building>
-            </Item>
-            <Item>
-              <Building>2143505703</Building>
-            </Item>
-            <Item>
-              <Building>2143505705</Building>
-            </Item>
-            <Item>
-              <Building>2143505707</Building>
-            </Item>
-            <Item>
-              <Building>2143505709</Building>
-            </Item>
-            <Item>
-              <Building>2143505711</Building>
-            </Item>
-            <Item>
-              <Building>2143505713</Building>
-            </Item>
-            <Item>
-              <Building>2143505721</Building>
-            </Item>
-            <Item>
-              <Building>2143505694</Building>
-            </Item>
-          </InfluencedByNeighbors>
-        </Building>
         <Object>
           <Variations>
             <Item>
@@ -1011,39 +843,6 @@
           <Name>Chemical_Plant_Celluloid</Name>
 			    <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_celluloid.png</IconFilename>
         </Standard>
-        <Building>
-          <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
-          <InfluencedByNeighbors>
-            <Item>
-              <Building>2143505700</Building>
-            </Item>
-            <Item>
-              <Building>2143505703</Building>
-            </Item>
-            <Item>
-              <Building>2143505705</Building>
-            </Item>
-            <Item>
-              <Building>2143505707</Building>
-            </Item>
-            <Item>
-              <Building>2143505709</Building>
-            </Item>
-            <Item>
-              <Building>2143505711</Building>
-            </Item>
-            <Item>
-              <Building>2143505713</Building>
-            </Item>
-            <Item>
-              <Building>2143505721</Building>
-            </Item>
-            <Item>
-              <Building>2143505694</Building>
-            </Item>
-          </InfluencedByNeighbors>
-        </Building>
         <Object>
           <Variations>
             <Item>
@@ -1151,39 +950,6 @@
           <Name>Chemical_Plant_Ethanol</Name>
 			    <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_ethanol.png</IconFilename>
         </Standard>
-        <Building>
-          <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
-          <InfluencedByNeighbors>
-            <Item>
-              <Building>2143505700</Building>
-            </Item>
-            <Item>
-              <Building>2143505703</Building>
-            </Item>
-            <Item>
-              <Building>2143505705</Building>
-            </Item>
-            <Item>
-              <Building>2143505707</Building>
-            </Item>
-            <Item>
-              <Building>2143505709</Building>
-            </Item>
-            <Item>
-              <Building>2143505711</Building>
-            </Item>
-            <Item>
-              <Building>2143505713</Building>
-            </Item>
-            <Item>
-              <Building>2143505721</Building>
-            </Item>
-            <Item>
-              <Building>2143505694</Building>
-            </Item>
-          </InfluencedByNeighbors>
-        </Building>
         <Object>
           <Variations>
             <Item>
@@ -1291,39 +1057,6 @@
           <Name>Chemical_Plant_Soda</Name>
 			    <IconFilename>data/modgraphics/ui/icon_soda_2.png</IconFilename>
         </Standard>
-        <Building>
-          <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
-          <InfluencedByNeighbors>
-            <Item>
-              <Building>2143505700</Building>
-            </Item>
-            <Item>
-              <Building>2143505703</Building>
-            </Item>
-            <Item>
-              <Building>2143505705</Building>
-            </Item>
-            <Item>
-              <Building>2143505707</Building>
-            </Item>
-            <Item>
-              <Building>2143505709</Building>
-            </Item>
-            <Item>
-              <Building>2143505711</Building>
-            </Item>
-            <Item>
-              <Building>2143505713</Building>
-            </Item>
-            <Item>
-              <Building>2143505721</Building>
-            </Item>
-            <Item>
-              <Building>2143505694</Building>
-            </Item>
-          </InfluencedByNeighbors>
-        </Building>
         <Object>
           <Variations>
             <Item>
@@ -1427,39 +1160,6 @@
           <Name>Chemical_Plant_Compound</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_compound.png</IconFilename>
         </Standard>
-        <Building>
-          <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
-          <InfluencedByNeighbors>
-            <Item>
-              <Building>2143505700</Building>
-            </Item>
-            <Item>
-              <Building>2143505703</Building>
-            </Item>
-            <Item>
-              <Building>2143505705</Building>
-            </Item>
-            <Item>
-              <Building>2143505707</Building>
-            </Item>
-            <Item>
-              <Building>2143505709</Building>
-            </Item>
-            <Item>
-              <Building>2143505711</Building>
-            </Item>
-            <Item>
-              <Building>2143505713</Building>
-            </Item>
-            <Item>
-              <Building>2143505721</Building>
-            </Item>
-            <Item>
-              <Building>2143505694</Building>
-            </Item>
-          </InfluencedByNeighbors>
-        </Building>
         <Object>
           <Variations>
             <Item>
@@ -1600,134 +1300,6 @@
           <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
           <InfoDescription>2143505715</InfoDescription>
         </Standard>
-        <Building>
-          
-          <InfluencedVariationDirection>
-            <Item />
-            <Item>
-              <!-- end, south-west -->
-              <Direction>3</Direction>
-              <Type>End</Type>
-            </Item>
-            <Item>
-              <!-- end, south-east -->
-              <Type>End</Type>
-            </Item>
-            <Item>
-              <!-- corner, south -->
-              <Direction>2</Direction>
-              <Type>Corner</Type>
-            </Item>
-            <Item>
-              <!-- end, north-east -->
-              <Direction>1</Direction>
-              <Type>Crossing</Type>
-            </Item>
-            <Item>
-              <!-- mid, south-west to north-east -->
-              <Direction>3</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- corner, east -->
-              <Direction>1</Direction>
-              <Type>TCrossing</Type>
-            </Item>
-            <Item>
-              <!-- T, front facing south-east -->
-              <Direction>1</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- end, north-west -->
-              <Direction>2</Direction>
-              <Type>Crossing</Type>
-            </Item>
-            <Item>
-              <!-- corner, west -->
-              <Direction>3</Direction>
-              <Type>TCrossing</Type>
-            </Item>
-            <Item>
-              <!-- mid, north-west to south-east -->
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- T, front facing south-west  -->
-              <Direction>0</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- corner, north -->
-              <Type>Corner</Type>
-            </Item>
-            <Item>
-              <!-- T, front facing north-west -->
-              <Direction>3</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- T, front facing north-east -->
-              <Direction>2</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- crossing -->
-            </Item>
-          </InfluencedVariationDirection>
-          <BuildingBlockPool>
-          	<DontCare />
-          	<Single>
-          	  <Pool>
-          	    <Item>
-          	      <Variation>3</Variation>
-          	      <DirectionOffet>0</DirectionOffet>
-          	    </Item>
-          	  </Pool>
-          	</Single>
-          	<Mid>
-          	  <Pool>
-          	    <Item>
-          	      <Variation>1</Variation>
-          	      <DirectionOffet>0</DirectionOffet>
-          	    </Item>
-          	  </Pool>
-          	</Mid>
-          	<End>
-          	  <Pool>
-          	    <Item>
-          	      <DirectionOffet>1</DirectionOffet>
-          	      <Variation>2</Variation>
-          	    </Item>
-          	  </Pool>
-          	</End>
-          	<!-- alt end -->
-          	<Crossing>
-          	  <Pool>
-          	    <Item>
-          	      <DirectionOffet>2</DirectionOffet>
-          	    </Item>
-          	  </Pool>
-          	</Crossing>
-          	<Corner>
-          	  <Pool>
-          	    <Item>
-          	      <DirectionOffet>3</DirectionOffet>
-          	      <Variation>0</Variation>
-          	    </Item>
-          	  </Pool>
-          	</Corner>
-          	<!-- alt corner -->
-          	<TCrossing>
-          	  <Pool>
-          	    <Item>
-          	      <Variation>2</Variation>
-          	      <DirectionOffet>1</DirectionOffet>
-          	    </Item>
-          	  </Pool>
-          	</TCrossing>
-          </BuildingBlockPool>
-        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -1770,27 +1342,6 @@
             </Item>
           </Variations>
         </Object>
-        <Mesh/>
-        <Selection>
-          <GUIType>Generic</GUIType>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList/>
-            </Values>
-          </OnSelection>
-        </Selection>
-        <Constructable/>
-        <Locked/>
-        <FeedbackController/>
-        <Infolayer/>
-        <BuildingModule>
-          <IsCulturalModule>1</IsCulturalModule>
-          <PlazaSize>20</PlazaSize>
-          <ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_neutral.png</ModuleMoodImage>
-        </BuildingModule>
-        <AmbientMoodProvider/>
-        <ModuleIrrigation/>
         <Maintenance>
           <Maintenances>
             <Item>

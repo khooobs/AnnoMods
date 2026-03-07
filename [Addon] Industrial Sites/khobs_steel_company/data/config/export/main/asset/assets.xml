@@ -666,13 +666,6 @@
               </Pool>
             </End>
             <!-- alt end -->
-            <Crossing>
-              <Pool>
-                <Item>
-                  <DirectionOffet>2</DirectionOffet>
-                </Item>
-              </Pool>
-            </Crossing>
             <Corner>
               <Pool>
                 <Item>
