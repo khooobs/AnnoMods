@@ -41,7 +41,7 @@
       </Asset>
     </ModOp>
     
-    <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500016']">
+    <ModOp GUID="25000190" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010360'][last()]">
       <Item>
         <Building>2143505403</Building>
       </Item>
@@ -735,13 +735,7 @@
       <GUID>2143505564</GUID>
     </Item>
     <Item>
-      <GUID>2143505595</GUID>
-    </Item>
-    <Item>
       <GUID>2143505646</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505695</GUID>
     </Item>
     <Item>
       <GUID>2143505714</GUID>
@@ -752,13 +746,10 @@
     <Item>
       <GUID>2143505728</GUID>
     </Item>
-    <Item>
-      <GUID>2143505742</GUID>
-    </Item>
   </ModOp>
 
   <!-- Freight Station integration -->
-  <ModOp GUID="25000192" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500506']">
+  <ModOp GUID="25000190" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010360'][last()]">
     <Item>
       <Building>2143505416</Building>
     </Item>

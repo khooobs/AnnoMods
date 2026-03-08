@@ -16,11 +16,11 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>100000</Amount>
+              <Amount>7500</Amount>
             </Item>
             <Item>
               <Ingredient>1010196</Ingredient>
-              <Amount>30</Amount>
+              <Amount>20</Amount>
             </Item>
             <Item>
               <Ingredient>1010205</Ingredient>
@@ -73,11 +73,11 @@
           <Maintenances>
             <Item>
               <Product>1010017</Product>
-              <Amount>5000</Amount>
-              <InactiveAmount>2500</InactiveAmount>
+              <Amount>2000</Amount>
+              <InactiveAmount>1000</InactiveAmount>
             </Item>
             <Item>
-              <Product>1010117</Product>
+              <Product>1010116</Product>
               <Amount>100</Amount>
             </Item>
           </Maintenances>
@@ -239,7 +239,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>25000</Amount>
+                <Amount>2500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -251,15 +251,14 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>12</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>10</Amount>
+                <Amount>8</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
-                <Amount>10</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -327,7 +326,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>25000</Amount>
+                <Amount>2500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -339,15 +338,14 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>12</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>10</Amount>
+                <Amount>8</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
-                <Amount>10</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -433,7 +431,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>25000</Amount>
+                <Amount>2500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -445,15 +443,14 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>12</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>10</Amount>
+                <Amount>8</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
-                <Amount>10</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -539,7 +536,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>25000</Amount>
+                <Amount>2500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -551,15 +548,14 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>12</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>10</Amount>
+                <Amount>8</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
-                <Amount>10</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -645,7 +641,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>25000</Amount>
+                <Amount>2500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -657,15 +653,14 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>12</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>10</Amount>
+                <Amount>8</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
-                <Amount>10</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -751,7 +746,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>25000</Amount>
+                <Amount>2500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -763,15 +758,14 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>12</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>10</Amount>
+                <Amount>8</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
-                <Amount>10</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -1031,19 +1025,19 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
+                <Amount>500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
-                <Amount>10</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
+                <Amount>8</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>5</Amount>
+                <Amount>2</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
@@ -1080,11 +1074,11 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
               </Item>
               <Item>
-                <Product>1010116</Product>
+                <Product>1010115</Product>
                 <Amount>50</Amount>
               </Item>
             </Maintenances>
@@ -1144,7 +1138,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
+                <Amount>500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -1152,7 +1146,7 @@
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
+                <Amount>5</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
@@ -1209,12 +1203,12 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010116</Product>
-                <Amount>50</Amount>
+                <Amount>25</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -1240,7 +1234,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
+                <Amount>500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -1248,7 +1242,7 @@
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
+                <Amount>5</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
@@ -1305,12 +1299,12 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010116</Product>
-                <Amount>50</Amount>
+                <Amount>25</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -1336,7 +1330,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
+                <Amount>500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -1344,7 +1338,7 @@
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
+                <Amount>5</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
@@ -1401,12 +1395,12 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010116</Product>
-                <Amount>50</Amount>
+                <Amount>25</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -1432,7 +1426,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
+                <Amount>500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -1440,7 +1434,7 @@
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
+                <Amount>5</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
@@ -1497,12 +1491,12 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010116</Product>
-                <Amount>50</Amount>
+                <Amount>25</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -1528,7 +1522,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
+                <Amount>500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -1536,7 +1530,7 @@
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
+                <Amount>5</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
@@ -1593,12 +1587,12 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010116</Product>
-                <Amount>50</Amount>
+                <Amount>25</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -1695,7 +1689,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>25000</Amount>
+                <Amount>2500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -1707,15 +1701,14 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>12</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>10</Amount>
+                <Amount>8</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
-                <Amount>10</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -1779,7 +1772,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>25000</Amount>
+                <Amount>2500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -1791,15 +1784,14 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>12</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>10</Amount>
+                <Amount>8</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
-                <Amount>10</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -1887,7 +1879,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>25000</Amount>
+                <Amount>2500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -1899,15 +1891,14 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>12</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>10</Amount>
+                <Amount>8</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
-                <Amount>10</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -1994,7 +1985,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>25000</Amount>
+                <Amount>2500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -2006,15 +1997,14 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>12</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>10</Amount>
+                <Amount>8</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
-                <Amount>10</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -2101,7 +2091,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>25000</Amount>
+                <Amount>2500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -2113,15 +2103,14 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>12</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>10</Amount>
+                <Amount>8</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
-                <Amount>10</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -2357,7 +2346,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
+                <Amount>500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -2365,7 +2354,7 @@
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
+                <Amount>5</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
@@ -2422,12 +2411,12 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
               </Item>
               <Item>
-                <Product>1010115</Product>
-                <Amount>50</Amount>
+                <Product>1010116</Product>
+                <Amount>25</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -2453,7 +2442,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
+                <Amount>500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -2461,7 +2450,7 @@
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
+                <Amount>5</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
@@ -2523,12 +2512,12 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
               </Item>
               <Item>
-                <Product>1010115</Product>
-                <Amount>50</Amount>
+                <Product>1010116</Product>
+                <Amount>25</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -2554,7 +2543,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
+                <Amount>500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -2562,7 +2551,7 @@
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
+                <Amount>5</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
@@ -2624,12 +2613,12 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
               </Item>
               <Item>
-                <Product>1010115</Product>
-                <Amount>50</Amount>
+                <Product>1010116</Product>
+                <Amount>25</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -2655,7 +2644,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
+                <Amount>500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -2663,7 +2652,7 @@
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
+                <Amount>5</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
@@ -2725,12 +2714,12 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
               </Item>
               <Item>
-                <Product>1010115</Product>
-                <Amount>50</Amount>
+                <Product>1010116</Product>
+                <Amount>25</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -2761,19 +2750,19 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>1500</Amount>
+                <Amount>500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
-                <Amount>10</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>25</Amount>
+                <Amount>8</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>5</Amount>
+                <Amount>2</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
@@ -2810,8 +2799,8 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1500</Amount>
-                <InactiveAmount>750</InactiveAmount>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010115</Product>
