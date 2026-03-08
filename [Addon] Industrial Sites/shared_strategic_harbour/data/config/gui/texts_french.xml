@@ -136,5 +136,9 @@
       <!-- Passive trade disabled - Text -->
       <Text>Le bien stratégique ne peut pas être le commerce.</Text>
     </Text>
+    <Text>
+      <GUID>13658</GUID>
+      <Text>Capacité de fret</Text>
+    </Text>
   </ModOp>
 </ModOps>

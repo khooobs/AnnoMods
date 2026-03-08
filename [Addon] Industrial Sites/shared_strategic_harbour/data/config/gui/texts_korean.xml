@@ -136,5 +136,9 @@
       <!-- Passive trade disabled - Text -->
       <Text>전략재는 무역이 될 수 없습니다.</Text>
     </Text>
+    <Text>
+      <GUID>13658</GUID>
+      <Text>화물 보관</Text>
+    </Text>
   </ModOp>
 </ModOps>
