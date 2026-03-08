@@ -44,55 +44,6 @@
           <TriggerSetup />
         </Values>
     </Asset>
-    <Asset>
-        <Template>Trigger</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505514</GUID>
-            <Name>Unlock Sandbox</Name>
-          </Standard>
-          <Trigger>
-            <TriggerCondition>
-              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-              <Values>
-                <Template>ConditionPlayerCounter</Template>
-                <Values>
-                  <Condition />
-                  <ConditionPlayerCounter>
-                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                    <Context>15000003</Context>
-                    <CounterAmount>1</CounterAmount>
-                  </ConditionPlayerCounter>
-                </Values>
-              </Values>
-            </TriggerCondition>
-            <TriggerActions>
-              <Item>
-                <TriggerAction>
-                  <Template>ActionUnlockAsset</Template>
-                  <Values>
-                    <Action />
-                    <ActionUnlockAsset>
-                      <UnlockAssets>
-                        <Item>
-                          <Asset>2143505515</Asset>
-                        </Item>
-                      </UnlockAssets>
-                    </ActionUnlockAsset>
-                  </Values>
-                </TriggerAction>
-              </Item>
-            </TriggerActions>
-            <ResetTrigger>
-              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-              <Values>
-                <EmptyAutoCreateValue />
-              </Values>
-            </ResetTrigger>
-          </Trigger>
-          <TriggerSetup />
-        </Values>
-    </Asset> 
   </ModOp>
 
   <!-- Multicrusher -->
@@ -163,11 +114,11 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>49000</Amount>
+                <Amount>10000</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
-                <Amount>50</Amount>
+                <Amount>12</Amount>
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
@@ -175,14 +126,15 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>20</Amount>
+                <Amount>6</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>20</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
+                <Amount>8</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -236,8 +188,8 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>600</Amount>
-                <InactiveAmount>300</InactiveAmount>
+                <Amount>2000</Amount>
+                <InactiveAmount>1000</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010115</Product>
@@ -374,11 +326,11 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>49000</Amount>
+                <Amount>10000</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
-                <Amount>50</Amount>
+                <Amount>12</Amount>
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
@@ -386,14 +338,15 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>20</Amount>
+                <Amount>6</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>20</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
+                <Amount>8</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -462,8 +415,8 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>600</Amount>
-                <InactiveAmount>300</InactiveAmount>
+                <Amount>2000</Amount>
+                <InactiveAmount>1000</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010115</Product>
@@ -565,11 +518,11 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>49000</Amount>
+                <Amount>10000</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
-                <Amount>50</Amount>
+                <Amount>12</Amount>
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
@@ -577,14 +530,15 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>20</Amount>
+                <Amount>6</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>20</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
+                <Amount>8</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -653,8 +607,8 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>600</Amount>
-                <InactiveAmount>300</InactiveAmount>
+                <Amount>2000</Amount>
+                <InactiveAmount>1000</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010115</Product>
@@ -756,11 +710,11 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>49000</Amount>
+                <Amount>10000</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
-                <Amount>50</Amount>
+                <Amount>12</Amount>
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
@@ -768,14 +722,15 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>20</Amount>
+                <Amount>6</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>20</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
+                <Amount>8</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -844,8 +799,8 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>600</Amount>
-                <InactiveAmount>300</InactiveAmount>
+                <Amount>2000</Amount>
+                <InactiveAmount>1000</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010115</Product>
@@ -947,11 +902,11 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>49000</Amount>
+                <Amount>10000</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
-                <Amount>50</Amount>
+                <Amount>12</Amount>
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
@@ -959,14 +914,15 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>20</Amount>
+                <Amount>6</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>20</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
+                <Amount>8</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -1035,8 +991,8 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>600</Amount>
-                <InactiveAmount>300</InactiveAmount>
+                <Amount>2000</Amount>
+                <InactiveAmount>1000</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010115</Product>
@@ -1138,11 +1094,11 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>49000</Amount>
+                <Amount>10000</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
-                <Amount>50</Amount>
+                <Amount>12</Amount>
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
@@ -1150,14 +1106,15 @@
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>20</Amount>
+                <Amount>6</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>20</Amount>
+                <Amount>4</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
+                <Amount>8</Amount>
               </Item>
             </Costs>
           </Cost>
@@ -1226,8 +1183,8 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>600</Amount>
-                <InactiveAmount>300</InactiveAmount>
+                <Amount>2000</Amount>
+                <InactiveAmount>1000</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010115</Product>
