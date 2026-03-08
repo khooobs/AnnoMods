@@ -136,5 +136,9 @@
       <!-- Passive trade disabled - Text -->
       <Text>战略商品不能是贸易。</Text>
     </Text>
+    <Text>
+      <GUID>13658</GUID>
+      <Text>货物储存</Text>
+    </Text>
   </ModOp>
 </ModOps>

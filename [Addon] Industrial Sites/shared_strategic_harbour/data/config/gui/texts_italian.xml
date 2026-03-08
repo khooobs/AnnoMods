@@ -136,5 +136,9 @@
       <!-- Passive trade disabled - Text -->
       <Text>Il bene strategico non può essere il commercio.</Text>
     </Text>
+    <Text>
+      <GUID>13658</GUID>
+      <Text>Stoccaggio merci</Text>
+    </Text>
   </ModOp>
 </ModOps>

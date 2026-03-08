@@ -136,5 +136,9 @@
       <!-- Passive trade disabled - Text -->
       <Text>戦略的財は取引できません。</Text>
     </Text>
+    <Text>
+      <GUID>13658</GUID>
+      <Text>貨物保管</Text>
+    </Text>
   </ModOp>
 </ModOps>
