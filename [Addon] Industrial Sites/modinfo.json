@@ -68,7 +68,24 @@
     "Spanish": "file::README.md",
     "Taiwanese": "file::README.md"
   },
-  "DLCDependencies": [],
+  "DLCDependencies": [
+    {
+      "DLC": "BrightHarvest",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "Tourism",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "Highlife",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "SeedsOfChange",
+      "Dependant": "required"
+    }
+  ],
   "CreatorName": "Khobs",
   "CreatorContact": "https://github.com/Khorbos/AnnoMods"
 }
