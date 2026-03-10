@@ -99,10 +99,6 @@
               <Amount>5000</Amount>
             </Item>
             <Item>
-              <Ingredient>1010226</Ingredient>
-              <Amount>175</Amount>
-            </Item>
-            <Item>
               <Ingredient>1010196</Ingredient>
               <Amount>20</Amount>
             </Item>
@@ -113,6 +109,14 @@
             <Item>
               <Ingredient>1010218</Ingredient>
               <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010227</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010226</Ingredient>
+              <Amount>150</Amount>
             </Item>
             <Item>
               <Ingredient>1010207</Ingredient>

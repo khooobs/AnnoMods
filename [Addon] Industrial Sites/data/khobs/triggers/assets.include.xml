@@ -105,115 +105,6 @@
         <TriggerSetup />
       </Values>
     </Asset>
-    <!-- <Asset>
-        <Template>Trigger</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505401</GUID>
-            <Name>Unlock Sandbox</Name>
-          </Standard>
-          <Trigger>
-            <TriggerCondition>
-              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-              <Values>
-                <Template>ConditionPlayerCounter</Template>
-                <Values>
-                  <Condition />
-                  <ConditionPlayerCounter>
-                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                    <Context>15000003</Context>
-                    <CounterAmount>1</CounterAmount>
-                  </ConditionPlayerCounter>
-                </Values>
-              </Values>
-            </TriggerCondition>
-            <TriggerActions>
-              <Item>
-                <TriggerAction>
-                  <Template>ActionUnlockAsset</Template>
-                  <Values>
-                    <Action />
-                    <ActionUnlockAsset>
-                      <UnlockAssets>
-                        <Item>
-                          <Asset>2143505404</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505405</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505406</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505407</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505408</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505412</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505414</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>1999005351</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505417</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505418</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505419</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505420</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505421</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505422</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505504</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505693</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505594</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505666</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>1500010153</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>1500010154</Asset>
-                        </Item>
-                        <Item>
-                          <Asset>2143505800</Asset>
-                        </Item>
-                      </UnlockAssets>
-                    </ActionUnlockAsset>
-                  </Values>
-                </TriggerAction>
-              </Item>
-            </TriggerActions>
-            <ResetTrigger>
-              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-              <Values>
-                <EmptyAutoCreateValue />
-              </Values>
-            </ResetTrigger>
-          </Trigger>
-          <TriggerSetup />
-        </Values>
-    </Asset>  -->
   </ModOp>
   <!-- END - CREATIVE -->
 
@@ -964,4 +855,195 @@
     </Asset>
   </ModOp>
   <!-- END - MID GAME - ENGINEERS UNLOCKS -->
+   
+  <!-- END - MID LATE GAME - ENGINEERS UNLOCKS -->
+  <ModOp GUID="130248" Type="addNextSibling">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505914</GUID>
+          <Name>Engineers - Unlock Caoutchouc Import Freight </Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <Context>1010333</Context>
+                <CounterAmount>1</CounterAmount>
+                <ComparisonOp>AtLeast</ComparisonOp>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505422</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505915</GUID>
+          <Name>Engineers - Unhide Steel/Chemical Companies</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2143505408</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505500</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505507</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505564</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505692</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505700</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505916</GUID>
+          <Name>Engineers - Unlock Steel/Chemical Companies</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>3000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505408</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505500</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505507</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505564</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505504</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505692</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505700</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505693</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505801</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505803</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505812</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505800</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - MID LATE GAME - ENGINEERS UNLOCKS -->
 </ModOps>
