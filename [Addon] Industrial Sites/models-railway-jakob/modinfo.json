@@ -1,0 +1,45 @@
+{
+  "Version": "1.0",
+  "ModID": "models-railway-jakob",
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Models Railway (Jakob)",
+    "Chinese": "Models Railway (Jakob)",
+    "French": "Models Railway (Jakob)",
+    "German": "Models Railway (Jakob)",
+    "Italian": "Models Railway (Jakob)",
+    "Japanese": "Models Railway (Jakob)",
+    "Korean": "Models Railway (Jakob)",
+    "Polish": "Models Railway (Jakob)",
+    "Russian": "Models Railway (Jakob)",
+    "Spanish": "Models Railway (Jakob)",
+    "Taiwanese": "Models Railway (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno1800-shared-mods",
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}

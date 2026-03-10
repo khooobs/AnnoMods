@@ -1,0 +1,258 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505593</GUID>
+      <Text>회사: 섬유</Text>
+    </Text>
+    <Text>
+      <GUID>2143505599</GUID>
+      <Text>섬유 산업 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505600</GUID>
+      <Text>방적 공장</Text>
+    </Text>
+    <Text>
+      <GUID>2143505601</GUID>
+      <Text>방적 공장: 양모</Text>
+    </Text>
+    <Text>
+      <GUID>2143505602</GUID>
+      <Text>방적 공장: 이국적인 양모</Text>
+    </Text>
+    <Text>
+      <GUID>2143505603</GUID>
+      <Text>방적 공장: 펠트</Text>
+    </Text>
+    <Text>
+      <GUID>2143505604</GUID>
+      <Text>방적 공장: 면화</Text>
+    </Text>
+    <Text>
+      <GUID>2143505605</GUID>
+      <Text>방적 공장: 리넨</Text>
+    </Text>
+    <Text>
+      <GUID>2143505606</GUID>
+      <!-- No need to translate -->
+      <Text>방적 레시피</Text>
+    </Text>
+    <Text>
+      <GUID>2143505607</GUID>
+      <!-- Spinning Recipe List Description -->
+      <Text>이 시대 혁명의 상징 중 하나인 이 벽돌 벽에는 아직 거의 아무도 이해하지 못하는 섬유 기계와 효율성이 담겨 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505608</GUID>
+      <Text>울 원단 1t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505609</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505610</GUID>
+      <Text>이국적인 울 원단 2t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505612</GUID>
+      <Text>펠트 패브릭 3t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505614</GUID>
+      <Text>코튼 패브릭 4t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505616</GUID>
+      <Text>리넨 패브릭 6t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505617</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505618</GUID>
+      <Text>모든 방적 공장</Text>
+    </Text>
+    <Text>
+      <GUID>2143505619</GUID>
+      <Text>방적 밀 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505620</GUID>
+      <Text>섬유 전용 추가 작업장도 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>창고에 물건 없음</Text>
+    </Text>
+    <Text>
+      <GUID>2143505622</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505623</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505624</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505625</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505626</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505627</GUID>
+      <Text>가게 물건들.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>차량기지 내 화물</Text>
+    </Text>
+    <Text>
+      <GUID>2143505629</GUID>
+      <Text>직물</Text>
+    </Text>
+    <Text>
+      <GUID>2143505630</GUID>
+      <Text>위버</Text>
+    </Text>
+    <Text>
+      <GUID>2143505631</GUID>
+      <Text>위버: 작업복</Text>
+    </Text>
+    <Text>
+      <GUID>2143505632</GUID>
+      <Text>위버: 봄빈스</Text>
+    </Text>
+    <Text>
+      <GUID>2143505633</GUID>
+      <Text>위버: 정장</Text>
+    </Text>
+    <Text>
+      <GUID>2143505634</GUID>
+      <Text>직조공: 태피스트리</Text>
+    </Text>
+    <Text>
+      <GUID>2143505635</GUID>
+      <Text>위버</Text>
+    </Text>
+    <Text>
+      <GUID>2143505636</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505638</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505640</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505642</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505643</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505644</GUID>
+      <Text>모든 직조자</Text>
+    </Text>
+    <Text>
+      <GUID>2143505645</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505646</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505647</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505648</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505649</GUID>
+      <Text>위버 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505650</GUID>
+      <Text>모든 창고는 위버스에서</Text>
+    </Text>
+    <Text>
+      <GUID>2143505651</GUID>
+      <Text>산업 확장: 직물</Text>
+    </Text>
+    <Text>
+      <GUID>2143505652</GUID>
+      <Text>직물의 사용과 표준화는 산업이 생산과 물류를 개선할 수 있게 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505653</GUID>
+      <Text>산업 확장: 직물</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>공장 사이클 (작업 중)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>진행 중인 작업</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>공장 사이클 (작업 중)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505657</GUID>
+      <Text>팀 변경</Text>
+    </Text>
+    <Text>
+      <GUID>2143505658</GUID>
+      <Text>이번 채용 캠페인을 통해 필요한 모든 인력을 확보할 수 있을 것입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505659</GUID>
+      <Text>팀 변경</Text>
+    </Text>
+  </ModOp>
+</ModOps>

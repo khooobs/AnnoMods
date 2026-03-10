@@ -1,0 +1,258 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505593</GUID>
+      <Text>Firma: Textil</Text>
+    </Text>
+    <Text>
+      <GUID>2143505599</GUID>
+      <Text>Modul Textilindustrie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505600</GUID>
+      <Text>Spinnmühle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505601</GUID>
+      <Text>Spinnerei: Wolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505602</GUID>
+      <Text>Spinnerei: Exotische Wolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505603</GUID>
+      <Text>Spinnerei: Filz</Text>
+    </Text>
+    <Text>
+      <GUID>2143505604</GUID>
+      <Text>Spinnerei: Baumwolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505605</GUID>
+      <Text>Spinnerei: Leinen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505606</GUID>
+      <!-- No need to translate -->
+      <Text>Drehrezepte</Text>
+    </Text>
+    <Text>
+      <GUID>2143505607</GUID>
+      <!-- Spinning Recipe List Description -->
+      <Text>Als eines der Symbole der Revolution dieser Ära enthalten diese Backsteinwände Textilmaschinen und Effizienz, die nur wenige Menschen bisher zu verstehen scheinen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505608</GUID>
+      <Text>Wollstoff 1.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505609</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505610</GUID>
+      <Text>Exotischer Wollstoff 2t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505612</GUID>
+      <Text>Filzstoff 3t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505614</GUID>
+      <Text>Baumwollstoff 4t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505616</GUID>
+      <Text>Leinenstoff 6t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505617</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505618</GUID>
+      <Text>Alle Spinnereien</Text>
+    </Text>
+    <Text>
+      <GUID>2143505619</GUID>
+      <Text>Spinnmühlenmodul</Text>
+    </Text>
+    <Text>
+      <GUID>2143505620</GUID>
+      <Text>Ein zusätzlicher Workshop für Textilien.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>Keine Güter im Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505622</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505623</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505624</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505625</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505626</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505627</GUID>
+      <Text>Lagern Sie Waren ein.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>Güter im Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505629</GUID>
+      <Text>Stoff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505630</GUID>
+      <Text>Weber</Text>
+    </Text>
+    <Text>
+      <GUID>2143505631</GUID>
+      <Text>Weberin: Arbeitskleidung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505632</GUID>
+      <Text>Weaver: Bombins</Text>
+    </Text>
+    <Text>
+      <GUID>2143505633</GUID>
+      <Text>Weber: Anzüge</Text>
+    </Text>
+    <Text>
+      <GUID>2143505634</GUID>
+      <Text>Weber: Wandteppiche</Text>
+    </Text>
+    <Text>
+      <GUID>2143505635</GUID>
+      <Text>Weber</Text>
+    </Text>
+    <Text>
+      <GUID>2143505636</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505638</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505640</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505642</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505643</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505644</GUID>
+      <Text>Alle Weber</Text>
+    </Text>
+    <Text>
+      <GUID>2143505645</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505646</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505647</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505648</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505649</GUID>
+      <Text>Weaver-Modul</Text>
+    </Text>
+    <Text>
+      <GUID>2143505650</GUID>
+      <Text>Alle Depots von Weavers</Text>
+    </Text>
+    <Text>
+      <GUID>2143505651</GUID>
+      <Text>Branchenerweiterung: Stoff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505652</GUID>
+      <Text>Die Verwendung und Standardisierung von Stoffen ermöglicht es der Industrie, ihre Produktion und Logistik zu verbessern.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505653</GUID>
+      <Text>Branchenerweiterung: Stoff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>Werkszyklus (WIP)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>Laufende Arbeit</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>Werkszyklus (WIP)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505657</GUID>
+      <Text>Teamwechsel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505658</GUID>
+      <Text>Mit dieser Rekrutierungskampagne sollten Sie alle benötigten Arbeitskräfte haben.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505659</GUID>
+      <Text>Teamwechsel</Text>
+    </Text>
+  </ModOp>
+</ModOps>

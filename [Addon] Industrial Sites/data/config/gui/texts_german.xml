@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505402</GUID>
+      <Text>Industriegelände</Text>
+    </Text>
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>Große Industrien</Text>
+    </Text>
+    <Text>
+      <GUID>2143505404</GUID>
+      <Text>Betonstraße</Text>
+    </Text>
+    <Text>
+      <GUID>2143505405</GUID>
+      <Text>Großes Backsteinmauertor</Text>
+    </Text>
+    <Text>
+      <GUID>2143505406</GUID>
+      <Text>Industrielles Barrierentor</Text>
+    </Text>
+    <Text>
+      <GUID>2143505407</GUID>
+      <Text>Industrie-Barrierentor groß</Text>
+    </Text>
+    <Text>
+      <GUID>2143505409</GUID>
+      <Text>Der Kern Ihrer Branchen. Du kannst bestimmte Industriepolitiken wählen, um Produktionsketten freizuschalten oder Fabrikzyklen zu aktivieren.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505567</GUID>
+      <Text>Industriekernsektor</Text>
+    </Text>
+    <Text>
+      <GUID>2143505569</GUID>
+      <Text>Industrie-Subsektor</Text>
+    </Text>
+    <Text>
+      <GUID>2143505570</GUID>
+      <Text>Die Funktionsweise eines Sektors, vertreten durch ein Unternehmen. Es ist möglich, Betriebsrichtlinien zu bestimmen.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,136 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505565</GUID>
+      <Text>Tankowiec LNG</Text>
+    </Text>
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>Zaprojektowany i zbudowany do przenoszenia produktów chemicznych. Kadłub jest wzmocniony metalem, aby zapobiec niebezpiecznym przeciekom. Można go używać tylko na szlakach handlowych, bez ręcznego załadunku czy rozładunku.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505692</GUID>
+      <Text>Społeczeństwo: Chemia</Text>
+    </Text>
+    <Text>
+      <GUID>2143505694</GUID>
+      <Text>Laboratorium: Związki chemiczne</Text>
+    </Text>
+    <Text>
+      <GUID>2143505695</GUID>
+      <Text>Skrzydło laboratoryjne</Text>
+    </Text>
+    <Text>
+      <GUID>2143505697</GUID>
+      <Text>Wytwarzaj związek chemiczny z syntezy chemicznej. Kosztowna budowa.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505698</GUID>
+      <Text>Produkuje dobra.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505699</GUID>
+      <Text>Związek chemiczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505700</GUID>
+      <Text>Zakład Chemiczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505714</GUID>
+      <Text>Moduł Zakładu Chemicznego</Text>
+    </Text>
+    <Text>
+      <GUID>2143505715</GUID>
+      <Text>Zapewnia obszar eksperymentów chemicznych.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505716</GUID>
+      <Text>Wszystkie obiekty zakładów chemicznych</Text>
+    </Text>
+    <Text>
+      <GUID>2143505717</GUID>
+      <Text>Moduł Przemysłu Chemicznego</Text>
+    </Text>
+    <Text>
+      <GUID>2143505720</GUID>
+      <Text>Napój gazowany</Text>
+    </Text>
+    <Text>
+      <GUID>2143505721</GUID>
+      <Text>Zakład chemiczny: Soda</Text>
+    </Text>
+    <Text>
+      <GUID>2143505737</GUID>
+      <Text>Brak towarów w magazynie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505738</GUID>
+      <Text>Towary w zajezdni</Text>
+    </Text>
+    <Text>
+      <GUID>2143505726</GUID>
+      <Text>Magazyn logistyczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505727</GUID>
+      <Text>Magazyn logistyczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505728</GUID>
+      <Text>Magazyn logistyczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505729</GUID>
+      <Text>Magazyn logistyczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505730</GUID>
+      <Text>Magazyn logistyczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505731</GUID>
+      <Text>Magazyn logistyczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505732</GUID>
+      <Text>Magazyn logistyczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505733</GUID>
+      <Text>Eksperymenty petrochemiczne</Text>
+    </Text>
+    <Text>
+      <GUID>2143505734</GUID>
+      <Text>Magazyn logistyczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505739</GUID>
+      <Text>Innowacje chemiczne – chemia</Text>
+    </Text>
+    <Text>
+      <GUID>2143505740</GUID>
+      <Text>Prace i badania w chemii syntetycznej umożliwiają rozwój procesów mających na celu zastąpienie cząsteczek.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505741</GUID>
+      <Text>Innowacje chemiczne – chemia</Text>
+    </Text>
+    <Text>
+      <GUID>2143505742</GUID>
+      <Text>Przemysł - Rozwój</Text>
+    </Text>
+    <Text>
+      <GUID>2143505743</GUID>
+      <Text>Zdecydowano się rozbudować zakład chemiczny, aby jeszcze bardziej wspierać eksperymenty, a tym samym zwiększyć wydajność. Jednak zaczynają się pojawiać problemy z jakością powietrza i wody w okolicy.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505744</GUID>
+      <Text>Przemysł - Rozwój</Text>
+    </Text>
+    <Text>
+      <GUID>2143505745</GUID>
+      <Text>Wszystkie magazyny chemiczne</Text>
+    </Text>
+  </ModOp>
+</ModOps>

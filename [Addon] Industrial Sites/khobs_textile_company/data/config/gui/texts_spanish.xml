@@ -1,0 +1,258 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505593</GUID>
+      <Text>Empresa: Textile</Text>
+    </Text>
+    <Text>
+      <GUID>2143505599</GUID>
+      <Text>Módulo de Industria Textil</Text>
+    </Text>
+    <Text>
+      <GUID>2143505600</GUID>
+      <Text>Hilador</Text>
+    </Text>
+    <Text>
+      <GUID>2143505601</GUID>
+      <Text>Hilado: lana</Text>
+    </Text>
+    <Text>
+      <GUID>2143505602</GUID>
+      <Text>Hilado: lana exótica</Text>
+    </Text>
+    <Text>
+      <GUID>2143505603</GUID>
+      <Text>Hilado: Fieltro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505604</GUID>
+      <Text>Hilado: algodón</Text>
+    </Text>
+    <Text>
+      <GUID>2143505605</GUID>
+      <Text>Hilado: Lino</Text>
+    </Text>
+    <Text>
+      <GUID>2143505606</GUID>
+      <!-- No need to translate -->
+      <Text>Recetas de hilado</Text>
+    </Text>
+    <Text>
+      <GUID>2143505607</GUID>
+      <!-- Spinning Recipe List Description -->
+      <Text>Uno de los símbolos de la revolución de esta época, estos muros de ladrillo contienen máquinas textiles y eficiencia que pocos parecen entender aún.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505608</GUID>
+      <Text>Tela de lana 1t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505609</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505610</GUID>
+      <Text>Tela exótica de lana 2t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505612</GUID>
+      <Text>Tela de fieltro 3t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505614</GUID>
+      <Text>Tejido de algodón 4t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505616</GUID>
+      <Text>Tela de lino 6t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505617</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505618</GUID>
+      <Text>Todos los molinos de hilado</Text>
+    </Text>
+    <Text>
+      <GUID>2143505619</GUID>
+      <Text>Módulo de Hilado</Text>
+    </Text>
+    <Text>
+      <GUID>2143505620</GUID>
+      <Text>Un taller adicional dedicado a textiles.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>No hay mercancías en el depósito</Text>
+    </Text>
+    <Text>
+      <GUID>2143505622</GUID>
+      <Text>Depósito logístico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505623</GUID>
+      <Text>Depósito logístico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505624</GUID>
+      <Text>Depósito logístico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505625</GUID>
+      <Text>Depósito logístico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505626</GUID>
+      <Text>Depósito logístico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505627</GUID>
+      <Text>Guarda productos.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>Mercancías en el depósito</Text>
+    </Text>
+    <Text>
+      <GUID>2143505629</GUID>
+      <Text>Tejido</Text>
+    </Text>
+    <Text>
+      <GUID>2143505630</GUID>
+      <Text>Weaver</Text>
+    </Text>
+    <Text>
+      <GUID>2143505631</GUID>
+      <Text>Tejedor: Ropa de trabajo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505632</GUID>
+      <Text>Weaver: Bombins</Text>
+    </Text>
+    <Text>
+      <GUID>2143505633</GUID>
+      <Text>Weaver: Trajes</Text>
+    </Text>
+    <Text>
+      <GUID>2143505634</GUID>
+      <Text>Tejedor: Tapices</Text>
+    </Text>
+    <Text>
+      <GUID>2143505635</GUID>
+      <Text>Weaver</Text>
+    </Text>
+    <Text>
+      <GUID>2143505636</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505638</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505640</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505642</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505643</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505644</GUID>
+      <Text>Todos los Tejedores</Text>
+    </Text>
+    <Text>
+      <GUID>2143505645</GUID>
+      <Text>Depósito logístico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505646</GUID>
+      <Text>Depósito logístico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505647</GUID>
+      <Text>Depósito logístico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505648</GUID>
+      <Text>Depósito logístico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505649</GUID>
+      <Text>Módulo Weaver</Text>
+    </Text>
+    <Text>
+      <GUID>2143505650</GUID>
+      <Text>Todos los depósitos de Weavers</Text>
+    </Text>
+    <Text>
+      <GUID>2143505651</GUID>
+      <Text>Expansión de la industria: Fabric</Text>
+    </Text>
+    <Text>
+      <GUID>2143505652</GUID>
+      <Text>El uso y estandarización de los tejidos permite a la industria mejorar su producción y logística.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505653</GUID>
+      <Text>Expansión de la industria: Fabric</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>Ciclo de fábrica (WIP)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>Obras en progreso</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>Ciclo de fábrica (WIP)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505657</GUID>
+      <Text>Cambio de equipo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505658</GUID>
+      <Text>Con esta campaña de reclutamiento, deberías tener toda la plantilla que necesitas.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505659</GUID>
+      <Text>Cambio de equipo</Text>
+    </Text>
+  </ModOp>
+</ModOps>

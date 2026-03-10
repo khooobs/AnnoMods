@@ -1,0 +1,91 @@
+{
+  "Version": "1.0.0",
+  "ModID": "khobs_industrial_sites",
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "Taludas_neutral_airport",
+    "neutral_hacienda_genshi",
+    "shared_ui_change_kurila",
+    "shared_strategic_harbour",
+    "shared-ground-textures-industry-jakob",
+    "khobs_sifter",
+    "khobs_crusher",
+    "shared_freight_station_khobs",
+    "shared_freight_import_caoutchouc",
+    "jakob-railway-stations",
+    "models-railway-jakob",
+    "ow-tools-jakob",
+    "tools-jakob",
+    "khobs_workshop",
+    "khobs_textile_company",
+    "khobs_chemical_society",
+    "khobs_steel_company"
+  ],
+  "LoadAfterIds": [
+    "shared_strategic_harbour",
+    "shared_freight_station_khobs",
+    "shared_freight_import_caoutchouc",
+    "IndustrializedLowTierProduction",
+    "production_works_kurila",
+    "Taludas_VanillaRiverSlotBuildingsOW"
+  ],
+  "Category": {
+    "Chinese": "Addon",
+    "English": "Addon",
+    "French": "Addon",
+    "German": "Addon",
+    "Italian": "Addon",
+    "Japanese": "Addon",
+    "Korean": "Addon",
+    "Polish": "Addon",
+    "Russian": "Addon",
+    "Spanish": "Addon",
+    "Taiwanese": "Addon"
+  },
+  "ModName": {
+    "Chinese": "Industrial Sites",
+    "English": "Industrial Sites",
+    "French": "Industrial Sites",
+    "German": "Industrial Sites",
+    "Italian": "Industrial Sites",
+    "Japanese": "Industrial Sites",
+    "Korean": "Industrial Sites",
+    "Polish": "Industrial Sites",
+    "Russian": "Industrial Sites",
+    "Spanish": "Industrial Sites",
+    "Taiwanese": "Industrial Sites"
+  },
+  "Description": {
+    "Chinese": "file::README.md",
+    "English": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  },
+  "DLCDependencies": [
+    {
+      "DLC": "BrightHarvest",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "Tourism",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "Highlife",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "SeedsOfChange",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Khobs",
+  "CreatorContact": "https://github.com/Khorbos/AnnoMods"
+}

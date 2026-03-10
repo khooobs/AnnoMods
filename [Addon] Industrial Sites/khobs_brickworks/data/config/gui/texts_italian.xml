@@ -1,0 +1,88 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505801</GUID>
+      <Text>Azienda: Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505802</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505803</GUID>
+      <Text>Fornace di mattoni</Text>
+    </Text>
+    <Text>
+      <GUID>2143505804</GUID>
+      <Text>Produce beni.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505805</GUID>
+      <Text>Forni per mattoni</Text>
+    </Text>
+    <Text>
+      <GUID>2143505806</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505807</GUID>
+      <Text>Deposito Logistico: Brickworks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505808</GUID>
+      <Text>Conserva i beni.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505809</GUID>
+      <Text>Nessuna merce nel deposito</Text>
+    </Text>
+    <Text>
+      <GUID>2143505810</GUID>
+      <Text>Merci nel deposito</Text>
+    </Text>
+    <Text>
+      <GUID>2143505811</GUID>
+      <Text>Modulo Industria dei Mattoni</Text>
+    </Text>
+    <Text>
+      <GUID>2143505812</GUID>
+      <Text>Grande Cava di Argilla</Text>
+    </Text>
+    <Text>
+      <GUID>2143505813</GUID>
+      <Text>Produce beni.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505814</GUID>
+      <Text>Espansione dell'industria: Muds Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505815</GUID>
+      <Text>Alcuni derivati del mattone sono ora prodotti da questa industria, soddisfacendo una gamma più ampia di esigenze costruttive.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505816</GUID>
+      <Text>Espansione dell'industria: Muds Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505817</GUID>
+      <Text>Alcuni derivati del mattone sono ora prodotti da questa industria, soddisfacendo una gamma più ampia di esigenze costruttive.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505818</GUID>
+      <Text>Scavo: Sabbia di quarzo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505819</GUID>
+      <Text>Lo scavo a cielo aperto dell'argilla consente anche l'estrazione di sabbia di quarzo, utile per altre industrie.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505820</GUID>
+      <Text>Scavo: Sabbia di quarzo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505821</GUID>
+      <Text>Lo scavo a cielo aperto dell'argilla consente anche l'estrazione di sabbia di quarzo, utile per altre industrie.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

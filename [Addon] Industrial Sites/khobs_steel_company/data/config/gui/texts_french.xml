@@ -1,0 +1,128 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505408</GUID>
+      <Text>Société : Aciérie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>Vos modules industriels</Text>
+    </Text>
+    <Text>
+      <GUID>2143505411</GUID>
+      <Text>Modules industriels</Text>
+    </Text>
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Dépôt de minerai</Text>
+    </Text>
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Centralisez le stockage des minerais pour votre industrie.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505502</GUID>
+      <Text>Fourni en minerais</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>Aucune réserve de minerais</Text>
+    </Text>
+    <Text>
+      <GUID>2143505504</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505505</GUID>
+      <Text>Nécessite un dépôt de minerai</Text>
+    </Text>
+    <Text>
+      <GUID>2143505506</GUID>
+      <Text>Module industriel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>Haut fourneau</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>Produit des marchandises.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Module de haut fourneau</Text>
+    </Text>
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>Atelier additionnel dédié à la production d’acier.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>Minerais</Text>
+    </Text>
+    <Text>
+      <GUID>2143505512</GUID>
+      <Text>Haut fourneau - Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505552</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>Acier</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Nécessite un dépôt de minerai</Text>
+    </Text>
+    <Text>
+      <GUID>2143505555</GUID>
+      <Text>Améliorable par des modules</Text>
+    </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Module d'Usine</Text>
+    </Text>
+    <Text>
+      <GUID>2143505558</GUID>
+      <Text>Objets équipables</Text>
+    </Text>
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>Logistique ferroviaire</Text>
+    </Text>
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>Quai de déchargement : Acier</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Dépôt de minerai</Text>
+    </Text>
+    <Text>
+      <GUID>2143505580</GUID>
+      <Text>Stocke les minerais.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>Module Sidérurgique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>Expansion Industrielle : Poutre</Text>
+    </Text>
+    <Text>
+      <GUID>2143505585</GUID>
+      <Text>Permet aux fonderies de produire des poutres en acier supplémentaires, au prix d’une efficacité globale réduite.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

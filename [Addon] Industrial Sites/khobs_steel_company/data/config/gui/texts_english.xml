@@ -1,0 +1,128 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505408</GUID>
+      <Text>Company: Steelworks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>Your Industrial Modules</Text>
+    </Text>
+    <Text>
+      <GUID>2143505411</GUID>
+      <Text>Industrial Modules</Text>
+    </Text>
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Ore Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Centralize the storage of ores for your industry.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505502</GUID>
+      <Text>Supplied with ores</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>No ores supply</Text>
+    </Text>
+    <Text>
+      <GUID>2143505504</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505505</GUID>
+      <Text>Requires Ore Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505506</GUID>
+      <Text>Industry Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>Blast Furnace</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>Produces bulk goods.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Blast Furnace Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>Additionnal Workshop dedicated to steel production.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>Ores</Text>
+    </Text>
+    <Text>
+      <GUID>2143505512</GUID>
+      <Text>Blast Furnace - Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505552</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>Bulk Steel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Require Ore Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505555</GUID>
+      <Text>Boostable by Modules</Text>
+    </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Boost Factory</Text>
+    </Text>
+    <Text>
+      <GUID>2143505558</GUID>
+      <Text>Slotable Items</Text>
+    </Text>
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>Logistics by Rails</Text>
+    </Text>
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>Freight Unload Dock: Steel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Ore Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505580</GUID>
+      <Text>Store ores.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>Steelworks Industry Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>Industry Expansion: Beam</Text>
+    </Text>
+    <Text>
+      <GUID>2143505585</GUID>
+      <Text>Enables foundries to produce additional steel beams, at the cost of reduced overall efficiency.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

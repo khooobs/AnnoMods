@@ -1,0 +1,88 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505801</GUID>
+      <Text>Firma: Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505802</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505803</GUID>
+      <Text>Ziegelwerke</Text>
+    </Text>
+    <Text>
+      <GUID>2143505804</GUID>
+      <Text>Produziert Güter.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505805</GUID>
+      <Text>Ziegelöfen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505806</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505807</GUID>
+      <Text>Logistikdepot: Ziegelei</Text>
+    </Text>
+    <Text>
+      <GUID>2143505808</GUID>
+      <Text>Lagern Sie Waren ein.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505809</GUID>
+      <Text>Keine Güter im Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505810</GUID>
+      <Text>Güter im Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505811</GUID>
+      <Text>Module zur Ziegelindustrie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505812</GUID>
+      <Text>Große Lehmgrube</Text>
+    </Text>
+    <Text>
+      <GUID>2143505813</GUID>
+      <Text>Produziert Güter.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505814</GUID>
+      <Text>Industrieausweitung: Muds Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505815</GUID>
+      <Text>Bestimmte Ziegelderivate werden heute von dieser Branche hergestellt und decken damit ein breiteres Spektrum an Baubedürfnissen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505816</GUID>
+      <Text>Industrieausweitung: Muds Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505817</GUID>
+      <Text>Bestimmte Ziegelderivate werden heute von dieser Branche hergestellt und decken damit ein breiteres Spektrum an Baubedürfnissen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505818</GUID>
+      <Text>Ausgrabung: Quarz-Sand</Text>
+    </Text>
+    <Text>
+      <GUID>2143505819</GUID>
+      <Text>Der Tagebau von Ton ermöglicht auch die Gewinnung von Quarzsand, der für andere Industrien nützlich ist.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505820</GUID>
+      <Text>Ausgrabung: Quarz-Sand</Text>
+    </Text>
+    <Text>
+      <GUID>2143505821</GUID>
+      <Text>Der Tagebau von Ton ermöglicht auch die Gewinnung von Quarzsand, der für andere Industrien nützlich ist.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

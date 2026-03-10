@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505412</GUID>
+      <Text>Stazione merci</Text>
+    </Text>
+    <Text>
+      <GUID>2143505413</GUID>
+      <Text>Una stazione merci centralizzata per l'esportazione, l'importazione o lo scarico delle merci. Espandibile con moduli.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505414</GUID>
+      <Text>Amministrazione della stazione merci</Text>
+    </Text>
+    <Text>
+      <GUID>2143505415</GUID>
+      <Text>Aumenta la capacità di accordi commerciali per l'import/export dei tuoi prodotti.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505416</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505417</GUID>
+      <Text>Bacino di esportazione merci: petrolio</Text>
+    </Text>
+    <Text>
+      <GUID>2143505418</GUID>
+      <Text>Bacino di esportazione merci: cibo in scatola</Text>
+    </Text>
+    <Text>
+      <GUID>2143505419</GUID>
+      <Text>Banchina di esportazione merci: birra</Text>
+    </Text>
+    <Text>
+      <GUID>2143505420</GUID>
+      <Text>Banchina di esportazione merci: carbone</Text>
+    </Text>
+    <Text>
+      <GUID>2143505421</GUID>
+      <Text>Bacino di esportazione merci: Spectacles</Text>
+    </Text>
+  </ModOp>
+</ModOps>

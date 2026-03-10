@@ -1,0 +1,258 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505593</GUID>
+      <Text>Компания: Textile</Text>
+    </Text>
+    <Text>
+      <GUID>2143505599</GUID>
+      <Text>Модуль текстильной промышленности</Text>
+    </Text>
+    <Text>
+      <GUID>2143505600</GUID>
+      <Text>Прядильная фабрика</Text>
+    </Text>
+    <Text>
+      <GUID>2143505601</GUID>
+      <Text>Прядильная фабрика: шерсть</Text>
+    </Text>
+    <Text>
+      <GUID>2143505602</GUID>
+      <Text>Прядилка: экзотическая шерсть</Text>
+    </Text>
+    <Text>
+      <GUID>2143505603</GUID>
+      <Text>Прядилка: фетр</Text>
+    </Text>
+    <Text>
+      <GUID>2143505604</GUID>
+      <Text>Прядильная фабрика: хлопок</Text>
+    </Text>
+    <Text>
+      <GUID>2143505605</GUID>
+      <Text>Прядильная мельница: льён</Text>
+    </Text>
+    <Text>
+      <GUID>2143505606</GUID>
+      <!-- No need to translate -->
+      <Text>Рецепты прядения</Text>
+    </Text>
+    <Text>
+      <GUID>2143505607</GUID>
+      <!-- Spinning Recipe List Description -->
+      <Text>Один из символов революции той эпохи, эти кирпичные стены содержат текстильные машины и эффективность, которые пока мало кто понимает.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505608</GUID>
+      <Text>Шерстяная ткань 1t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505609</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505610</GUID>
+      <Text>Экзотическая шерстяная ткань 2t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505612</GUID>
+      <Text>Фетровая ткань 3t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505614</GUID>
+      <Text>Хлопковая ткань 4t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505616</GUID>
+      <Text>Льняная ткань 6t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505617</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505618</GUID>
+      <Text>Все прядильные фабрики</Text>
+    </Text>
+    <Text>
+      <GUID>2143505619</GUID>
+      <Text>Модуль прядильной станы</Text>
+    </Text>
+    <Text>
+      <GUID>2143505620</GUID>
+      <Text>Дополнительная мастерская, посвящённая текстилю.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>Товаров в депо нет</Text>
+    </Text>
+    <Text>
+      <GUID>2143505622</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505623</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505624</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505625</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505626</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505627</GUID>
+      <Text>Магазинные товары.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>Товары в депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505629</GUID>
+      <Text>Ткань</Text>
+    </Text>
+    <Text>
+      <GUID>2143505630</GUID>
+      <Text>Ткач</Text>
+    </Text>
+    <Text>
+      <GUID>2143505631</GUID>
+      <Text>Ткач: рабочая одежда</Text>
+    </Text>
+    <Text>
+      <GUID>2143505632</GUID>
+      <Text>Уивер: Бомбинс</Text>
+    </Text>
+    <Text>
+      <GUID>2143505633</GUID>
+      <Text>Уивер: Костюмы</Text>
+    </Text>
+    <Text>
+      <GUID>2143505634</GUID>
+      <Text>Уивер: Гобелены</Text>
+    </Text>
+    <Text>
+      <GUID>2143505635</GUID>
+      <Text>Ткач</Text>
+    </Text>
+    <Text>
+      <GUID>2143505636</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505638</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505640</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505642</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505643</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505644</GUID>
+      <Text>Все ткачи</Text>
+    </Text>
+    <Text>
+      <GUID>2143505645</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505646</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505647</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505648</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505649</GUID>
+      <Text>Модуль Уивера</Text>
+    </Text>
+    <Text>
+      <GUID>2143505650</GUID>
+      <Text>Все депо от Weavers</Text>
+    </Text>
+    <Text>
+      <GUID>2143505651</GUID>
+      <Text>Расширение отрасли: ткани</Text>
+    </Text>
+    <Text>
+      <GUID>2143505652</GUID>
+      <Text>Использование и стандартизация тканей позволяют отрасли улучшать производство и логистику.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505653</GUID>
+      <Text>Расширение отрасли: ткани</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>Заводской цикл (WIP)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>Работа в процессе</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>Заводской цикл (WIP)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505657</GUID>
+      <Text>Смена команды</Text>
+    </Text>
+    <Text>
+      <GUID>2143505658</GUID>
+      <Text>С этой кампанией по набору у вас будет вся необходимая рабочая сила.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505659</GUID>
+      <Text>Смена команды</Text>
+    </Text>
+  </ModOp>
+</ModOps>

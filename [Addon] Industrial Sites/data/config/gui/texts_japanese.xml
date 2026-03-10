@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505402</GUID>
+      <Text>工業地帯</Text>
+    </Text>
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>大規模産業</Text>
+    </Text>
+    <Text>
+      <GUID>2143505404</GUID>
+      <Text>コンクリート・ロード</Text>
+    </Text>
+    <Text>
+      <GUID>2143505405</GUID>
+      <Text>大きなレンガ造りの壁門</Text>
+    </Text>
+    <Text>
+      <GUID>2143505406</GUID>
+      <Text>工業用バリアゲート</Text>
+    </Text>
+    <Text>
+      <GUID>2143505407</GUID>
+      <Text>工業用バリアゲート ラージ</Text>
+    </Text>
+    <Text>
+      <GUID>2143505409</GUID>
+      <Text>あなた方の産業の核です。特定の産業政策を選んだり、生産連鎖をアンロックしたり、工場サイクルを起動したりできます。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505567</GUID>
+      <Text>産業の中核部門</Text>
+    </Text>
+    <Text>
+      <GUID>2143505569</GUID>
+      <Text>産業サブセクター</Text>
+    </Text>
+    <Text>
+      <GUID>2143505570</GUID>
+      <Text>企業によって代表されるセクターの機能。運用方針を決めることが可能です。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

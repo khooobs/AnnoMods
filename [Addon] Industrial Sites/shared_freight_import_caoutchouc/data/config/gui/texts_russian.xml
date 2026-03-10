@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505422</GUID>
+      <Text>Док для импортных грузов: Каучук</Text>
+    </Text>
+  </ModOp>
+</ModOps>

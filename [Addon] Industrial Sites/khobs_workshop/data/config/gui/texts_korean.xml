@@ -1,0 +1,100 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505667</GUID>
+      <Text>작업장</Text>
+    </Text>
+    <Text>
+      <GUID>2143505668</GUID>
+      <Text>산업에 다양한 장비와 도구를 제공합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505670</GUID>
+      <Text>슬라이서</Text>
+    </Text>
+    <Text>
+      <GUID>2143505671</GUID>
+      <Text>워크숍: 슬라이서</Text>
+    </Text>
+    <Text>
+      <GUID>2143505672</GUID>
+      <Text>예상 슬라이서 판매</Text>
+    </Text>
+    <Text>
+      <GUID>2143505673</GUID>
+      <Text>작업장: 호이스트</Text>
+    </Text>
+    <Text>
+      <GUID>2143505674</GUID>
+      <Text>호이스트</Text>
+    </Text>
+    <Text>
+      <GUID>2143505675</GUID>
+      <Text>무거운 짐을 들어 올리고 내리기 위해 설계된 도구입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505676</GUID>
+      <Text>산업 장비 설계 및 조립에 전념하는 작업장입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505677</GUID>
+      <Text>반기계식 커터로, 손가락을 잃지 않으려는 작업자들에게 특히 인기가 많습니다. 빵과 고기에 효과가 있어.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505678</GUID>
+      <Text>예상 호이스트 판매</Text>
+    </Text>
+    <Text>
+      <GUID>2143505679</GUID>
+      <Text>작업장: 하베스터</Text>
+    </Text>
+    <Text>
+      <GUID>2143505680</GUID>
+      <Text>하비스터</Text>
+    </Text>
+    <Text>
+      <GUID>2143505681</GUID>
+      <Text>예상 하비스터 판매</Text>
+    </Text>
+    <Text>
+      <GUID>2143505682</GUID>
+      <Text>최근 기술 발전으로 자주식 수확기 설계가 가능해졌습니다. 이 포용하는 엔진의 힘을 풀어놓고, 광활한 들판이 이 기계에 의해 삼켜지는 것을 지켜보세요.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505683</GUID>
+      <Text>워크숍: 원형 톱</Text>
+    </Text>
+    <Text>
+      <GUID>2143505684</GUID>
+      <Text>원형 톱</Text>
+    </Text>
+    <Text>
+      <GUID>2143505685</GUID>
+      <Text>숲을 정리하는 데 특히 유용한 날카로운 칼날.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505686</GUID>
+      <Text>추정 원형톱 판매</Text>
+    </Text>
+    <Text>
+      <GUID>2143505687</GUID>
+      <Text>작업장: 발전기</Text>
+    </Text>
+    <Text>
+      <GUID>2143505688</GUID>
+      <Text>발전기</Text>
+    </Text>
+    <Text>
+      <GUID>2143505689</GUID>
+      <Text>추정 발전기 판매</Text>
+    </Text>
+    <Text>
+      <GUID>2143505690</GUID>
+      <Text>조력으로 생산을 돕는 강력한 터빈들.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505691</GUID>
+      <Text>모든 강 건설</Text>
+    </Text>
+  </ModOp>
+</ModOps>

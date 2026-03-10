@@ -1,0 +1,95 @@
+<ModOps>
+	<ModOp Type="addNextSibling" Template="FactoryBuilding7">
+        <Template>
+			<Name>FreightDepotModule</Name>
+			<Properties>
+				<Standard/>
+				<Building>
+					<BuildingType>Factory</BuildingType>
+					<BuildingCategoryName>100000</BuildingCategoryName>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AllowChangeVariation>1</AllowChangeVariation>
+				</Building>
+				<Blocking>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Object/>
+				<Constructable/>
+				<AmbientMoodProvider>
+					<Murmur>Harbor</Murmur>
+				</AmbientMoodProvider>
+				<Constructable />
+				<Selection>
+					<GUIType>Production</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Text/>
+				<Cost/>
+				<Attackable/>
+				<Warehouse/>
+				<StorageBase/>
+				<Locked/>
+				<Factory7/>
+				<FactoryBase>
+					<MissingConnectionInfolayer>0</MissingConnectionInfolayer>
+				</FactoryBase>
+				<Maintenance>
+					<IncomeCategory>InfrastructureBuildings</IncomeCategory>
+				</Maintenance>
+				<Pausable/>
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>200896</Sound>
+						</Item>
+						<Item>
+							<Sound>200892</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<IncidentSounds>
+						<InfectedFire>
+							<Item>
+								<Sound>214659</Sound>
+							</Item>
+						</InfectedFire>
+					</IncidentSounds>
+					<BuildingRuined>
+						<Item>
+							<Sound>203848</Sound>
+						</Item>
+					</BuildingRuined>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<Infolayer />
+				<UpgradeList />
+				<LogisticNode>
+					<TransporterCountMax>0</TransporterCountMax>
+				</LogisticNode>
+				<FeedbackController />
+                <BuildingModule />
+				<Pausable>
+					<CanPauseManually>1</CanPauseManually>
+				</Pausable>
+			</Properties>
+		</Template>
+    </ModOp>
+</ModOps>

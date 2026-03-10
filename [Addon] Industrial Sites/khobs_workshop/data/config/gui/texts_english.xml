@@ -1,0 +1,100 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505667</GUID>
+      <Text>Workshop</Text>
+    </Text>
+    <Text>
+      <GUID>2143505668</GUID>
+      <Text>Offers various equipment and tools to the industry.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505670</GUID>
+      <Text>Slicer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505671</GUID>
+      <Text>Workshop: Slicer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505672</GUID>
+      <Text>Estimated Slicer Sales</Text>
+    </Text>
+    <Text>
+      <GUID>2143505673</GUID>
+      <Text>Workshop: Hoist </Text>
+    </Text>
+    <Text>
+      <GUID>2143505674</GUID>
+      <Text>Hoist</Text>
+    </Text>
+    <Text>
+      <GUID>2143505675</GUID>
+      <Text>A tool designed for lifting and lowering heavy loads.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505676</GUID>
+      <Text>A workshop dedicated to the design and assembly of equipment for industry or craftsmanship.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505677</GUID>
+      <Text>A semi-mechanical cutter, particularly appreciated by workers who wish to avoid losing fingers. Works for bread and meat.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505678</GUID>
+      <Text>Estimated Hoist Sales</Text>
+    </Text>
+    <Text>
+      <GUID>2143505679</GUID>
+      <Text>Workshop: Harvester</Text>
+    </Text>
+    <Text>
+      <GUID>2143505680</GUID>
+      <Text>Harvester</Text>
+    </Text>
+    <Text>
+      <GUID>2143505681</GUID>
+      <Text>Estimated Harvester Sales</Text>
+    </Text>
+    <Text>
+      <GUID>2143505682</GUID>
+      <Text>Recent technological advances have enabled the design of a self-propelled harvester. Unleash the power of these roaring engines and watch as vast fields are devoured by this machine.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505683</GUID>
+      <Text>Workshop: Circular Saw</Text>
+    </Text>
+    <Text>
+      <GUID>2143505684</GUID>
+      <Text>Circular Saw</Text>
+    </Text>
+    <Text>
+      <GUID>2143505685</GUID>
+      <Text>A blade so sharp, particularly useful for clearing a forest.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505686</GUID>
+      <Text>Estimated Circular Saw Sales</Text>
+    </Text>
+    <Text>
+      <GUID>2143505687</GUID>
+      <Text>Workshop: Generator</Text>
+    </Text>
+    <Text>
+      <GUID>2143505688</GUID>
+      <Text>Generator</Text>
+    </Text>
+    <Text>
+      <GUID>2143505689</GUID>
+      <Text>Estimated Generator Sales</Text>
+    </Text>
+    <Text>
+      <GUID>2143505690</GUID>
+      <Text>Powerful turbines that, with tidal power, will assist in production.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505691</GUID>
+      <Text>All river building</Text>
+    </Text>
+  </ModOp>
+</ModOps>

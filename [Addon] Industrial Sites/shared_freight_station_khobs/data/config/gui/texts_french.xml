@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505412</GUID>
+      <Text>Gare de fret</Text>
+    </Text>
+    <Text>
+      <GUID>2143505413</GUID>
+      <Text>Une gare de fret ferroviaire centralisée pour l’exportation, l’importation ou le déchargement de marchandises. Extensible avec des modules.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505414</GUID>
+      <Text>Administration des gares de marchandises</Text>
+    </Text>
+    <Text>
+      <GUID>2143505415</GUID>
+      <Text>Augmentez la capacité d’accord commercial pour l’importation/exportation de vos produits.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505416</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505417</GUID>
+      <Text>Quai d’exportation de fret : Pétrole</Text>
+    </Text>
+    <Text>
+      <GUID>2143505418</GUID>
+      <Text>Quai d’exportation de fret : Aliments en conserve</Text>
+    </Text>
+    <Text>
+      <GUID>2143505419</GUID>
+      <Text>Quai d’exportation de fret : Bière</Text>
+    </Text>
+    <Text>
+      <GUID>2143505420</GUID>
+      <Text>Quai d’exportation de fret : Charbon</Text>
+    </Text>
+    <Text>
+      <GUID>2143505421</GUID>
+      <Text>Quai d’exportation de fret : Lunettes</Text>
+    </Text>
+  </ModOp>
+</ModOps>

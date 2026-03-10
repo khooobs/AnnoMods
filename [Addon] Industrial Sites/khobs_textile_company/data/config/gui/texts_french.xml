@@ -1,0 +1,260 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505593</GUID>
+      <Text>Société : Textile</Text>
+    </Text>
+    <Text>
+      <GUID>2143505599</GUID>
+      <Text>Module de l’industrie textile</Text>
+    </Text>
+    <Text>
+      <GUID>2143505600</GUID>
+      <Text>Filature</Text>
+    </Text>
+    <Text>
+      <GUID>2143505601</GUID>
+      <Text>Filature : Laine</Text>
+    </Text>
+    <Text>
+      <GUID>2143505602</GUID>
+      <Text>Filature : Laine exotique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505603</GUID>
+      <Text>Filature : feutre</Text>
+    </Text>
+    <Text>
+      <GUID>2143505604</GUID>
+      <Text>Filature : coton</Text>
+    </Text>
+    <Text>
+      <GUID>2143505605</GUID>
+      <Text>Filature : lin</Text>
+    </Text>
+    <Text>
+      <GUID>2143505606</GUID>
+      <!-- No need to translate -->
+      <Text>Spinning Recipes</Text>
+    </Text>
+    <Text>
+      <GUID>2143505607</GUID>
+      <!-- Spinning Recipe List Description -->
+      <Text>L’un des symboles de la révolution de cette époque, ces murs de briques contiennent des machines textiles et une efficacité que peu de gens semblent encore comprendre.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505608</GUID>
+      <Text>Tissu en laine 1t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505609</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505610</GUID>
+      <Text>Tissu en laine exotique 2t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505612</GUID>
+      <Text>Tissu feutré 3t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505614</GUID>
+      <Text>Tissu de coton 4t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505616</GUID>
+      <Text>Tissu en lin 6t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505617</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505618</GUID>
+      <Text>Toutes les filatures</Text>
+    </Text>
+    <Text>
+      <GUID>2143505619</GUID>
+      <Text>Atelier de filage</Text>
+    </Text>
+    <Text>
+      <GUID>2143505620</GUID>
+      <Text>Un atelier supplémentaire dédié au textile.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>Aucune marchandise au dépôt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505622</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505623</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505624</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505625</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505626</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505627</GUID>
+      <Text>Stocke les marchandises.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>Marchandises au dépôt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505629</GUID>
+      <Text>Tissu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505630</GUID>
+      <Text>Tisserand</Text>
+    </Text>
+    <Text>
+      <GUID>2143505631</GUID>
+      <Text>Tisserand : Vêtements de travail</Text>
+    </Text>
+    <Text>
+      <GUID>2143505632</GUID>
+      <Text>Tisserand : Bombins</Text>
+    </Text>
+    <Text>
+      <GUID>2143505633</GUID>
+      <Text>Tisserand : Costumes</Text>
+    </Text>
+    <Text>
+      <GUID>2143505634</GUID>
+      <Text>Tisserand : Tapisseries</Text>
+    </Text>
+    <Text>
+      <GUID>2143505635</GUID>
+      <!-- No need to translate -->
+
+      <Text>Weaver</Text>
+    </Text>
+    <Text>
+      <GUID>2143505636</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505638</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505640</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505642</GUID>
+      <!-- No need to translate -->
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505643</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505644</GUID>
+      <Text>Tous les tisserands</Text>
+    </Text>
+    <Text>
+      <GUID>2143505645</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505646</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505647</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505648</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505649</GUID>
+      <Text>Atelier de tisserand</Text>
+    </Text>
+    <Text>
+      <GUID>2143505650</GUID>
+      <Text>Tous les dépôts de tisserands</Text>
+    </Text>
+    <Text>
+      <GUID>2143505651</GUID>
+      <Text>Expansion industrielle : Tissu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505652</GUID>
+      <Text>L’utilisation et la standardisation des tissus permettent à l’industrie d’améliorer sa production et sa logistique.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505653</GUID>
+      <Text>Expansion industrielle : Tissu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>Cycle d’usine (WIP)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>Work In Progress</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>Cycle d’usine (WIP)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505657</GUID>
+      <Text>Changement d’équipe</Text>
+    </Text>
+    <Text>
+      <GUID>2143505658</GUID>
+      <Text>Avec cette campagne de recrutement, vous devriez disposer de toute la main-d’œuvre dont vous avez besoin.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505659</GUID>
+      <Text>Changement d’équipe</Text>
+    </Text>
+  </ModOp>
+</ModOps>

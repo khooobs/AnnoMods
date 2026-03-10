@@ -1,0 +1,128 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505408</GUID>
+      <Text>회사: 제철소</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>당신의 산업 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505411</GUID>
+      <Text>산업 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>광석 보물</Text>
+    </Text>
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>산업을 위해 광석 저장을 중앙집중화하세요.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505502</GUID>
+      <Text>광석 공급</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>광석 공급이 없다</Text>
+    </Text>
+    <Text>
+      <GUID>2143505504</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505505</GUID>
+      <Text>광석 저장소 필요</Text>
+    </Text>
+    <Text>
+      <GUID>2143505506</GUID>
+      <Text>산업 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>용광로</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>대량 상품을 생산합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>용광로 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>철강 생산에 전념하는 추가 작업장.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>광석</Text>
+    </Text>
+    <Text>
+      <GUID>2143505512</GUID>
+      <Text>용광로 - 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505552</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>벌크 스틸</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>광석 창고 요구</Text>
+    </Text>
+    <Text>
+      <GUID>2143505555</GUID>
+      <Text>모듈로 부스트 가능</Text>
+    </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>부스트 팩토리</Text>
+    </Text>
+    <Text>
+      <GUID>2143505558</GUID>
+      <Text>슬롯 가능한 아이템</Text>
+    </Text>
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>철도 기반 물류</Text>
+    </Text>
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>화물 하역 부두: 강철</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>광석 보물</Text>
+    </Text>
+    <Text>
+      <GUID>2143505580</GUID>
+      <Text>광석을 저장하세요.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>제강 산업 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>산업 확장: 빔</Text>
+    </Text>
+    <Text>
+      <GUID>2143505585</GUID>
+      <Text>주조소가 추가 강철 빔을 생산할 수 있게 하지만, 전체 효율은 감소합니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
