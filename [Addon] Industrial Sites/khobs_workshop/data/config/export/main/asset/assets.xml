@@ -1481,6 +1481,190 @@
     </Asset>
   </ModOp>
   <!-- END - Buffs -->
+   
+  <!-- START - Proximity Buffs-->
+  <ModOp GUID="25546" Type="addNextSibling"> 
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506000</GUID>
+          <Name>Rural_Workshop_Effect_Container</Name>
+			    <IconFilename>data/ui/2kimages/main/3dicons/icon_tractor.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2143506001</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506001</GUID>
+          <Name>Rural_Workshop_Barns_Effect</Name>
+			    <IconFilename>data/ui/2kimages/main/3dicons/icon_tractor.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+					    <GUID>2143505679</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <InputAmountUpgrade>
+            <Item>
+              <Product>1010211</Product><!-- chassis -->
+              <Amount>-1</Amount>
+            </Item>
+          </InputAmountUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade/>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506002</GUID>
+          <Name>ForwardBuff_Rural_Workshop_Barns_Buff</Name>
+			    <IconFilename>data/ui/2kimages/main/3dicons/icon_tractor.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>269837</GUID>
+            </Item>
+            <Item>
+              <GUID>269839</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <EffectForward>
+          <ForwardEffect>2143506001</ForwardEffect>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+          <ForwardEffectRange>16</ForwardEffectRange>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506003</GUID>
+          <Name>Sawmill_Workshop_Effect_Container</Name>
+			    <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_dragsaw_.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2143506004</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506004</GUID>
+          <Name>Sawmill_Workshop_Effect</Name>
+			    <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_dragsaw_.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+					    <GUID>2143505671</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>1010242</OldInput>              <!--wood veneers-->
+              <NewInput>1010196</NewInput>              <!--timber-->
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade/>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506005</GUID>
+          <Name>ForwardBuff_Sawmill_Workshop_Buff</Name>
+			    <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_dragsaw_.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>100451</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <EffectForward>
+          <ForwardEffect>2143506004</ForwardEffect>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+          <ForwardEffectRange>12</ForwardEffectRange>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID="269837,269839" Path="Values/">
+    <UpgradeList>
+      <DefaultBuff>2143506002</DefaultBuff>
+    </UpgradeList>
+  </ModOp>
+  <ModOp Type="add" GUID="100451" Path="Values/">
+    <UpgradeList>
+      <DefaultBuff>2143506005</DefaultBuff>
+    </UpgradeList>
+  </ModOp>
+  <!-- END - Proximity Buffs -->
 
   <!-- START - RiverSlot Building ItemPool -->
   <ModOp GUID="117744" Type="addNextSibling">

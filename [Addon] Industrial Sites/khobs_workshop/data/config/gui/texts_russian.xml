@@ -96,5 +96,29 @@
       <GUID>2143505691</GUID>
       <Text>Всё строительство реки</Text>
     </Text>
+    <Text>
+      <GUID>2143506000</GUID>
+      <Text>Сельскохозяйственная адаптация</Text>
+    </Text>
+    <Text>
+      <GUID>2143506001</GUID>
+      <Text>Сельскохозяйственная адаптация</Text>
+    </Text>
+    <Text>
+      <GUID>2143506002</GUID>
+      <Text>Сельскохозяйственная адаптация</Text>
+    </Text>
+    <Text>
+      <GUID>2143506003</GUID>
+      <Text>Сотрудничество с лесопилками</Text>
+    </Text>
+    <Text>
+      <GUID>2143506004</GUID>
+      <Text>Сотрудничество с лесопилками</Text>
+    </Text>
+    <Text>
+      <GUID>2143506005</GUID>
+      <Text>Сотрудничество с лесопилками</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -344,7 +344,7 @@
 				<Infolayer />
 				<UpgradeList />
 				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
+					<TransporterCountMax>1</TransporterCountMax>
 				</LogisticNode>
 				<FeedbackController />
 				<BuildingModule />
