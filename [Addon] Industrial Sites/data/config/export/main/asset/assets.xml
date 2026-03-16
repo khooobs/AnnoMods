@@ -135,9 +135,9 @@
       <Item>
         <Building>2143505408</Building>
       </Item>
-      <Item>
+      <!-- <Item>
         <Building>2143505500</Building>
-      </Item>
+      </Item> -->
       <Item>
         <Building>2143505507</Building>
       </Item>
@@ -730,9 +730,6 @@
     </Item>
     <Item>
       <GUID>2143505507</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505564</GUID>
     </Item>
     <Item>
       <GUID>2143505646</GUID>
