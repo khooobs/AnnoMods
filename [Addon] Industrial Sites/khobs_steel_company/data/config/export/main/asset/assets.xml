@@ -798,16 +798,6 @@
       </Values>
     </Asset>
   </ModOp>
-  <ModOp GUID="120056" Type="add" Path="Values/ProductStorageList/ProductList/">
-    <Item>
-      <Product>2143505553</Product>
-    </Item>
-  </ModOp>
-  <ModOp GUID="501961" Type="add" Path="Values/ProductList/List/">
-    <Item>
-      <Product>2143505553</Product>
-    </Item>
-  </ModOp>
   <!-- END - Product -->
 
   <!-- START - Buffs -->

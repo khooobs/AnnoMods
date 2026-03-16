@@ -48,18 +48,16 @@
           </Variations>
         </Object>
         <Selection>
-			    <GUIType>CoalOilHarbour</GUIType>
+			    <GUIType>Airport</GUIType>
           <OnSelection>
             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
             <Values>
               <ActionList/>
             </Values>
           </OnSelection>
-          <UnlockSecondGUI>1500300092</UnlockSecondGUI>
-          <SecondGUIType>RouteServiceModule</SecondGUIType>
         </Selection>
         <StorageBase>
-          <ProductStorageList>120056</ProductStorageList>
+          <ProductStorageList>1999005354</ProductStorageList>
         </StorageBase>
 				<LogisticNode>
 					<TransporterCountMax>5</TransporterCountMax>
@@ -70,7 +68,7 @@
 				</LogisticNode>
 				<Warehouse>
 					<WarehouseStorage>
-						<StorageMax>200</StorageMax>
+						<StorageMax>100</StorageMax>
 					</WarehouseStorage>
 					<StorageType>StrategicKontor</StorageType>
 				</Warehouse>
@@ -90,6 +88,49 @@
 				<TrainStation>
 					<MaxTrainCount>5</MaxTrainCount>
 				</TrainStation>
+        <ModuleOwner>
+          <ModuleLimits>
+            <Main>
+              <Limit>999</Limit>
+            </Main>
+          </ModuleLimits>
+          <AllowModulesInSameHarbor>1</AllowModulesInSameHarbor>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>1010136</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>2143505414</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>2143505417</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>2143505420</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>2143505419</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>2143505418</ModuleGUID>
+            </Item>
+            <Item>
+              <ModuleGUID>2143505421</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+          <BlueprintModuleOption>
+            <ModuleButtonIcon>20831</ModuleButtonIcon>
+            <ModulePopupDescription>25236</ModulePopupDescription>
+            <ModulePopupHeader>25235</ModulePopupHeader>
+            <ModuleButtonInfotip>25239</ModuleButtonInfotip>
+            <ShowRemainingModuleCount>1</ShowRemainingModuleCount>
+          </BlueprintModuleOption>
+        </ModuleOwner>
+        <Hacienda>
+          <HaciendaRadius>0</HaciendaRadius>
+          <AdditionalRadiusThresholds />
+          <Policies />
+        </Hacienda>
       </Values>
     </Asset>
   </ModOp>
@@ -215,12 +256,12 @@
         <Infolayer />
         <Warehouse>
           <WarehouseStorage>
-            <StorageMax>50</StorageMax>
+            <StorageMax>25</StorageMax>
           </WarehouseStorage>
           <StorageType>StrategicKontor</StorageType>
         </Warehouse>
         <StorageBase>
-          <ProductStorageList>120056</ProductStorageList>
+          <ProductStorageList>1999005354</ProductStorageList>
         </StorageBase>
         <UpgradeList />
         <FeedbackController />
@@ -671,11 +712,4 @@
     </Asset>
   </ModOp>
   <!-- END - Export Freight -->
-
-  <!-- Tweak -->
-  <ModOp GUID="120056" Type="add" Path="Values/ProductStorageList/ProductList/">
-    <Item>
-      <Product>1999005351</Product>
-    </Item>
-  </ModOp>
 </ModOps>
