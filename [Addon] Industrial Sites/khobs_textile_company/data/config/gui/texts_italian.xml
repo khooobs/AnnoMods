@@ -254,5 +254,13 @@
       <GUID>2143505659</GUID>
       <Text>Cambio di squadra</Text>
     </Text>
+    <Text>
+      <GUID>2143505660</GUID>
+      <Text>Abiti - Compatibilità</Text>
+    </Text>
+    <Text>
+      <GUID>2143505661</GUID>
+      <Text>Bonus di compatibilità con Industrial Cities o il prodotto di tutela condivisa.</Text>
+    </Text>
   </ModOp>
 </ModOps>

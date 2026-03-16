@@ -254,5 +254,13 @@
       <GUID>2143505659</GUID>
       <Text>チームチェンジ</Text>
     </Text>
+    <Text>
+      <GUID>2143505660</GUID>
+      <Text>スーツ - 相性</Text>
+    </Text>
+    <Text>
+      <GUID>2143505661</GUID>
+      <Text>インダストリアルシティーズや共有スーツ製品との互換性バフ。</Text>
+    </Text>
   </ModOp>
 </ModOps>

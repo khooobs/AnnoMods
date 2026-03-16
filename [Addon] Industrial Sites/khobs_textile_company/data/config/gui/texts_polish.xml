@@ -254,5 +254,13 @@
       <GUID>2143505659</GUID>
       <Text>Zmiana drużyny</Text>
     </Text>
+    <Text>
+      <GUID>2143505660</GUID>
+      <Text>Kombinezony – kompatybilność</Text>
+    </Text>
+    <Text>
+      <GUID>2143505661</GUID>
+      <Text>Zwiększanie kompatybilności z Industrial Cities lub produktem ze wspólnym kombinezonem.</Text>
+    </Text>
   </ModOp>
 </ModOps>

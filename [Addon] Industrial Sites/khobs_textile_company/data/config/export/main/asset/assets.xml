@@ -1734,6 +1734,7 @@
             </Colors>
           </Selection>
           <UpgradeList/>
+          <BuffFactory/>
           <FactoryBase />
           <LogisticNode/>
           <Maintenance>
@@ -1819,6 +1820,7 @@
           <UpgradeList>
             <DefaultBuff>2143505621</DefaultBuff>
           </UpgradeList>
+          <BuffFactory/>
           <FactoryBase>
             <FactoryOutputs>
               <Item>
@@ -1926,6 +1928,7 @@
           <UpgradeList>
             <DefaultBuff>2143505621</DefaultBuff>
           </UpgradeList>
+          <BuffFactory/>
           <FactoryBase>
             <FactoryOutputs>
               <Item>
@@ -2032,6 +2035,7 @@
           <UpgradeList>
             <DefaultBuff>2143505621</DefaultBuff>
           </UpgradeList>
+          <BuffFactory/>
           <FactoryBase>
             <FactoryOutputs>
               <Item>
@@ -2138,6 +2142,7 @@
           <UpgradeList>
             <DefaultBuff>2143505621</DefaultBuff>
           </UpgradeList>
+          <BuffFactory/>
           <FactoryBase>
             <FactoryOutputs>
               <Item>
@@ -3134,6 +3139,52 @@
         <ResourceUpgrade />
       </Values>
     </Asset>
+
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505660</GUID>
+          <Name>Suit Weaver - Compatibility</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_suits_combined.png</IconFilename>
+          <InfoDescription>2143505661</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505633</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>114430</Product>
+              <AdditionalOutputCycle>1</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1500010127</Product>
+              <AdditionalOutputCycle>1</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
   </ModOp>
   <!-- END - Buffs -->
 
@@ -3144,6 +3195,20 @@
         <TextOverride>2143505629</TextOverride>
       </Text>
     </ModOp>
+  </Group>
+
+  <Group Condition="#suits-jakob">
+    <ModOp GUID="2143505633" Type="add" Path="Values/">
+      <BuffFactory>
+			  <ProductionBuffScope>Local</ProductionBuffScope>
+        <ProductionBuffs>
+          <Item>
+            <ProductivityBuff>2143505660</ProductivityBuff>
+          </Item>
+        </ProductionBuffs>
+      </BuffFactory>
+    </ModOp>  
+    <ModOp GUID="2143505633" Type="remove" Path="Values/FactoryBase/FactoryOutputs" />  
   </Group>
   <!-- END - Tweaks -->
 </ModOps>
