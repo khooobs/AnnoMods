@@ -262,5 +262,13 @@
       <GUID>2143505661</GUID>
       <Text>与工业城市或共享战衣产品的兼容性增强。</Text>
     </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>生产织工所需的织物。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>生产纺织品。</Text>
+    </Text>
   </ModOp>
 </ModOps>

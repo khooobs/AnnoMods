@@ -262,5 +262,13 @@
       <GUID>2143505661</GUID>
       <Text>與工業城市或共用套裝產品的相容性強化。</Text>
     </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>生產織布工人所需的布料。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>生產紡織品。</Text>
+    </Text>
   </ModOp>
 </ModOps>

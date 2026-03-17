@@ -262,5 +262,13 @@
       <GUID>2143505661</GUID>
       <Text>Bonus di compatibilità con Industrial Cities o il prodotto di tutela condivisa.</Text>
     </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>Produce tessuto per le esigenze dei tessitori.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>Produce prodotti tessili.</Text>
+    </Text>
   </ModOp>
 </ModOps>

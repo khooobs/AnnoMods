@@ -262,5 +262,13 @@
       <GUID>2143505661</GUID>
       <Text>Industrial Cities나 공유 슈트 제품과의 호환성 향상.</Text>
     </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>직조공이 필요로 하는 원단을 생산합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>섬유 제품을 생산합니다.</Text>
+    </Text>
   </ModOp>
 </ModOps>

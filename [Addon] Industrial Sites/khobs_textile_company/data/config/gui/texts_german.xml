@@ -262,5 +262,13 @@
       <GUID>2143505661</GUID>
       <Text>Kompatibilitätsbuff mit Industrial Cities oder dem Shared-Suit-Produkt.</Text>
     </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>Stellt Stoff für die Weberbedürfnisse her.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>Stellt Textilwaren her.</Text>
+    </Text>
   </ModOp>
 </ModOps>

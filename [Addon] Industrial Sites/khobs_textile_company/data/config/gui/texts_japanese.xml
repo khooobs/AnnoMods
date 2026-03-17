@@ -262,5 +262,13 @@
       <GUID>2143505661</GUID>
       <Text>インダストリアルシティーズや共有スーツ製品との互換性バフ。</Text>
     </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>織工の需要に応じた布地を生産しています。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>繊維製品を生産しています。</Text>
+    </Text>
   </ModOp>
 </ModOps>

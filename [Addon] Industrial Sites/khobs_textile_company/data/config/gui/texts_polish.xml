@@ -262,5 +262,13 @@
       <GUID>2143505661</GUID>
       <Text>Zwiększanie kompatybilności z Industrial Cities lub produktem ze wspólnym kombinezonem.</Text>
     </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>Produkuje tkaniny dla potrzeb tkaczy.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>Produkuje wyroby tekstylne.</Text>
+    </Text>
   </ModOp>
 </ModOps>

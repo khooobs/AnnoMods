@@ -9,9 +9,6 @@
           <Name>Textile Company</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_company.png</IconFilename>
         </Standard>
-        <Building>
-					<BuildingCategoryName>2143505599</BuildingCategoryName>
-        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -231,10 +228,8 @@
             <GUID>2143505600</GUID>
             <Name>Spinning_Mill_Blank</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_spinning_mill.png</IconFilename>
+            <InfoDescription>2143505662</InfoDescription>
           </Standard>
-          <Building>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
-          </Building>
           <Cost>
             <Costs>
               <Item>
@@ -319,9 +314,6 @@
             <Name>Spinning_Mill_1t</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool.png</IconFilename>
           </Standard>
-          <Building>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
-          </Building>
           <Cost>
             <Costs>
               <Item>
@@ -424,9 +416,6 @@
             <Name>Spinning_Mill_2t</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool_2.png</IconFilename>
           </Standard>
-          <Building>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
-          </Building>
           <Cost>
             <Costs>
               <Item>
@@ -529,9 +518,6 @@
             <Name>Spinning_Mill_3t</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_felt.png</IconFilename>
           </Standard>
-          <Building>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
-          </Building>
           <Cost>
             <Costs>
               <Item>
@@ -634,9 +620,6 @@
             <Name>Spinning_Mill_4t</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_cotton.png</IconFilename>
           </Standard>
-          <Building>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
-          </Building>
           <Cost>
             <Costs>
               <Item>
@@ -739,9 +722,6 @@
             <Name>Spinning_Mill_6t</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_linen.png</IconFilename>
           </Standard>
-          <Building>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
-          </Building>
           <Cost>
             <Costs>
               <Item>
@@ -1019,7 +999,6 @@
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -1096,7 +1075,7 @@
           <Standard>
             <GUID>2143505621</GUID>
             <Name>Depot - Module - Negative - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
           </Standard>
           <ItemEffect/>
           <FactoryUpgrade>
@@ -1127,12 +1106,12 @@
           <Standard>
             <GUID>2143505622</GUID>
             <Name>Spinning_Mill_Depot_1t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
+            <BuildingCategoryName>2143505411</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -1223,12 +1202,12 @@
           <Standard>
             <GUID>2143505623</GUID>
             <Name>Spinning_Mill_Depot_2t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
+            <BuildingCategoryName>2143505411</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -1319,12 +1298,12 @@
           <Standard>
             <GUID>2143505624</GUID>
             <Name>Spinning_Mill_Depot_3t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
+            <BuildingCategoryName>2143505411</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -1415,12 +1394,12 @@
           <Standard>
             <GUID>2143505625</GUID>
             <Name>Spinning_Mill_Depot_4t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
+            <BuildingCategoryName>2143505411</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -1511,12 +1490,12 @@
           <Standard>
             <GUID>2143505626</GUID>
             <Name>Spinning_Mill_Depot_6t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
+            <BuildingCategoryName>2143505411</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -1607,7 +1586,7 @@
           <Standard>
             <GUID>2143505628</GUID>
             <Name>Depot - Module - Positive - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
           </Standard>
           <ItemEffect/>
           <FactoryUpgrade>
@@ -1681,10 +1660,8 @@
             <GUID>2143505630</GUID>
             <Name>Weaver_Blank</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_weaver.png</IconFilename>
+            <InfoDescription>2143505663</InfoDescription>
           </Standard>
-          <Building>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
-          </Building>
           <Cost>
             <Costs>
               <Item>
@@ -1766,9 +1743,6 @@
             <Name>Weaver_WorkClothes</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_working_cloth.png</IconFilename>
           </Standard>
-          <Building>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
-          </Building>
           <Cost>
             <Costs>
               <Item>
@@ -1874,9 +1848,6 @@
             <Name>Weaver_Bombins</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_bowler_hat.png</IconFilename>
           </Standard>
-          <Building>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
-          </Building>
           <Cost>
             <Costs>
               <Item>
@@ -1981,9 +1952,6 @@
             <Name>Weaver_Suits</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_suits.png</IconFilename>
           </Standard>
-          <Building>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
-          </Building>
           <Cost>
             <Costs>
               <Item>
@@ -2088,9 +2056,6 @@
             <Name>Weaver_Tapestries</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_tapestries.png</IconFilename>
           </Standard>
-          <Building>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
-          </Building>
           <Cost>
             <Costs>
               <Item>
@@ -2340,12 +2305,12 @@
           <Standard>
             <GUID>2143505645</GUID>
             <Name>Weaver_Depot_WorkClothes</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
+            <BuildingCategoryName>2143505411</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -2436,12 +2401,12 @@
           <Standard>
             <GUID>2143505646</GUID>
             <Name>Weaver_Depot_Bombins</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
+            <BuildingCategoryName>2143505411</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -2537,12 +2502,12 @@
           <Standard>
             <GUID>2143505647</GUID>
             <Name>Weaver_Depot_Suits</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
+            <BuildingCategoryName>2143505411</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -2638,12 +2603,12 @@
           <Standard>
             <GUID>2143505648</GUID>
             <Name>Weaver_Depot_Tapestries</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
+            <BuildingCategoryName>2143505411</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -2749,7 +2714,7 @@
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505599</BuildingCategoryName>
+            <BuildingCategoryName>2143505411</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -3187,6 +3152,23 @@
     </Asset>
   </ModOp>
   <!-- END - Buffs -->
+
+
+  <!-- START - Texts -->
+  <ModOp GUID="25000192" Type="addNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505599</GUID>
+          <Name>Textile Industry Module</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_company.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Texts -->
+  
 
   <!-- START - Tweaks -->
   <Group Condition="#wool_fabric_kurila">
