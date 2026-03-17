@@ -9,9 +9,6 @@
           <Name>Chemical Company</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_company.png</IconFilename>
         </Standard>
-        <Building>
-					<BuildingCategoryName>2143505717</BuildingCategoryName>
-        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -1767,7 +1764,7 @@
         <Standard>
           <GUID>2143505724</GUID>
           <Name>Depot - Module - Negative - Buff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
         </Standard>
         <ItemEffect/>
         <FactoryUpgrade>
@@ -1798,7 +1795,7 @@
         <Standard>
           <GUID>2143505725</GUID>
           <Name>Depot - Module - Positive - Buff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
         </Standard>
         <ItemEffect/>
         <FactoryUpgrade>
@@ -1829,11 +1826,12 @@
         <Standard>
           <GUID>2143505726</GUID>
           <Name>Depot (Shampoo)</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+          <InfoDescription>2143505695</InfoDescription>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-          <BuildingCategoryName>2143505717</BuildingCategoryName>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
         <Cost>
           <Costs>
@@ -1934,11 +1932,12 @@
         <Standard>
           <GUID>2143505727</GUID>
           <Name>Depot (Lemonade)</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+          <InfoDescription>2143505695</InfoDescription>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-          <BuildingCategoryName>2143505717</BuildingCategoryName>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
         <Cost>
           <Costs>
@@ -2039,11 +2038,12 @@
         <Standard>
           <GUID>2143505728</GUID>
           <Name>Depot (Souvenir)</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+          <InfoDescription>2143505695</InfoDescription>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-          <BuildingCategoryName>2143505717</BuildingCategoryName>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
         <Cost>
           <Costs>
@@ -2144,11 +2144,12 @@
         <Standard>
           <GUID>2143505729</GUID>
           <Name>Depot (Lacquer)</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+          <InfoDescription>2143505695</InfoDescription>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-          <BuildingCategoryName>2143505717</BuildingCategoryName>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
         <Cost>
           <Costs>
@@ -2249,11 +2250,12 @@
         <Standard>
           <GUID>2143505730</GUID>
           <Name>Depot (Celluloid)</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+          <InfoDescription>2143505695</InfoDescription>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-          <BuildingCategoryName>2143505717</BuildingCategoryName>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
         <Cost>
           <Costs>
@@ -2354,11 +2356,12 @@
         <Standard>
           <GUID>2143505731</GUID>
           <Name>Depot (Ethanol)</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+          <InfoDescription>2143505695</InfoDescription>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-          <BuildingCategoryName>2143505717</BuildingCategoryName>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
         <Cost>
           <Costs>
@@ -2454,11 +2457,12 @@
         <Standard>
           <GUID>2143505732</GUID>
           <Name>Depot (Compound)</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+          <InfoDescription>2143505697</InfoDescription>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-          <BuildingCategoryName>2143505717</BuildingCategoryName>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
         <Blocking>
 				  <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
@@ -2552,7 +2556,7 @@
         <Standard>
           <GUID>2143505733</GUID>
           <Name>Depot - Compound - Boost - Buff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
         </Standard>
         <ItemEffect>
           <AllowStacking>0</AllowStacking>
@@ -2585,11 +2589,12 @@
         <Standard>
           <GUID>2143505734</GUID>
           <Name>Depot (Soda)</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+          <InfoDescription>2143505695</InfoDescription>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
-          <BuildingCategoryName>2143505717</BuildingCategoryName>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
         <Cost>
           <Costs>
@@ -3005,4 +3010,19 @@
     </Asset>
   </ModOp>
   <!-- END - Society Item -->
+   
+  <!-- START - Texts -->
+  <ModOp GUID="25000192" Type="addNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505717</GUID>
+          <Name>Chemical Industry Module</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_company.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Texts -->
 </ModOps>
