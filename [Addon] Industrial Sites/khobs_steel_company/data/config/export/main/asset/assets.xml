@@ -10,9 +10,6 @@
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_company.png</IconFilename>
           <InfoDescription>2143505409</InfoDescription>
         </Standard>
-        <Building>
-          <BuildingCategoryName>2143505582</BuildingCategoryName>
-        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -89,9 +86,6 @@
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage_01.png</IconFilename>
           <InfoDescription>2143505501</InfoDescription>
         </Standard>
-        <Building>
-          <BuildingCategoryName>2143505582</BuildingCategoryName>
-        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -156,8 +150,6 @@
               <ProductivityBuff>2143505502</ProductivityBuff>
             </Item>
           </ProductionBuffs>
-          <ProductionBuffScope>Radius</ProductionBuffScope>
-          <ProductionBuffDistance>20</ProductionBuffDistance>
         </BuffFactory>
         <Maintenance>
           <Maintenances>
@@ -265,16 +257,10 @@
               <Asset>2143505500</Asset>
             </Item>
             <Item>
-              <Asset>2143505553</Asset>
-            </Item>
-            <Item>
               <Asset>2143505507</Asset>
             </Item>
             <Item>
               <Asset>2143505509</Asset>
-            </Item>
-            <Item>
-              <Asset>2143505564</Asset>
             </Item>
             <Item>
               <Asset>2143505584</Asset>
@@ -302,7 +288,7 @@
           <SecondPartyRelevant>0</SecondPartyRelevant>
           <BuildModeRandomRotation>180</BuildModeRandomRotation>
           <AssociatedRegions>Moderate</AssociatedRegions>
-          <BuildingCategoryName>2143505582</BuildingCategoryName>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
         <Blocking>
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
@@ -409,19 +395,20 @@
         <FactoryBase>
           <FactoryOutputs>
             <Item>
-              <Product>2143505553</Product>
+              <Product>1010219</Product>
               <Amount>3</Amount>
-              <StorageAmount>200</StorageAmount>
+              <StorageAmount>15</StorageAmount>
             </Item>
           </FactoryOutputs>
-          <CycleTime>15</CycleTime>
-          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+          <CycleTime>30</CycleTime>
+          <!-- <WarehouseTransporterAsset>120028</WarehouseTransporterAsset> -->
           <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
         <LogisticNode>
           <TransporterCountMax>1</TransporterCountMax>
           <TransporterAsset>120028</TransporterAsset>
-          <PathLayers>Street;Railway</PathLayers>
+          <PathLayers>Street</PathLayers>
+          <!-- <PathLayers>Street;Railway</PathLayers> -->
         </LogisticNode>
         <AmbientMoodProvider>
           <AmbientMood>IndustryHeavy</AmbientMood>
@@ -486,7 +473,9 @@
           </Illness>
           </Influence>
         </IncidentInfluencer>
-        <Industrializable/>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
         <QuestObject/>
         <Electrifiable/>
         <EcoSystemProvider/>
@@ -495,6 +484,9 @@
 					  <Main>
 					    <Limit>6</Limit>
 					  </Main>
+            <FertilizerModule>
+              <Limit>1</Limit>
+            </FertilizerModule>
 					</ModuleLimits>
 					<ModulesRequiredForFullProductivity>1</ModulesRequiredForFullProductivity>
 					<FarmType>PlantFarm</FarmType>
@@ -504,7 +496,9 @@
               <ModuleGUID>2143505509</ModuleGUID>
             </Item>
           </ConstructionOptions>
-          <FertilizerModuleData/>
+          <FertilizerModuleData>
+            <Module>2143505500</Module>
+          </FertilizerModuleData>
         </ModuleOwner>
       </Values>
     </Asset>
@@ -522,6 +516,9 @@
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_unload_freight_steel.png</IconFilename>
           <InfoDescription>11143</InfoDescription>
         </Standard>
+        <Building>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+        </Building>
         <Mesh />
         <Object>
           <Variations>
@@ -612,13 +609,13 @@
       </Values>
     </Asset>
   </ModOp>
-  <Group Condition="#shared_freight_station_khobs">
+  <!-- <Group Condition="#shared_freight_station_khobs">
     <ModOp GUID="2143505416" Type="add" Path="Values/ConstructionCategory/BuildingList/">
       <Item>
         <Building>2143505564</Building>
       </Item>
     </ModOp>
-  </Group>
+  </Group> -->
   <!-- END - Freight Unload -->
 
   <!-- START - Blast Furnace Module -->
@@ -798,16 +795,6 @@
       </Values>
     </Asset>
   </ModOp>
-  <ModOp GUID="120056" Type="add" Path="Values/ProductStorageList/ProductList/">
-    <Item>
-      <Product>2143505553</Product>
-    </Item>
-  </ModOp>
-  <ModOp GUID="501961" Type="add" Path="Values/ProductList/List/">
-    <Item>
-      <Product>2143505553</Product>
-    </Item>
-  </ModOp>
   <!-- END - Product -->
 
   <!-- START - Buffs -->
@@ -941,7 +928,34 @@
           </Item>
         </UpgradeCost>
       </Upgradable>
+      <ModuleOwner>
+      	<ModuleLimits>
+      	  <Main>
+      	    <Limit>0</Limit>
+      	  </Main>
+          <FertilizerModule>
+            <Limit>0</Limit>
+          </FertilizerModule>
+      	</ModuleLimits>
+      	<FarmType>PlantFarm</FarmType>
+        <ModulesRequiredForFullProductivity>1</ModulesRequiredForFullProductivity>
+      </ModuleOwner>
     </ModOp>
   </Group>
   <!-- END - ILTP Compatibility -->
+
+  <!-- START - Texts -->
+  <ModOp GUID="25000192" Type="addNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505582</GUID>
+          <Name>Steelworks Industry Module</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_company.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Texts -->
 </ModOps>

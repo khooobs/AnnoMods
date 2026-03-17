@@ -256,5 +256,21 @@
       <GUID>2143505659</GUID>
       <Text>Changement d’équipe</Text>
     </Text>
+    <Text>
+      <GUID>2143505660</GUID>
+      <Text>Costumes - Compatibilité</Text>
+    </Text>
+    <Text>
+      <GUID>2143505661</GUID>
+      <Text>Bonus de compatibilité avec les Villes Industrielles ou le produit de la combinaison partagée.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>Produit du tissu pour les besoins des tisserands.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>Produit des produits textiles.</Text>
+    </Text>
   </ModOp>
 </ModOps>

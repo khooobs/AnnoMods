@@ -254,5 +254,21 @@
       <GUID>2143505659</GUID>
       <Text>Cambio de equipo</Text>
     </Text>
+    <Text>
+      <GUID>2143505660</GUID>
+      <Text>Trajes - Compatibilidad</Text>
+    </Text>
+    <Text>
+      <GUID>2143505661</GUID>
+      <Text>Mejora de compatibilidad con Ciudades Industriales o el producto de traje compartido.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>Produce tejidos para las necesidades de los tejedores.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>Produce productos textiles.</Text>
+    </Text>
   </ModOp>
 </ModOps>

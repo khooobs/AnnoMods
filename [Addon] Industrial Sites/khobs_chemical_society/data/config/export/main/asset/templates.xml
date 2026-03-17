@@ -11,7 +11,7 @@
 					<AssociatedRegions>Moderate</AssociatedRegions>
 					<BuildingType>Factory</BuildingType>
           <AllowChangeVariation>1</AllowChangeVariation>
-		  	  <BuildingCategoryName>2143505717</BuildingCategoryName>
+					<BuildingCategoryName>2143505402</BuildingCategoryName>
           <InfluencedByNeighbors>
             <Item>
               <Building>2143505700</Building>
@@ -266,7 +266,10 @@
 					<HasPollution>1</HasPollution>
 				</Culture>
 				<QuestObject />
-				<Industrializable />
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+          <MandatoryIndustrialization>0</MandatoryIndustrialization>
+        </Industrializable>
 				<Electrifiable />
 				<EcoSystemProvider />
 				<MonoCulture />

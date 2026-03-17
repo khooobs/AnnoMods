@@ -1,9 +1,10 @@
 {
-	"Version": "1.0.2",
+	"Version": "1.0.3",
 	"ModID": "shared_freight_station_khobs",
 	"IncompatibleIds": null,
 	"ModDependencies": [
-		"sharedproduct_tradelicense_taludas"
+		"sharedproduct_tradelicense_taludas",
+		"Taludas_neutral_airport"
 	],
 	"LoadAfterIds": [
 		"shared_neutral_train",

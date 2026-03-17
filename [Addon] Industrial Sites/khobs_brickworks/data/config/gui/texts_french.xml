@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505801</GUID>
-      <Text>Société : Briques</Text>
+      <Text>Entreprise : Bricks</Text>
     </Text>
     <Text>
       <GUID>2143505802</GUID>
@@ -18,7 +18,7 @@
     </Text>
     <Text>
       <GUID>2143505805</GUID>
-      <Text>Fours à briques</Text>
+      <Text>Fours à briqueterie</Text>
     </Text>
     <Text>
       <GUID>2143505806</GUID>
@@ -26,11 +26,11 @@
     </Text>
     <Text>
       <GUID>2143505807</GUID>
-      <Text>Dépôt logistique : Briqueterie</Text>
+      <Text>Dépôt logistique</Text>
     </Text>
     <Text>
       <GUID>2143505808</GUID>
-      <Text>Stocke les marchandises.</Text>
+      <Text>Stockez les marchandises.</Text>
     </Text>
     <Text>
       <GUID>2143505809</GUID>
@@ -42,11 +42,11 @@
     </Text>
     <Text>
       <GUID>2143505811</GUID>
-      <Text>Module industriel de la briqueterie</Text>
+      <Text>Module d’industrie de la briqueterie</Text>
     </Text>
     <Text>
       <GUID>2143505812</GUID>
-      <Text>Grande carrière d’argile</Text>
+      <Text>Grande fosse d’argile</Text>
     </Text>
     <Text>
       <GUID>2143505813</GUID>
@@ -54,7 +54,7 @@
     </Text>
     <Text>
       <GUID>2143505814</GUID>
-      <Text>Expansion industrielle : Adobe</Text>
+      <Text>Expansion sectorielle : Adobe Bricks</Text>
     </Text>
     <Text>
       <GUID>2143505815</GUID>
@@ -62,7 +62,7 @@
     </Text>
     <Text>
       <GUID>2143505816</GUID>
-      <Text>Expansion industrielle : Adobe</Text>
+      <Text>Expansion sectorielle : Adobe Bricks</Text>
     </Text>
     <Text>
       <GUID>2143505817</GUID>
@@ -70,7 +70,7 @@
     </Text>
     <Text>
       <GUID>2143505818</GUID>
-      <Text>Excavation : Quartz Sand</Text>
+      <Text>Fouille : Quartz Sand</Text>
     </Text>
     <Text>
       <GUID>2143505819</GUID>
@@ -78,7 +78,7 @@
     </Text>
     <Text>
       <GUID>2143505820</GUID>
-      <Text>Excavation : Quartz Sand</Text>
+      <Text>Fouille : Quartz Sand</Text>
     </Text>
     <Text>
       <GUID>2143505821</GUID>

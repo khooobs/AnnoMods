@@ -254,5 +254,21 @@
       <GUID>2143505659</GUID>
       <Text>Team Change</Text>
     </Text>
+    <Text>
+      <GUID>2143505660</GUID>
+      <Text>Suits - Compatibility</Text>
+    </Text>
+    <Text>
+      <GUID>2143505661</GUID>
+      <Text>Compatibility buff with Industrial Cities or the shared suit product.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>Produces fabric for the weaver needs.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>Produces textile goods.</Text>
+    </Text>
   </ModOp>
 </ModOps>
