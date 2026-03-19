@@ -78,7 +78,7 @@
   <!-- START - Ore Depot -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
-      <Template>IndustrialCompanyFactory</Template>
+      <Template>BuffFactoryModule</Template>
       <Values>
         <Standard>
           <GUID>2143505500</GUID>
@@ -86,6 +86,9 @@
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage_01.png</IconFilename>
           <InfoDescription>2143505501</InfoDescription>
         </Standard>
+        <Building>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+        </Building>
         <Cost>
           <Costs>
             <Item>
