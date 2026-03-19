@@ -1621,10 +1621,13 @@
         <Values>
           <Standard>
             <GUID>2143505618</GUID>
-            <Name>AssetPool Spinning Mills</Name>
+            <Name>All Spinning Mills</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
+              <Item>
+                <GUID>2143505630</GUID>
+              </Item>
               <Item>
                 <GUID>2143505601</GUID>
               </Item>
@@ -2790,12 +2793,12 @@
         <Values>
           <Standard>
             <GUID>2143505644</GUID>
-            <Name>AssetPool Weavers</Name>
+            <Name>All Weavers</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
               <Item>
-                <GUID>2143505623</GUID>
+                <GUID>2143505630</GUID>
               </Item>
               <Item>
                 <GUID>2143505634</GUID>
@@ -2818,7 +2821,7 @@
         <Values>
           <Standard>
             <GUID>2143505650</GUID>
-            <Name>Depots From Weavers</Name>
+            <Name>All Weavers Depots</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
