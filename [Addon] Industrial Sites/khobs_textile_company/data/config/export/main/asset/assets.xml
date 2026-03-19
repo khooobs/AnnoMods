@@ -1944,6 +1944,7 @@
             <FertilizerModuleData>
               <Module>2143505646</Module>
             </FertilizerModuleData>
+					  <ModuleBuildRadius>100</ModuleBuildRadius>
           </ModuleOwner>
         </Values>
       </Asset>
@@ -2048,6 +2049,7 @@
             <FertilizerModuleData>
               <Module>2143505647</Module>
             </FertilizerModuleData>
+					  <ModuleBuildRadius>100</ModuleBuildRadius>
           </ModuleOwner>
         </Values>
       </Asset>
@@ -2152,6 +2154,7 @@
             <FertilizerModuleData>
               <Module>2143505648</Module>
             </FertilizerModuleData>
+					  <ModuleBuildRadius>100</ModuleBuildRadius>
           </ModuleOwner>
         </Values>
       </Asset>
