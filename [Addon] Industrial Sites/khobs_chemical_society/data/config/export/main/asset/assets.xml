@@ -218,7 +218,6 @@
           <SocketAllocation>Ship;SteamShip;Tradeship</SocketAllocation>
           <SlotCount>4</SlotCount>
           <StackLimit>200</StackLimit>
-          <FixedSlotContent>2143505699</FixedSlotContent>
         </ItemContainer>
         <FeedbackController />
         <Draggable>

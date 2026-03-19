@@ -715,15 +715,35 @@
     </ModOp>
   </Group>
 
+  <!-- START - Adding buildings to pools -->
   <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
     <Item>
+      <GUID>2143505412</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505414</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505417</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505418</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505419</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505420</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505421</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505422</GUID>
+    </Item>
+
+    <Item>
       <GUID>2143505408</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505593</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505692</GUID>
     </Item>
     <Item>
       <GUID>2143505500</GUID>
@@ -732,7 +752,84 @@
       <GUID>2143505507</GUID>
     </Item>
     <Item>
-      <GUID>2143505646</GUID>
+      <GUID>2143505509</GUID>
+    </Item>
+
+    <Item>
+      <GUID>2143505667</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505671</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505673</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505679</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505683</GUID>
+    </Item>
+
+    <Item>
+      <GUID>2143505518</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505522</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505526</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505528</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505530</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505532</GUID>
+    </Item>
+
+    <Item>
+      <GUID>2143505536</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505542</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505545</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505547</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505549</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505551</GUID>
+    </Item>
+
+    <Item>
+      <GUID>2143505801</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505803</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505805</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505807</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505812</GUID>
+    </Item>
+
+    <Item>
+      <GUID>2143505692</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505700</GUID>
     </Item>
     <Item>
       <GUID>2143505714</GUID>
@@ -741,9 +838,34 @@
       <GUID>2143505716</GUID>
     </Item>
     <Item>
-      <GUID>2143505728</GUID>
+      <GUID>2143505745</GUID>
+    </Item>
+
+    <Item>
+      <GUID>2143505593</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505619</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505618</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505644</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505650</GUID>
     </Item>
   </ModOp>
+  <!-- END - Adding buildings to pools -->
+   
+  <!-- START - Adding ships to pools -->
+  <ModOp Type="add" GUID="193982" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2143505565</GUID>
+    </Item>
+  </ModOp>
+  <!-- END - Adding ships to pools -->
 
   <!-- Freight Station integration -->
   <ModOp GUID="25000190" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010360'][last()]">
