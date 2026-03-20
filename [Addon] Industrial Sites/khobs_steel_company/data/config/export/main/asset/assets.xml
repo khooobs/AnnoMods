@@ -78,7 +78,7 @@
   <!-- START - Ore Depot -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
-      <Template>IndustrialCompanyFactory</Template>
+      <Template>BuffFactoryModule</Template>
       <Values>
         <Standard>
           <GUID>2143505500</GUID>
@@ -86,6 +86,13 @@
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage_01.png</IconFilename>
           <InfoDescription>2143505501</InfoDescription>
         </Standard>
+        <Building>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+          <BuildingType>BuildingModule</BuildingType>
+          <SkipUnlockMessage>1</SkipUnlockMessage>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <AllowChangeVariation>1</AllowChangeVariation>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -128,6 +135,13 @@
           </Variations>
         </Object>
         <Mesh/>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505502</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -144,13 +158,6 @@
 		      <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
           <CycleTime>30</CycleTime>
         </FactoryBase>
-        <BuffFactory>
-          <ProductionBuffs>
-            <Item>
-              <ProductivityBuff>2143505502</ProductivityBuff>
-            </Item>
-          </ProductionBuffs>
-        </BuffFactory>
         <Maintenance>
           <Maintenances>
             <Item>
@@ -164,6 +171,11 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <BuildingModule>
+          <ModuleType>AdditionalModule</ModuleType>
+        </BuildingModule>
+        <Infolayer />
+        <UpgradeList />
       </Values>
     </Asset>
     <Asset>
@@ -895,54 +907,6 @@
     </Asset>
   </ModOp>
   <!-- END - Buffs -->
-
-  <!-- START - ILTP Compatibility -->
-  <Group Condition="//Values[Standard/GUID='1404423040']">
-    <ModOp GUID="1404423040" Type="add" Path="Values/">
-      <Upgradable>
-        <NextGUID>2143505507</NextGUID>
-        <UpgradeCost>
-          <Item>
-            <Amount>10000</Amount>
-            <Ingredient>1010017</Ingredient>
-          </Item>
-          <Item>
-            <Amount>10</Amount>
-            <Ingredient>1010196</Ingredient>
-          </Item>
-          <Item>
-            <Amount>4</Amount>
-            <Ingredient>1010205</Ingredient>
-          </Item>
-          <Item>
-            <Amount>3</Amount>
-            <Ingredient>1010218</Ingredient>
-          </Item>
-          <Item>
-            <Amount>3</Amount>
-            <Ingredient>1010207</Ingredient>
-          </Item>
-          <Item>
-            <Amount>3</Amount>
-            <Ingredient>1010202</Ingredient>
-          </Item>
-        </UpgradeCost>
-      </Upgradable>
-      <ModuleOwner>
-      	<ModuleLimits>
-      	  <Main>
-      	    <Limit>0</Limit>
-      	  </Main>
-          <FertilizerModule>
-            <Limit>0</Limit>
-          </FertilizerModule>
-      	</ModuleLimits>
-      	<FarmType>PlantFarm</FarmType>
-        <ModulesRequiredForFullProductivity>1</ModulesRequiredForFullProductivity>
-      </ModuleOwner>
-    </ModOp>
-  </Group>
-  <!-- END - ILTP Compatibility -->
 
   <!-- START - Texts -->
   <ModOp GUID="25000192" Type="addNextSibling">

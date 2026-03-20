@@ -1104,9 +1104,6 @@
           </Costs>
         </Cost>
         <Mesh/>
-        <Text>
-          <TextOverride>135134</TextOverride>
-        </Text>
         <FactoryBase>
           <FactoryOutputs>
             <Item>
@@ -2645,9 +2642,24 @@
         <FactoryBase>
           <FactoryInputs>
             <Item>
-              <Product>1999002300</Product>
+              <Product>114358</Product>
+              <Amount>2</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+            <Item>
+              <Product>2100115089</Product>
+              <Amount>2</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010231</Product>
               <Amount>1</Amount>
-              <StorageAmount>10</StorageAmount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010226</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
             </Item>
           </FactoryInputs>
           <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
