@@ -5,14 +5,6 @@
       <Text>Company: Steelworks</Text>
     </Text>
     <Text>
-      <GUID>2143505410</GUID>
-      <Text>Your Industrial Modules</Text>
-    </Text>
-    <Text>
-      <GUID>2143505411</GUID>
-      <Text>Industrial Modules</Text>
-    </Text>
-    <Text>
       <GUID>2143505500</GUID>
       <Text>Ore Depot</Text>
     </Text>
@@ -21,12 +13,8 @@
       <Text>Centralize the storage of ores for your industry.</Text>
     </Text>
     <Text>
-      <GUID>2143505502</GUID>
-      <Text>Supplied with ores</Text>
-    </Text>
-    <Text>
       <GUID>2143505503</GUID>
-      <Text>No ores supply</Text>
+      <Text>Supplied with ores</Text>
     </Text>
     <Text>
       <GUID>2143505504</GUID>
@@ -34,7 +22,7 @@
     </Text>
     <Text>
       <GUID>2143505505</GUID>
-      <Text>Requires Ore Depot</Text>
+      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505506</GUID>
@@ -70,7 +58,7 @@
     </Text>
     <Text>
       <GUID>2143505553</GUID>
-      <Text>Bulk Steel</Text>
+      <Text>Require Ore Depot</Text>
     </Text>
     <Text>
       <GUID>2143505554</GUID>

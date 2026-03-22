@@ -82,7 +82,7 @@
       <Values>
         <Standard>
           <GUID>2143505500</GUID>
-          <Name>Ore Depot - Module</Name>
+          <Name>Depot - Module - Ore</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage_01.png</IconFilename>
           <InfoDescription>2143505501</InfoDescription>
         </Standard>
@@ -147,16 +147,16 @@
             <Item>
               <Product>1010227</Product>
               <Amount>1</Amount>
-              <StorageAmount>30</StorageAmount>
+              <StorageAmount>12</StorageAmount>
             </Item>
             <Item>
               <Product>1010226</Product>
               <Amount>1</Amount>
-              <StorageAmount>30</StorageAmount>
+              <StorageAmount>12</StorageAmount>
             </Item>
           </FactoryInputs>
 		      <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
-          <CycleTime>30</CycleTime>
+          <CycleTime>10</CycleTime>
         </FactoryBase>
         <Maintenance>
           <Maintenances>
@@ -176,76 +176,6 @@
         </BuildingModule>
         <Infolayer />
         <UpgradeList />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>FestivalBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505502</GUID>
-          <Name>Ore Depot - Module - Positive - Buff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage_01.png</IconFilename>
-        </Standard>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505507</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>1000</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
-        <BuildingUpgrade/>
-        <Buff/>
-        <CultureUpgrade/>
-        <ModuleOwnerUpgrade/>
-        <IncidentInfectableUpgrade/>
-        <PowerplantUpgrade/>
-        <IndustrializableUpgrade/>
-        <ItemContainerUpgrade/>
-        <IncidentInfluencerUpgrade/>
-        <IrrigationUpgrade/>
-        <EcoSystemProviderUpgrade/>
-        <ResourceUpgrade/>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>FestivalBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505503</GUID>
-          <Name>Ore Depot - Module - Negative - Buff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage_01.png</IconFilename>
-        </Standard>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505507</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>-1000</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
-        <BuildingUpgrade/>
-        <Buff/>
-        <CultureUpgrade/>
-        <ModuleOwnerUpgrade/>
-        <IncidentInfectableUpgrade/>
-        <PowerplantUpgrade/>
-        <IndustrializableUpgrade/>
-        <ItemContainerUpgrade/>
-        <IncidentInfluencerUpgrade/>
-        <IrrigationUpgrade/>
-        <EcoSystemProviderUpgrade/>
-        <ResourceUpgrade/>
       </Values>
     </Asset>
   </ModOp>
@@ -396,11 +326,15 @@
           <UpdateMeshSequence>0</UpdateMeshSequence>
         </FeedbackController>
         <Infolayer/>
-        <UpgradeList>
-          <DefaultBuff>2143505503</DefaultBuff>
-        </UpgradeList>
         <Factory7/>
         <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>2143505553</Product>
+              <Amount>1</Amount>
+              <StorageAmount>15</StorageAmount>
+            </Item>
+          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>1010219</Product>
@@ -480,7 +414,7 @@
           </Influence>
         </IncidentInfluencer>
         <Industrializable>
-          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+          <BoostedByIndustrialization>1</BoostedByIndustrialization>
         </Industrializable>
         <QuestObject/>
         <Electrifiable/>
@@ -771,31 +705,22 @@
   </ModOp>
   <!-- END - Blast Furnace Module -->
 
-  <!-- START - Product -->
+  <!-- START - FakeProduct -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
       <Template>Product</Template>
       <Values>
         <Standard>
           <GUID>2143505553</GUID>
-          <Name>Bulk Steel</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_bulk_steel.png</IconFilename>
-          <InfoDescription>11758</InfoDescription>
+          <Name>FakeInputOreResource</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage_01.png</IconFilename>
         </Standard>
         <Locked />
         <Product>
-          <StorageLevel>Building</StorageLevel>
-          <ProductCategory>11797</ProductCategory>
-          <BasePrice>4</BasePrice>
-          <PathLayer>Railway</PathLayer>
-          <IsStrategicResource>1</IsStrategicResource>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
           <AssociatedRegion>Moderate</AssociatedRegion>
-          <ProductionRegions>
-            <Item>
-              <RegionType>Moderate</RegionType>
-            </Item>
-          </ProductionRegions>
-          <HighscoreValueModifier>1</HighscoreValueModifier>
+          <HideInUI>1</HideInUI>
         </Product>
         <ExpeditionAttribute />
       </Values>
@@ -805,6 +730,59 @@
 
   <!-- START - Buffs -->
   <ModOp GUID="191114" Type="addNextSibling">
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505502</GUID>
+          <Name>Depot - Module - Ore - Container</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage_01.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2143505503</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <Text>
+          <TextOverride>2143505503</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505503</GUID>
+          <Name>Depot - Module - Ore - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage_01.png</IconFilename>
+        </Standard>
+        <ItemEffect/>
+        <FactoryUpgrade>
+          <InputAmountUpgrade>
+            <Item>
+              <Product>2143505553</Product>
+              <Amount>-1</Amount>
+            </Item>
+          </InputAmountUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
     <Asset>
       <Template>GuildhouseItem</Template>
       <Values>
