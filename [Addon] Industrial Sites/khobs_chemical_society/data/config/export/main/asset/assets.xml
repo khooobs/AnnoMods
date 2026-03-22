@@ -110,7 +110,7 @@
       <Product>2143505699</Product>
     </Item>
   </ModOp>
-  <ModOp GUID="502043" Type="add" Path="Values/ProductList/List/">
+  <ModOp GUID="502043,502007,502020" Type="add" Path="Values/ProductList/List/">
     <Item>
       <Product>2143505699</Product>
     </Item>
