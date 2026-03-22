@@ -22,7 +22,7 @@
     </Text>
     <Text>
       <GUID>2143505806</GUID>
-      <Text></Text>
+      <Text>Espacio extra para cocer y guardar ladrillos.</Text>
     </Text>
     <Text>
       <GUID>2143505807</GUID>
@@ -33,12 +33,12 @@
       <Text>Guarda productos.</Text>
     </Text>
     <Text>
-      <GUID>2143505809</GUID>
-      <Text>No hay mercancías en el depósito</Text>
+      <GUID>2143505410</GUID>
+      <Text>Módulo de Logística Obligatoria</Text>
     </Text>
     <Text>
       <GUID>2143505810</GUID>
-      <Text>Mercancías en el depósito</Text>
+      <Text>Listos para producir Ladrillo</Text>
     </Text>
     <Text>
       <GUID>2143505811</GUID>

@@ -22,7 +22,7 @@
     </Text>
     <Text>
       <GUID>2143505806</GUID>
-      <Text></Text>
+      <Text>Dodatkowa przestrzeń na wypalanie i przechowywanie cegieł.</Text>
     </Text>
     <Text>
       <GUID>2143505807</GUID>
@@ -33,12 +33,12 @@
       <Text>Przechowywać towary.</Text>
     </Text>
     <Text>
-      <GUID>2143505809</GUID>
-      <Text>Brak towarów w magazynie</Text>
+      <GUID>2143505410</GUID>
+      <Text>Wymagaj modułu logistycznego</Text>
     </Text>
     <Text>
       <GUID>2143505810</GUID>
-      <Text>Towary w zajezdni</Text>
+      <Text>Gotowi do produkcji Brick</Text>
     </Text>
     <Text>
       <GUID>2143505811</GUID>
