@@ -1,17 +1,12 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ModID": "khobs_steel_company",
   "IncompatibleIds": null,
   "ModDependencies": [
-    "Taludas_neutral_airport",
-    "neutral_hacienda_genshi",
     "shared_ui_change_kurila",
-    "shared_neutral_culture_modules",
     "shared-ground-textures-industry-jakob"
   ],
   "LoadAfterIds": [
-    "shared_neutral_culture_modules",
-    "shared_strategic_harbour",
     "IndustrializedLowTierProduction",
     "production_works_kurila"
   ],
