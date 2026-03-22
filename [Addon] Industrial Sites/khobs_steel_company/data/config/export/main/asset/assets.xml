@@ -287,8 +287,7 @@
   <!-- START - Blast Furnace -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
-      <!-- Template isn't IndustrialCompanyFactory to allowing a tier upgrade with ITLP -->
-      <Template>HeavyFactoryBuilding</Template>
+      <Template>IndustrialCompanyFactory</Template>
       <Values>
         <Standard>
           <GUID>2143505507</GUID>
@@ -298,37 +297,34 @@
         </Standard>
         <Building>
           <SecondPartyRelevant>0</SecondPartyRelevant>
-          <BuildModeRandomRotation>180</BuildModeRandomRotation>
-          <AssociatedRegions>Moderate</AssociatedRegions>
-          <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
         <Blocking>
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
         </Blocking>
         <Cost>
           <Costs>
-          <Item>
-            <Ingredient>1010017</Ingredient>
-            <Amount>1500</Amount>
-          </Item>
-          <Item>
-            <Ingredient>1010196</Ingredient>
-            <Amount>8</Amount>
-          </Item>
-          <Item>
-            <Ingredient>1010205</Ingredient>
-            <Amount>10</Amount>
-          </Item>
-          <Item>
-            <Ingredient>1010218</Ingredient>
-            <Amount>5</Amount>
-          </Item>
-          <Item>
-            <Ingredient>1010207</Ingredient>
-          </Item>
-          <Item>
-            <Ingredient>1010202</Ingredient>
-          </Item>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
           </Costs>
         </Cost>
         <Object>
@@ -341,14 +337,14 @@
         <Mesh/>
         <Selection>
           <OnSelection>
-          <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-          <Values>
-            <ActionList/>
-          </Values>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
           </OnSelection>
           <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
           <Colors>
-          <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
           </Colors>
         </Selection>
         <Constructable/>
@@ -413,14 +409,12 @@
             </Item>
           </FactoryOutputs>
           <CycleTime>30</CycleTime>
-          <!-- <WarehouseTransporterAsset>120028</WarehouseTransporterAsset> -->
           <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
         <LogisticNode>
           <TransporterCountMax>1</TransporterCountMax>
           <TransporterAsset>120028</TransporterAsset>
           <PathLayers>Street</PathLayers>
-          <!-- <PathLayers>Street;Railway</PathLayers> -->
         </LogisticNode>
         <AmbientMoodProvider>
           <AmbientMood>IndustryHeavy</AmbientMood>
