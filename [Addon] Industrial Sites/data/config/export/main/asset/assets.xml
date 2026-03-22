@@ -1,18 +1,3 @@
-<!-- GUID DOCUMENTATION 
-2143505400 - Creative Trigger
-2143505401 - Unlock Trigger
-2143505402 - Industrial Site Building Category - Text
-2143505403 - Large Industries - Menu
-2143505404 - Concrete Road - Ornamental
-2143505405 - Industrial Gate Large - Ornamental
-2143505406 - Industrial Barrier Gate - Ornamental
-2143505407 - Industrial Barrier Gate Large - Ornamental
-
-2143505408 - Steel Company - Building
-2143505409 - Companies - Building - Description
-2143505410 - Companies - Building - ModuleListHeader
-2143505411 - Companies - Building - OpenSetPages
--->
 <ModOps>
   <!-- Include Region -->
   <Include File="../../../../khobs/tweaks/assets.include.xml" />
@@ -1010,19 +995,8 @@
       <Template>Text</Template>
       <Values>
         <Standard>
-          <GUID>2143505506</GUID>
-          <Name>Factory Module Infotip</Name>
-          <IconFilename>data/ui/jakob/icon_modular_factory_infotip.png</IconFilename>
-        </Standard>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505554</GUID>
-          <Name>Coal Depot Requirement Infotip</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage_01.png</IconFilename>
+          <GUID>2143505402</GUID>
+          <Name>Mod Category Name</Name>
         </Standard>
       </Values>
     </Asset>
@@ -1033,26 +1007,6 @@
           <GUID>2143505555</GUID>
           <Name>Factory Module Boostable Infotip</Name>
           <IconFilename>data/ui/jakob/icon_modular_factory_infotip.png</IconFilename>
-        </Standard>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505557</GUID>
-          <Name>Factory Module Boost Infotip</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/newspaper/icon_productivity_green.png</IconFilename>
-        </Standard>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505558</GUID>
-          <Name>Factory Slotable Module Infotip</Name>
-          <IconFilename>data/ui/2kimages/main/icons/icon_add_goods_socket.png</IconFilename>
         </Standard>
       </Values>
     </Asset>

@@ -5,40 +5,16 @@
       <Text>Компания: Сталелитейный завод</Text>
     </Text>
     <Text>
-      <GUID>2143505410</GUID>
-      <Text>Ваши промышленные модули</Text>
-    </Text>
-    <Text>
-      <GUID>2143505411</GUID>
-      <Text>Промышленные модули</Text>
-    </Text>
-    <Text>
       <GUID>2143505500</GUID>
       <Text>Рудное депо</Text>
     </Text>
     <Text>
       <GUID>2143505501</GUID>
-      <Text>Централизуйте хранение руды для вашей отрасли.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505502</GUID>
-      <Text>Снабжение рудами</Text>
+      <Text>Храните руды.</Text>
     </Text>
     <Text>
       <GUID>2143505503</GUID>
-      <Text>Нет запасов руды</Text>
-    </Text>
-    <Text>
-      <GUID>2143505504</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505505</GUID>
-      <Text>Требуется рудный склад</Text>
-    </Text>
-    <Text>
-      <GUID>2143505506</GUID>
-      <Text>Промышленный модуль</Text>
+      <Text>Снабжение рудами</Text>
     </Text>
     <Text>
       <GUID>2143505507</GUID>
@@ -46,7 +22,7 @@
     </Text>
     <Text>
       <GUID>2143505508</GUID>
-      <Text>Производит оптовые товары.</Text>
+      <Text>Производит товары.</Text>
     </Text>
     <Text>
       <GUID>2143505509</GUID>
@@ -57,40 +33,8 @@
       <Text>Дополнительная мастерская, посвящённая производству стали.</Text>
     </Text>
     <Text>
-      <GUID>2143505511</GUID>
-      <Text>Руды</Text>
-    </Text>
-    <Text>
-      <GUID>2143505512</GUID>
-      <Text>Доменная печь — модуль</Text>
-    </Text>
-    <Text>
-      <GUID>2143505552</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505553</GUID>
-      <Text>Опучная сталь</Text>
-    </Text>
-    <Text>
-      <GUID>2143505554</GUID>
       <Text>Требуется рудный склад</Text>
-    </Text>
-    <Text>
-      <GUID>2143505555</GUID>
-      <Text>Усиливать с помощью Модулей</Text>
-    </Text>
-    <Text>
-      <GUID>2143505556</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505557</GUID>
-      <Text>Boost Factory</Text>
-    </Text>
-    <Text>
-      <GUID>2143505558</GUID>
-      <Text>Популярные предметы</Text>
     </Text>
     <Text>
       <GUID>2143505559</GUID>
@@ -99,18 +43,6 @@
     <Text>
       <GUID>2143505564</GUID>
       <Text>Грузовой разгрузочный док: сталь</Text>
-    </Text>
-    <Text>
-      <GUID>2143505579</GUID>
-      <Text>Рудное депо</Text>
-    </Text>
-    <Text>
-      <GUID>2143505580</GUID>
-      <Text>Храните руды.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505581</GUID>
-      <Text>Логистический депо</Text>
     </Text>
     <Text>
       <GUID>2143505582</GUID>

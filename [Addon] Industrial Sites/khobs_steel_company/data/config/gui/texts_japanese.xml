@@ -5,40 +5,16 @@
       <Text>会社:製鉄所</Text>
     </Text>
     <Text>
-      <GUID>2143505410</GUID>
-      <Text>君の工業用モジュール</Text>
-    </Text>
-    <Text>
-      <GUID>2143505411</GUID>
-      <Text>産業用モジュール</Text>
-    </Text>
-    <Text>
       <GUID>2143505500</GUID>
       <Text>鉱石デポ</Text>
     </Text>
     <Text>
       <GUID>2143505501</GUID>
-      <Text>産業の鉱石保管を集中管理しましょう。</Text>
-    </Text>
-    <Text>
-      <GUID>2143505502</GUID>
-      <Text>鉱石が供給される</Text>
+      <Text>鉱石を保管しましょう。</Text>
     </Text>
     <Text>
       <GUID>2143505503</GUID>
-      <Text>鉱石供給がない</Text>
-    </Text>
-    <Text>
-      <GUID>2143505504</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505505</GUID>
-      <Text>鉱石デポが必要</Text>
-    </Text>
-    <Text>
-      <GUID>2143505506</GUID>
-      <Text>産業モジュール</Text>
+      <Text>鉱石が供給される</Text>
     </Text>
     <Text>
       <GUID>2143505507</GUID>
@@ -46,7 +22,7 @@
     </Text>
     <Text>
       <GUID>2143505508</GUID>
-      <Text>バルク商品を生産しています。</Text>
+      <Text>商品を生産する。</Text>
     </Text>
     <Text>
       <GUID>2143505509</GUID>
@@ -57,40 +33,8 @@
       <Text>追加の工場は鉄鋼生産に特化しています。</Text>
     </Text>
     <Text>
-      <GUID>2143505511</GUID>
-      <Text>鉱石</Text>
-    </Text>
-    <Text>
-      <GUID>2143505512</GUID>
-      <Text>高炉 - モジュール</Text>
-    </Text>
-    <Text>
-      <GUID>2143505552</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505553</GUID>
-      <Text>バルクスチール</Text>
-    </Text>
-    <Text>
-      <GUID>2143505554</GUID>
       <Text>鉱石デポの要求</Text>
-    </Text>
-    <Text>
-      <GUID>2143505555</GUID>
-      <Text>モジュールによるブースト可能</Text>
-    </Text>
-    <Text>
-      <GUID>2143505556</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505557</GUID>
-      <Text>ブーストファクトリー</Text>
-    </Text>
-    <Text>
-      <GUID>2143505558</GUID>
-      <Text>スロット可能なアイテム</Text>
     </Text>
     <Text>
       <GUID>2143505559</GUID>
@@ -99,18 +43,6 @@
     <Text>
       <GUID>2143505564</GUID>
       <Text>貨物荷降ろしドック:スチール製</Text>
-    </Text>
-    <Text>
-      <GUID>2143505579</GUID>
-      <Text>鉱石デポ</Text>
-    </Text>
-    <Text>
-      <GUID>2143505580</GUID>
-      <Text>鉱石を保管しましょう。</Text>
-    </Text>
-    <Text>
-      <GUID>2143505581</GUID>
-      <Text>物流倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505582</GUID>

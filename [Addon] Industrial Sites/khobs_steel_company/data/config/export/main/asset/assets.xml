@@ -452,7 +452,7 @@
       <Values>
         <Standard>
           <GUID>2143505564</GUID>
-          <Name>Unload Freight Steel</Name>
+          <Name>Unload Freight Steel OLD NOT USED ANYMORE</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_unload_freight_steel.png</IconFilename>
           <InfoDescription>11143</InfoDescription>
         </Standard>
@@ -549,13 +549,6 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- <Group Condition="#shared_freight_station_khobs">
-    <ModOp GUID="2143505416" Type="add" Path="Values/ConstructionCategory/BuildingList/">
-      <Item>
-        <Building>2143505564</Building>
-      </Item>
-    </ModOp>
-  </Group> -->
   <!-- END - Freight Unload -->
 
   <!-- START - Blast Furnace Module -->
@@ -886,9 +879,45 @@
       <Template>Text</Template>
       <Values>
         <Standard>
+          <GUID>2143505501</GUID>
+          <Name>Ore Depot Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505508</GUID>
+          <Name>Blast Furnace Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505510</GUID>
+          <Name>Blast Furnace Module Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
           <GUID>2143505582</GUID>
           <Name>Steelworks Industry Module</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_company.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505585</GUID>
+          <Name>Beam Production Description</Name>
         </Standard>
       </Values>
     </Asset>

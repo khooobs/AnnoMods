@@ -29,16 +29,8 @@
       <Text>El núcleo de tus industrias. Puedes elegir políticas industriales específicas, desbloquear la cadena de producción o activar ciclos de fábricas.</Text>
     </Text>
     <Text>
-      <GUID>2143505567</GUID>
-      <Text>Sector núcleo industrial</Text>
-    </Text>
-    <Text>
-      <GUID>2143505569</GUID>
-      <Text>Subsector industrial</Text>
-    </Text>
-    <Text>
-      <GUID>2143505570</GUID>
-      <Text>El funcionamiento de un sector, representado por una empresa. Es posible decidir sobre las políticas operativas.</Text>
+      <GUID>2143505555</GUID>
+      <Text>Potenciable mediante módulos</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -5,40 +5,16 @@
       <Text>公司：鋼鐵廠</Text>
     </Text>
     <Text>
-      <GUID>2143505410</GUID>
-      <Text>你的工業模組</Text>
-    </Text>
-    <Text>
-      <GUID>2143505411</GUID>
-      <Text>工業模組</Text>
-    </Text>
-    <Text>
       <GUID>2143505500</GUID>
       <Text>礦石庫</Text>
     </Text>
     <Text>
       <GUID>2143505501</GUID>
-      <Text>集中礦石儲存以供產業使用。</Text>
-    </Text>
-    <Text>
-      <GUID>2143505502</GUID>
-      <Text>供應礦石</Text>
+      <Text>儲存礦石。</Text>
     </Text>
     <Text>
       <GUID>2143505503</GUID>
-      <Text>沒有礦石供應</Text>
-    </Text>
-    <Text>
-      <GUID>2143505504</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505505</GUID>
-      <Text>需要礦石倉庫</Text>
-    </Text>
-    <Text>
-      <GUID>2143505506</GUID>
-      <Text>產業模組</Text>
+      <Text>供應礦石</Text>
     </Text>
     <Text>
       <GUID>2143505507</GUID>
@@ -46,7 +22,7 @@
     </Text>
     <Text>
       <GUID>2143505508</GUID>
-      <Text>生產散裝商品。</Text>
+      <Text>生產商品。</Text>
     </Text>
     <Text>
       <GUID>2143505509</GUID>
@@ -57,40 +33,8 @@
       <Text>另有專門生產鋼鐵的額外工作坊。</Text>
     </Text>
     <Text>
-      <GUID>2143505511</GUID>
-      <Text>礦石</Text>
-    </Text>
-    <Text>
-      <GUID>2143505512</GUID>
-      <Text>高爐 - 模組</Text>
-    </Text>
-    <Text>
-      <GUID>2143505552</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505553</GUID>
-      <Text>散裝鋼</Text>
-    </Text>
-    <Text>
-      <GUID>2143505554</GUID>
       <Text>需要礦石倉庫</Text>
-    </Text>
-    <Text>
-      <GUID>2143505555</GUID>
-      <Text>可由模組推進</Text>
-    </Text>
-    <Text>
-      <GUID>2143505556</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505557</GUID>
-      <Text>Boost 工廠</Text>
-    </Text>
-    <Text>
-      <GUID>2143505558</GUID>
-      <Text>可卡槽道具</Text>
     </Text>
     <Text>
       <GUID>2143505559</GUID>
@@ -99,18 +43,6 @@
     <Text>
       <GUID>2143505564</GUID>
       <Text>貨運卸貨碼頭：鋼製</Text>
-    </Text>
-    <Text>
-      <GUID>2143505579</GUID>
-      <Text>礦石庫</Text>
-    </Text>
-    <Text>
-      <GUID>2143505580</GUID>
-      <Text>儲存礦石。</Text>
-    </Text>
-    <Text>
-      <GUID>2143505581</GUID>
-      <Text>後勤倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505582</GUID>

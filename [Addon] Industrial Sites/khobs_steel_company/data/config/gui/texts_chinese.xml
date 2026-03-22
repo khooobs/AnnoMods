@@ -5,40 +5,16 @@
       <Text>公司：钢铁厂</Text>
     </Text>
     <Text>
-      <GUID>2143505410</GUID>
-      <Text>你的工业模块</Text>
-    </Text>
-    <Text>
-      <GUID>2143505411</GUID>
-      <Text>工业模块</Text>
-    </Text>
-    <Text>
       <GUID>2143505500</GUID>
       <Text>矿石仓库</Text>
     </Text>
     <Text>
       <GUID>2143505501</GUID>
-      <Text>集中管理你的工业矿石储存。</Text>
-    </Text>
-    <Text>
-      <GUID>2143505502</GUID>
-      <Text>矿石供应</Text>
+      <Text>储存矿石。</Text>
     </Text>
     <Text>
       <GUID>2143505503</GUID>
-      <Text>没有矿石供应</Text>
-    </Text>
-    <Text>
-      <GUID>2143505504</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505505</GUID>
-      <Text>需要矿石仓库</Text>
-    </Text>
-    <Text>
-      <GUID>2143505506</GUID>
-      <Text>工业模块</Text>
+      <Text>矿石供应</Text>
     </Text>
     <Text>
       <GUID>2143505507</GUID>
@@ -46,7 +22,7 @@
     </Text>
     <Text>
       <GUID>2143505508</GUID>
-      <Text>生产散装商品。</Text>
+      <Text>生产商品。</Text>
     </Text>
     <Text>
       <GUID>2143505509</GUID>
@@ -57,40 +33,8 @@
       <Text>附加车间，专门用于钢铁生产。</Text>
     </Text>
     <Text>
-      <GUID>2143505511</GUID>
-      <Text>矿石</Text>
-    </Text>
-    <Text>
-      <GUID>2143505512</GUID>
-      <Text>高炉 - 模块</Text>
-    </Text>
-    <Text>
-      <GUID>2143505552</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505553</GUID>
-      <Text>散装钢铁</Text>
-    </Text>
-    <Text>
-      <GUID>2143505554</GUID>
       <Text>需要矿石仓库</Text>
-    </Text>
-    <Text>
-      <GUID>2143505555</GUID>
-      <Text>模块可助推</Text>
-    </Text>
-    <Text>
-      <GUID>2143505556</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505557</GUID>
-      <Text>Boost Factory</Text>
-    </Text>
-    <Text>
-      <GUID>2143505558</GUID>
-      <Text>可卡槽物品</Text>
     </Text>
     <Text>
       <GUID>2143505559</GUID>
@@ -99,18 +43,6 @@
     <Text>
       <GUID>2143505564</GUID>
       <Text>货运卸货码头：钢制</Text>
-    </Text>
-    <Text>
-      <GUID>2143505579</GUID>
-      <Text>矿石仓库</Text>
-    </Text>
-    <Text>
-      <GUID>2143505580</GUID>
-      <Text>储存矿石。</Text>
-    </Text>
-    <Text>
-      <GUID>2143505581</GUID>
-      <Text>后勤仓库</Text>
     </Text>
     <Text>
       <GUID>2143505582</GUID>

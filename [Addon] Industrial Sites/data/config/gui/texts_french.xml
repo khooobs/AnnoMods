@@ -26,19 +26,11 @@
     </Text>
     <Text>
       <GUID>2143505409</GUID>
-      <Text>Le cœur de vos industries. Vous pouvez choisir des politiques industrielles spécifiques.</Text>
+      <Text>Le cœur de vos industries. Vous pouvez choisir des politiques industrielles spécifiques, débloquer la chaîne de production ou activer les cycles d’usine.</Text>
     </Text>
     <Text>
-      <GUID>2143505567</GUID>
-      <Text>Secteur central industriel</Text>
-    </Text>
-    <Text>
-      <GUID>2143505569</GUID>
-      <Text>Sous-secteur industriel</Text>
-    </Text>
-    <Text>
-      <GUID>2143505570</GUID>
-      <Text>Le fonctionnement d’un secteur, représenté par une entreprise. Il est possible de décider des politiques opérationnelles.</Text>
+      <GUID>2143505555</GUID>
+      <Text>Boostable par les modules</Text>
     </Text>
   </ModOp>
 </ModOps>

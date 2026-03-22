@@ -5,40 +5,16 @@
       <Text>Unternehmen: Stahlwerke</Text>
     </Text>
     <Text>
-      <GUID>2143505410</GUID>
-      <Text>Ihre Industriemodule</Text>
-    </Text>
-    <Text>
-      <GUID>2143505411</GUID>
-      <Text>Industriemodule</Text>
-    </Text>
-    <Text>
       <GUID>2143505500</GUID>
       <Text>Erzdepot</Text>
     </Text>
     <Text>
       <GUID>2143505501</GUID>
-      <Text>Zentralisieren Sie die Lagerung von Erzen für Ihre Industrie.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505502</GUID>
-      <Text>Versorgung mit Erzen</Text>
+      <Text>Lagern Sie Erze.</Text>
     </Text>
     <Text>
       <GUID>2143505503</GUID>
-      <Text>Keine Erzversorgung</Text>
-    </Text>
-    <Text>
-      <GUID>2143505504</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505505</GUID>
-      <Text>Benötigt Erzdepot</Text>
-    </Text>
-    <Text>
-      <GUID>2143505506</GUID>
-      <Text>Industriemodul</Text>
+      <Text>Versorgung mit Erzen</Text>
     </Text>
     <Text>
       <GUID>2143505507</GUID>
@@ -46,7 +22,7 @@
     </Text>
     <Text>
       <GUID>2143505508</GUID>
-      <Text>Produziert Großgüter.</Text>
+      <Text>Produziert Güter.</Text>
     </Text>
     <Text>
       <GUID>2143505509</GUID>
@@ -57,40 +33,8 @@
       <Text>Zusätzliche Werkstatt, die der Stahlproduktion gewidmet ist.</Text>
     </Text>
     <Text>
-      <GUID>2143505511</GUID>
-      <Text>Erze</Text>
-    </Text>
-    <Text>
-      <GUID>2143505512</GUID>
-      <Text>Hochofen – Modul</Text>
-    </Text>
-    <Text>
-      <GUID>2143505552</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505553</GUID>
-      <Text>Massenstahl</Text>
-    </Text>
-    <Text>
-      <GUID>2143505554</GUID>
       <Text>Erzdepot benötigen</Text>
-    </Text>
-    <Text>
-      <GUID>2143505555</GUID>
-      <Text>Boostbar durch Module</Text>
-    </Text>
-    <Text>
-      <GUID>2143505556</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505557</GUID>
-      <Text>Boost-Fabrik</Text>
-    </Text>
-    <Text>
-      <GUID>2143505558</GUID>
-      <Text>Slot-Gegenstände</Text>
     </Text>
     <Text>
       <GUID>2143505559</GUID>
@@ -99,18 +43,6 @@
     <Text>
       <GUID>2143505564</GUID>
       <Text>Güterentladedock: Stahl</Text>
-    </Text>
-    <Text>
-      <GUID>2143505579</GUID>
-      <Text>Erzdepot</Text>
-    </Text>
-    <Text>
-      <GUID>2143505580</GUID>
-      <Text>Lagern Sie Erze.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505581</GUID>
-      <Text>Logistikdepot</Text>
     </Text>
     <Text>
       <GUID>2143505582</GUID>

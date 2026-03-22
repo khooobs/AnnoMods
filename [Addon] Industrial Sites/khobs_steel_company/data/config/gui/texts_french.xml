@@ -5,40 +5,16 @@
       <Text>Société : Aciérie</Text>
     </Text>
     <Text>
-      <GUID>2143505410</GUID>
-      <Text>Vos modules industriels</Text>
-    </Text>
-    <Text>
-      <GUID>2143505411</GUID>
-      <Text>Modules industriels</Text>
-    </Text>
-    <Text>
       <GUID>2143505500</GUID>
       <Text>Dépôt de minerai</Text>
     </Text>
     <Text>
       <GUID>2143505501</GUID>
-      <Text>Centralisez le stockage des minerais pour votre industrie.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505502</GUID>
-      <Text>Fourni en minerais</Text>
+      <Text>Entreprose les minerais.</Text>
     </Text>
     <Text>
       <GUID>2143505503</GUID>
-      <Text>Aucune réserve de minerais</Text>
-    </Text>
-    <Text>
-      <GUID>2143505504</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505505</GUID>
-      <Text>Nécessite un dépôt de minerai</Text>
-    </Text>
-    <Text>
-      <GUID>2143505506</GUID>
-      <Text>Module industriel</Text>
+      <Text>Fourni en minerais</Text>
     </Text>
     <Text>
       <GUID>2143505507</GUID>
@@ -57,40 +33,8 @@
       <Text>Atelier additionnel dédié à la production d’acier.</Text>
     </Text>
     <Text>
-      <GUID>2143505511</GUID>
-      <Text>Minerais</Text>
-    </Text>
-    <Text>
-      <GUID>2143505512</GUID>
-      <Text>Haut fourneau - Module</Text>
-    </Text>
-    <Text>
-      <GUID>2143505552</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505553</GUID>
-      <Text>Acier</Text>
-    </Text>
-    <Text>
-      <GUID>2143505554</GUID>
       <Text>Nécessite un dépôt de minerai</Text>
-    </Text>
-    <Text>
-      <GUID>2143505555</GUID>
-      <Text>Améliorable par des modules</Text>
-    </Text>
-    <Text>
-      <GUID>2143505556</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505557</GUID>
-      <Text>Module d'Usine</Text>
-    </Text>
-    <Text>
-      <GUID>2143505558</GUID>
-      <Text>Objets équipables</Text>
     </Text>
     <Text>
       <GUID>2143505559</GUID>
@@ -98,19 +42,7 @@
     </Text>
     <Text>
       <GUID>2143505564</GUID>
-      <Text>Quai de déchargement : Acier</Text>
-    </Text>
-    <Text>
-      <GUID>2143505579</GUID>
-      <Text>Dépôt de minerai</Text>
-    </Text>
-    <Text>
-      <GUID>2143505580</GUID>
-      <Text>Stocke les minerais.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505581</GUID>
-      <Text>Dépôt logistique</Text>
+      <Text>Quai de déchargement de marchandises : Acier</Text>
     </Text>
     <Text>
       <GUID>2143505582</GUID>
@@ -118,7 +50,7 @@
     </Text>
     <Text>
       <GUID>2143505584</GUID>
-      <Text>Expansion Industrielle : Poutre</Text>
+      <Text>Expansion industrielle : Poutre</Text>
     </Text>
     <Text>
       <GUID>2143505585</GUID>

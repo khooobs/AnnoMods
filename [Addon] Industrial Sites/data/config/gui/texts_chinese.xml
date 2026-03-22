@@ -29,16 +29,8 @@
       <Text>你们产业的核心。你可以选择特定的工业政策，解锁生产链或启动工厂周期。</Text>
     </Text>
     <Text>
-      <GUID>2143505567</GUID>
-      <Text>产业核心部门</Text>
-    </Text>
-    <Text>
-      <GUID>2143505569</GUID>
-      <Text>工业子部门</Text>
-    </Text>
-    <Text>
-      <GUID>2143505570</GUID>
-      <Text>一个行业的运作，由一家公司代表。运营政策是可以决定的。</Text>
+      <GUID>2143505555</GUID>
+      <Text>模块可助推</Text>
     </Text>
   </ModOp>
 </ModOps>

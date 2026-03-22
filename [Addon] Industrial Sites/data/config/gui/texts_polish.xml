@@ -29,16 +29,8 @@
       <Text>Rdzeń twoich branż. Możesz wybrać konkretne polityki przemysłowe, odblokowując łańcuch produkcji lub aktywując cykle fabryk.</Text>
     </Text>
     <Text>
-      <GUID>2143505567</GUID>
-      <Text>Sektor rdzeniowy przemysłu</Text>
-    </Text>
-    <Text>
-      <GUID>2143505569</GUID>
-      <Text>Podsektor przemysłu</Text>
-    </Text>
-    <Text>
-      <GUID>2143505570</GUID>
-      <Text>Funkcjonowanie sektora, reprezentowanego przez firmę. Możliwe jest ustalanie polityki operacyjnej.</Text>
+      <GUID>2143505555</GUID>
+      <Text>Można je podnieść przez moduły</Text>
     </Text>
   </ModOp>
 </ModOps>
