@@ -61,12 +61,32 @@
       <Text>Planta química: Refrescos</Text>
     </Text>
     <Text>
-      <GUID>2143505737</GUID>
-      <Text>No hay mercancías en el depósito</Text>
+      <GUID>2143505724</GUID>
+      <Text>Depósito logístico de necesidad</Text>
     </Text>
     <Text>
-      <GUID>2143505738</GUID>
-      <Text>Mercancías en el depósito</Text>
+      <GUID>2143505725</GUID>
+      <Text>Depósito logístico de necesidad</Text>
+    </Text>
+    <Text>
+      <GUID>2143505835</GUID>
+      <Text>Depósito logístico de necesidad</Text>
+    </Text>
+    <Text>
+      <GUID>2143505836</GUID>
+      <Text>Depósito logístico de necesidad</Text>
+    </Text>
+    <Text>
+      <GUID>2143505837</GUID>
+      <Text>Depósito logístico de necesidad</Text>
+    </Text>
+    <Text>
+      <GUID>2143505838</GUID>
+      <Text>Depósito logístico de necesidad</Text>
+    </Text>
+    <Text>
+      <GUID>2143505839</GUID>
+      <Text>Depósito logístico de necesidad</Text>
     </Text>
     <Text>
       <GUID>2143505726</GUID>
@@ -131,6 +151,34 @@
     <Text>
       <GUID>2143505745</GUID>
       <Text>Todos los depósitos químicos</Text>
+    </Text>
+    <Text>
+      <GUID>2143505847</GUID>
+      <Text>Champú listo para producir</Text>
+    </Text>
+    <Text>
+      <GUID>2143505848</GUID>
+      <Text>Limonada lista para producir</Text>
+    </Text>
+    <Text>
+      <GUID>2143505849</GUID>
+      <Text>Listo para producir Souvenir</Text>
+    </Text>
+    <Text>
+      <GUID>2143505850</GUID>
+      <Text>Listo para producir laca</Text>
+    </Text>
+    <Text>
+      <GUID>2143505851</GUID>
+      <Text>Celuloide listo para producir</Text>
+    </Text>
+    <Text>
+      <GUID>2143505852</GUID>
+      <Text>Listo para producir etanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143505853</GUID>
+      <Text>Listo para producir refresco</Text>
     </Text>
   </ModOp>
 </ModOps>

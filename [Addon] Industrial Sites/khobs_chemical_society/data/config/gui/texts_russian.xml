@@ -61,12 +61,32 @@
       <Text>Химический завод: сода</Text>
     </Text>
     <Text>
-      <GUID>2143505737</GUID>
-      <Text>Товаров в депо нет</Text>
+      <GUID>2143505724</GUID>
+      <Text>Требуется логистический депо</Text>
     </Text>
     <Text>
-      <GUID>2143505738</GUID>
-      <Text>Товары в депо</Text>
+      <GUID>2143505725</GUID>
+      <Text>Требуется логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505835</GUID>
+      <Text>Требуется логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505836</GUID>
+      <Text>Требуется логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505837</GUID>
+      <Text>Требуется логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505838</GUID>
+      <Text>Требуется логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505839</GUID>
+      <Text>Требуется логистический депо</Text>
     </Text>
     <Text>
       <GUID>2143505726</GUID>
@@ -131,6 +151,34 @@
     <Text>
       <GUID>2143505745</GUID>
       <Text>Все химические склады</Text>
+    </Text>
+    <Text>
+      <GUID>2143505847</GUID>
+      <Text>Готов к производству шампуня</Text>
+    </Text>
+    <Text>
+      <GUID>2143505848</GUID>
+      <Text>Готов к производству лимонада</Text>
+    </Text>
+    <Text>
+      <GUID>2143505849</GUID>
+      <Text>Готов к выпуску сувенира</Text>
+    </Text>
+    <Text>
+      <GUID>2143505850</GUID>
+      <Text>Готов к производству лака</Text>
+    </Text>
+    <Text>
+      <GUID>2143505851</GUID>
+      <Text>Готов к производству целлулоида</Text>
+    </Text>
+    <Text>
+      <GUID>2143505852</GUID>
+      <Text>Готов к производству этанола</Text>
+    </Text>
+    <Text>
+      <GUID>2143505853</GUID>
+      <Text>Готов к производству газировки</Text>
     </Text>
   </ModOp>
 </ModOps>

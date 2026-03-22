@@ -61,12 +61,32 @@
       <Text>Usine chimique : Soda</Text>
     </Text>
     <Text>
-      <GUID>2143505737</GUID>
-      <Text>Aucune marchandise au dépôt</Text>
+      <GUID>2143505724</GUID>
+      <Text>Module logistique requis</Text>
     </Text>
     <Text>
-      <GUID>2143505738</GUID>
-      <Text>Marchandises au dépôt</Text>
+      <GUID>2143505725</GUID>
+      <Text>Module logistique requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505835</GUID>
+      <Text>Module logistique requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505836</GUID>
+      <Text>Module logistique requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505837</GUID>
+      <Text>Module logistique requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505838</GUID>
+      <Text>Module logistique requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505839</GUID>
+      <Text>Module logistique requis</Text>
     </Text>
     <Text>
       <GUID>2143505726</GUID>
@@ -131,6 +151,34 @@
     <Text>
       <GUID>2143505745</GUID>
       <Text>Tous les dépôts chimiques</Text>
+    </Text>
+    <Text>
+      <GUID>2143505847</GUID>
+      <Text>Prêt à produire du shampoing</Text>
+    </Text>
+    <Text>
+      <GUID>2143505848</GUID>
+      <Text>Prêt à produire de la limonade</Text>
+    </Text>
+    <Text>
+      <GUID>2143505849</GUID>
+      <Text>Prêt à produire des souvenirs</Text>
+    </Text>
+    <Text>
+      <GUID>2143505850</GUID>
+      <Text>Prêt à produire du laque</Text>
+    </Text>
+    <Text>
+      <GUID>2143505851</GUID>
+      <Text>Prêt à produire du celluloïd</Text>
+    </Text>
+    <Text>
+      <GUID>2143505852</GUID>
+      <Text>Prêt à produire de l’éthanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143505853</GUID>
+      <Text>Prêt à produire du soda</Text>
     </Text>
   </ModOp>
 </ModOps>

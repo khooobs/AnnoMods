@@ -61,12 +61,32 @@
       <Text>Zakład chemiczny: Soda</Text>
     </Text>
     <Text>
-      <GUID>2143505737</GUID>
-      <Text>Brak towarów w magazynie</Text>
+      <GUID>2143505724</GUID>
+      <Text>Wymagaj logistycznego depozytu</Text>
     </Text>
     <Text>
-      <GUID>2143505738</GUID>
-      <Text>Towary w zajezdni</Text>
+      <GUID>2143505725</GUID>
+      <Text>Wymagaj logistycznego depozytu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505835</GUID>
+      <Text>Wymagaj logistycznego depozytu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505836</GUID>
+      <Text>Wymagaj logistycznego depozytu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505837</GUID>
+      <Text>Wymagaj logistycznego depozytu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505838</GUID>
+      <Text>Wymagaj logistycznego depozytu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505839</GUID>
+      <Text>Wymagaj logistycznego depozytu</Text>
     </Text>
     <Text>
       <GUID>2143505726</GUID>
@@ -131,6 +151,34 @@
     <Text>
       <GUID>2143505745</GUID>
       <Text>Wszystkie magazyny chemiczne</Text>
+    </Text>
+    <Text>
+      <GUID>2143505847</GUID>
+      <Text>Gotowy do produkcji szampon</Text>
+    </Text>
+    <Text>
+      <GUID>2143505848</GUID>
+      <Text>Gotowy do produkcji lemoniady</Text>
+    </Text>
+    <Text>
+      <GUID>2143505849</GUID>
+      <Text>Gotowi do produkcji Souvenir</Text>
+    </Text>
+    <Text>
+      <GUID>2143505850</GUID>
+      <Text>Gotowy do produkcji lakieru</Text>
+    </Text>
+    <Text>
+      <GUID>2143505851</GUID>
+      <Text>Gotowy do produkcji celuloidu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505852</GUID>
+      <Text>Gotowy do produkcji etanolu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505853</GUID>
+      <Text>Gotowi do produkcji napoju gazowanego</Text>
     </Text>
   </ModOp>
 </ModOps>

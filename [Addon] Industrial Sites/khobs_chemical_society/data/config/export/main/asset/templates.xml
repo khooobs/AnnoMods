@@ -267,7 +267,7 @@
 				</Culture>
 				<QuestObject />
         <Industrializable>
-          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+          <BoostedByIndustrialization>1</BoostedByIndustrialization>
           <MandatoryIndustrialization>0</MandatoryIndustrialization>
         </Industrializable>
 				<Electrifiable />

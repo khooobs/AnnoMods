@@ -61,12 +61,32 @@
       <Text>化工厂：苏打</Text>
     </Text>
     <Text>
-      <GUID>2143505737</GUID>
-      <Text>车库内无货物</Text>
+      <GUID>2143505724</GUID>
+      <Text>需要物流仓库</Text>
     </Text>
     <Text>
-      <GUID>2143505738</GUID>
-      <Text>车辆库中的货物</Text>
+      <GUID>2143505725</GUID>
+      <Text>需要物流仓库</Text>
+    </Text>
+    <Text>
+      <GUID>2143505835</GUID>
+      <Text>需要物流仓库</Text>
+    </Text>
+    <Text>
+      <GUID>2143505836</GUID>
+      <Text>需要物流仓库</Text>
+    </Text>
+    <Text>
+      <GUID>2143505837</GUID>
+      <Text>需要物流仓库</Text>
+    </Text>
+    <Text>
+      <GUID>2143505838</GUID>
+      <Text>需要物流仓库</Text>
+    </Text>
+    <Text>
+      <GUID>2143505839</GUID>
+      <Text>需要物流仓库</Text>
     </Text>
     <Text>
       <GUID>2143505726</GUID>
@@ -131,6 +151,34 @@
     <Text>
       <GUID>2143505745</GUID>
       <Text>所有化学仓库</Text>
+    </Text>
+    <Text>
+      <GUID>2143505847</GUID>
+      <Text>准备生产洗发水</Text>
+    </Text>
+    <Text>
+      <GUID>2143505848</GUID>
+      <Text>准备制作柠檬水</Text>
+    </Text>
+    <Text>
+      <GUID>2143505849</GUID>
+      <Text>准备制作纪念品</Text>
+    </Text>
+    <Text>
+      <GUID>2143505850</GUID>
+      <Text>准备生产漆器</Text>
+    </Text>
+    <Text>
+      <GUID>2143505851</GUID>
+      <Text>准备生产赛璐珞</Text>
+    </Text>
+    <Text>
+      <GUID>2143505852</GUID>
+      <Text>准备生产乙醇</Text>
+    </Text>
+    <Text>
+      <GUID>2143505853</GUID>
+      <Text>准备生产汽水</Text>
     </Text>
   </ModOp>
 </ModOps>
