@@ -33,54 +33,74 @@
       <Text>Прядильная мельница: льён</Text>
     </Text>
     <Text>
-      <GUID>2143505606</GUID>
-      <!-- No need to translate -->
-      <Text>Рецепты прядения</Text>
+      <GUID>2143505607</GUID>
+      <Text>Один из символов революции той эпохи, эти кирпичные стены содержат текстильные машины и эффективность, которые пока мало кто понимает.</Text>
+      <!-- Spinning Recipe List Description -->
     </Text>
     <Text>
-      <GUID>2143505607</GUID>
-      <!-- Spinning Recipe List Description -->
-      <Text>Один из символов революции той эпохи, эти кирпичные стены содержат текстильные машины и эффективность, которые пока мало кто понимает.</Text>
+      <GUID>2143505606</GUID>
+      <Text>Рецепты прядения</Text>
+      <!-- no need for translation -->
     </Text>
     <Text>
       <GUID>2143505608</GUID>
       <Text>Шерстяная ткань 1t</Text>
     </Text>
     <Text>
-      <GUID>2143505609</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505610</GUID>
       <Text>Экзотическая шерстяная ткань 2t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505611</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505612</GUID>
       <Text>Фетровая ткань 3t</Text>
     </Text>
     <Text>
-      <GUID>2143505613</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505614</GUID>
       <Text>Хлопковая ткань 4t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505615</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505616</GUID>
       <Text>Льняная ткань 6t</Text>
     </Text>
     <Text>
+      <GUID>2143505609</GUID>
+      <Text>Сделано из: шерсти</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>Сделано из: экзотической шерсти</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>Сделано из: фетра</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>Сделано из: хлопка</Text>
+    </Text>
+    <Text>
       <GUID>2143505617</GUID>
-      <Text></Text>
+      <Text>Сделано из: льна</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>Требуется модуль логистики шерсти</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>Требуется логистический модуль экзотической шерсти</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>Требуется модуль логистики льна</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>Требуется модуль логистики с фетром</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>Требуется модуль логистики хлопка</Text>
     </Text>
     <Text>
       <GUID>2143505618</GUID>
@@ -95,36 +115,28 @@
       <Text>Дополнительная мастерская, посвящённая текстилю.</Text>
     </Text>
     <Text>
-      <GUID>2143505621</GUID>
-      <Text>Товаров в депо нет</Text>
-    </Text>
-    <Text>
       <GUID>2143505622</GUID>
-      <Text>Логистический депо</Text>
+      <Text>Логистический модуль: шерсть</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>Логистический депо</Text>
+      <Text>Логистический модуль: Экзотическая шерсть</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>Логистический депо</Text>
+      <Text>Логистический модуль: Фетр</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>Логистический депо</Text>
+      <Text>Логистический модуль: хлопок</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>Логистический депо</Text>
+      <Text>Логистический модуль: Лен</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
       <Text>Магазинные товары.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505628</GUID>
-      <Text>Товары в депо</Text>
     </Text>
     <Text>
       <GUID>2143505629</GUID>
@@ -136,7 +148,7 @@
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>Ткач: рабочая одежда</Text>
+      <Text>Уивер: Одежда</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
@@ -153,46 +165,47 @@
     <Text>
       <GUID>2143505635</GUID>
       <Text>Ткач</Text>
+      <!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505636</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505637</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505638</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505639</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505640</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505641</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505642</GUID>
-      <!-- No need to translate -->
       <Text></Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>Требуется логистический модуль</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>Требуется логистический модуль</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>Требуется логистический модуль</Text>
     </Text>
     <Text>
       <GUID>2143505643</GUID>
-      <Text></Text>
+      <Text>Требуется логистический модуль</Text>
     </Text>
     <Text>
       <GUID>2143505644</GUID>
-      <Text>Все ткачи</Text>
+      <Text>Вся ткацкая промышленность</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
@@ -211,12 +224,28 @@
       <Text>Логистический депо</Text>
     </Text>
     <Text>
+      <GUID>2143505827</GUID>
+      <Text>Готовы к производству одежды</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>Готовы к производству шляп.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>Готовы к производству костюмов</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>Готов к производству гобеленов</Text>
+    </Text>
+    <Text>
       <GUID>2143505649</GUID>
-      <Text>Модуль Уивера</Text>
+      <Text>Ткацкий модуль</Text>
     </Text>
     <Text>
       <GUID>2143505650</GUID>
-      <Text>Все депо от Weavers</Text>
+      <Text>Депо всей ткацкой промышленности</Text>
     </Text>
     <Text>
       <GUID>2143505651</GUID>
@@ -229,18 +258,6 @@
     <Text>
       <GUID>2143505653</GUID>
       <Text>Расширение отрасли: ткани</Text>
-    </Text>
-    <Text>
-      <GUID>2143505654</GUID>
-      <Text>Заводской цикл (WIP)</Text>
-    </Text>
-    <Text>
-      <GUID>2143505655</GUID>
-      <Text>Работа в процессе</Text>
-    </Text>
-    <Text>
-      <GUID>2143505656</GUID>
-      <Text>Заводской цикл (WIP)</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>

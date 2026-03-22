@@ -205,9 +205,6 @@
               <Asset>2143505651</Asset>
             </Item>
             <Item>
-              <Asset>2143505654</Asset>
-            </Item>
-            <Item>
               <Asset>2143505657</Asset>
             </Item>
           </AssetList>
@@ -304,6 +301,9 @@
             <ModuleBuildRadius>100</ModuleBuildRadius>
             <FertilizerModuleData/>
           </ModuleOwner>
+          <Industrializable>
+            <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          </Industrializable>
         </Values>
       </Asset>
       <Asset>
@@ -362,10 +362,14 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <UpgradeList>
-            <DefaultBuff>2143505621</DefaultBuff>
-          </UpgradeList>
           <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505621</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>1500020000</Product>
@@ -406,6 +410,9 @@
               <Module>2143505622</Module>
             </FertilizerModuleData>
           </ModuleOwner>
+          <Industrializable>
+            <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          </Industrializable>
         </Values>
       </Asset>
       <Asset>
@@ -464,10 +471,14 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <UpgradeList>
-            <DefaultBuff>2143505621</DefaultBuff>
-          </UpgradeList>
           <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505628</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>1500020000</Product>
@@ -508,6 +519,9 @@
               <Module>2143505623</Module>
             </FertilizerModuleData>
           </ModuleOwner>
+          <Industrializable>
+            <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          </Industrializable>
         </Values>
       </Asset>
       <Asset>
@@ -566,10 +580,14 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <UpgradeList>
-            <DefaultBuff>2143505621</DefaultBuff>
-          </UpgradeList>
           <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505655</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>1500020000</Product>
@@ -610,6 +628,9 @@
               <Module>2143505624</Module>
             </FertilizerModuleData>
           </ModuleOwner>
+          <Industrializable>
+            <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          </Industrializable>
         </Values>
       </Asset>
       <Asset>
@@ -668,10 +689,14 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <UpgradeList>
-            <DefaultBuff>2143505621</DefaultBuff>
-          </UpgradeList>
           <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505656</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>1500020000</Product>
@@ -712,6 +737,9 @@
               <Module>2143505625</Module>
             </FertilizerModuleData>
           </ModuleOwner>
+          <Industrializable>
+            <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          </Industrializable>
         </Values>
       </Asset>
       <Asset>
@@ -770,10 +798,14 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <UpgradeList>
-            <DefaultBuff>2143505621</DefaultBuff>
-          </UpgradeList>
           <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505654</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>1500020000</Product>
@@ -814,6 +846,9 @@
               <Module>2143505626</Module>
             </FertilizerModuleData>
           </ModuleOwner>
+          <Industrializable>
+            <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          </Industrializable>
         </Values>
       </Asset>
     </ModOp>
@@ -862,7 +897,6 @@
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeDescriptionText>2143505609</RecipeDescriptionText>
             <RecipeBuilding>2143505601</RecipeBuilding>
             <RecipeImage>data/ui/2kimages/main/3dicons/icon_cloth.png</RecipeImage>
             <RecipeIngredientUIData>
@@ -886,7 +920,6 @@
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool_2.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeDescriptionText>2143505611</RecipeDescriptionText>
             <RecipeBuilding>2143505602</RecipeBuilding>
             <RecipeImage>data/ui/2kimages/main/3dicons/icon_cloth.png</RecipeImage>
             <RecipeIngredientUIData>
@@ -910,7 +943,6 @@
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_felt.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeDescriptionText>2143505613</RecipeDescriptionText>
             <RecipeBuilding>2143505603</RecipeBuilding>
             <RecipeImage>data/ui/2kimages/main/3dicons/icon_cloth.png</RecipeImage>
             <RecipeIngredientUIData>
@@ -944,7 +976,6 @@
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_cotton.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeDescriptionText>2143505615</RecipeDescriptionText>
             <RecipeBuilding>2143505604</RecipeBuilding>
             <RecipeImage>data/ui/2kimages/main/3dicons/icon_cloth.png</RecipeImage>
             <RecipeIngredientUIData>
@@ -968,7 +999,6 @@
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_linen.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeDescriptionText>2143505617</RecipeDescriptionText>
             <RecipeBuilding>2143505605</RecipeBuilding>
             <RecipeImage>data/ui/2kimages/main/3dicons/icon_cloth.png</RecipeImage>
             <RecipeIngredientUIData>
@@ -1070,37 +1100,6 @@
     <!-- START - Spinning Depot -->
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
-        <Template>GuildhouseBuff</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505621</GUID>
-            <Name>Depot - Module - Negative - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
-          </Standard>
-          <ItemEffect/>
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>-1000</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-          </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade>
-            <HideBuff>0</HideBuff>
-          </CultureUpgrade>
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
-        </Values>
-      </Asset>
-      <Asset>
         <Template>BuffFactoryModule</Template>
         <Values>
           <Standard>
@@ -1111,7 +1110,7 @@
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505411</BuildingCategoryName>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -1174,7 +1173,7 @@
           <BuffFactory>
             <ProductionBuffs>
               <Item>
-                <ProductivityBuff>2143505628</ProductivityBuff>
+                <ProductivityBuff>2143505822</ProductivityBuff>
               </Item>
             </ProductionBuffs>
           </BuffFactory>
@@ -1207,7 +1206,7 @@
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505411</BuildingCategoryName>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -1270,7 +1269,7 @@
           <BuffFactory>
             <ProductionBuffs>
               <Item>
-                <ProductivityBuff>2143505628</ProductivityBuff>
+                <ProductivityBuff>2143505823</ProductivityBuff>
               </Item>
             </ProductionBuffs>
           </BuffFactory>
@@ -1303,7 +1302,7 @@
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505411</BuildingCategoryName>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -1366,7 +1365,7 @@
           <BuffFactory>
             <ProductionBuffs>
               <Item>
-                <ProductivityBuff>2143505628</ProductivityBuff>
+                <ProductivityBuff>2143505824</ProductivityBuff>
               </Item>
             </ProductionBuffs>
           </BuffFactory>
@@ -1399,7 +1398,7 @@
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505411</BuildingCategoryName>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -1462,7 +1461,7 @@
           <BuffFactory>
             <ProductionBuffs>
               <Item>
-                <ProductivityBuff>2143505628</ProductivityBuff>
+                <ProductivityBuff>2143505825</ProductivityBuff>
               </Item>
             </ProductionBuffs>
           </BuffFactory>
@@ -1495,7 +1494,7 @@
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505411</BuildingCategoryName>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -1558,7 +1557,7 @@
           <BuffFactory>
             <ProductionBuffs>
               <Item>
-                <ProductivityBuff>2143505628</ProductivityBuff>
+                <ProductivityBuff>2143505826</ProductivityBuff>
               </Item>
             </ProductionBuffs>
           </BuffFactory>
@@ -1580,39 +1579,103 @@
           </BuildingModule>
         </Values>
       </Asset>
+    </ModOp>
+    <!-- END - Spinning Depot -->
+
+    <!-- START - FakeProducts -->
+    <ModOp Type="addNextSibling" GUID="1591">
       <Asset>
-        <Template>GuildhouseBuff</Template>
+        <Template>Product</Template>
         <Values>
           <Standard>
-            <GUID>2143505628</GUID>
-            <Name>Depot - Module - Positive - Buff</Name>
+            <GUID>2143505621</GUID>
+            <Name>FakeInputSpinningWoolResource</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
           </Standard>
-          <ItemEffect/>
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>1000</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-          </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade>
-            <HideBuff>0</HideBuff>
-          </CultureUpgrade>
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
+          <Locked/>
+          <Product>
+            <DeltaOnly>1</DeltaOnly>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <HideInUI>1</HideInUI>
+          </Product>
+          <ExpeditionAttribute/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505628</GUID>       
+            <Name>FakeInputSpinningExoticResource</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <Locked/>
+          <Product>
+            <DeltaOnly>1</DeltaOnly>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <HideInUI>1</HideInUI>
+          </Product>
+          <ExpeditionAttribute/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505656</GUID>
+            <Name>FakeInputSpinningCottonResource</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <Locked/>
+          <Product>
+            <DeltaOnly>1</DeltaOnly>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <HideInUI>1</HideInUI>
+          </Product>
+          <ExpeditionAttribute/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505654</GUID>
+            <Name>FakeInputSpinningLinenResource</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <Locked/>
+          <Product>
+            <DeltaOnly>1</DeltaOnly>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <HideInUI>1</HideInUI>
+          </Product>
+          <ExpeditionAttribute/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505655</GUID>
+            <Name>FakeInputSpinningFeltResource</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <Locked/>
+          <Product>
+            <DeltaOnly>1</DeltaOnly>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <HideInUI>1</HideInUI>
+          </Product>
+          <ExpeditionAttribute/>
         </Values>
       </Asset>
     </ModOp>
-    <!-- END - Spinning Depot -->
+    <!-- END - FakeProducts -->
     
     <!-- START - ItemEffectTargetPool -->
     <ModOp Type="addNextSibling" GUID="25546">
@@ -1649,12 +1712,283 @@
       </Asset>
     </ModOp>
     <!-- END - ItemEffectTargetPool -->
+
+   <!-- START - Buffs -->
+    <ModOp GUID="191114" Type="addNextSibling">
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505609</GUID>
+            <Name>Depot - Module - 1t - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <ItemEffect />
+          <FactoryUpgrade>
+            <InputAmountUpgrade>
+              <Item>
+                <Product>2143505621</Product>
+                <Amount>-1</Amount>
+              </Item>
+            </InputAmountUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>1</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505611</GUID>
+            <Name>Depot - Module - 2t - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <ItemEffect />
+          <FactoryUpgrade>
+            <InputAmountUpgrade>
+              <Item>
+                <Product>2143505628</Product>
+                <Amount>-1</Amount>
+              </Item>
+            </InputAmountUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>1</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505613</GUID>
+            <Name>Depot - Module - 3t - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <ItemEffect />
+          <FactoryUpgrade>
+            <InputAmountUpgrade>
+              <Item>
+                <Product>2143505655</Product>
+                <Amount>-1</Amount>
+              </Item>
+            </InputAmountUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>1</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505615</GUID>
+            <Name>Depot - Module - 4t - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <ItemEffect />
+          <FactoryUpgrade>
+            <InputAmountUpgrade>
+              <Item>
+                <Product>2143505656</Product>
+                <Amount>-1</Amount>
+              </Item>
+            </InputAmountUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>1</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505617</GUID>
+            <Name>Depot - Module - 6t - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <ItemEffect />
+          <FactoryUpgrade>
+            <InputAmountUpgrade>
+              <Item>
+                <Product>2143505654</Product>
+                <Amount>-1</Amount>
+              </Item>
+            </InputAmountUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>1</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+        </Values>
+      </Asset>
+
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505822</GUID>
+            <Name>Depot - Module - 1t - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505609</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+          <Text>
+            <TextOverride>2143505609</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505823</GUID>
+            <Name>Depot - Module - 2t - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505611</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+          <Text>
+            <TextOverride>2143505611</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505824</GUID>
+            <Name>Depot - Module - 3t - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505613</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+          <Text>
+            <TextOverride>2143505613</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505825</GUID>
+            <Name>Depot - Module - 4t - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505615</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+          <Text>
+            <TextOverride>2143505615</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505826</GUID>
+            <Name>Depot - Module - 6t - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505617</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+          <Text>
+            <TextOverride>2143505617</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END - Buffs -->
   </Group>
   <!-- END - Spinning Mills Industry -->
 
   <!-- START - Weaving Industry -->
   <Group>
-    <!-- START - Weaver Buildings -->
+    <!-- START - Weaving Buildings -->
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
         <Template>IndustrialCompanyFactory</Template>
@@ -1736,6 +2070,9 @@
             <IsBlank>1</IsBlank>
           </RecipeBuilding>
           <ModuleOwner />
+          <Industrializable>
+            <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          </Industrializable>
         </Values>
       </Asset>
       <Asset>
@@ -1794,11 +2131,15 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <UpgradeList>
-            <DefaultBuff>2143505621</DefaultBuff>
-          </UpgradeList>
           <BuffFactory/>
           <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505637</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>1010237</Product>
@@ -1841,6 +2182,9 @@
               <Module>2143505645</Module>
             </FertilizerModuleData>
           </ModuleOwner>
+          <Industrializable>
+            <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          </Industrializable>
         </Values>
       </Asset>
       <Asset>
@@ -1899,11 +2243,16 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <UpgradeList>
-            <DefaultBuff>2143505621</DefaultBuff>
-          </UpgradeList>
+          
           <BuffFactory/>
           <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505639</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>120037</Product>
@@ -1946,6 +2295,9 @@
             </FertilizerModuleData>
 					  <ModuleBuildRadius>100</ModuleBuildRadius>
           </ModuleOwner>
+          <Industrializable>
+            <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          </Industrializable>
         </Values>
       </Asset>
       <Asset>
@@ -2004,11 +2356,16 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <UpgradeList>
-            <DefaultBuff>2143505621</DefaultBuff>
-          </UpgradeList>
+          
           <BuffFactory/>
           <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505641</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>114430</Product>
@@ -2051,6 +2408,9 @@
             </FertilizerModuleData>
 					  <ModuleBuildRadius>100</ModuleBuildRadius>
           </ModuleOwner>
+          <Industrializable>
+            <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          </Industrializable>
         </Values>
       </Asset>
       <Asset>
@@ -2109,11 +2469,16 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <UpgradeList>
-            <DefaultBuff>2143505621</DefaultBuff>
-          </UpgradeList>
+          
           <BuffFactory/>
           <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505643</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>114404</Product>
@@ -2156,6 +2521,9 @@
             </FertilizerModuleData>
 					  <ModuleBuildRadius>100</ModuleBuildRadius>
           </ModuleOwner>
+          <Industrializable>
+            <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          </Industrializable>
         </Values>
       </Asset>
     </ModOp>
@@ -2201,7 +2569,6 @@
             <IconFilename>data/ui/2kimages/main/3dicons/icon_working_cloth.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeDescriptionText>2143505637</RecipeDescriptionText>
             <RecipeBuilding>2143505631</RecipeBuilding>
             <RecipeImage>data/ui/2kimages/main/3dicons/icon_working_cloth.png</RecipeImage>
             <RecipeIngredientUIData>
@@ -2228,7 +2595,6 @@
             <IconFilename>data/ui/2kimages/main/3dicons/icon_bowler_hat.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeDescriptionText>2143505639</RecipeDescriptionText>
             <RecipeBuilding>2143505632</RecipeBuilding>
             <RecipeImage>data/ui/2kimages/main/3dicons/icon_bowler_hat.png</RecipeImage>
             <RecipeIngredientUIData>
@@ -2255,7 +2621,6 @@
             <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_suits.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeDescriptionText>2143505641</RecipeDescriptionText>
             <RecipeBuilding>2143505633</RecipeBuilding>
             <RecipeImage>data/ui/2kimages/main/3dicons/goods_africa/icon_suits.png</RecipeImage>
             <RecipeIngredientUIData>
@@ -2282,7 +2647,6 @@
             <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_tapestries.png</IconFilename>
           </Standard>
           <Recipe>
-            <RecipeDescriptionText>2143505643</RecipeDescriptionText>
             <RecipeBuilding>2143505634</RecipeBuilding>
             <RecipeImage>data/ui/2kimages/main/3dicons/goods_africa/icon_tapestries.png</RecipeImage>
             <RecipeIngredientUIData>
@@ -2316,7 +2680,7 @@
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505411</BuildingCategoryName>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -2379,7 +2743,7 @@
           <BuffFactory>
             <ProductionBuffs>
               <Item>
-                <ProductivityBuff>2143505628</ProductivityBuff>
+                <ProductivityBuff>2143505831</ProductivityBuff>
               </Item>
             </ProductionBuffs>
           </BuffFactory>
@@ -2412,7 +2776,7 @@
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505411</BuildingCategoryName>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -2480,7 +2844,7 @@
           <BuffFactory>
             <ProductionBuffs>
               <Item>
-                <ProductivityBuff>2143505628</ProductivityBuff>
+                <ProductivityBuff>2143505832</ProductivityBuff>
               </Item>
             </ProductionBuffs>
           </BuffFactory>
@@ -2513,7 +2877,7 @@
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505411</BuildingCategoryName>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -2581,7 +2945,7 @@
           <BuffFactory>
             <ProductionBuffs>
               <Item>
-                <ProductivityBuff>2143505628</ProductivityBuff>
+                <ProductivityBuff>2143505833</ProductivityBuff>
               </Item>
             </ProductionBuffs>
           </BuffFactory>
@@ -2614,7 +2978,7 @@
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505411</BuildingCategoryName>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -2682,7 +3046,7 @@
           <BuffFactory>
             <ProductionBuffs>
               <Item>
-                <ProductivityBuff>2143505628</ProductivityBuff>
+                <ProductivityBuff>2143505834</ProductivityBuff>
               </Item>
             </ProductionBuffs>
           </BuffFactory>
@@ -2720,7 +3084,7 @@
           </Standard>
           <Building>
             <AllowChangeVariation>1</AllowChangeVariation>
-            <BuildingCategoryName>2143505411</BuildingCategoryName>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
           </Building>
           <Cost>
             <Costs>
@@ -2804,7 +3168,7 @@
                 <GUID>2143505630</GUID>
               </Item>
               <Item>
-                <GUID>2143505634</GUID>
+                <GUID>2143505631</GUID>
               </Item>
               <Item>
                 <GUID>2143505634</GUID>
@@ -2846,6 +3210,303 @@
       </Asset>
     </ModOp>
     <!-- END - ItemEffectTargetPool -->
+
+    
+    <!-- START - FakeProducts -->
+    <ModOp Type="addNextSibling" GUID="1591">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505637</GUID>
+            <Name>FakeInputWeavingClothResource</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <Locked/>
+          <Product>
+            <DeltaOnly>1</DeltaOnly>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <HideInUI>1</HideInUI>
+          </Product>
+          <ExpeditionAttribute/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505639</GUID>       
+            <Name>FakeInputWeavingHatResource</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <Locked/>
+          <Product>
+            <DeltaOnly>1</DeltaOnly>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <HideInUI>1</HideInUI>
+          </Product>
+          <ExpeditionAttribute/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505641</GUID>
+            <Name>FakeInputWeavingSuitResource</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <Locked/>
+          <Product>
+            <DeltaOnly>1</DeltaOnly>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <HideInUI>1</HideInUI>
+          </Product>
+          <ExpeditionAttribute/>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505643</GUID>
+            <Name>FakeInputWeavingTapestryResource</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <Locked/>
+          <Product>
+            <DeltaOnly>1</DeltaOnly>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <HideInUI>1</HideInUI>
+          </Product>
+          <ExpeditionAttribute/>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- END - FakeProducts -->
+
+    <!-- START - Buffs -->
+    <ModOp GUID="191114" Type="addNextSibling">
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505827</GUID>
+            <Name>Depot - Module - Cloth - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <ItemEffect />
+          <FactoryUpgrade>
+            <InputAmountUpgrade>
+              <Item>
+                <Product>2143505637</Product>
+                <Amount>-1</Amount>
+              </Item>
+            </InputAmountUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>1</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505828</GUID>
+            <Name>Depot - Module - Hat - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <ItemEffect />
+          <FactoryUpgrade>
+            <InputAmountUpgrade>
+              <Item>
+                <Product>2143505639</Product>
+                <Amount>-1</Amount>
+              </Item>
+            </InputAmountUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>1</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505829</GUID>
+            <Name>Depot - Module - Suit - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <ItemEffect />
+          <FactoryUpgrade>
+            <InputAmountUpgrade>
+              <Item>
+                <Product>2143505641</Product>
+                <Amount>-1</Amount>
+              </Item>
+            </InputAmountUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>1</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505830</GUID>
+            <Name>Depot - Module - Tapestry - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <ItemEffect />
+          <FactoryUpgrade>
+            <InputAmountUpgrade>
+              <Item>
+                <Product>2143505643</Product>
+                <Amount>-1</Amount>
+              </Item>
+            </InputAmountUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>1</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+        </Values>
+      </Asset>
+
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505831</GUID>
+            <Name>Depot - Module - Cloth - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505827</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+          <Text>
+            <TextOverride>2143505827</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505832</GUID>
+            <Name>Depot - Module - Hat - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505828</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+          <Text>
+            <TextOverride>2143505828</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505833</GUID>
+            <Name>Depot - Module - Suit - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505829</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+          <Text>
+            <TextOverride>2143505829</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>EffectContainer</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505834</GUID>
+            <Name>Depot - Module - Tapestry - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+          </Standard>
+          <EffectContainer>
+            <Effects>
+              <Item>
+                <Effect>2143505830</Effect>
+              </Item>
+            </Effects>
+          </EffectContainer>
+          <Text>
+            <TextOverride>2143505830</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- END - Buffs -->
   </Group>
   <!-- END - Weaving Industry -->
 
@@ -2882,42 +3543,6 @@
         </ItemWithUI>
         <ItemAction>
           <ActiveBuff>2143505653</ActiveBuff>
-          <ActionScope>SelfRadius</ActionScope>
-          <CanEndItemAction>1</CanEndItemAction>
-          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
-        </ItemAction>
-        <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
-        <Buff />
-        <CraftableItem />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseItem</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505654</GUID>
-          <Name>Factory Cycle</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_factory_cycle.png</IconFilename>
-          <InfoDescription>2143505655</InfoDescription>
-        </Standard>
-        <Item>
-          <Allocation>None</Allocation>
-          <Rarity>Legendary</Rarity>
-          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
-          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
-          <MaxStackSize>1</MaxStackSize>
-          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
-          <HasAction>1</HasAction> <!-- enable ItemAction -->
-          <OnlyEquippableOnce>1</OnlyEquippableOnce>
-        </Item>
-        <ItemEffect/>
-        <ItemWithUI>
-          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
-        </ItemWithUI>
-        <ItemAction>
-          <ActiveBuff>2143505656</ActiveBuff>
           <ActionScope>SelfRadius</ActionScope>
           <CanEndItemAction>1</CanEndItemAction>
           <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
@@ -2976,8 +3601,8 @@
     </Asset>
   </ModOp>
   <!-- END - Textile Company Slotables Items -->
-   
-   <!-- START - Buffs -->
+
+  <!-- START - Buffs -->
   <ModOp GUID="191114" Type="addNextSibling">
     <Asset>
       <Template>GuildhouseBuff</Template>
@@ -3027,38 +3652,6 @@
         </BuildingUpgrade>
         <Buff />
         <CultureUpgrade />
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505656</GUID>
-          <Name>Factory Cycle</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_factory_cycle.png</IconFilename>
-        </Standard>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505644</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <FactoryUpgrade />
-        <BuildingUpgrade />
-        <Buff />
-        <CultureUpgrade>
-          <HideBuff>1</HideBuff>
-        </CultureUpgrade>
         <ModuleOwnerUpgrade />
         <IncidentInfectableUpgrade />
         <PowerplantUpgrade />
@@ -3157,6 +3750,7 @@
       </Values>
     </Asset>
   </ModOp>
+
   <!-- END - Buffs -->
 
 
@@ -3174,7 +3768,7 @@
     </Asset>
   </ModOp>
   <!-- END - Texts -->
-  
+
 
   <!-- START - Tweaks -->
   <Group Condition="#wool_fabric_kurila">

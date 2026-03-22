@@ -33,54 +33,74 @@
       <Text>방적 공장: 리넨</Text>
     </Text>
     <Text>
-      <GUID>2143505606</GUID>
-      <!-- No need to translate -->
-      <Text>방적 레시피</Text>
+      <GUID>2143505607</GUID>
+      <Text>이 시대 혁명의 상징 중 하나인 이 벽돌 벽에는 아직 거의 아무도 이해하지 못하는 섬유 기계와 효율성이 담겨 있습니다.</Text>
+      <!-- Spinning Recipe List Description -->
     </Text>
     <Text>
-      <GUID>2143505607</GUID>
-      <!-- Spinning Recipe List Description -->
-      <Text>이 시대 혁명의 상징 중 하나인 이 벽돌 벽에는 아직 거의 아무도 이해하지 못하는 섬유 기계와 효율성이 담겨 있습니다.</Text>
+      <GUID>2143505606</GUID>
+      <Text>방적 레시피</Text>
+      <!-- no need for translation -->
     </Text>
     <Text>
       <GUID>2143505608</GUID>
       <Text>울 원단 1t</Text>
     </Text>
     <Text>
-      <GUID>2143505609</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505610</GUID>
       <Text>이국적인 울 원단 2t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505611</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505612</GUID>
       <Text>펠트 패브릭 3t</Text>
     </Text>
     <Text>
-      <GUID>2143505613</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505614</GUID>
       <Text>코튼 패브릭 4t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505615</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505616</GUID>
       <Text>리넨 패브릭 6t</Text>
     </Text>
     <Text>
+      <GUID>2143505609</GUID>
+      <Text>재질: 양모</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>재료: 이국적인 울(Exotic Wool)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>재질: 펠트</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>소재: 면(Cotton)</Text>
+    </Text>
+    <Text>
       <GUID>2143505617</GUID>
-      <Text></Text>
+      <Text>재질: 리넨</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>양모 물류 모듈 요구</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>이국적인 울 물류 모듈 요구</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>린넨 물류 모듈 필수</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>펠트 물류 모듈 요구</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>면화 물류 모듈 요구사항</Text>
     </Text>
     <Text>
       <GUID>2143505618</GUID>
@@ -95,36 +115,28 @@
       <Text>섬유 전용 추가 작업장도 있습니다.</Text>
     </Text>
     <Text>
-      <GUID>2143505621</GUID>
-      <Text>창고에 물건 없음</Text>
-    </Text>
-    <Text>
       <GUID>2143505622</GUID>
-      <Text>물류 창고</Text>
+      <Text>물류 모듈: 울</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>물류 창고</Text>
+      <Text>물류 모듈: 이국적인 울</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>물류 창고</Text>
+      <Text>물류 모듈: 펠트</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>물류 창고</Text>
+      <Text>물류 모듈: 코튼</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>물류 창고</Text>
+      <Text>물류 모듈: 린넨</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
       <Text>가게 물건들.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505628</GUID>
-      <Text>차량기지 내 화물</Text>
     </Text>
     <Text>
       <GUID>2143505629</GUID>
@@ -136,7 +148,7 @@
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>위버: 작업복</Text>
+      <Text>위버: 의복</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
@@ -153,46 +165,47 @@
     <Text>
       <GUID>2143505635</GUID>
       <Text>위버</Text>
+      <!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505636</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505637</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505638</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505639</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505640</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505641</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505642</GUID>
-      <!-- No need to translate -->
       <Text></Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>물류 모듈 요구</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>물류 모듈 요구</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>물류 모듈 요구</Text>
     </Text>
     <Text>
       <GUID>2143505643</GUID>
-      <Text></Text>
+      <Text>물류 모듈 요구</Text>
     </Text>
     <Text>
       <GUID>2143505644</GUID>
-      <Text>모든 직조자</Text>
+      <Text>모든 직조 산업</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
@@ -211,12 +224,28 @@
       <Text>물류 창고</Text>
     </Text>
     <Text>
+      <GUID>2143505827</GUID>
+      <Text>옷 생산 준비 완료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>모자 제작 준비 완료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>슈트 제작 준비 완료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>태피스트리 제작 준비 완료</Text>
+    </Text>
+    <Text>
       <GUID>2143505649</GUID>
-      <Text>위버 모듈</Text>
+      <Text>직조 모듈</Text>
     </Text>
     <Text>
       <GUID>2143505650</GUID>
-      <Text>모든 창고는 위버스에서</Text>
+      <Text>모든 직조 산업 창고</Text>
     </Text>
     <Text>
       <GUID>2143505651</GUID>
@@ -229,18 +258,6 @@
     <Text>
       <GUID>2143505653</GUID>
       <Text>산업 확장: 직물</Text>
-    </Text>
-    <Text>
-      <GUID>2143505654</GUID>
-      <Text>공장 사이클 (작업 중)</Text>
-    </Text>
-    <Text>
-      <GUID>2143505655</GUID>
-      <Text>진행 중인 작업</Text>
-    </Text>
-    <Text>
-      <GUID>2143505656</GUID>
-      <Text>공장 사이클 (작업 중)</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>

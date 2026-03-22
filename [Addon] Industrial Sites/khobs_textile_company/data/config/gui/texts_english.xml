@@ -33,54 +33,74 @@
       <Text>Spinning Mill: Linen</Text>
     </Text>
     <Text>
-      <GUID>2143505606</GUID>
-      <!-- No need to translate -->
-      <Text>Spinning Recipes</Text>
+      <GUID>2143505607</GUID>
+      <Text>One of the symbols of the revolution of this era, these brick walls contain textile machines and efficiency that few people seem to understand yet.</Text>
+      <!-- Spinning Recipe List Description -->
     </Text>
     <Text>
-      <GUID>2143505607</GUID>
-      <!-- Spinning Recipe List Description -->
-      <Text>One of the symbols of the revolution of this era, these brick walls contain textile machines and efficiency that few people seem to understand yet.</Text>
+      <GUID>2143505606</GUID>
+      <Text>Spinning Recipes</Text>
+      <!-- no need for translation -->
     </Text>
     <Text>
       <GUID>2143505608</GUID>
       <Text>Wool Fabric 1t</Text>
     </Text>
     <Text>
-      <GUID>2143505609</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505610</GUID>
       <Text>Exotic Wool Fabric 2t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505611</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505612</GUID>
       <Text>Felt Fabric 3t</Text>
     </Text>
     <Text>
-      <GUID>2143505613</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505614</GUID>
       <Text>Cotton Fabric 4t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505615</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505616</GUID>
       <Text>Linen Fabric 6t</Text>
     </Text>
     <Text>
+      <GUID>2143505609</GUID>
+      <Text>Made from: Wool</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>Made from: Exotic Wool</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>Made from: Felt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>Made from: Cotton</Text>
+    </Text>
+    <Text>
       <GUID>2143505617</GUID>
-      <Text></Text>
+      <Text>Made from: Linen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>Require Wool Logistic Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>Require Exotic Wool Logistic Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>Require Linen Logistic Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>Require Felt Logistic Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>Require Cotton Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505618</GUID>
@@ -95,48 +115,41 @@
       <Text>An additional workshop dedicated to textiles.</Text>
     </Text>
     <Text>
-      <GUID>2143505621</GUID>
-      <Text>No goods in depot</Text>
-    </Text>
-    <Text>
       <GUID>2143505622</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Logistic Module: Wool</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Logistic Module: Exotic Wool</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Logistic Module: Felt</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Logistic Module: Cotton</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Logistic Module: Linen</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
       <Text>Store goods.</Text>
     </Text>
     <Text>
-      <GUID>2143505628</GUID>
-      <Text>Goods in Depot</Text>
-    </Text>
-    <Text>
       <GUID>2143505629</GUID>
       <Text>Fabric</Text>
     </Text>
+
     <Text>
       <GUID>2143505630</GUID>
       <Text>Weaver</Text>
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>Weaver: Work Clothes</Text>
+      <Text>Weaver: Clothing</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
@@ -150,49 +163,48 @@
       <GUID>2143505634</GUID>
       <Text>Weaver: Tapestries</Text>
     </Text>
+
     <Text>
       <GUID>2143505635</GUID>
-      <Text>Weaver</Text>
+      <Text>Weaver</Text><!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505636</GUID>
-      <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505637</GUID>
-      <Text></Text>
+      <Text></Text><!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505638</GUID>
-      <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505639</GUID>
-      <Text></Text>
+      <Text></Text><!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505640</GUID>
-      <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505641</GUID>
-      <Text></Text>
+      <Text></Text><!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505642</GUID>
-      <!-- No need to translate -->
-      <Text></Text>
+      <Text></Text><!-- No need to translate -->
+    </Text>
+
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>Require Logistic Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>Require Logistic Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>Require Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505643</GUID>
-      <Text></Text>
+      <Text>Require Logistic Module</Text>
     </Text>
+
     <Text>
       <GUID>2143505644</GUID>
-      <Text>All Weavers</Text>
+      <Text>All Weaving Industry</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
@@ -210,14 +222,34 @@
       <GUID>2143505648</GUID>
       <Text>Logistic Depot</Text>
     </Text>
+
+    <Text>
+      <GUID>2143505827</GUID>
+      <Text>Ready to produce Clothes</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>Ready to produce Hats</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>Ready to produce Suits</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>Ready to produce Tapestries</Text>
+    </Text>
+
     <Text>
       <GUID>2143505649</GUID>
-      <Text>Weaver Module</Text>
+      <Text>Weaving Module</Text>
     </Text>
+
     <Text>
       <GUID>2143505650</GUID>
-      <Text>All Depots from Weavers</Text>
+      <Text>All Weaving Industry Depots</Text>
     </Text>
+
     <Text>
       <GUID>2143505651</GUID>
       <Text>Industry Expansion: Fabric</Text>
@@ -229,18 +261,6 @@
     <Text>
       <GUID>2143505653</GUID>
       <Text>Industry Expansion: Fabric</Text>
-    </Text>
-    <Text>
-      <GUID>2143505654</GUID>
-      <Text>Factory Cycle (WIP)</Text>
-    </Text>
-    <Text>
-      <GUID>2143505655</GUID>
-      <Text>Work In Progress</Text>
-    </Text>
-    <Text>
-      <GUID>2143505656</GUID>
-      <Text>Factory Cycle (WIP)</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>

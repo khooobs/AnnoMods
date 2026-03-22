@@ -33,54 +33,74 @@
       <Text>紡績工場:リネン</Text>
     </Text>
     <Text>
-      <GUID>2143505606</GUID>
-      <!-- No need to translate -->
-      <Text>紡績レシピ</Text>
+      <GUID>2143505607</GUID>
+      <Text>この時代の革命の象徴の一つであるこれらのレンガの壁には、繊維機械と効率性が入っており、まだ多くの人が理解していないようです。</Text>
+      <!-- Spinning Recipe List Description -->
     </Text>
     <Text>
-      <GUID>2143505607</GUID>
-      <!-- Spinning Recipe List Description -->
-      <Text>この時代の革命の象徴の一つであるこれらのレンガの壁には、繊維機械と効率性が入っており、まだ多くの人が理解していないようです。</Text>
+      <GUID>2143505606</GUID>
+      <Text>紡績レシピ</Text>
+      <!-- no need for translation -->
     </Text>
     <Text>
       <GUID>2143505608</GUID>
       <Text>ウールファブリック 1t</Text>
     </Text>
     <Text>
-      <GUID>2143505609</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505610</GUID>
       <Text>エキゾチックウールファブリック 2t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505611</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505612</GUID>
       <Text>フェルトファブリック3t</Text>
     </Text>
     <Text>
-      <GUID>2143505613</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505614</GUID>
       <Text>コットンファブリック 4t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505615</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505616</GUID>
       <Text>リネンファブリック 6t</Text>
     </Text>
     <Text>
+      <GUID>2143505609</GUID>
+      <Text>素材:ウール</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>素材:エキゾチックウール</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>素材:フェルト</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>素材:綿</Text>
+    </Text>
+    <Text>
       <GUID>2143505617</GUID>
-      <Text></Text>
+      <Text>素材:リネン</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>ウール物流モジュールの必須</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>エキゾチックウール物流モジュールの必要性</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>リネン物流モジュールの必須</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>フェルト物流モジュールの必須</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>コットン物流モジュールの必須</Text>
     </Text>
     <Text>
       <GUID>2143505618</GUID>
@@ -95,36 +115,28 @@
       <Text>テキスタイルに特化した追加のワークショップも設けられています。</Text>
     </Text>
     <Text>
-      <GUID>2143505621</GUID>
-      <Text>倉庫に商品はありません</Text>
-    </Text>
-    <Text>
       <GUID>2143505622</GUID>
-      <Text>物流倉庫</Text>
+      <Text>物流モジュール:ウール</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>物流倉庫</Text>
+      <Text>ロジスティックモジュール:エキゾチックウール</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>物流倉庫</Text>
+      <Text>物流モジュール:フェルト</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>物流倉庫</Text>
+      <Text>物流モジュール:綿</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>物流倉庫</Text>
+      <Text>物流モジュール:リネン</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
       <Text>店の品物。</Text>
-    </Text>
-    <Text>
-      <GUID>2143505628</GUID>
-      <Text>デポ内の貨物</Text>
     </Text>
     <Text>
       <GUID>2143505629</GUID>
@@ -136,7 +148,7 @@
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>織り手:作業着</Text>
+      <Text>織り手:衣服</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
@@ -153,46 +165,47 @@
     <Text>
       <GUID>2143505635</GUID>
       <Text>ウィーバー</Text>
+      <!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505636</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505637</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505638</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505639</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505640</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505641</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505642</GUID>
-      <!-- No need to translate -->
       <Text></Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>物流モジュールの必要性</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>物流モジュールの必要性</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>物流モジュールの必要性</Text>
     </Text>
     <Text>
       <GUID>2143505643</GUID>
-      <Text></Text>
+      <Text>物流モジュールの必要性</Text>
     </Text>
     <Text>
       <GUID>2143505644</GUID>
-      <Text>すべての織り手</Text>
+      <Text>全ての織物産業</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
@@ -211,12 +224,28 @@
       <Text>物流倉庫</Text>
     </Text>
     <Text>
+      <GUID>2143505827</GUID>
+      <Text>服の生産準備完了</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>帽子の生産準備完了</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>スーツの生産準備が整っています</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>タペストリーの制作準備完了</Text>
+    </Text>
+    <Text>
       <GUID>2143505649</GUID>
-      <Text>ウィーバーモジュール</Text>
+      <Text>織りモジュール</Text>
     </Text>
     <Text>
       <GUID>2143505650</GUID>
-      <Text>織工からの全デポ</Text>
+      <Text>すべての織物産業の倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505651</GUID>
@@ -229,18 +258,6 @@
     <Text>
       <GUID>2143505653</GUID>
       <Text>産業拡大:ファブリック</Text>
-    </Text>
-    <Text>
-      <GUID>2143505654</GUID>
-      <Text>ファクトリーサイクル(WIP)</Text>
-    </Text>
-    <Text>
-      <GUID>2143505655</GUID>
-      <Text>進行中の作業</Text>
-    </Text>
-    <Text>
-      <GUID>2143505656</GUID>
-      <Text>ファクトリーサイクル(WIP)</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>

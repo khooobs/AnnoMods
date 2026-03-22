@@ -33,54 +33,74 @@
       <Text>Spinnerei: Leinen</Text>
     </Text>
     <Text>
-      <GUID>2143505606</GUID>
-      <!-- No need to translate -->
-      <Text>Drehrezepte</Text>
+      <GUID>2143505607</GUID>
+      <Text>Als eines der Symbole der Revolution dieser Ära enthalten diese Backsteinwände Textilmaschinen und Effizienz, die nur wenige Menschen bisher zu verstehen scheinen.</Text>
+      <!-- Spinning Recipe List Description -->
     </Text>
     <Text>
-      <GUID>2143505607</GUID>
-      <!-- Spinning Recipe List Description -->
-      <Text>Als eines der Symbole der Revolution dieser Ära enthalten diese Backsteinwände Textilmaschinen und Effizienz, die nur wenige Menschen bisher zu verstehen scheinen.</Text>
+      <GUID>2143505606</GUID>
+      <Text>Drehrezepte</Text>
+      <!-- no need for translation -->
     </Text>
     <Text>
       <GUID>2143505608</GUID>
       <Text>Wollstoff 1.</Text>
     </Text>
     <Text>
-      <GUID>2143505609</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505610</GUID>
       <Text>Exotischer Wollstoff 2t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505611</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505612</GUID>
       <Text>Filzstoff 3t</Text>
     </Text>
     <Text>
-      <GUID>2143505613</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505614</GUID>
       <Text>Baumwollstoff 4t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505615</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505616</GUID>
       <Text>Leinenstoff 6t</Text>
     </Text>
     <Text>
+      <GUID>2143505609</GUID>
+      <Text>Hergestellt aus: Wolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>Hergestellt aus: Exotischer Wolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>Hergestellt von: Filz</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>Hergestellt aus: Baumwolle</Text>
+    </Text>
+    <Text>
       <GUID>2143505617</GUID>
-      <Text></Text>
+      <Text>Hergestellt aus: Leinen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>Woll-Logistikmodul erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>Exotisches Woll-Logistikmodul erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>Leinen-Logistikmodul erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>Erfordert Filz-Logistikmodul</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>Benötigtes Baumwolllogistikmodul</Text>
     </Text>
     <Text>
       <GUID>2143505618</GUID>
@@ -95,36 +115,28 @@
       <Text>Ein zusätzlicher Workshop für Textilien.</Text>
     </Text>
     <Text>
-      <GUID>2143505621</GUID>
-      <Text>Keine Güter im Depot</Text>
-    </Text>
-    <Text>
       <GUID>2143505622</GUID>
-      <Text>Logistikdepot</Text>
+      <Text>Logistikmodul: Wolle</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>Logistikdepot</Text>
+      <Text>Logistikmodul: Exotische Wolle</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>Logistikdepot</Text>
+      <Text>Logistisches Modul: Filt</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>Logistikdepot</Text>
+      <Text>Logistikmodul: Baumwolle</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>Logistikdepot</Text>
+      <Text>Logistikmodul: Leinen</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
       <Text>Lagern Sie Waren ein.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505628</GUID>
-      <Text>Güter im Depot</Text>
     </Text>
     <Text>
       <GUID>2143505629</GUID>
@@ -136,7 +148,7 @@
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>Weberin: Arbeitskleidung</Text>
+      <Text>Weber: Kleidung</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
@@ -153,46 +165,47 @@
     <Text>
       <GUID>2143505635</GUID>
       <Text>Weber</Text>
+      <!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505636</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505637</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505638</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505639</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505640</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505641</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505642</GUID>
-      <!-- No need to translate -->
       <Text></Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>Logistisches Modul benötigen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>Logistisches Modul benötigen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>Logistisches Modul benötigen</Text>
     </Text>
     <Text>
       <GUID>2143505643</GUID>
-      <Text></Text>
+      <Text>Logistisches Modul benötigen</Text>
     </Text>
     <Text>
       <GUID>2143505644</GUID>
-      <Text>Alle Weber</Text>
+      <Text>Gesamte Webindustrie</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
@@ -211,12 +224,28 @@
       <Text>Logistikdepot</Text>
     </Text>
     <Text>
+      <GUID>2143505827</GUID>
+      <Text>Fertige Kleidung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>Bereit zur Herstellung von Hüten</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>Bereit zur Herstellung von Anzügen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>Bereit zur Herstellung von Wandteppichen</Text>
+    </Text>
+    <Text>
       <GUID>2143505649</GUID>
-      <Text>Weaver-Modul</Text>
+      <Text>Webmodul</Text>
     </Text>
     <Text>
       <GUID>2143505650</GUID>
-      <Text>Alle Depots von Weavers</Text>
+      <Text>Alle Weberei-Industriedepots</Text>
     </Text>
     <Text>
       <GUID>2143505651</GUID>
@@ -229,18 +258,6 @@
     <Text>
       <GUID>2143505653</GUID>
       <Text>Branchenerweiterung: Stoff</Text>
-    </Text>
-    <Text>
-      <GUID>2143505654</GUID>
-      <Text>Werkszyklus (WIP)</Text>
-    </Text>
-    <Text>
-      <GUID>2143505655</GUID>
-      <Text>Laufende Arbeit</Text>
-    </Text>
-    <Text>
-      <GUID>2143505656</GUID>
-      <Text>Werkszyklus (WIP)</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>

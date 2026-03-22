@@ -33,54 +33,74 @@
       <Text>紡紗廠：亞麻</Text>
     </Text>
     <Text>
-      <GUID>2143505606</GUID>
-      <!-- No need to translate -->
-      <Text>紡紗配方</Text>
+      <GUID>2143505607</GUID>
+      <Text>作為這個時代革命的象徵之一，這些磚牆內藏著紡織機械與效率，而這些技術似乎尚未被少數人理解。</Text>
+      <!-- Spinning Recipe List Description -->
     </Text>
     <Text>
-      <GUID>2143505607</GUID>
-      <!-- Spinning Recipe List Description -->
-      <Text>作為這個時代革命的象徵之一，這些磚牆內藏著紡織機械與效率，而這些技術似乎尚未被少數人理解。</Text>
+      <GUID>2143505606</GUID>
+      <Text>紡紗配方</Text>
+      <!-- no need for translation -->
     </Text>
     <Text>
       <GUID>2143505608</GUID>
       <Text>羊毛布料 1 噸</Text>
     </Text>
     <Text>
-      <GUID>2143505609</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505610</GUID>
       <Text>異國羊毛布料 2t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505611</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505612</GUID>
       <Text>毛氈布 3 噸</Text>
     </Text>
     <Text>
-      <GUID>2143505613</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505614</GUID>
       <Text>棉布 4 噸</Text>
-    </Text>
-    <Text>
-      <GUID>2143505615</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505616</GUID>
       <Text>亞麻布料 6 噸</Text>
     </Text>
     <Text>
+      <GUID>2143505609</GUID>
+      <Text>材質：羊毛</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>材質：異國羊毛</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>材質：氈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>材質：棉</Text>
+    </Text>
+    <Text>
       <GUID>2143505617</GUID>
-      <Text></Text>
+      <Text>材質：亞麻</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>要求羊毛物流模組</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>需要異國羊毛物流模組</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>要求亞麻後勤模組</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>需要毛氈後勤模組</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>要求棉花物流模組</Text>
     </Text>
     <Text>
       <GUID>2143505618</GUID>
@@ -95,36 +115,28 @@
       <Text>另有一個專門針對紡織品的工作坊。</Text>
     </Text>
     <Text>
-      <GUID>2143505621</GUID>
-      <Text>倉庫內無貨物</Text>
-    </Text>
-    <Text>
       <GUID>2143505622</GUID>
-      <Text>後勤倉庫</Text>
+      <Text>物流模組：羊毛</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>後勤倉庫</Text>
+      <Text>物流模組：異國羊毛</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>後勤倉庫</Text>
+      <Text>後勤模組：Felt</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>後勤倉庫</Text>
+      <Text>後勤模組：棉花</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>後勤倉庫</Text>
+      <Text>後勤模組：亞麻</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
       <Text>商店商品。</Text>
-    </Text>
-    <Text>
-      <GUID>2143505628</GUID>
-      <Text>貨倉貨物</Text>
     </Text>
     <Text>
       <GUID>2143505629</GUID>
@@ -136,7 +148,7 @@
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>Weaver：工作服</Text>
+      <Text>織布者：服裝</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
@@ -153,46 +165,47 @@
     <Text>
       <GUID>2143505635</GUID>
       <Text>韋弗</Text>
+      <!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505636</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505637</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505638</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505639</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505640</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505641</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505642</GUID>
-      <!-- No need to translate -->
       <Text></Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>要求物流模組</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>要求物流模組</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>要求物流模組</Text>
     </Text>
     <Text>
       <GUID>2143505643</GUID>
-      <Text></Text>
+      <Text>要求物流模組</Text>
     </Text>
     <Text>
       <GUID>2143505644</GUID>
-      <Text>所有織布者</Text>
+      <Text>全織造產業</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
@@ -211,12 +224,28 @@
       <Text>後勤倉庫</Text>
     </Text>
     <Text>
+      <GUID>2143505827</GUID>
+      <Text>準備生產服裝</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>準備製作帽子</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>準備生產西裝</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>準備製作掛毯</Text>
+    </Text>
+    <Text>
       <GUID>2143505649</GUID>
       <Text>織布模組</Text>
     </Text>
     <Text>
       <GUID>2143505650</GUID>
-      <Text>所有Weavers的倉庫</Text>
+      <Text>所有織布產業倉庫</Text>
     </Text>
     <Text>
       <GUID>2143505651</GUID>
@@ -229,18 +258,6 @@
     <Text>
       <GUID>2143505653</GUID>
       <Text>產業擴展：布料</Text>
-    </Text>
-    <Text>
-      <GUID>2143505654</GUID>
-      <Text>工廠自行車（WIP）</Text>
-    </Text>
-    <Text>
-      <GUID>2143505655</GUID>
-      <Text>進行中</Text>
-    </Text>
-    <Text>
-      <GUID>2143505656</GUID>
-      <Text>工廠自行車（WIP）</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>
