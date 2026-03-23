@@ -29,16 +29,8 @@
       <Text>당신 산업의 핵심입니다. 특정 산업 정책을 선택해 생산 체인을 해제하거나 공장 주기를 활성화할 수 있습니다.</Text>
     </Text>
     <Text>
-      <GUID>2143505567</GUID>
-      <Text>산업 핵심 부문</Text>
-    </Text>
-    <Text>
-      <GUID>2143505569</GUID>
-      <Text>산업 하위 부문</Text>
-    </Text>
-    <Text>
-      <GUID>2143505570</GUID>
-      <Text>기업으로 대표되는 부문의 기능. 운영 방침을 결정하는 것도 가능합니다.</Text>
+      <GUID>2143505555</GUID>
+      <Text>모듈로 부스트 가능</Text>
     </Text>
   </ModOp>
 </ModOps>

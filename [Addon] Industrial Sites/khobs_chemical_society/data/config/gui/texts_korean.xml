@@ -61,12 +61,32 @@
       <Text>화학 공장: 소다</Text>
     </Text>
     <Text>
-      <GUID>2143505737</GUID>
-      <Text>창고에 물품 없음</Text>
+      <GUID>2143505724</GUID>
+      <Text>물류 창고 필요</Text>
     </Text>
     <Text>
-      <GUID>2143505738</GUID>
-      <Text>차량기지 내 화물</Text>
+      <GUID>2143505725</GUID>
+      <Text>물류 창고 필요</Text>
+    </Text>
+    <Text>
+      <GUID>2143505835</GUID>
+      <Text>물류 창고 필요</Text>
+    </Text>
+    <Text>
+      <GUID>2143505836</GUID>
+      <Text>물류 창고 필요</Text>
+    </Text>
+    <Text>
+      <GUID>2143505837</GUID>
+      <Text>물류 창고 필요</Text>
+    </Text>
+    <Text>
+      <GUID>2143505838</GUID>
+      <Text>물류 창고 필요</Text>
+    </Text>
+    <Text>
+      <GUID>2143505839</GUID>
+      <Text>물류 창고 필요</Text>
     </Text>
     <Text>
       <GUID>2143505726</GUID>
@@ -131,6 +151,34 @@
     <Text>
       <GUID>2143505745</GUID>
       <Text>모든 화학 저장소</Text>
+    </Text>
+    <Text>
+      <GUID>2143505847</GUID>
+      <Text>샴푸 생산 준비 완료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505848</GUID>
+      <Text>레모네이드 제작 준비 완료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505849</GUID>
+      <Text>기념품 제작 준비 완료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505850</GUID>
+      <Text>래커 생산 준비 완료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505851</GUID>
+      <Text>셀룰로이드 생산 준비 완료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505852</GUID>
+      <Text>에탄올 생산 준비 완료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505853</GUID>
+      <Text>탄산음료 생산 준비 완료</Text>
     </Text>
   </ModOp>
 </ModOps>

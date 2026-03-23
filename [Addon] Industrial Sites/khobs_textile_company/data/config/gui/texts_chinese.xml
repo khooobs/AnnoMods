@@ -33,54 +33,74 @@
       <Text>纺纱厂：亚麻</Text>
     </Text>
     <Text>
-      <GUID>2143505606</GUID>
-      <!-- No need to translate -->
-      <Text>纺纱配方</Text>
+      <GUID>2143505607</GUID>
+      <Text>作为这一时代革命的象征之一，这些砖墙内蕴含纺织机和效率，而这些技术似乎很少有人能理解。</Text>
+      <!-- Spinning Recipe List Description -->
     </Text>
     <Text>
-      <GUID>2143505607</GUID>
-      <!-- Spinning Recipe List Description -->
-      <Text>作为这一时代革命的象征之一，这些砖墙内蕴含纺织机和效率，而这些技术似乎很少有人能理解。</Text>
+      <GUID>2143505606</GUID>
+      <Text>纺纱配方</Text>
+      <!-- no need for translation -->
     </Text>
     <Text>
       <GUID>2143505608</GUID>
       <Text>羊毛面料 1吨</Text>
     </Text>
     <Text>
-      <GUID>2143505609</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505610</GUID>
       <Text>异国羊毛面料 2t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505611</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505612</GUID>
       <Text>毡布3代</Text>
     </Text>
     <Text>
-      <GUID>2143505613</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505614</GUID>
       <Text>棉织4吨</Text>
-    </Text>
-    <Text>
-      <GUID>2143505615</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505616</GUID>
       <Text>亚麻布 6吨</Text>
     </Text>
     <Text>
+      <GUID>2143505609</GUID>
+      <Text>材质：羊毛</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>材质：异国羊毛</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>材质：毡</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>材质：棉质</Text>
+    </Text>
+    <Text>
       <GUID>2143505617</GUID>
-      <Text></Text>
+      <Text>材质：亚麻</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>要求羊毛物流模块</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>要求异国羊毛物流模块</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>要求亚麻后勤模块</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>需要毡质物流模块</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>要求棉花物流模块</Text>
     </Text>
     <Text>
       <GUID>2143505618</GUID>
@@ -95,36 +115,28 @@
       <Text>还有一个专门的纺织品工作坊。</Text>
     </Text>
     <Text>
-      <GUID>2143505621</GUID>
-      <Text>仓库里没有货物</Text>
-    </Text>
-    <Text>
       <GUID>2143505622</GUID>
-      <Text>后勤仓库</Text>
+      <Text>物流模块：羊毛</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>后勤仓库</Text>
+      <Text>物流模块：异国羊毛</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>后勤仓库</Text>
+      <Text>物流模块：毡</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>后勤仓库</Text>
+      <Text>物流模块：棉花</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>后勤仓库</Text>
+      <Text>物流模块：亚麻</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
       <Text>商店商品。</Text>
-    </Text>
-    <Text>
-      <GUID>2143505628</GUID>
-      <Text>车辆库中的货物</Text>
     </Text>
     <Text>
       <GUID>2143505629</GUID>
@@ -136,7 +148,7 @@
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>织工：工作服</Text>
+      <Text>织工：服装</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
@@ -153,46 +165,47 @@
     <Text>
       <GUID>2143505635</GUID>
       <Text>韦弗</Text>
+      <!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505636</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505637</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505638</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505639</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505640</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505641</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505642</GUID>
-      <!-- No need to translate -->
       <Text></Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>要求物流模块</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>要求物流模块</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>要求物流模块</Text>
     </Text>
     <Text>
       <GUID>2143505643</GUID>
-      <Text></Text>
+      <Text>要求物流模块</Text>
     </Text>
     <Text>
       <GUID>2143505644</GUID>
-      <Text>所有织工</Text>
+      <Text>全织造工业</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
@@ -211,12 +224,28 @@
       <Text>后勤仓库</Text>
     </Text>
     <Text>
+      <GUID>2143505827</GUID>
+      <Text>准备生产服装</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>准备生产帽子</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>准备生产西装</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>准备制作挂毯</Text>
+    </Text>
+    <Text>
       <GUID>2143505649</GUID>
-      <Text>织者模块</Text>
+      <Text>织布模块</Text>
     </Text>
     <Text>
       <GUID>2143505650</GUID>
-      <Text>所有Weavers的仓库</Text>
+      <Text>所有织造行业仓库</Text>
     </Text>
     <Text>
       <GUID>2143505651</GUID>
@@ -229,18 +258,6 @@
     <Text>
       <GUID>2143505653</GUID>
       <Text>行业扩展：织物</Text>
-    </Text>
-    <Text>
-      <GUID>2143505654</GUID>
-      <Text>工厂循环（进行中）</Text>
-    </Text>
-    <Text>
-      <GUID>2143505655</GUID>
-      <Text>进行中的作品</Text>
-    </Text>
-    <Text>
-      <GUID>2143505656</GUID>
-      <Text>工厂循环（进行中）</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>

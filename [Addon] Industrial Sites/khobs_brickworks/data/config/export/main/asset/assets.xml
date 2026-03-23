@@ -91,9 +91,6 @@
             </Values>
           </OnSelection>
         </Selection>
-        <Ornament>
-          <OrnamentDescription>2143505802</OrnamentDescription>
-        </Ornament>
         <ItemContainer>
           <SocketScopeRadius>25</SocketScopeRadius>
           <InitSocketItems>
@@ -173,10 +170,14 @@
           </Variations>
         </Object>
         <Mesh />
-        <UpgradeList>
-          <DefaultBuff>2143505809</DefaultBuff>
-        </UpgradeList>
         <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>2143505410</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>1010205</Product>
@@ -219,12 +220,14 @@
             <Module>2143505807</Module>
           </FertilizerModuleData>
 					<ModuleBuildRadius>100</ModuleBuildRadius>
-					<ImplicitProductivityModules>0</ImplicitProductivityModules>
 					<ModulesRequiredForFullProductivity>1</ModulesRequiredForFullProductivity>
         </ModuleOwner>
         <Ornament>
           <OrnamentDescription>2143505804</OrnamentDescription>
         </Ornament>
+        <Industrializable>
+          <BoostedByIndustrialization>1</BoostedByIndustrialization>
+        </Industrializable>
       </Values>
     </Asset>
   </ModOp>
@@ -368,7 +371,7 @@
         </Standard>
         <Building>
           <BuildingType>BuildingModule</BuildingType>
-					<BuildingCategoryName>2143505411</BuildingCategoryName>
+					<BuildingCategoryName>2143505402</BuildingCategoryName>
           <SkipUnlockMessage>1</SkipUnlockMessage>
           <AssociatedRegions>Moderate</AssociatedRegions>
           <AllowChangeVariation>1</AllowChangeVariation>
@@ -406,7 +409,7 @@
         <BuffFactory>
           <ProductionBuffs>
             <Item>
-              <ProductivityBuff>2143505810</ProductivityBuff>
+              <ProductivityBuff>2143505809</ProductivityBuff>
             </Item>
           </ProductionBuffs>
         </BuffFactory>
@@ -466,66 +469,6 @@
         </BuildingModule>
         <Infolayer />
         <UpgradeList />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505809</GUID>
-          <Name>Logistic Depot - Module - Negative - Buff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
-        </Standard>
-        <ItemEffect />
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>-1000</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
-        <BuildingUpgrade />
-        <Buff />
-        <CultureUpgrade>
-          <HideBuff>0</HideBuff>
-        </CultureUpgrade>
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505810</GUID>
-          <Name>Logistic Depot - Module - Positive - Buff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
-        </Standard>
-        <ItemEffect/>
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>1000</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
-        <BuildingUpgrade/>
-        <Buff/>
-        <CultureUpgrade/>
-        <ModuleOwnerUpgrade/>
-        <IncidentInfectableUpgrade/>
-        <PowerplantUpgrade/>
-        <IndustrializableUpgrade/>
-        <ItemContainerUpgrade/>
-        <IncidentInfluencerUpgrade/>
-        <IrrigationUpgrade/>
-        <EcoSystemProviderUpgrade/>
-        <ResourceUpgrade/>
       </Values>
     </Asset>
   </ModOp>
@@ -618,6 +561,78 @@
       <Template>Text</Template>
       <Values>
         <Standard>
+          <GUID>2143505804</GUID>
+          <Name>Brickworks Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505806</GUID>
+          <Name>Brick Kiln Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505808</GUID>
+          <Name>Depot Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505813</GUID>
+          <Name>Clay Pit Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505815</GUID>
+          <Name>Industry Expansion Adobe GuildhouseItem</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505817</GUID>
+          <Name>Industry Expansion Adobe GuildhouseBuff</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505819</GUID>
+          <Name>Excavation Quartz Sand GuildhouseItem</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505821</GUID>
+          <Name>Excavation Quartz Sand GuildhouseBuff</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
           <GUID>2143505811</GUID>
           <Name>Brickworks Industry Module</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_brick_company.png</IconFilename>
@@ -626,9 +641,86 @@
     </Asset>
   </ModOp>
   <!-- END - Texts -->
-  
-  <!-- START - Items and Buffs -->
+
+  <!-- START - FakeProduct -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505410</GUID>
+          <Name>FakeInputBrickResource</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <HideInUI>1</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - FakeProduct -->
+
+  <!-- START - Buffs -->
   <ModOp Type="addNextSibling" GUID="1010283">
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505809</GUID>
+          <Name>Logistic Depot - Module - Brick - Container</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect />
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2143505810</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <Text>
+          <TextOverride>2143505810</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505810</GUID>
+          <Name>Logistic Depot - Module - Brick - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect/>
+        <FactoryUpgrade>
+          <InputAmountUpgrade>
+            <Item>
+              <Product>2143505410</Product>
+              <Amount>-1</Amount>
+            </Item>
+          </InputAmountUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
     <Asset>
       <Template>GuildhouseItem</Template>
       <Values>
@@ -717,7 +809,6 @@
         <ResourceUpgrade/>
       </Values>
     </Asset>
-    
     <Asset>
       <Template>GuildhouseItem</Template>
       <Values>
@@ -803,5 +894,5 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- END - Items and Buffs -->
+  <!-- END - Buffs -->
 </ModOps>

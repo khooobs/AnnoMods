@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ModID": "khobs_industrial_sites",
   "IncompatibleIds": null,
   "ModDependencies": [
@@ -19,7 +19,8 @@
     "khobs_workshop",
     "khobs_textile_company",
     "khobs_chemical_society",
-    "khobs_steel_company"
+    "khobs_steel_company",
+    "shared_general_modules_kurila"
   ],
   "LoadAfterIds": [
     "shared_strategic_harbour",

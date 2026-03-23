@@ -60,14 +60,36 @@
       <GUID>2143505721</GUID>
       <Text>Chemical Plant: Soda</Text>
     </Text>
+
     <Text>
-      <GUID>2143505737</GUID>
-      <Text>No Goods in Depot</Text>
+      <GUID>2143505724</GUID>
+      <Text>Require Logistic Depot</Text>
     </Text>
     <Text>
-      <GUID>2143505738</GUID>
-      <Text>Goods in Depot</Text>
+      <GUID>2143505725</GUID>
+      <Text>Require Logistic Depot</Text>
     </Text>
+    <Text>
+      <GUID>2143505835</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505836</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505837</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505838</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505839</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+
     <Text>
       <GUID>2143505726</GUID>
       <Text>Logistic Depot</Text>
@@ -131,6 +153,37 @@
     <Text>
       <GUID>2143505745</GUID>
       <Text>All Chemical Depots</Text>
+    </Text>
+
+    
+
+    <Text>
+      <GUID>2143505847</GUID>
+      <Text>Ready to produce Shampoo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505848</GUID>
+      <Text>Ready to produce Lemonade</Text>
+    </Text>
+    <Text>
+      <GUID>2143505849</GUID>
+      <Text>Ready to produce Souvenir</Text>
+    </Text>
+    <Text>
+      <GUID>2143505850</GUID>
+      <Text>Ready to produce Lacquer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505851</GUID>
+      <Text>Ready to produce Celluloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143505852</GUID>
+      <Text>Ready to produce Ethanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143505853</GUID>
+      <Text>Ready to produce Soda</Text>
     </Text>
   </ModOp>
 </ModOps>

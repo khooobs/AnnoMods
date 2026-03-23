@@ -33,98 +33,110 @@
       <Text>Filature : lin</Text>
     </Text>
     <Text>
-      <GUID>2143505606</GUID>
-      <!-- No need to translate -->
-      <Text>Spinning Recipes</Text>
+      <GUID>2143505607</GUID>
+      <Text>L’un des symboles de la révolution de cette époque, ces murs de briques contiennent des machines textiles et une efficacité que peu de gens semblent encore comprendre.</Text>
+      <!-- Spinning Recipe List Description -->
     </Text>
     <Text>
-      <GUID>2143505607</GUID>
-      <!-- Spinning Recipe List Description -->
-      <Text>L’un des symboles de la révolution de cette époque, ces murs de briques contiennent des machines textiles et une efficacité que peu de gens semblent encore comprendre.</Text>
+      <GUID>2143505606</GUID>
+      <Text>Recettes de filage</Text>
+      <!-- no need for translation -->
     </Text>
     <Text>
       <GUID>2143505608</GUID>
       <Text>Tissu en laine 1t</Text>
     </Text>
     <Text>
-      <GUID>2143505609</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505610</GUID>
       <Text>Tissu en laine exotique 2t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505611</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505612</GUID>
       <Text>Tissu feutré 3t</Text>
     </Text>
     <Text>
-      <GUID>2143505613</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505614</GUID>
       <Text>Tissu de coton 4t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505615</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505616</GUID>
       <Text>Tissu en lin 6t</Text>
     </Text>
     <Text>
+      <GUID>2143505609</GUID>
+      <Text>Fabriqué à partir de : laine</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>Fabriqué à partir de : Laine exotique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>Fabriqué à partir de : feutre</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>Fabriqué à partir de : coton</Text>
+    </Text>
+    <Text>
       <GUID>2143505617</GUID>
-      <Text></Text>
+      <Text>Fabriqué à partir de : lin</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>Module logistique de laine requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>Module logistique de laine exotique requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>Module logistique du lin requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>Module logistique de feutre requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>Module logistique de coton requis</Text>
     </Text>
     <Text>
       <GUID>2143505618</GUID>
-      <Text>Toutes les filatures</Text>
+      <Text>Tous les filatures</Text>
     </Text>
     <Text>
       <GUID>2143505619</GUID>
-      <Text>Atelier de filage</Text>
+      <Text>Module de filage</Text>
     </Text>
     <Text>
       <GUID>2143505620</GUID>
       <Text>Un atelier supplémentaire dédié au textile.</Text>
     </Text>
     <Text>
-      <GUID>2143505621</GUID>
-      <Text>Aucune marchandise au dépôt</Text>
-    </Text>
-    <Text>
       <GUID>2143505622</GUID>
-      <Text>Dépôt logistique</Text>
+      <Text>Module logistique : Laine</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>Dépôt logistique</Text>
+      <Text>Module logistique : Laine exotique</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>Dépôt logistique</Text>
+      <Text>Module logistique : Feutre</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>Dépôt logistique</Text>
+      <Text>Module logistique : Coton</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>Dépôt logistique</Text>
+      <Text>Module logistique : Lin</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
       <Text>Stocke les marchandises.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505628</GUID>
-      <Text>Marchandises au dépôt</Text>
     </Text>
     <Text>
       <GUID>2143505629</GUID>
@@ -136,7 +148,7 @@
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>Tisserand : Vêtements de travail</Text>
+      <Text>Tisserand : Vêtements</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
@@ -152,49 +164,48 @@
     </Text>
     <Text>
       <GUID>2143505635</GUID>
-      <!-- No need to translate -->
-
       <Text>Weaver</Text>
+      <!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505636</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505637</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505638</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505639</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505640</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505641</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505642</GUID>
-      <!-- No need to translate -->
       <Text></Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>Module logistique requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>Module logistique requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>Module logistique requis</Text>
     </Text>
     <Text>
       <GUID>2143505643</GUID>
-      <Text></Text>
+      <Text>Module logistique requis</Text>
     </Text>
     <Text>
       <GUID>2143505644</GUID>
-      <Text>Tous les tisserands</Text>
+      <Text>Toute l’industrie du tissage</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
@@ -213,16 +224,32 @@
       <Text>Dépôt logistique</Text>
     </Text>
     <Text>
+      <GUID>2143505827</GUID>
+      <Text>Prêts à produire des vêtements</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>Prêts à produire des chapeaux</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>Prêts à produire des costumes</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>Prêts à produire des tapis</Text>
+    </Text>
+    <Text>
       <GUID>2143505649</GUID>
-      <Text>Atelier de tisserand</Text>
+      <Text>Module de tissage</Text>
     </Text>
     <Text>
       <GUID>2143505650</GUID>
-      <Text>Tous les dépôts de tisserands</Text>
+      <Text>Tous les dépôts de l’industrie du tissage</Text>
     </Text>
     <Text>
       <GUID>2143505651</GUID>
-      <Text>Expansion industrielle : Tissu</Text>
+      <Text>Expansion industrielle : Fabric</Text>
     </Text>
     <Text>
       <GUID>2143505652</GUID>
@@ -230,19 +257,7 @@
     </Text>
     <Text>
       <GUID>2143505653</GUID>
-      <Text>Expansion industrielle : Tissu</Text>
-    </Text>
-    <Text>
-      <GUID>2143505654</GUID>
-      <Text>Cycle d’usine (WIP)</Text>
-    </Text>
-    <Text>
-      <GUID>2143505655</GUID>
-      <Text>Work In Progress</Text>
-    </Text>
-    <Text>
-      <GUID>2143505656</GUID>
-      <Text>Cycle d’usine (WIP)</Text>
+      <Text>Expansion industrielle : Fabric</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>

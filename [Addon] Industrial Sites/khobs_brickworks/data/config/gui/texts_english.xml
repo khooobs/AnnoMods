@@ -5,10 +5,6 @@
       <Text>Company: Bricks</Text>
     </Text>
     <Text>
-      <GUID>2143505802</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505803</GUID>
       <Text>Brickworks</Text>
     </Text>
@@ -33,12 +29,12 @@
       <Text>Store goods.</Text>
     </Text>
     <Text>
-      <GUID>2143505809</GUID>
-      <Text>No Goods in Depot</Text>
+      <GUID>2143505410</GUID>
+      <Text>Require Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505810</GUID>
-      <Text>Goods in Depot</Text>
+      <Text>Ready to produce Brick</Text>
     </Text>
     <Text>
       <GUID>2143505811</GUID>

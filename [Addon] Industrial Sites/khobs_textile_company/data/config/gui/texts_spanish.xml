@@ -33,54 +33,74 @@
       <Text>Hilado: Lino</Text>
     </Text>
     <Text>
-      <GUID>2143505606</GUID>
-      <!-- No need to translate -->
-      <Text>Recetas de hilado</Text>
+      <GUID>2143505607</GUID>
+      <Text>Uno de los símbolos de la revolución de esta época, estos muros de ladrillo contienen máquinas textiles y eficiencia que pocos parecen entender aún.</Text>
+      <!-- Spinning Recipe List Description -->
     </Text>
     <Text>
-      <GUID>2143505607</GUID>
-      <!-- Spinning Recipe List Description -->
-      <Text>Uno de los símbolos de la revolución de esta época, estos muros de ladrillo contienen máquinas textiles y eficiencia que pocos parecen entender aún.</Text>
+      <GUID>2143505606</GUID>
+      <Text>Recetas de hilado</Text>
+      <!-- no need for translation -->
     </Text>
     <Text>
       <GUID>2143505608</GUID>
       <Text>Tela de lana 1t</Text>
     </Text>
     <Text>
-      <GUID>2143505609</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505610</GUID>
       <Text>Tela exótica de lana 2t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505611</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505612</GUID>
       <Text>Tela de fieltro 3t</Text>
     </Text>
     <Text>
-      <GUID>2143505613</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505614</GUID>
       <Text>Tejido de algodón 4t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505615</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505616</GUID>
       <Text>Tela de lino 6t</Text>
     </Text>
     <Text>
+      <GUID>2143505609</GUID>
+      <Text>Hecho de: lana</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>Hecho de: Lana exótica</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>Hecho de: Fieltro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>Hecho de: algodón</Text>
+    </Text>
+    <Text>
       <GUID>2143505617</GUID>
-      <Text></Text>
+      <Text>Hecho de: Lino</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>Módulo de Logística de Lana Requerir</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>Requiere un módulo logístico de lana exótica</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>Módulo de Logística de Ropa Obligatoria</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>Requiere módulo logístico de fieltro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>Requiere el Módulo de Logística de Algodón</Text>
     </Text>
     <Text>
       <GUID>2143505618</GUID>
@@ -95,36 +115,28 @@
       <Text>Un taller adicional dedicado a textiles.</Text>
     </Text>
     <Text>
-      <GUID>2143505621</GUID>
-      <Text>No hay mercancías en el depósito</Text>
-    </Text>
-    <Text>
       <GUID>2143505622</GUID>
-      <Text>Depósito logístico</Text>
+      <Text>Módulo de Logística: Lana</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>Depósito logístico</Text>
+      <Text>Módulo Logístico: Lana Exótica</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>Depósito logístico</Text>
+      <Text>Módulo de Logística: Fieltro</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>Depósito logístico</Text>
+      <Text>Módulo Logístico: Algodón</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>Depósito logístico</Text>
+      <Text>Módulo de Logística: Lino</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
       <Text>Guarda productos.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505628</GUID>
-      <Text>Mercancías en el depósito</Text>
     </Text>
     <Text>
       <GUID>2143505629</GUID>
@@ -136,7 +148,7 @@
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>Tejedor: Ropa de trabajo</Text>
+      <Text>Tejedor: Ropa</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
@@ -153,46 +165,47 @@
     <Text>
       <GUID>2143505635</GUID>
       <Text>Weaver</Text>
+      <!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505636</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505637</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505638</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505639</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505640</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505641</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505642</GUID>
-      <!-- No need to translate -->
       <Text></Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>Módulo de Logística Obligatoria</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>Módulo de Logística Obligatoria</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>Módulo de Logística Obligatoria</Text>
     </Text>
     <Text>
       <GUID>2143505643</GUID>
-      <Text></Text>
+      <Text>Módulo de Logística Obligatoria</Text>
     </Text>
     <Text>
       <GUID>2143505644</GUID>
-      <Text>Todos los Tejedores</Text>
+      <Text>Toda la industria tejedora</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
@@ -211,12 +224,28 @@
       <Text>Depósito logístico</Text>
     </Text>
     <Text>
+      <GUID>2143505827</GUID>
+      <Text>Ropa lista para producir</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>Sombreros listos para producir</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>Trajes listos para producir</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>Tapices listos para producir</Text>
+    </Text>
+    <Text>
       <GUID>2143505649</GUID>
-      <Text>Módulo Weaver</Text>
+      <Text>Módulo de tejido</Text>
     </Text>
     <Text>
       <GUID>2143505650</GUID>
-      <Text>Todos los depósitos de Weavers</Text>
+      <Text>Depósitos de toda la industria tejedora</Text>
     </Text>
     <Text>
       <GUID>2143505651</GUID>
@@ -229,18 +258,6 @@
     <Text>
       <GUID>2143505653</GUID>
       <Text>Expansión de la industria: Fabric</Text>
-    </Text>
-    <Text>
-      <GUID>2143505654</GUID>
-      <Text>Ciclo de fábrica (WIP)</Text>
-    </Text>
-    <Text>
-      <GUID>2143505655</GUID>
-      <Text>Obras en progreso</Text>
-    </Text>
-    <Text>
-      <GUID>2143505656</GUID>
-      <Text>Ciclo de fábrica (WIP)</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>

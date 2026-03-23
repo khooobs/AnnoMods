@@ -1,21 +1,14 @@
 {
-  "Version": "1.1.2",
+  "Version": "1.1.3",
   "ModID": "khobs_textile_company",
   "IncompatibleIds": null,
   "ModDependencies": [
-    "Taludas_neutral_airport",
-    "neutral_hacienda_genshi",
     "shared_ui_change_kurila",
-    "shared_neutral_culture_modules",
     "shared-ground-textures-industry-jakob",
     "wool_fabric_kurila",
     "sewing_thread_kurila"
   ],
   "LoadAfterIds": [
-    "shared_neutral_culture_modules",
-    "shared_strategic_harbour",
-    "shared_freight_station_khobs",
-    "shared_freight_import_caoutchouc",
     "IndustrializedLowTierProduction",
     "production_works_kurila",
     "wool_fabric_kurila"

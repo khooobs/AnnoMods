@@ -29,16 +29,8 @@
       <Text>あなた方の産業の核です。特定の産業政策を選んだり、生産連鎖をアンロックしたり、工場サイクルを起動したりできます。</Text>
     </Text>
     <Text>
-      <GUID>2143505567</GUID>
-      <Text>産業の中核部門</Text>
-    </Text>
-    <Text>
-      <GUID>2143505569</GUID>
-      <Text>産業サブセクター</Text>
-    </Text>
-    <Text>
-      <GUID>2143505570</GUID>
-      <Text>企業によって代表されるセクターの機能。運用方針を決めることが可能です。</Text>
+      <GUID>2143505555</GUID>
+      <Text>モジュールによるブースト可能</Text>
     </Text>
   </ModOp>
 </ModOps>

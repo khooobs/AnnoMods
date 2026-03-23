@@ -29,16 +29,8 @@
       <Text>Der Kern Ihrer Branchen. Du kannst bestimmte Industriepolitiken wählen, um Produktionsketten freizuschalten oder Fabrikzyklen zu aktivieren.</Text>
     </Text>
     <Text>
-      <GUID>2143505567</GUID>
-      <Text>Industriekernsektor</Text>
-    </Text>
-    <Text>
-      <GUID>2143505569</GUID>
-      <Text>Industrie-Subsektor</Text>
-    </Text>
-    <Text>
-      <GUID>2143505570</GUID>
-      <Text>Die Funktionsweise eines Sektors, vertreten durch ein Unternehmen. Es ist möglich, Betriebsrichtlinien zu bestimmen.</Text>
+      <GUID>2143505555</GUID>
+      <Text>Boostbar durch Module</Text>
     </Text>
   </ModOp>
 </ModOps>

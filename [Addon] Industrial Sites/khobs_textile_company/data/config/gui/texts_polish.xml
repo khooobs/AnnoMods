@@ -33,54 +33,74 @@
       <Text>Przędzalnia: Len</Text>
     </Text>
     <Text>
-      <GUID>2143505606</GUID>
-      <!-- No need to translate -->
-      <Text>Przepisy na przędzenie</Text>
+      <GUID>2143505607</GUID>
+      <Text>Jeden z symboli rewolucji tamtej epoki, te ceglane ściany zawierają maszyny tekstylne i efektywność, której niewielu ludzi jeszcze rozumie.</Text>
+      <!-- Spinning Recipe List Description -->
     </Text>
     <Text>
-      <GUID>2143505607</GUID>
-      <!-- Spinning Recipe List Description -->
-      <Text>Jeden z symboli rewolucji tamtej epoki, te ceglane ściany zawierają maszyny tekstylne i efektywność, której niewielu ludzi jeszcze rozumie.</Text>
+      <GUID>2143505606</GUID>
+      <Text>Przepisy na przędzenie</Text>
+      <!-- no need for translation -->
     </Text>
     <Text>
       <GUID>2143505608</GUID>
       <Text>Tkanina wełniana 1t</Text>
     </Text>
     <Text>
-      <GUID>2143505609</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505610</GUID>
       <Text>Tkanina z egzotycznej wełny 2t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505611</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505612</GUID>
       <Text>Filcowa tkanina 3t</Text>
     </Text>
     <Text>
-      <GUID>2143505613</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>2143505614</GUID>
       <Text>Bawełniana tkanina 4t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505615</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505616</GUID>
       <Text>Tkanina lniana 6t</Text>
     </Text>
     <Text>
+      <GUID>2143505609</GUID>
+      <Text>Wykonane z: Wełny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>Wykonane z: Exotic Wool</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>Wykonane z: filcu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>Wykonane z: Bawełny</Text>
+    </Text>
+    <Text>
       <GUID>2143505617</GUID>
-      <Text></Text>
+      <Text>Wykonany z: Lnu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>Wymagaj modułu logistycznego wełny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>Wymagaj modułu logistycznego z egzotycznej wełny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>Wymagaj modułu logistycznego lnu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>Wymagaj modułu logistycznego Felt</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>Wymagaj modułu logistycznego bawełny</Text>
     </Text>
     <Text>
       <GUID>2143505618</GUID>
@@ -95,36 +115,28 @@
       <Text>Dodatkowy warsztat poświęcony tekstyliom.</Text>
     </Text>
     <Text>
-      <GUID>2143505621</GUID>
-      <Text>Brak towarów w magazynie</Text>
-    </Text>
-    <Text>
       <GUID>2143505622</GUID>
-      <Text>Magazyn logistyczny</Text>
+      <Text>Moduł logistyczny: Wełna</Text>
     </Text>
     <Text>
       <GUID>2143505623</GUID>
-      <Text>Magazyn logistyczny</Text>
+      <Text>Moduł logistyczny: egzotyczna wełna</Text>
     </Text>
     <Text>
       <GUID>2143505624</GUID>
-      <Text>Magazyn logistyczny</Text>
+      <Text>Moduł logistyczny: Filc</Text>
     </Text>
     <Text>
       <GUID>2143505625</GUID>
-      <Text>Magazyn logistyczny</Text>
+      <Text>Moduł logistyczny: Bawełna</Text>
     </Text>
     <Text>
       <GUID>2143505626</GUID>
-      <Text>Magazyn logistyczny</Text>
+      <Text>Moduł logistyczny: Len</Text>
     </Text>
     <Text>
       <GUID>2143505627</GUID>
       <Text>Przechowywać towary.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505628</GUID>
-      <Text>Towary w zajezdni</Text>
     </Text>
     <Text>
       <GUID>2143505629</GUID>
@@ -136,7 +148,7 @@
     </Text>
     <Text>
       <GUID>2143505631</GUID>
-      <Text>Tkaczka: Ubrania robocze</Text>
+      <Text>Weaver: Ubrania</Text>
     </Text>
     <Text>
       <GUID>2143505632</GUID>
@@ -153,46 +165,47 @@
     <Text>
       <GUID>2143505635</GUID>
       <Text>Weaver</Text>
+      <!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505636</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505637</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505638</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505639</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505640</GUID>
+      <Text></Text>
       <!-- No need to translate -->
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>2143505641</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505642</GUID>
-      <!-- No need to translate -->
       <Text></Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>Wymagaj modułu logistycznego</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>Wymagaj modułu logistycznego</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>Wymagaj modułu logistycznego</Text>
     </Text>
     <Text>
       <GUID>2143505643</GUID>
-      <Text></Text>
+      <Text>Wymagaj modułu logistycznego</Text>
     </Text>
     <Text>
       <GUID>2143505644</GUID>
-      <Text>Wszyscy tkacze</Text>
+      <Text>Cała branża tkacka</Text>
     </Text>
     <Text>
       <GUID>2143505645</GUID>
@@ -211,12 +224,28 @@
       <Text>Magazyn logistyczny</Text>
     </Text>
     <Text>
+      <GUID>2143505827</GUID>
+      <Text>Gotowi do produkcji ubrań</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>Gotowy do produkcji kapeluszy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>Gotowe do produkcji kombinezonów</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>Gotowi do produkcji gobelin</Text>
+    </Text>
+    <Text>
       <GUID>2143505649</GUID>
-      <Text>Moduł Weaver</Text>
+      <Text>Moduł tkacki</Text>
     </Text>
     <Text>
       <GUID>2143505650</GUID>
-      <Text>Wszystkie magazyny od Weavers</Text>
+      <Text>Wszystkie magazyny przemysłu tkackiego</Text>
     </Text>
     <Text>
       <GUID>2143505651</GUID>
@@ -229,18 +258,6 @@
     <Text>
       <GUID>2143505653</GUID>
       <Text>Ekspansja przemysłu: Fabric</Text>
-    </Text>
-    <Text>
-      <GUID>2143505654</GUID>
-      <Text>Cykl fabryczny (WIP)</Text>
-    </Text>
-    <Text>
-      <GUID>2143505655</GUID>
-      <Text>Prace w toku</Text>
-    </Text>
-    <Text>
-      <GUID>2143505656</GUID>
-      <Text>Cykl fabryczny (WIP)</Text>
     </Text>
     <Text>
       <GUID>2143505657</GUID>
