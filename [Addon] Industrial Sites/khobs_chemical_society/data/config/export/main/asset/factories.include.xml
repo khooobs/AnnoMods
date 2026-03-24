@@ -80,6 +80,7 @@
           <RecipeList>2143505701</RecipeList><!--RecipeList_Chemical-->
           <IsBlank>1</IsBlank>
         </RecipeBuilding>
+        <Motorizable/>
         <Culture/>
       </Values>
     </Asset>
@@ -531,8 +532,7 @@
           </Maintenances>
         </Maintenance>
         <RecipeBuilding>
-          <RecipeList>2143505701</RecipeList>
-          <!--RecipeList_Chemical-->
+          <RecipeList>2143506100</RecipeList>
         </RecipeBuilding>
         <ModuleOwner>
           <ConstructionOptions>
@@ -548,6 +548,9 @@
           <TransporterAsset>120062</TransporterAsset>
           <TransporterCountMax>1</TransporterCountMax>
         </LogisticNode>
+        <Motorizable>
+          <MotorizableType>Tractor</MotorizableType>
+        </Motorizable>
       </Values>
     </Asset>
     <Asset>
@@ -646,7 +649,7 @@
           </Maintenances>
         </Maintenance>
         <RecipeBuilding>
-          <RecipeList>2143505701</RecipeList>
+          <RecipeList>2143506102</RecipeList>
           <!--RecipeList_Chemical-->
         </RecipeBuilding>
         <ModuleOwner>
@@ -761,7 +764,7 @@
           </Maintenances>
         </Maintenance>
         <RecipeBuilding>
-          <RecipeList>2143505701</RecipeList>
+          <RecipeList>2143506104</RecipeList>
           <!--RecipeList_Chemical-->
         </RecipeBuilding>
         <ModuleOwner>
@@ -960,7 +963,7 @@
         </FactoryBase>
         <UpgradeList/>
         <RecipeBuilding>
-          <RecipeList>2143505701</RecipeList>
+          <RecipeList>2143506106</RecipeList>
         </RecipeBuilding>
         <ModuleOwner>
           <FertilizerModuleData>
@@ -1027,4 +1030,458 @@
     </Asset>
   </ModOp>
   <!-- END - Chemical Plant -->
+
+  <!-- START - Chemical Plant with Rail Logistics -->
+  <ModOp Type="addNextSibling" GUID="135134">
+    <Asset>
+      <Template>ChemicalFactory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506108</GUID>
+          <Name>Chemical_Complex_LacquerColor</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_bulk_lacquer.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/public/electricity_01/electricity_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>54000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>16</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh/>
+        <Text>
+          <TextOverride>135133</TextOverride>
+        </Text>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>2143505836</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>2143505556</Product>
+              <Amount>1</Amount>
+              <StorageAmount>200</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+        </FactoryBase>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>800</Amount>
+              <InactiveAmount>400</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>100</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <RecipeBuilding>
+          <RecipeList>2143506100</RecipeList>
+        </RecipeBuilding>
+        <ModuleOwner>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>2143505714</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+          <AdditionalModule>2143506112</AdditionalModule>
+          <FertilizerModuleData>
+            <Module>2143505729</Module>
+          </FertilizerModuleData>
+        </ModuleOwner>
+        <LogisticNode>
+          <TransporterAsset>120062</TransporterAsset>
+          <TransporterCountMax>1</TransporterCountMax>
+          <PathLayers>Railway</PathLayers>
+        </LogisticNode>
+        <Motorizable>
+          <MotorizableType>Tractor</MotorizableType>
+        </Motorizable>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ChemicalFactory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506109</GUID>
+          <Name>Chemical_Complex_Celluloid</Name>
+			    <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_bulk_celluloid.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/public/electricity_01/electricity_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>54000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>16</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh/>
+        <Text>
+          <TextOverride>135224</TextOverride>
+        </Text>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>2143505837</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>2143505581</Product>
+              <Amount>1</Amount>
+              <StorageAmount>200</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+        </FactoryBase>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>800</Amount>
+              <InactiveAmount>400</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>100</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <RecipeBuilding>
+          <RecipeList>2143506102</RecipeList>
+        </RecipeBuilding>
+        <ModuleOwner>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>2143505714</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+          <AdditionalModule>2143506113</AdditionalModule>
+          <FertilizerModuleData>
+            <Module>2143505730</Module>
+          </FertilizerModuleData>
+        </ModuleOwner>
+        <LogisticNode>
+          <TransporterAsset>120028</TransporterAsset>
+          <TransporterCountMax>1</TransporterCountMax>
+          <PathLayers>Railway</PathLayers>
+        </LogisticNode>
+        <Motorizable>
+          <MotorizableType>Tractor</MotorizableType>
+        </Motorizable>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ChemicalFactory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506110</GUID>
+          <Name>Chemical_Complex_Ethanol</Name>
+			    <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_bulk_ethanol.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/public/electricity_01/electricity_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>54000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>16</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>2143505838</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>2143505579</Product>
+              <Amount>1</Amount>
+              <StorageAmount>200</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+        </FactoryBase>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>800</Amount>
+              <InactiveAmount>400</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>100</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <RecipeBuilding>
+          <RecipeList>2143506104</RecipeList>
+        </RecipeBuilding>
+        <ModuleOwner>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>2143505714</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+          <AdditionalModule>2143506114</AdditionalModule>
+          <FertilizerModuleData>
+            <Module>2143505731</Module>
+          </FertilizerModuleData>
+        </ModuleOwner>
+        <LogisticNode>
+          <TransporterAsset>120062</TransporterAsset>
+          <TransporterCountMax>1</TransporterCountMax>
+          <PathLayers>Railway</PathLayers>
+        </LogisticNode>
+        <Motorizable>
+          <MotorizableType>Tractor</MotorizableType>
+        </Motorizable>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ChemicalFactory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506111</GUID>
+          <Name>Chemical_Complex_Compound</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_bulk_chemical_compound.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/public/electricity_01/electricity_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>25000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>12</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh/>
+        <Constructable/>
+        <Locked/>
+        <FeedbackController/>
+        <Infolayer/>
+        <Factory7>
+          <IsAgriculture>1</IsAgriculture>
+        </Factory7>
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>2143505554</Product>
+              <Amount>1</Amount>
+              <StorageAmount>200</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+        </FactoryBase>
+        <UpgradeList/>
+        <RecipeBuilding>
+          <RecipeList>2143506106</RecipeList>
+        </RecipeBuilding>
+        <ModuleOwner>
+          <AdditionalModule>2143506115</AdditionalModule>
+          <FertilizerModuleData>
+            <Module>2143505732</Module>
+          </FertilizerModuleData>
+        </ModuleOwner>
+        <AmbientMoodProvider>
+          <AmbientMood>IndustryHeavy</AmbientMood>
+          <Murmur>Factory</Murmur>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>25000</Amount>
+              <InactiveAmount>125</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>250</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <IncidentInfectable>
+          <Infectable>
+            <Illness>
+              <Escalated>0</Escalated>
+            </Illness>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>2000</ExplosionCoreDamage>
+            <DamageExplosionChance>38</DamageExplosionChance>
+            <DamageExplosionCheckMax>40</DamageExplosionCheckMax>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <BaseChance>10</BaseChance>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.025</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+            <Explosion>
+              <BaseChance>8</BaseChance>
+              <FactoryProductivityFactor>0.025</FactoryProductivityFactor>
+              <FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Explosion>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Pausable/>
+        <QuestObject/>
+        <Industrializable/>
+        <LogisticNode>
+          <TransporterAsset>120062</TransporterAsset>
+          <TransporterCountMax>1</TransporterCountMax>
+          <PathLayers>Railway</PathLayers>
+        </LogisticNode>
+        <Motorizable>
+          <MotorizableType>Tractor</MotorizableType>
+        </Motorizable>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Chemical Plant with Rail Logistics -->
 </ModOps>

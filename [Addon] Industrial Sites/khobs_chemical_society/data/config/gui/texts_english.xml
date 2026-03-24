@@ -202,5 +202,39 @@
       <GUID>2143505554</GUID>
       <Text>Chemical Container</Text>
     </Text>
+    
+    <Text>
+      <GUID>2143506108</GUID>
+      <Text>Chemical Complex: Lacquer</Text>
+    </Text>
+    <Text>
+      <GUID>2143506109</GUID>
+      <Text>Chemical Complex: Celluloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143506110</GUID>
+      <Text>Chemical Complex: Ethanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Chemical Complex: Chemical Compound</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143506112</GUID>
+      <Text>Warehouse: Lacquer</Text>
+    </Text>
+    <Text>
+      <GUID>2143506113</GUID>
+      <Text>Warehouse: Celluliod</Text>
+    </Text>
+    <Text>
+      <GUID>2143506114</GUID>
+      <Text>Warehouse: Ethanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506115</GUID>
+      <Text>Warehouse: Chemicals</Text>
+    </Text>
   </ModOp>
 </ModOps>
