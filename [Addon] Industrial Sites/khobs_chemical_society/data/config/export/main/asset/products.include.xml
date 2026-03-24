@@ -1,0 +1,172 @@
+<ModOps>
+  <!-- START - Products -->
+  <ModOp Type="addNextSibling" GUID="135134">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505699</GUID>
+          <Name>Chemical Compound</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_compound.png</IconFilename>
+        </Standard>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory>
+          <BasePrice>750</BasePrice>
+          <CivLevel>1</CivLevel>
+          <AssociatedRegion>Moderate;Colony01;Arctic;Africa</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp GUID="120055" Type="add" Path="Values/ProductStorageList/ProductList/">
+    <Item>
+      <Product>2143505699</Product>
+    </Item>
+  </ModOp>
+  <ModOp GUID="502043,502007,502020" Type="add" Path="Values/ProductList/List/">
+    <Item>
+      <Product>2143505699</Product>
+    </Item>
+  </ModOp>
+  <!-- END - Products -->
+
+  <!-- START - FakeProducts -->
+  <ModOp Type="addNextSibling" GUID="1591">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505724</GUID>
+          <Name>FakeInputShampooResource</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <HideInUI>1</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505725</GUID>
+          <Name>FakeInputLemonadeResource</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <HideInUI>1</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505835</GUID>
+          <Name>FakeInputSouvenirResource</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <HideInUI>1</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505836</GUID>
+          <Name>FakeInputLacquerResource</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <HideInUI>1</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505837</GUID>
+          <Name>FakeInputCelluloidResource</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <HideInUI>1</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505838</GUID>
+          <Name>FakeInputEthanolResource</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <HideInUI>1</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505839</GUID>
+          <Name>FakeInputSodaResource</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <HideInUI>1</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - FakeProducts -->
+</ModOps>
