@@ -88,10 +88,13 @@
       <Values>
         <Standard>
           <GUID>2143505703</GUID>
-          <Name>Chemical_Plant_Shampoo</Name>
+          <Name>Chemical_Plant_Shampoo_OLD</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_shampoo.png</IconFilename>
           <InfoDescription>132783</InfoDescription><!--Multifactory building infocorner-->
         </Standard>
+        <Building>
+          <PickingAsset>2143505700</PickingAsset>
+        </Building>
         <Object>
           <Variations>
             <Item>
@@ -204,9 +207,12 @@
       <Values>
         <Standard>
           <GUID>2143505705</GUID>
-          <Name>Chemical_Plant_Lemonade</Name>
+          <Name>Chemical_Plant_Lemonade_OLD</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_lemonade.png</IconFilename>
         </Standard>
+        <Building>
+          <PickingAsset>2143505700</PickingAsset>
+        </Building>
         <Object>
           <Variations>
             <Item>
@@ -318,9 +324,12 @@
       <Values>
         <Standard>
           <GUID>2143505707</GUID>
-          <Name>Chemical_Plant_Souvenir</Name>
+          <Name>Chemical_Plant_Souvenir_OLD</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_souvenir.png</IconFilename>
         </Standard>
+        <Building>
+          <PickingAsset>2143505700</PickingAsset>
+        </Building>
         <Object>
           <Variations>
             <Item>
