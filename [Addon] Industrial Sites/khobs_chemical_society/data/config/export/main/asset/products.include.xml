@@ -26,15 +26,135 @@
         </ExpeditionAttribute>
       </Values>
     </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505556</GUID>
+          <Name>BulkLacquerResource</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\bulk_goods\icon_bulk_lacquer.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory>
+          <BasePrice>1</BasePrice>
+          <PathLayer>Railway</PathLayer>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505581</GUID>
+          <Name>BulkCelluloidResource</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\bulk_goods\icon_bulk_celluloid.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory>
+          <BasePrice>1</BasePrice>
+          <PathLayer>Railway</PathLayer>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505579</GUID>
+          <Name>BulkEthanolResource</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\bulk_goods\icon_bulk_ethanol.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory>
+          <BasePrice>1</BasePrice>
+          <PathLayer>Railway</PathLayer>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505554</GUID>
+          <Name>BulkCompoundResource</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\bulk_goods\icon_bulk_chemical_compound.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory>
+          <BasePrice>1</BasePrice>
+          <PathLayer>Railway</PathLayer>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
   </ModOp>
-  <ModOp GUID="120055" Type="add" Path="Values/ProductStorageList/ProductList/">
+	<ModOp Type="addNextSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010226']">
     <Item>
       <Product>2143505699</Product>
     </Item>
-  </ModOp>
-  <ModOp GUID="502043,502007,502020" Type="add" Path="Values/ProductList/List/">
+    <Item>
+      <Product>2143505556</Product>
+    </Item>
+    <Item>
+      <Product>2143505581</Product>
+    </Item>
+    <Item>
+      <Product>2143505579</Product>
+    </Item>
+    <Item>
+      <Product>2143505554</Product>
+    </Item>
+	</ModOp>
+  <ModOp GUID="502016,502065,502046,502020,502007" Type="add" Path="Values/ProductList/List/">
     <Item>
       <Product>2143505699</Product>
+    </Item>
+    <Item>
+      <Product>2143505556</Product>
+    </Item>
+    <Item>
+      <Product>2143505581</Product>
+    </Item>
+    <Item>
+      <Product>2143505579</Product>
+    </Item>
+    <Item>
+      <Product>2143505554</Product>
     </Item>
   </ModOp>
   <!-- END - Products -->

@@ -185,5 +185,22 @@
       <GUID>2143505853</GUID>
       <Text>Ready to produce Soda</Text>
     </Text>
+    
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Lacquer Cans</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Celluloid Crate</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Ethanol Cans</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Chemical Container</Text>
+    </Text>
   </ModOp>
 </ModOps>
