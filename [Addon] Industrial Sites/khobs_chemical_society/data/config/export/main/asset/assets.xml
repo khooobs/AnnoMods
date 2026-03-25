@@ -8,7 +8,7 @@
   <Include File="products.include.xml" />
   <Include File="pools.include.xml" />
 
-  <!-- START - PRODUCTION WORKS compat -->
+  <!-- START - Production Works Integration -->
   <Group Condition="#production_works_kurila">
     <ModOp Type="add" GUID="2143505701" Path="Values/RecipeList/Recipes">
       <Item>
@@ -16,7 +16,44 @@
       </Item>
     </ModOp>
   </Group>
-  <!-- END - PRODUCTION WORKS compat -->
+  <!-- END - Production Works Integration -->
+
+  <!-- START - Industrial Cities Menu Integration -->
+  <Group Condition="#jakob-modular-factories">
+    <ModOp GUID="1500010601" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='1500010600']">
+      <Item>
+        <Building>2143505703</Building>
+      </Item>
+      <Item>
+        <Building>2143505705</Building>
+      </Item>
+      <Item>
+        <Building>2143505707</Building>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505703,2143505705,2143505707" Type="replace" Path="Values/Standard/InfoDescription">
+      <InfoDescription>1500010602</InfoDescription>
+    </ModOp>
+  </Group>
+  <!-- END - Industrial Cities Menu Integration -->
+   
+  <!-- START - Tourist Small Multifactories Integration -->
+  <ModOp GUID="137608" Type="add" Path="Values/ProductionChain/Tier1">
+    <Item>
+      <Building>2143505703</Building>
+    </Item>
+  </ModOp>
+  <ModOp GUID="137607" Type="add" Path="Values/ProductionChain/Tier1">
+    <Item>
+      <Building>2143505705</Building>
+    </Item>
+  </ModOp>
+  <ModOp GUID="137609" Type="add" Path="Values/ProductionChain/Tier1">
+    <Item>
+      <Building>2143505707</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Tourist Small Multifactories Integration -->
 
   <!-- START - Texts -->
   <ModOp GUID="25000192" Type="addNextSibling">

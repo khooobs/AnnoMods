@@ -1081,6 +1081,15 @@
                       <Item>
                         <Asset>2143506120</Asset>
                       </Item>
+                      <Item>
+                        <Asset>2143505703</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505705</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505707</Asset>
+                      </Item>
                     </UnhideAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -1139,7 +1148,62 @@
                       <Item>
                         <Asset>2143506120</Asset>
                       </Item>
+                      <Item>
+                        <Asset>2143506121</Asset>
+                      </Item>
                     </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505919</GUID>
+          <Name>Engineers - Unlock Halfed Factories</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAsset>
+                      <Item>
+                        <Asset>2143505703</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505705</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505707</Asset>
+                      </Item>
+                    </UnlockAsset>
                   </ActionUnlockAsset>
                 </Values>
               </TriggerAction>
