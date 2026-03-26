@@ -435,114 +435,6 @@
       <Template>ChemicalFactory</Template>
       <Values>
         <Standard>
-          <GUID>2143505721</GUID>
-          <Name>Chemical_Plant_Soda</Name>
-			    <IconFilename>data/modgraphics/ui/icon_soda_2.png</IconFilename>
-        </Standard>
-        <Object>
-          <Variations>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <Cost>
-          <Costs>
-            <Item>
-              <Ingredient>1010017</Ingredient>
-              <!--Money-->
-              <Amount>54000</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010196</Ingredient>
-              <!--timber-->
-              <Amount>10</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010205</Ingredient>
-              <!--bricks-->
-              <Amount>20</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010218</Ingredient>
-              <!--beams-->
-              <Amount>16</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010207</Ingredient>
-              <!--window-->
-              <Amount>15</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010202</Ingredient>
-              <!--concrete-->
-              <Amount>15</Amount>
-            </Item>
-          </Costs>
-        </Cost>
-        <Mesh/>
-        <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>2143505839</Product>
-              <Amount>1</Amount>
-              <StorageAmount>10</StorageAmount>
-            </Item>
-          </FactoryInputs>
-          <FactoryOutputs>
-            <Item>
-              <Product>1999002300</Product>
-              <Amount>1</Amount>
-              <StorageAmount>30</StorageAmount>
-            </Item>
-          </FactoryOutputs>
-          <CycleTime>30</CycleTime>
-        </FactoryBase>
-        <Maintenance>
-          <Maintenances>
-            <Item>
-              <Product>1010017</Product>
-              <Amount>800</Amount>
-              <InactiveAmount>400</InactiveAmount>
-            </Item>
-            <Item>
-              <Product>1010117</Product>
-              <Amount>100</Amount>
-            </Item>
-          </Maintenances>
-        </Maintenance>
-        <RecipeBuilding>
-          <RecipeList>2143505701</RecipeList>
-        </RecipeBuilding>
-        <ModuleOwner>
-          <ConstructionOptions>
-            <Item>
-              <ModuleGUID>2143505714</ModuleGUID>
-            </Item>
-          </ConstructionOptions>
-          <FertilizerModuleData>
-            <Module>2143505734</Module>
-          </FertilizerModuleData>
-        </ModuleOwner>
-        <LogisticNode>
-          <TransporterAsset>120028</TransporterAsset>
-          <TransporterCountMax>1</TransporterCountMax>
-        </LogisticNode>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>ChemicalFactory</Template>
-      <Values>
-        <Standard>
           <GUID>2143505694</GUID>
           <Name>Chemical_Plant_Compound</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_compound.png</IconFilename>
@@ -1154,6 +1046,9 @@
             <Item>
               <Building>2143505707</Building>
             </Item>
+            <Item>
+              <Building>2143505721</Building>
+            </Item>
           </InfluencedByNeighbors>
         </Building>
         <Object>
@@ -1272,6 +1167,9 @@
             </Item>
             <Item>
               <Building>2143505707</Building>
+            </Item>
+            <Item>
+              <Building>2143505721</Building>
             </Item>
           </InfluencedByNeighbors>
         </Building>
@@ -1392,6 +1290,9 @@
             <Item>
               <Building>2143505707</Building>
             </Item>
+            <Item>
+              <Building>2143505721</Building>
+            </Item>
           </InfluencedByNeighbors>
         </Building>
         <Object>
@@ -1494,5 +1395,125 @@
     </Asset>
   </ModOp>
   <!-- END - Small Related Plant -->
+
+  <!-- START - Production Works Integration -->
+  <ModOp Type="addNextSibling" GUID="135134">
+    <Asset>
+      <Template>ChemicalFactorySmall</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505721</GUID>
+          <Name>soda_factory</Name>
+			    <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_soda_half.png</IconFilename>
+        </Standard>
+        <Building>
+          <InfluencedByNeighbors>
+            <Item>
+              <Building>2143505703</Building>
+            </Item>
+            <Item>
+              <Building>2143505705</Building>
+            </Item>
+            <Item>
+              <Building>2143505707</Building>
+            </Item>
+            <Item>
+              <Building>2143505721</Building>
+            </Item>
+          </InfluencedByNeighbors>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/halfed/soda_factory/corner2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/halfed/soda_factory/mid.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/halfed/soda_factory/corner1.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/halfed/soda_factory/single.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>18000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>6</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>114358</Product>
+              <Amount>2</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+            <Item>
+              <Product>2100115089</Product>
+              <Amount>2</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010231</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010226</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+          <CycleTime>90</CycleTime>
+        </FactoryBase>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>400</Amount>
+              <InactiveAmount>200</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <LogisticNode>
+          <TransporterAsset>120028</TransporterAsset>
+          <TransporterCountMax>1</TransporterCountMax>
+          <HideTransportersBeforeTheyMove>1</HideTransportersBeforeTheyMove>
+        </LogisticNode>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Production Works Integration -->
 
 </ModOps>
