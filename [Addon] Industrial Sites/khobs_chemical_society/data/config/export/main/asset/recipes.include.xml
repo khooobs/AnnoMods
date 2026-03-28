@@ -410,7 +410,7 @@
         <Standard>
           <GUID>2143506103</GUID>
           <Name>Recipe_BulkCelluloid</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_bulk_lacquer.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_bulk_celluloid.png</IconFilename>
         </Standard>
         <Text>
           <TextOverride>2143505581</TextOverride>
