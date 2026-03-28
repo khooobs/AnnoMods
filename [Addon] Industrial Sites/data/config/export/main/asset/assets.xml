@@ -142,7 +142,19 @@
       <Item>
         <Building>2143505700</Building>
       </Item>
-    </ModOp>
+      <Item>
+        <Building>2143505709</Building>
+      </Item>
+      <Item>
+        <Building>2143505711</Building>
+      </Item>
+      <Item>
+        <Building>2143505713</Building>
+      </Item>
+      <Item>
+        <Building>2143505694</Building>
+      </Item>
+    </ModOp>   
   </Group>
   <!-- END - Chemical Society - Add to category -->
 

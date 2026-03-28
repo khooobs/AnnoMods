@@ -10,19 +10,13 @@
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_plant_site.png</IconFilename>
           <InfoDescription>2143505698</InfoDescription>
         </Standard>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -90,21 +84,15 @@
         <Standard>
           <GUID>2143505709</GUID>
           <Name>Chemical_Plant_LacquerColor</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_lacquer.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_lacquer_plant.png</IconFilename>
         </Standard>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/lacquer_plant/lacquer_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -207,21 +195,15 @@
         <Standard>
           <GUID>2143505711</GUID>
           <Name>Chemical_Plant_Celluloid</Name>
-			    <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_celluloid.png</IconFilename>
+			    <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_celluloid_plant.png</IconFilename>
         </Standard>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/celluloid_plant/celluloid_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -314,6 +296,7 @@
           <TransporterAsset>120028</TransporterAsset>
           <TransporterCountMax>1</TransporterCountMax>
         </LogisticNode>
+        <Motorizable/>
       </Values>
     </Asset>
     <Asset>
@@ -322,21 +305,15 @@
         <Standard>
           <GUID>2143505713</GUID>
           <Name>Chemical_Plant_Ethanol</Name>
-			    <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_ethanol.png</IconFilename>
+			    <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_ethanol_plant.png</IconFilename>
         </Standard>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/ethanol_plant/ethanol_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -429,6 +406,7 @@
           <TransporterAsset>120062</TransporterAsset>
           <TransporterCountMax>1</TransporterCountMax>
         </LogisticNode>
+        <Motorizable/>
       </Values>
     </Asset>
     <Asset>
@@ -437,21 +415,15 @@
         <Standard>
           <GUID>2143505694</GUID>
           <Name>Chemical_Plant_Compound</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_compound.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_plant.png</IconFilename>
         </Standard>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner2.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_mid2.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_corner1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_single.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -566,6 +538,9 @@
           <TransporterAsset>120062</TransporterAsset>
           <TransporterCountMax>1</TransporterCountMax>
         </LogisticNode>
+        <Motorizable>
+          <MotorizableType>Tractor</MotorizableType>
+        </Motorizable>
       </Values>
     </Asset>
   </ModOp>
@@ -587,7 +562,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/public/electricity_01/electricity_01.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/lacquer_plant/lacquer_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -660,7 +635,7 @@
         <ModuleOwner>
           <ConstructionOptions>
             <Item>
-              <ModuleGUID>2143505714</ModuleGUID>
+              <ModuleGUID>2143505122</ModuleGUID>
             </Item>
           </ConstructionOptions>
           <AdditionalModule>2143506112</AdditionalModule>
@@ -692,7 +667,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/public/electricity_01/electricity_01.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/celluloid_plant/celluloid_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -765,7 +740,7 @@
         <ModuleOwner>
           <ConstructionOptions>
             <Item>
-              <ModuleGUID>2143505714</ModuleGUID>
+              <ModuleGUID>2143505122</ModuleGUID>
             </Item>
           </ConstructionOptions>
           <AdditionalModule>2143506113</AdditionalModule>
@@ -797,7 +772,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/public/electricity_01/electricity_01.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/ethanol_plant/ethanol_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -867,7 +842,7 @@
         <ModuleOwner>
           <ConstructionOptions>
             <Item>
-              <ModuleGUID>2143505714</ModuleGUID>
+              <ModuleGUID>2143505122</ModuleGUID>
             </Item>
           </ConstructionOptions>
           <AdditionalModule>2143506114</AdditionalModule>
@@ -899,7 +874,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/public/electricity_01/electricity_01.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -956,6 +931,11 @@
         </RecipeBuilding>
         <ModuleOwner>
           <AdditionalModule>2143506115</AdditionalModule>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>2143505122</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
           <FertilizerModuleData>
             <Module>2143505732</Module>
           </FertilizerModuleData>
