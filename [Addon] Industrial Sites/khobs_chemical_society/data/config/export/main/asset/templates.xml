@@ -12,6 +12,7 @@
 					<BuildingType>Factory</BuildingType>
           <AllowChangeVariation>1</AllowChangeVariation>
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
           <InfluencedByNeighbors>
             <Item>
               <Building>2143505700</Building>
@@ -282,6 +283,7 @@
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
 					<BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<AllowChangeVariation>1</AllowChangeVariation>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
           <InfluencedVariationDirection>
             <Item />
             <Item>
@@ -494,6 +496,7 @@
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
           <BuildingCategoryName>2143505402</BuildingCategoryName>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
         </Building>
         <Blocking>
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
@@ -766,6 +769,7 @@
               </Pool>
             </TCrossing>
           </BuildingBlockPool>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
 				</Building>
         <Blocking/>
         <Cost/>
