@@ -635,7 +635,7 @@
         <ModuleOwner>
           <ConstructionOptions>
             <Item>
-              <ModuleGUID>2143505122</ModuleGUID>
+              <ModuleGUID>2143506122</ModuleGUID>
             </Item>
           </ConstructionOptions>
           <AdditionalModule>2143506112</AdditionalModule>
@@ -700,9 +700,6 @@
           </Costs>
         </Cost>
         <Mesh/>
-        <Text>
-          <TextOverride>135224</TextOverride>
-        </Text>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -740,7 +737,7 @@
         <ModuleOwner>
           <ConstructionOptions>
             <Item>
-              <ModuleGUID>2143505122</ModuleGUID>
+              <ModuleGUID>2143506122</ModuleGUID>
             </Item>
           </ConstructionOptions>
           <AdditionalModule>2143506113</AdditionalModule>
@@ -842,7 +839,7 @@
         <ModuleOwner>
           <ConstructionOptions>
             <Item>
-              <ModuleGUID>2143505122</ModuleGUID>
+              <ModuleGUID>2143506122</ModuleGUID>
             </Item>
           </ConstructionOptions>
           <AdditionalModule>2143506114</AdditionalModule>
@@ -933,7 +930,7 @@
           <AdditionalModule>2143506115</AdditionalModule>
           <ConstructionOptions>
             <Item>
-              <ModuleGUID>2143505122</ModuleGUID>
+              <ModuleGUID>2143506122</ModuleGUID>
             </Item>
           </ConstructionOptions>
           <FertilizerModuleData>

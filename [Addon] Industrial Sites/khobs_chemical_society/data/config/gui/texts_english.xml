@@ -236,5 +236,10 @@
       <GUID>2143506115</GUID>
       <Text>Warehouse: Chemicals</Text>
     </Text>
+    
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Chemical Complex Module</Text>
+    </Text>
   </ModOp>
 </ModOps>

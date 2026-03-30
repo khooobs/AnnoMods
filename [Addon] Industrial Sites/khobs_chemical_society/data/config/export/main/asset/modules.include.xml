@@ -11,6 +11,13 @@
           <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
           <InfoDescription>2143505715</InfoDescription>
         </Standard>
+        <Building>
+          <InfluencedByNeighbors>
+            <Item>
+              <Building>2143505714</Building>
+            </Item>
+          </InfluencedByNeighbors>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -72,11 +79,18 @@
       <Template>ChemicalModule</Template>
       <Values>
         <Standard>
-          <GUID>2143505122</GUID>
+          <GUID>2143506122</GUID>
           <Name>Chemical_Complex_Module</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
           <InfoDescription>2143505715</InfoDescription>
         </Standard>
+        <Building>
+          <InfluencedByNeighbors>
+            <Item>
+              <Building>2143506122</Building>
+            </Item>
+          </InfluencedByNeighbors>
+        </Building>
         <Cost>
           <Costs>
             <Item>
@@ -89,7 +103,7 @@
             </Item>
             <Item>
               <Ingredient>1010205</Ingredient>
-              <Amount>10</Amount>
+              <Amount>30</Amount>
             </Item>
             <Item>
               <Ingredient>1010218</Ingredient>
@@ -109,7 +123,7 @@
             <Item>
               <Filename>data/modgraphics/buildings/modules/chemical_complex/corner1.cfg</Filename>
             </Item>
-            <Item>
+             <Item>
               <Filename>data/modgraphics/buildings/modules/chemical_complex/mid.cfg</Filename>
             </Item>
             <Item>
@@ -992,12 +1006,15 @@
         <Standard>
           <GUID>2143506112</GUID>
           <Name>Rail_Loading_Bay_LacquerColor</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_railway_warehouse.png</IconFilename>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
           <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
         <Cost>
           <Costs>
             <Item>
@@ -1027,7 +1044,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_depot.cfg</Filename>
+              <Filename>data/modgraphics/buildings/modules/chemical_freight/lacquer_railway_warehouse.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1045,6 +1062,7 @@
           </Colors>
           <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
         </Selection>
+        <Factory7/>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -1063,6 +1081,7 @@
           <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
           <TeleportProducedGoodsIntoAreaStorage>1</TeleportProducedGoodsIntoAreaStorage>
           <CycleTime>15</CycleTime>
+          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
         </FactoryBase>
         <Maintenance>
           <Maintenances>
@@ -1080,6 +1099,10 @@
         <BuildingModule>
           <ModuleType>AdditionalModule</ModuleType>
         </BuildingModule>
+        <LogisticNode>
+          <TransporterCountMax>1</TransporterCountMax>
+          <PathLayers>Railway</PathLayers>
+        </LogisticNode>
       </Values>
     </Asset>
     <Asset>
@@ -1088,12 +1111,15 @@
         <Standard>
           <GUID>2143506113</GUID>
           <Name>Rail_Loading_Bay_Celluloid</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_railway_warehouse.png</IconFilename>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
           <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
         <Cost>
           <Costs>
             <Item>
@@ -1123,7 +1149,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_depot.cfg</Filename>
+              <Filename>data/modgraphics/buildings/modules/chemical_freight/celluloid_railway_warehouse.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1141,6 +1167,7 @@
           </Colors>
           <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
         </Selection>
+        <Factory7/>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -1158,6 +1185,7 @@
           </FactoryOutputs>
           <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
           <TeleportProducedGoodsIntoAreaStorage>1</TeleportProducedGoodsIntoAreaStorage>
+          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
           <CycleTime>15</CycleTime>
         </FactoryBase>
         <Maintenance>
@@ -1176,6 +1204,10 @@
         <BuildingModule>
           <ModuleType>AdditionalModule</ModuleType>
         </BuildingModule>
+        <LogisticNode>
+          <TransporterCountMax>1</TransporterCountMax>
+          <PathLayers>Railway</PathLayers>
+        </LogisticNode>
       </Values>
     </Asset>
     <Asset>
@@ -1184,12 +1216,15 @@
         <Standard>
           <GUID>2143506114</GUID>
           <Name>Rail_Loading_Bay_Ethanol</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_railway_warehouse.png</IconFilename>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
           <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
         <Cost>
           <Costs>
             <Item>
@@ -1219,7 +1254,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_depot.cfg</Filename>
+              <Filename>data/modgraphics/buildings/modules/chemical_freight/ethanol_railway_warehouse.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1237,6 +1272,7 @@
           </Colors>
           <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
         </Selection>
+        <Factory7/>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -1254,6 +1290,7 @@
           </FactoryOutputs>
           <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
           <TeleportProducedGoodsIntoAreaStorage>1</TeleportProducedGoodsIntoAreaStorage>
+          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
           <CycleTime>15</CycleTime>
         </FactoryBase>
         <Maintenance>
@@ -1272,6 +1309,10 @@
         <BuildingModule>
           <ModuleType>AdditionalModule</ModuleType>
         </BuildingModule>
+        <LogisticNode>
+          <TransporterCountMax>1</TransporterCountMax>
+          <PathLayers>Railway</PathLayers>
+        </LogisticNode>
       </Values>
     </Asset>
     <Asset>
@@ -1280,12 +1321,15 @@
         <Standard>
           <GUID>2143506115</GUID>
           <Name>Rail_Loading_Bay_Compound</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_railway_warehouse.png</IconFilename>
         </Standard>
         <Building>
           <AllowChangeVariation>1</AllowChangeVariation>
           <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
         <Cost>
           <Costs>
             <Item>
@@ -1315,7 +1359,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/chemical_plant/chemical_depot.cfg</Filename>
+              <Filename>data/modgraphics/buildings/modules/chemical_freight/chemical_railway_warehouse.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1333,6 +1377,7 @@
           </Colors>
           <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
         </Selection>
+        <Factory7/>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -1350,6 +1395,7 @@
           </FactoryOutputs>
           <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
           <TeleportProducedGoodsIntoAreaStorage>1</TeleportProducedGoodsIntoAreaStorage>
+          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
           <CycleTime>15</CycleTime>
         </FactoryBase>
         <Maintenance>
@@ -1368,6 +1414,10 @@
         <BuildingModule>
           <ModuleType>AdditionalModule</ModuleType>
         </BuildingModule>
+        <LogisticNode>
+          <TransporterCountMax>1</TransporterCountMax>
+          <PathLayers>Railway</PathLayers>
+        </LogisticNode>
       </Values>
     </Asset>
   </ModOp>

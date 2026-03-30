@@ -282,11 +282,6 @@
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
 					<BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<AllowChangeVariation>1</AllowChangeVariation>
-          <InfluencedByNeighbors>
-            <Item>
-              <Building>2143505714</Building>
-            </Item>
-          </InfluencedByNeighbors>
           <InfluencedVariationDirection>
             <Item />
             <Item>
