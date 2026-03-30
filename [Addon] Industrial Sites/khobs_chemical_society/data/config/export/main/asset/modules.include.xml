@@ -1001,20 +1001,13 @@
   <!-- START - Rail loading bays -->
   <ModOp Type="addNextSibling" GUID="132774">
     <Asset>
-      <Template>BuffFactoryModule</Template>
+      <Template>ChemicalRailwayWarehouse</Template>
       <Values>
         <Standard>
           <GUID>2143506112</GUID>
-          <Name>Rail_Loading_Bay_LacquerColor</Name>
+          <Name>ChemicalWarehouse_Lacquer</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_railway_warehouse.png</IconFilename>
         </Standard>
-        <Building>
-          <AllowChangeVariation>1</AllowChangeVariation>
-          <BuildingCategoryName>2143505402</BuildingCategoryName>
-        </Building>
-        <Blocking>
-          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-        </Blocking>
         <Cost>
           <Costs>
             <Item>
@@ -1049,20 +1042,6 @@
           </Variations>
         </Object>
         <Mesh />
-        <Selection>
-          <GUIType>Production</GUIType>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList />
-            </Values>
-          </OnSelection>
-          <Colors>
-            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-          </Colors>
-          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
-        </Selection>
-        <Factory7/>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -1096,30 +1075,16 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <BuildingModule>
-          <ModuleType>AdditionalModule</ModuleType>
-        </BuildingModule>
-        <LogisticNode>
-          <TransporterCountMax>1</TransporterCountMax>
-          <PathLayers>Railway</PathLayers>
-        </LogisticNode>
       </Values>
     </Asset>
     <Asset>
-      <Template>BuffFactoryModule</Template>
+      <Template>ChemicalRailwayWarehouse</Template>
       <Values>
         <Standard>
           <GUID>2143506113</GUID>
-          <Name>Rail_Loading_Bay_Celluloid</Name>
+          <Name>ChemicalWarehouse_Celluloid</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_railway_warehouse.png</IconFilename>
         </Standard>
-        <Building>
-          <AllowChangeVariation>1</AllowChangeVariation>
-          <BuildingCategoryName>2143505402</BuildingCategoryName>
-        </Building>
-        <Blocking>
-          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-        </Blocking>
         <Cost>
           <Costs>
             <Item>
@@ -1154,20 +1119,6 @@
           </Variations>
         </Object>
         <Mesh />
-        <Selection>
-          <GUIType>Production</GUIType>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList />
-            </Values>
-          </OnSelection>
-          <Colors>
-            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-          </Colors>
-          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
-        </Selection>
-        <Factory7/>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -1201,30 +1152,16 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <BuildingModule>
-          <ModuleType>AdditionalModule</ModuleType>
-        </BuildingModule>
-        <LogisticNode>
-          <TransporterCountMax>1</TransporterCountMax>
-          <PathLayers>Railway</PathLayers>
-        </LogisticNode>
       </Values>
     </Asset>
     <Asset>
-      <Template>BuffFactoryModule</Template>
+      <Template>ChemicalRailwayWarehouse</Template>
       <Values>
         <Standard>
           <GUID>2143506114</GUID>
-          <Name>Rail_Loading_Bay_Ethanol</Name>
+          <Name>ChemicalWarehouse_Ethanol</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_railway_warehouse.png</IconFilename>
         </Standard>
-        <Building>
-          <AllowChangeVariation>1</AllowChangeVariation>
-          <BuildingCategoryName>2143505402</BuildingCategoryName>
-        </Building>
-        <Blocking>
-          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-        </Blocking>
         <Cost>
           <Costs>
             <Item>
@@ -1259,20 +1196,6 @@
           </Variations>
         </Object>
         <Mesh />
-        <Selection>
-          <GUIType>Production</GUIType>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList />
-            </Values>
-          </OnSelection>
-          <Colors>
-            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-          </Colors>
-          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
-        </Selection>
-        <Factory7/>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -1306,30 +1229,16 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <BuildingModule>
-          <ModuleType>AdditionalModule</ModuleType>
-        </BuildingModule>
-        <LogisticNode>
-          <TransporterCountMax>1</TransporterCountMax>
-          <PathLayers>Railway</PathLayers>
-        </LogisticNode>
       </Values>
     </Asset>
     <Asset>
-      <Template>BuffFactoryModule</Template>
+      <Template>ChemicalRailwayWarehouse</Template>
       <Values>
         <Standard>
           <GUID>2143506115</GUID>
-          <Name>Rail_Loading_Bay_Compound</Name>
+          <Name>ChemicalWarehouse_Compound</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_railway_warehouse.png</IconFilename>
         </Standard>
-        <Building>
-          <AllowChangeVariation>1</AllowChangeVariation>
-          <BuildingCategoryName>2143505402</BuildingCategoryName>
-        </Building>
-        <Blocking>
-          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-        </Blocking>
         <Cost>
           <Costs>
             <Item>
@@ -1364,20 +1273,6 @@
           </Variations>
         </Object>
         <Mesh />
-        <Selection>
-          <GUIType>Production</GUIType>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList />
-            </Values>
-          </OnSelection>
-          <Colors>
-            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-          </Colors>
-          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
-        </Selection>
-        <Factory7/>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -1411,13 +1306,6 @@
             </Item>
           </Maintenances>
         </Maintenance>
-        <BuildingModule>
-          <ModuleType>AdditionalModule</ModuleType>
-        </BuildingModule>
-        <LogisticNode>
-          <TransporterCountMax>1</TransporterCountMax>
-          <PathLayers>Railway</PathLayers>
-        </LogisticNode>
       </Values>
     </Asset>
   </ModOp>

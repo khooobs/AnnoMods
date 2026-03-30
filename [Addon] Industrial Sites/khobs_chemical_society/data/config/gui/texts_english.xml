@@ -241,5 +241,11 @@
       <GUID>2143506122</GUID>
       <Text>Chemical Complex Module</Text>
     </Text>
+
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Unloads goods arriving by rail.</Text>
+    </Text>
+
   </ModOp>
 </ModOps>

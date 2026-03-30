@@ -85,6 +85,7 @@
           <GUID>2143505709</GUID>
           <Name>Chemical_Plant_LacquerColor</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_lacquer_plant.png</IconFilename>
+          <InfoDescription>2143505698</InfoDescription>
         </Standard>
         <Blocking>
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
@@ -196,6 +197,7 @@
           <GUID>2143505711</GUID>
           <Name>Chemical_Plant_Celluloid</Name>
 			    <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_celluloid_plant.png</IconFilename>
+          <InfoDescription>2143505698</InfoDescription>
         </Standard>
         <Blocking>
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
@@ -306,6 +308,7 @@
           <GUID>2143505713</GUID>
           <Name>Chemical_Plant_Ethanol</Name>
 			    <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_ethanol_plant.png</IconFilename>
+          <InfoDescription>2143505698</InfoDescription>
         </Standard>
         <Blocking>
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
@@ -416,6 +419,7 @@
           <GUID>2143505694</GUID>
           <Name>Chemical_Plant_Compound</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_plant.png</IconFilename>
+          <InfoDescription>2143505698</InfoDescription>
         </Standard>
         <Blocking>
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
@@ -555,6 +559,7 @@
           <GUID>2143506108</GUID>
           <Name>Chemical_Complex_LacquerColor</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_bulk_lacquer.png</IconFilename>
+          <InfoDescription>2143505698</InfoDescription>
         </Standard>
         <Blocking>
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
@@ -660,6 +665,7 @@
           <GUID>2143506109</GUID>
           <Name>Chemical_Complex_Celluloid</Name>
 			    <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_bulk_celluloid.png</IconFilename>
+          <InfoDescription>2143505698</InfoDescription>
         </Standard>
         <Blocking>
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
@@ -762,6 +768,7 @@
           <GUID>2143506110</GUID>
           <Name>Chemical_Complex_Ethanol</Name>
 			    <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_bulk_ethanol.png</IconFilename>
+          <InfoDescription>2143505698</InfoDescription>
         </Standard>
         <Blocking>
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
@@ -864,6 +871,7 @@
           <GUID>2143506111</GUID>
           <Name>Chemical_Complex_Compound</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_bulk_chemical_compound.png</IconFilename>
+          <InfoDescription>2143505698</InfoDescription>
         </Standard>
         <Blocking>
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
