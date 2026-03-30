@@ -247,5 +247,13 @@
       <Text>Unloads goods arriving by rail.</Text>
     </Text>
 
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>Chemistry buildings have been moved to the Engineers menu.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Chemical Industries</Text>
+    </Text>
   </ModOp>
 </ModOps>

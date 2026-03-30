@@ -137,23 +137,15 @@
   <Group Condition="#khobs_chemical_society">
     <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
       <Item>
-        <Building>2143505692</Building>
+        <Building>2143506124</Building>
       </Item>
-      <!-- <Item>
-        <Building>2143505700</Building>
-      </Item> -->
+    </ModOp>   
+    <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500016']">
       <Item>
-        <Building>2143505709</Building>
+        <Building>2143506125</Building>
       </Item>
-      <Item>
-        <Building>2143505711</Building>
-      </Item>
-      <Item>
-        <Building>2143505713</Building>
-      </Item>
-      <Item>
-        <Building>2143505694</Building>
-      </Item>
+    </ModOp>   
+    <ModOp GUID="2143505416" Type="add" Path="Values/ConstructionCategory/BuildingList/">
       <Item>
         <Building>2143506112</Building>
       </Item>
@@ -166,7 +158,7 @@
       <Item>
         <Building>2143506115</Building>
       </Item>
-    </ModOp>   
+    </ModOp>
   </Group>
   <!-- END - Chemical Society - Add to category -->
 
