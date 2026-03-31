@@ -180,5 +180,69 @@
       <GUID>2143505853</GUID>
       <Text>Gotowi do produkcji napoju gazowanego</Text>
     </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Puszki lakieru</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Skrzynka celuloidowa</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Puszki po etanolu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Pojemnik chemiczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143506108</GUID>
+      <Text>Kompleks chemiczny: Lakier</Text>
+    </Text>
+    <Text>
+      <GUID>2143506109</GUID>
+      <Text>Złożony chemiczny: Celuloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143506110</GUID>
+      <Text>Kompleks chemiczny: etanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Złożony związek chemiczny: Związek chemiczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143506112</GUID>
+      <Text>Magazyn: Lakier</Text>
+    </Text>
+    <Text>
+      <GUID>2143506113</GUID>
+      <Text>Magazyn: Celuloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143506114</GUID>
+      <Text>Magazyn: Etanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506115</GUID>
+      <Text>Magazyn: Chemikalia</Text>
+    </Text>
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Moduł Złożony Chemiczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Rozładowuje towary przybywające koleją.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>Budynki chemiczne zostały przeniesione do menu Inżynierów.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Przemysł chemiczny</Text>
+    </Text>
   </ModOp>
 </ModOps>

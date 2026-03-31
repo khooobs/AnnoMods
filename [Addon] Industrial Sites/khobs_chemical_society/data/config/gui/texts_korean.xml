@@ -180,5 +180,69 @@
       <GUID>2143505853</GUID>
       <Text>탄산음료 생산 준비 완료</Text>
     </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>래커 캔</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>셀룰로이드 크레이트</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>에탄올 캔</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>화학 용기</Text>
+    </Text>
+    <Text>
+      <GUID>2143506108</GUID>
+      <Text>화학 복합물: 래커</Text>
+    </Text>
+    <Text>
+      <GUID>2143506109</GUID>
+      <Text>화학 복합체: 셀룰로이드</Text>
+    </Text>
+    <Text>
+      <GUID>2143506110</GUID>
+      <Text>화학 복합물: 에탄올</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>화학 복합체: 화학 화합물</Text>
+    </Text>
+    <Text>
+      <GUID>2143506112</GUID>
+      <Text>창고: 래커</Text>
+    </Text>
+    <Text>
+      <GUID>2143506113</GUID>
+      <Text>창고: 셀룰로이드</Text>
+    </Text>
+    <Text>
+      <GUID>2143506114</GUID>
+      <Text>창고: 에탄올</Text>
+    </Text>
+    <Text>
+      <GUID>2143506115</GUID>
+      <Text>창고: 화학</Text>
+    </Text>
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>화학 복합체 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>철도로 도착하는 화물을 하역합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>화학 건물은 엔지니어 메뉴로 이동되었습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>화학 산업</Text>
+    </Text>
   </ModOp>
 </ModOps>

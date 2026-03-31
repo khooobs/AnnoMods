@@ -180,5 +180,69 @@
       <GUID>2143505853</GUID>
       <Text>Bereit zur Herstellung von Limonade</Text>
     </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Lackdosen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Zelluloidkiste</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Ethanoldosen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Chemischer Behälter</Text>
+    </Text>
+    <Text>
+      <GUID>2143506108</GUID>
+      <Text>Chemischer Komplex: Lack</Text>
+    </Text>
+    <Text>
+      <GUID>2143506109</GUID>
+      <Text>Chemischer Komplex: Zelluloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143506110</GUID>
+      <Text>Chemischer Komplex: Ethanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Chemischer Komplex: Chemische Verbindung</Text>
+    </Text>
+    <Text>
+      <GUID>2143506112</GUID>
+      <Text>Lagerhaus: Lack</Text>
+    </Text>
+    <Text>
+      <GUID>2143506113</GUID>
+      <Text>Lager: Zelluloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143506114</GUID>
+      <Text>Lager: Ethanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506115</GUID>
+      <Text>Lager: Chemikalien</Text>
+    </Text>
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Chemisches Komplexmodul</Text>
+    </Text>
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Entlädt Güter, die per Bahn ankommen.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>Chemiegebäude wurden in das Ingenieursmenü verlegt.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Chemische Industrien</Text>
+    </Text>
   </ModOp>
 </ModOps>
