@@ -42,7 +42,7 @@
     </Text>
     <Text>
       <GUID>2143505564</GUID>
-      <Text>Freight Unload Dock: Steel</Text>
+      <Text>Warehouse: Steel Sheets</Text>
     </Text>
     <Text>
       <GUID>2143505582</GUID>
@@ -55,6 +55,10 @@
     <Text>
       <GUID>2143505585</GUID>
       <Text>Enables foundries to produce additional steel beams, at the cost of reduced overall efficiency.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Steel Sheets</Text>
     </Text>
   </ModOp>
 </ModOps>

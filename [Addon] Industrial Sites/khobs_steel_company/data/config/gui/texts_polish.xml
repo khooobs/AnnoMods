@@ -56,5 +56,9 @@
       <GUID>2143505585</GUID>
       <Text>Umożliwia odlewniom produkcję dodatkowych belek stalowych, kosztem obniżonej ogólnej wydajności.</Text>
     </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Blachy stalowe</Text>
+    </Text>
   </ModOp>
 </ModOps>

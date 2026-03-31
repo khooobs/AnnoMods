@@ -56,5 +56,9 @@
       <GUID>2143505585</GUID>
       <Text>鋳造所は追加の鋼梁を生産できるようになり、その代償として全体の効率が低下します。</Text>
     </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>鋼板</Text>
+    </Text>
   </ModOp>
 </ModOps>

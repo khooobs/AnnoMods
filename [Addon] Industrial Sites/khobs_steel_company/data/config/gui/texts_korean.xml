@@ -56,5 +56,9 @@
       <GUID>2143505585</GUID>
       <Text>주조소가 추가 강철 빔을 생산할 수 있게 하지만, 전체 효율은 감소합니다.</Text>
     </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>강철 판</Text>
+    </Text>
   </ModOp>
 </ModOps>

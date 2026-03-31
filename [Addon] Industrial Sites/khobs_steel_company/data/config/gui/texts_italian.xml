@@ -56,5 +56,9 @@
       <GUID>2143505585</GUID>
       <Text>Consente alle fonderie di produrre ulteriori travi in acciaio, a costo di una riduzione dell'efficienza complessiva.</Text>
     </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Lamiera d'acciaio</Text>
+    </Text>
   </ModOp>
 </ModOps>
