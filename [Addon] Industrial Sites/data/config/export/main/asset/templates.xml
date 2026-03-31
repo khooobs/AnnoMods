@@ -11,6 +11,7 @@
 					<AssociatedRegions>Moderate</AssociatedRegions>
 					<BuildingType>Factory</BuildingType>
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
 				</Building>
 				<Blocking />
 				<Cost />
@@ -343,6 +344,7 @@
 					<BuildingType>BuildingModule</BuildingType>
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
           <AllowChangeVariation>1</AllowChangeVariation>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
           <InfluencedVariationDirection>
             <Item />
             <Item>
@@ -545,6 +547,7 @@
 					<AssociatedRegions>Moderate</AssociatedRegions>
 					<BuildingType>Factory</BuildingType>
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
 				</Building>
 				<Blocking />
 				<Cost />

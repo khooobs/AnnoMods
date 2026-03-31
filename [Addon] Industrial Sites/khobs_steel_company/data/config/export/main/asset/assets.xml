@@ -92,6 +92,7 @@
           <SkipUnlockMessage>1</SkipUnlockMessage>
           <AssociatedRegions>Moderate</AssociatedRegions>
           <AllowChangeVariation>1</AllowChangeVariation>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
         </Building>
         <Cost>
           <Costs>
