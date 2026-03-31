@@ -1,0 +1,63 @@
+<ModOps>
+  <!-- START - Product -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505557</GUID>
+          <Name>BulkSteelResource</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\bulk_goods\icon_bulk_steel.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory>
+          <BasePrice>1</BasePrice>
+          <PathLayer>Railway</PathLayer>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+  </ModOp>
+	<ModOp Type="addNextSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010226']">
+    <Item>
+      <Product>2143505557</Product>
+    </Item>
+	</ModOp>
+  <ModOp GUID="502016,502065,502046,502020,502007" Type="add" Path="Values/ProductList/List/">
+    <Item>
+      <Product>2143505557</Product>
+    </Item>
+  </ModOp>
+  <!-- END - Product -->
+    
+  <!-- START - FakeProduct -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505553</GUID>
+          <Name>FakeInputOreResource</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_coal_storage_01.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <HideInUI>1</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - FakeProduct -->
+</ModOps>

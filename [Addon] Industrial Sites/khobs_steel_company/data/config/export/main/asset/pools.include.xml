@@ -1,0 +1,40 @@
+<ModOps>
+  <!-- START - Asset Pool -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>AssetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505504</GUID>
+          <Name>AssetPool Steel Company</Name>
+        </Standard>
+        <AssetPool>
+          <AssetList>
+            <Item>
+              <Asset>2143505408</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505500</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505507</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505509</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505584</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505564</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505557</Asset>
+            </Item>
+          </AssetList>
+        </AssetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Asset Pool -->
+</ModOps>
