@@ -274,6 +274,18 @@
             <Item>
               <GUID>2143505694</GUID>
             </Item>
+            <Item>
+              <GUID>2143506108</GUID>
+            </Item>
+            <Item>
+              <GUID>2143506109</GUID>
+            </Item>
+            <Item>
+              <GUID>2143506110</GUID>
+            </Item>
+            <Item>
+              <GUID>2143506111</GUID>
+            </Item>
           </EffectTargetGUIDs>
         </ItemEffectTargetPool>
       </Values>

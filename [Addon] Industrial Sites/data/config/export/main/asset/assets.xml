@@ -862,6 +862,25 @@
     <Item>
       <GUID>2143505650</GUID>
     </Item>
+
+    <Item>
+      <GUID>2143506122</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505564</GUID>
+    </Item>
+    <Item>
+      <GUID>2143506112</GUID>
+    </Item>
+    <Item>
+      <GUID>2143506113</GUID>
+    </Item>
+    <Item>
+      <GUID>2143506114</GUID>
+    </Item>
+    <Item>
+      <GUID>2143506115</GUID>
+    </Item>
   </ModOp>
   <!-- END - Adding buildings to pools -->
    
@@ -997,6 +1016,36 @@
     </Item>
     <Item>
       <Factory>2143505632</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506122</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505564</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506108</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506109</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506110</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506111</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506112</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506113</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506114</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506115</Factory>
     </Item>
   </ModOp>
   <!-- END - Adding working conditions -->
