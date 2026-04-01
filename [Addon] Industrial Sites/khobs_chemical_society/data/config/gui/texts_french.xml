@@ -180,5 +180,69 @@
       <GUID>2143505853</GUID>
       <Text>Prêt à produire du soda</Text>
     </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Bidons de laque</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Caisse de celluloïd</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Bidons d’éthanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Contenant chimique</Text>
+    </Text>
+    <Text>
+      <GUID>2143506108</GUID>
+      <Text>Complexe chimique : Laque</Text>
+    </Text>
+    <Text>
+      <GUID>2143506109</GUID>
+      <Text>Complexe chimique : Celluloïd</Text>
+    </Text>
+    <Text>
+      <GUID>2143506110</GUID>
+      <Text>Complexe chimique : Éthanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Complexe chimique : Composé chimique</Text>
+    </Text>
+    <Text>
+      <GUID>2143506112</GUID>
+      <Text>Entrepôt : Laque</Text>
+    </Text>
+    <Text>
+      <GUID>2143506113</GUID>
+      <Text>Entrepôt : Celluloïd</Text>
+    </Text>
+    <Text>
+      <GUID>2143506114</GUID>
+      <Text>Entrepôt : Éthanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506115</GUID>
+      <Text>Entrepôt : Produits chimiques</Text>
+    </Text>
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Module de Complexe Chimique</Text>
+    </Text>
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Décharge les marchandises arrivant par train.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>Les bâtiments de chimie ont été transférés au menu Ingénieurs.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Industries chimiques</Text>
+    </Text>
   </ModOp>
 </ModOps>

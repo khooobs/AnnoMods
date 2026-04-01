@@ -56,5 +56,9 @@
       <GUID>2143505585</GUID>
       <Text>Permite a las fundiciones producir vigas de acero adicionales, a costa de una eficiencia global reducida.</Text>
     </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Chapas de acero</Text>
+    </Text>
   </ModOp>
 </ModOps>

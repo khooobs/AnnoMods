@@ -56,5 +56,9 @@
       <GUID>2143505585</GUID>
       <Text>Permet aux fonderies de produire des poutres en acier supplémentaires, au prix d’une efficacité globale réduite.</Text>
     </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Tôles d’acier</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -180,5 +180,69 @@
       <GUID>2143505853</GUID>
       <Text>Pronto a produrre soda</Text>
     </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Lattine di lacca</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Cassa in celluloide</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Lattine di etanolo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Contenitore chimico</Text>
+    </Text>
+    <Text>
+      <GUID>2143506108</GUID>
+      <Text>Complesso chimico: lacca</Text>
+    </Text>
+    <Text>
+      <GUID>2143506109</GUID>
+      <Text>Complesso chimico: Celluloide</Text>
+    </Text>
+    <Text>
+      <GUID>2143506110</GUID>
+      <Text>Complesso chimico: etanolo</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Complesso chimico: composto chimico</Text>
+    </Text>
+    <Text>
+      <GUID>2143506112</GUID>
+      <Text>Magazzino: Lacca</Text>
+    </Text>
+    <Text>
+      <GUID>2143506113</GUID>
+      <Text>Magazzino: Celluloide</Text>
+    </Text>
+    <Text>
+      <GUID>2143506114</GUID>
+      <Text>Magazzino: etanolo</Text>
+    </Text>
+    <Text>
+      <GUID>2143506115</GUID>
+      <Text>Magazzino: Sostanze chimiche</Text>
+    </Text>
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Modulo del Complesso Chimico</Text>
+    </Text>
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Scarica merci che arrivano via ferrovia.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>Gli edifici di chimica sono stati spostati nel menu degli Ingegneri.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Industrie chimiche</Text>
+    </Text>
   </ModOp>
 </ModOps>

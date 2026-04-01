@@ -11,6 +11,7 @@
 					<AssociatedRegions>Moderate</AssociatedRegions>
 					<BuildingType>Factory</BuildingType>
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
 				</Building>
 				<Blocking />
 				<Cost />
@@ -79,7 +80,6 @@
 					<CultureType>Culture</CultureType>
 					<UndiscoveredSet>14022</UndiscoveredSet>
 					<ModuleListHeader>2143505410</ModuleListHeader>
-					<OpenSetPages>2143505411</OpenSetPages>
 				</Culture>
 				<ModuleOwner>
 					<ModuleLimits>
@@ -344,6 +344,7 @@
 					<BuildingType>BuildingModule</BuildingType>
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
           <AllowChangeVariation>1</AllowChangeVariation>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
           <InfluencedVariationDirection>
             <Item />
             <Item>
@@ -546,6 +547,7 @@
 					<AssociatedRegions>Moderate</AssociatedRegions>
 					<BuildingType>Factory</BuildingType>
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
 				</Building>
 				<Blocking />
 				<Cost />

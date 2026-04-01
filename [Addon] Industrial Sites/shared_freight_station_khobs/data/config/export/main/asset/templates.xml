@@ -9,6 +9,7 @@
 					<BuildingType>Factory</BuildingType>
 					<BuildingCategoryName>11151</BuildingCategoryName>
 					<AllowCodeToControlRotation>0</AllowCodeToControlRotation>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
 				</Building>
 				<Blocking/>
 				<Cost/>
@@ -165,103 +166,6 @@
 				<UpgradeList/>
 				<LogisticNode/>
 				<FeedbackController/>
-			</Properties>
-		</Template>
-		<Template>
-			<Name>WarehouseStrategic</Name>
-			<Properties>
-				<Standard/>
-				<Text/>
-				<Blocking/>
-				<Building>
-					<BuildingType>Factory</BuildingType>
-					<!-- <TerrainType>Coast</TerrainType> -->
-				</Building>
-				<Cost/>
-				<Selection>
-					<GUIType>Generic</GUIType>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList/>
-						</Values>
-					</OnSelection>
-					<AllowedDragType>ItemSocket;CargoProductStack;CargoItemStack</AllowedDragType>
-				</Selection>
-				<Object>
-					<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
-				</Object>
-				<Constructable>
-					<DestructionCategory>Production</DestructionCategory>
-				</Constructable>
-				<Mesh/>
-				<SoundEmitter>
-					<DestroySounds>
-						<Item>
-							<Sound>9818756</Sound>
-							<!--wwe_sfx_aui_delete-->
-						</Item>
-					</DestroySounds>
-					<ConstructionSounds>
-						<BuildFailed>
-							<Item>
-								<Sound>9818387</Sound>
-								<!--wwe_sfx_aui_deny-->
-							</Item>
-						</BuildFailed>
-						<BuildMoveStart>
-							<Item>
-								<Sound>9818755</Sound>
-								<!--wwe_sfx_aui_move-->
-							</Item>
-						</BuildMoveStart>
-						<BuildMoveSuccess>
-							<Item>
-								<Sound>203995</Sound>
-								<!--wwe_sfx_aui_move_replace_stone-->
-							</Item>
-						</BuildMoveSuccess>
-						<BuildMoveEnd>
-							<Item>
-								<Sound>200141</Sound>
-								<!--wwe_sfx_aui_move_end-->
-							</Item>
-						</BuildMoveEnd>
-					</ConstructionSounds>
-				</SoundEmitter>
-				<Locked/>
-				<Infolayer/>
-				<FeedbackController/>
-				<Warehouse>
-					<WarehouseStorage>
-						<StorageMax>100</StorageMax>
-					</WarehouseStorage>
-					<StorageType>StrategicKontor</StorageType>
-				</Warehouse>
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-					<QueueConfiguration>
-						<ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
-					</QueueConfiguration>
-					<PathLayers>Railway</PathLayers>
-				</LogisticNode>
-				<MinimapToken>
-					<TokenAsset>2001544</TokenAsset>
-					<!--DistributionCenter (occupied)-->
-				</MinimapToken>
-				<AmbientMoodProvider/>
-				<!-- <LoadingPier /> -->
-				<StorageBase/>
-				<Attackable />
-				<Upgradable/>
-				<Maintenance>
-					<IncomeCategory>InfrastructureBuildings</IncomeCategory>
-				</Maintenance>
-				<Pausable/>
-				<BuildingUnique/>
-				<UpgradeList/>
-				<TrainStation/>
-				<QuestObject/>
 			</Properties>
 		</Template>
 		<Template>

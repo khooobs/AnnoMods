@@ -180,5 +180,69 @@
       <GUID>2143505853</GUID>
       <Text>Listo para producir refresco</Text>
     </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Latas de laca</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Caja de celuloide</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Latas de etanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Contenedor químico</Text>
+    </Text>
+    <Text>
+      <GUID>2143506108</GUID>
+      <Text>Complejo químico: laca</Text>
+    </Text>
+    <Text>
+      <GUID>2143506109</GUID>
+      <Text>Complejo químico: celuloide</Text>
+    </Text>
+    <Text>
+      <GUID>2143506110</GUID>
+      <Text>Complejo químico: etanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Complejo químico: compuesto químico</Text>
+    </Text>
+    <Text>
+      <GUID>2143506112</GUID>
+      <Text>Almacén: Laca</Text>
+    </Text>
+    <Text>
+      <GUID>2143506113</GUID>
+      <Text>Almacén: Celuloide</Text>
+    </Text>
+    <Text>
+      <GUID>2143506114</GUID>
+      <Text>Almacén: etanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506115</GUID>
+      <Text>Almacén: Químicos</Text>
+    </Text>
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Módulo de Complejos Químicos</Text>
+    </Text>
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Descarga mercancías que llegan por ferrocarril.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>Los edificios de química se han trasladado al menú de Ingenieros.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Industrias químicas</Text>
+    </Text>
   </ModOp>
 </ModOps>

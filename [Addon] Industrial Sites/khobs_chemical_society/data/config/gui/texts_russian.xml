@@ -180,5 +180,69 @@
       <GUID>2143505853</GUID>
       <Text>Готов к производству газировки</Text>
     </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Лаковые банки</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Целлулоидный ящик</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Банки с этанолом</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Химический контейнер</Text>
+    </Text>
+    <Text>
+      <GUID>2143506108</GUID>
+      <Text>Химический комплекс: лак</Text>
+    </Text>
+    <Text>
+      <GUID>2143506109</GUID>
+      <Text>Химический комплекс: целлулоид</Text>
+    </Text>
+    <Text>
+      <GUID>2143506110</GUID>
+      <Text>Химический комплекс: этанол</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Химический комплекс: химическое соединение</Text>
+    </Text>
+    <Text>
+      <GUID>2143506112</GUID>
+      <Text>Склад: Лак</Text>
+    </Text>
+    <Text>
+      <GUID>2143506113</GUID>
+      <Text>Склад: Целлулоид</Text>
+    </Text>
+    <Text>
+      <GUID>2143506114</GUID>
+      <Text>Склад: этанол</Text>
+    </Text>
+    <Text>
+      <GUID>2143506115</GUID>
+      <Text>Склад: химикаты</Text>
+    </Text>
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Модуль химического комплекса</Text>
+    </Text>
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Разгружает товары, прибывающие по железной дороге.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>Корпуса химии были перенесены в меню инженеров.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Химическая промышленность</Text>
+    </Text>
   </ModOp>
 </ModOps>

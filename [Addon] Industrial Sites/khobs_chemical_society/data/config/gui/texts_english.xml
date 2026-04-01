@@ -185,5 +185,75 @@
       <GUID>2143505853</GUID>
       <Text>Ready to produce Soda</Text>
     </Text>
+    
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Lacquer Cans</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Celluloid Crate</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Ethanol Cans</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Chemical Container</Text>
+    </Text>
+    
+    <Text>
+      <GUID>2143506108</GUID>
+      <Text>Chemical Complex: Lacquer</Text>
+    </Text>
+    <Text>
+      <GUID>2143506109</GUID>
+      <Text>Chemical Complex: Celluloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143506110</GUID>
+      <Text>Chemical Complex: Ethanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Chemical Complex: Chemical Compound</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143506112</GUID>
+      <Text>Warehouse: Lacquer</Text>
+    </Text>
+    <Text>
+      <GUID>2143506113</GUID>
+      <Text>Warehouse: Celluloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143506114</GUID>
+      <Text>Warehouse: Ethanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506115</GUID>
+      <Text>Warehouse: Chemicals</Text>
+    </Text>
+    
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Chemical Complex Module</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Unloads goods arriving by rail.</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>Chemistry buildings have been moved to the Engineers menu.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Chemical Industries</Text>
+    </Text>
   </ModOp>
 </ModOps>

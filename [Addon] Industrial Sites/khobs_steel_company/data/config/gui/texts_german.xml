@@ -56,5 +56,9 @@
       <GUID>2143505585</GUID>
       <Text>Ermöglicht Gießereien, zusätzliche Stahlträger herzustellen, allerdings auf Kosten der Gesamteffizienz.</Text>
     </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Stahlblech</Text>
+    </Text>
   </ModOp>
 </ModOps>

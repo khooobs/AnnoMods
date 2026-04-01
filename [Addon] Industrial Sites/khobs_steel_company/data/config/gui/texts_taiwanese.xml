@@ -56,5 +56,9 @@
       <GUID>2143505585</GUID>
       <Text>使鑄造廠能生產更多鋼樑，但整體效率會降低。</Text>
     </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>鋼板</Text>
+    </Text>
   </ModOp>
 </ModOps>
