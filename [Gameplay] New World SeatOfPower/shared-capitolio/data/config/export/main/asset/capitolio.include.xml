@@ -611,12 +611,6 @@
         </LogisticNode>
         <Monument>
           <MonumentEventsCategories>
-            <Item>
-              <EventCategory>2143505146</EventCategory>
-            </Item>
-            <Item>
-              <EventCategory>2143505195</EventCategory>
-            </Item>
           </MonumentEventsCategories>
           <ShutdownText>6783</ShutdownText>
           <UnfinishedIcon>500417</UnfinishedIcon>
