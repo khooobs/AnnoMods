@@ -2,7 +2,7 @@
 	"Version": "1.1.11",
 	"ModID": "khobs_new_world_seat_of_power",
 	"IncompatibleIds": null,
-	"ModDependencies": null,
+	"ModDependencies": ["shared-capitolio"],
 	"Category": {
 		"Chinese": "游戏玩法",
 		"English": "Gameplay",

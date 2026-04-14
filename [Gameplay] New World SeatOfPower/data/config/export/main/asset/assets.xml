@@ -277,69 +277,63 @@ PRODUCT
   <Include File="../../../../khobs/nw-department/service/assets.include.xml" />
   <Include File="../../../../khobs/nw-department/trade/assets.include.xml" />
 
-  <!-- New World Tourism Compatibility -->
-  <Group Condition="#FamTaubeLexy_NewWorldHotels">
-    <!-- Add Bus Stop Palace need -->
-    <ModOp GUID="1440134301" Type="add" Path="/Values/BusStop/ShowNeeds/">
+  <!-- START ADD TO BUILDING MENU CONSTRUCTIONCATEGORY - Obrero (sa construction menu 2 (tier)) (25000193) -->
+  <ModOp GUID='25000194' Type="addNextSibling" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114141'][last()]">
+    <Item>
+      <Building>2143505019</Building><!-- ConstructionCategory: New World Local Department -->
+    </Item>
+  </ModOp>
+  <!-- END ADD TO BUILDING MENU CATEGORY -->
+
+  <!-- START ADD TO BUILDING MENU CONSTRUCTIONCATEGORY - City (sa construction menu culture (category)) (500150) -->
+  <ModOp GUID='500150' Type="addNextSibling" Path="/Values/ConstructionCategory/BuildingList/Item[Building='102284'][last()]">
+    <Item>
+      <Building>2143505019</Building><!-- ConstructionCategory: New World Local Department -->
+    </Item>
+  </ModOp>
+  <!-- END ADD TO BUILDING MENU CATEGORY -->
+
+  <!-- START CONSTRUCTIONCATEGORY Menu -->
+  <ModOp GUID='269667' Type="addNextSibling">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505019</GUID>
+          <Name>New World Local Department</Name>
+          <IconFilename>data/modgraphics/ui/icon_capitolio.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>2143505018</Building>
+            </Item>
+          </BuildingList>
+          <CategoryDescription>11152</CategoryDescription>
+        </ConstructionCategory>
+        <Text>
+          <TextOverride>2143505145</TextOverride>
+        </Text>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END CONSTRUCTIONCATEGORY Menu -->
+   
+  <Group Condition="#shared-capitolio">
+    
+    <ModOp GUID='2143505019' Path="/Values/ConstructionCategory/BuildingList/Item[Building='2143505018']" Type="addPrevSibling">
       <Item>
-        <Need>2143505236</Need>
+        <Building>2143505242</Building>
       </Item>
     </ModOp>
-    <!-- End Add Bus Stop Palace need -->
 
-    <!-- Add Bus Connections -->
-    <ModOp GUID="2143505145" Type="add" Path="/Values">
-      <BusActivation>
-        <BusNeed>2143505236</BusNeed>
-      </BusActivation>
-    </ModOp>
-
-    <ModOp GUID='134346' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <ModOp GUID='2143505145' Path="/Values/Monument/MonumentEventsCategories" Type="add">
       <Item>
-        <Building>2143505145</Building>
+        <EventCategory>2143505146</EventCategory>
       </Item>
-    </ModOp>
-    <!-- End Bus Connections -->
-
-    <ModOp GUID="134257" Type="addNextSibling">
-      <Asset>
-        <BaseAssetGUID>134257</BaseAssetGUID>
-        <Values>
-          <Standard>
-            <GUID>2143505236</GUID>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_palace.png</IconFilename>
-            <Name>Palace Need</Name>
-          </Standard>
-          <Text>
-            <TextOverride>249947</TextOverride>
-          </Text>
-          <Locked />
-          <Product>
-            <AssociatedRegion>Colony01</AssociatedRegion>
-          </Product>
-          <ExpeditionAttribute />
-        </Values>
-      </Asset>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='134257']">
       <Item>
-        <Product>2143505236</Product>
-        <HappinessValue>3</HappinessValue>
-        <IsOptionalHappinessValue>1</IsOptionalHappinessValue>
-        <MoneyValue>75</MoneyValue>
-        <FullWeightPopulationCount>1100</FullWeightPopulationCount>
-        <NoWeightPopulationCount>899</NoWeightPopulationCount>
-        <AdditionalGlobalUnlockRequirement>
-          <Population>601379</Population>
-          <MinPopulationAmount>900</MinPopulationAmount>
-        </AdditionalGlobalUnlockRequirement>
-        <RequiredBuildings>
-          <Item>
-            <RequiredBuilding>1440134300</RequiredBuilding>
-            <Region>Colony01</Region>
-          </Item>
-        </RequiredBuildings>
+        <EventCategory>2143505195</EventCategory>
       </Item>
     </ModOp>
   </Group>
