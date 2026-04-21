@@ -855,6 +855,7 @@
           </Colors>
           <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
         </Selection>
+        <Factory7/>
         <FactoryBase>
           <FactoryInputs>
             <Item>
