@@ -20,5 +20,13 @@
       <GUID>2143505859</GUID>
       <Text>Ironworks</Text>
     </Text>
+    <Text>
+      <GUID>2143505860</GUID>
+      <Text>Industrial Kitchen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505861</GUID>
+      <Text>Industrial Cannery</Text>
+    </Text>
   </ModOp>
 </ModOps>

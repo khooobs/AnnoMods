@@ -36,6 +36,12 @@
                       <Item>
                         <Asset>2143505859</Asset>
                       </Item>
+                      <Item>
+                        <Asset>2143505860</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505861</Asset>
+                      </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -84,6 +90,12 @@
                       <Item>
                         <Asset>2143505859</Asset>
                       </Item>
+                      <Item>
+                        <Asset>2143505860</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505861</Asset>
+                      </Item>
                     </UnhideAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -124,6 +136,15 @@
                       </Item>
                       <Item>
                         <Asset>2143505511</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505859</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505860</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505861</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>

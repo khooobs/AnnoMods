@@ -9,6 +9,14 @@
         <Building>2143505511</Building>
       </Item>
     </ModOp>
+    <ModOp GUID="1500010601" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='1500011317']">
+      <!-- <Item>
+        <Building>2143505860</Building>
+      </Item>
+      <Item>
+        <Building>2143505861</Building>
+      </Item> -->
+    </ModOp>
     <ModOp GUID="1500010601" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='1500010600']">
       <Item>
         <Building>2143505703</Building>
@@ -64,6 +72,12 @@
     <Item>
       <Building>2143505859</Building>
     </Item>
+    <Item>
+      <Building>2143505860</Building>
+    </Item>
+    <Item>
+      <Building>2143505861</Building>
+    </Item>
   </ModOp>
   <!-- END - Industrial Sites Menu Integration -->
 
@@ -93,9 +107,6 @@
           <GUID>2143505856</GUID>
           <Name>Modular factories menu description</Name>
         </Standard>
-        <Text>
-          <TextOverride>11143</TextOverride>
-        </Text>
       </Values>
     </Asset>
     <Asset>
@@ -113,7 +124,7 @@
       <Values>
         <Standard>
           <GUID>2143505858</GUID>
-          <Name>4x4 infotip description</Name>
+          <Name>2x infotip description</Name>
         </Standard>
         <Text>
           <TextOverride>2143505856</TextOverride>

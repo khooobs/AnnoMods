@@ -1,5 +1,6 @@
 <ModOps>
   <Include File="./menu.include.xml" />
+  <Include File="./food.include.xml" />
   <Include File="./chemical.include.xml" />
   <Include File="./textiles.include.xml" />
   <Include File="./metalworks.include.xml" />
