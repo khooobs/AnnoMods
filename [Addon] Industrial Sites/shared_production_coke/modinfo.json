@@ -1,0 +1,27 @@
+{
+  "Version": "1.0",
+  "ModID": "shared_production_coke",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "shared_goods_coke"
+  ],
+  "LoadAfterIds": [
+    "shared_goods_coke"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared"
+  },
+  "ModName": {
+    "English": "shared_production_coke"
+  },
+  "Description": {
+    "English": "Adds Coke Building production"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "muggenstuermer and khobs",
+  "CreatorContact": "https://mod.io/g/anno-1800/u/muggenstuermer",
+  "Image": null
+}

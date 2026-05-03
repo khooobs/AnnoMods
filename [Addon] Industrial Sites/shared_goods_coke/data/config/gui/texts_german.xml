@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1337505241</GUID>
+      <Text>Koks</Text>
+    </Text>
+  </ModOp>
+</ModOps>

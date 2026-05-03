@@ -1,0 +1,9 @@
+<ModOps>
+    <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+            <!-- TODO translation -->
+            <GUID>1337505240</GUID>
+            <Text>[AssetData(120021) Text] Refinement</Text>
+        </Text>
+    </ModOp>
+</ModOps>
