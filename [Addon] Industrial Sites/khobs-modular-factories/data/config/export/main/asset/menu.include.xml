@@ -30,6 +30,9 @@
       <Item>
         <Building>2143505859</Building>
       </Item>
+      <Item>
+        <Building>2143505862</Building>
+      </Item>
     </ModOp>
   </Group>
   <!-- END - Industrial Cities Menu Integration -->
@@ -61,6 +64,12 @@
       <Building>2143505511</Building>
     </Item>
     <Item>
+      <Building>2143505860</Building>
+    </Item>
+    <Item>
+      <Building>2143505861</Building>
+    </Item>
+    <Item>
       <Building>2143505703</Building>
     </Item>
     <Item>
@@ -72,12 +81,9 @@
     <Item>
       <Building>2143505859</Building>
     </Item>
-    <Item>
-      <Building>2143505860</Building>
-    </Item>
-    <Item>
-      <Building>2143505861</Building>
-    </Item>
+      <Item>
+        <Building>2143505862</Building>
+      </Item>
   </ModOp>
   <!-- END - Industrial Sites Menu Integration -->
 
