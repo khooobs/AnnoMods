@@ -1,0 +1,9 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143506003</GUID>
+      <Text>Ironworks</Text>
+    </Text>
+  </ModOp>
+</ModOps>

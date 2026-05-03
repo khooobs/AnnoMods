@@ -1,0 +1,26 @@
+{
+  "Version": "1.0",
+  "ModID": "shared_production_iron",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "shared_goods_iron"
+  ],
+  "LoadAfterIds": [
+    "shared_goods_iron"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared"
+  },
+  "ModName": {
+    "English": "shared_production_iron"
+  },
+  "Description": {
+    "English": "Adds Iron Building production"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Khobs",
+  "Image": null
+}
