@@ -20,7 +20,8 @@
     "khobs_textile_company",
     "khobs_chemical_society",
     "khobs_steel_company",
-    "shared_general_modules_kurila"
+    "shared_general_modules_kurila",
+    "khobs-modular-factories"
   ],
   "LoadAfterIds": [
     "shared_strategic_harbour",

@@ -1,0 +1,118 @@
+<ModOps>
+  <!-- START - Industrial Cities Menu Integration -->
+  <Group Condition="#jakob-modular-factories">
+    <ModOp GUID="1500010601" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Artisan&gt;1 or position()=1][1]">
+      <Item>
+        <Building>2143505512</Building>
+      </Item>
+      <Item>
+        <Building>2143505511</Building>
+      </Item>
+    </ModOp>
+    <ModOp GUID="1500010601" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='1500010600']">
+      <Item>
+        <Building>2143505703</Building>
+      </Item>
+      <Item>
+        <Building>2143505705</Building>
+      </Item>
+      <Item>
+        <Building>2143505707</Building>
+      </Item>
+    </ModOp>
+  </Group>
+  <!-- END - Industrial Cities Menu Integration -->
+
+  <!-- START - Industrial Sites Menu Integration -->
+  <ModOp Type="addNextSibling" GUID="1010372">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505411</GUID>
+          <Name>Industrial Sites - Modular Factories Menu</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_multifactory_assembly_line.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList />
+          <CategoryDescription>2143505402</CategoryDescription>
+        </ConstructionCategory>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID="2143505411" Path="/Values/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>2143505512</Building>
+    </Item>
+    <Item>
+      <Building>2143505511</Building>
+    </Item>
+    <Item>
+      <Building>2143505703</Building>
+    </Item>
+    <Item>
+      <Building>2143505705</Building>
+    </Item>
+    <Item>
+      <Building>2143505707</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Industrial Sites Menu Integration -->
+
+  <!-- START - Tourist Small Multifactories Integration -->
+  <ModOp GUID="137608" Type="add" Path="Values/ProductionChain/Tier1">
+    <Item>
+      <Building>2143505703</Building>
+    </Item>
+  </ModOp>
+  <ModOp GUID="137607" Type="add" Path="Values/ProductionChain/Tier1">
+    <Item>
+      <Building>2143505705</Building>
+    </Item>
+  </ModOp>
+  <ModOp GUID="137609" Type="add" Path="Values/ProductionChain/Tier1">
+    <Item>
+      <Building>2143505707</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Tourist Small Multifactories Integration -->
+
+  <ModOp Type="addNextSibling" GUID="1010372">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505856</GUID>
+          <Name>Modular factories menu description</Name>
+        </Standard>
+        <Text>
+          <TextOverride>11143</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505857</GUID>
+          <Name>fourfold productivity infotip</Name>
+          <IconFilename>data/ui/khobs/icon_fourfold_productivity.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505858</GUID>
+          <Name>4x4 infotip description</Name>
+        </Standard>
+        <Text>
+          <TextOverride>2143505856</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>

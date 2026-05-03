@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505512</GUID>
+      <Text>Industrial Knitter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>Industrial Linen Knitter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505857</GUID>
+      <Text>Fourfold Production</Text>
+    </Text>
+  </ModOp>
+</ModOps>
