@@ -68,4 +68,62 @@
     </Asset>
   </ModOp>
   <!-- END - Texts -->
+
+  <!-- # Start - Add to WorkforceMenu/Pools -->
+  <Group>
+    <!-- Workforce Boost -->
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <GUID>2143505507</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505564</GUID>
+      </Item>
+    </ModOp>
+
+    <!-- Feedback Spawn -->
+    <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+      <Item>
+        <GUID>2143505408</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505500</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505564</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505509</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505507</GUID>
+      </Item>
+    </ModOp>
+
+    <!-- Maintenance -->
+    <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>2143505408</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505500</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505509</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505507</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505564</GUID>
+      </Item>
+    </ModOp>
+
+    <!-- Adding buildings to item effect pool -->
+    <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='1010297']">
+      <Item>
+        <GUID>2143505507</GUID>
+      </Item>
+    </ModOp>
+  </Group>
 </ModOps>

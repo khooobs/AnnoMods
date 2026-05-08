@@ -749,19 +749,6 @@
     </Item>
 
     <Item>
-      <GUID>2143505408</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505500</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505507</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505509</GUID>
-    </Item>
-
-    <Item>
       <GUID>2143505667</GUID>
     </Item>
     <Item>
@@ -867,9 +854,6 @@
       <GUID>2143506122</GUID>
     </Item>
     <Item>
-      <GUID>2143505564</GUID>
-    </Item>
-    <Item>
       <GUID>2143506112</GUID>
     </Item>
     <Item>
@@ -911,9 +895,6 @@
     </Item>
     <Item>
       <Factory>2143505422</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505507</Factory>
     </Item>
     <Item>
       <Factory>2143505671</Factory>
@@ -964,15 +945,6 @@
       <Factory>2143505812</Factory>
     </Item>
     <Item>
-      <Factory>2143505703</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505705</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505707</Factory>
-    </Item>
-    <Item>
       <Factory>2143505709</Factory>
     </Item>
     <Item>
@@ -980,9 +952,6 @@
     </Item>
     <Item>
       <Factory>2143505713</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505721</Factory>
     </Item>
     <Item>
       <Factory>2143505694</Factory>
@@ -1019,9 +988,6 @@
     </Item>
     <Item>
       <Factory>2143506122</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505564</Factory>
     </Item>
     <Item>
       <Factory>2143506108</Factory>
