@@ -3600,16 +3600,47 @@
       <Factory>2143505630</Factory>
     </Item>
     <Item>
-      <Factory>2143505634</Factory>
+      <Factory>2143505631</Factory>
     </Item>
     <Item>
-      <Factory>2143505634</Factory>
+      <Factory>2143505632</Factory>
     </Item>
     <Item>
       <Factory>2143505633</Factory>
     </Item>
     <Item>
-      <Factory>2143505632</Factory>
+      <Factory>2143505634</Factory>
+    </Item>
+  </ModOp>
+
+  
+  <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='1010315']">
+    <Item>
+      <GUID>2143505601</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505602</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505603</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505604</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505605</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505631</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505632</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505633</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505634</GUID>
     </Item>
   </ModOp>
 </ModOps>
