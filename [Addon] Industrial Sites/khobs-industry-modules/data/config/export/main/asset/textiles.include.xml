@@ -55,13 +55,13 @@
         <ItemContainer>
           <SocketScopeRadius>25</SocketScopeRadius>
           <InitSocketItems>
-            <Item>
+          <!--  <Item>
               <Item>2143505651</Item>
             </Item>
             <Item>
               <Item>2143505657</Item>
             </Item>
-            <!-- <Item>
+             <Item>
               <Item>2143505654</Item>
             </Item> -->
           </InitSocketItems>
@@ -1097,15 +1097,15 @@
     </ModOp>
     <!-- END - Spinning Module -->
 
-    <!-- START - Spinning Depot -->
+    <!-- START - Logistic Module -->
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
         <Template>BuffFactoryModule</Template>
         <Values>
           <Standard>
             <GUID>2143505622</GUID>
-            <Name>Spinning_Mill_Depot_1t</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module 1t</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -1201,8 +1201,8 @@
         <Values>
           <Standard>
             <GUID>2143505623</GUID>
-            <Name>Spinning_Mill_Depot_2t</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module 2t</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -1298,8 +1298,8 @@
         <Values>
           <Standard>
             <GUID>2143505624</GUID>
-            <Name>Spinning_Mill_Depot_3t</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module 3t</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -1395,8 +1395,8 @@
         <Values>
           <Standard>
             <GUID>2143505625</GUID>
-            <Name>Spinning_Mill_Depot_4t</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module 4t</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -1492,8 +1492,8 @@
         <Values>
           <Standard>
             <GUID>2143505626</GUID>
-            <Name>Spinning_Mill_Depot_6t</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module 6t</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -1585,7 +1585,7 @@
         </Values>
       </Asset>
     </ModOp>
-    <!-- END - Spinning Depot -->
+    <!-- END - Logistic Module -->
 
     <!-- START - FakeProducts -->
     <ModOp Type="addNextSibling" GUID="1591">
@@ -1595,7 +1595,7 @@
           <Standard>
             <GUID>2143505621</GUID>
             <Name>FakeInputSpinningWoolResource</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -1613,7 +1613,7 @@
           <Standard>
             <GUID>2143505628</GUID>       
             <Name>FakeInputSpinningExoticResource</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -1631,7 +1631,7 @@
           <Standard>
             <GUID>2143505656</GUID>
             <Name>FakeInputSpinningCottonResource</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -1649,7 +1649,7 @@
           <Standard>
             <GUID>2143505654</GUID>
             <Name>FakeInputSpinningLinenResource</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -1667,7 +1667,7 @@
           <Standard>
             <GUID>2143505655</GUID>
             <Name>FakeInputSpinningFeltResource</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -1725,8 +1725,8 @@
         <Values>
           <Standard>
             <GUID>2143505609</GUID>
-            <Name>Depot - Module - 1t - Buff</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - 1t - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -1758,8 +1758,8 @@
         <Values>
           <Standard>
             <GUID>2143505611</GUID>
-            <Name>Depot - Module - 2t - Buff</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - 2t - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -1791,8 +1791,8 @@
         <Values>
           <Standard>
             <GUID>2143505613</GUID>
-            <Name>Depot - Module - 3t - Buff</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - 3t - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -1824,8 +1824,8 @@
         <Values>
           <Standard>
             <GUID>2143505615</GUID>
-            <Name>Depot - Module - 4t - Buff</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - 4t - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -1857,8 +1857,8 @@
         <Values>
           <Standard>
             <GUID>2143505617</GUID>
-            <Name>Depot - Module - 6t - Buff</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - 6t - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -1891,8 +1891,8 @@
         <Values>
           <Standard>
             <GUID>2143505822</GUID>
-            <Name>Depot - Module - 1t - Container</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - 1t - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -1911,8 +1911,8 @@
         <Values>
           <Standard>
             <GUID>2143505823</GUID>
-            <Name>Depot - Module - 2t - Container</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - 2t - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -1931,8 +1931,8 @@
         <Values>
           <Standard>
             <GUID>2143505824</GUID>
-            <Name>Depot - Module - 3t - Container</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - 3t - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -1951,8 +1951,8 @@
         <Values>
           <Standard>
             <GUID>2143505825</GUID>
-            <Name>Depot - Module - 4t - Container</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - 4t - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -1971,8 +1971,8 @@
         <Values>
           <Standard>
             <GUID>2143505826</GUID>
-            <Name>Depot - Module - 6t - Container</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - 6t - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -2672,15 +2672,15 @@
     </ModOp>
     <!-- END - Weaver Recipes -->
 
-    <!-- START - Weaver Depot -->
+    <!-- START - Logistic Module -->
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
         <Template>BuffFactoryModule</Template>
         <Values>
           <Standard>
             <GUID>2143505645</GUID>
-            <Name>Weaver_Depot_WorkClothes</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module WorkClothes</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -2776,8 +2776,8 @@
         <Values>
           <Standard>
             <GUID>2143505646</GUID>
-            <Name>Weaver_Depot_Bombins</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module Bombins</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -2878,8 +2878,8 @@
         <Values>
           <Standard>
             <GUID>2143505647</GUID>
-            <Name>Weaver_Depot_Suits</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module Suits</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -2980,8 +2980,8 @@
         <Values>
           <Standard>
             <GUID>2143505648</GUID>
-            <Name>Weaver_Depot_Tapestries</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module Tapestries</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -3078,7 +3078,7 @@
         </Values>
       </Asset>
     </ModOp>
-    <!-- END - Weaver Depot -->
+    <!-- END - Weaver Logistic Module -->
 
     <!-- START - Weaver Module -->
     <ModOp Type="addNextSibling" GUID="25546">
@@ -3197,7 +3197,7 @@
         <Values>
           <Standard>
             <GUID>2143505650</GUID>
-            <Name>All Weavers Depots</Name>
+            <Name>All Weavers Logistic Modules</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -3229,7 +3229,7 @@
           <Standard>
             <GUID>2143505637</GUID>
             <Name>FakeInputWeavingClothResource</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -3247,7 +3247,7 @@
           <Standard>
             <GUID>2143505639</GUID>       
             <Name>FakeInputWeavingHatResource</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -3265,7 +3265,7 @@
           <Standard>
             <GUID>2143505641</GUID>
             <Name>FakeInputWeavingSuitResource</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -3283,7 +3283,7 @@
           <Standard>
             <GUID>2143505643</GUID>
             <Name>FakeInputWeavingTapestryResource</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -3305,8 +3305,8 @@
         <Values>
           <Standard>
             <GUID>2143505827</GUID>
-            <Name>Depot - Module - Cloth - Buff</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - Cloth - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -3338,8 +3338,8 @@
         <Values>
           <Standard>
             <GUID>2143505828</GUID>
-            <Name>Depot - Module - Hat - Buff</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - Hat - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -3371,8 +3371,8 @@
         <Values>
           <Standard>
             <GUID>2143505829</GUID>
-            <Name>Depot - Module - Suit - Buff</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - Suit - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -3404,8 +3404,8 @@
         <Values>
           <Standard>
             <GUID>2143505830</GUID>
-            <Name>Depot - Module - Tapestry - Buff</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - Tapestry - Buff</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -3438,8 +3438,8 @@
         <Values>
           <Standard>
             <GUID>2143505831</GUID>
-            <Name>Depot - Module - Cloth - Container</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - Cloth - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -3458,8 +3458,8 @@
         <Values>
           <Standard>
             <GUID>2143505832</GUID>
-            <Name>Depot - Module - Hat - Container</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - Hat - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -3478,8 +3478,8 @@
         <Values>
           <Standard>
             <GUID>2143505833</GUID>
-            <Name>Depot - Module - Suit - Container</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - Suit - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -3498,8 +3498,8 @@
         <Values>
           <Standard>
             <GUID>2143505834</GUID>
-            <Name>Depot - Module - Tapestry - Container</Name>
-            <IconFilename>data/ui/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>Logistic Module - Module - Tapestry - Container</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -3519,250 +3519,6 @@
   </Group>
   <!-- END - Weaving Industry -->
 
-  <!-- START - Textile Company Slotables Items -->
-  <ModOp Type="addNextSibling" GUID="125072">
-    <Asset>
-      <Template>GuildhouseItem</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505651</GUID>
-          <Name>Industry Expansion: Fabric</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_product.png</IconFilename>
-          <InfoDescription>2143505652</InfoDescription>
-        </Standard>
-        <Item>
-          <Allocation>None</Allocation>
-          <Rarity>Legendary</Rarity>
-          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
-          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
-          <MaxStackSize>1</MaxStackSize>
-          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
-          <HasAction>1</HasAction> <!-- enable ItemAction -->
-          <OnlyEquippableOnce>1</OnlyEquippableOnce>
-        </Item>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505650</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <ItemWithUI>
-          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
-        </ItemWithUI>
-        <ItemAction>
-          <ActiveBuff>2143505653</ActiveBuff>
-          <ActionScope>SelfRadius</ActionScope>
-          <CanEndItemAction>1</CanEndItemAction>
-          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
-        </ItemAction>
-        <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
-        <Buff />
-        <CraftableItem />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseItem</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505657</GUID>
-          <Name>Team Change</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_worker.png</IconFilename>
-          <InfoDescription>2143505658</InfoDescription>
-        </Standard>
-        <Item>
-          <Allocation>None</Allocation>
-          <Rarity>Legendary</Rarity>
-          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
-          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
-          <MaxStackSize>1</MaxStackSize>
-          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
-          <HasAction>1</HasAction> <!-- enable ItemAction -->
-          <OnlyEquippableOnce>1</OnlyEquippableOnce>
-        </Item>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505618</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505644</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <ItemWithUI>
-          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
-        </ItemWithUI>
-        <ItemAction>
-          <ActiveBuff>2143505659</ActiveBuff>
-          <ActionScope>SelfRadius</ActionScope>
-          <CanEndItemAction>1</CanEndItemAction>
-          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
-        </ItemAction>
-        <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
-        <Buff />
-        <CraftableItem />
-      </Values>
-    </Asset>
-  </ModOp>
-  <!-- END - Textile Company Slotables Items -->
-
-  <!-- START - Buffs -->
-  <ModOp GUID="191114" Type="addNextSibling">
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505653</GUID>
-          <Name>Industry Expansion: Fabric - Buff</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_product.png</IconFilename>
-        </Standard>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505650</GUID>
-            </Item>
-          </EffectTargets>
-          <AllowStacking>0</AllowStacking>
-        </ItemEffect>
-        <FactoryUpgrade>
-          <ReplaceInputs>
-            <Item>
-              <OldInput>1010197</OldInput>
-              <NewInput>1500020000</NewInput>
-            </Item>
-            <Item>
-              <OldInput>1010240</OldInput>
-              <NewInput>1500020000</NewInput>
-            </Item>
-            <Item>
-              <OldInput>120044</OldInput>
-              <NewInput>1500020000</NewInput>
-            </Item>
-            <Item>
-              <OldInput>114391</OldInput>
-              <NewInput>1500020000</NewInput>
-            </Item>
-          </ReplaceInputs>
-        </FactoryUpgrade>
-        <BuildingUpgrade>          
-          <MaintenanceUpgrade>
-            <Value>120</Value>
-            <Percental>1</Percental>
-          </MaintenanceUpgrade>
-          <WorkforceAmountUpgrade>
-            <Value>20</Value>
-            <Percental>1</Percental>
-          </WorkforceAmountUpgrade>
-        </BuildingUpgrade>
-        <Buff />
-        <CultureUpgrade />
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505659</GUID>
-          <Name>Team Change</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_worker.png</IconFilename>
-        </Standard>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505618</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505644</GUID>
-            </Item>
-          </EffectTargets>
-          <AllowStacking>0</AllowStacking>
-        </ItemEffect>
-        <FactoryUpgrade />
-        <BuildingUpgrade>
-          <ReplacingWorkforce>1010115</ReplacingWorkforce>
-          <MaintenanceUpgrade>
-            <Value>100</Value>
-            <Percental>1</Percental>
-          </MaintenanceUpgrade>
-        </BuildingUpgrade>
-        <Buff />
-        <CultureUpgrade />
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
-      </Values>
-    </Asset>
-
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505660</GUID>
-          <Name>Suit Weaver - Compatibility</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_suits_combined.png</IconFilename>
-          <InfoDescription>2143505661</InfoDescription>
-        </Standard>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505633</GUID>
-            </Item>
-          </EffectTargets>
-          <AllowStacking>0</AllowStacking>
-        </ItemEffect>
-        <FactoryUpgrade>
-          <AdditionalOutput>
-            <Item>
-              <Product>114430</Product>
-              <AdditionalOutputCycle>1</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Product>1500010127</Product>
-              <AdditionalOutputCycle>1</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-          </AdditionalOutput>
-        </FactoryUpgrade>
-        <BuildingUpgrade />
-        <Buff />
-        <CultureUpgrade />
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
-      </Values>
-    </Asset>
-  </ModOp>
-
-  <!-- END - Buffs -->
-
-
   <!-- START - Texts -->
   <ModOp GUID="25000192" Type="addNextSibling">
     <Asset>
@@ -3777,7 +3533,6 @@
     </Asset>
   </ModOp>
   <!-- END - Texts -->
-
 
   <!-- START - Tweaks -->
   <Group Condition="#wool_fabric_kurila">
