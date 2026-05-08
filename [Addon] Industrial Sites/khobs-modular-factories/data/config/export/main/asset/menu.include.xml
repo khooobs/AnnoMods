@@ -5,10 +5,15 @@
       <Item>
         <Building>2143505512</Building>
       </Item>
-      <Item>
-        <Building>2143505511</Building>
-      </Item>
     </ModOp>
+    
+    <Group Condition="#ow-linen-jakob">
+      <ModOp GUID="1500010601" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Artisan&gt;1 or position()=1][1]">
+        <Item>
+          <Building>2143505511</Building>
+        </Item>
+      </ModOp>
+    </Group>
     <ModOp GUID="1500010601" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='1500011317']">
       <!-- <Item>
         <Building>2143505860</Building>
