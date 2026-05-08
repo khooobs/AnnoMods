@@ -1283,5 +1283,47 @@
         <DefaultBuff>2143505516</DefaultBuff>
       </UpgradeList>
     </ModOp>
+
+    
+    <!-- START - Adding buildings to pools -->
+    <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>2143505518</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505522</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505526</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505528</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505530</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505532</GUID>
+      </Item>
+    </ModOp>
+
+    <!-- START - Adding working conditions -->
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories" >
+      <Item>
+        <Factory>2143505522</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505526</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505528</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505530</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505532</Factory>
+      </Item>
+    </ModOp>
   </Group>
 </ModOps>

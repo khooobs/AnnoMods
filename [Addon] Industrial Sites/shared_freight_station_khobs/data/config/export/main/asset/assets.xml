@@ -712,4 +712,48 @@
     </Asset>
   </ModOp>
   <!-- END - Export Freight -->
+   
+  <!-- START - Adding buildings to pools -->
+  <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2143505412</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505414</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505417</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505418</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505419</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505420</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505421</GUID>
+    </Item>
+  </ModOp>
+
+  <!-- START - Adding working conditions -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories" >
+    <Item>
+      <Factory>2143505417</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505418</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505419</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505420</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505421</Factory>
+    </Item>
+  </ModOp>
 </ModOps>

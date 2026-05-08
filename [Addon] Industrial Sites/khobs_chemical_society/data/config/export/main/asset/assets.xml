@@ -101,4 +101,82 @@
     </Asset>
   </ModOp>
   <!-- END - Chemical Menu -->
+
+  <!-- START - Adding buildings to pools -->
+  <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2143505692</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505700</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505714</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505716</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505745</GUID>
+    </Item>
+    <Item>
+      <GUID>2143506122</GUID>
+    </Item>
+    <Item>
+      <GUID>2143506112</GUID>
+    </Item>
+    <Item>
+      <GUID>2143506113</GUID>
+    </Item>
+    <Item>
+      <GUID>2143506114</GUID>
+    </Item>
+    <Item>
+      <GUID>2143506115</GUID>
+    </Item>
+  </ModOp>
+  
+  <!-- START - Adding working conditions -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories" >
+    <Item>
+      <Factory>2143505709</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505711</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505713</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505694</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506122</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506108</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506109</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506110</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506111</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506112</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506113</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506114</Factory>
+    </Item>
+    <Item>
+      <Factory>2143506115</Factory>
+    </Item>
+  </ModOp>
+  <!-- END - Adding working conditions -->
 </ModOps>

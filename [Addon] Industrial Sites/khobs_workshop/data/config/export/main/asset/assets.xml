@@ -1525,4 +1525,39 @@
     </ModOp>
   </Group>
   <!-- END - Compat with RiverSlot -->
+
+  <!-- START - Adding buildings to pools -->
+  <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2143505667</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505671</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505673</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505679</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505683</GUID>
+    </Item>
+  </ModOp>
+  
+  <!-- START - Adding working conditions -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories" >
+    <Item>
+      <Factory>2143505671</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505673</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505679</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505683</Factory>
+    </Item>
+  </ModOp>
 </ModOps>

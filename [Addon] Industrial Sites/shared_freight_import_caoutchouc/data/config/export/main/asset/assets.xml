@@ -102,4 +102,18 @@
       <Building>2143505422</Building>
     </Item>
   </ModOp>
+
+  <!-- START - Adding buildings to pools -->
+  <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2143505422</GUID>
+    </Item>
+  </ModOp>
+  
+  <!-- START - Adding working conditions -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories" >
+    <Item>
+      <Factory>2143505422</Factory>
+    </Item>
+  </ModOp>
 </ModOps>

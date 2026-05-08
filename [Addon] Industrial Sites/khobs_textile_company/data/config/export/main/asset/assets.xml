@@ -3802,4 +3802,59 @@
     <ModOp GUID="2143505633" Type="remove" Path="Values/FactoryBase/FactoryOutputs" />  
   </Group>
   <!-- END - Tweaks -->
+
+  
+  <!-- START - Adding buildings to pools -->
+  <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2143505593</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505619</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505618</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505644</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505650</GUID>
+    </Item>
+  </ModOp>
+  <!-- END - Adding buildings to pools -->
+
+  <!-- START - Adding working conditions -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories" >
+    <Item>
+      <Factory>2143505601</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505602</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505603</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505604</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505605</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505630</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505634</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505634</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505633</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505632</Factory>
+    </Item>
+  </ModOp>
 </ModOps>

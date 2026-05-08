@@ -1301,5 +1301,45 @@
         </Values>
       </Asset>
     </ModOp>
+
+    <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>2143505536</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505542</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505545</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505547</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505549</GUID>
+      </Item>
+      <Item>
+        <GUID>2143505551</GUID>
+      </Item>
+    </ModOp>
+
+    <!-- START - Adding working conditions -->
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories" >
+      <Item>
+        <Factory>2143505542</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505545</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505547</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505549</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505551</Factory>
+      </Item>
+    </ModOp>
   </Group>
 </ModOps>
