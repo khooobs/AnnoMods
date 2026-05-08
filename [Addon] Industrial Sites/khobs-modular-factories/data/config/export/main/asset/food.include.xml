@@ -435,14 +435,7 @@
       </Values>
     </Asset>
   </ModOp>
-  <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
-    <Item>
-      <Building>2143505860</Building>
-    </Item>
-    <Item>
-      <Building>2143505861</Building>
-    </Item>
-  </ModOp>
+  
   <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='1010293']">
     <Item>
       <GUID>2143505860</GUID>

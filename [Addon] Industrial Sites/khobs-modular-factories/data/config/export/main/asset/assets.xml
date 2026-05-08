@@ -5,4 +5,100 @@
   <Include File="./textiles.include.xml" />
   <Include File="./metalworks.include.xml" />
   <Include File="./unlocks.include.xml" />
+
+  <!-- # Behavior Groups -->
+  <Group>
+    <!-- Workforce Boost -->
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <Factory>2143505703</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505705</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505707</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505860</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505861</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505859</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505862</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505512</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505511</Factory>
+      </Item>
+    </ModOp>
+
+    <!-- Feedback Spawn -->
+    <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+      <Item>
+        <Factory>2143505703</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505705</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505707</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505860</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505861</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505859</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505862</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505512</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505511</Factory>
+      </Item>
+    </ModOp>
+
+    <!-- Maintenance -->
+    <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <Factory>2143505703</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505705</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505707</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505860</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505861</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505859</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505862</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505512</Factory>
+      </Item>
+      <Item>
+        <Factory>2143505511</Factory>
+      </Item>
+    </ModOp>
+  </Group>
 </ModOps>

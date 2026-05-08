@@ -430,4 +430,15 @@
       </Values>
     </Asset>
   </ModOp>
+  
+  <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='1010297']">
+    <Item>
+      <GUID>2143505859</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='1010296']">
+    <Item>
+      <GUID>2143505862</GUID>
+    </Item>
+  </ModOp>
 </ModOps>
