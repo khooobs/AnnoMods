@@ -31,6 +31,13 @@
         <Building>2143505403</Building>
       </Item>
     </ModOp>
+    <ModOp GUID="25000191" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Artisan&gt;1 or position()=1][1]">
+      <Item>
+        <Building>2143505583</Building>
+      </Item>
+    </ModOp>
+
+    
     
     <ModOp GUID="5993,269964,269975,500154" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='269784']">
       <Item>
@@ -80,39 +87,6 @@
     </ModOp>
   </Group>
   <!-- END - Sifter - Add to category -->
-
-  
-  <!-- START - Textile Company - Add to category -->
-  <Group Condition="#khobs_textile_company">
-    <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
-      <Item>
-        <Building>2143505593</Building>
-      </Item>
-      <Item>
-        <Building>2143505600</Building>
-      </Item>
-      <Item>
-        <Building>2143505630</Building>
-      </Item>
-    </ModOp>
-  </Group>
-  <!-- END - Textile Company - Add to category -->
-  
-  <!-- START - Brickworks - Add to category -->
-  <Group Condition="#khobs_brickworks">
-    <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
-      <Item>
-        <Building>2143505801</Building>
-      </Item>
-      <Item>
-        <Building>2143505803</Building>
-      </Item>
-      <Item>
-        <Building>2143505812</Building>
-      </Item>
-    </ModOp>
-  </Group>
-  <!-- END - Brickworks - Add to category -->
   
   <!-- START - Steel Society - Add to category -->
   <Group Condition="#khobs_steel_company">

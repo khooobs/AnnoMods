@@ -1,0 +1,16 @@
+{
+	"Version": "1.0",
+	"ModID": "khobs-industry-modules",
+	"IncompatibleIds": null,
+	"ModDependencies": [],
+	"LoadAfterIds": [],
+	"Category": {
+		"English": "Building"
+	},
+	"ModName": {
+		"English": "Industrial Sites - Industries with Modules"
+	},
+	"DLCDependencies": [],
+	"CreatorName": "Khobs",
+	"CreatorContact": "https://github.com/Khooobs/AnnoMods"
+}

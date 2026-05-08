@@ -1,0 +1,6 @@
+<ModOps>
+  <Include File="./menu.include.xml" />
+  <Include File="./brick.include.xml" />
+  <Include File="./textiles.include.xml" />
+  <Include File="./unlocks.include.xml" />
+</ModOps>

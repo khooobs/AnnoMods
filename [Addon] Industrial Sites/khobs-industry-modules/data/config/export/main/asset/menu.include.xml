@@ -1,0 +1,48 @@
+<ModOps>
+  <!-- START - Industrial Sites Menu Integration -->
+  <ModOp Type="addNextSibling" GUID="1010372">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505583</GUID>
+          <Name>Industrial Sites - Industry w Modules</Name>
+          <IconFilename>data\ui\khobs\icon_industry_menu_2.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList />
+          <CategoryDescription>2143505402</CategoryDescription>
+        </ConstructionCategory>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Industrial Sites Menu Integration -->
+
+  <!-- START - Brickworks - Add to category -->
+  <ModOp GUID="2143505583" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <!-- <Item>
+      <Building>2143505801</Building>
+    </Item> -->
+    <Item>
+      <Building>2143505803</Building>
+    </Item>
+    <Item>
+      <Building>2143505812</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Brickworks - Add to category -->
+   
+  <!-- START - Textile - Add to category -->
+  <ModOp GUID="2143505583" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <!-- <Item>
+      <Building>2143505593</Building>
+    </Item> -->
+    <Item>
+      <Building>2143505600</Building>
+    </Item>
+    <Item>
+      <Building>2143505630</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Textile - Add to category -->
+</ModOps>
