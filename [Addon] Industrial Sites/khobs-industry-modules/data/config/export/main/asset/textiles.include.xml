@@ -529,9 +529,12 @@
         <Values>
           <Standard>
             <GUID>2143505603</GUID>
-            <Name>Spinning_Mill_3t</Name>
+            <Name>Deprecated_Spinning_Mill_3t</Name>
             <IconFilename>data/ui/khobs/icon_textile_felt.png</IconFilename>
           </Standard>
+          <Building>
+            <PickingAsset>2143505600</PickingAsset>
+          </Building>
           <Cost>
             <Costs>
               <Item>
@@ -875,9 +878,9 @@
               <Item>
                 <Recipe>2143505610</Recipe>
               </Item>
-              <Item>
+              <!-- <Item>
                 <Recipe>2143505612</Recipe>
-              </Item>
+              </Item> -->
               <Item>
                 <Recipe>2143505614</Recipe>
               </Item>
@@ -939,7 +942,7 @@
         <Values>
           <Standard>
             <GUID>2143505612</GUID>
-            <Name>Recipe_Spinning_Mills_3t</Name>
+            <Name>Deprecated_Recipe_Spinning_Mills_3t</Name>
             <IconFilename>data/ui/khobs/icon_textile_felt.png</IconFilename>
           </Standard>
           <Recipe>
@@ -1298,7 +1301,7 @@
         <Values>
           <Standard>
             <GUID>2143505624</GUID>
-            <Name>Logistic Module 3t</Name>
+            <Name>Deprecated Logistic Module 3t</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
@@ -1666,7 +1669,7 @@
         <Values>
           <Standard>
             <GUID>2143505655</GUID>
-            <Name>FakeInputSpinningFeltResource</Name>
+            <Name>Deprecated_FakeInputSpinningFeltResource</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <Locked/>
@@ -1791,7 +1794,7 @@
         <Values>
           <Standard>
             <GUID>2143505613</GUID>
-            <Name>Logistic Module - Module - 3t - Buff</Name>
+            <Name>Deprecated Logistic Module - Module - 3t - Buff</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <ItemEffect />
@@ -1931,7 +1934,7 @@
         <Values>
           <Standard>
             <GUID>2143505824</GUID>
-            <Name>Logistic Module - Module - 3t - Container</Name>
+            <Name>Deprecated Logistic Module - Module - 3t - Container</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
           </Standard>
           <EffectContainer>
