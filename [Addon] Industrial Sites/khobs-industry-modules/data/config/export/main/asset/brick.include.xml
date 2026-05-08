@@ -363,7 +363,7 @@
         <Standard>
           <GUID>2143505807</GUID>
           <Name>Logistic Module</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+          <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           <InfoDescription>2143505808</InfoDescription>
         </Standard>
         <Building>
@@ -619,7 +619,7 @@
         <Standard>
           <GUID>2143505410</GUID>
           <Name>FakeInputBrickResource</Name>
-          <IconFilename>data/ui/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
         </Standard>
         <Locked />
         <Product>
@@ -642,7 +642,7 @@
         <Standard>
           <GUID>2143505809</GUID>
           <Name>Logistic Depot - Module - Brick - Container</Name>
-          <IconFilename>data/ui/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
         </Standard>
         <ItemEffect />
         <EffectContainer>
@@ -663,7 +663,7 @@
         <Standard>
           <GUID>2143505810</GUID>
           <Name>Logistic Depot - Module - Brick - Buff</Name>
-          <IconFilename>data/ui/khobs/icon_logistic_depot.png</IconFilename>
+          <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
         </Standard>
         <ItemEffect/>
         <FactoryUpgrade>

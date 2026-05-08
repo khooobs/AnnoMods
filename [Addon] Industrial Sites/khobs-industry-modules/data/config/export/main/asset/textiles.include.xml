@@ -1108,7 +1108,7 @@
           <Standard>
             <GUID>2143505622</GUID>
             <Name>Logistic Module 1t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -1205,7 +1205,7 @@
           <Standard>
             <GUID>2143505623</GUID>
             <Name>Logistic Module 2t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -1302,7 +1302,7 @@
           <Standard>
             <GUID>2143505624</GUID>
             <Name>Deprecated Logistic Module 3t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -1399,7 +1399,7 @@
           <Standard>
             <GUID>2143505625</GUID>
             <Name>Logistic Module 4t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -1496,7 +1496,7 @@
           <Standard>
             <GUID>2143505626</GUID>
             <Name>Logistic Module 6t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -1598,7 +1598,7 @@
           <Standard>
             <GUID>2143505621</GUID>
             <Name>FakeInputSpinningWoolResource</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -1616,7 +1616,7 @@
           <Standard>
             <GUID>2143505628</GUID>       
             <Name>FakeInputSpinningExoticResource</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -1634,7 +1634,7 @@
           <Standard>
             <GUID>2143505656</GUID>
             <Name>FakeInputSpinningCottonResource</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -1652,7 +1652,7 @@
           <Standard>
             <GUID>2143505654</GUID>
             <Name>FakeInputSpinningLinenResource</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -1670,7 +1670,7 @@
           <Standard>
             <GUID>2143505655</GUID>
             <Name>Deprecated_FakeInputSpinningFeltResource</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -1729,7 +1729,7 @@
           <Standard>
             <GUID>2143505609</GUID>
             <Name>Logistic Module - Module - 1t - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -1762,7 +1762,7 @@
           <Standard>
             <GUID>2143505611</GUID>
             <Name>Logistic Module - Module - 2t - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -1795,7 +1795,7 @@
           <Standard>
             <GUID>2143505613</GUID>
             <Name>Deprecated Logistic Module - Module - 3t - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -1828,7 +1828,7 @@
           <Standard>
             <GUID>2143505615</GUID>
             <Name>Logistic Module - Module - 4t - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -1861,7 +1861,7 @@
           <Standard>
             <GUID>2143505617</GUID>
             <Name>Logistic Module - Module - 6t - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -1895,7 +1895,7 @@
           <Standard>
             <GUID>2143505822</GUID>
             <Name>Logistic Module - Module - 1t - Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -1915,7 +1915,7 @@
           <Standard>
             <GUID>2143505823</GUID>
             <Name>Logistic Module - Module - 2t - Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -1935,7 +1935,7 @@
           <Standard>
             <GUID>2143505824</GUID>
             <Name>Deprecated Logistic Module - Module - 3t - Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -1955,7 +1955,7 @@
           <Standard>
             <GUID>2143505825</GUID>
             <Name>Logistic Module - Module - 4t - Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -1975,7 +1975,7 @@
           <Standard>
             <GUID>2143505826</GUID>
             <Name>Logistic Module - Module - 6t - Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -2683,7 +2683,7 @@
           <Standard>
             <GUID>2143505645</GUID>
             <Name>Logistic Module WorkClothes</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -2780,7 +2780,7 @@
           <Standard>
             <GUID>2143505646</GUID>
             <Name>Logistic Module Bombins</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -2882,7 +2882,7 @@
           <Standard>
             <GUID>2143505647</GUID>
             <Name>Logistic Module Suits</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -2984,7 +2984,7 @@
           <Standard>
             <GUID>2143505648</GUID>
             <Name>Logistic Module Tapestries</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
             <InfoDescription>2143505627</InfoDescription>
           </Standard>
           <Building>
@@ -3232,7 +3232,7 @@
           <Standard>
             <GUID>2143505637</GUID>
             <Name>FakeInputWeavingClothResource</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -3250,7 +3250,7 @@
           <Standard>
             <GUID>2143505639</GUID>       
             <Name>FakeInputWeavingHatResource</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -3268,7 +3268,7 @@
           <Standard>
             <GUID>2143505641</GUID>
             <Name>FakeInputWeavingSuitResource</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -3286,7 +3286,7 @@
           <Standard>
             <GUID>2143505643</GUID>
             <Name>FakeInputWeavingTapestryResource</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
@@ -3309,7 +3309,7 @@
           <Standard>
             <GUID>2143505827</GUID>
             <Name>Logistic Module - Module - Cloth - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -3342,7 +3342,7 @@
           <Standard>
             <GUID>2143505828</GUID>
             <Name>Logistic Module - Module - Hat - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -3375,7 +3375,7 @@
           <Standard>
             <GUID>2143505829</GUID>
             <Name>Logistic Module - Module - Suit - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -3408,7 +3408,7 @@
           <Standard>
             <GUID>2143505830</GUID>
             <Name>Logistic Module - Module - Tapestry - Buff</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <ItemEffect />
           <FactoryUpgrade>
@@ -3442,7 +3442,7 @@
           <Standard>
             <GUID>2143505831</GUID>
             <Name>Logistic Module - Module - Cloth - Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -3462,7 +3462,7 @@
           <Standard>
             <GUID>2143505832</GUID>
             <Name>Logistic Module - Module - Hat - Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -3482,7 +3482,7 @@
           <Standard>
             <GUID>2143505833</GUID>
             <Name>Logistic Module - Module - Suit - Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
@@ -3502,7 +3502,7 @@
           <Standard>
             <GUID>2143505834</GUID>
             <Name>Logistic Module - Module - Tapestry - Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+            <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           </Standard>
           <EffectContainer>
             <Effects>
