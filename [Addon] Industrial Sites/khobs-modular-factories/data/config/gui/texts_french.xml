@@ -2,43 +2,43 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505411</GUID>
-      <Text>Industrial Complex</Text>
+      <Text>Complexe industriel</Text>
     </Text>
     <Text>
       <GUID>2143505512</GUID>
-      <Text>Industrial Knitter</Text>
+      <Text>Tisserand industriel</Text>
     </Text>
     <Text>
       <GUID>2143505511</GUID>
-      <Text>Industrial Linen Knitter</Text>
+      <Text>Tisserand industriel (lin)</Text>
     </Text>
     <Text>
       <GUID>2143505721</GUID>
-      <Text>Chemical Plant: Soda</Text>
+      <Text>Usine de produits chimiques : Soda</Text>
     </Text>
     <Text>
       <GUID>2143505856</GUID>
-      <Text>Multiple factories merge into one big industrial complex.</Text>
+      <Text>Plusieurs usines fusionnent en un seul complexe</Text>
     </Text>
     <Text>
       <GUID>2143505857</GUID>
-      <Text>Fourfold Production</Text>
+      <Text>Quadruple production</Text>
     </Text>
     <Text>
       <GUID>2143505859</GUID>
-      <Text>Ironworks</Text>
+      <Text>Fonderie</Text>
     </Text>
     <Text>
       <GUID>2143505860</GUID>
-      <Text>Industrial Kitchen</Text>
+      <Text>Cuisine industrielle</Text>
     </Text>
     <Text>
       <GUID>2143505861</GUID>
-      <Text>Industrial Cannery</Text>
+      <Text>Conserverie industrielle</Text>
     </Text>
     <Text>
       <GUID>2143505862</GUID>
-      <Text>Steelworks</Text>
+      <Text>Aciérie</Text>
     </Text>
   </ModOp>
 </ModOps>
