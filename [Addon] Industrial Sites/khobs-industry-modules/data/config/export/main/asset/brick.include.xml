@@ -124,7 +124,7 @@
   <!-- START - Brickworks -->
   <ModOp Type="addNextSibling" GUID="1010283">
     <Asset>
-      <Template>IndustrialCompanyFactory</Template>
+      <Template>FactoryBuilding7Modulable</Template>
       <Values>
         <Standard>
           <GUID>2143505803</GUID>
@@ -233,7 +233,7 @@
   <!-- START - Brick Kilns Module -->
   <ModOp Type="addNextSibling" GUID="1010283">
     <Asset>
-      <Template>IndustrialCompanyModule</Template>
+      <Template>FactoryBuilding7Module</Template>
       <Values>
         <Standard>
           <GUID>2143505805</GUID>

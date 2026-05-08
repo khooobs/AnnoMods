@@ -219,7 +219,7 @@
     <!-- START - Spinning Mill Buildings -->
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>FactoryBuilding7Modulable</Template>
         <Values>
           <Standard>
             <GUID>2143505600</GUID>
@@ -307,7 +307,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>FactoryBuilding7Modulable</Template>
         <Values>
           <Standard>
             <GUID>2143505601</GUID>
@@ -416,7 +416,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>FactoryBuilding7Modulable</Template>
         <Values>
           <Standard>
             <GUID>2143505602</GUID>
@@ -525,7 +525,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>FactoryBuilding7Modulable</Template>
         <Values>
           <Standard>
             <GUID>2143505603</GUID>
@@ -634,7 +634,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>FactoryBuilding7Modulable</Template>
         <Values>
           <Standard>
             <GUID>2143505604</GUID>
@@ -743,7 +743,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>FactoryBuilding7Modulable</Template>
         <Values>
           <Standard>
             <GUID>2143505605</GUID>
@@ -1019,7 +1019,7 @@
     <!-- START - Spinning Module -->
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
-        <Template>IndustrialCompanyModule</Template>
+        <Template>FactoryBuilding7Module</Template>
         <Values>
           <Standard>
             <GUID>2143505619</GUID>
@@ -1996,7 +1996,7 @@
     <!-- START - Weaving Buildings -->
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>FactoryBuilding7Modulable</Template>
         <Values>
           <Standard>
             <GUID>2143505630</GUID>
@@ -2081,7 +2081,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>FactoryBuilding7Modulable</Template>
         <Values>
           <Standard>
             <GUID>2143505631</GUID>
@@ -2193,7 +2193,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>FactoryBuilding7Modulable</Template>
         <Values>
           <Standard>
             <GUID>2143505632</GUID>
@@ -2306,7 +2306,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>FactoryBuilding7Modulable</Template>
         <Values>
           <Standard>
             <GUID>2143505633</GUID>
@@ -2419,7 +2419,7 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>FactoryBuilding7Modulable</Template>
         <Values>
           <Standard>
             <GUID>2143505634</GUID>
@@ -3083,7 +3083,7 @@
     <!-- START - Weaver Module -->
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
-        <Template>IndustrialCompanyModule</Template>
+        <Template>FactoryBuilding7Module</Template>
         <Values>
           <Standard>
             <GUID>2143505649</GUID>
