@@ -30,6 +30,9 @@
       <Item>
         <Building>2143505403</Building>
       </Item>
+      <Item>
+        <Building>2143505812</Building>
+      </Item>
     </ModOp>
     <ModOp GUID="25000191" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Artisan&gt;1 or position()=1][1]">
       <Item>
