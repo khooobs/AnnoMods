@@ -1,0 +1,56 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505408</GUID>
+      <Text>Unternehmen: Stahlwerke</Text>
+    </Text>
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Erzdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Lagern Sie Erze.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>Versorgung mit Erzen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>Hochofen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>Produziert Güter.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Hochofenmodul</Text>
+    </Text>
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>Zusätzliche Werkstatt, die der Stahlproduktion gewidmet ist.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>Erzdepot benötigen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>Logistik per Bahn</Text>
+    </Text>
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>Güterentladedock: Stahl</Text>
+    </Text>
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>Industriemodul der Stahlwerke</Text>
+    </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Stahlblech</Text>
+    </Text>
+  </ModOp>
+</ModOps>

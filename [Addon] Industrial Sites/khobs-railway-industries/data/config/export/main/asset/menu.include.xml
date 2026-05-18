@@ -1,0 +1,84 @@
+<ModOps>
+  <!-- START - Industrial Sites Menu Integration -->
+  <ModOp Type="addNextSibling" GUID="1010372">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505584</GUID>
+          <Name>Industrial Sites - Industry w Train</Name>
+          <IconFilename>data\ui\khobs\icon_industry_menu_3.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList />
+          <CategoryDescription>2143505402</CategoryDescription>
+        </ConstructionCategory>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Industrial Sites Menu Integration -->
+
+  
+  <!-- START - Texts -->
+  <ModOp GUID="25000192" Type="addNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505501</GUID>
+          <Name>Ore Depot Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505508</GUID>
+          <Name>Blast Furnace Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505510</GUID>
+          <Name>Blast Furnace Module Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505582</GUID>
+          <Name>Steelworks Industry Module</Name>
+          <IconFilename>data/ui/khobs/icon_steel_company.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505585</GUID>
+          <Name>Converter Builtin Buff Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505505</GUID>
+          <Name>Steel Sheet Warehouse Description</Name>
+        </Standard>
+        <Text>
+          <TextOverride>11143</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Texts -->
+</ModOps>

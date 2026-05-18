@@ -1,0 +1,68 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505408</GUID>
+      <Text>Company: Steelworks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Logistic Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Store ores.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>Supplied with ores</Text>
+    </Text>
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>Require Logistic Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>Blast Furnace</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>Produces goods.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Blast Furnace Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>Additionnal Workshop dedicated to steel production.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>Logistics by Rails</Text>
+    </Text>
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>Converter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505563</GUID>
+      <Text>Builtin Converter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505585</GUID>
+      <Text>Given that a converter is already in place, this factory already has a productivity advantage.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>Steelworks Industry Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Pig Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>Industries with Trains</Text>
+    </Text>
+  </ModOp>
+</ModOps>
