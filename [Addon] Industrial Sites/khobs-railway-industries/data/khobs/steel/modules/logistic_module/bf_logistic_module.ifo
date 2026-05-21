@@ -4,7 +4,7 @@
 		<Name>BoundingBox</Name>
 		<Position>
 			<xf>-0.000000</xf>
-			<yf>0.000000</yf>
+			<yf>2.651216</yf>
 			<zf>-0.000000</zf>
 		</Position>
 		<Rotation>
@@ -14,33 +14,33 @@
 			<wf>1.000000</wf>
 		</Rotation>
 		<Extents>
-			<xf>2.704800</xf>
+			<xf>3.204800</xf>
 			<yf>5.496009</yf>
 			<zf>2.699171</zf>
 		</Extents>
 	</BoundingBox>
 	<BuildBlocker>
 		<Position>
-			<xf>2.500000</xf>
+			<xf>3.000000</xf>
 			<zf>-2.500000</zf>
 		</Position>
 		<Position>
-			<xf>-2.500000</xf>
+			<xf>-3.000000</xf>
 			<zf>-2.500000</zf>
 		</Position>
 		<Position>
-			<xf>-2.500000</xf>
+			<xf>-3.000000</xf>
 			<zf>2.500000</zf>
 		</Position>
 		<Position>
-			<xf>2.500000</xf>
+			<xf>3.000000</xf>
 			<zf>2.500000</zf>
 		</Position>
 	</BuildBlocker>
 	<Dummy>
 		<Name>DamageImpact41688</Name>
 		<Position>
-			<xf>0.923472</xf>
+			<xf>1.594716</xf>
 			<yf>1.982005</yf>
 			<zf>-0.205230</zf>
 		</Position>
@@ -59,7 +59,7 @@
 	<Dummy>
 		<Name>DamageImpact43292</Name>
 		<Position>
-			<xf>0.875020</xf>
+			<xf>1.546265</xf>
 			<yf>1.929460</yf>
 			<zf>-0.367931</zf>
 		</Position>
@@ -95,34 +95,15 @@
 		</Extents>
 	</Dummy>
 	<Dummy>
-		<Name>transporter_spawn</Name>
-		<Position>
-			<xf>-1.040143</xf>
-			<yf>0.000000</yf>
-			<zf>2.091731</zf>
-		</Position>
-		<Rotation>
-			<xf>0.000000</xf>
-			<yf>0.882753</yf>
-			<zf>0.000000</zf>
-			<wf>0.469861</wf>
-		</Rotation>
-		<Extents>
-			<xf>0.100000</xf>
-			<yf>0.100000</yf>
-			<zf>0.100000</zf>
-		</Extents>
-	</Dummy>
-	<Dummy>
 		<Name>railroad01</Name>
 		<Position>
-			<xf>-3.000000</xf>
+			<xf>3.500000</xf>
 			<yf>0.000000</yf>
 			<zf>-2.000000</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
-			<yf>0.707107</yf>
+			<yf>-0.707107</yf>
 			<zf>0.000000</zf>
 			<wf>0.707107</wf>
 		</Rotation>
@@ -135,13 +116,13 @@
 	<Dummy>
 		<Name>railroad02</Name>
 		<Position>
-			<xf>3.000000</xf>
+			<xf>-3.500000</xf>
 			<yf>0.000000</yf>
 			<zf>-2.000000</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
-			<yf>0.707107</yf>
+			<yf>-0.707107</yf>
 			<zf>0.000000</zf>
 			<wf>0.707107</wf>
 		</Rotation>
@@ -160,7 +141,7 @@
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
-			<yf>0.707107</yf>
+			<yf>-0.707107</yf>
 			<zf>0.000000</zf>
 			<wf>0.707107</wf>
 		</Rotation>
@@ -170,68 +151,30 @@
 			<zf>0.100000</zf>
 		</Extents>
 	</Dummy>
-	<IntersectBox>
-		<Name>Hitbox320966</Name>
+	<Dummy>
+		<Name>transporter_spawn</Name>
 		<Position>
-			<xf>1.103910</xf>
-			<yf>1.258217</yf>
-			<zf>-0.348803</zf>
+			<xf>-1.040143</xf>
+			<yf>0.000000</yf>
+			<zf>2.091731</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
-			<yf>0.000000</yf>
+			<yf>0.882753</yf>
 			<zf>0.000000</zf>
-			<wf>1.000000</wf>
+			<wf>0.469861</wf>
 		</Rotation>
 		<Extents>
-			<xf>1.063503</xf>
-			<yf>1.467241</yf>
-			<zf>1.013477</zf>
+			<xf>0.100000</xf>
+			<yf>0.100000</yf>
+			<zf>0.100000</zf>
 		</Extents>
-	</IntersectBox>
-	<IntersectBox>
-		<Name>Hitbox322562</Name>
-		<Position>
-			<xf>-0.917565</xf>
-			<yf>1.687240</yf>
-			<zf>-1.658062</zf>
-		</Position>
-		<Rotation>
-			<xf>0.000000</xf>
-			<yf>0.000000</yf>
-			<zf>0.000000</zf>
-			<wf>1.000000</wf>
-		</Rotation>
-		<Extents>
-			<xf>0.337294</xf>
-			<yf>0.555475</yf>
-			<zf>0.302092</zf>
-		</Extents>
-	</IntersectBox>
-	<IntersectBox>
-		<Name>Hitbox36662</Name>
-		<Position>
-			<xf>-1.977980</xf>
-			<yf>1.353002</yf>
-			<zf>-1.047090</zf>
-		</Position>
-		<Rotation>
-			<xf>0.000000</xf>
-			<yf>0.000000</yf>
-			<zf>0.000000</zf>
-			<wf>1.000000</wf>
-		</Rotation>
-		<Extents>
-			<xf>0.114161</xf>
-			<yf>1.353387</yf>
-			<zf>0.183920</zf>
-		</Extents>
-	</IntersectBox>
+	</Dummy>
 	<MeshBoundingBox>
 		<Name>MeshBoundingBox</Name>
 		<Position>
 			<xf>-0.000000</xf>
-			<yf>0.000000</yf>
+			<yf>1.329730</yf>
 			<zf>-0.000000</zf>
 		</Position>
 		<Rotation>
@@ -241,7 +184,7 @@
 			<wf>1.000000</wf>
 		</Rotation>
 		<Extents>
-			<xf>2.330685</xf>
+			<xf>2.830685</xf>
 			<yf>1.561157</yf>
 			<zf>2.567385</zf>
 		</Extents>

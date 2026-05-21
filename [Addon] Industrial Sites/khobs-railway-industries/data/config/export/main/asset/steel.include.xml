@@ -342,7 +342,7 @@
       <Values>
         <Standard>
           <GUID>2143505500</GUID>
-          <Name>Depot - Logistic Module - Ore</Name>
+          <Name>Logistic Module - Ores</Name>
           <IconFilename>data/ui/khobs/icon_logistic_module.png</IconFilename>
           <InfoDescription>2143505501</InfoDescription>
         </Standard>
@@ -394,7 +394,6 @@
         <Object>
           <Variations>
             <Item>
-              <!-- <Filename>data/khobs/steel/modules/steelworks_freight/steelworks_railway_warehouse.cfg</Filename> -->
               <Filename>data/khobs/steel/modules/logistic_module/bf_logistic_module.cfg</Filename>
             </Item>
           </Variations>
@@ -435,6 +434,9 @@
 		      <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
           <CycleTime>10</CycleTime>
         </FactoryBase>
+        <LogisticNode>
+          <PathLayers>Street;Railway</PathLayers>
+        </LogisticNode>
         <Maintenance>
           <Maintenances>
             <Item>
