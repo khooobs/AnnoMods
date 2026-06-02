@@ -80,5 +80,36 @@
       </Values>
     </Asset>
   </ModOp>
+  <ModOp GUID="25000192" Type="addNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505717</GUID>
+          <Name>Chemical Industry Module</Name>
+          <IconFilename>data/ui/khobs/icon_chemical_company.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506123</GUID>
+          <Name>Chemical Warehouse Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506124</GUID>
+          <Name>Chemical Menu Explanation Description</Name>
+          <IconFilename>data/ui/khobs/icon_chemical_company.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+  </ModOp>
   <!-- END - Texts -->
 </ModOps>

@@ -64,5 +64,255 @@
       <GUID>2143505584</GUID>
       <Text>Industries with Trains</Text>
     </Text>
+    <Text>
+      <GUID>2143505565</GUID>
+      <Text>LNG Tanker</Text>
+    </Text>
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>Designed and build to carry chemical products. The hull is reinforced with metal to prevent dangerous leaks. Only usable on trade routes, no manual loading or unloading.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505692</GUID>
+      <Text>Society: Chemical</Text>
+    </Text>
+    <Text>
+      <GUID>2143505694</GUID>
+      <Text>Laboratory: Chemical Compound</Text>
+    </Text>
+    <Text>
+      <GUID>2143505695</GUID>
+      <Text>Product loading warehouse.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505697</GUID>
+      <Text>Boost Chemical Compound by Chemical Synthesis of oil.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505698</GUID>
+      <Text>Produces goods.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505699</GUID>
+      <Text>Chemical Compound</Text>
+    </Text>
+    <Text>
+      <GUID>2143505700</GUID>
+      <Text>Chemical Plant</Text>
+    </Text>
+    <Text>
+      <GUID>2143505714</GUID>
+      <Text>Chemical Plant Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505715</GUID>
+      <Text>Provides chemical experimentations area.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505716</GUID>
+      <Text>All Chemical Plant Sites</Text>
+    </Text>
+    <Text>
+      <GUID>2143505717</GUID>
+      <Text>Chemical Industry Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505720</GUID>
+      <Text>Soda</Text>
+    </Text>
+    <Text>
+      <GUID>2143505724</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505725</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505835</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505836</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505837</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505838</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505839</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505726</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505727</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505728</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505729</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505730</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505731</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505732</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505733</GUID>
+      <Text>Petrochemical Experimentations</Text>
+    </Text>
+    <Text>
+      <GUID>2143505734</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505739</GUID>
+      <Text>Chemical Innovation - Chemistry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505740</GUID>
+      <Text>Work and research in synthetic chemistry enable the development of processes aimed at replacing molecules.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505741</GUID>
+      <Text>Chemical Innovation - Chemistry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505742</GUID>
+      <Text>Industry - Expansion</Text>
+    </Text>
+    <Text>
+      <GUID>2143505743</GUID>
+      <Text>It was decided to expand the chemical plant to further promote experimentation, thereby boosting productivity. However, problems with air and water quality in the surrounding area are also beginning to emerge..</Text>
+    </Text>
+    <Text>
+      <GUID>2143505744</GUID>
+      <Text>Industry - Expansion</Text>
+    </Text>
+    <Text>
+      <GUID>2143505745</GUID>
+      <Text>All Chemical Depots</Text>
+    </Text>
+
+    
+
+    <Text>
+      <GUID>2143505847</GUID>
+      <Text>Ready to produce Shampoo</Text>
+    </Text>
+    <Text>
+      <GUID>2143505848</GUID>
+      <Text>Ready to produce Lemonade</Text>
+    </Text>
+    <Text>
+      <GUID>2143505849</GUID>
+      <Text>Ready to produce Souvenir</Text>
+    </Text>
+    <Text>
+      <GUID>2143505850</GUID>
+      <Text>Ready to produce Lacquer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505851</GUID>
+      <Text>Ready to produce Celluloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143505852</GUID>
+      <Text>Ready to produce Ethanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143505853</GUID>
+      <Text>Ready to produce Soda</Text>
+    </Text>
+    
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Lacquer Cans</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Celluloid Crate</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Ethanol Cans</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Chemical Container</Text>
+    </Text>
+    
+    <Text>
+      <GUID>2143506108</GUID>
+      <Text>Chemical Complex: Lacquer</Text>
+    </Text>
+    <Text>
+      <GUID>2143506109</GUID>
+      <Text>Chemical Complex: Celluloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143506110</GUID>
+      <Text>Chemical Complex: Ethanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Chemical Complex: Chemical Compound</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143506112</GUID>
+      <Text>Warehouse: Lacquer</Text>
+    </Text>
+    <Text>
+      <GUID>2143506113</GUID>
+      <Text>Warehouse: Celluloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143506114</GUID>
+      <Text>Warehouse: Ethanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506115</GUID>
+      <Text>Warehouse: Chemicals</Text>
+    </Text>
+    
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Chemical Complex Module</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Unloads goods arriving by rail.</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>Chemistry buildings have been moved to the Engineers menu.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Chemical Industries</Text>
+    </Text>
   </ModOp>
 </ModOps>
