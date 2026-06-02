@@ -455,6 +455,7 @@
 					<BuildingType>Factory</BuildingType>
 					<BuildingCategoryName>2143505402</BuildingCategoryName>
           <SecondPartyRelevant>0</SecondPartyRelevant>
+          <AllowChangeVariation>1</AllowChangeVariation>
 				</Building>
 				<Cost/>
 				<Object>
