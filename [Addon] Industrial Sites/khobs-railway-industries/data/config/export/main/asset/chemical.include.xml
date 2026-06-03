@@ -116,7 +116,7 @@
           <Standard>
             <GUID>2143506111</GUID>
             <Name>Chemical_Complex_Compound</Name>
-            <IconFilename>data/ui/khobs/bulk_goods/icon_bulk_chemical_compound.png</IconFilename>
+            <IconFilename>data/ui/khobs/bulk_goods/icon_barrel_chemical.png</IconFilename>
             <InfoDescription>2143505698</InfoDescription>
           </Standard>
           <Blocking>
@@ -929,9 +929,8 @@
         <Values>
           <Standard>
             <GUID>2143505554</GUID>
-            <Name>BulkCompoundResource</Name>
-            <IconFilename>
-              data\ui\khobs\bulk_goods\icon_bulk_chemical_compound.png</IconFilename>
+            <Name>Chemicals</Name>
+            <IconFilename>data/ui/khobs/bulk_goods/icon_barrel_chemical.png</IconFilename>
           </Standard>
           <Locked />
           <Product>
