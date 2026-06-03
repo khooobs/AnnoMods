@@ -122,60 +122,60 @@
     </Text>
     <Text>
       <GUID>2143505724</GUID>
-      <Text>Require Logistic Depot</Text>
+      <Text>Require Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505725</GUID>
-      <Text>Require Logistic Depot</Text>
+      <Text>Require Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505835</GUID>
-      <Text>Require Logistic Depot</Text>
+      <Text>Require Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505836</GUID>
-      <Text>Require Logistic Depot</Text>
+      <Text>Require Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505837</GUID>
-      <Text>Require Logistic Depot</Text>
+      <Text>Require Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505838</GUID>
-      <Text>Require Logistic Depot</Text>
+      <Text>Require Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505839</GUID>
-      <Text>Require Logistic Depot</Text>
+      <Text>Require Logistic Module</Text>
     </Text>
 
     <Text>
       <GUID>2143505726</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505727</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505728</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505729</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505730</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505731</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505732</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505733</GUID>
@@ -183,7 +183,7 @@
     </Text>
     <Text>
       <GUID>2143505734</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Logistic Module</Text>
     </Text>
     <Text>
       <GUID>2143505739</GUID>
@@ -211,7 +211,7 @@
     </Text>
     <Text>
       <GUID>2143505745</GUID>
-      <Text>All Chemical Depots</Text>
+      <Text>All Chemical Logistic Modules</Text>
     </Text>
 
     
@@ -276,7 +276,7 @@
     </Text>
     <Text>
       <GUID>2143506111</GUID>
-      <Text>Chemical Complex: Chemical Compound</Text>
+      <Text>Chemical Complex</Text>
     </Text>
 
     <Text>

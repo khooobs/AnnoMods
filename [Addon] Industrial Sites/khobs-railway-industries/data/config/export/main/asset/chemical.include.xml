@@ -77,22 +77,24 @@
         <Values>
           <Standard>
             <GUID>2143505733</GUID>
-            <Name>Depot - Compound - Boost - Buff</Name>
+            <Name>Logistic Module - Compound - Buff</Name>
             <IconFilename>data/ui/khobs/icon_chemical_logistic_depot.png</IconFilename>
           </Standard>
           <ItemEffect>
             <AllowStacking>0</AllowStacking>
           </ItemEffect>
           <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>300</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
+            <InputAmountUpgrade>
+              <Item>
+                <Product>2143505724</Product>
+                <Amount>-1</Amount>
+              </Item>
+            </InputAmountUpgrade>
           </FactoryUpgrade>
           <BuildingUpgrade />
           <Buff />
           <CultureUpgrade>
-            <HideBuff>0</HideBuff>
+            <HideBuff>1</HideBuff>
           </CultureUpgrade>
           <ModuleOwnerUpgrade />
           <IncidentInfectableUpgrade />
@@ -107,6 +109,32 @@
       </Asset>
     </ModOp>
     <!-- END - Buffs -->
+
+    
+  <!-- START - Containers -->
+  <ModOp Type="addNextSibling" GUID="191114">
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505840</GUID>
+          <Name>Logistic Module - Container</Name>
+          <IconFilename>data/ui/khobs/icon_chemical_logistic_depot.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2143505733</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <Text>
+          <TextOverride>2143505733</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Containers -->
 
   <!-- START - Chemical Plant -->
     <ModOp Type="addNextSibling" GUID="135134">
@@ -166,6 +194,13 @@
             <IsAgriculture>1</IsAgriculture>
           </Factory7>
           <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505724</Product>
+                <Amount>1</Amount>
+                <StorageAmount>0</StorageAmount>
+              </Item>
+            </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>2143505554</Product>
@@ -257,7 +292,7 @@
         </Values>
       </Asset>
     </ModOp>
-    <!-- END - Chemical Plant -->
+  <!-- END - Chemical Plant -->
 
   <!-- START - Chemical Plant Modules -->
     <ModOp Type="addNextSibling" GUID="135134">
@@ -354,74 +389,74 @@
             <InfluencedVariationDirection>
               <Item />
               <Item>
-                <!-- end, south-west -->
+              <!-- end, south-west -->
                 <Direction>3</Direction>
                 <Type>End</Type>
               </Item>
               <Item>
-                <!-- end, south-east -->
+              <!-- end, south-east -->
                 <Type>End</Type>
               </Item>
               <Item>
-                <!-- corner, south -->
+              <!-- corner, south -->
                 <Direction>2</Direction>
                 <Type>Corner</Type>
               </Item>
               <Item>
-                <!-- end, north-east -->
+              <!-- end, north-east -->
                 <Direction>1</Direction>
                 <Type>Crossing</Type>
               </Item>
               <Item>
-                <!-- mid, south-west to north-east -->
+              <!-- mid, south-west to north-east -->
                 <Direction>3</Direction>
                 <Type>Mid</Type>
               </Item>
               <Item>
-                <!-- corner, east -->
+              <!-- corner, east -->
                 <Direction>1</Direction>
                 <Type>TCrossing</Type>
               </Item>
               <Item>
-                <!-- T, front facing south-east -->
+              <!-- T, front facing south-east -->
                 <Direction>1</Direction>
                 <Type>Mid</Type>
               </Item>
               <Item>
-                <!-- end, north-west -->
+              <!-- end, north-west -->
                 <Direction>2</Direction>
                 <Type>Crossing</Type>
               </Item>
               <Item>
-                <!-- corner, west -->
+              <!-- corner, west -->
                 <Direction>3</Direction>
                 <Type>TCrossing</Type>
               </Item>
               <Item>
-                <!-- mid, north-west to south-east -->
+              <!-- mid, north-west to south-east -->
                 <Type>Mid</Type>
               </Item>
               <Item>
-                <!-- T, front facing south-west  -->
+              <!-- T, front facing south-west  -->
                 <Direction>0</Direction>
                 <Type>Mid</Type>
               </Item>
               <Item>
-                <!-- corner, north -->
+              <!-- corner, north -->
                 <Type>Corner</Type>
               </Item>
               <Item>
-                <!-- T, front facing north-west -->
+              <!-- T, front facing north-west -->
                 <Direction>3</Direction>
                 <Type>Mid</Type>
               </Item>
               <Item>
-                <!-- T, front facing north-east -->
+              <!-- T, front facing north-east -->
                 <Direction>2</Direction>
                 <Type>Mid</Type>
               </Item>
               <Item>
-                <!-- crossing -->
+              <!-- crossing -->
               </Item>
             </InfluencedVariationDirection>
             <BuildingBlockPool>
@@ -450,7 +485,7 @@
                   </Item>
                 </Pool>
               </End>
-              <!-- alt end -->
+            <!-- alt end -->
               <Corner>
                 <Pool>
                   <Item>
@@ -459,7 +494,7 @@
                   </Item>
                 </Pool>
               </Corner>
-              <!-- alt corner -->
+            <!-- alt corner -->
               <TCrossing>
                 <Pool>
                   <Item>
@@ -529,17 +564,17 @@
         </Values>
       </Asset>
     </ModOp>
-    <!-- END - Chemical Plant Modules -->
+  <!-- END - Chemical Plant Modules -->
 
 
-    <!-- START - Depot -->
+  <!-- START - Logistic Module -->
     <ModOp Type="addNextSibling" GUID="132774">
       <Asset>
         <Template>BuffFactoryModule</Template>
         <Values>
           <Standard>
             <GUID>2143505732</GUID>
-            <Name>Depot (Compound)</Name>
+            <Name>Logistic Module</Name>
             <IconFilename>data/ui/khobs/icon_chemical_logistic_depot.png</IconFilename>
             <InfoDescription>2143505697</InfoDescription>
           </Standard>
@@ -603,6 +638,16 @@
           <FactoryBase>
             <FactoryInputs>
               <Item>
+                <Product>114358</Product>
+                <Amount>1</Amount>
+                <StorageAmount>10</StorageAmount>
+              </Item>
+              <Item>
+                <Product>1010226</Product>
+                <Amount>1</Amount>
+                <StorageAmount>10</StorageAmount>
+              </Item>
+              <Item>
                 <Product>1010566</Product>
                 <Amount>1</Amount>
                 <StorageAmount>100</StorageAmount>
@@ -614,7 +659,7 @@
           <BuffFactory>
             <ProductionBuffs>
               <Item>
-                <ProductivityBuff>2143505733</ProductivityBuff>
+                <ProductivityBuff>2143505840</ProductivityBuff>
               </Item>
             </ProductionBuffs>
           </BuffFactory>
@@ -631,15 +676,16 @@
               </Item>
             </Maintenances>
           </Maintenance>
+          <Electrifiable/>
           <BuildingModule>
             <ModuleType>FertilizerModule</ModuleType>
           </BuildingModule>
         </Values>
       </Asset>
     </ModOp>
-    <!-- END - Depot -->
+  <!-- END - Logistic Module -->
 
-    <!-- START - Rail loading bays -->
+  <!-- START - Rail loading bays -->
     <ModOp Type="addNextSibling" GUID="132774">
       <Asset>
         <Template>ChemicalRailwayWarehouse</Template>
@@ -721,7 +767,7 @@
         </Values>
       </Asset>
     </ModOp>
-    <!-- END - Rail loading bays -->
+  <!-- END - Rail loading bays -->
 
   <!-- START - Asset Pool -->
   <Group>
@@ -864,7 +910,7 @@
         <Values>
           <Standard>
             <GUID>2143505745</GUID>
-            <Name>All chemical Depots</Name>
+            <Name>All chemical Logistic Module</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -966,7 +1012,29 @@
         <Product>2143505554</Product>
       </Item>
     </ModOp>
-    <!-- END - Products -->
+  <!-- END - Products -->
+
+  <!-- START - FakeProducts -->
+    <ModOp Type="addNextSibling" GUID="1591">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505724</GUID>
+            <Name>FakeInputChemicalsResource</Name>
+            <IconFilename>data/ui/khobs/icon_chemical_logistic_depot.png</IconFilename>
+          </Standard>
+          <Locked />
+          <Product>
+            <DeltaOnly>1</DeltaOnly>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <HideInUI>1</HideInUI>
+          </Product>
+          <ExpeditionAttribute />
+        </Values>
+      </Asset>
+    </ModOp>
 
   <!-- START - LNG Tanker -->
   <Group>
