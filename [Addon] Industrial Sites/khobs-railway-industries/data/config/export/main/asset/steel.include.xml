@@ -55,45 +55,6 @@
         <ResourceUpgrade/>
       </Values>
     </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505563</GUID>
-          <Name>Bessemer Convert Builtin - Buff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_calciner_3.png</IconFilename>
-          <InfoDescription>2143505585</InfoDescription>
-        </Standard>
-        <ItemEffect/>
-        <FactoryUpgrade>
-          <ProductivityUpgrade>
-            <Value>60</Value>
-            <Percental>1</Percental>
-          </ProductivityUpgrade>
-        </FactoryUpgrade>
-        <Buff/>
-        <CultureUpgrade>
-          <AttractivenessUpgrade>
-            <Value>-1</Value>
-          </AttractivenessUpgrade>
-        </CultureUpgrade>
-        <BuildingUpgrade>
-          <WorkforceAmountUpgrade>
-            <Value>-50</Value>
-            <Percental>1</Percental>
-          </WorkforceAmountUpgrade>
-        </BuildingUpgrade>
-        <ModuleOwnerUpgrade/>
-        <IncidentInfectableUpgrade/>
-        <PowerplantUpgrade/>
-        <IndustrializableUpgrade/>
-        <ItemContainerUpgrade/>
-        <IncidentInfluencerUpgrade/>
-        <IrrigationUpgrade/>
-        <EcoSystemProviderUpgrade/>
-        <ResourceUpgrade/>
-      </Values>
-    </Asset>
   </ModOp>
   <!-- END - Buffs -->
 
@@ -468,15 +429,16 @@
   </ModOp>
   <!-- END - Logistic Module -->
 
-  <!-- START - Bessemer Converter -->
+  <!-- START - Steel Foundry -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
       <Template>HeavyFactoryBuildingModulable</Template>
       <Values>
         <Standard>
           <GUID>2143505564</GUID>
-          <Name>Steel Works</Name>
+          <Name>Steel Foundry</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_steel.png</IconFilename>
+          <InfoDescription>2143505508</InfoDescription>
         </Standard>
         <Mesh />
         <Object>
@@ -513,9 +475,7 @@
             </Item>
           </Costs>
         </Cost>
-        <UpgradeList>
-          <DefaultBuff>2143505563</DefaultBuff>
-        </UpgradeList>
+        <UpgradeList/>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -531,7 +491,7 @@
               <StorageAmount>12</StorageAmount>
             </Item>
           </FactoryOutputs>
-          <CycleTime>30</CycleTime>
+          <CycleTime>15</CycleTime>
           <IsMainFactory>0</IsMainFactory>
           <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
           <TeleportProducedGoodsIntoAreaStorage>1</TeleportProducedGoodsIntoAreaStorage>
@@ -552,7 +512,7 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- END - Bessemer Converter -->
+  <!-- END - Steel Foundry -->
 
   <!-- START - Blast Furnace Module -->
   <ModOp Type="addNextSibling" GUID="25546">
