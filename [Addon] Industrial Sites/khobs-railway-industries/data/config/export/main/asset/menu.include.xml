@@ -110,6 +110,19 @@
         </Standard>
       </Values>
     </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505698</GUID>
+          <Name>Chemical Building Description</Name>
+          <IconFilename>data/ui/khobs/icon_chemical_company.png</IconFilename>
+        </Standard>
+        <Text>
+          <TextOverride>11143</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
   </ModOp>
   <!-- END - Texts -->
 </ModOps>

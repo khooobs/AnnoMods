@@ -291,6 +291,130 @@
           </LogisticNode>
         </Values>
       </Asset>
+      
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505694</GUID>
+            <Name>Chemical_Warehouse</Name>
+            <IconFilename>data/ui/khobs/icon_chemical_compound.png</IconFilename>
+            <InfoDescription>2143506123</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <BuildingType>Factory</BuildingType>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Blocking>
+            <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+          </Blocking>
+          <Object>
+            <Variations>
+              <Item>
+					      <Filename>data/dlc05/graphics/buildings/special/fuel_station_moderate/fuel_station_moderate.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient><!--Money-->
+                <Amount>25000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient><!--timber-->
+                <Amount>8</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient><!--bricks-->
+                <Amount>15</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient><!--beams-->
+                <Amount>12</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient><!--window-->
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient><!--concrete-->
+                <Amount>10</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Mesh />
+          <Constructable />
+          <Locked />
+          <FeedbackController />
+          <Infolayer />
+          <Factory7/>
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505554</Product>
+                <Amount>1</Amount>
+                <StorageAmount>10</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>2143505699</Product>
+                <Amount>1</Amount>
+                <StorageAmount>10</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>20</CycleTime>
+          </FactoryBase>
+          <UpgradeList />
+          <AmbientMoodProvider>
+            <AmbientMood>IndustryHeavy</AmbientMood>
+            <Murmur>Factory</Murmur>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product><!--Money-->
+                <Amount>12500</Amount>
+                <InactiveAmount>125</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010117</Product><!--moderate workforce 4-->
+                <Amount>250</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <IncidentInfectable>
+            <Explosion>
+              <DamageExplosionChance>10</DamageExplosionChance>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityDistance>15</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Explosion>
+                <BaseChance>4</BaseChance>
+              </Explosion>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Pausable />
+          <QuestObject />
+          <Industrializable>
+            <BoostedByIndustrialization>0</BoostedByIndustrialization>
+          </Industrializable>
+          <LogisticNode>
+            <TransporterCountMax>5</TransporterCountMax>
+            <TransporterAsset>120062</TransporterAsset>
+            <PathLayers>Street;Railway</PathLayers>
+          </LogisticNode>
+		      <Electrifiable/>
+        </Values>
+      </Asset>
     </ModOp>
   <!-- END - Chemical Plant -->
 
@@ -950,7 +1074,7 @@
         <Values>
           <Standard>
             <GUID>2143505699</GUID>
-            <Name>Chemical Compound</Name>
+            <Name>Chemical Mixtures</Name>
             <IconFilename>data/ui/khobs/icon_chemical_compound.png</IconFilename>
           </Standard>
           <Product>
@@ -995,11 +1119,7 @@
         </Values>
       </Asset>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID="120055"
-      Path="/Values/ProductStorageList/ProductList/Item[Product='1010226']">
-      <Item>
-        <Product>2143505699</Product>
-      </Item>
+    <ModOp Type="addNextSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010226']">
       <Item>
         <Product>2143505554</Product>
       </Item>
@@ -1010,6 +1130,11 @@
       </Item>
       <Item>
         <Product>2143505554</Product>
+      </Item>
+    </ModOp>
+    <ModOp GUID="501961" Type="add" Path="Values/ProductList/List/">
+      <Item>
+        <Product>2143505699</Product>
       </Item>
     </ModOp>
   <!-- END - Products -->
@@ -1250,6 +1375,9 @@
   <ModOp GUID="2143505584" Type="add" Path="Values/ConstructionCategory/BuildingList">
     <Item>
       <Building>2143506111</Building>
+    </Item>   
+    <Item>
+      <Building>2143505694</Building>
     </Item>
   </ModOp>
 </ModOps>

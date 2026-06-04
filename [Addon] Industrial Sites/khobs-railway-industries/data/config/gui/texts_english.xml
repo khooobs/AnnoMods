@@ -78,7 +78,7 @@
     </Text>
     <Text>
       <GUID>2143505694</GUID>
-      <Text>Laboratory: Chemical Compound</Text>
+      <Text>Chemical Warehouse</Text>
     </Text>
     <Text>
       <GUID>2143505695</GUID>
@@ -89,12 +89,8 @@
       <Text>Boost Chemical Compound by Chemical Synthesis of oil.</Text>
     </Text>
     <Text>
-      <GUID>2143505698</GUID>
-      <Text>Produces goods.</Text>
-    </Text>
-    <Text>
       <GUID>2143505699</GUID>
-      <Text>Chemical Compound</Text>
+      <Text>Chemical Mixtures</Text>
     </Text>
     <Text>
       <GUID>2143505700</GUID>
@@ -303,7 +299,7 @@
 
     <Text>
       <GUID>2143506123</GUID>
-      <Text>Unloads goods arriving by rail.</Text>
+      <Text>Distributes compound to all buildings in the vicinity.</Text>
     </Text>
 
     <Text>
