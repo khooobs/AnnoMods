@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505408</GUID>
-      <Text>Unternehmen: Stahlwerke</Text>
+      <Text>Stahlwerke: Firmenzentrale</Text>
     </Text>
     <Text>
       <GUID>2143505500</GUID>
@@ -10,7 +10,7 @@
     </Text>
     <Text>
       <GUID>2143505501</GUID>
-      <Text>Lagern Sie Erze.</Text>
+      <Text>Lagert Erze.</Text>
     </Text>
     <Text>
       <GUID>2143505503</GUID>
@@ -30,23 +30,31 @@
     </Text>
     <Text>
       <GUID>2143505510</GUID>
-      <Text>Zusätzliche Werkstatt, die der Stahlproduktion gewidmet ist.</Text>
+      <Text>Modul zur Stahlproduktion</Text>
     </Text>
     <Text>
       <GUID>2143505553</GUID>
-      <Text>Erzdepot benötigen</Text>
+      <Text>Erzdepot erforderlich</Text>
     </Text>
     <Text>
       <GUID>2143505559</GUID>
-      <Text>Logistik per Bahn</Text>
+      <Text>Transport per Bahn</Text>
     </Text>
     <Text>
       <GUID>2143505564</GUID>
-      <Text>Güterentladedock: Stahl</Text>
+      <Text>Güterentladedock: Stahlblech</Text>
     </Text>
     <Text>
       <GUID>2143505582</GUID>
-      <Text>Industriemodul der Stahlwerke</Text>
+      <Text>Modul zur Stahlproduktion</Text>
+    </Text>
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>Industrielle Erweiterung: Stahl</Text>
+    </Text>
+    <Text>
+      <GUID>2143505585</GUID>
+      <Text>Ermöglicht Gießereien, zusätzliche Stahlträger herzustellen, allerdings auf Kosten der Gesamteffizienz.</Text>
     </Text>
     <Text>
       <GUID>2143505557</GUID>
@@ -54,7 +62,7 @@
     </Text>
     <Text>
       <GUID>2143505565</GUID>
-      <Text>LNG-Tanker</Text>
+      <Text>LNG Tanker</Text>
     </Text>
     <Text>
       <GUID>2143505566</GUID>
@@ -62,7 +70,7 @@
     </Text>
     <Text>
       <GUID>2143505692</GUID>
-      <Text>Gesellschaft: Chemisch</Text>
+      <Text>Chemische Industrie: Firmenzentrale</Text>
     </Text>
     <Text>
       <GUID>2143505694</GUID>
@@ -70,11 +78,11 @@
     </Text>
     <Text>
       <GUID>2143505695</GUID>
-      <Text>Lagerhaus mit Produktbeladung.</Text>
+      <Text>Lagerstätte für Produktionsgüter</Text>
     </Text>
     <Text>
       <GUID>2143505697</GUID>
-      <Text>Chemische Verbindung durch chemische Ölsynthese fördern.</Text>
+      <Text>Boost für chemische Verbindungen durch die Synthese von Öl.</Text>
     </Text>
     <Text>
       <GUID>2143505698</GUID>
@@ -98,11 +106,11 @@
     </Text>
     <Text>
       <GUID>2143505716</GUID>
-      <Text>Alle Standorte des Chemiewerks</Text>
+      <Text>Alle Chemiewerke</Text>
     </Text>
     <Text>
       <GUID>2143505717</GUID>
-      <Text>Modul Chemieindustrie</Text>
+      <Text>Modul der Chemieindustrie</Text>
     </Text>
     <Text>
       <GUID>2143505720</GUID>
@@ -110,31 +118,31 @@
     </Text>
     <Text>
       <GUID>2143505724</GUID>
-      <Text>Logistikdepot benötigen</Text>
+      <Text>Logistikdepot erforderlich</Text>
     </Text>
     <Text>
       <GUID>2143505725</GUID>
-      <Text>Logistikdepot benötigen</Text>
+      <Text>Logistikdepot erforderlich</Text>
     </Text>
     <Text>
       <GUID>2143505835</GUID>
-      <Text>Logistikdepot benötigen</Text>
+      <Text>Logistikdepot erforderlich</Text>
     </Text>
     <Text>
       <GUID>2143505836</GUID>
-      <Text>Logistikdepot benötigen</Text>
+      <Text>Logistikdepot erforderlich</Text>
     </Text>
     <Text>
       <GUID>2143505837</GUID>
-      <Text>Logistikdepot benötigen</Text>
+      <Text>Logistikdepot erforderlich</Text>
     </Text>
     <Text>
       <GUID>2143505838</GUID>
-      <Text>Logistikdepot benötigen</Text>
+      <Text>Logistikdepot erforderlich</Text>
     </Text>
     <Text>
       <GUID>2143505839</GUID>
-      <Text>Logistikdepot benötigen</Text>
+      <Text>Logistikdepot erforderlich</Text>
     </Text>
     <Text>
       <GUID>2143505726</GUID>
@@ -174,27 +182,27 @@
     </Text>
     <Text>
       <GUID>2143505739</GUID>
-      <Text>Chemische Innovation – Chemie</Text>
+      <Text>Chemische Innovation</Text>
     </Text>
     <Text>
       <GUID>2143505740</GUID>
-      <Text>Arbeit und Forschung in der synthetischen Chemie ermöglichen die Entwicklung von Prozessen, die darauf abzielen, Moleküle zu ersetzen.</Text>
+      <Text>Arbeit und Forschung in der synthetischen Chemie ermöglichen die Entwicklung von Prozessen mit dem Ziel, Moleküle zu substituieren.</Text>
     </Text>
     <Text>
       <GUID>2143505741</GUID>
-      <Text>Chemische Innovation – Chemie</Text>
+      <Text>Chemische Innovation</Text>
     </Text>
     <Text>
       <GUID>2143505742</GUID>
-      <Text>Industrie – Expansion</Text>
+      <Text>Industrielle Expansion</Text>
     </Text>
     <Text>
       <GUID>2143505743</GUID>
-      <Text>Es wurde beschlossen, die chemische Anlage zu erweitern, um Experimente weiter zu fördern und so die Produktivität zu steigern. Allerdings treten auch Probleme mit der Luft- und Wasserqualität in der Umgebung auf.</Text>
+      <Text>Es wurde beschlossen, die chemische Anlage zu erweitern, um Experimente weiterhin zu fördern und so die Produktivität zu steigern. Allerdings treten auch Probleme mit der Luft- und Wasserqualität in der Umgebung auf.</Text>
     </Text>
     <Text>
       <GUID>2143505744</GUID>
-      <Text>Industrie – Expansion</Text>
+      <Text>Industrielle Expansion</Text>
     </Text>
     <Text>
       <GUID>2143505745</GUID>
@@ -202,7 +210,7 @@
     </Text>
     <Text>
       <GUID>2143505847</GUID>
-      <Text>Fertiges Shampoo</Text>
+      <Text>Bereit zur Herstellung von Shampoo</Text>
     </Text>
     <Text>
       <GUID>2143505848</GUID>
@@ -210,15 +218,15 @@
     </Text>
     <Text>
       <GUID>2143505849</GUID>
-      <Text>Bereit zur Herstellung von Souvenir</Text>
+      <Text>Bereit zur Herstellung von Souvenirs</Text>
     </Text>
     <Text>
       <GUID>2143505850</GUID>
-      <Text>Fertig zur Herstellung von Lackieren</Text>
+      <Text>Bereit zur Herstellung von Lacken</Text>
     </Text>
     <Text>
       <GUID>2143505851</GUID>
-      <Text>Bereit zur Herstellung von Celluloid</Text>
+      <Text>Bereit zur Herstellung von Zelluloid</Text>
     </Text>
     <Text>
       <GUID>2143505852</GUID>
@@ -238,7 +246,7 @@
     </Text>
     <Text>
       <GUID>2143505579</GUID>
-      <Text>Ethanoldosen</Text>
+      <Text>Ethanolkolben</Text>
     </Text>
     <Text>
       <GUID>2143505554</GUID>
@@ -246,47 +254,47 @@
     </Text>
     <Text>
       <GUID>2143506108</GUID>
-      <Text>Chemischer Komplex: Lack</Text>
+      <Text>Chemieanlage: Lacke</Text>
     </Text>
     <Text>
       <GUID>2143506109</GUID>
-      <Text>Chemischer Komplex: Zelluloid</Text>
+      <Text>Chemieanlage: Zelluloid</Text>
     </Text>
     <Text>
       <GUID>2143506110</GUID>
-      <Text>Chemischer Komplex: Ethanol</Text>
+      <Text>Chemieanlage: Ethanol</Text>
     </Text>
     <Text>
       <GUID>2143506111</GUID>
-      <Text>Chemischer Komplex: Chemische Verbindung</Text>
+      <Text>Chemieanlage: Chemische Verbindungen</Text>
     </Text>
     <Text>
       <GUID>2143506112</GUID>
-      <Text>Lagerhaus: Lack</Text>
+      <Text>Lagerhaus: Lacke</Text>
     </Text>
     <Text>
       <GUID>2143506113</GUID>
-      <Text>Lager: Zelluloid</Text>
+      <Text>Lagerhaus: Zelluloid</Text>
     </Text>
     <Text>
       <GUID>2143506114</GUID>
-      <Text>Lager: Ethanol</Text>
+      <Text>Lagerhaus: Ethanol</Text>
     </Text>
     <Text>
       <GUID>2143506115</GUID>
-      <Text>Lager: Chemikalien</Text>
+      <Text>Lagerhaus: Chemikalien</Text>
     </Text>
     <Text>
       <GUID>2143506122</GUID>
-      <Text>Chemisches Komplexmodul</Text>
-    </Text>
+      <Text>Chemiewerk: Modul</Text>
+    </Text>   
     <Text>
       <GUID>2143506123</GUID>
-      <Text>Entlädt Güter, die per Bahn ankommen.</Text>
+      <Text>Zur Entladung von Gütern, die per Bahn angeliefert werden.</Text>
     </Text>
     <Text>
       <GUID>2143506124</GUID>
-      <Text>Chemiegebäude wurden in das Ingenieursmenü verlegt.</Text>
+      <Text>Die Gebäude der Chemieindustrie wurden in das Ingenieursmenü verlegt.</Text>
     </Text>
     <Text>
       <GUID>2143506125</GUID>

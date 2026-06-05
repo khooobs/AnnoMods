@@ -1,0 +1,375 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+      <GUID>2143505593</GUID>
+      <Text>Textilwerk: Firmenzentrale</Text>
+    </Text>
+    <Text>
+      <GUID>2143505599</GUID>
+      <Text>Modul der Textilindustrie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505600</GUID>
+      <Text>Spinnerei</Text>
+    </Text>
+    <Text>
+      <GUID>2143505601</GUID>
+      <Text>Spinnerei: Wolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505602</GUID>
+      <Text>Spinnerei: Exotische Wolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505603</GUID>
+      <Text>Spinnerei: Filz</Text>
+    </Text>
+    <Text>
+      <GUID>2143505604</GUID>
+      <Text>Spinnerei: Baumwolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505605</GUID>
+      <Text>Spinnerei: Leinen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505607</GUID>
+      <Text>Als eines der Symbole der industriellen Revolution jener Ära beherbergen diese Backsteinwände Textilmaschinen mit einer Effizienz, die nur wenige Menschen bisher zu verstehen scheinen.</Text>
+      <!-- Spinning Recipe List Description -->
+    </Text>
+    <Text>
+      <GUID>2143505606</GUID>
+      <Text>Drehrezepte</Text>
+      <!-- no need for translation -->
+    </Text>
+    <Text>
+      <GUID>2143505608</GUID>
+      <Text>Wollstoff 1t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505610</GUID>
+      <Text>Exotischer Wollstoff 2t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505612</GUID>
+      <Text>Filzstoff 3t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505614</GUID>
+      <Text>Baumwollstoff 4t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505616</GUID>
+      <Text>Leinenstoff 6t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505609</GUID>
+      <Text>Hergestellt aus: Wolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>Hergestellt aus: Exotischer Wolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>Hergestellt von: Filz</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>Hergestellt aus: Baumwolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505617</GUID>
+      <Text>Hergestellt aus: Leinen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>Textildepot für Wolle erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>Textildepot für exotische Wolle erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>Textildepot für Leinen erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>Textildepot für Filz erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>Textildepot für Baumwollstoff erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>2143505618</GUID>
+      <Text>Alle Spinnereien</Text>
+    </Text>
+    <Text>
+      <GUID>2143505619</GUID>
+      <Text>Spinnereimodul</Text>
+    </Text>
+    <Text>
+      <GUID>2143505620</GUID>
+      <Text>Eine zusätzliche Produktionsstätte für Textilien</Text>
+    </Text>
+    <Text>
+      <GUID>2143505622</GUID>
+      <Text>Logistikdepot: Wolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505623</GUID>
+      <Text>Logistikdepot: Exotische Wolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505624</GUID>
+      <Text>Logistikdepot: Filz</Text>
+    </Text>
+    <Text>
+      <GUID>2143505625</GUID>
+      <Text>Logistikdepot: Baumwolle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505626</GUID>
+      <Text>Logistikdepot: Leinen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505627</GUID>
+      <Text>Speichert Waren</Text>
+    </Text>
+    <Text>
+      <GUID>2143505629</GUID>
+      <Text>Wollstoff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505630</GUID>
+      <Text>Weberei</Text>
+    </Text>
+    <Text>
+      <GUID>2143505631</GUID>
+      <Text>Weberei: Kleidung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505632</GUID>
+      <Text>Weberei: Melonen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505633</GUID>
+      <Text>Weberei: Anzüge</Text>
+    </Text>
+    <Text>
+      <GUID>2143505634</GUID>
+      <Text>Weberei: Wandteppiche</Text>
+    </Text>
+    <Text>
+      <GUID>2143505635</GUID>
+      <Text>Weber</Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505636</GUID>
+      <Text></Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505638</GUID>
+      <Text></Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505640</GUID>
+      <Text></Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505642</GUID>
+      <Text></Text>
+      <!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>Logistikdepot erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>Logistikdepot erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>Logistikdepot erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>2143505643</GUID>
+      <Text>Logistikdepot erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>2143505644</GUID>
+      <Text>Gesamte Textilindustrie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505645</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505646</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505647</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505648</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505827</GUID>
+      <Text>Bereit zur Herstellung von Kleidung</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>Bereit zur Herstellung von Melonen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>Bereit zur Herstellung von Anzügen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>Bereit zur Herstellung von Wandteppichen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505649</GUID>
+      <Text>Webereimodul</Text>
+    </Text>
+    <Text>
+      <GUID>2143505650</GUID>
+      <Text>Alle Logistikdepots der Textilindustrie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505651</GUID>
+      <Text>Industrielle Erweiterung: Wollstoff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505652</GUID>
+      <Text>Die Verwendung standardisierter Stoffe ermöglicht es der Industrie, ihre Produktion und Logistik zu verbessern.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505653</GUID>
+      <Text>Industrielle Erweiterung: Wollstoff</Text>
+    </Text>
+    <Text>
+      <GUID>2143505657</GUID>
+      <Text>Teamwechsel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505658</GUID>
+      <Text>Diese Rekrutierungskampagne sollte alle benötigten Arbeitskräfte anlocken.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505659</GUID>
+      <Text>Teamwechsel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505660</GUID>
+      <Text>Kompatibilität: Anzüge</Text>
+    </Text>
+    <Text>
+      <GUID>2143505661</GUID>
+      <Text>Kompatibilitätsbuff für Industrial Sites und Shared Suits</Text>
+    </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>Stellt Stoff für Webereien her.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>Stellt Textilien her.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505801</GUID>
+      <Text>Firma: Ziegel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505802</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505803</GUID>
+      <Text>Ziegelwerke</Text>
+    </Text>
+    <Text>
+      <GUID>2143505804</GUID>
+      <Text>Produziert Güter.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505805</GUID>
+      <Text>Ziegelöfen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505806</GUID>
+      <Text>Zusätzlicher Platz zum Brennen und Lagern von Ziegeln.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505807</GUID>
+      <Text>Logistikdepot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505808</GUID>
+      <Text>Lagern Sie Waren ein.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>Logistikmodul erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>2143505810</GUID>
+      <Text>Bereit zur Herstellung von Ziegelsteinen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505811</GUID>
+      <Text>Module der Ziegelindustrie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505812</GUID>
+      <Text>Große Lehmgrube</Text>
+    </Text>
+    <Text>
+      <GUID>2143505813</GUID>
+      <Text>Produziert Güter.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505814</GUID>
+      <Text>Industrielle Erweiterung: Adobe Ziegel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505815</GUID>
+      <Text>Bestimmte Ziegelderivate werden heute von dieser Industrie hergestellt und decken dadurch ein breiteres Spektrum an Baubedürfnissen ab.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505816</GUID>
+      <Text>Industrielle Erweiterung: Adobe Ziegel</Text>
+    </Text>
+    <Text>
+      <GUID>2143505817</GUID>
+      <Text>Bestimmte Ziegelderivate werden heute von dieser Branche hergestellt und decken dadurch ein breiteres Spektrum an Baubedürfnissen ab.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505818</GUID>
+      <Text>Ausgrabung: Quarz-Sand</Text>
+    </Text>
+    <Text>
+      <GUID>2143505819</GUID>
+      <Text>Der Tagebau von Lehm ermöglicht auch die Gewinnung von Quarzsand, der für andere Industrien nützlich ist.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505820</GUID>
+      <Text>Ausgrabung: Quarz-Sand</Text>
+    </Text>
+    <Text>
+      <GUID>2143505821</GUID>
+      <Text>Der Tagebau von Lehm ermöglicht auch die Gewinnung von Quarzsand, der für andere Industrien nützlich ist.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

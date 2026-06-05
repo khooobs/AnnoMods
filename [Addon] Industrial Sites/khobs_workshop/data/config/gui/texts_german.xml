@@ -6,27 +6,27 @@
     </Text>
     <Text>
       <GUID>2143505668</GUID>
-      <Text>Bietet der Branche verschiedene Geräte und Werkzeuge an.</Text>
+      <Text>Stellt der verarbeitenden Industrie verschiedene Geräte und Werkzeuge bereit.</Text>
     </Text>
     <Text>
       <GUID>2143505670</GUID>
-      <Text>Slicer</Text>
+      <Text>Hobel</Text>
     </Text>
     <Text>
       <GUID>2143505671</GUID>
-      <Text>Werkstatt: Slicer</Text>
+      <Text>Werkstatt: Hobel</Text>
     </Text>
     <Text>
       <GUID>2143505672</GUID>
-      <Text>Geschätzte Slicer-Verkäufe</Text>
+      <Text>Geschätzte Verkäufe von Hobeln</Text>
     </Text>
     <Text>
       <GUID>2143505673</GUID>
-      <Text>Werkstatt: Hebe</Text>
+      <Text>Werkstatt: Flaschenzüge</Text>
     </Text>
     <Text>
       <GUID>2143505674</GUID>
-      <Text>Hebel</Text>
+      <Text>Flaschenzug</Text>
     </Text>
     <Text>
       <GUID>2143505675</GUID>
@@ -34,35 +34,35 @@
     </Text>
     <Text>
       <GUID>2143505676</GUID>
-      <Text>Eine Werkstatt, die sich der Konstruktion und Montage von Geräten für Industrie oder Handwerk widmet.</Text>
+      <Text>Eine Werkstatt, wo Geräte für Industrie oder Handwerk konstruiert und gefertigt werden.</Text>
     </Text>
     <Text>
       <GUID>2143505677</GUID>
-      <Text>Ein halbmechanischer Cutter, der besonders von Arbeitern geschätzt wird, die den Fingerverlust vermeiden wollen. Funktioniert für Brot und Fleisch.</Text>
+      <Text>Ein halbmechanisches Schneidegerät, das besonders von Arbeitern geschätzt wird, die alle Finger behalten wollen. Funktioniert gleichermaßen für Brot und Fleisch.</Text>
     </Text>
     <Text>
       <GUID>2143505678</GUID>
-      <Text>Geschätzte Verkauf der Hebe</Text>
+      <Text>Geschätzte Verkäufe von Flaschenzügen</Text>
     </Text>
     <Text>
       <GUID>2143505679</GUID>
-      <Text>Werkstatt: Harvester</Text>
+      <Text>Werkstatt: Erntemaschinen</Text>
     </Text>
     <Text>
       <GUID>2143505680</GUID>
-      <Text>Harvester</Text>
+      <Text>Erntemaschinen</Text>
     </Text>
     <Text>
       <GUID>2143505681</GUID>
-      <Text>Geschätzte Harvester-Verkäufe</Text>
+      <Text>Geschätzte Verkäufe von Erntemaschinen</Text>
     </Text>
     <Text>
       <GUID>2143505682</GUID>
-      <Text>Jüngste technologische Fortschritte haben die Entwicklung eines selbstfahrenden Erntemaschinen ermöglicht. Entfessle die Kraft dieser dröhnenden Motoren und beobachte, wie riesige Felder von dieser Maschine verschlungen werden.</Text>
+      <Text>Jüngste technologische Fortschritte haben die Entwicklung selbstfahrender Erntemaschinen ermöglicht. Entfesseln Sie die Kraft dieser dröhnenden Motoren und beobachten Sie, wie riesige Felder von der Maschine verschlungen werden.</Text>
     </Text>
     <Text>
       <GUID>2143505683</GUID>
-      <Text>Werkstatt: Kreissäge</Text>
+      <Text>Werkstatt: Kreissägen</Text>
     </Text>
     <Text>
       <GUID>2143505684</GUID>
@@ -70,15 +70,15 @@
     </Text>
     <Text>
       <GUID>2143505685</GUID>
-      <Text>Eine so scharfe Klinge, besonders nützlich zum Roden eines Waldes.</Text>
+      <Text>Die Klinge ist so scharf, dass sie sich besonders zum Roden eines Waldes eignet.</Text>
     </Text>
     <Text>
       <GUID>2143505686</GUID>
-      <Text>Geschätzte Rundsägenverkäufe</Text>
+      <Text>Geschätzte Verkäufe von Kreissägen</Text>
     </Text>
     <Text>
       <GUID>2143505687</GUID>
-      <Text>Werkstatt: Generator</Text>
+      <Text>Werkstatt: Generatoren</Text>
     </Text>
     <Text>
       <GUID>2143505688</GUID>
@@ -86,15 +86,39 @@
     </Text>
     <Text>
       <GUID>2143505689</GUID>
-      <Text>Geschätzte Generatorverkäufe</Text>
+      <Text>Geschätzte Verkäufe von Generatoren</Text>
     </Text>
     <Text>
       <GUID>2143505690</GUID>
-      <Text>Leistungsstarke Turbinen, die mit Gezeitenkraft die Produktion unterstützen.</Text>
+      <Text>Leistungsstarke Turbinen, die mit der Kraft der Gezeiten die Produktion unterstützen.</Text>
     </Text>
     <Text>
       <GUID>2143505691</GUID>
-      <Text>Der gesamte Flussbau</Text>
+      <Text>Alle Flussproduktionsbetriebe</Text>
+    </Text>
+    <Text>
+      <GUID>2143506000</GUID>
+      <Text>Landwirtschaftliche Anpassung</Text>
+    </Text>
+    <Text>
+      <GUID>2143506001</GUID>
+      <Text>Landwirtschaftliche Anpassung</Text>
+    </Text>
+    <Text>
+      <GUID>2143506002</GUID>
+      <Text>Landwirtschaftliche Anpassung</Text>
+    </Text>
+    <Text>
+      <GUID>2143506003</GUID>
+      <Text>Zusammenarbeit mit der Sägemühle</Text>
+    </Text>
+    <Text>
+      <GUID>2143506004</GUID>
+      <Text>Zusammenarbeit mit der Sägemühle</Text>
+    </Text>
+    <Text>
+      <GUID>2143506005</GUID>
+      <Text>Zusammenarbeit mit der Sägemühle</Text>
     </Text>
   </ModOp>
 </ModOps>
