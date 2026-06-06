@@ -307,6 +307,7 @@
             <BuildingType>Factory</BuildingType>
             <BuildingCategoryName>2143505402</BuildingCategoryName>
             <SecondPartyRelevant>0</SecondPartyRelevant>
+            <AllowChangeVariation>1</AllowChangeVariation>
           </Building>
           <Blocking>
             <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
@@ -314,7 +315,10 @@
           <Object>
             <Variations>
               <Item>
-					      <Filename>data/dlc05/graphics/buildings/special/fuel_station_moderate/fuel_station_moderate.cfg</Filename>
+					      <Filename>data/khobs/chemical/special/chemical_warehouse/chemical_warehouse.cfg</Filename>
+              </Item>
+              <Item>
+					      <Filename>data/khobs/chemical/special/chemical_warehouse/chemical_warehouse2.cfg</Filename>
               </Item>
             </Variations>
           </Object>
@@ -357,14 +361,14 @@
               <Item>
                 <Product>2143505554</Product>
                 <Amount>1</Amount>
-                <StorageAmount>10</StorageAmount>
+                <StorageAmount>75</StorageAmount>
               </Item>
             </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>2143505699</Product>
                 <Amount>1</Amount>
-                <StorageAmount>10</StorageAmount>
+					      <StorageAmount>20</StorageAmount>
               </Item>
             </FactoryOutputs>
             <CycleTime>20</CycleTime>
@@ -1079,9 +1083,8 @@
           </Standard>
           <Product>
             <StorageLevel>Building</StorageLevel>
-            <ProductCategory>11702</ProductCategory>
+			      <ProductCategory>11703</ProductCategory>
             <BasePrice>750</BasePrice>
-            <CivLevel>1</CivLevel>
             <AssociatedRegion>Moderate;Colony01;Arctic;Africa</AssociatedRegion>
             <ProductionRegions>
               <Item>
@@ -1126,10 +1129,12 @@
     </ModOp>
     <ModOp GUID="502016,502065,502046,502020,502007" Type="add" Path="Values/ProductList/List/">
       <Item>
-        <Product>2143505699</Product>
-      </Item>
-      <Item>
         <Product>2143505554</Product>
+      </Item>
+    </ModOp>
+    <ModOp GUID="502020" Type="add" Path="Values/ProductList/List/">
+      <Item>
+        <Product>2143505699</Product>
       </Item>
     </ModOp>
     <ModOp GUID="501961" Type="add" Path="Values/ProductList/List/">
