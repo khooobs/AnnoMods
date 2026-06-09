@@ -425,7 +425,7 @@
   <!-- START - Chemical Plant Modules -->
     <ModOp Type="addNextSibling" GUID="135134">
       <Asset>
-        <Template>FactoryBuilding7Module</Template>
+        <Template>HeavyFactoryBuildingModule</Template>
         <Values>
           <Standard>
             <GUID>2143505714</GUID>
