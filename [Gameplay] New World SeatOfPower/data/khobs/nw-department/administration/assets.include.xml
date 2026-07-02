@@ -1200,48 +1200,7 @@
           <FactoryUpgrade />
         </Values>
       </Asset>
-      <Asset>
-        <Template>Product</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505022</GUID>
-            <Name>New_World_Fake_Good</Name>
-            <IconFilename>data/ui/2kimages/main/icons/icon_session_southamerica.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>180025</TextOverride>
-          </Text>
-          <Product>
-            <StorageLevel>Building</StorageLevel>
-            <DeltaOnly>1</DeltaOnly>
-            <IsAbstract>1</IsAbstract>
-          </Product>
-          <Locked>
-            <DefaultLockedState>0</DefaultLockedState>
-          </Locked>
-        </Values>
-      </Asset>
     </ModOp>
-    <!-- Add Fake Buff to Infotip Display -->
-      <ModOp Type="add" GUID="269407" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
-        <!-- Palace Buff-->
-        <Item>
-          <ProvidedNeed>2143505022</ProvidedNeed>
-          <AmountInPercent>-30</AmountInPercent>
-        </Item>
-        <Item>
-          <ProvidedNeed>120033</ProvidedNeed>
-          <AmountInPercent>-30</AmountInPercent>
-        </Item>
-        <Item>
-          <ProvidedNeed>120035</ProvidedNeed>
-          <AmountInPercent>-30</AmountInPercent>
-        </Item>
-        <Item>
-          <ProvidedNeed>5381</ProvidedNeed>
-          <AmountInPercent>-30</AmountInPercent>
-        </Item>
-      </ModOp>
     <!-- END BUFF INFOTIP -->
 
     <!-- START TOWNHALLBUFF - Dietary Education Initiative -->
