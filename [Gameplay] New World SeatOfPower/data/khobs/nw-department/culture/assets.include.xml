@@ -1,15 +1,9 @@
 <ModOps>
-  <!-- All Paragons tier effects are included -->
-  <ModOp GUID="249963,269616,269617,269618,269619,269620,269621,269622,269623,269624,269625,269671,269672,269673,269674,269675,269676,269677,269678,269679,269680,269681,269682,269683,269684,269685" Type="add" Path="/Values/ItemEffect/EffectTargets/">
-    <Item>
-      <GUID>102284</GUID>
-    </Item>
-  </ModOp>
 
   <!-- START - RIGHT TO REMAIN ACT -->
   <Group>
     <!-- START ADD BUFFS - RIGHT TO REMAIN ACT (Culture_Decree5) -->
-    <ModOp GUID="269183" Type="add" Path="/Values/EffectContainer/Effects/">
+    <ModOp GUID="269183" Type="add" Path="/Values/EffectContainer/Effects">
       <Item>
         <Effect>2143505032</Effect>
       </Item>
@@ -47,6 +41,11 @@
           </VisitorHarborUpgrade>
         </Values>
       </Asset>
+    </ModOp>
+    <ModOp GUID='2143505032' Type="add" Path="/Values/ItemEffect/EffectTargets" Condition="#FamTaubeLexy_NewWorldHotels">
+      <Item>
+        <GUID>1440134302</GUID>
+      </Item>
     </ModOp>
     <!-- END CULTUREBUFF -->
   </Group>

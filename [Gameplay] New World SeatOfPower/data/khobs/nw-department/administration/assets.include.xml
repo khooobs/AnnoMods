@@ -1,699 +1,6 @@
 <ModOps>
   <!-- PASSIVE Buff -->
   <Group>
-    <!-- Replace Basebuff + paragon effect with containers (OW + NW) -->
-    <ModOp GUID="249947" Type="merge" Path="/Values/Palace/BaseMinistryEffect/">
-      <City>
-        <BaseEffect>2143505114</BaseEffect>
-        <ParagonEffects>
-          <Item>
-            <Effect>2143505115</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505116</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505117</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505118</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505119</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505120</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505121</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505122</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505123</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505124</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505125</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505126</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505127</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505128</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505129</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505130</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505131</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505132</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505133</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505134</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505135</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505136</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505137</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505138</Effect>
-          </Item>
-          <Item>
-            <Effect>2143505139</Effect>
-          </Item>
-        </ParagonEffects>
-      </City>
-    </ModOp>
-
-    <!-- Only applies OW town halls in OW regions, thus avoiding OW workforce in NW -->
-    <ModOp GUID="249961,269373,269374,269385,269386,269465,269466,269467,269468,269469,269470,269652,269653,269654,269655,269656,269657,269658,269659,269660,269661,269662,269663,269664,269665,269666" Type="merge" Path="/Values/ItemEffect/EffectTargets/">
-      <Item>
-        <GUID>100415</GUID>
-      </Item>
-    </ModOp>
-    
-    <!-- START EFFECTCONTAINER - Base Buff -->
-    <ModOp GUID="249961" Type="addNextSibling">
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505114</GUID>
-            <Name>Ministry of City Affairs - Base Buff Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>249961</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505088</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505115</GUID>
-            <Name>Ministry of City Affairs - Paragon_01 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269373</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505089</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505116</GUID>
-            <Name>Ministry of City Affairs - Paragon_02 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269374</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505090</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505117</GUID>
-            <Name>Ministry of City Affairs - Paragon_03 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269385</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505091</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505118</GUID>
-            <Name>Ministry of City Affairs - Paragon_04 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269386</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505092</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505119</GUID>
-            <Name>Ministry of City Affairs - Paragon_05 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269465</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505093</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505120</GUID>
-            <Name>Ministry of City Affairs - Paragon_06 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269466</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505094</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505121</GUID>
-            <Name>Ministry of City Affairs - Paragon_07 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269467</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505095</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505122</GUID>
-            <Name>Ministry of City Affairs - Paragon_08 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269468</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505096</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505123</GUID>
-            <Name>Ministry of City Affairs - Paragon_09 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269469</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505097</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505124</GUID>
-            <Name>Ministry of City Affairs - Paragon_10 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269470</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505098</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505125</GUID>
-            <Name>Ministry of City Affairs - Paragon_11 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269652</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505099</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505126</GUID>
-            <Name>Ministry of City Affairs - Paragon_12 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269653</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505100</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505127</GUID>
-            <Name>Ministry of City Affairs - Paragon_13 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269654</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505101</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505128</GUID>
-            <Name>Ministry of City Affairs - Paragon_14 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269655</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505102</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505129</GUID>
-            <Name>Ministry of City Affairs - Paragon_15 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269656</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505103</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505130</GUID>
-            <Name>Ministry of City Affairs - Paragon_16 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269657</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505104</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505131</GUID>
-            <Name>Ministry of City Affairs - Paragon_17 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269658</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505105</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505132</GUID>
-            <Name>Ministry of City Affairs - Paragon_18 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269659</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505106</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505133</GUID>
-            <Name>Ministry of City Affairs - Paragon_19 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269660</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505107</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505134</GUID>
-            <Name>Ministry of City Affairs - Paragon_20 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269661</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505108</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505135</GUID>
-            <Name>Ministry of City Affairs - Paragon_21 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269662</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505109</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505136</GUID>
-            <Name>Ministry of City Affairs - Paragon_22 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269663</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505110</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505137</GUID>
-            <Name>Ministry of City Affairs - Paragon_23 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269664</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505111</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505138</GUID>
-            <Name>Ministry of City Affairs - Paragon_24 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269665</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505112</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>EffectContainer</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505139</GUID>
-            <Name>Ministry of City Affairs - Paragon_25 Container</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_department_civic_affairs.png</IconFilename>
-          </Standard>
-          <Text>
-            <TextOverride>249961</TextOverride>
-          </Text>
-          <EffectContainer>
-            <Effects>
-              <Item>
-                <Effect>269666</Effect>
-              </Item>
-              <Item>
-                <Effect>2143505113</Effect>
-              </Item>
-            </Effects>
-          </EffectContainer>
-        </Values>
-      </Asset>
-    </ModOp>
-    <!-- END EFFECTCONTAINER -->
 
     <!-- START TOWNHALLBUFF -->
     <ModOp GUID="249961" Type="addNextSibling">
@@ -708,21 +15,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -739,8 +38,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -754,21 +51,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -785,8 +74,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -800,21 +87,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -831,8 +110,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -846,21 +123,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -877,8 +146,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -892,21 +159,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -923,8 +182,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -938,21 +195,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -969,8 +218,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -984,21 +231,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1015,8 +254,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1030,21 +267,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1061,8 +290,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1076,21 +303,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1107,8 +326,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1122,21 +339,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1153,8 +362,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1168,21 +375,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1199,8 +398,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1214,21 +411,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1245,8 +434,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1260,21 +447,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1291,8 +470,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1306,21 +483,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1337,8 +506,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1352,21 +519,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1383,8 +542,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1398,21 +555,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1429,8 +578,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1444,21 +591,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1475,8 +614,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1490,21 +627,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1521,8 +650,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1536,21 +663,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1567,8 +686,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1582,21 +699,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1613,8 +722,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1628,21 +735,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1659,8 +758,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1674,21 +771,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1705,8 +794,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1720,21 +807,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1751,8 +830,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1766,21 +843,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1797,8 +866,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1812,21 +879,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1843,8 +902,6 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1858,21 +915,13 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
           <Text>
             <TextOverride>249961</TextOverride>
           </Text>
-          <BuildingUpgrade />
-          <Buff />
-          <PopulationUpgrade />
-          <ResidenceUpgrade />
-          <IncidentInfectableUpgrade />
-          <CultureUpgrade />
-          <InfluenceSourceUpgrade />
-          <WarehouseUpgrade />
           <DistributionUpgrade>
             <AddDeltas>
               <Item>
@@ -1889,21 +938,145 @@
               </Item>
             </AddDeltas>
           </DistributionUpgrade>
-          <ItemContainerUpgrade />
-          <FactoryUpgrade />
         </Values>
       </Asset>
     </ModOp>
     <!--END  -->
   </Group>
 
-  <!-- Vanilla Tweaks -->
-  <!-- SET Science Fairs Act only for OW -->
-  <ModOp GUID="273695,269128" Type="replace" Path="/Values/ItemEffect/EffectTargets/Item">
-   <Item>
-      <GUID>100415</GUID>
-    </Item>
-  </ModOp>
+  <!-- Adding Buffs to container -->
+  <Group Condition="#general_palace_kurila">
+    <ModOp GUID="2143505114" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505088</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505115" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505089</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505116" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505090</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505117" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505091</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505118" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505092</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505119" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505093</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505120" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505094</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505121" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505095</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505122" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505096</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505123" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505097</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505124" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505098</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505125" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505099</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505126" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505100</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505127" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505101</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505128" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505102</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505129" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505103</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505130" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505104</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505131" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505105</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505132" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505106</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505133" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505107</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505134" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505108</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505135" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505109</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505136" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505110</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505137" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505111</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505138" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505112</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="2143505139" Type="add" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2143505113</Effect>
+      </Item>
+    </ModOp>
+  </Group>
   <!-- END SET -->
 
   <!-- START - Dietary Education Initiative -->
@@ -1915,7 +1088,6 @@
       </Item>
     </ModOp>
     <!-- END ADD BUFFS -->
-    
     <!-- START FORWARDBUFF - Dietary Education Initiative -->
     <ModOp GUID="269410" Type="addNextSibling">
       <Asset>
@@ -1931,7 +1103,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -1979,7 +1151,7 @@
     </ModOp>
     <!-- END EFFECTCONTAINER -->
 
-    <!-- START TOWNHALL BUFF INFOTIP -->
+    <!-- START TOWNHALL INFOTIP -->
     <ModOp GUID="269407" Type="addNextSibling">
       <Asset>
         <Template>TownhallBuff</Template>
@@ -2028,9 +1200,50 @@
           <FactoryUpgrade />
         </Values>
       </Asset>
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505022</GUID>
+            <Name>New_World_Fake_Good</Name>
+            <IconFilename>data/ui/2kimages/main/icons/icon_session_southamerica.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>180025</TextOverride>
+          </Text>
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <DeltaOnly>1</DeltaOnly>
+            <IsAbstract>1</IsAbstract>
+          </Product>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+        </Values>
+      </Asset>
     </ModOp>
+    <!-- Add Fake Buff to Infotip Display -->
+      <ModOp Type="add" GUID="269407" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <!-- Palace Buff-->
+        <Item>
+          <ProvidedNeed>2143505022</ProvidedNeed>
+          <AmountInPercent>-30</AmountInPercent>
+        </Item>
+        <Item>
+          <ProvidedNeed>120033</ProvidedNeed>
+          <AmountInPercent>-30</AmountInPercent>
+        </Item>
+        <Item>
+          <ProvidedNeed>120035</ProvidedNeed>
+          <AmountInPercent>-30</AmountInPercent>
+        </Item>
+        <Item>
+          <ProvidedNeed>5381</ProvidedNeed>
+          <AmountInPercent>-30</AmountInPercent>
+        </Item>
+      </ModOp>
     <!-- END BUFF INFOTIP -->
-    
+
     <!-- START TOWNHALLBUFF - Dietary Education Initiative -->
     <ModOp GUID="269409" Type="addNextSibling">
       <Asset>
@@ -2050,7 +1263,7 @@
                 <GUID>24792</GUID>
               </Item>
             </EffectTargets>
-          </ItemEffect>     
+          </ItemEffect>
           <Text>
             <TextOverride>269410</TextOverride>
           </Text>
@@ -2321,7 +1534,7 @@
             <ItemContainerUpgrade />
           </Values>
         </Asset>
-      </ModOp>    
+      </ModOp>
       <ModOp GUID="2143505021" Type="add" Path="/Values/EffectContainer/Effects">
         <Item>
           <Effect>2143505026</Effect>
@@ -2355,12 +1568,17 @@
         <InfluenceSource>Culture</InfluenceSource>
       </InfluenceSource>
     </ModOp>
-    <!-- END SET Influence -->   
+    <!-- END SET Influence -->
 
     <!-- START ADD BUFFS - ARTS FAIRS ACT (City_Decree3) -->
     <ModOp GUID="269174" Type="add" Path="/Values/EffectContainer/Effects/">
       <Item>
         <Effect>2143505029</Effect>
+      </Item>
+    </ModOp>
+    <ModOp GUID="1500303315" Type="add" Path="/Values/ItemEffect/EffectTargets" Condition="#general_palace_kurila">
+      <Item>
+        <GUID>26030</GUID>
       </Item>
     </ModOp>
     <!-- END ADD BUFFS -->
@@ -2380,7 +1598,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>

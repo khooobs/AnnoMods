@@ -1,10 +1,4 @@
 <ModOps>
-  <!-- Passive productivity buff -->
-  <ModOp GUID="249965,269492,269493,269494,269495,269496,269497,269498,269499,269500,269501,269701,269702,269703,269704,269705,269706,269707,269708,269709,269710,269711,269712,269713,269714,269715" Type="add" Path="/Values/ItemEffect/EffectTargets">
-    <Item>
-      <GUID>193990</GUID>
-    </Item>
-  </ModOp>
 
   <!-- START - LAND REFORM ACT -->
   <Group>
@@ -31,7 +25,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101284</GUID>
+                <GUID>1500303313</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -234,18 +228,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
     </ModOp>
@@ -265,7 +247,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101263</GUID>
+                <GUID>1500301926</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -281,18 +263,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -307,10 +277,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>1010329</GUID>
-              </Item>
-              <Item>
-                <GUID>24798</GUID>
+                <GUID>1500301928</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -326,18 +293,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -352,7 +307,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>1010331</GUID>
+                <GUID>1500301929</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -368,18 +323,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -394,10 +337,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>1010333</GUID>
-              </Item>
-              <Item>
-                <GUID>25006</GUID>
+                <GUID>1500301930</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -413,18 +353,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -455,18 +383,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -481,10 +397,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101270</GUID>
-              </Item>
-              <Item>
-                <GUID>25003</GUID>
+                <GUID>1500301927</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -500,18 +413,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -526,10 +427,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101251</GUID>
-              </Item>
-              <Item>
-                <GUID>25005</GUID>
+                <GUID>1500301933</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -545,18 +443,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -571,7 +457,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>1010330</GUID>
+                <GUID>1500301931</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -587,18 +473,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -613,10 +487,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>1010332</GUID>
-              </Item>
-              <Item>
-                <GUID>25009</GUID>
+                <GUID>1500301932</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -632,18 +503,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -679,18 +538,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -721,18 +568,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -768,18 +603,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -810,18 +633,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -852,18 +663,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -878,7 +677,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>5463</GUID>
+                <GUID>1500301934</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -894,18 +693,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -920,7 +707,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>5814</GUID>
+                <GUID>1500301935</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -936,54 +723,14 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
     </ModOp>
     <!-- END -->
 
-    <!-- LAND REFORM ACT - TALUDAS HACIENDA OVERHAUL COMPATIBILITY -->
-    <Group Condition="#Taludas_TheWholesomeHaciendaHaul">
-      <ModOp GUID="2143505036" Type="add" Path="Values/ItemEffect/EffectTargets/">
-        <Item>
-          <GUID>1999002001</GUID>
-        </Item>
-      </ModOp>
-      <ModOp GUID="2143505038" Type="add" Path="Values/ItemEffect/EffectTargets/">
-        <Item>
-          <GUID>1999002004</GUID>
-        </Item>
-      </ModOp>
-      <ModOp GUID="2143505043" Type="add" Path="Values/ItemEffect/EffectTargets/">
-        <Item>
-          <GUID>1999002007</GUID>
-        </Item>
-      </ModOp>
-      <ModOp GUID="2143505142" Type="add" Path="Values/ItemEffect/EffectTargets/">
-        <Item>
-          <GUID>1999002164</GUID>
-        </Item>
-      </ModOp>
-      <ModOp GUID="2143505143" Type="add" Path="Values/ItemEffect/EffectTargets/">
-        <Item>
-          <GUID>1999002169</GUID>
-        </Item>
-      </ModOp>
-    </Group>
   </Group>
   <!-- END - LAND REFORM ACT -->
-  
+
   <!-- START - SKILLED LABOUR ACT -->
   <Group>
     <!-- START ADD BUFFS - SKILLED LABOUR ACT (Productivity_Decree2) -->
@@ -993,7 +740,7 @@
       </Item>
     </ModOp>
     <!-- END ADD BUFFS -->
-    
+
     <!-- START FORWARDBUFF - SKILLED LABOUR ACT -->
     <ModOp GUID="280094" Type="addNextSibling">
       <Asset>
@@ -1009,7 +756,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101284</GUID>
+                <GUID>1500303313</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -1084,7 +831,7 @@
       </Asset>
     </ModOp>
     <!-- END -->
-    
+
     <!-- START GUILDHOUSEBUFF BUFF INFOTIP -->
     <ModOp GUID="269366" Type="addNextSibling">
       <Asset>
@@ -1165,23 +912,11 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
     </ModOp>
-    <!-- END BUFF INFOTIP -->    
-    
+    <!-- END BUFF INFOTIP -->
+
     <!-- START GUILDHOUSEBUFF - SKILLED LABOUR ACT -->
     <ModOp GUID="25638" Type="addNextSibling">
       <Asset>
@@ -1212,18 +947,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1254,18 +977,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1296,18 +1007,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1338,18 +1037,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1380,18 +1067,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1422,18 +1097,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1464,18 +1127,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1506,18 +1157,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1548,18 +1187,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1590,18 +1217,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1632,18 +1247,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -1674,24 +1277,12 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
     </ModOp>
     <!-- END -->
   </Group>
-  
+
   <!-- Jakob's New World Cities Support -->
   <Group Condition="#jakob_new_world_cities">
     <ModOp GUID="2143505050" Type="add" Path="/Values/FactoryUpgrade/AdditionalOutput/">
@@ -1731,18 +1322,6 @@
               </Item>
             </AdditionalOutput>
           </FactoryUpgrade>
-          <BuildingUpgrade />
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
     </ModOp>
@@ -1765,14 +1344,14 @@
 
   <!-- START - GALVANIC GRANTS ACT -->
   <Group>
-    <!-- START ADD BUFFS - GALVANIC GRANTS ACT (Productivity_Decree4) -->
+    <!-- START ADD BUFFS - GALVANIC GRANTS ACT (Productivity_Decree4)
     <ModOp GUID="269196" Type="add" Path="/Values/EffectContainer/Effects/">
       <Item>
         <Effect>2143505064</Effect>
       </Item>
-    </ModOp>
+    </ModOp> -->
     <!-- END ADD BUFFS -->
-        
+
     <!-- START FORWARDBUFF - GALVANIC GRANTS ACT -->
     <ModOp GUID="269205" Type="addNextSibling">
       <Asset>
@@ -1788,7 +1367,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101284</GUID>
+                <GUID>1500303313</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -1803,7 +1382,7 @@
       </Asset>
     </ModOp>
     <!-- END FORWARDBUFF -->
-    
+
     <!-- START GUILDHOUSEBUFF - GALVANIC GRANTS ACT -->
     <ModOp GUID="269201" Type="addNextSibling">
       <Asset>
@@ -1921,14 +1500,14 @@
 
   <!-- START - FACTORY INSPECTION ACT -->
   <Group>
-    <!-- START ADD BUFFS - FACTORY INSPECTION ACT (Productivity_Decree2) -->
+    <!-- START ADD BUFFS - FACTORY INSPECTION ACT (Productivity_Decree2)
     <ModOp GUID="269194" Type="add" Path="/Values/EffectContainer/Effects/">
       <Item>
         <Effect>2143505066</Effect>
       </Item>
-    </ModOp>
+    </ModOp> -->
     <!-- END ADD BUFFS -->
-    
+
     <!-- START FORWARDBUFF - FACTORY INSPECTION ACT -->
     <ModOp GUID="269203" Type="addNextSibling">
       <Asset>
@@ -1944,7 +1523,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101284</GUID>
+                <GUID>1500303313</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -1991,17 +1570,6 @@
               <Percental>1</Percental>
             </WorkforceAmountUpgrade>
           </BuildingUpgrade>
-          <Buff />
-          <CultureUpgrade />
-          <ModuleOwnerUpgrade />
-          <IncidentInfectableUpgrade />
-          <PowerplantUpgrade />
-          <IndustrializableUpgrade />
-          <ItemContainerUpgrade />
-          <IncidentInfluencerUpgrade />
-          <IrrigationUpgrade />
-          <EcoSystemProviderUpgrade />
-          <ResourceUpgrade />
         </Values>
       </Asset>
     </ModOp>
@@ -2011,12 +1579,12 @@
 
   <!-- START - UNION SUBSIDIES ACT -->
   <Group>
-    <!-- START ADD BUFFS - UNION SUBSIDIES ACT (Productivity_Decree5) -->
+    <!-- START ADD BUFFS - UNION SUBSIDIES ACT (Productivity_Decree5)
     <ModOp GUID="269197" Type="add" Path="/Values/EffectContainer/Effects/">
       <Item>
         <Effect>2143505068</Effect>
       </Item>
-    </ModOp>
+    </ModOp> -->
     <!-- END ADD BUFFS -->
 
     <!-- START GUILDHOUSEBUFF - UNION SUBSIDIES ACT -->
@@ -2033,7 +1601,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101284</GUID>
+                <GUID>1500303313</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
