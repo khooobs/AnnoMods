@@ -239,7 +239,7 @@
       </Asset>
     </ModOp>
     <!-- END FORWARDBUFF -->
-    
+
     <!-- START TOWNHALLBUFF - ARTS PATRONAGE ACT -->
     <ModOp GUID="269121" Type="addNextSibling">
       <Asset>
@@ -483,10 +483,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101254</GUID>
-              </Item>
-              <Item>
-                <GUID>24792</GUID>
+                <GUID>26029</GUID>
               </Item>
             </EffectTargets>
             <AllowStacking>0</AllowStacking>
@@ -530,10 +527,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101255</GUID>
-              </Item>
-              <Item>
-                <GUID>24793</GUID>
+                <GUID>26030</GUID>
               </Item>
             </EffectTargets>
             <AllowStacking>0</AllowStacking>
@@ -581,10 +575,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>5405</GUID>
-              </Item>
-              <Item>
-                <GUID>6086</GUID>
+                <GUID>1500301950</GUID>
               </Item>
             </EffectTargets>
             <AllowStacking>0</AllowStacking>
@@ -625,32 +616,10 @@
         </Values>
       </Asset>
     </ModOp>
-    
-    <!-- New World Cities Support -->
-    <Group Condition="#jakob_new_world_cities">
-      <ModOp GUID="2143505077" Type="add" Path="/Values/ItemEffect/EffectTargets">
-        <Item>
-          <GUID>1500011250</GUID>
-        </Item> 
-      </ModOp>
-      <ModOp GUID="2143505078" Type="add" Path="/Values/ItemEffect/EffectTargets">
-        <Item>
-          <GUID>1500011043</GUID>
-        </Item>
-      </ModOp>
-      <ModOp GUID="2143505079" Type="add" Path="/Values/ItemEffect/EffectTargets">
-        <Item>
-          <GUID>1500011044</GUID>
-        </Item>
-        <Item>
-          <GUID>1500011090</GUID>
-        </Item>
-      </ModOp>
-    </Group>
     <!-- END TOWNHALLBUFF -->
   </Group>
   <!-- END -->
-  
+
   <!-- START - LATE LICENCE ACT -->
   <Group>
     <!-- START ADD BUFFS - LATE LICENCE ACT (Public_Decree5) -->
@@ -676,7 +645,7 @@
           <ItemEffect>
             <EffectTargets>
               <Item>
-                <GUID>101285</GUID>
+                <GUID>1500303318</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
@@ -729,7 +698,7 @@
       </Asset>
     </ModOp>
     <!-- END EFFECTCONTAINER -->
-    
+
     <!-- START TOWNHALL BUFF INFOTIP -->
     <ModOp GUID="269451" Type="addNextSibling">
       <Asset>
@@ -802,7 +771,7 @@
       </Asset>
     </ModOp>
     <!-- END BUFF INFOTIP -->
-    
+
     <!-- START TOWNHALLBUFF - LATE LICENCE ACT -->
     <ModOp GUID="269232" Type="addNextSibling">
       <Asset>
@@ -844,7 +813,7 @@
           <ItemContainerUpgrade />
           <FactoryUpgrade />
         </Values>
-      </Asset>     
+      </Asset>
       <Asset>
         <Template>TownhallBuff</Template>
         <Values>
@@ -892,7 +861,7 @@
           <ItemContainerUpgrade />
           <FactoryUpgrade />
         </Values>
-      </Asset>   
+      </Asset>
       <Asset>
         <Template>TownhallBuff</Template>
         <Values>
@@ -995,7 +964,7 @@
           <ItemContainerUpgrade />
           <FactoryUpgrade />
         </Values>
-      </Asset>     
+      </Asset>
       <Asset>
         <Template>TownhallBuff</Template>
         <Values>
@@ -1051,14 +1020,14 @@
           <ItemContainerUpgrade />
           <FactoryUpgrade />
         </Values>
-      </Asset>     
+      </Asset>
     </ModOp>
     <!-- New World Cities Support -->
     <Group Condition="#jakob_new_world_cities">
       <ModOp GUID="2143505083" Type="add" Path="/Values/ItemEffect/EffectTargets">
         <Item>
           <GUID>1500011250</GUID>
-        </Item> 
+        </Item>
       </ModOp>
       <ModOp GUID="2143505084" Type="add" Path="/Values/ItemEffect/EffectTargets">
         <Item>
