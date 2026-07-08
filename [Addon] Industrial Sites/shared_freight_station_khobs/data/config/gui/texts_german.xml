@@ -6,15 +6,15 @@
     </Text>
     <Text>
       <GUID>2143505413</GUID>
-      <Text>Ein zentraler Güterbahnhof zum Exportieren, Importieren oder Entladen von Waren. Erweiterbar mit Modulen.</Text>
+      <Text>Ein zentraler Frachtbahnhof zum Be- und Entladen von Waren. Erweiterbar mit Modulen.</Text>
     </Text>
     <Text>
-      <GUID>2143505414</GUID>
-      <Text>Verwaltung von Güterbahnhöfen</Text>
+      <GUID>2143505414</GUID>      
+      <Text>Güterbahnhof: Verwaltung</Text>
     </Text>
     <Text>
       <GUID>2143505415</GUID>
-      <Text>Erhöhen Sie die Kapazität für Handelsvereinbarungen für den Import/Export Ihrer Produkte.</Text>
+      <Text>Erhöhen Sie die Kapazität für Handelslizenzen zum Import und Export Ihrer Produkte.</Text>
     </Text>
     <Text>
       <GUID>2143505416</GUID>
@@ -38,7 +38,7 @@
     </Text>
     <Text>
       <GUID>2143505421</GUID>
-      <Text>Frachtexportdock: Spectacles</Text>
+      <Text>Frachtexportdock: Brillen</Text>
     </Text>
   </ModOp>
 </ModOps>

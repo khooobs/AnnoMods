@@ -2,11 +2,11 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505516</GUID>
-      <Text>Mineralstoffe</Text>
+      <Text>Mineralien</Text>
     </Text>
     <Text>
       <GUID>2143505517</GUID>
-      <Text>Der Aufwand für die Ausgrabung der Zone liefert einige zusätzliche Steine, Geoden und Kies, die für zusätzliche Güter gesiebt werden können.</Text>
+      <Text>Die Ausgrabungen liefern Steine, Geoden und Kiesel, aus denen zusätzliche Rohstoffe extrahiert werden können.</Text>
     </Text>
     <Text>
       <GUID>2143505518</GUID>
@@ -14,7 +14,7 @@
     </Text>
     <Text>
       <GUID>2143505519</GUID>
-      <Text>Produzieren Sie Zusatzgüter</Text>
+      <Text>Gewinn von zusätzlichem Output</Text>
     </Text>
     <Text>
       <GUID>2143505520</GUID>
@@ -22,7 +22,7 @@
     </Text>
     <Text>
       <GUID>2143505521</GUID>
-      <Text>Ein spezielles Gebäude mit Brechmaschinen und Ketten für große Brocken von Mineralien und Geoden.</Text>
+      <Text>Eine spezielle Anlage mit Brechmaschinen und Ketten für große Brocken von Mineralien und Geoden.</Text>
     </Text>
     <Text>
       <GUID>2143505524</GUID>
@@ -34,7 +34,7 @@
     </Text>
     <Text>
       <GUID>2143505523</GUID>
-      <Text>Bitte achten Sie darauf, sich nicht ganz über den Brecher zu lehnen!</Text>
+      <Text>Bitte achten Sie darauf, sich nicht zu weit über den Brecher zu lehnen!</Text>
     </Text>
     <Text>
       <GUID>2143505525</GUID>
