@@ -1,22 +1,661 @@
 
 	<SplineData />
-	<IdCounter>75</IdCounter>
+	<IdCounter>44</IdCounter>
 	<DummyRoot>
 		<Name />
-		<Groups />
+		<Groups>
+			<i>
+				<Name>bird_land</Name>
+				<Groups />
+				<hasValue>1</hasValue>
+				<Id>27</Id>
+				<Dummies>
+					<i>
+						<Name>bird_land_0</Name>
+						<hasValue>1</hasValue>
+						<Id>28</Id>
+						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<Orientation>
+							<w>0.665717</w>
+							<x>0.000000</x>
+							<y>-0.746204</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>1.228498</x>
+							<y>0.934067</y>
+							<z>-1.405180</z>
+						</Position>
+						<RotationY>1.684684</RotationY>
+						<Extents>
+							<x>0.010000</x>
+							<y>0.010000</y>
+							<z>0.900000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>bird_land_1</Name>
+						<hasValue>1</hasValue>
+						<Id>32</Id>
+						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<Orientation>
+							<w>0.643811</w>
+							<x>0.000000</x>
+							<y>-0.765184</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>-1.181048</x>
+							<y>1.047739</y>
+							<z>0.543706</z>
+						</Position>
+						<RotationY>1.742655</RotationY>
+						<Extents>
+							<x>0.010000</x>
+							<y>0.010000</y>
+							<z>0.300000</z>
+						</Extents>
+					</i>
+				</Dummies>
+			</i>
+			<i>
+				<Name>broom</Name>
+				<Groups />
+				<hasValue>1</hasValue>
+				<Id>20</Id>
+				<Dummies>
+					<i>
+						<Name>broom_0</Name>
+						<hasValue>1</hasValue>
+						<Id>21</Id>
+						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<Orientation>
+							<w>0.052018</w>
+							<x>-0.000000</x>
+							<y>0.998646</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>0.454882</x>
+							<y>0.211670</y>
+							<z>-1.482175</z>
+						</Position>
+						<RotationY>3.245676</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>broom_1</Name>
+						<hasValue>1</hasValue>
+						<Id>22</Id>
+						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<Orientation>
+							<w>0.364056</w>
+							<x>-0.000000</x>
+							<y>0.931377</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>-0.500000</x>
+							<y>0.211670</y>
+							<z>-1.500000</z>
+						</Position>
+						<RotationY>3.886831</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>broom_2</Name>
+						<hasValue>1</hasValue>
+						<Id>23</Id>
+						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<Orientation>
+							<w>0.301079</w>
+							<x>0.000000</x>
+							<y>-0.953599</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>-1.088153</x>
+							<y>0.211670</y>
+							<z>-1.532108</z>
+						</Position>
+						<RotationY>2.529945</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>broom_3</Name>
+						<hasValue>1</hasValue>
+						<Id>24</Id>
+						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<Orientation>
+							<w>0.142914</w>
+							<x>-0.000000</x>
+							<y>0.989735</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>-1.482532</x>
+							<y>0.211670</y>
+							<z>-1.768663</z>
+						</Position>
+						<RotationY>3.428403</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+				</Dummies>
+			</i>
+			<i>
+				<Name>feedback_door</Name>
+				<Groups />
+				<hasValue>1</hasValue>
+				<Id>25</Id>
+				<Dummies>
+					<i>
+						<Name>feedback_door_0</Name>
+						<hasValue>1</hasValue>
+						<Id>26</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.104282</w>
+							<x>-0.000000</x>
+							<y>0.994548</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>-2.253733</x>
+							<y>0.006656</y>
+							<z>-1.939291</z>
+						</Position>
+						<RotationY>3.350537</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+				</Dummies>
+			</i>
+			<i>
+				<Name>FireDummy</Name>
+				<Groups />
+				<hasValue>1</hasValue>
+				<Id>33</Id>
+				<Dummies>
+					<i>
+						<Name>FireDummy_0</Name>
+						<hasValue>1</hasValue>
+						<Id>34</Id>
+						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<Orientation>
+							<w>-0.479486</w>
+							<x>0.519705</x>
+							<y>0.519705</y>
+							<z>-0.479486</z>
+						</Orientation>
+						<Position>
+							<x>0.946090</x>
+							<y>0.916701</y>
+							<z>-1.444884</z>
+						</Position>
+						<RotationY>0.000000</RotationY>
+						<Extents>
+							<x>0.380000</x>
+							<y>0.380000</y>
+							<z>0.380000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>FireDummy_1</Name>
+						<hasValue>1</hasValue>
+						<Id>35</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.647899</w>
+							<x>0.000000</x>
+							<y>-0.761726</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>-1.506776</x>
+							<y>0.509388</y>
+							<z>0.469821</z>
+						</Position>
+						<RotationY>1.731946</RotationY>
+						<Extents>
+							<x>0.400000</x>
+							<y>0.400000</y>
+							<z>0.400000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>FireDummy_2</Name>
+						<hasValue>1</hasValue>
+						<Id>38</Id>
+						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<Orientation>
+							<w>0.054722</w>
+							<x>-0.000000</x>
+							<y>0.998502</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>0.312197</x>
+							<y>0.438901</y>
+							<z>-1.457179</z>
+						</Position>
+						<RotationY>3.251091</RotationY>
+						<Extents>
+							<x>0.250000</x>
+							<y>0.250000</y>
+							<z>0.250000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>FireDummy_3</Name>
+						<hasValue>1</hasValue>
+						<Id>39</Id>
+						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<Orientation>
+							<w>0.673232</w>
+							<x>0.000000</x>
+							<y>-0.739431</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>0.812719</x>
+							<y>0.474169</y>
+							<z>-1.055708</z>
+						</Position>
+						<RotationY>1.664450</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>FireDummy_4</Name>
+						<hasValue>1</hasValue>
+						<Id>41</Id>
+						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<Orientation>
+							<w>0.747549</w>
+							<x>-0.000000</x>
+							<y>0.664207</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>1.349964</x>
+							<y>0.505789</y>
+							<z>-1.808549</z>
+						</Position>
+						<RotationY>4.830321</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>FireDummy_5</Name>
+						<hasValue>1</hasValue>
+						<Id>44</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.012288</w>
+							<x>0.000000</x>
+							<y>-0.999925</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>1.715767</x>
+							<y>0.082614</y>
+							<z>1.135518</z>
+						</Position>
+						<RotationY>3.117016</RotationY>
+						<Extents>
+							<x>0.230000</x>
+							<y>0.230000</y>
+							<z>0.230000</z>
+						</Extents>
+					</i>
+				</Dummies>
+			</i>
+			<i>
+				<Name>static</Name>
+				<Groups />
+				<hasValue>1</hasValue>
+				<Id>1</Id>
+				<Dummies>
+					<i>
+						<Name>static_0</Name>
+						<hasValue>1</hasValue>
+						<Id>2</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.992725</w>
+							<x>0.000000</x>
+							<y>-0.120407</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Transformer>
+							<Flags>8</Flags>
+							<BBoxCenter>
+								<xf>0.000000</xf>
+								<zf>0.000000</zf>
+							</BBoxCenter>
+							<BBoxXExtents>
+								<xf>0.000000</xf>
+								<zf>0.000000</zf>
+							</BBoxXExtents>
+							<BBoxZExtents>
+								<xf>0.000000</xf>
+								<zf>0.000000</zf>
+							</BBoxZExtents>
+						</Transformer>
+						<Position>
+							<x>-0.087757</x>
+							<y>0.000000</y>
+							<z>-0.042546</z>
+						</Position>
+						<RotationY>0.241400</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>static_1</Name>
+						<hasValue>1</hasValue>
+						<Id>5</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.172364</w>
+							<x>-0.000000</x>
+							<y>0.985033</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>0.894906</x>
+							<y>0.000000</y>
+							<z>0.689486</z>
+						</Position>
+						<RotationY>3.488051</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>static_2</Name>
+						<hasValue>1</hasValue>
+						<Id>17</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.225004</w>
+							<x>-0.000000</x>
+							<y>0.974358</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>-0.904898</x>
+							<y>0.000000</y>
+							<z>0.750333</z>
+						</Position>
+						<RotationY>3.595487</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>static_3</Name>
+						<hasValue>1</hasValue>
+						<Id>18</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.138755</w>
+							<x>0.000000</x>
+							<y>-0.990327</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>-0.927663</x>
+							<y>0.000000</y>
+							<z>-0.142593</z>
+						</Position>
+						<RotationY>2.863184</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>static_4</Name>
+						<hasValue>1</hasValue>
+						<Id>19</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.834571</w>
+							<x>-0.000000</x>
+							<y>0.550900</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>-1.739571</x>
+							<y>0.000000</y>
+							<z>0.981643</z>
+						</Position>
+						<RotationY>5.116301</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+				</Dummies>
+			</i>
+			<i>
+				<Name>walking</Name>
+				<Groups />
+				<hasValue>1</hasValue>
+				<Id>3</Id>
+				<Dummies>
+					<i>
+						<Name>walking_0</Name>
+						<hasValue>1</hasValue>
+						<Id>6</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.596499</w>
+							<x>0.000000</x>
+							<y>-0.802613</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>1.478516</x>
+							<y>0.000000</y>
+							<z>0.557511</z>
+						</Position>
+						<RotationY>1.863328</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>walking_1</Name>
+						<hasValue>1</hasValue>
+						<Id>7</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.105841</w>
+							<x>-0.000000</x>
+							<y>0.994383</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>0.932797</x>
+							<y>0.000000</y>
+							<z>0.221132</z>
+						</Position>
+						<RotationY>3.353672</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>walking_2</Name>
+						<hasValue>1</hasValue>
+						<Id>8</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.613121</w>
+							<x>0.000000</x>
+							<y>-0.789989</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>1.078759</x>
+							<y>0.000000</y>
+							<z>0.763988</z>
+						</Position>
+						<RotationY>1.821582</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>walking_3</Name>
+						<hasValue>1</hasValue>
+						<Id>9</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.190857</w>
+							<x>-0.000000</x>
+							<y>0.981618</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>0.500000</x>
+							<y>0.000000</y>
+							<z>1.759545</z>
+						</Position>
+						<RotationY>3.525663</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>walking_4</Name>
+						<hasValue>1</hasValue>
+						<Id>10</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.800892</w>
+							<x>-0.000000</x>
+							<y>0.598808</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>-0.093080</x>
+							<y>0.000000</y>
+							<z>1.513504</z>
+						</Position>
+						<RotationY>4.999161</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>walking_5</Name>
+						<hasValue>1</hasValue>
+						<Id>11</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.651077</w>
+							<x>0.000000</x>
+							<y>-0.759012</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>1.423525</x>
+							<y>0.000000</y>
+							<z>0.192824</z>
+						</Position>
+						<RotationY>1.723588</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>walking_6</Name>
+						<hasValue>1</hasValue>
+						<Id>12</Id>
+						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<Orientation>
+							<w>0.669111</w>
+							<x>0.000000</x>
+							<y>-0.743163</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>1.479663</x>
+							<y>0.208150</y>
+							<z>-0.946117</z>
+						</Position>
+						<RotationY>1.675570</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+				</Dummies>
+			</i>
+		</Groups>
 		<Dummies />
 		<hasValue>1</hasValue>
-		<Id>20</Id>
+		<Id>32</Id>
 	</DummyRoot>
 	<FeedbackDefinition>
-		<ValidSequenceIDs>CDATA[8 1 0]</ValidSequenceIDs>
+		<ValidSequenceIDs>CDATA[8 0 1]</ValidSequenceIDs>
 		<FeedbackConfigs>
 			<i>
 				<BoneLink>NoLink</BoneLink>
-				<MultiplyActorByDummyCount>inspect</MultiplyActorByDummyCount>
+				<MultiplyActorByDummyCount />
 				<Description />
 				<hasValue>1</hasValue>
-				<MainObject>0</MainObject>
+				<MainObject>1</MainObject>
 				<IgnoreRootObjectXZRotation>1</IgnoreRootObjectXZRotation>
 				<IsAlwaysVisibleActor>0</IsAlwaysVisibleActor>
 				<ApplyScaleToMovementSpeed>1</ApplyScaleToMovementSpeed>
@@ -27,270 +666,102 @@
 				<IgnoreForceActorVariation>0</IgnoreForceActorVariation>
 				<IgnoreDistanceScale>0</IgnoreDistanceScale>
 				<AssetVariationList>
-					<GuidVariationList>CDATA[24 101627 0 101626 0 101624 0]</GuidVariationList>
-					<AssetGroupNames />
-				</AssetVariationList>
-				<FeedbackLoops>
-					<k>1</k>
-					<v>0</v>
-				</FeedbackLoops>
-				<SequenceDefinitions>
-					<i>
-						<hasValue>1</hasValue>
-						<Loop0>
-							<hasValue>1</hasValue>
-							<DefaultState>
-								<SequenceID>1000</SequenceID>
-								<DummyName />
-								<StartDummyGroup>inspect</StartDummyGroup>
-								<DummyId>0</DummyId>
-								<ForceSequenceRestart>0</ForceSequenceRestart>
-								<Visible>1</Visible>
-								<FadeVisibility>1</FadeVisibility>
-								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
-							</DefaultState>
-							<ElementContainer>
-								<Elements>
-									<i>
-										<hasValue>1</hasValue>
-										<elementType>9</elementType>
-										<m_MinScaleFactor>0.500000</m_MinScaleFactor>
-										<m_MaxScaleFactor>0.500000</m_MaxScaleFactor>
-									</i>
-									<i>
-										<hasValue>1</hasValue>
-										<elementType>6</elementType>
-										<ShowObject>1</ShowObject>
-										<FadingMode>2</FadingMode>
-										<TimeOffset>30</TimeOffset>
-									</i>
-								</Elements>
-							</ElementContainer>
-						</Loop0>
-						<Loop1>
-							<hasValue>1</hasValue>
-							<DefaultState>
-								<SequenceID>1000</SequenceID>
-								<DummyName />
-								<StartDummyGroup>inspect</StartDummyGroup>
-								<DummyId>0</DummyId>
-								<ForceSequenceRestart>0</ForceSequenceRestart>
-								<Visible>1</Visible>
-								<FadeVisibility>1</FadeVisibility>
-								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
-							</DefaultState>
-							<ElementContainer>
-								<Elements>
-									<i>
-										<m_SequenceIds>CDATA[12 3004 3006 3007]</m_SequenceIds>
-										<hasValue>1</hasValue>
-										<elementType>12</elementType>
-										<MinPlayCount>1</MinPlayCount>
-										<MinPlayTime>0</MinPlayTime>
-										<MaxPlayCount>2</MaxPlayCount>
-										<MaxPlayTime>0</MaxPlayTime>
-									</i>
-									<i>
-										<m_SequenceIds>CDATA[16 1000 1010 3004 3006]</m_SequenceIds>
-										<hasValue>1</hasValue>
-										<elementType>12</elementType>
-										<MinPlayCount>1</MinPlayCount>
-										<MinPlayTime>0</MinPlayTime>
-										<MaxPlayCount>2</MaxPlayCount>
-										<MaxPlayTime>0</MaxPlayTime>
-									</i>
-									<i>
-										<m_SequenceIds>CDATA[8 1000 3007]</m_SequenceIds>
-										<hasValue>1</hasValue>
-										<elementType>12</elementType>
-										<MinPlayCount>1</MinPlayCount>
-										<MinPlayTime>0</MinPlayTime>
-										<MaxPlayCount>2</MaxPlayCount>
-										<MaxPlayTime>0</MaxPlayTime>
-									</i>
-								</Elements>
-							</ElementContainer>
-						</Loop1>
-						<Loop2>
-							<hasValue>1</hasValue>
-							<DefaultState>
-								<SequenceID>1000</SequenceID>
-								<DummyName />
-								<StartDummyGroup>inspect</StartDummyGroup>
-								<DummyId>0</DummyId>
-								<ForceSequenceRestart>0</ForceSequenceRestart>
-								<Visible>1</Visible>
-								<FadeVisibility>1</FadeVisibility>
-								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
-							</DefaultState>
-							<ElementContainer>
-								<Elements>
-									<i>
-										<m_IdleSequenceID>1000</m_IdleSequenceID>
-										<hasValue>1</hasValue>
-										<elementType>1</elementType>
-										<MinPlayCount>1</MinPlayCount>
-										<MinPlayTime>1000</MinPlayTime>
-										<MaxPlayCount>0</MaxPlayCount>
-										<MaxPlayTime>3000</MaxPlayTime>
-										<ResetStartTime>0</ResetStartTime>
-									</i>
-									<i>
-										<hasValue>1</hasValue>
-										<elementType>6</elementType>
-										<ShowObject>0</ShowObject>
-										<FadingMode>2</FadingMode>
-										<TimeOffset>30</TimeOffset>
-									</i>
-								</Elements>
-							</ElementContainer>
-						</Loop2>
-					</i>
-				</SequenceDefinitions>
-			</i>
-			<i>
-				<BoneLink>NoLink</BoneLink>
-				<MultiplyActorByDummyCount>taker</MultiplyActorByDummyCount>
-				<Description />
-				<hasValue>1</hasValue>
-				<MainObject>0</MainObject>
-				<IgnoreRootObjectXZRotation>1</IgnoreRootObjectXZRotation>
-				<IsAlwaysVisibleActor>0</IsAlwaysVisibleActor>
-				<ApplyScaleToMovementSpeed>1</ApplyScaleToMovementSpeed>
-				<ActorCount>1</ActorCount>
-				<MaxActorCount>1</MaxActorCount>
-				<CreateChance>100</CreateChance>
-				<RenderFlags>0</RenderFlags>
-				<IgnoreForceActorVariation>0</IgnoreForceActorVariation>
-				<IgnoreDistanceScale>0</IgnoreDistanceScale>
-				<AssetVariationList>
-					<GuidVariationList>CDATA[40 101624 0 102345 0 101626 0 101627 0 102345 1]</GuidVariationList>
-					<AssetGroupNames />
-				</AssetVariationList>
-				<FeedbackLoops>
-					<k>1</k>
-					<v>0</v>
-				</FeedbackLoops>
-				<SequenceDefinitions>
-					<i>
-						<hasValue>1</hasValue>
-						<Loop0>
-							<hasValue>1</hasValue>
-							<DefaultState>
-								<SequenceID>1000</SequenceID>
-								<DummyName />
-								<StartDummyGroup>taker</StartDummyGroup>
-								<DummyId>0</DummyId>
-								<ForceSequenceRestart>0</ForceSequenceRestart>
-								<Visible>1</Visible>
-								<FadeVisibility>1</FadeVisibility>
-								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
-							</DefaultState>
-							<ElementContainer>
-								<Elements>
-									<i>
-										<hasValue>1</hasValue>
-										<elementType>9</elementType>
-										<m_MinScaleFactor>0.500000</m_MinScaleFactor>
-										<m_MaxScaleFactor>0.500000</m_MaxScaleFactor>
-									</i>
-									<i>
-										<hasValue>1</hasValue>
-										<elementType>6</elementType>
-										<ShowObject>1</ShowObject>
-										<FadingMode>2</FadingMode>
-										<TimeOffset>30</TimeOffset>
-									</i>
-								</Elements>
-							</ElementContainer>
-						</Loop0>
-						<Loop1>
-							<hasValue>1</hasValue>
-							<DefaultState>
-								<SequenceID>1000</SequenceID>
-								<DummyName />
-								<StartDummyGroup>taker</StartDummyGroup>
-								<DummyId>0</DummyId>
-								<ForceSequenceRestart>0</ForceSequenceRestart>
-								<Visible>1</Visible>
-								<FadeVisibility>1</FadeVisibility>
-								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
-							</DefaultState>
-							<ElementContainer>
-								<Elements>
-									<i>
-										<m_SequenceIds>CDATA[12 1000 1010 1011]</m_SequenceIds>
-										<hasValue>1</hasValue>
-										<elementType>12</elementType>
-										<MinPlayCount>1</MinPlayCount>
-										<MinPlayTime>0</MinPlayTime>
-										<MaxPlayCount>2</MaxPlayCount>
-										<MaxPlayTime>0</MaxPlayTime>
-									</i>
-								</Elements>
-							</ElementContainer>
-						</Loop1>
-						<Loop2>
-							<hasValue>1</hasValue>
-							<DefaultState>
-								<SequenceID>1000</SequenceID>
-								<DummyName />
-								<StartDummyGroup>taker</StartDummyGroup>
-								<DummyId>0</DummyId>
-								<ForceSequenceRestart>0</ForceSequenceRestart>
-								<Visible>1</Visible>
-								<FadeVisibility>1</FadeVisibility>
-								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
-							</DefaultState>
-							<ElementContainer>
-								<Elements>
-									<i>
-										<m_IdleSequenceID>1000</m_IdleSequenceID>
-										<hasValue>1</hasValue>
-										<elementType>1</elementType>
-										<MinPlayCount>1</MinPlayCount>
-										<MinPlayTime>1000</MinPlayTime>
-										<MaxPlayCount>0</MaxPlayCount>
-										<MaxPlayTime>3000</MaxPlayTime>
-										<ResetStartTime>0</ResetStartTime>
-									</i>
-									<i>
-										<hasValue>1</hasValue>
-										<elementType>6</elementType>
-										<ShowObject>0</ShowObject>
-										<FadingMode>2</FadingMode>
-										<TimeOffset>30</TimeOffset>
-									</i>
-								</Elements>
-							</ElementContainer>
-						</Loop2>
-					</i>
-				</SequenceDefinitions>
-			</i>
-			<i>
-				<BoneLink>NoLink</BoneLink>
-				<MultiplyActorByDummyCount>birds</MultiplyActorByDummyCount>
-				<Description />
-				<hasValue>1</hasValue>
-				<MainObject>0</MainObject>
-				<IgnoreRootObjectXZRotation>1</IgnoreRootObjectXZRotation>
-				<IsAlwaysVisibleActor>0</IsAlwaysVisibleActor>
-				<ApplyScaleToMovementSpeed>1</ApplyScaleToMovementSpeed>
-				<ActorCount>1</ActorCount>
-				<MaxActorCount>1</MaxActorCount>
-				<CreateChance>100</CreateChance>
-				<RenderFlags>0</RenderFlags>
-				<IgnoreForceActorVariation>0</IgnoreForceActorVariation>
-				<IgnoreDistanceScale>0</IgnoreDistanceScale>
-				<AssetVariationList>
-					<GuidVariationList>CDATA[32 101799 0 1000045 0 1000045 1 1000045 2]</GuidVariationList>
+					<GuidVariationList />
 					<AssetGroupNames />
 				</AssetVariationList>
 				<FeedbackLoops>
 					<k>0</k>
 					<v>0</v>
 					<k>1</k>
+					<v>1</v>
+				</FeedbackLoops>
+				<SequenceDefinitions>
+					<i>
+						<hasValue>1</hasValue>
+						<Loop1>
+							<hasValue>1</hasValue>
+							<DefaultState>
+								<SequenceID>-1</SequenceID>
+								<DummyName />
+								<StartDummyGroup />
+								<DummyId>0</DummyId>
+								<ForceSequenceRestart>0</ForceSequenceRestart>
+								<Visible>1</Visible>
+								<FadeVisibility>1</FadeVisibility>
+								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
+							</DefaultState>
+							<ElementContainer>
+								<Elements>
+									<i>
+										<m_IdleSequenceID>1000</m_IdleSequenceID>
+										<hasValue>1</hasValue>
+										<elementType>1</elementType>
+										<MinPlayCount>1</MinPlayCount>
+										<MinPlayTime>0</MinPlayTime>
+										<MaxPlayCount>0</MaxPlayCount>
+										<MaxPlayTime>0</MaxPlayTime>
+										<ResetStartTime>0</ResetStartTime>
+									</i>
+								</Elements>
+							</ElementContainer>
+						</Loop1>
+					</i>
+					<i>
+						<hasValue>1</hasValue>
+						<Loop1>
+							<hasValue>1</hasValue>
+							<DefaultState>
+								<SequenceID>-1</SequenceID>
+								<DummyName />
+								<StartDummyGroup />
+								<DummyId>0</DummyId>
+								<ForceSequenceRestart>0</ForceSequenceRestart>
+								<Visible>1</Visible>
+								<FadeVisibility>1</FadeVisibility>
+								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
+							</DefaultState>
+							<ElementContainer>
+								<Elements>
+									<i>
+										<m_IdleSequenceID>3000</m_IdleSequenceID>
+										<hasValue>1</hasValue>
+										<elementType>1</elementType>
+										<MinPlayCount>1</MinPlayCount>
+										<MinPlayTime>0</MinPlayTime>
+										<MaxPlayCount>0</MaxPlayCount>
+										<MaxPlayTime>0</MaxPlayTime>
+										<ResetStartTime>0</ResetStartTime>
+									</i>
+								</Elements>
+							</ElementContainer>
+						</Loop1>
+					</i>
+				</SequenceDefinitions>
+			</i>
+			<i>
+				<BoneLink>NoLink</BoneLink>
+				<MultiplyActorByDummyCount>static</MultiplyActorByDummyCount>
+				<Description />
+				<hasValue>1</hasValue>
+				<MainObject>0</MainObject>
+				<IgnoreRootObjectXZRotation>1</IgnoreRootObjectXZRotation>
+				<IsAlwaysVisibleActor>0</IsAlwaysVisibleActor>
+				<ApplyScaleToMovementSpeed>1</ApplyScaleToMovementSpeed>
+				<ActorCount>1</ActorCount>
+				<MaxActorCount>1</MaxActorCount>
+				<CreateChance>100</CreateChance>
+				<RenderFlags>0</RenderFlags>
+				<IgnoreForceActorVariation>0</IgnoreForceActorVariation>
+				<IgnoreDistanceScale>0</IgnoreDistanceScale>
+				<AssetVariationList>
+					<GuidVariationList>CDATA[32 1000156 -1 1000207 -1 1000208 -1 1000128 -1]</GuidVariationList>
+					<AssetGroupNames />
+				</AssetVariationList>
+				<FeedbackLoops>
+					<k>0</k>
 					<v>0</v>
+					<k>1</k>
+					<v>1</v>
 				</FeedbackLoops>
 				<SequenceDefinitions>
 					<i>
@@ -298,9 +769,35 @@
 						<Loop0>
 							<hasValue>1</hasValue>
 							<DefaultState>
+								<SequenceID>-1</SequenceID>
+								<DummyName />
+								<StartDummyGroup />
+								<DummyId>0</DummyId>
+								<ForceSequenceRestart>0</ForceSequenceRestart>
+								<Visible>1</Visible>
+								<FadeVisibility>1</FadeVisibility>
+								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
+							</DefaultState>
+							<ElementContainer>
+								<Elements>
+									<i>
+										<hasValue>1</hasValue>
+										<elementType>9</elementType>
+										<m_MinScaleFactor>0.500000</m_MinScaleFactor>
+										<m_MaxScaleFactor>0.500000</m_MaxScaleFactor>
+									</i>
+								</Elements>
+							</ElementContainer>
+						</Loop0>
+					</i>
+					<i>
+						<hasValue>1</hasValue>
+						<Loop0>
+							<hasValue>1</hasValue>
+							<DefaultState>
 								<SequenceID>1000</SequenceID>
 								<DummyName />
-								<StartDummyGroup>birds</StartDummyGroup>
+								<StartDummyGroup>static</StartDummyGroup>
 								<DummyId>0</DummyId>
 								<ForceSequenceRestart>0</ForceSequenceRestart>
 								<Visible>0</Visible>
@@ -316,43 +813,21 @@
 										<m_MaxScaleFactor>0.500000</m_MaxScaleFactor>
 									</i>
 									<i>
+										<m_IdleSequenceID>1000</m_IdleSequenceID>
 										<hasValue>1</hasValue>
-										<elementType>3</elementType>
-										<BranchList>
-											<i>
-												<pair1>30</pair1>
-												<pair2>
-													<hasValue>1</hasValue>
-													<Elements>
-														<i>
-															<hasValue>1</hasValue>
-															<elementType>6</elementType>
-															<ShowObject>1</ShowObject>
-															<FadingMode>2</FadingMode>
-															<TimeOffset>30</TimeOffset>
-														</i>
-													</Elements>
-												</pair2>
-											</i>
-											<i>
-												<pair1>100</pair1>
-												<pair2>
-													<hasValue>1</hasValue>
-													<Elements>
-														<i>
-															<m_IdleSequenceID>1000</m_IdleSequenceID>
-															<hasValue>1</hasValue>
-															<elementType>1</elementType>
-															<MinPlayCount>1</MinPlayCount>
-															<MinPlayTime>0</MinPlayTime>
-															<MaxPlayCount>0</MaxPlayCount>
-															<MaxPlayTime>0</MaxPlayTime>
-															<ResetStartTime>0</ResetStartTime>
-														</i>
-													</Elements>
-												</pair2>
-											</i>
-										</BranchList>
+										<elementType>1</elementType>
+										<MinPlayCount>1</MinPlayCount>
+										<MinPlayTime>1000</MinPlayTime>
+										<MaxPlayCount>0</MaxPlayCount>
+										<MaxPlayTime>8000</MaxPlayTime>
+										<ResetStartTime>0</ResetStartTime>
+									</i>
+									<i>
+										<hasValue>1</hasValue>
+										<elementType>6</elementType>
+										<ShowObject>1</ShowObject>
+										<FadingMode>2</FadingMode>
+										<TimeOffset>30</TimeOffset>
 									</i>
 								</Elements>
 							</ElementContainer>
@@ -362,7 +837,7 @@
 							<DefaultState>
 								<SequenceID>1000</SequenceID>
 								<DummyName />
-								<StartDummyGroup>birds</StartDummyGroup>
+								<StartDummyGroup>static</StartDummyGroup>
 								<DummyId>0</DummyId>
 								<ForceSequenceRestart>0</ForceSequenceRestart>
 								<Visible>0</Visible>
@@ -372,30 +847,22 @@
 							<ElementContainer>
 								<Elements>
 									<i>
-										<m_SequenceIds>CDATA[4 1000]</m_SequenceIds>
+										<m_IdleSequenceID>3004</m_IdleSequenceID>
 										<hasValue>1</hasValue>
-										<elementType>12</elementType>
+										<elementType>1</elementType>
 										<MinPlayCount>1</MinPlayCount>
 										<MinPlayTime>0</MinPlayTime>
-										<MaxPlayCount>1</MaxPlayCount>
+										<MaxPlayCount>0</MaxPlayCount>
 										<MaxPlayTime>0</MaxPlayTime>
+										<ResetStartTime>0</ResetStartTime>
 									</i>
 									<i>
-										<m_SequenceIds>CDATA[8 5400 2000]</m_SequenceIds>
+										<m_SequenceIds>CDATA[8 3003 3004]</m_SequenceIds>
 										<hasValue>1</hasValue>
 										<elementType>12</elementType>
 										<MinPlayCount>1</MinPlayCount>
 										<MinPlayTime>0</MinPlayTime>
-										<MaxPlayCount>3</MaxPlayCount>
-										<MaxPlayTime>0</MaxPlayTime>
-									</i>
-									<i>
-										<m_SequenceIds>CDATA[4 1000]</m_SequenceIds>
-										<hasValue>1</hasValue>
-										<elementType>12</elementType>
-										<MinPlayCount>1</MinPlayCount>
-										<MinPlayTime>0</MinPlayTime>
-										<MaxPlayCount>3</MaxPlayCount>
+										<MaxPlayCount>0</MaxPlayCount>
 										<MaxPlayTime>0</MaxPlayTime>
 									</i>
 								</Elements>
@@ -406,12 +873,12 @@
 							<DefaultState>
 								<SequenceID>1000</SequenceID>
 								<DummyName />
-								<StartDummyGroup>birds</StartDummyGroup>
+								<StartDummyGroup>static</StartDummyGroup>
 								<DummyId>0</DummyId>
 								<ForceSequenceRestart>0</ForceSequenceRestart>
 								<Visible>1</Visible>
-								<FadeVisibility>1</FadeVisibility>
-								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
+								<FadeVisibility>0</FadeVisibility>
+								<ResetToDefaultEveryLoop>0</ResetToDefaultEveryLoop>
 							</DefaultState>
 							<ElementContainer>
 								<Elements>
@@ -420,9 +887,9 @@
 										<hasValue>1</hasValue>
 										<elementType>1</elementType>
 										<MinPlayCount>1</MinPlayCount>
-										<MinPlayTime>1000</MinPlayTime>
+										<MinPlayTime>0</MinPlayTime>
 										<MaxPlayCount>0</MaxPlayCount>
-										<MaxPlayTime>3000</MaxPlayTime>
+										<MaxPlayTime>0</MaxPlayTime>
 										<ResetStartTime>0</ResetStartTime>
 									</i>
 									<i>
@@ -454,12 +921,14 @@
 				<IgnoreForceActorVariation>0</IgnoreForceActorVariation>
 				<IgnoreDistanceScale>0</IgnoreDistanceScale>
 				<AssetVariationList>
-					<GuidVariationList>CDATA[16 101628 0 101626 0]</GuidVariationList>
+					<GuidVariationList>CDATA[8 1000127 -1]</GuidVariationList>
 					<AssetGroupNames />
 				</AssetVariationList>
 				<FeedbackLoops>
-					<k>1</k>
+					<k>0</k>
 					<v>0</v>
+					<k>1</k>
+					<v>1</v>
 				</FeedbackLoops>
 				<SequenceDefinitions>
 					<i>
@@ -467,10 +936,10 @@
 						<Loop0>
 							<hasValue>1</hasValue>
 							<DefaultState>
-								<SequenceID>1000</SequenceID>
-								<DummyName>walking_feedback_0</DummyName>
+								<SequenceID>-1</SequenceID>
+								<DummyName />
 								<StartDummyGroup />
-								<DummyId>43</DummyId>
+								<DummyId>0</DummyId>
 								<ForceSequenceRestart>0</ForceSequenceRestart>
 								<Visible>1</Visible>
 								<FadeVisibility>1</FadeVisibility>
@@ -484,12 +953,41 @@
 										<m_MinScaleFactor>0.500000</m_MinScaleFactor>
 										<m_MaxScaleFactor>0.500000</m_MaxScaleFactor>
 									</i>
+								</Elements>
+							</ElementContainer>
+						</Loop0>
+					</i>
+					<i>
+						<hasValue>1</hasValue>
+						<Loop0>
+							<hasValue>1</hasValue>
+							<DefaultState>
+								<SequenceID>1000</SequenceID>
+								<DummyName>walking_6</DummyName>
+								<StartDummyGroup />
+								<DummyId>12</DummyId>
+								<ForceSequenceRestart>0</ForceSequenceRestart>
+								<Visible>0</Visible>
+								<FadeVisibility>0</FadeVisibility>
+								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
+							</DefaultState>
+							<ElementContainer>
+								<Elements>
 									<i>
 										<hasValue>1</hasValue>
-										<elementType>6</elementType>
-										<ShowObject>1</ShowObject>
-										<FadingMode>2</FadingMode>
-										<TimeOffset>30</TimeOffset>
+										<elementType>9</elementType>
+										<m_MinScaleFactor>0.500000</m_MinScaleFactor>
+										<m_MaxScaleFactor>0.500000</m_MaxScaleFactor>
+									</i>
+									<i>
+										<m_IdleSequenceID>1000</m_IdleSequenceID>
+										<hasValue>1</hasValue>
+										<elementType>1</elementType>
+										<MinPlayCount>1</MinPlayCount>
+										<MinPlayTime>1000</MinPlayTime>
+										<MaxPlayCount>0</MaxPlayCount>
+										<MaxPlayTime>10000</MaxPlayTime>
+										<ResetStartTime>0</ResetStartTime>
 									</i>
 								</Elements>
 							</ElementContainer>
@@ -498,78 +996,55 @@
 							<hasValue>1</hasValue>
 							<DefaultState>
 								<SequenceID>1000</SequenceID>
-								<DummyName>walking_feedback_0</DummyName>
+								<DummyName>walking_6</DummyName>
 								<StartDummyGroup />
-								<DummyId>43</DummyId>
+								<DummyId>12</DummyId>
 								<ForceSequenceRestart>0</ForceSequenceRestart>
-								<Visible>1</Visible>
-								<FadeVisibility>1</FadeVisibility>
-								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
+								<Visible>0</Visible>
+								<FadeVisibility>0</FadeVisibility>
+								<ResetToDefaultEveryLoop>0</ResetToDefaultEveryLoop>
 							</DefaultState>
 							<ElementContainer>
 								<Elements>
 									<i>
-										<StartDummy>walking_feedback_0</StartDummy>
-										<TargetDummy>walking_feedback_1</TargetDummy>
+										<hasValue>1</hasValue>
+										<elementType>6</elementType>
+										<ShowObject>1</ShowObject>
+										<FadingMode>2</FadingMode>
+										<TimeOffset>30</TimeOffset>
+									</i>
+									<i>
+										<StartDummy />
+										<TargetDummy>walking_5</TargetDummy>
 										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
 										<hasValue>1</hasValue>
 										<elementType>0</elementType>
 										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>43</StartDummyId>
-										<TargetDummyId>44</TargetDummyId>
-										<StartDummyId>43</StartDummyId>
-										<TargetDummyId>44</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>11</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>11</TargetDummyId>
 										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
 										<UseTargetDummyDirection>1</UseTargetDummyDirection>
 										<SpeedFactorF>0.200000</SpeedFactorF>
 									</i>
 									<i>
-										<StartDummy>walking_feedback_1</StartDummy>
-										<TargetDummy>walking_feedback_2</TargetDummy>
+										<StartDummy />
+										<TargetDummy>walking_0</TargetDummy>
 										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
 										<hasValue>1</hasValue>
 										<elementType>0</elementType>
 										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>44</StartDummyId>
-										<TargetDummyId>45</TargetDummyId>
-										<StartDummyId>44</StartDummyId>
-										<TargetDummyId>45</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>6</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>6</TargetDummyId>
 										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
 										<UseTargetDummyDirection>1</UseTargetDummyDirection>
 										<SpeedFactorF>0.200000</SpeedFactorF>
 									</i>
 									<i>
-										<StartDummy>walking_feedback_2</StartDummy>
-										<TargetDummy>walking_feedback_3</TargetDummy>
-										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
-										<hasValue>1</hasValue>
-										<elementType>0</elementType>
-										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>45</StartDummyId>
-										<TargetDummyId>46</TargetDummyId>
-										<StartDummyId>45</StartDummyId>
-										<TargetDummyId>46</TargetDummyId>
-										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
-										<UseTargetDummyDirection>1</UseTargetDummyDirection>
-										<SpeedFactorF>0.200000</SpeedFactorF>
-									</i>
-									<i>
-										<StartDummy>walking_feedback_3</StartDummy>
-										<TargetDummy>walking_feedback_4</TargetDummy>
-										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
-										<hasValue>1</hasValue>
-										<elementType>0</elementType>
-										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>46</StartDummyId>
-										<TargetDummyId>47</TargetDummyId>
-										<StartDummyId>46</StartDummyId>
-										<TargetDummyId>47</TargetDummyId>
-										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
-										<UseTargetDummyDirection>1</UseTargetDummyDirection>
-										<SpeedFactorF>0.200000</SpeedFactorF>
-									</i>
-									<i>
-										<m_IdleSequenceID>1010</m_IdleSequenceID>
+										<m_IdleSequenceID>3003</m_IdleSequenceID>
 										<hasValue>1</hasValue>
 										<elementType>1</elementType>
 										<MinPlayCount>1</MinPlayCount>
@@ -579,82 +1054,22 @@
 										<ResetStartTime>0</ResetStartTime>
 									</i>
 									<i>
-										<StartDummy>walking_feedback_4</StartDummy>
-										<TargetDummy>walking_feedback_3</TargetDummy>
+										<StartDummy />
+										<TargetDummy>walking_1</TargetDummy>
 										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
 										<hasValue>1</hasValue>
 										<elementType>0</elementType>
 										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>47</StartDummyId>
-										<TargetDummyId>46</TargetDummyId>
-										<StartDummyId>47</StartDummyId>
-										<TargetDummyId>46</TargetDummyId>
-										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
-										<UseTargetDummyDirection>0</UseTargetDummyDirection>
-										<SpeedFactorF>0.200000</SpeedFactorF>
-									</i>
-									<i>
-										<StartDummy>walking_feedback_3</StartDummy>
-										<TargetDummy>walking_feedback_2</TargetDummy>
-										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
-										<hasValue>1</hasValue>
-										<elementType>0</elementType>
-										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>46</StartDummyId>
-										<TargetDummyId>45</TargetDummyId>
-										<StartDummyId>46</StartDummyId>
-										<TargetDummyId>45</TargetDummyId>
-										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
-										<UseTargetDummyDirection>0</UseTargetDummyDirection>
-										<SpeedFactorF>0.200000</SpeedFactorF>
-									</i>
-									<i>
-										<StartDummy>walking_feedback_2</StartDummy>
-										<TargetDummy>walking_feedback_1</TargetDummy>
-										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
-										<hasValue>1</hasValue>
-										<elementType>0</elementType>
-										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>45</StartDummyId>
-										<TargetDummyId>44</TargetDummyId>
-										<StartDummyId>45</StartDummyId>
-										<TargetDummyId>44</TargetDummyId>
-										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
-										<UseTargetDummyDirection>0</UseTargetDummyDirection>
-										<SpeedFactorF>0.200000</SpeedFactorF>
-									</i>
-									<i>
-										<StartDummy>walking_feedback_1</StartDummy>
-										<TargetDummy>walking_feedback_5</TargetDummy>
-										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
-										<hasValue>1</hasValue>
-										<elementType>0</elementType>
-										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>44</StartDummyId>
-										<TargetDummyId>48</TargetDummyId>
-										<StartDummyId>44</StartDummyId>
-										<TargetDummyId>48</TargetDummyId>
-										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
-										<UseTargetDummyDirection>0</UseTargetDummyDirection>
-										<SpeedFactorF>0.200000</SpeedFactorF>
-									</i>
-									<i>
-										<StartDummy>walking_feedback_5</StartDummy>
-										<TargetDummy>walking_feedback_6</TargetDummy>
-										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
-										<hasValue>1</hasValue>
-										<elementType>0</elementType>
-										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>48</StartDummyId>
-										<TargetDummyId>49</TargetDummyId>
-										<StartDummyId>48</StartDummyId>
-										<TargetDummyId>49</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>7</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>7</TargetDummyId>
 										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
 										<UseTargetDummyDirection>1</UseTargetDummyDirection>
 										<SpeedFactorF>0.200000</SpeedFactorF>
 									</i>
 									<i>
-										<m_IdleSequenceID>3004</m_IdleSequenceID>
+										<m_IdleSequenceID>3003</m_IdleSequenceID>
 										<hasValue>1</hasValue>
 										<elementType>1</elementType>
 										<MinPlayCount>1</MinPlayCount>
@@ -664,90 +1079,52 @@
 										<ResetStartTime>0</ResetStartTime>
 									</i>
 									<i>
-										<StartDummy>walking_feedback_6</StartDummy>
-										<TargetDummy>walking_feedback_7</TargetDummy>
+										<StartDummy />
+										<TargetDummy>walking_2</TargetDummy>
 										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
 										<hasValue>1</hasValue>
 										<elementType>0</elementType>
 										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>49</StartDummyId>
-										<TargetDummyId>50</TargetDummyId>
-										<StartDummyId>49</StartDummyId>
-										<TargetDummyId>50</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>8</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>8</TargetDummyId>
 										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
 										<UseTargetDummyDirection>1</UseTargetDummyDirection>
 										<SpeedFactorF>0.200000</SpeedFactorF>
 									</i>
 									<i>
-										<StartDummy>walking_feedback_7</StartDummy>
-										<TargetDummy>walking_feedback_8</TargetDummy>
+										<StartDummy />
+										<TargetDummy>walking_3</TargetDummy>
 										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
 										<hasValue>1</hasValue>
 										<elementType>0</elementType>
 										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>50</StartDummyId>
-										<TargetDummyId>51</TargetDummyId>
-										<StartDummyId>50</StartDummyId>
-										<TargetDummyId>51</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>9</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>9</TargetDummyId>
 										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
 										<UseTargetDummyDirection>1</UseTargetDummyDirection>
 										<SpeedFactorF>0.200000</SpeedFactorF>
 									</i>
 									<i>
-										<StartDummy>walking_feedback_8</StartDummy>
-										<TargetDummy>walking_feedback_9</TargetDummy>
+										<StartDummy />
+										<TargetDummy>walking_4</TargetDummy>
 										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
 										<hasValue>1</hasValue>
 										<elementType>0</elementType>
 										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>51</StartDummyId>
-										<TargetDummyId>52</TargetDummyId>
-										<StartDummyId>51</StartDummyId>
-										<TargetDummyId>52</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>10</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>10</TargetDummyId>
 										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
 										<UseTargetDummyDirection>1</UseTargetDummyDirection>
 										<SpeedFactorF>0.200000</SpeedFactorF>
 									</i>
 									<i>
-										<StartDummy>walking_feedback_9</StartDummy>
-										<TargetDummy>walking_feedback_10</TargetDummy>
-										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
-										<hasValue>1</hasValue>
-										<elementType>0</elementType>
-										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>52</StartDummyId>
-										<TargetDummyId>54</TargetDummyId>
-										<StartDummyId>52</StartDummyId>
-										<TargetDummyId>54</TargetDummyId>
-										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
-										<UseTargetDummyDirection>1</UseTargetDummyDirection>
-										<SpeedFactorF>0.200000</SpeedFactorF>
-									</i>
-									<i>
-										<StartDummy>walking_feedback_10</StartDummy>
-										<TargetDummy>walking_feedback_11</TargetDummy>
-										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
-										<hasValue>1</hasValue>
-										<elementType>0</elementType>
-										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>54</StartDummyId>
-										<TargetDummyId>64</TargetDummyId>
-										<StartDummyId>54</StartDummyId>
-										<TargetDummyId>64</TargetDummyId>
-										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
-										<UseTargetDummyDirection>1</UseTargetDummyDirection>
-										<SpeedFactorF>0.200000</SpeedFactorF>
-									</i>
-									<i>
-										<TurnToDummy>taker_3</TurnToDummy>
-										<hasValue>1</hasValue>
-										<elementType>10</elementType>
-										<TurnSequence>-1</TurnSequence>
-										<TurnToDummyId>18</TurnToDummyId>
-										<TurnAngleF>0.000000</TurnAngleF>
-									</i>
-									<i>
-										<m_IdleSequenceID>1010</m_IdleSequenceID>
+										<m_IdleSequenceID>3003</m_IdleSequenceID>
 										<hasValue>1</hasValue>
 										<elementType>1</elementType>
 										<MinPlayCount>1</MinPlayCount>
@@ -757,46 +1134,46 @@
 										<ResetStartTime>0</ResetStartTime>
 									</i>
 									<i>
-										<StartDummy>walking_feedback_11</StartDummy>
-										<TargetDummy>walking_feedback_12</TargetDummy>
+										<StartDummy />
+										<TargetDummy>walking_3</TargetDummy>
 										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
 										<hasValue>1</hasValue>
 										<elementType>0</elementType>
 										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>64</StartDummyId>
-										<TargetDummyId>67</TargetDummyId>
-										<StartDummyId>64</StartDummyId>
-										<TargetDummyId>67</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>9</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>9</TargetDummyId>
 										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
 										<UseTargetDummyDirection>1</UseTargetDummyDirection>
 										<SpeedFactorF>0.200000</SpeedFactorF>
 									</i>
 									<i>
-										<StartDummy>walking_feedback_12</StartDummy>
-										<TargetDummy>walking_feedback_13</TargetDummy>
+										<StartDummy />
+										<TargetDummy>walking_5</TargetDummy>
 										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
 										<hasValue>1</hasValue>
 										<elementType>0</elementType>
 										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>67</StartDummyId>
-										<TargetDummyId>68</TargetDummyId>
-										<StartDummyId>67</StartDummyId>
-										<TargetDummyId>68</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>11</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>11</TargetDummyId>
 										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
 										<UseTargetDummyDirection>1</UseTargetDummyDirection>
 										<SpeedFactorF>0.200000</SpeedFactorF>
 									</i>
 									<i>
-										<StartDummy>walking_feedback_13</StartDummy>
-										<TargetDummy>walking_feedback_14</TargetDummy>
+										<StartDummy />
+										<TargetDummy>walking_6</TargetDummy>
 										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
 										<hasValue>1</hasValue>
 										<elementType>0</elementType>
 										<WalkSequence>2000</WalkSequence>
-										<StartDummyId>68</StartDummyId>
-										<TargetDummyId>69</TargetDummyId>
-										<StartDummyId>68</StartDummyId>
-										<TargetDummyId>69</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>12</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>12</TargetDummyId>
 										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
 										<UseTargetDummyDirection>1</UseTargetDummyDirection>
 										<SpeedFactorF>0.200000</SpeedFactorF>
@@ -809,48 +1186,185 @@
 										<TimeOffset>30</TimeOffset>
 									</i>
 									<i>
+										<TurnToDummy>walking_5</TurnToDummy>
 										<hasValue>1</hasValue>
-										<elementType>2</elementType>
-										<MinTime>10000</MinTime>
-										<MaxTime>60000</MaxTime>
+										<elementType>10</elementType>
+										<TurnSequence>1000</TurnSequence>
+										<TurnToDummyId>11</TurnToDummyId>
+										<TurnAngleF>0.000000</TurnAngleF>
 									</i>
-								</Elements>
-							</ElementContainer>
-						</Loop1>
-						<Loop2>
-							<hasValue>1</hasValue>
-							<DefaultState>
-								<SequenceID>1000</SequenceID>
-								<DummyName>walking_feedback_0</DummyName>
-								<StartDummyGroup />
-								<DummyId>43</DummyId>
-								<ForceSequenceRestart>0</ForceSequenceRestart>
-								<Visible>1</Visible>
-								<FadeVisibility>1</FadeVisibility>
-								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
-							</DefaultState>
-							<ElementContainer>
-								<Elements>
 									<i>
 										<m_IdleSequenceID>1000</m_IdleSequenceID>
 										<hasValue>1</hasValue>
 										<elementType>1</elementType>
 										<MinPlayCount>1</MinPlayCount>
-										<MinPlayTime>1000</MinPlayTime>
+										<MinPlayTime>5000</MinPlayTime>
 										<MaxPlayCount>0</MaxPlayCount>
-										<MaxPlayTime>3000</MaxPlayTime>
+										<MaxPlayTime>15000</MaxPlayTime>
 										<ResetStartTime>0</ResetStartTime>
-									</i>
-									<i>
-										<hasValue>1</hasValue>
-										<elementType>6</elementType>
-										<ShowObject>0</ShowObject>
-										<FadingMode>2</FadingMode>
-										<TimeOffset>30</TimeOffset>
 									</i>
 								</Elements>
 							</ElementContainer>
-						</Loop2>
+						</Loop1>
+					</i>
+				</SequenceDefinitions>
+			</i>
+			<i>
+				<BoneLink>NoLink</BoneLink>
+				<MultiplyActorByDummyCount />
+				<Description />
+				<hasValue>1</hasValue>
+				<MainObject>0</MainObject>
+				<IgnoreRootObjectXZRotation>1</IgnoreRootObjectXZRotation>
+				<IsAlwaysVisibleActor>0</IsAlwaysVisibleActor>
+				<ApplyScaleToMovementSpeed>1</ApplyScaleToMovementSpeed>
+				<ActorCount>1</ActorCount>
+				<MaxActorCount>1</MaxActorCount>
+				<CreateChance>100</CreateChance>
+				<RenderFlags>0</RenderFlags>
+				<IgnoreForceActorVariation>0</IgnoreForceActorVariation>
+				<IgnoreDistanceScale>0</IgnoreDistanceScale>
+				<AssetVariationList>
+					<GuidVariationList>CDATA[24 1000208 -1 1000207 -1 1000206 -1]</GuidVariationList>
+					<AssetGroupNames />
+				</AssetVariationList>
+				<FeedbackLoops>
+					<k>1</k>
+					<v>0</v>
+				</FeedbackLoops>
+				<SequenceDefinitions>
+					<i>
+						<hasValue>1</hasValue>
+						<Loop0>
+							<hasValue>1</hasValue>
+							<DefaultState>
+								<SequenceID>-1</SequenceID>
+								<DummyName />
+								<StartDummyGroup />
+								<DummyId>0</DummyId>
+								<ForceSequenceRestart>0</ForceSequenceRestart>
+								<Visible>1</Visible>
+								<FadeVisibility>1</FadeVisibility>
+								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
+							</DefaultState>
+							<ElementContainer>
+								<Elements>
+									<i>
+										<hasValue>1</hasValue>
+										<elementType>9</elementType>
+										<m_MinScaleFactor>0.500000</m_MinScaleFactor>
+										<m_MaxScaleFactor>0.500000</m_MaxScaleFactor>
+									</i>
+								</Elements>
+							</ElementContainer>
+						</Loop0>
+						<Loop1>
+							<hasValue>1</hasValue>
+							<DefaultState>
+								<SequenceID>1000</SequenceID>
+								<DummyName>broom_0</DummyName>
+								<StartDummyGroup />
+								<DummyId>21</DummyId>
+								<ForceSequenceRestart>0</ForceSequenceRestart>
+								<Visible>1</Visible>
+								<FadeVisibility>1</FadeVisibility>
+								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
+							</DefaultState>
+							<ElementContainer>
+								<Elements>
+									<i>
+										<StartDummy />
+										<TargetDummy>broom_1</TargetDummy>
+										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
+										<hasValue>1</hasValue>
+										<elementType>0</elementType>
+										<WalkSequence>2000</WalkSequence>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>22</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>22</TargetDummyId>
+										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
+										<UseTargetDummyDirection>0</UseTargetDummyDirection>
+										<SpeedFactorF>0.000000</SpeedFactorF>
+									</i>
+									<i>
+										<m_IdleSequenceID>3005</m_IdleSequenceID>
+										<hasValue>1</hasValue>
+										<elementType>1</elementType>
+										<MinPlayCount>1</MinPlayCount>
+										<MinPlayTime>0</MinPlayTime>
+										<MaxPlayCount>0</MaxPlayCount>
+										<MaxPlayTime>0</MaxPlayTime>
+										<ResetStartTime>0</ResetStartTime>
+									</i>
+									<i>
+										<StartDummy />
+										<TargetDummy>broom_2</TargetDummy>
+										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
+										<hasValue>1</hasValue>
+										<elementType>0</elementType>
+										<WalkSequence>2000</WalkSequence>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>23</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>23</TargetDummyId>
+										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
+										<UseTargetDummyDirection>0</UseTargetDummyDirection>
+										<SpeedFactorF>0.000000</SpeedFactorF>
+									</i>
+									<i>
+										<m_IdleSequenceID>3005</m_IdleSequenceID>
+										<hasValue>1</hasValue>
+										<elementType>1</elementType>
+										<MinPlayCount>1</MinPlayCount>
+										<MinPlayTime>0</MinPlayTime>
+										<MaxPlayCount>0</MaxPlayCount>
+										<MaxPlayTime>0</MaxPlayTime>
+										<ResetStartTime>0</ResetStartTime>
+									</i>
+									<i>
+										<StartDummy />
+										<TargetDummy>broom_3</TargetDummy>
+										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
+										<hasValue>1</hasValue>
+										<elementType>0</elementType>
+										<WalkSequence>2000</WalkSequence>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>24</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>24</TargetDummyId>
+										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
+										<UseTargetDummyDirection>1</UseTargetDummyDirection>
+										<SpeedFactorF>0.000000</SpeedFactorF>
+									</i>
+									<i>
+										<m_IdleSequenceID>1000</m_IdleSequenceID>
+										<hasValue>1</hasValue>
+										<elementType>1</elementType>
+										<MinPlayCount>1</MinPlayCount>
+										<MinPlayTime>0</MinPlayTime>
+										<MaxPlayCount>0</MaxPlayCount>
+										<MaxPlayTime>0</MaxPlayTime>
+										<ResetStartTime>0</ResetStartTime>
+									</i>
+									<i>
+										<StartDummy />
+										<TargetDummy>broom_0</TargetDummy>
+										<DummyGroup>CDATA[12 -1 -1 -1]</DummyGroup>
+										<hasValue>1</hasValue>
+										<elementType>0</elementType>
+										<WalkSequence>2000</WalkSequence>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>21</TargetDummyId>
+										<StartDummyId>0</StartDummyId>
+										<TargetDummyId>21</TargetDummyId>
+										<WalkFromCurrentPosition>1</WalkFromCurrentPosition>
+										<UseTargetDummyDirection>1</UseTargetDummyDirection>
+										<SpeedFactorF>0.000000</SpeedFactorF>
+									</i>
+								</Elements>
+							</ElementContainer>
+						</Loop1>
 					</i>
 				</SequenceDefinitions>
 			</i>
@@ -858,9 +1372,8 @@
 	</FeedbackDefinition>
 	<ActorNames>
 		<i>[Root Object]</i>
-		<i>inspect</i>
-		<i>talker</i>
-		<i>bird</i>
-		<i>walking_feedback</i>
+		<i>production_generic_worker_04 (-1)</i>
+		<i>production_generic_worker_01 (-1)</i>
+		<i>broom</i>
 		<hasValue>1</hasValue>
 	</ActorNames>
