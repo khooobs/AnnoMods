@@ -9,14 +9,6 @@
       <Text>The efforts of excavating the zone provides some extra stones, geodes and gravels that can be sieved for additionnal goods.</Text>
     </Text>
     <Text>
-      <GUID>2143505518</GUID>
-      <Text>Crusher: Blank</Text>
-    </Text>
-    <Text>
-      <GUID>2143505519</GUID>
-      <Text>Produce additionnal goods</Text>
-    </Text>
-    <Text>
       <GUID>2143505520</GUID>
       <Text>Crushing processes</Text>
     </Text>
@@ -29,19 +21,7 @@
       <Text>Crusher: Iron</Text>
     </Text>
     <Text>
-      <GUID>2143505522</GUID>
-      <Text>Crusher: Iron</Text>
-    </Text>
-    <Text>
-      <GUID>2143505523</GUID>
-      <Text>Please, be careful to not lean entirely above the crusher!</Text>
-    </Text>
-    <Text>
       <GUID>2143505525</GUID>
-      <Text>Crusher: Copper</Text>
-    </Text>
-    <Text>
-      <GUID>2143505526</GUID>
       <Text>Crusher: Copper</Text>
     </Text>
     <Text>
@@ -49,15 +29,7 @@
       <Text>Crusher: Zinc</Text>
     </Text>
     <Text>
-      <GUID>2143505528</GUID>
-      <Text>Crusher: Zinc</Text>
-    </Text>
-    <Text>
       <GUID>2143505529</GUID>
-      <Text>Crusher: Coal</Text>
-    </Text>
-    <Text>
-      <GUID>2143505530</GUID>
       <Text>Crusher: Coal</Text>
     </Text>
     <Text>
@@ -65,8 +37,48 @@
       <Text>Crusher: Gold</Text>
     </Text>
     <Text>
+      <GUID>2143505518</GUID>
+      <Text>Crusher</Text>
+    </Text>
+    <Text>
+      <GUID>2143505522</GUID>
+      <Text>Crusher: Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2143505530</GUID>
+      <Text>Crusher: Coal</Text>
+    </Text>
+    <Text>
+      <GUID>2143505526</GUID>
+      <Text>Crusher: Copper</Text>
+    </Text>
+    <Text>
+      <GUID>2143505528</GUID>
+      <Text>Crusher: Zinc</Text>
+    </Text>
+    <Text>
       <GUID>2143505532</GUID>
       <Text>Crusher: Gold</Text>
+    </Text>
+    <Text>
+      <GUID>2143505523</GUID>
+      <Text>The deafening din of smashing rock is nothing compared to the satisfaction of seeing these greyish blocks emerge. A little patience, a lot of heat, and there is enough to forge the future of your empire! Or at least, the tracks it runs on.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505552</GUID>
+      <Text>This machine doesn't do nuance. It crushes the hardest geodes to extract this precious black sediment. It might not be as sparkling as a diamond, but it’s still incredibly useful in your furnaces and factories.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505558</GUID>
+      <Text>Beneath its rough stone coating hides an incomparable reddish glow. Your workers will surely complain about the crusher's vibrations.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505560</GUID>
+      <Text>Smashing, breaking, crushing to pieces... When the debris reveals this metal, essential for brass production. Your rivals will see only rubble; you will see longevity.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505561</GUID>
+      <Text>Opening a geode is like opening a box of chocolates, with the added risk of getting your fingers caught in a gear. But what a divine surprise when the rock splits to reveal veins of the purest metal! Enough to make your investors' eyes shine...</Text>
     </Text>
   </ModOp>
 </ModOps>
