@@ -117,6 +117,9 @@
   </ModOp>
   <!-- END BUILDING - New World Palace Ministry -->
 
+  <!-- Compatibility with "Infinite Local Departments" -->
+  <ModOp Condition="#UnlimitedlocalDepartments" Type="remove" GUID='2143505018' Path="/Values/BuildingUnique" />
+
   <!-- START ADD TO BUILDING MENU CONSTRUCTIONCATEGORY - Obrero (sa construction menu 2 (tier)) (25000193) -->
   <ModOp GUID='25000194' Type="addNextSibling" Path="/Values/ConstructionCategory/BuildingList/Item[Building='101285']">
     <Item>
