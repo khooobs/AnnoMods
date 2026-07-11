@@ -11,9 +11,6 @@
         <AssetPool>
           <AssetList>
             <Item>
-              <Asset>2143505801</Asset>
-            </Item>
-            <Item>
               <Asset>2143505803</Asset>
             </Item>
             <Item>
@@ -207,8 +204,8 @@
               <InactiveAmount>500</InactiveAmount>
             </Item>
             <Item>
-              <Product>1010117</Product>
-              <Amount>50</Amount>
+              <Product>1010115</Product>
+              <Amount>75</Amount>
             </Item>
           </Maintenances>
         </Maintenance>
@@ -244,14 +241,14 @@
   </ModOp>
   <!-- END - Brickworks -->
 
-  <!-- START - Brick Kilns Module -->
+  <!-- START - Brickworks Module -->
   <ModOp Type="addNextSibling" GUID="1010283">
     <Asset>
       <Template>IndustrialCompanyModule</Template>
       <Values>
         <Standard>
           <GUID>2143505805</GUID>
-          <Name>Brick Kilns</Name>
+          <Name>Brickworks Modules</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
           <InfoDescription>2143505806</InfoDescription>
         </Standard>
@@ -360,7 +357,7 @@
             </Item>
             <Item>
               <Product>1010115</Product>
-              <Amount>25</Amount>
+              <Amount>50</Amount>
             </Item>
           </Maintenances>
         </Maintenance>
@@ -413,7 +410,6 @@
             </Item>
             <Item>
               <Ingredient>1010202</Ingredient>
-              <Amount>4</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -451,7 +447,6 @@
           <AttackableType>IslandBuilding</AttackableType>
           <HasRuinState>1</HasRuinState>
         </Attackable>
-        <Maintenance />
         <AmbientMoodProvider />
         <LogisticNode>
           <TransporterCountMax>2</TransporterCountMax>
@@ -618,42 +613,6 @@
         <Standard>
           <GUID>2143505813</GUID>
           <Name>Company Deprecated Description</Name>
-        </Standard>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505815</GUID>
-          <Name>Industry Expansion Adobe GuildhouseItem</Name>
-        </Standard>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505817</GUID>
-          <Name>Industry Expansion Adobe GuildhouseBuff</Name>
-        </Standard>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505819</GUID>
-          <Name>Excavation Quartz Sand GuildhouseItem</Name>
-        </Standard>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505821</GUID>
-          <Name>Excavation Quartz Sand GuildhouseBuff</Name>
         </Standard>
       </Values>
     </Asset>
