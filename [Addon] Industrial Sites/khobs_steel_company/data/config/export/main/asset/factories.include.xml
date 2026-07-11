@@ -123,18 +123,93 @@
           <FactoryOutputs>
             <Item>
               <Product>2143505557</Product>
-              <Amount>2</Amount>
-              <StorageAmount>100</StorageAmount>
+              <Amount>3</Amount>
+              <StorageAmount>200</StorageAmount>
             </Item>
           </FactoryOutputs>
-          <CycleTime>30</CycleTime>
+          <CycleTime>120</CycleTime>
           <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
         <LogisticNode>
-          <TransporterCountMax>1</TransporterCountMax>
+          <TransporterCountMax>2</TransporterCountMax>
           <TransporterAsset>120028</TransporterAsset>
-          <PathLayers>Street</PathLayers>
         </LogisticNode>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505506</ProductivityBuff>
+              <ProductivityThresholdUp>1.51</ProductivityThresholdUp>
+              <ProductivityThresholdDown>0.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505511</ProductivityBuff>
+              <ProductivityThresholdUp>2.51</ProductivityThresholdUp>
+              <ProductivityThresholdDown>1.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505512</ProductivityBuff>
+              <ProductivityThresholdUp>3.51</ProductivityThresholdUp>
+              <ProductivityThresholdDown>2.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505514</ProductivityBuff>
+              <ProductivityThresholdUp>4.51</ProductivityThresholdUp>
+              <ProductivityThresholdDown>3.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505411</ProductivityBuff>
+              <ProductivityThresholdUp>5.51</ProductivityThresholdUp>
+              <ProductivityThresholdDown>4.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505423</ProductivityBuff>
+              <ProductivityThresholdUp>6.51</ProductivityThresholdUp>
+              <ProductivityThresholdDown>5.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505424</ProductivityBuff>
+              <ProductivityThresholdUp>7.51</ProductivityThresholdUp>
+              <ProductivityThresholdDown>6.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505425</ProductivityBuff>
+              <ProductivityThresholdUp>8.51</ProductivityThresholdUp>
+              <ProductivityThresholdDown>7.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505426</ProductivityBuff>
+              <ProductivityThresholdUp>9.51</ProductivityThresholdUp>
+              <ProductivityThresholdDown>8.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505427</ProductivityBuff>
+              <ProductivityThresholdUp>10.51</ProductivityThresholdUp>
+              <ProductivityThresholdDown>9.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505428</ProductivityBuff>
+              <ProductivityThresholdUp>11.51</ProductivityThresholdUp>
+              <ProductivityThresholdDown>10.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505429</ProductivityBuff>
+              <ProductivityThresholdUp>12.51</ProductivityThresholdUp>
+              <ProductivityThresholdDown>11.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505430</ProductivityBuff>
+              <ProductivityThresholdUp>13.51</ProductivityThresholdUp>
+              <ProductivityThresholdDown>12.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505431</ProductivityBuff>
+              <ProductivityThresholdUp>14.3</ProductivityThresholdUp>
+              <ProductivityThresholdDown>13.9</ProductivityThresholdDown>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>20</ProductionBuffDistance>
+        </BuffFactory>
         <AmbientMoodProvider>
           <AmbientMood>IndustryHeavy</AmbientMood>
           <Murmur>Factory</Murmur>
@@ -207,7 +282,7 @@
         <ModuleOwner>
 					<ModuleLimits>
 					  <Main>
-					    <Limit>6</Limit>
+					    <Limit>3</Limit>
 					  </Main>
             <FertilizerModule>
               <Limit>1</Limit>

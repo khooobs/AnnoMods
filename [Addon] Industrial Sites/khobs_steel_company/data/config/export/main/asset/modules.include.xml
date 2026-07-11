@@ -67,6 +67,10 @@
             </Item>
           </ProductionBuffs>
         </BuffFactory>
+        <LogisticNode>
+          <TransporterCountMax>2</TransporterCountMax>
+          <TransporterAsset>120028</TransporterAsset>
+        </LogisticNode>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -81,7 +85,7 @@
             </Item>
           </FactoryInputs>
 		      <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
-          <CycleTime>10</CycleTime>
+          <CycleTime>120</CycleTime>
         </FactoryBase>
         <Maintenance>
           <Maintenances>
