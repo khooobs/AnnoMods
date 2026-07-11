@@ -320,16 +320,16 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/brick_kiln_corner02.cfg</Filename>
+              <Filename>data/modgraphics/buildings/modules/brick_corner_02.cfg</Filename>
             </Item>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/brick_kiln_mid.cfg</Filename>
+              <Filename>data/modgraphics/buildings/modules/brick_mid_01.cfg</Filename>
             </Item>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/brick_kiln_corner01.cfg</Filename>
+              <Filename>data/modgraphics/buildings/modules/brick_corner_01.cfg</Filename>
             </Item>
             <Item>
-              <Filename>data/modgraphics/buildings/modules/brick_kiln_mid.cfg</Filename>
+              <Filename>data/modgraphics/buildings/modules/brick_single.cfg</Filename>
             </Item>
           </Variations>
         </Object>
