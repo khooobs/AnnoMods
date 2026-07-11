@@ -229,4 +229,78 @@
     </Asset>
   </ModOp>
   <!-- END - Blast Furnace -->
+  
+  <!-- # Docklands: Qinsa Mining -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='2143505557']">
+    <ModOp Type="addNextSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131815']/TradeLevels/Item/Trades/Item[Good='1010228']">
+      <Item>
+        <Level>Common</Level>
+        <Good>2143505557</Good>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="131764"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='2143505557']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505563</GUID>
+            <Name>IsMainFactory_Fake: Pig Iron</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\public\logistic_01\logistic_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>1010227</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+              <Item>
+                <Product>1010226</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>2143505557</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>90</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010115</Product>
+                <Amount>330</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <ModOp Type="add" GUID="502236"
+    Condition="!/Values/ProductList/List/Item[Product='2143505557']"
+    Path="/Values/ProductList/List">
+    <Item>
+      <Product>2143505557</Product>
+    </Item>
+  </ModOp>
 </ModOps>
