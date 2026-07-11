@@ -1,5 +1,6 @@
 <ModOps>
   <!-- START - Steel Company -->
+  <!-- @Deprecated, overhaul planned -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
       <Template>IndustrialCompanyWithItems</Template>
@@ -39,9 +40,9 @@
         </Cost>
         <Object>
           <Variations>
-            <Item>
+            <!-- <Item>
               <Filename>data/modgraphics/buildings/special/steel_company/steel_company.cfg</Filename>
-            </Item>
+            </Item> -->
           </Variations>
         </Object>
         <Culture>
