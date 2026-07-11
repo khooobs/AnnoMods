@@ -37,4 +37,11 @@
     </Asset>
   </ModOp>
   <!-- END - Asset Pool -->
+
+  <!-- Adding buildings to item effect pool -->
+  <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='1010297']">
+    <Item>
+      <GUID>2143505507</GUID>
+    </Item>
+  </ModOp>
 </ModOps>
