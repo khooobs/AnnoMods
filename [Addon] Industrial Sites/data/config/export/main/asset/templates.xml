@@ -631,6 +631,7 @@
 					<IsAgriculture>1</IsAgriculture>
 				</Factory7>
 				<FactoryBase />
+				<BuffFactory />
 				<LogisticNode />
 				<AmbientMoodProvider>
 					<DynamicEnvironmentType>Building_Industry</DynamicEnvironmentType>

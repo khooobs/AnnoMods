@@ -121,7 +121,7 @@
   <!-- START - Brickworks -->
   <ModOp Type="addNextSibling" GUID="1010283">
     <Asset>
-      <Template>IndustrialCompanyFactory</Template>
+      <Template>FactoryBuilding7</Template>
       <Values>
         <Standard>
           <GUID>2143505803</GUID>
@@ -182,7 +182,46 @@
           <CycleTime>60</CycleTime>
           <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
-        <BuffFactory/>
+        <LogisticNode>
+          <TransporterCountMax>2</TransporterCountMax>
+          <TransporterAsset>120028</TransporterAsset>
+        </LogisticNode>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505814</ProductivityBuff>
+              <ProductivityThresholdUp>2.0</ProductivityThresholdUp>
+              <ProductivityThresholdDown>0.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505815</ProductivityBuff>
+              <ProductivityThresholdUp>3.0</ProductivityThresholdUp>
+              <ProductivityThresholdDown>1.9</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505816</ProductivityBuff>
+              <ProductivityThresholdUp>4.0</ProductivityThresholdUp>
+              <ProductivityThresholdDown>2.99</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505817</ProductivityBuff>
+              <ProductivityThresholdUp>5.0</ProductivityThresholdUp>
+              <ProductivityThresholdDown>3.99</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505818</ProductivityBuff>
+              <ProductivityThresholdUp>6.0</ProductivityThresholdUp>
+              <ProductivityThresholdDown>4.99</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>2143505819</ProductivityBuff>
+              <ProductivityThresholdUp>6.99</ProductivityThresholdUp>
+              <ProductivityThresholdDown>5.99</ProductivityThresholdDown>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>20</ProductionBuffDistance>
+        </BuffFactory>
         <Maintenance>
           <Maintenances>
             <Item>
@@ -213,14 +252,15 @@
           <FertilizerModuleData>
             <Module>2143505807</Module>
           </FertilizerModuleData>
-					<ModuleBuildRadius>100</ModuleBuildRadius>
+					<ModuleBuildRadius>20</ModuleBuildRadius>
 					<ModulesRequiredForFullProductivity>1</ModulesRequiredForFullProductivity>
         </ModuleOwner>
-        <Ornament>
-          <OrnamentDescription>2143505804</OrnamentDescription>
-        </Ornament>
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+          <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+        </Electrifiable>
         <Industrializable>
-          <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
         </Industrializable>
       </Values>
     </Asset>
@@ -413,10 +453,10 @@
             <Item>
               <Product>1010201</Product><!--clay-->
               <Amount>1</Amount>
-              <StorageAmount>4</StorageAmount>
+              <StorageAmount>12</StorageAmount>
             </Item>
           </FactoryInputs>
-          <CycleTime>15</CycleTime>
+          <CycleTime>60</CycleTime>
           <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
           <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
         </FactoryBase>
@@ -436,7 +476,10 @@
         </Attackable>
         <Maintenance />
         <AmbientMoodProvider />
-        <LogisticNode />
+        <LogisticNode>
+          <TransporterCountMax>2</TransporterCountMax>
+          <TransporterAsset>120028</TransporterAsset>
+        </LogisticNode>
         <Constructable />
         <Locked />
         <IncidentInfectable />
@@ -459,6 +502,19 @@
             </Item>
           </DestroySounds>
         </SoundEmitter>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>500</Amount>
+              <InactiveAmount>250</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>25</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
         <BuildingModule>
           <ModuleType>AdditionalModule</ModuleType>
         </BuildingModule>
@@ -699,6 +755,229 @@
               <Amount>-1</Amount>
             </Item>
           </InputAmountUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505814</GUID>
+          <Name>Logistic Depot - @200 - Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505807</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505815</GUID>
+          <Name>Logistic Depot - @300 - ProdBuff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505807</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>200</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505816</GUID>
+          <Name>Logistic Depot - @400 - ProdBuff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505807</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>300</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505817</GUID>
+          <Name>Logistic Depot - @500 - ProdBuff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505807</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>400</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505818</GUID>
+          <Name>Logistic Depot - @600 - ProdBuff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505807</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>500</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade/>
+        <Buff/>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505819</GUID>
+          <Name>Logistic Depot - @700 - ProdBuff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_logistic_depot.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2143505807</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>600</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
         </FactoryUpgrade>
         <BuildingUpgrade/>
         <Buff/>
