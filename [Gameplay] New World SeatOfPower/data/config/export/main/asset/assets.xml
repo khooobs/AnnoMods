@@ -54,7 +54,7 @@ DEPARTMENT OF ADMINISTRATION
 2143505112 - New World Ministry of City Affairs Paragon24 - TownhallBuff
 2143505113 - New World Ministry of City Affairs Paragon25 - TownhallBuff
 
-2143505114 - Base Buff 
+2143505114 - Base Buff
 2143505115 - Ministry of City Affairs Paragon01 Container - EffectContainer
 2143505116 - Ministry of City Affairs Paragon02 Container - EffectContainer
 2143505117 - Ministry of City Affairs Paragon03 Container - EffectContainer
@@ -110,25 +110,25 @@ DEPARTMENT OF LABOUR
 2143505048 - Skilled Labour Act - ForwardBuff
 2143505049 - Skilled Labour Act - EffectContainer
 2143505050 - Skilled Labour Act - InfoTip
-2143505051 - Skilled Labour Act Coal - GuildhouseBuff 
-2143505052 - Skilled Labour Act Helium - GuildhouseBuff 
-2143505053 - Skilled Labour Act Aluminium - GuildhouseBuff 
-2143505054 - Skilled Labour Act Oil - GuildhouseBuff 
-2143505055 - Skilled Labour Act Chewing Gum - GuildhouseBuff 
-2143505056 - Skilled Labour Act Ethanol - GuildhouseBuff 
-2143505057 - Skilled Labour Act Celluloid - GuildhouseBuff 
-2143505058 - Skilled Labour Act Film Reels - GuildhouseBuff 
-2143505059 - Skilled Labour Act Motor - GuildhouseBuff 
-2143505060 - Skilled Labour Act Fan - GuildhouseBuff 
-2143505061 - Skilled Labour Act Scooter - GuildhouseBuff 
-2143505062 - Skilled Labour Act Furnace - GuildhouseBuff 
+2143505051 - Skilled Labour Act Coal - GuildhouseBuff
+2143505052 - Skilled Labour Act Helium - GuildhouseBuff
+2143505053 - Skilled Labour Act Aluminium - GuildhouseBuff
+2143505054 - Skilled Labour Act Oil - GuildhouseBuff
+2143505055 - Skilled Labour Act Chewing Gum - GuildhouseBuff
+2143505056 - Skilled Labour Act Ethanol - GuildhouseBuff
+2143505057 - Skilled Labour Act Celluloid - GuildhouseBuff
+2143505058 - Skilled Labour Act Film Reels - GuildhouseBuff
+2143505059 - Skilled Labour Act Motor - GuildhouseBuff
+2143505060 - Skilled Labour Act Fan - GuildhouseBuff
+2143505061 - Skilled Labour Act Scooter - GuildhouseBuff
+2143505062 - Skilled Labour Act Furnace - GuildhouseBuff
 
 2143505063 - Skilled Labour Act Steelworks - GuildhouseBuff - Jakob's New World Cities Support
 
-2143505064 - Galvanic Grants Act - ForwardBuff 
+2143505064 - Galvanic Grants Act - ForwardBuff
 2143505065 - Galvanic Grants Act - GuildhouseBuff
 
-2143505066 - Factory Inspection Act - ForwardBuff 
+2143505066 - Factory Inspection Act - ForwardBuff
 2143505067 - Factory Inspection Act - GuildhouseBuff
 
 2143505068 - Union Subsidies Act - GuildhouseBuff
@@ -153,15 +153,15 @@ DEPARTMENT OF WELFARE
 2143505080 - Late Licence Act - ForwardBuff
 2143505081-  Late Licence Act - EffectContainer
 2143505082 - Late Licence Act - InfoTip
-2143505083 - Late Licence Act - TownhallBuff01 
-2143505084-  Late Licence Act - TownhallBuff02 
-2143505085 - Late Licence Act - TownhallBuff03 
-2143505086 - Late Licence Act - TownhallBuff04 
-2143505087 - Late Licence Act - TownhallBuff05 
+2143505083 - Late Licence Act - TownhallBuff01
+2143505084-  Late Licence Act - TownhallBuff02
+2143505085 - Late Licence Act - TownhallBuff03
+2143505086 - Late Licence Act - TownhallBuff04
+2143505087 - Late Licence Act - TownhallBuff05
 
 MONUMENT EVENT CATEGORY
 #######################
-2143505146 - Assembly Debate - MonumentEventCategory 
+2143505146 - Assembly Debate - MonumentEventCategory
 2143505195 - Nominate officials - MonumentEventCategory
 
 MONUMENT EVENT
@@ -228,7 +228,7 @@ TEXT ASSETS
 2143505211 - Departments - Productivity - RewardText - Text
 2143505212 - Departments - Productivity - PotentialEventReward - Text
 2143505214 - Departments - Productivity - Agriculture - Text
-2143505217 - Departments - Productivity - Industry - Text 
+2143505217 - Departments - Productivity - Industry - Text
 2143505220 - Departments - Productivity - Craftsmanship - Text
 2143505226 - Departments - Welfare - ShortSizeName
 2143505227 - Departments - Welfare - RunningText - Text
