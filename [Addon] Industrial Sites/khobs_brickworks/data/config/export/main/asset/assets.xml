@@ -33,6 +33,7 @@
   <!-- END - Brickworks Asset Pool -->
 
   <!-- START - Brick Company -->
+  <!-- @Deprecated, overhaul planned -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
       <Template>IndustrialCompanyWithItems</Template>
@@ -40,7 +41,7 @@
         <Standard>
           <GUID>2143505801</GUID>
           <Name>Brick Company</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_brick_company.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/icons/icon_construction_time.png</IconFilename>
         </Standard>
         <Cost>
           <Costs>
@@ -71,13 +72,13 @@
         </Cost>
         <Object>
           <Variations>
-            <Item>
+            <!-- <Item>
               <Filename>data/modgraphics/buildings/special/brick_company.cfg</Filename>
-            </Item>
+            </Item> -->
           </Variations>
         </Object>
         <Selection>
-          <GUIType>Guildhouse</GUIType>
+          <GUIType>Generic</GUIType>
           <OnSelection>
             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
             <Values>
@@ -85,34 +86,10 @@
             </Values>
           </OnSelection>
         </Selection>
-        <ItemContainer>
-          <SocketScopeRadius>25</SocketScopeRadius>
-          <InitSocketItems>
-            <Item>
-              <Item>2143505814</Item>
-            </Item>
-            <Item>
-              <Item>2143505818</Item>
-            </Item>
-            <!-- <Item>
-              <Item></Item>
-            </Item> -->
-          </InitSocketItems>
-        </ItemContainer>
-        <Maintenance>
-          <Maintenances>
-            <Item>
-              <Product>1010017</Product>
-              <Amount>1000</Amount>
-              <InactiveAmount>500</InactiveAmount>
-            </Item>
-            <Item>
-              <Product>1010117</Product>
-              <Amount>75</Amount>
-            </Item>
-          </Maintenances>
-          <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
-        </Maintenance>
+        <Maintenance/>
+        <Ornament>
+          <OrnamentDescription>2143505813</OrnamentDescription>
+        </Ornament>
       </Values>
     </Asset>
   </ModOp>
@@ -534,7 +511,7 @@
           <GUID>2143505812</GUID>
           <Name>Large Clay Pit</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_clay.png</IconFilename>
-          <InfoDescription>2143505813</InfoDescription>
+          <InfoDescription>11143</InfoDescription>
         </Standard>
         <Cost>
           <Costs>
@@ -640,7 +617,7 @@
       <Values>
         <Standard>
           <GUID>2143505813</GUID>
-          <Name>Clay Pit Description</Name>
+          <Name>Company Deprecated Description</Name>
         </Standard>
       </Values>
     </Asset>

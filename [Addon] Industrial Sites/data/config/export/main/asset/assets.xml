@@ -102,9 +102,6 @@
   <Group Condition="#khobs_brickworks">
     <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
       <Item>
-        <Building>2143505801</Building>
-      </Item>
-      <Item>
         <Building>2143505803</Building>
       </Item>
       <Item>
