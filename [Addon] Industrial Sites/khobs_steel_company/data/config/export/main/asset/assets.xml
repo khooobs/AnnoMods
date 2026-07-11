@@ -68,4 +68,21 @@
     </Asset>
   </ModOp>
   <!-- END - Texts -->
+
+  <ModOp Type="addNextSibling" GUID="1010372">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505584</GUID>
+          <Name>Industrial Sites - Industry w Train</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_industry_menu_3.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList />
+          <CategoryDescription>2143505402</CategoryDescription>
+        </ConstructionCategory>
+      </Values>
+    </Asset>
+  </ModOp>
 </ModOps>
