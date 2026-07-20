@@ -39,7 +39,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/special/textile_company/textile_company.cfg</Filename>
+              <!-- <Filename>data/modgraphics/buildings/special/textile_company/textile_company.cfg</Filename> -->
             </Item>
           </Variations>
         </Object>
@@ -54,17 +54,7 @@
 				</Selection>
         <ItemContainer>
           <SocketScopeRadius>25</SocketScopeRadius>
-          <InitSocketItems>
-            <Item>
-              <Item>2143505651</Item>
-            </Item>
-            <Item>
-              <Item>2143505657</Item>
-            </Item>
-            <!-- <Item>
-              <Item>2143505654</Item>
-            </Item> -->
-          </InitSocketItems>
+          <InitSocketItems/>
         </ItemContainer>
         <Maintenance>
           <Maintenances>
@@ -3519,200 +3509,8 @@
   </Group>
   <!-- END - Weaving Industry -->
 
-  <!-- START - Textile Company Slotables Items -->
-  <ModOp Type="addNextSibling" GUID="125072">
-    <Asset>
-      <Template>GuildhouseItem</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505651</GUID>
-          <Name>Industry Expansion: Fabric</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_product.png</IconFilename>
-          <InfoDescription>2143505652</InfoDescription>
-        </Standard>
-        <Item>
-          <Allocation>None</Allocation>
-          <Rarity>Legendary</Rarity>
-          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
-          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
-          <MaxStackSize>1</MaxStackSize>
-          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
-          <HasAction>1</HasAction> <!-- enable ItemAction -->
-          <OnlyEquippableOnce>1</OnlyEquippableOnce>
-        </Item>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505650</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <ItemWithUI>
-          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
-        </ItemWithUI>
-        <ItemAction>
-          <ActiveBuff>2143505653</ActiveBuff>
-          <ActionScope>SelfRadius</ActionScope>
-          <CanEndItemAction>1</CanEndItemAction>
-          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
-        </ItemAction>
-        <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
-        <Buff />
-        <CraftableItem />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseItem</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505657</GUID>
-          <Name>Team Change</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_worker.png</IconFilename>
-          <InfoDescription>2143505658</InfoDescription>
-        </Standard>
-        <Item>
-          <Allocation>None</Allocation>
-          <Rarity>Legendary</Rarity>
-          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
-          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
-          <MaxStackSize>1</MaxStackSize>
-          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
-          <HasAction>1</HasAction> <!-- enable ItemAction -->
-          <OnlyEquippableOnce>1</OnlyEquippableOnce>
-        </Item>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505618</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505644</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <ItemWithUI>
-          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
-        </ItemWithUI>
-        <ItemAction>
-          <ActiveBuff>2143505659</ActiveBuff>
-          <ActionScope>SelfRadius</ActionScope>
-          <CanEndItemAction>1</CanEndItemAction>
-          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
-        </ItemAction>
-        <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
-        <Buff />
-        <CraftableItem />
-      </Values>
-    </Asset>
-  </ModOp>
-  <!-- END - Textile Company Slotables Items -->
-
   <!-- START - Buffs -->
   <ModOp GUID="191114" Type="addNextSibling">
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505653</GUID>
-          <Name>Industry Expansion: Fabric - Buff</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_product.png</IconFilename>
-        </Standard>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505650</GUID>
-            </Item>
-          </EffectTargets>
-          <AllowStacking>0</AllowStacking>
-        </ItemEffect>
-        <FactoryUpgrade>
-          <ReplaceInputs>
-            <Item>
-              <OldInput>1010197</OldInput>
-              <NewInput>1500020000</NewInput>
-            </Item>
-            <Item>
-              <OldInput>1010240</OldInput>
-              <NewInput>1500020000</NewInput>
-            </Item>
-            <Item>
-              <OldInput>120044</OldInput>
-              <NewInput>1500020000</NewInput>
-            </Item>
-            <Item>
-              <OldInput>114391</OldInput>
-              <NewInput>1500020000</NewInput>
-            </Item>
-          </ReplaceInputs>
-        </FactoryUpgrade>
-        <BuildingUpgrade>          
-          <MaintenanceUpgrade>
-            <Value>120</Value>
-            <Percental>1</Percental>
-          </MaintenanceUpgrade>
-          <WorkforceAmountUpgrade>
-            <Value>20</Value>
-            <Percental>1</Percental>
-          </WorkforceAmountUpgrade>
-        </BuildingUpgrade>
-        <Buff />
-        <CultureUpgrade />
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505659</GUID>
-          <Name>Team Change</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_worker.png</IconFilename>
-        </Standard>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>2143505618</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505644</GUID>
-            </Item>
-          </EffectTargets>
-          <AllowStacking>0</AllowStacking>
-        </ItemEffect>
-        <FactoryUpgrade />
-        <BuildingUpgrade>
-          <ReplacingWorkforce>1010115</ReplacingWorkforce>
-          <MaintenanceUpgrade>
-            <Value>100</Value>
-            <Percental>1</Percental>
-          </MaintenanceUpgrade>
-        </BuildingUpgrade>
-        <Buff />
-        <CultureUpgrade />
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
-      </Values>
-    </Asset>
-
     <Asset>
       <Template>GuildhouseBuff</Template>
       <Values>

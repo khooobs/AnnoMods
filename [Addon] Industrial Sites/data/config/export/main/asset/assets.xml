@@ -85,9 +85,9 @@
   <!-- START - Textile Company - Add to category -->
   <Group Condition="#khobs_textile_company">
     <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
-      <Item>
+      <!-- <Item>
         <Building>2143505593</Building>
-      </Item>
+      </Item> -->
       <Item>
         <Building>2143505600</Building>
       </Item>
