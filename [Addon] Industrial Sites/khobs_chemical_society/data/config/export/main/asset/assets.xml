@@ -101,9 +101,9 @@
         </Standard>
         <ConstructionCategory>
           <BuildingList>
-            <Item>
+            <!-- <Item>
               <Building>2143505692</Building>
-            </Item>
+            </Item> -->
             <!-- <Item>
               <Building>2143505700</Building>
             </Item> -->
