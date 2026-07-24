@@ -386,13 +386,14 @@
           </Industrializable>
         </Values>
       </Asset>
+      <!-- Deprecated, set to ruins to existing saves -->
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>OrnamentalBuilding</Template>
         <Values>
           <Standard>
             <GUID>2143505603</GUID>
-            <Name>Spinning_Mill_3t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_felt.png</IconFilename>
+            <Name>Deprecated_Spinning_Mill_3t</Name>
+			      <IconFilename>data/ui/2kimages/main/3dicons/icon_ruin_settlement.png</IconFilename>
           </Standard>
           <Cost>
             <Costs>
@@ -424,13 +425,13 @@
           <Object>
             <Variations>
               <Item>
-                <Filename>data/modgraphics/buildings/production/spinning_mill/spinning_mill.cfg</Filename>
+                <Filename>data/modgraphics/buildings/special/ruins/spinning_ruins.cfg</Filename>
               </Item>
             </Variations>
           </Object>
           <Mesh />
           <Selection>
-            <GUIType>Production</GUIType>
+            <GUIType>Generic</GUIType>
             <OnSelection>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
@@ -442,57 +443,16 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <FactoryBase>
-            <FactoryInputs>
-              <Item>
-                <Product>2143505655</Product>
-                <Amount>1</Amount>
-                <StorageAmount>6</StorageAmount>
-              </Item>
-            </FactoryInputs>
-            <FactoryOutputs>
-              <Item>
-                <Product>1500020000</Product>
-                <Amount>3</Amount>
-                <StorageAmount>12</StorageAmount>
-              </Item>
-            </FactoryOutputs>
-            <CycleTime>30</CycleTime>
-            <IsMainFactory>0</IsMainFactory>
-          </FactoryBase>
           <LogisticNode />
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>1000</Amount>
-                <InactiveAmount>500</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010116</Product>
-                <Amount>50</Amount>
-              </Item>
-            </Maintenances>
-          </Maintenance>
-          <RecipeBuilding>
-            <RecipeList>2143505606</RecipeList>
-            <RecipeBuildingType>Multifactory</RecipeBuildingType>
-            <IsBlank>0</IsBlank>
-          </RecipeBuilding>
-          <ModuleOwner>
-            <ModuleBuildRadius>100</ModuleBuildRadius>
-            <ConstructionOptions>
-              <Item>
-                <ModuleGUID>2143505619</ModuleGUID>
-              </Item>
-            </ConstructionOptions>
-            <FertilizerModuleData>
-              <Module>2143505624</Module>
-            </FertilizerModuleData>
-          </ModuleOwner>
-          <Industrializable>
-            <BoostedByIndustrialization>1</BoostedByIndustrialization>
-          </Industrializable>
+          <Maintenance/>
+          <Ornament>
+            <OrnamentDescription>2143505612</OrnamentDescription>
+          </Ornament>
+          <Culture>
+            <Attractiveness>-5</Attractiveness>
+            <CultureType>Ruins</CultureType>
+            <HasPollution>1</HasPollution>
+          </Culture>
         </Values>
       </Asset>
       <Asset>
@@ -738,9 +698,6 @@
                 <Recipe>2143505610</Recipe>
               </Item>
               <Item>
-                <Recipe>2143505612</Recipe>
-              </Item>
-              <Item>
                 <Recipe>2143505614</Recipe>
               </Item>
               <Item>
@@ -789,39 +746,6 @@
                 <PosX>375</PosX>
                 <PosY>50</PosY>
                 <UICirclePointer>West</UICirclePointer>
-              </Item>
-            </RecipeIngredientUIData>
-            <RecipeUnlockConditionText>135017</RecipeUnlockConditionText>
-          </Recipe>
-          <Locked />
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>Recipe</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505612</GUID>
-            <Name>Recipe_Spinning_Mills_3t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_felt.png</IconFilename>
-          </Standard>
-          <Recipe>
-            <RecipeBuilding>2143505603</RecipeBuilding>
-            <RecipeImage>data/ui/2kimages/main/3dicons/icon_cloth.png</RecipeImage>
-            <RecipeIngredientUIData>
-              <Item>
-                <PosX>10</PosX>
-                <PosY>15</PosY>
-                <UICirclePointer>SouthEast</UICirclePointer>
-              </Item>
-              <Item>
-                <PosX>375</PosX>
-                <PosY>50</PosY>
-                <UICirclePointer>West</UICirclePointer>
-              </Item>
-              <Item>
-                <PosX>375</PosX>
-                <PosY>350</PosY>
-                <UICirclePointer>NorthWest</UICirclePointer>
               </Item>
             </RecipeIngredientUIData>
             <RecipeUnlockConditionText>135017</RecipeUnlockConditionText>
@@ -1563,9 +1487,6 @@
               </Item>
               <Item>
                 <GUID>2143505602</GUID>
-              </Item>
-              <Item>
-                <GUID>2143505603</GUID>
               </Item>
               <Item>
                 <GUID>2143505604</GUID>
