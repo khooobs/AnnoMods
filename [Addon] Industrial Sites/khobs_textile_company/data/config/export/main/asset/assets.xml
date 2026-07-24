@@ -1585,14 +1585,14 @@
           <Standard>
             <GUID>2143505621</GUID>
             <Name>FakeInputSpinningWoolResource</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_textile_logistic_depot.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
             <DeltaOnly>1</DeltaOnly>
             <IsAbstract>1</IsAbstract>
             <AssociatedRegion>Moderate</AssociatedRegion>
-            <HideInUI>1</HideInUI>
+            <HideInUI>0</HideInUI>
           </Product>
           <ExpeditionAttribute/>
         </Values>
@@ -2129,19 +2129,19 @@
           <FactoryBase>
             <FactoryInputs>
               <Item>
-                <Product>2143505637</Product>
-                <Amount>1</Amount>
-                <StorageAmount>6</StorageAmount>
+                <Product>1010197</Product>
+                <Amount>2</Amount>
+                <StorageAmount>10</StorageAmount>
               </Item>
             </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>1010237</Product>
-                <Amount>1</Amount>
+                <Amount>2</Amount>
                 <StorageAmount>10</StorageAmount>
               </Item>
             </FactoryOutputs>
-            <CycleTime>30</CycleTime>
+            <CycleTime>25</CycleTime>
             <IsMainFactory>0</IsMainFactory>
           </FactoryBase>
           <LogisticNode>
@@ -2163,29 +2163,22 @@
           <ModuleOwner>
             <ModuleLimits>
               <Main>
-                <Limit>4</Limit>
+                <Limit>0</Limit>
               </Main>
               <FertilizerModule>
-                <Limit>1</Limit>
+                <Limit>4</Limit>
               </FertilizerModule>
             </ModuleLimits>
-            <ModulesRequiredForFullProductivity>1</ModulesRequiredForFullProductivity>
-            <FarmType>PlantFarm</FarmType>
-            <ModuleBuildRadius>100</ModuleBuildRadius>
-            <ConstructionOptions>
-              <Item>
-                <ModuleGUID>2143505649</ModuleGUID>
-              </Item>
-            </ConstructionOptions>
             <FertilizerModuleData>
-              <Module>2143505645</Module>
+              <Module>2143505854</Module>
             </FertilizerModuleData>
+					  <ModuleBuildRadius>20</ModuleBuildRadius>
           </ModuleOwner>
         </Values>
       </Asset>
 
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>FactoryBuilding7</Template>
         <Values>
           <Standard>
             <GUID>2143505632</GUID>
@@ -2240,24 +2233,27 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          
-          <BuffFactory/>
           <FactoryBase>
             <FactoryInputs>
               <Item>
-                <Product>2143505639</Product>
-                <Amount>1</Amount>
-                <StorageAmount>6</StorageAmount>
+                <Product>120036</Product>
+                <Amount>2</Amount>
+                <StorageAmount>10</StorageAmount>
+              </Item>
+              <Item>
+                <Product>1010240</Product>
+                <Amount>2</Amount>
+                <StorageAmount>10</StorageAmount>
               </Item>
             </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>120037</Product>
-                <Amount>1</Amount>
+                <Amount>2</Amount>
                 <StorageAmount>10</StorageAmount>
               </Item>
             </FactoryOutputs>
-            <CycleTime>15</CycleTime>
+            <CycleTime>60</CycleTime>
             <IsMainFactory>0</IsMainFactory>
           </FactoryBase>
           <LogisticNode>
@@ -2276,25 +2272,20 @@
               </Item>
             </Maintenances>
           </Maintenance>
-          <RecipeBuilding>
-            <RecipeList>2143505635</RecipeList>
-            <RecipeBuildingType>Multifactory</RecipeBuildingType>
-            <IsBlank>0</IsBlank>
-          </RecipeBuilding>
           <ModuleOwner>
-            <ConstructionOptions>
-              <Item>
-                <ModuleGUID>2143505649</ModuleGUID>
-              </Item>
-            </ConstructionOptions>
+            <ModuleLimits>
+              <Main>
+                <Limit>0</Limit>
+              </Main>
+              <FertilizerModule>
+                <Limit>4</Limit>
+              </FertilizerModule>
+            </ModuleLimits>
             <FertilizerModuleData>
-              <Module>2143505646</Module>
+              <Module>2143505649</Module>
             </FertilizerModuleData>
-					  <ModuleBuildRadius>100</ModuleBuildRadius>
+					  <ModuleBuildRadius>10</ModuleBuildRadius>
           </ModuleOwner>
-          <Industrializable>
-            <BoostedByIndustrialization>1</BoostedByIndustrialization>
-          </Industrializable>
         </Values>
       </Asset>
       <Asset>
@@ -3075,6 +3066,105 @@
     <!-- START - Weaver Module -->
     <ModOp Type="addNextSibling" GUID="25546">
       <Asset>
+        <Template>BuffFactoryModule</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505854</GUID>
+            <Name>Knitter Module</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
+            <InfoDescription>2143505856</InfoDescription>
+          </Standard>
+          <Building>
+            <AllowChangeVariation>1</AllowChangeVariation>
+            <BuildingCategoryName>2143505402</BuildingCategoryName>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/buildings/modules/cloth.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/buildings/modules/cloth2.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <GUIType>Production</GUIType>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+            <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          </Selection>
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2143505637</Product>
+                <StorageAmount>10</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+            <CycleTime>60</CycleTime>
+          </FactoryBase>
+          <BuffFactory>
+            <ProductionBuffs>
+              <Item>
+                <ProductivityBuff>2143505855</ProductivityBuff>
+              </Item>
+            </ProductionBuffs>
+          </BuffFactory>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010116</Product>
+                <Amount>25</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <BuildingModule>
+            <ModuleType>FertilizerModule</ModuleType>
+          </BuildingModule>
+        </Values>
+      </Asset>
+      <Asset>
         <Template>IndustrialCompanyModule</Template>
         <Values>
           <Standard>
@@ -3409,15 +3499,15 @@
         <Values>
           <Standard>
             <GUID>2143505637</GUID>
-            <Name>FakeInputWeavingClothResource</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
+            <Name>FakeInputClothResource</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_wool.png</IconFilename>
           </Standard>
           <Locked/>
           <Product>
             <DeltaOnly>1</DeltaOnly>
             <IsAbstract>1</IsAbstract>
             <AssociatedRegion>Moderate</AssociatedRegion>
-            <HideInUI>1</HideInUI>
+            <HideInUI>0</HideInUI>
           </Product>
           <ExpeditionAttribute/>
         </Values>
@@ -3481,6 +3571,7 @@
 
     <!-- START - Buffs -->
     <ModOp GUID="191114" Type="addNextSibling">
+      <!-- Deprecated -->
       <Asset>
         <Template>GuildhouseBuff</Template>
         <Values>
@@ -3514,6 +3605,7 @@
           <ResourceUpgrade />
         </Values>
       </Asset>
+
       <Asset>
         <Template>GuildhouseBuff</Template>
         <Values>
@@ -3522,14 +3614,20 @@
             <Name>Depot - Module - Hat - Buff</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
           </Standard>
-          <ItemEffect />
+          <ItemEffect>
+            <AllowStacking>1</AllowStacking>
+          </ItemEffect>
           <FactoryUpgrade>
-            <InputAmountUpgrade>
+            <!-- <InputAmountUpgrade>
               <Item>
                 <Product>2143505639</Product>
                 <Amount>-1</Amount>
               </Item>
-            </InputAmountUpgrade>
+            </InputAmountUpgrade> -->
+            <ProductivityUpgrade>
+              <Value>100</Value>
+              <Percental>1</Percental>
+            </ProductivityUpgrade>
           </FactoryUpgrade>
           <BuildingUpgrade />
           <Buff />
@@ -3613,7 +3711,8 @@
           <ResourceUpgrade />
         </Values>
       </Asset>
-
+    
+      <!-- Deprecated -->
       <Asset>
         <Template>EffectContainer</Template>
         <Values>
@@ -3634,6 +3733,7 @@
           </Text>
         </Values>
       </Asset>
+
       <Asset>
         <Template>EffectContainer</Template>
         <Values>
@@ -3642,16 +3742,35 @@
             <Name>Depot - Module - Hat - Container</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_logistic_depot.png</IconFilename>
           </Standard>
-          <EffectContainer>
-            <Effects>
+          <ItemEffect>
+            <AllowStacking>1</AllowStacking>
+          </ItemEffect>
+          <FactoryUpgrade>
+            <!-- <InputAmountUpgrade>
               <Item>
-                <Effect>2143505828</Effect>
+                <Product>2143505639</Product>
+                <Amount>-1</Amount>
               </Item>
-            </Effects>
-          </EffectContainer>
-          <Text>
-            <TextOverride>2143505828</TextOverride>
-          </Text>
+            </InputAmountUpgrade> -->
+            <ProductivityUpgrade>
+              <Value>100</Value>
+              <Percental>1</Percental>
+            </ProductivityUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>1</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
         </Values>
       </Asset>
       <Asset>
@@ -3691,6 +3810,43 @@
           </EffectContainer>
           <Text>
             <TextOverride>2143505830</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+      
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505855</GUID>
+            <Name>Module - Cloth</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <AllowStacking>1</AllowStacking>
+          </ItemEffect>
+          <FactoryUpgrade>
+            <ProductivityUpgrade>
+              <Value>100</Value>
+              <Percental>1</Percental>
+            </ProductivityUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>1</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+          <Text>
+            <TextOverride>2143505645</TextOverride>
           </Text>
         </Values>
       </Asset>
@@ -3764,6 +3920,15 @@
         </Standard>
       </Values>
     </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505856</GUID>
+          <Name>Knitter Workshop - Gameplay Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
   </ModOp>
   <!-- END - Texts -->
 
@@ -3790,5 +3955,13 @@
     </ModOp>  
     <ModOp GUID="2143505633" Type="remove" Path="Values/FactoryBase/FactoryOutputs" />  
   </Group>
+
+  
+  <!-- Adding buildings to item effect pool -->
+  <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='1010315']">
+    <Item>
+      <GUID>2143505631</GUID>
+    </Item>
+  </ModOp>
   <!-- END - Tweaks -->
 </ModOps>

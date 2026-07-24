@@ -142,6 +142,7 @@
       <GUID>2143505629</GUID>
       <Text>Tejido</Text>
     </Text>
+
     <Text>
       <GUID>2143505630</GUID>
       <Text>Weaver</Text>
@@ -162,34 +163,31 @@
       <GUID>2143505634</GUID>
       <Text>Tejedor: Tapices</Text>
     </Text>
+
     <Text>
       <GUID>2143505635</GUID>
-      <Text>Weaver</Text>
-      <!-- No need to translate -->
+      <Text>Weaver</Text><!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505636</GUID>
-      <Text></Text>
-      <!-- No need to translate -->
+      <Text /><!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505638</GUID>
-      <Text></Text>
-      <!-- No need to translate -->
+      <Text /><!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505640</GUID>
-      <Text></Text>
-      <!-- No need to translate -->
+      <Text /><!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505642</GUID>
-      <Text></Text>
-      <!-- No need to translate -->
+      <Text /><!-- No need to translate -->
     </Text>
+
     <Text>
       <GUID>2143505637</GUID>
-      <Text>Módulo de Logística Obligatoria</Text>
+      <Text>Processing Wool</Text>
     </Text>
     <Text>
       <GUID>2143505639</GUID>
@@ -203,6 +201,7 @@
       <GUID>2143505643</GUID>
       <Text>Módulo de Logística Obligatoria</Text>
     </Text>
+
     <Text>
       <GUID>2143505644</GUID>
       <Text>Toda la industria tejedora</Text>
@@ -223,6 +222,7 @@
       <GUID>2143505648</GUID>
       <Text>Depósito logístico</Text>
     </Text>
+
     <Text>
       <GUID>2143505827</GUID>
       <Text>Ropa lista para producir</Text>
@@ -239,14 +239,17 @@
       <GUID>2143505830</GUID>
       <Text>Tapices listos para producir</Text>
     </Text>
+
     <Text>
       <GUID>2143505649</GUID>
       <Text>Módulo de tejido</Text>
     </Text>
+
     <Text>
       <GUID>2143505650</GUID>
       <Text>Depósitos de toda la industria tejedora</Text>
     </Text>
+
     <Text>
       <GUID>2143505651</GUID>
       <Text>Expansión de la industria: Fabric</Text>
@@ -286,6 +289,19 @@
     <Text>
       <GUID>2143505663</GUID>
       <Text>Produce productos textiles.</Text>
+    </Text>
+    
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505854</GUID>
+      <Text>Knitter Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505856</GUID>
+      <Text>[AssetData(2143505620) Text]
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 4 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
     </Text>
   </ModOp>
 </ModOps>

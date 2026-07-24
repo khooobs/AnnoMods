@@ -142,6 +142,7 @@
       <GUID>2143505629</GUID>
       <Text>生地</Text>
     </Text>
+
     <Text>
       <GUID>2143505630</GUID>
       <Text>ウィーバー</Text>
@@ -162,34 +163,31 @@
       <GUID>2143505634</GUID>
       <Text>織り手:タペストリー</Text>
     </Text>
+
     <Text>
       <GUID>2143505635</GUID>
-      <Text>ウィーバー</Text>
-      <!-- No need to translate -->
+      <Text>ウィーバー</Text><!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505636</GUID>
-      <Text></Text>
-      <!-- No need to translate -->
+      <Text /><!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505638</GUID>
-      <Text></Text>
-      <!-- No need to translate -->
+      <Text /><!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505640</GUID>
-      <Text></Text>
-      <!-- No need to translate -->
+      <Text /><!-- No need to translate -->
     </Text>
     <Text>
       <GUID>2143505642</GUID>
-      <Text></Text>
-      <!-- No need to translate -->
+      <Text /><!-- No need to translate -->
     </Text>
+
     <Text>
       <GUID>2143505637</GUID>
-      <Text>物流モジュールの必要性</Text>
+      <Text>Processing Wool</Text>
     </Text>
     <Text>
       <GUID>2143505639</GUID>
@@ -203,6 +201,7 @@
       <GUID>2143505643</GUID>
       <Text>物流モジュールの必要性</Text>
     </Text>
+
     <Text>
       <GUID>2143505644</GUID>
       <Text>全ての織物産業</Text>
@@ -223,6 +222,7 @@
       <GUID>2143505648</GUID>
       <Text>物流倉庫</Text>
     </Text>
+
     <Text>
       <GUID>2143505827</GUID>
       <Text>服の生産準備完了</Text>
@@ -239,14 +239,17 @@
       <GUID>2143505830</GUID>
       <Text>タペストリーの制作準備完了</Text>
     </Text>
+
     <Text>
       <GUID>2143505649</GUID>
       <Text>織りモジュール</Text>
     </Text>
+
     <Text>
       <GUID>2143505650</GUID>
       <Text>すべての織物産業の倉庫</Text>
     </Text>
+
     <Text>
       <GUID>2143505651</GUID>
       <Text>産業拡大:ファブリック</Text>
@@ -286,6 +289,19 @@
     <Text>
       <GUID>2143505663</GUID>
       <Text>繊維製品を生産しています。</Text>
+    </Text>
+    
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505854</GUID>
+      <Text>Knitter Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505856</GUID>
+      <Text>[AssetData(2143505620) Text]
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 4 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
     </Text>
   </ModOp>
 </ModOps>
