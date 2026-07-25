@@ -80,13 +80,14 @@
   <Group>
     <!-- START - Spinning Mill Buildings -->
     <ModOp Type="addNextSibling" GUID="25546">
+      <!-- Deprecated, set to ruins to existing saves -->
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>OrnamentalBuilding</Template>
         <Values>
           <Standard>
             <GUID>2143505600</GUID>
-            <Name>Spinning_Mill_Blank</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_spinning_mill.png</IconFilename>
+            <Name>Deprecated_Spinning_Mill_Blank</Name>
+			      <IconFilename>data/ui/2kimages/main/3dicons/icon_ruin_settlement.png</IconFilename>
             <InfoDescription>2143505662</InfoDescription>
           </Standard>
           <Cost>
@@ -119,13 +120,13 @@
           <Object>
             <Variations>
               <Item>
-                <Filename>data/modgraphics/buildings/production/spinning_mill/spinning_mill.cfg</Filename>
+                <Filename>data/modgraphics/buildings/special/ruins/spinning_ruins.cfg</Filename>
               </Item>
             </Variations>
           </Object>
           <Mesh />
           <Selection>
-            <GUIType>Production</GUIType>
+            <GUIType>Generic</GUIType>
             <OnSelection>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
@@ -137,44 +138,24 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <Factory7 />
-          <UpgradeList />
-          <FactoryBase />
-          <LogisticNode />
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>1000</Amount>
-                <InactiveAmount>500</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010116</Product>
-                <Amount>50</Amount>
-              </Item>
-            </Maintenances>
-          </Maintenance>
-          <RecipeBuilding>
-            <RecipeList>2143505606</RecipeList>
-            <RecipeBuildingType>Multifactory</RecipeBuildingType>
-            <IsBlank>1</IsBlank>
-          </RecipeBuilding>
-          <ModuleOwner>
-            <ModuleBuildRadius>100</ModuleBuildRadius>
-            <FertilizerModuleData/>
-          </ModuleOwner>
-          <Industrializable>
-            <BoostedByIndustrialization>1</BoostedByIndustrialization>
-          </Industrializable>
+          <Ornament>
+            <OrnamentDescription>2143505612</OrnamentDescription>
+          </Ornament>
+          <Culture>
+            <Attractiveness>-5</Attractiveness>
+            <CultureType>Ruins</CultureType>
+            <HasPollution>1</HasPollution>
+          </Culture>
         </Values>
       </Asset>
+      <!-- Deprecated, set to ruins to existing saves -->
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>OrnamentalBuilding</Template>
         <Values>
           <Standard>
             <GUID>2143505601</GUID>
-            <Name>Spinning_Mill_1t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool.png</IconFilename>
+            <Name>Deprecated_Spinning_Mill_1t</Name>
+			      <IconFilename>data/ui/2kimages/main/3dicons/icon_ruin_settlement.png</IconFilename>
           </Standard>
           <Cost>
             <Costs>
@@ -206,13 +187,13 @@
           <Object>
             <Variations>
               <Item>
-                <Filename>data/modgraphics/buildings/production/spinning_mill/spinning_mill.cfg</Filename>
+                <Filename>data/modgraphics/buildings/special/ruins/spinning_ruins.cfg</Filename>
               </Item>
             </Variations>
           </Object>
           <Mesh />
           <Selection>
-            <GUIType>Production</GUIType>
+            <GUIType>Generic</GUIType>
             <OnSelection>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
@@ -224,66 +205,24 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <FactoryBase>
-            <FactoryInputs>
-              <Item>
-                <Product>2143505621</Product>
-                <Amount>1</Amount>
-                <StorageAmount>6</StorageAmount>
-              </Item>
-            </FactoryInputs>
-            <FactoryOutputs>
-              <Item>
-                <Product>1500020000</Product>
-                <Amount>1</Amount>
-                <StorageAmount>10</StorageAmount>
-              </Item>
-            </FactoryOutputs>
-            <CycleTime>30</CycleTime>
-            <IsMainFactory>0</IsMainFactory>
-          </FactoryBase>
-          <LogisticNode />
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>1000</Amount>
-                <InactiveAmount>500</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010116</Product>
-                <Amount>50</Amount>
-              </Item>
-            </Maintenances>
-          </Maintenance>
-          <RecipeBuilding>
-            <RecipeList>2143505606</RecipeList>
-            <RecipeBuildingType>Multifactory</RecipeBuildingType>
-            <IsBlank>0</IsBlank>
-          </RecipeBuilding>
-          <ModuleOwner>
-            <ModuleBuildRadius>100</ModuleBuildRadius>
-            <ConstructionOptions>
-              <Item>
-                <ModuleGUID>2143505619</ModuleGUID>
-              </Item>
-            </ConstructionOptions>
-            <FertilizerModuleData>
-              <Module>2143505622</Module>
-            </FertilizerModuleData>
-          </ModuleOwner>
-          <Industrializable>
-            <BoostedByIndustrialization>1</BoostedByIndustrialization>
-          </Industrializable>
+          <Ornament>
+            <OrnamentDescription>2143505612</OrnamentDescription>
+          </Ornament>
+          <Culture>
+            <Attractiveness>-5</Attractiveness>
+            <CultureType>Ruins</CultureType>
+            <HasPollution>1</HasPollution>
+          </Culture>
         </Values>
       </Asset>
+      <!-- Deprecated, set to ruins to existing saves -->
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>OrnamentalBuilding</Template>
         <Values>
           <Standard>
             <GUID>2143505602</GUID>
-            <Name>Spinning_Mill_2t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_wool_2.png</IconFilename>
+            <Name>Deprecated_Spinning_Mill_2t</Name>
+			      <IconFilename>data/ui/2kimages/main/3dicons/icon_ruin_settlement.png</IconFilename>
           </Standard>
           <Cost>
             <Costs>
@@ -315,13 +254,13 @@
           <Object>
             <Variations>
               <Item>
-                <Filename>data/modgraphics/buildings/production/spinning_mill/spinning_mill.cfg</Filename>
+                <Filename>data/modgraphics/buildings/special/ruins/spinning_ruins.cfg</Filename>
               </Item>
             </Variations>
           </Object>
           <Mesh />
           <Selection>
-            <GUIType>Production</GUIType>
+            <GUIType>Generic</GUIType>
             <OnSelection>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
@@ -333,57 +272,14 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <FactoryBase>
-            <FactoryInputs>
-              <Item>
-                <Product>2143505628</Product>
-                <Amount>1</Amount>
-                <StorageAmount>6</StorageAmount>
-              </Item>
-            </FactoryInputs>
-            <FactoryOutputs>
-              <Item>
-                <Product>1500020000</Product>
-                <Amount>2</Amount>
-                <StorageAmount>10</StorageAmount>
-              </Item>
-            </FactoryOutputs>
-            <CycleTime>30</CycleTime>
-            <IsMainFactory>0</IsMainFactory>
-          </FactoryBase>
-          <LogisticNode />
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>1000</Amount>
-                <InactiveAmount>500</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010116</Product>
-                <Amount>50</Amount>
-              </Item>
-            </Maintenances>
-          </Maintenance>
-          <RecipeBuilding>
-            <RecipeList>2143505606</RecipeList>
-            <RecipeBuildingType>Multifactory</RecipeBuildingType>
-            <IsBlank>0</IsBlank>
-          </RecipeBuilding>
-          <ModuleOwner>
-            <ModuleBuildRadius>100</ModuleBuildRadius>
-            <ConstructionOptions>
-              <Item>
-                <ModuleGUID>2143505619</ModuleGUID>
-              </Item>
-            </ConstructionOptions>
-            <FertilizerModuleData>
-              <Module>2143505623</Module>
-            </FertilizerModuleData>
-          </ModuleOwner>
-          <Industrializable>
-            <BoostedByIndustrialization>1</BoostedByIndustrialization>
-          </Industrializable>
+          <Ornament>
+            <OrnamentDescription>2143505612</OrnamentDescription>
+          </Ornament>
+          <Culture>
+            <Attractiveness>-5</Attractiveness>
+            <CultureType>Ruins</CultureType>
+            <HasPollution>1</HasPollution>
+          </Culture>
         </Values>
       </Asset>
       <!-- Deprecated, set to ruins to existing saves -->
@@ -455,13 +351,14 @@
           </Culture>
         </Values>
       </Asset>
+      <!-- Deprecated, set to ruins to existing saves -->
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>OrnamentalBuilding</Template>
         <Values>
           <Standard>
             <GUID>2143505604</GUID>
-            <Name>Spinning_Mill_4t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_cotton.png</IconFilename>
+            <Name>Deprecated_Spinning_Mill_4t</Name>
+			      <IconFilename>data/ui/2kimages/main/3dicons/icon_ruin_settlement.png</IconFilename>
           </Standard>
           <Cost>
             <Costs>
@@ -493,13 +390,13 @@
           <Object>
             <Variations>
               <Item>
-                <Filename>data/modgraphics/buildings/production/spinning_mill/spinning_mill.cfg</Filename>
+                <Filename>data/modgraphics/buildings/special/ruins/spinning_ruins.cfg</Filename>
               </Item>
             </Variations>
           </Object>
           <Mesh />
           <Selection>
-            <GUIType>Production</GUIType>
+            <GUIType>Generic</GUIType>
             <OnSelection>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
@@ -511,66 +408,24 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <FactoryBase>
-            <FactoryInputs>
-              <Item>
-                <Product>2143505656</Product>
-                <Amount>1</Amount>
-                <StorageAmount>6</StorageAmount>
-              </Item>
-            </FactoryInputs>
-            <FactoryOutputs>
-              <Item>
-                <Product>1500020000</Product>
-                <Amount>4</Amount>
-                <StorageAmount>12</StorageAmount>
-              </Item>
-            </FactoryOutputs>
-            <CycleTime>30</CycleTime>
-            <IsMainFactory>0</IsMainFactory>
-          </FactoryBase>
-          <LogisticNode />
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>1000</Amount>
-                <InactiveAmount>500</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010116</Product>
-                <Amount>50</Amount>
-              </Item>
-            </Maintenances>
-          </Maintenance>
-          <RecipeBuilding>
-            <RecipeList>2143505606</RecipeList>
-            <RecipeBuildingType>Multifactory</RecipeBuildingType>
-            <IsBlank>0</IsBlank>
-          </RecipeBuilding>
-          <ModuleOwner>
-            <ModuleBuildRadius>100</ModuleBuildRadius>
-            <ConstructionOptions>
-              <Item>
-                <ModuleGUID>2143505619</ModuleGUID>
-              </Item>
-            </ConstructionOptions>
-            <FertilizerModuleData>
-              <Module>2143505625</Module>
-            </FertilizerModuleData>
-          </ModuleOwner>
-          <Industrializable>
-            <BoostedByIndustrialization>1</BoostedByIndustrialization>
-          </Industrializable>
+          <Ornament>
+            <OrnamentDescription>2143505612</OrnamentDescription>
+          </Ornament>
+          <Culture>
+            <Attractiveness>-5</Attractiveness>
+            <CultureType>Ruins</CultureType>
+            <HasPollution>1</HasPollution>
+          </Culture>
         </Values>
       </Asset>
+      <!-- Deprecated, set to ruins to existing saves -->
       <Asset>
-        <Template>IndustrialCompanyFactory</Template>
+        <Template>OrnamentalBuilding</Template>
         <Values>
           <Standard>
             <GUID>2143505605</GUID>
-            <Name>Spinning_Mill_6t</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_linen.png</IconFilename>
+            <Name>Deprecated_Spinning_Mill_6t</Name>
+			      <IconFilename>data/ui/2kimages/main/3dicons/icon_ruin_settlement.png</IconFilename>
           </Standard>
           <Cost>
             <Costs>
@@ -602,13 +457,13 @@
           <Object>
             <Variations>
               <Item>
-                <Filename>data/modgraphics/buildings/production/spinning_mill/spinning_mill.cfg</Filename>
+                <Filename>data/modgraphics/buildings/special/ruins/spinning_ruins.cfg</Filename>
               </Item>
             </Variations>
           </Object>
           <Mesh />
           <Selection>
-            <GUIType>Production</GUIType>
+            <GUIType>Generic</GUIType>
             <OnSelection>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
@@ -620,57 +475,14 @@
               <WeakSelectionColorType>NoColor</WeakSelectionColorType>
             </Colors>
           </Selection>
-          <FactoryBase>
-            <FactoryInputs>
-              <Item>
-                <Product>2143505654</Product>
-                <Amount>1</Amount>
-                <StorageAmount>6</StorageAmount>
-              </Item>
-            </FactoryInputs>
-            <FactoryOutputs>
-              <Item>
-                <Product>1500020000</Product>
-                <Amount>6</Amount>
-                <StorageAmount>24</StorageAmount>
-              </Item>
-            </FactoryOutputs>
-            <CycleTime>30</CycleTime>
-            <IsMainFactory>0</IsMainFactory>
-          </FactoryBase>
-          <LogisticNode />
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>1000</Amount>
-                <InactiveAmount>500</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010116</Product>
-                <Amount>50</Amount>
-              </Item>
-            </Maintenances>
-          </Maintenance>
-          <RecipeBuilding>
-            <RecipeList>2143505606</RecipeList>
-            <RecipeBuildingType>Multifactory</RecipeBuildingType>
-            <IsBlank>0</IsBlank>
-          </RecipeBuilding>
-          <ModuleOwner>
-            <ModuleBuildRadius>100</ModuleBuildRadius>
-            <ConstructionOptions>
-              <Item>
-                <ModuleGUID>2143505619</ModuleGUID>
-              </Item>
-            </ConstructionOptions>
-            <FertilizerModuleData>
-              <Module>2143505626</Module>
-            </FertilizerModuleData>
-          </ModuleOwner>
-          <Industrializable>
-            <BoostedByIndustrialization>1</BoostedByIndustrialization>
-          </Industrializable>
+          <Ornament>
+            <OrnamentDescription>2143505612</OrnamentDescription>
+          </Ornament>
+          <Culture>
+            <Attractiveness>-5</Attractiveness>
+            <CultureType>Ruins</CultureType>
+            <HasPollution>1</HasPollution>
+          </Culture>
         </Values>
       </Asset>
     </ModOp>
