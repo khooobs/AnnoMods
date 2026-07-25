@@ -121,4 +121,161 @@
       <Text>Sawmill co-operation</Text>
     </Text>
   </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505516</GUID>
+      <Text>Minerals</Text>
+    </Text>
+    <Text>
+      <GUID>2143505517</GUID>
+      <Text>The efforts of excavating the zone provides some extra stones, geodes and gravels that can be sieved for additionnal goods.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505520</GUID>
+      <Text>Crushing processes</Text>
+    </Text>
+    <Text>
+      <GUID>2143505521</GUID>
+      <Text>A dedicated building with crushing machines and chains for large chunks of minerals and geodes.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505524</GUID>
+      <Text>Crusher: Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2143505525</GUID>
+      <Text>Crusher: Copper</Text>
+    </Text>
+    <Text>
+      <GUID>2143505527</GUID>
+      <Text>Crusher: Zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2143505529</GUID>
+      <Text>Crusher: Coal</Text>
+    </Text>
+    <Text>
+      <GUID>2143505531</GUID>
+      <Text>Crusher: Gold</Text>
+    </Text>
+    <Text>
+      <GUID>2143505518</GUID>
+      <Text>Crusher</Text>
+    </Text>
+    <Text>
+      <GUID>2143505522</GUID>
+      <Text>Crusher: Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2143505530</GUID>
+      <Text>Crusher: Coal</Text>
+    </Text>
+    <Text>
+      <GUID>2143505526</GUID>
+      <Text>Crusher: Copper</Text>
+    </Text>
+    <Text>
+      <GUID>2143505528</GUID>
+      <Text>Crusher: Zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2143505532</GUID>
+      <Text>Crusher: Gold</Text>
+    </Text>
+    <Text>
+      <GUID>2143505523</GUID>
+      <Text>The deafening din of smashing rock is nothing compared to the satisfaction of seeing these greyish blocks emerge. A little patience, a lot of heat, and there is enough to forge the future of your empire! Or at least, the tracks it runs on.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505552</GUID>
+      <Text>This machine doesn't do nuance. It crushes the hardest geodes to extract this precious black sediment. It might not be as sparkling as a diamond, but it’s still incredibly useful in your furnaces and factories.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505558</GUID>
+      <Text>Beneath its rough stone coating hides an incomparable reddish glow. Your workers will surely complain about the crusher's vibrations.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505560</GUID>
+      <Text>Smashing, breaking, crushing to pieces... When the debris reveals this metal, essential for brass production. Your rivals will see only rubble; you will see longevity.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505561</GUID>
+      <Text>Opening a geode is like opening a box of chocolates, with the added risk of getting your fingers caught in a gear. But what a divine surprise when the rock splits to reveal veins of the purest metal! Enough to make your investors' eyes shine...</Text>
+    </Text>
+  </ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505538</GUID>
+      <Text>Sieving processes</Text>
+    </Text>
+    <Text>
+      <GUID>2143505539</GUID>
+      <Text>Numerous machines for sieving silicon and finding mineral stones for metallurgy.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505540</GUID>
+      <Text>Sifter: Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2143505543</GUID>
+      <Text>Sifter: Limestone</Text>
+    </Text>
+    <Text>
+      <GUID>2143505548</GUID>
+      <Text>Sifter: Copper</Text>
+    </Text>
+    <Text>
+      <GUID>2143505550</GUID>
+      <Text>Sifter: Zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2143505546</GUID>
+      <Text>Sifter: Gold</Text>
+    </Text>
+    <Text>
+      <GUID>2143505536</GUID>
+      <Text>Sifter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505542</GUID>
+      <Text>Sifter: Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2143505545</GUID>
+      <Text>Sifter: Limestone</Text>
+    </Text>
+    <Text>
+      <GUID>2143505549</GUID>
+      <Text>Sifter: Copper</Text>
+    </Text>
+    <Text>
+      <GUID>2143505551</GUID>
+      <Text>Sifter: Zinc</Text>
+    </Text>
+    <Text>
+      <GUID>2143505547</GUID>
+      <Text>Sifter: Gold</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505541</GUID>
+      <Text>Who would have thought that those sandbanks would hide such treasures? By vigorously shaking all this sand, the fine mesh of this sieve catches precious iron fragments. It is painstaking, admittedly, but every grain of iron counts.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505544</GUID>
+      <Text>Marine sediments have their perks! This giant sieve separates fine sand from these dust of white rock. Once sieved, they will make exceptional cement for your finest monuments.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505562</GUID>
+      <Text>The patience of a saint and an oscillating machine—that is the secret to flushing out the copper flakes nestled in riverbeds.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505567</GUID>
+      <Text>The sand slips, the water flows, and gravity does the rest. This delicate process catches the zinc sediments that nature has patiently polished over the centuries.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505568</GUID>
+      <Text>Forget the lonely old prospector with his pan by the water's edge. Here, we sift alluvial sand on a grand scale. When the sun hits the sieve and makes those few nuggets shimmer, you quickly forget the dust in your eyes.</Text>
+    </Text>
+  </ModOp>
 </ModOps>

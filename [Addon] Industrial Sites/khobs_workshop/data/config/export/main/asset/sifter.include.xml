@@ -379,7 +379,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/special/sifter/sifter.cfg</Filename>
+              <Filename>data/modgraphics/sifter/sifter.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -524,7 +524,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/special/sifter/sifter.cfg</Filename>
+              <Filename>data/modgraphics/sifter/sifter.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -684,7 +684,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/special/sifter/sifter.cfg</Filename>
+              <Filename>data/modgraphics/sifter/sifter.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -844,7 +844,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/special/sifter/sifter.cfg</Filename>
+              <Filename>data/modgraphics/sifter/sifter.cfg</Filename>
             </Item>
           </Variations>
           <Skins>
@@ -1009,7 +1009,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/special/sifter/sifter.cfg</Filename>
+              <Filename>data/modgraphics/sifter/sifter.cfg</Filename>
             </Item>
           </Variations>
           <Skins>
@@ -1174,7 +1174,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/special/sifter/sifter.cfg</Filename>
+              <Filename>data/modgraphics/sifter/sifter.cfg</Filename>
             </Item>
           </Variations>
           <Skins>

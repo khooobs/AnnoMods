@@ -57,30 +57,15 @@
       <Item>
         <Building>2143505667</Building>
       </Item>
-    </ModOp>
-  </Group>
-  <!-- END - Industrial Mechanical Workshop - Add to category -->
-   
-  <!-- START - Crusher - Add to category -->
-  <Group Condition="#khobs_crusher">
-    <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
       <Item>
         <Building>2143505518</Building>
       </Item>
-    </ModOp>
-  </Group>
-  <!-- END - Crusher - Add to category -->
-   
-  <!-- START - Sifter - Add to category -->
-  <Group Condition="#khobs_sifter">
-    <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
       <Item>
         <Building>2143505536</Building>
       </Item>
     </ModOp>
   </Group>
-  <!-- END - Sifter - Add to category -->
-
+  <!-- END - Industrial Mechanical Workshop - Add to category -->
   
   <!-- START - Textile Company - Add to category -->
   <Group Condition="#khobs_textile_company">

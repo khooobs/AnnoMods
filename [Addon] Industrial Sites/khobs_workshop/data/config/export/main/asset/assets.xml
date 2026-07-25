@@ -1,4 +1,7 @@
 <ModOps>
+  <Include File="./crusher.include.xml" />
+  <Include File="./sifter.include.xml" />
+
   <!-- START - AssetPool -->
   <ModOp GUID="25546" Type="addNextSibling">
     <Asset>
