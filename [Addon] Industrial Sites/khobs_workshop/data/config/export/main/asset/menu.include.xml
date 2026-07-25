@@ -1,0 +1,81 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505864</GUID>
+          <Name>Workshop Menu</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_workshop.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList />
+          <CategoryDescription>2143505402</CategoryDescription>
+        </ConstructionCategory>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505865</GUID>
+          <Name>Quarry Menu</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_quarry.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList />
+          <CategoryDescription>2143505402</CategoryDescription>
+        </ConstructionCategory>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp GUID="25000190" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[position()=1][1]">
+    <Item>
+      <Building>2143505864</Building>
+    </Item>
+  </ModOp>  
+  <ModOp GUID="25000190" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[last()]">
+    <Item>
+      <Building>135085</Building>
+    </Item>
+  </ModOp>
+  
+
+  <ModOp GUID="25000190" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[position()=1][1]">
+    <Item>
+      <Building>2143505865</Building>
+    </Item>
+  </ModOp>    
+  <ModOp GUID="2143505865" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>2143505812</Building>
+    </Item>
+    <Item>
+      <Building>2143505861</Building>
+    </Item>
+    <Item>
+      <Building>2143505862</Building>
+    </Item>
+    <Item>
+      <Building>2143505863</Building>
+    </Item>
+    <Item>
+      <Building>2143505518</Building>
+    </Item>
+    <Item>
+      <Building>2143505536</Building>
+    </Item>
+  </ModOp>
+
+  <Group Condition="#military_attention"> 
+    <ModOp GUID="2143505865" Type="add" Path="Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1742100163</Building>
+      </Item>
+      <Item>
+        <Building>1742100165</Building>
+      </Item>
+    </ModOp>
+  </Group>  
+</ModOps>

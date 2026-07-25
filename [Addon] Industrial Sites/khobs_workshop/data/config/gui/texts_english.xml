@@ -276,6 +276,28 @@
     <Text>
       <GUID>2143505568</GUID>
       <Text>Forget the lonely old prospector with his pan by the water's edge. Here, we sift alluvial sand on a grand scale. When the sun hits the sieve and makes those few nuggets shimmer, you quickly forget the dust in your eyes.</Text>
+    </Text> 
+  
+    <!-- # Start - Quarries Assets -->
+    <Text>
+      <GUID>2143505865</GUID>
+      <Text>Quarries/Mines</Text>
+    </Text>
+    <Text>
+      <GUID>2143505812</GUID>
+      <Text>Large Clay Pit</Text>
+    </Text>
+    <Text>
+      <GUID>2143505861</GUID>
+      <Text>Sand Quarry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505862</GUID>
+      <Text>Copper Quarry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505863</GUID>
+      <Text>Zinc Quarry</Text>
     </Text>
   </ModOp>
 </ModOps>
