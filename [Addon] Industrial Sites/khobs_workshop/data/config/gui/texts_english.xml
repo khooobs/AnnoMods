@@ -299,5 +299,39 @@
       <GUID>2143505863</GUID>
       <Text>Zinc Quarry</Text>
     </Text>
+
+    <!-- # Start - Workshops Assets -->
+    <Text>
+      <GUID>2143505864</GUID>
+      <Text>Workshop</Text>
+    </Text>
+    <Text>
+      <GUID>2143505866</GUID>
+      <Text>Bloomery</Text>
+    </Text>
+    <Text>
+      <GUID>2143505867</GUID>
+      <Text>Blacksmith</Text>
+    </Text>
+    <Text>
+      <GUID>2143505868</GUID>
+      <Text>Wheelwright</Text>
+    </Text>
+    <Text>
+      <GUID>2143505869</GUID>
+      <Text>Carpenter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505870</GUID>
+      <Text>Pipe Maker</Text>
+    </Text>
+    <Text>
+      <GUID>2143505871</GUID>
+      <Text>Gramophone Workshop</Text>
+    </Text>
+    <Text>
+      <GUID>2143505872</GUID>
+      <Text>Typewriter Workshop</Text>
+    </Text>
   </ModOp>
 </ModOps>

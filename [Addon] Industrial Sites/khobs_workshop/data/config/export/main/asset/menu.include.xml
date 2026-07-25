@@ -41,6 +41,33 @@
     </Item>
   </ModOp>
   
+  
+  <ModOp GUID="2143505864" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>2143505866</Building>
+    </Item>
+    <Item>
+      <Building>2143505867</Building>
+    </Item>
+    <Item>
+      <Building>2143505868</Building>
+    </Item>
+    <Item>
+      <Building>2143505869</Building>
+    </Item>
+    <Item>
+      <Building>2143505870</Building>
+    </Item>
+    <Item>
+      <Building>2143505871</Building>
+    </Item>
+    <Item>
+      <Building>2143505872</Building>
+    </Item>
+    <Item>
+      <Building>2143505667</Building>
+    </Item>
+  </ModOp>
 
   <ModOp GUID="25000190" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[position()=1][1]">
     <Item>

@@ -51,22 +51,6 @@
     </ModOp>
   </Group>
 
-  <!-- START - Industrial Mechanical Workshop - Add to category -->
-  <Group Condition="#khobs_workshop">
-    <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
-      <Item>
-        <Building>2143505667</Building>
-      </Item>
-      <Item>
-        <Building>2143505518</Building>
-      </Item>
-      <Item>
-        <Building>2143505536</Building>
-      </Item>
-    </ModOp>
-  </Group>
-  <!-- END - Industrial Mechanical Workshop - Add to category -->
-  
   <!-- START - Textile Company - Add to category -->
   <Group Condition="#khobs_textile_company">
     <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">

@@ -4,6 +4,7 @@
 	"IncompatibleIds": null,
 	"ModDependencies": [
 		"shared_goods_iron",
+		"tools-jakob"
 	],
 	"LoadAfterIds": [
 		"Taludas_VanillaRiverSlotBuildingsOW"

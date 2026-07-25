@@ -121,7 +121,7 @@
       <Text>Сотрудничество с лесопилками</Text>
     </Text>
   </ModOp>
-    <ModOp Type="add" Path="/TextExport/Texts">
+  <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505516</GUID>
       <Text>Минералов</Text>
@@ -129,14 +129,6 @@
     <Text>
       <GUID>2143505517</GUID>
       <Text>Усилия по раскопкам зоны дают некоторые дополнительные камни, жеоды и гравий, которые могут быть просеяны для дополнительных товаров.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505518</GUID>
-      <Text>Дробилка: Холостая</Text>
-    </Text>
-    <Text>
-      <GUID>2143505519</GUID>
-      <Text>Производим дополнительные товары</Text>
     </Text>
     <Text>
       <GUID>2143505520</GUID>
@@ -151,19 +143,7 @@
       <Text>Дробилка: Железо</Text>
     </Text>
     <Text>
-      <GUID>2143505522</GUID>
-      <Text>Дробилка: Железо</Text>
-    </Text>
-    <Text>
-      <GUID>2143505523</GUID>
-      <Text>Пожалуйста, будьте осторожны, чтобы не наклониться полностью над дробилкой!</Text>
-    </Text>
-    <Text>
       <GUID>2143505525</GUID>
-      <Text>Дробилка: Медь</Text>
-    </Text>
-    <Text>
-      <GUID>2143505526</GUID>
       <Text>Дробилка: Медь</Text>
     </Text>
     <Text>
@@ -171,15 +151,7 @@
       <Text>Дробилка: Цинк</Text>
     </Text>
     <Text>
-      <GUID>2143505528</GUID>
-      <Text>Дробилка: Цинк</Text>
-    </Text>
-    <Text>
       <GUID>2143505529</GUID>
-      <Text>Дробилка: Уголь</Text>
-    </Text>
-    <Text>
-      <GUID>2143505530</GUID>
       <Text>Дробилка: Уголь</Text>
     </Text>
     <Text>
@@ -187,69 +159,73 @@
       <Text>Дробилка: Золото</Text>
     </Text>
     <Text>
+      <GUID>2143505518</GUID>
+      <Text>Дробилка: Холостая</Text>
+    </Text>
+    <Text>
+      <GUID>2143505522</GUID>
+      <Text>Дробилка: Железо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505530</GUID>
+      <Text>Дробилка: Уголь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505526</GUID>
+      <Text>Дробилка: Медь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505528</GUID>
+      <Text>Дробилка: Цинк</Text>
+    </Text>
+    <Text>
       <GUID>2143505532</GUID>
       <Text>Дробилка: Золото</Text>
+    </Text>
+    <Text>
+      <GUID>2143505523</GUID>
+      <Text>Пожалуйста, будьте осторожны, чтобы не наклониться полностью над дробилкой!</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505552</GUID>
+      <Text>This machine doesn't do nuance. It crushes the hardest geodes to extract this precious black sediment. It might not be as sparkling as a diamond, but it’s still incredibly useful in your furnaces and factories.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505558</GUID>
+      <Text>Beneath its rough stone coating hides an incomparable reddish glow. Your workers will surely complain about the crusher's vibrations.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505560</GUID>
+      <Text>Smashing, breaking, crushing to pieces... When the debris reveals this metal, essential for brass production. Your rivals will see only rubble; you will see longevity.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505561</GUID>
+      <Text>Opening a geode is like opening a box of chocolates, with the added risk of getting your fingers caught in a gear. But what a divine surprise when the rock splits to reveal veins of the purest metal! Enough to make your investors' eyes shine...</Text>
     </Text>
   </ModOp>
     <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <GUID>2143505519</GUID>
-      <Text>Производим дополнительные товары</Text>
-    </Text>
-    <Text>
-      <GUID>2143505536</GUID>
-      <Text>Просеиватель: Пустой</Text>
-    </Text>
-    <Text>
-      <GUID>2143505537</GUID>
-      <Text>Производим дополнительные товары</Text>
-    </Text>
-    <Text>
       <GUID>2143505538</GUID>
       <Text>Процессы просеивания</Text>
-    </Text>
-    <Text>
-      <GUID>2143505540</GUID>
-      <Text>Просеиватель: Железо</Text>
-    </Text>
-    <Text>
-      <GUID>2143505542</GUID>
-      <Text>Просеиватель: Железо</Text>
     </Text>
     <Text>
       <GUID>2143505539</GUID>
       <Text>Многочисленные машины для просеивания кремния и поиска минеральных камней для металлургии.</Text>
     </Text>
     <Text>
-      <GUID>2143505541</GUID>
-      <Text>Опыт просеивания морей позволил извлечь больше руды, что особенно ценится металлургическим сектором.</Text>
+      <GUID>2143505540</GUID>
+      <Text>Просеиватель: Железо</Text>
     </Text>
     <Text>
       <GUID>2143505543</GUID>
       <Text>Просеиватель: Известняк</Text>
     </Text>
     <Text>
-      <GUID>2143505544</GUID>
-      <Text>Это гравийное отложение было затоплено так долго, что эрозия сделала свое дело.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505545</GUID>
-      <Text>Просеиватель: Известняк</Text>
-    </Text>
-    <Text>
-      <GUID>2143505546</GUID>
-      <Text>Просеиватель: Золото</Text>
-    </Text>
-    <Text>
-      <GUID>2143505547</GUID>
-      <Text>Просеиватель: Золото</Text>
-    </Text>
-    <Text>
       <GUID>2143505548</GUID>
-      <Text>Просеиватель: Медь</Text>
-    </Text>
-    <Text>
-      <GUID>2143505549</GUID>
       <Text>Просеиватель: Медь</Text>
     </Text>
     <Text>
@@ -257,8 +233,125 @@
       <Text>Просеиватель: Цинк</Text>
     </Text>
     <Text>
+      <GUID>2143505546</GUID>
+      <Text>Просеиватель: Золото</Text>
+    </Text>
+    <Text>
+      <GUID>2143505536</GUID>
+      <Text>Просеиватель: Пустой</Text>
+    </Text>
+    <Text>
+      <GUID>2143505542</GUID>
+      <Text>Просеиватель: Железо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505545</GUID>
+      <Text>Просеиватель: Известняк</Text>
+    </Text>
+    <Text>
+      <GUID>2143505549</GUID>
+      <Text>Просеиватель: Медь</Text>
+    </Text>
+    <Text>
       <GUID>2143505551</GUID>
       <Text>Просеиватель: Цинк</Text>
+    </Text>
+    <Text>
+      <GUID>2143505547</GUID>
+      <Text>Просеиватель: Золото</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505541</GUID>
+      <Text>Опыт просеивания морей позволил извлечь больше руды, что особенно ценится металлургическим сектором.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505544</GUID>
+      <Text>Это гравийное отложение было затоплено так долго, что эрозия сделала свое дело.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505562</GUID>
+      <Text>The patience of a saint and an oscillating machine—that is the secret to flushing out the copper flakes nestled in riverbeds.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505567</GUID>
+      <Text>The sand slips, the water flows, and gravity does the rest. This delicate process catches the zinc sediments that nature has patiently polished over the centuries.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505568</GUID>
+      <Text>Forget the lonely old prospector with his pan by the water's edge. Here, we sift alluvial sand on a grand scale. When the sun hits the sieve and makes those few nuggets shimmer, you quickly forget the dust in your eyes.</Text>
+    </Text> 
+  
+    <!-- # Start - Quarries Assets -->
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505865</GUID>
+      <Text>Quarries/Mines</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505812</GUID>
+      <Text>Large Clay Pit</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505861</GUID>
+      <Text>Sand Quarry</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505862</GUID>
+      <Text>Copper Quarry</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505863</GUID>
+      <Text>Zinc Quarry</Text>
+    </Text>
+
+    <!-- # Start - Workshops Assets -->
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505864</GUID>
+      <Text>Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505866</GUID>
+      <Text>Bloomery</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505867</GUID>
+      <Text>Blacksmith</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505868</GUID>
+      <Text>Wheelwright</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505869</GUID>
+      <Text>Carpenter</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505870</GUID>
+      <Text>Pipe Maker</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505871</GUID>
+      <Text>Gramophone Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505872</GUID>
+      <Text>Typewriter Workshop</Text>
     </Text>
   </ModOp>
 </ModOps>
