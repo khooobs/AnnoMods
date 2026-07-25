@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1010227</GUID>
+      <Text>Iron Ore</Text>
+    </Text>
+    <Text>
+      <GUID>2143506000</GUID>
+      <Text>Iron</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -2,7 +2,9 @@
 	"Version": "2.0.0",
 	"ModID": "khobs_workshop",
 	"IncompatibleIds": null,
-	"ModDependencies": [],
+	"ModDependencies": [
+		"shared_goods_iron",
+	],
 	"LoadAfterIds": [
 		"Taludas_VanillaRiverSlotBuildingsOW"
 	],

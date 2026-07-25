@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1010227</GUID>
+      <Text>Minerai de fer</Text>
+    </Text>
+    <Text>
+      <GUID>2143506000</GUID>
+      <Text>Fer</Text>
+    </Text>
+  </ModOp>
+</ModOps>
