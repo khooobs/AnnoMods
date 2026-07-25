@@ -365,53 +365,6 @@
   </ModOp>
   <!-- End - Buffs -->
 
-  <!-- Triggers -->
-  <ModOp GUID="130248" Type="addNextSibling"> 
-    <Asset>
-        <Template>Trigger</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505513</GUID>
-            <Name>Creative Trigger</Name>
-          </Standard>
-          <Trigger>
-            <TriggerCondition>
-              <Values>
-                <ConditionPropsNegatable />
-                <Condition />
-                <ConditionIsCreativeMode />
-              </Values>
-              <Template>ConditionIsCreativeMode</Template>
-            </TriggerCondition>
-            <TriggerActions>
-              <Item>
-                <TriggerAction>
-                  <Template>ActionUnlockAsset</Template>
-                  <Values>
-                    <Action />
-                    <ActionUnlockAsset>
-                      <UnlockAssets>
-                        <Item>
-                          <Asset>2143505515</Asset>
-                        </Item>
-                      </UnlockAssets>
-                    </ActionUnlockAsset>
-                  </Values>
-                </TriggerAction>
-              </Item>
-            </TriggerActions>
-            <ResetTrigger>
-              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-              <Values>
-                <EmptyAutoCreateValue />
-              </Values>
-            </ResetTrigger>
-          </Trigger>
-          <TriggerSetup />
-        </Values>
-    </Asset>
-  </ModOp>
-
   <!-- # Start - Buildings -->
   <ModOp GUID="190761" Type="addNextSibling">
     <Asset>

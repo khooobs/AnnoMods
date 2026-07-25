@@ -3,6 +3,7 @@
   <Include File="./sifter.include.xml" />
   <Include File="./menu.include.xml" />
   <Include File="./quarry.include.xml" />
+  <Include File="./unlocks.include.xml" />
   <Include File="./workshop-tier2.include.xml" />
   <Include File="./workshop-tier3.include.xml" />
 
