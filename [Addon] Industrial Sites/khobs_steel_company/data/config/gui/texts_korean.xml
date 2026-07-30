@@ -33,8 +33,15 @@
       <Text>철강 생산에 전념하는 추가 작업장.</Text>
     </Text>
     <Text>
+      <GUID>2143505511</GUID>
+      <Text>[AssetData(2143505510) Text]
+        
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 3 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+    <Text>
       <GUID>2143505553</GUID>
-      <Text>광석 창고 요구</Text>
+      <Text>Processing ores</Text>
     </Text>
     <Text>
       <GUID>2143505559</GUID>
@@ -51,10 +58,6 @@
     <Text>
       <GUID>2143505584</GUID>
       <Text>Railway Industries</Text>
-    </Text>
-    <Text>
-      <GUID>2143505585</GUID>
-      <Text>주조소가 추가 강철 빔을 생산할 수 있게 하지만, 전체 효율은 감소합니다.</Text>
     </Text>
     <Text>
       <GUID>2143505557</GUID>

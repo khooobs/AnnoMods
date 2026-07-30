@@ -33,8 +33,15 @@
       <Text>Modul zur Stahlproduktion</Text>
     </Text>
     <Text>
+      <GUID>2143505511</GUID>
+      <Text>[AssetData(2143505510) Text]
+        
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 3 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+    <Text>
       <GUID>2143505553</GUID>
-      <Text>Erzdepot erforderlich</Text>
+      <Text>Processing ores</Text>
     </Text>
     <Text>
       <GUID>2143505559</GUID>
@@ -51,10 +58,6 @@
     <Text>
       <GUID>2143505584</GUID>
       <Text>Railway Industries</Text>
-    </Text>
-    <Text>
-      <GUID>2143505585</GUID>
-      <Text>Ermöglicht Gießereien, zusätzliche Stahlträger herzustellen, allerdings auf Kosten der Gesamteffizienz.</Text>
     </Text>
     <Text>
       <GUID>2143505557</GUID>

@@ -33,8 +33,15 @@
       <Text>附加车间，专门用于钢铁生产。</Text>
     </Text>
     <Text>
+      <GUID>2143505511</GUID>
+      <Text>[AssetData(2143505510) Text]
+        
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 3 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+    <Text>
       <GUID>2143505553</GUID>
-      <Text>需要矿石仓库</Text>
+      <Text>Processing ores</Text>
     </Text>
     <Text>
       <GUID>2143505559</GUID>
@@ -53,12 +60,14 @@
       <Text>Railway Industries</Text>
     </Text>
     <Text>
-      <GUID>2143505585</GUID>
-      <Text>使铸造厂能够生产更多钢梁，但整体效率会降低。</Text>
-    </Text>
-    <Text>
       <GUID>2143505557</GUID>
       <Text>Pig Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>[AssetData(2143505620) Text]
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 3 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
     </Text>
   </ModOp>
 </ModOps>

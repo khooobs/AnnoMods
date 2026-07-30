@@ -24,6 +24,9 @@
           <GUID>2143505508</GUID>
           <Name>Blast Furnace Description</Name>
         </Standard>
+        <Text>
+          <TextOverride>11143</TextOverride>
+        </Text>
       </Values>
     </Asset>
     <Asset>
@@ -49,8 +52,20 @@
       <Template>Text</Template>
       <Values>
         <Standard>
-          <GUID>2143505585</GUID>
-          <Name>Beam Production Description</Name>
+          <GUID>2143505505</GUID>
+          <Name>Steel Sheet Warehouse Description</Name>
+        </Standard>
+        <Text>
+          <TextOverride>11143</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505511</GUID>
+          <Name>Blast Furnace Workshop - Gameplay Description</Name>
         </Standard>
       </Values>
     </Asset>
@@ -58,8 +73,8 @@
       <Template>Text</Template>
       <Values>
         <Standard>
-          <GUID>2143505505</GUID>
-          <Name>Steel Sheet Warehouse Description</Name>
+          <GUID>2143505512</GUID>
+          <Name>Steel Foundry Description</Name>
         </Standard>
         <Text>
           <TextOverride>11143</TextOverride>
