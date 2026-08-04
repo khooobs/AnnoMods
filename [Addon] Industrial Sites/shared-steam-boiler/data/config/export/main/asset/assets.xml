@@ -1,0 +1,344 @@
+<ModOps>
+  <!-- START - Boiler Buildings -->
+  <ModOp Type="addNextSibling" GUID="1010315">
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506000</GUID>
+          <Name>Steam Boiler</Name>
+          <IconFilename>data/ui/khobs/icon_steam_boiler.png</IconFilename>
+          <InfoDescription>2143506001</InfoDescription>
+        </Standard>
+      <Building>
+        <BuildingType>Factory</BuildingType>
+        <BuildingCategoryName>100000</BuildingCategoryName>
+      </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/khobs/steamboiler/steamboiler.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010226</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1742100242</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>30</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143506002</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>12</ProductionBuffDistance><!-- Powerplant w dirt road: 33, stone road: 49 -->
+        </BuffFactory>
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Boiler Buildings -->
+   
+  <!-- START - Boiler Chain -->
+  <ModOp Type="addNextSibling" GUID="1010315">
+    <Asset>
+	    <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506008</GUID>
+          <Name>Steam boiler chain</Name>
+          <IconFilename>data/ui/khobs/icon_steam_boiler.png</IconFilename>
+          <InfoDescription>2143506001</InfoDescription>
+        </Standard>
+        <ProductionChain>
+          <Building>2143506000</Building>
+          <Tier1>
+            <Item>
+              <Building>1010304</Building>
+              <Tier2>
+                <Item>
+                  <Building>1010298</Building>
+                </Item>
+              </Tier2>
+            </Item>
+            <Item>
+              <Building>1742100240</Building>
+            </Item>
+          </Tier1>
+          <InfoTipHeight>600</InfoTipHeight>
+        </ProductionChain>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Boiler Chain -->
+
+  <!-- START - Buffs -->
+  <ModOp Type="addNextSibling" GUID="1010315">
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506002</GUID>
+          <Name>Steam Boiler Buff</Name>
+          <IconFilename>data/ui/khobs/icon_steam_01.png</IconFilename>
+          <InfoDescription>2143506003</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>193856</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade>
+          <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Buffs -->
+
+  <!-- START - Texts -->
+  <ModOp Type="addNextSibling" GUID="11143">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506003</GUID>
+          <Name>Steam Boiler Buff Explanation Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506001</GUID>
+          <Name>Steam Boiler Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506004</GUID>
+          <Name>Steam Possible Text</Name>
+          <IconFilename>data/ui/khobs/icon_steam_01.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506005</GUID>
+          <Name>Steam Explanation Text</Name>
+        </Standard>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Texts -->
+
+  <!-- Triggers -->
+  <ModOp GUID="130248" Type="addNextSibling">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506006</GUID>
+          <Name>Creative Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Values>
+              <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+            <Template>ConditionIsCreativeMode</Template>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143506008</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143506000</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1742100242</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1742100240</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506007</GUID>
+          <Name>Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>500</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143506008</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143506000</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1742100242</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1742100240</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp GUID="25000191" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[position()=1][1]">
+    <Item>
+      <Building>2143506008</Building>
+    </Item>
+  </ModOp>    
+</ModOps>
