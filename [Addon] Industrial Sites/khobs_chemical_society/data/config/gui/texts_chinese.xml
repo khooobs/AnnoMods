@@ -53,24 +53,8 @@
       <Text>化学工业模块</Text>
     </Text>
     <Text>
-      <GUID>2143505720</GUID>
-      <Text>汽水</Text>
-    </Text>
-    <Text>
       <GUID>2143505721</GUID>
       <Text>化工厂：苏打</Text>
-    </Text>
-    <Text>
-      <GUID>2143505724</GUID>
-      <Text>需要物流仓库</Text>
-    </Text>
-    <Text>
-      <GUID>2143505725</GUID>
-      <Text>需要物流仓库</Text>
-    </Text>
-    <Text>
-      <GUID>2143505835</GUID>
-      <Text>需要物流仓库</Text>
     </Text>
     <Text>
       <GUID>2143505836</GUID>
@@ -83,22 +67,6 @@
     <Text>
       <GUID>2143505838</GUID>
       <Text>需要物流仓库</Text>
-    </Text>
-    <Text>
-      <GUID>2143505839</GUID>
-      <Text>需要物流仓库</Text>
-    </Text>
-    <Text>
-      <GUID>2143505726</GUID>
-      <Text>后勤仓库</Text>
-    </Text>
-    <Text>
-      <GUID>2143505727</GUID>
-      <Text>后勤仓库</Text>
-    </Text>
-    <Text>
-      <GUID>2143505728</GUID>
-      <Text>后勤仓库</Text>
     </Text>
     <Text>
       <GUID>2143505729</GUID>
@@ -119,10 +87,6 @@
     <Text>
       <GUID>2143505733</GUID>
       <Text>石化实验</Text>
-    </Text>
-    <Text>
-      <GUID>2143505734</GUID>
-      <Text>后勤仓库</Text>
     </Text>
     <Text>
       <GUID>2143505739</GUID>
@@ -153,18 +117,6 @@
       <Text>所有化学仓库</Text>
     </Text>
     <Text>
-      <GUID>2143505847</GUID>
-      <Text>准备生产洗发水</Text>
-    </Text>
-    <Text>
-      <GUID>2143505848</GUID>
-      <Text>准备制作柠檬水</Text>
-    </Text>
-    <Text>
-      <GUID>2143505849</GUID>
-      <Text>准备制作纪念品</Text>
-    </Text>
-    <Text>
       <GUID>2143505850</GUID>
       <Text>准备生产漆器</Text>
     </Text>
@@ -175,10 +127,6 @@
     <Text>
       <GUID>2143505852</GUID>
       <Text>准备生产乙醇</Text>
-    </Text>
-    <Text>
-      <GUID>2143505853</GUID>
-      <Text>准备生产汽水</Text>
     </Text>
     <Text>
       <GUID>2143505556</GUID>

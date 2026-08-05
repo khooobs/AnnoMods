@@ -53,24 +53,8 @@
       <Text>Модуль химической промышленности</Text>
     </Text>
     <Text>
-      <GUID>2143505720</GUID>
-      <Text>Газировка</Text>
-    </Text>
-    <Text>
       <GUID>2143505721</GUID>
       <Text>Химический завод: сода</Text>
-    </Text>
-    <Text>
-      <GUID>2143505724</GUID>
-      <Text>Требуется логистический депо</Text>
-    </Text>
-    <Text>
-      <GUID>2143505725</GUID>
-      <Text>Требуется логистический депо</Text>
-    </Text>
-    <Text>
-      <GUID>2143505835</GUID>
-      <Text>Требуется логистический депо</Text>
     </Text>
     <Text>
       <GUID>2143505836</GUID>
@@ -87,18 +71,6 @@
     <Text>
       <GUID>2143505839</GUID>
       <Text>Требуется логистический депо</Text>
-    </Text>
-    <Text>
-      <GUID>2143505726</GUID>
-      <Text>Логистический депо</Text>
-    </Text>
-    <Text>
-      <GUID>2143505727</GUID>
-      <Text>Логистический депо</Text>
-    </Text>
-    <Text>
-      <GUID>2143505728</GUID>
-      <Text>Логистический депо</Text>
     </Text>
     <Text>
       <GUID>2143505729</GUID>
@@ -119,10 +91,6 @@
     <Text>
       <GUID>2143505733</GUID>
       <Text>Нефтехимические эксперименты</Text>
-    </Text>
-    <Text>
-      <GUID>2143505734</GUID>
-      <Text>Логистический депо</Text>
     </Text>
     <Text>
       <GUID>2143505739</GUID>
@@ -153,18 +121,6 @@
       <Text>Все химические склады</Text>
     </Text>
     <Text>
-      <GUID>2143505847</GUID>
-      <Text>Готов к производству шампуня</Text>
-    </Text>
-    <Text>
-      <GUID>2143505848</GUID>
-      <Text>Готов к производству лимонада</Text>
-    </Text>
-    <Text>
-      <GUID>2143505849</GUID>
-      <Text>Готов к выпуску сувенира</Text>
-    </Text>
-    <Text>
       <GUID>2143505850</GUID>
       <Text>Готов к производству лака</Text>
     </Text>
@@ -175,10 +131,6 @@
     <Text>
       <GUID>2143505852</GUID>
       <Text>Готов к производству этанола</Text>
-    </Text>
-    <Text>
-      <GUID>2143505853</GUID>
-      <Text>Готов к производству газировки</Text>
     </Text>
     <Text>
       <GUID>2143505556</GUID>

@@ -53,24 +53,8 @@
       <Text>Modulo sull'Industria Chimica</Text>
     </Text>
     <Text>
-      <GUID>2143505720</GUID>
-      <Text>Soda</Text>
-    </Text>
-    <Text>
       <GUID>2143505721</GUID>
       <Text>Impianto chimico: soda</Text>
-    </Text>
-    <Text>
-      <GUID>2143505724</GUID>
-      <Text>Necessita del deposito logistico</Text>
-    </Text>
-    <Text>
-      <GUID>2143505725</GUID>
-      <Text>Necessita del deposito logistico</Text>
-    </Text>
-    <Text>
-      <GUID>2143505835</GUID>
-      <Text>Necessita del deposito logistico</Text>
     </Text>
     <Text>
       <GUID>2143505836</GUID>
@@ -83,22 +67,6 @@
     <Text>
       <GUID>2143505838</GUID>
       <Text>Necessita del deposito logistico</Text>
-    </Text>
-    <Text>
-      <GUID>2143505839</GUID>
-      <Text>Necessita del deposito logistico</Text>
-    </Text>
-    <Text>
-      <GUID>2143505726</GUID>
-      <Text>Deposito Logistico</Text>
-    </Text>
-    <Text>
-      <GUID>2143505727</GUID>
-      <Text>Deposito Logistico</Text>
-    </Text>
-    <Text>
-      <GUID>2143505728</GUID>
-      <Text>Deposito Logistico</Text>
     </Text>
     <Text>
       <GUID>2143505729</GUID>
@@ -119,10 +87,6 @@
     <Text>
       <GUID>2143505733</GUID>
       <Text>Sperimentazioni petrolchimiche</Text>
-    </Text>
-    <Text>
-      <GUID>2143505734</GUID>
-      <Text>Deposito Logistico</Text>
     </Text>
     <Text>
       <GUID>2143505739</GUID>
@@ -153,18 +117,6 @@
       <Text>Tutti i depositi chimici</Text>
     </Text>
     <Text>
-      <GUID>2143505847</GUID>
-      <Text>Shampoo pronto a produrre</Text>
-    </Text>
-    <Text>
-      <GUID>2143505848</GUID>
-      <Text>Limonata pronta a produrre</Text>
-    </Text>
-    <Text>
-      <GUID>2143505849</GUID>
-      <Text>Pronto a produrre Souvenir</Text>
-    </Text>
-    <Text>
       <GUID>2143505850</GUID>
       <Text>Pronto per produrre lacca</Text>
     </Text>
@@ -175,10 +127,6 @@
     <Text>
       <GUID>2143505852</GUID>
       <Text>Pronto per produrre etanolo</Text>
-    </Text>
-    <Text>
-      <GUID>2143505853</GUID>
-      <Text>Pronto a produrre soda</Text>
     </Text>
     <Text>
       <GUID>2143505556</GUID>

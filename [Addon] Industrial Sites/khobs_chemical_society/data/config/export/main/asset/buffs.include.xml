@@ -104,39 +104,6 @@
       <Template>GuildhouseBuff</Template>
       <Values>
         <Standard>
-          <GUID>2143505853</GUID>
-          <Name>Depot - Module - Soda - Buff</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
-        </Standard>
-        <ItemEffect />
-        <FactoryUpgrade>
-          <InputAmountUpgrade>
-            <Item>
-              <Product>2143505839</Product>
-              <Amount>-1</Amount>
-            </Item>
-          </InputAmountUpgrade>
-        </FactoryUpgrade>
-        <BuildingUpgrade />
-        <Buff />
-        <CultureUpgrade>
-          <HideBuff>1</HideBuff>
-        </CultureUpgrade>
-        <ModuleOwnerUpgrade />
-        <IncidentInfectableUpgrade />
-        <PowerplantUpgrade />
-        <IndustrializableUpgrade />
-        <ItemContainerUpgrade />
-        <IncidentInfluencerUpgrade />
-        <IrrigationUpgrade />
-        <EcoSystemProviderUpgrade />
-        <ResourceUpgrade />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>GuildhouseBuff</Template>
-      <Values>
-        <Standard>
           <GUID>2143505733</GUID>
           <Name>Depot - Compound - Boost - Buff</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
@@ -228,26 +195,6 @@
         </EffectContainer>
         <Text>
           <TextOverride>2143505852</TextOverride>
-        </Text>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>EffectContainer</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505846</GUID>
-          <Name>Depot - Module - Soda - Container</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_logistic_depot.png</IconFilename>
-        </Standard>
-        <EffectContainer>
-          <Effects>
-            <Item>
-              <Effect>2143505853</Effect>
-            </Item>
-          </Effects>
-        </EffectContainer>
-        <Text>
-          <TextOverride>2143505853</TextOverride>
         </Text>
       </Values>
     </Asset>
