@@ -100,12 +100,6 @@
               <Building>2143505700</Building>
             </Item>
             <Item>
-              <Building>2143505709</Building>
-            </Item>
-            <Item>
-              <Building>2143505711</Building>
-            </Item>
-            <Item>
               <Building>2143505713</Building>
             </Item>
           </BuildingList>
@@ -115,4 +109,19 @@
     </Asset>
   </ModOp>
   <!-- END - Chemical Menu -->
+
+
+  <ModOp Type="remove" GUID="500447" Path="/Values/ConstructionCategory/BuildingList/Item[Building='137606']" Condition="!~/Values/ConstructionCategory/BuildingList/Item[Building='2143505711']"></ModOp>
+  <ModOp Type="addPrevSibling" GUID="500447" Path="/Values/ConstructionCategory/BuildingList/Item[Building='137601']" Condition="!~/Values/ConstructionCategory/BuildingList/Item[Building='2143505711']">
+    <Item>
+      <Building>2143505888</Building>
+    </Item>
+  </ModOp>
+  
+  <ModOp Type="remove" GUID="500447" Path="/Values/ConstructionCategory/BuildingList/Item[Building='137603']" Condition="!~/Values/ConstructionCategory/BuildingList/Item[Building='2143505889']"></ModOp>
+  <ModOp Type="addNextSibling" GUID="500447" Path="/Values/ConstructionCategory/BuildingList/Item[Building='137599']" Condition="!~/Values/ConstructionCategory/BuildingList/Item[Building='2143505889']">
+    <Item>
+      <Building>2143505889</Building>
+    </Item>
+  </ModOp>
 </ModOps>
