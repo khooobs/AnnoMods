@@ -7,6 +7,8 @@
   <Include File="factories.include.xml" />
   <Include File="products.include.xml" />
   <Include File="pools.include.xml" />
+  <Include File="chains.include.xml" />
+ 
 
   <!-- START - Industrial Cities Menu Integration -->
   <Group Condition="#jakob-modular-factories">
@@ -92,6 +94,12 @@
         <ConstructionCategory>
           <BuildingList>
             <Item>
+              <Building>2143505886</Building>
+            </Item>
+            <Item>
+              <Building>2143505700</Building>
+            </Item>
+            <Item>
               <Building>2143505709</Building>
             </Item>
             <Item>
@@ -99,9 +107,6 @@
             </Item>
             <Item>
               <Building>2143505713</Building>
-            </Item>
-            <Item>
-              <Building>2143505700</Building>
             </Item>
           </BuildingList>
           <CategoryDescription>2143505402</CategoryDescription>

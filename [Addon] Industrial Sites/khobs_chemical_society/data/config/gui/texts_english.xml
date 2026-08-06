@@ -203,5 +203,17 @@
       <GUID>2143506125</GUID>
       <Text>Chemical Industries</Text>
     </Text>
+    
+    <Text>
+      <GUID>2143505885</GUID>
+      <Text>Sulfuric Acid</Text>
+    </Text>
+    <Text>
+      <GUID>2143505886</GUID>
+      <Text>Sulfuric Acid Plant</Text>
+    </Text>
+
+
+    
   </ModOp>
 </ModOps>

@@ -1,0 +1,66 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>硫磺</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>制硫模块</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>当这个模块放置在旧世界铁、铜、锌矿采矿场的旁边时，它们会产生额外的硫。需要煤作为输入。</Text>
+		</Text>
+		<Text>
+			<GUID>1500302350</GUID>
+			<Text>铁矿和铝矾土矿若放置在该模块旁边，会额外产出硫磺。需要煤作为输入 </Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>矿井模块</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>硫化物烘烤车间</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>铁、铜和锌矿石经过几个小时的焙烧可以得到二氧化硫。</Text>
+		</Text>
+		<Text>
+			<GUID>1500302352</GUID>
+			<Text>将含硫铁矿石和铝矾土矿石焙烧数小时，就能获得二氧化硫。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>1500302570</GUID>
+			<Text>硫磺坑</Text>
+		</Text>
+		<Text>
+			<GUID>1500302572</GUID>
+			<Text>用完的存款</Text>
+		</Text>
+		<Text>
+			<GUID>1500302573</GUID>
+			<Text>如果建造的硫磺坑超过 5 个，岛上的储量就会消耗殆尽，所有硫磺坑都将停止使用。</Text>
+		</Text>
+		<Text>
+			<GUID>1500302574</GUID>
+			<Text>[AssetData(11143) Text]&#xA;&#xD;&#xA;&#xD;&lt;b&gt;[AssetData(1500302573) Text]&lt;/b&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>1500302359</GUID>
+			<Text>Sulfur Production (Lion053)</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

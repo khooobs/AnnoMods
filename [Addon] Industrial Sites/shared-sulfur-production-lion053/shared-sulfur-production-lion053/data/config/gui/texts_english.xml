@@ -1,0 +1,66 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>Sulfur</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>Sulfur Module</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>Iron, copper and zinc mines produce sulfur as extra output, when this module is placed next to them. Requires coal as input.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302350</GUID>
+			<Text>Iron, and bauxit mines produce sulfur as extra output, when this module is placed next to them. Requires coal as input.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>Mine Module</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>Roasting Sulfidic Ore</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>Sulfur dioxide can be obtained from sulfidic iron, copper and zinc ores by roasting them for several hours.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302352</GUID>
+			<Text>Sulfur dioxide can be obtained from sulfidic iron and bauxit ores by roasting them for several hours.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>1500302570</GUID>
+			<Text>Sulfur Pit</Text>
+		</Text>
+		<Text>
+			<GUID>1500302572</GUID>
+			<Text>Exhausted deposit</Text>
+		</Text>
+		<Text>
+			<GUID>1500302573</GUID>
+			<Text>If more than 5 sulfur pits are built, the island's reserves are depleted to such an extent that all pits cease to function.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302574</GUID>
+			<Text>[AssetData(11143) Text]&#xA;&#xD;&#xA;&#xD;&lt;b&gt;[AssetData(1500302573) Text]&lt;/b&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>1500302359</GUID>
+			<Text>Sulfur Production (Lion053)</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

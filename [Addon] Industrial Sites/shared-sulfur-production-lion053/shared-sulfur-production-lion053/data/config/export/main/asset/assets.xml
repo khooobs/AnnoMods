@@ -1,0 +1,977 @@
+<!-- Sulfur Production (Lion053) -->
+
+<!-- How to use -->
+<!-- Include this shared mod as a sub mod into your main mod's data folder. -->
+<!-- Add the module guid to your production chain if you want to use the predefined building (as is, no customization in your mod!). -->
+<!-- Define unlocks in your own mod -->
+<!-- Please do not change values here! -->
+
+<ModOps>
+
+<!-- # Mod Category -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="1010225">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1500302359</GUID>
+            <Name>Sulfur Production (Lion053)</Name>
+          </Standard>
+        </Values>
+      </Asset>
+  </ModOp>
+</Group>
+
+<!-- # Product Sulfur-->
+<Group>
+  <ModOp Type="addNextSibling" GUID="1010225">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115089</GUID>
+          <Name>Sulfur</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\sulfur_production\icon_sulfur.png</IconFilename>
+          <InfoDescription>11776</InfoDescription>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory>
+          <BasePrice>500</BasePrice>
+          <CivLevel>4</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Product Lists -->
+  <ModOp Type="addPrevSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010222']" Condition="!/Values/ProductStorageList/ProductList/Item[Product='2100115089']">
+    <Item>
+      <Product>2100115089</Product>
+    </Item>
+  </ModOp>
+  <ModOp Type="addPrevSibling" GUID="502007,502020,502066,502043" Path="/Values/ProductList/List/Item[Product='1010222']" Condition="!/Values/ProductList/List/Item[Product='2100115089']">
+    <Item>
+      <Product>2100115089</Product>
+    </Item>
+  </ModOp>
+</Group>
+
+<!-- # Sulfur Module -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="1010310">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115090</GUID>
+          <Name>Sulfur Module</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\sulfur_production\icon_sulfur.png</IconFilename>
+          <InfoDescription>2100115091</InfoDescription>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <!-- if product shows max. int value in docklands, probably no region is assigned to its main factory -->
+          <BuildingCategoryName>1500302359</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\sulfur_module\mining_sulfur_module_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>3500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>279511</Sound>
+            </Item>
+            <Item>
+              <Sound>216871</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010226</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>90</CycleTime>
+          <MissingConnectionInfolayer>500449</MissingConnectionInfolayer>
+          <IsMainFactory>0</IsMainFactory>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterAsset>120028</TransporterAsset>
+          <TransporterCountMax>1</TransporterCountMax>
+        </LogisticNode>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>150</Amount>
+              <InactiveAmount>100</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>10</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList />
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2100115093</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>5</ProductionBuffDistance>
+        </BuffFactory>
+        <Culture>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-5</Attractiveness>
+        </Culture>
+      </Values>
+    </Asset>
+    <Asset>
+      <BaseAssetGUID>2100115090</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1500302351</GUID>
+          <Name>Sulfur Module Colony01</Name>
+          <InfoDescription>1500302350</InfoDescription>
+        </Standard>
+        <Text>
+          <TextOverride>2100115090</TextOverride>
+        </Text>
+        <Building>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\sulfur_module_colony01\mining_sulfur_module_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>3500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>150</Amount>
+              <InactiveAmount>100</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010367</Product>
+              <Amount>10</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>1500302353</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Sulfur Module Buff -->
+  <ModOp Type="addNextSibling" GUID="135117">
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115093</GUID>
+          <Name>Roasting Sulfidic Ore</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\sulfur_production\icon_sulfur.png</IconFilename>
+          <InfoDescription>2100115094</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010305</GUID>
+            </Item>
+            <Item>
+              <GUID>1010308</GUID>
+            </Item>
+            <Item>
+              <GUID>1010307</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Percental>1</Percental>
+            <Value>10</Value>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <Buff />
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>2100115089</Product>
+              <Amount>1</Amount>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade />
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <BaseAssetGUID>2100115093</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1500302353</GUID>
+          <Name>Roasting Sulfidic Ore Colony01</Name>
+          <InfoDescription>1500302352</InfoDescription>
+        </Standard>
+        <Text>
+          <TextOverride>2100115093</TextOverride>
+        </Text>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1388</GUID>
+            </Item>
+            <Item>
+              <GUID>1308</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Sulfur output to Gritty Gas Extractor Item -->
+  <ModOp Type="add" GUID="116167" Path="/Values/FactoryUpgrade/AdditionalOutput" Condition="!/Values/FactoryUpgrade/AdditionalOutput[Item/Product='2100115089']">
+    <Item>
+      <Product>2100115089</Product>
+      <AdditionalOutputCycle>8</AdditionalOutputCycle>
+      <Amount>1</Amount>
+    </Item>
+  </ModOp>
+  <!-- Spawn Feedback -->
+  <ModOp Type="add" GUID="142313" Path="/Values/FeedbackBuildingGroup/Buildings" Condition="!/Values/FeedbackBuildingGroup/Buildings[Item/Building='2100115090']">
+    <Item>
+      <Building>2100115090</Building>
+    </Item>
+    <Item>
+      <Building>1500302351</Building>
+    </Item>
+  </ModOp>
+</Group>
+
+<!-- # Sulfur Pit -->
+<Group>
+  <!-- New Entries by Kurila -->
+    <Group>
+      <ModOp Type="addNextSibling" GUID="100416">
+        <Asset>
+          <Template>FactoryBuilding7</Template>
+          <Values>
+            <Standard>
+              <GUID>1500302570</GUID>
+              <Name>Sulfur_Pit</Name>
+              <IconFilename>data\ui\2kimages\main\3dicons\sulfur_production\icon_sulfur.png</IconFilename>
+              <InfoDescription>1500302574</InfoDescription>
+            </Standard>
+            <Building>
+              <BuildModeRandomRotation>90</BuildModeRandomRotation>
+              <AssociatedRegions>Africa</AssociatedRegions>
+              <BuildingCategoryName>1500302359</BuildingCategoryName>
+            </Building>
+            <Blocking>
+              <RemoveGrass>1</RemoveGrass>
+            </Blocking>
+            <Cost>
+              <Costs>
+                <Item>
+                  <Ingredient>1010017</Ingredient>
+                  <Amount>1000</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>114356</Ingredient>
+                  <Amount>10</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>114402</Ingredient>
+                  <Amount>10</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010218</Ingredient>
+                  <Amount>5</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010207</Ingredient>
+                </Item>
+                <Item>
+                  <Ingredient>1010202</Ingredient>
+                </Item>
+              </Costs>
+            </Cost>
+            <Object>
+              <Variations>
+                <Item>
+                  <Filename>data/graphics/mod_buildings/sulfur_pit/sulfur_pit.cfg</Filename>
+                </Item>
+              </Variations>
+              <Skins>
+                <DefaultSkinName>1500302570</DefaultSkinName>
+                <DefaultSkinDescription>23853</DefaultSkinDescription>
+                <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+              </Skins>
+            </Object>
+            <Selection>
+              <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ActionList/>
+                </Values>
+              </OnSelection>
+              <ParticipantMessageArcheType>Africa_Resident_tier02</ParticipantMessageArcheType>
+              <Colors>
+                <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+              </Colors>
+            </Selection>
+            <SoundEmitter>
+              <ActiveSounds>
+                <Item>
+                  <Sound>216871</Sound>
+                </Item>
+                <Item>
+                  <Sound>239709</Sound>
+                </Item>
+              </ActiveSounds>
+              <IncidentSounds>
+                <InfectedFire>
+                  <Item>
+                    <Sound>214659</Sound>
+                  </Item>
+                </InfectedFire>
+              </IncidentSounds>
+              <BuildingRepaired>
+                <Item>
+                  <Sound>203866</Sound>
+                </Item>
+              </BuildingRepaired>
+              <MaterialType>Soil</MaterialType>
+            </SoundEmitter>
+            <FactoryBase>
+              <FactoryInputs>
+                <Item>
+                  <Product>1500302579</Product>
+                  <StorageAmount>12</StorageAmount>
+                </Item>
+              </FactoryInputs>
+              <FactoryOutputs>
+                <Item>
+                  <Product>2100115089</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+              </FactoryOutputs>
+              <IsMainFactory>0</IsMainFactory>
+            </FactoryBase>
+            <AmbientMoodProvider>
+              <Murmur>Factory</Murmur>
+            </AmbientMoodProvider>
+            <Maintenance>
+              <Maintenances>
+                <Item>
+                  <Product>1010017</Product>
+                  <Amount>100</Amount>
+                  <InactiveAmount>50</InactiveAmount>
+                </Item>
+                <Item>
+                  <Product>114341</Product>
+                  <Amount>50</Amount>
+                </Item>
+              </Maintenances>
+            </Maintenance>
+            <Attackable>
+              <AttackableType>IslandBuilding</AttackableType>
+              <MaximumHitPoints>2750</MaximumHitPoints>
+              <SelfHealPerHealTick>6</SelfHealPerHealTick>
+            </Attackable>
+            <IncidentInfectable>
+              <Infectable>
+                <Illness>
+                  <Escalated>0</Escalated>
+                </Illness>
+                <Explosion>
+                  <Base>0</Base>
+                  <Escalated>0</Escalated>
+                </Explosion>
+              </Infectable>
+              <Explosion>
+                <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                <DamageExplosionChance>0</DamageExplosionChance>
+              </Explosion>
+              <IncidentInfectionChanceFactors>
+                <Fire>
+                  <DensityDistance>20</DensityDistance>
+                  <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                  <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                </Fire>
+                <Riot>
+                  <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                  <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                  <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                  <HappinessThreshold>20</HappinessThreshold>
+                </Riot>
+                <Explosion>
+                  <BaseChance>0</BaseChance>
+                </Explosion>
+              </IncidentInfectionChanceFactors>
+            </IncidentInfectable>
+            <Culture>
+              <CultureType>Culture</CultureType>
+            </Culture>
+            <Industrializable>
+              <BoostedByIndustrialization>0</BoostedByIndustrialization>
+            </Industrializable>
+          </Values>
+        </Asset>
+        
+        <Asset>
+          <Template>GuildhouseBuff</Template>
+          <Values>
+            <Standard>
+              <GUID>1500302572</GUID>
+              <Name>To_Many_Pits_Buff</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+            </Standard>
+            <ItemEffect>
+              <EffectTargets>
+                <Item>
+                  <GUID>1500302570</GUID>
+                </Item>
+              </EffectTargets>
+              <AllowStacking>0</AllowStacking>
+            </ItemEffect>
+            <FactoryUpgrade>
+              <ProductivityUpgrade>
+                <Value>-1000</Value>
+                <Percental>1</Percental>
+              </ProductivityUpgrade>
+            </FactoryUpgrade>
+          </Values>
+        </Asset>
+
+        <Asset>
+          <Template>Text</Template>
+          <Values>
+            <Standard>
+              <GUID>1500302573</GUID>
+              <Name>Hint_Sulfur_Pit</Name>
+            </Standard>
+          </Values>
+        </Asset>
+
+        <Asset>
+          <Template>Text</Template>
+          <Values>
+            <Standard>
+              <GUID>1500302574</GUID>
+              <Name>InfoDesc_Sulfur_Pit</Name>
+            </Standard>
+          </Values>
+        </Asset>
+
+        <Asset>
+          <Template>Product</Template>
+          <Values>
+            <Standard>
+              <GUID>1500302579</GUID>
+              <Name>FakeInputMineralResource</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+            </Standard>
+            <Text>
+              <TextOverride>1591</TextOverride>
+            </Text>
+            <Locked/>
+            <Product>
+              <DeltaOnly>1</DeltaOnly>
+              <IsAbstract>1</IsAbstract>
+              <AssociatedRegion>Arctic</AssociatedRegion>
+              <HideInUI>0</HideInUI>
+            </Product>
+            <ExpeditionAttribute/>
+          </Values>
+        </Asset>
+
+        <Asset>
+          <Template>Trigger</Template>
+          <Values>
+            <Standard>
+              <GUID>1500302571</GUID>
+              <Name>Unlock_Trigger_1_Elders</Name>
+            </Standard>
+            <Trigger>
+              <TriggerCondition>
+                <Template>ConditionPlayerCounter</Template>
+                <Values>
+                  <Condition />
+                  <ConditionPlayerCounter>
+                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                    <Context>114330</Context>
+                    <CounterAmount>1</CounterAmount>
+                  </ConditionPlayerCounter>
+                </Values>
+              </TriggerCondition>
+              <TriggerActions>
+                <Item>
+                  <TriggerAction>
+                    <Template>ActionUnlockAsset</Template>
+                    <Values>
+                      <Action />
+                      <ActionUnlockAsset>
+                        <UnlockAssets>
+                          <Item>
+                            <Asset>1500302570</Asset>
+                          </Item>
+                        </UnlockAssets>
+                      </ActionUnlockAsset>
+                    </Values>
+                  </TriggerAction>
+                </Item>
+              </TriggerActions>
+            </Trigger>
+            <TriggerSetup />
+          </Values>
+        </Asset>
+      </ModOp>
+    </Group>
+    <!-- Too many pits mechanic -->
+    <Group>
+      <ModOp Type="addNextSibling" GUID="152264">
+        <Asset>
+          <Template>BuffFactoryDummy_WithOwner</Template>
+          <Values>
+            <Standard>
+              <GUID>1500302575</GUID>
+              <Name>BuffFactory_To_Many_Pits_Buff</Name>
+            </Standard>
+            <BuffFactory>
+              <BaseBuff>1500302572</BaseBuff>
+              <BaseBuffScope>Area</BaseBuffScope>
+            </BuffFactory>
+            <LogisticNode />
+            <Pausable />
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>A7_QuestDummyQuest</Template>
+          <Values>
+            <Standard>
+              <GUID>1500302576</GUID>
+              <Name>Activate_BuffFactory_To_Many_Pits_Buff</Name>
+            </Standard>
+            <Quest>
+              <OnQuestStart>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ActionList>
+                    <Actions>
+                      <Item>
+                        <Action>
+                          <Template>ActionSpawnObjects</Template>
+                          <Values>
+                            <Action />
+                            <ActionSpawnObjects>
+                              <SpawnGUID>1500302575</SpawnGUID>
+                              <Amount>1</Amount>
+                              <OwnerIsProcessingParticipant>1</OwnerIsProcessingParticipant>
+                            </ActionSpawnObjects>
+                            <SpawnArea>
+                              <SpawnContext>ForceContextPosition</SpawnContext>
+                              <MatcherGUID>1500004905</MatcherGUID>
+                              <LimitToQuestArea>1</LimitToQuestArea>
+                            </SpawnArea>
+                            <SessionFilter>
+                              <AllowProcessingSession>0</AllowProcessingSession>
+                              <AllowParentConditionSession>0</AllowParentConditionSession>
+                              <AllowQuestSession>1</AllowQuestSession>
+                              <AllowQuestArea>1</AllowQuestArea>
+                            </SessionFilter>
+                          </Values>
+                        </Action>
+                      </Item>
+                    </Actions>
+                  </ActionList>
+                </Values>
+              </OnQuestStart>
+            </Quest>
+            <PreConditionList>
+              <Condition>
+                <Template>ConditionMutualAreaInSubconditions</Template>
+                <Values>
+                  <Condition />
+                  <ConditionMutualAreaInSubconditions />
+                </Values>
+              </Condition>
+              <SubConditions>
+                <!-- first making sure the island does not have our bufffactory already -->
+                <Item>
+                  <SubCondition>
+                    <Template>PreConditionList</Template>
+                    <Values>
+                      <PreConditionList>
+                        <Condition>
+                          <Template>ConditionPlayerCounter</Template>
+                          <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                              <Context>1500302575</Context>
+                              <CounterAmount>0</CounterAmount>
+                              <ComparisonOp>AtMost</ComparisonOp>
+                              <CounterScope>Area</CounterScope>
+                              <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                            </ConditionPlayerCounter>
+                          </Values>
+                        </Condition>
+                      </PreConditionList>
+                    </Values>
+                  </SubCondition>
+                </Item>
+                <!-- then checking for any ConditionPlayerCounter you want to check for the island -->
+                <Item>
+                  <SubCondition>
+                    <Template>PreConditionList</Template>
+                    <Values>
+                      <PreConditionList>
+                        <Condition>
+                          <Template>ConditionPlayerCounter</Template>
+                          <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                              <PlayerCounter>ObjectBuilt</PlayerCounter>
+                              <Context>1500302570</Context>
+                              <CounterAmount>5</CounterAmount>
+                              <ComparisonOp>MoreThan</ComparisonOp>
+                              <CounterScope>Area</CounterScope>
+                              <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                            </ConditionPlayerCounter>
+                          </Values>
+                        </Condition>
+                      </PreConditionList>
+                    </Values>
+                  </SubCondition>
+                </Item>
+              </SubConditions>
+            </PreConditionList>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>A7_QuestDummyQuest</Template>
+          <Values>
+            <Standard>
+              <GUID>1500302577</GUID>
+              <Name>Deactivate_BuffFactory_To_Many_Pits_Buff</Name>
+            </Standard>
+            <Quest>
+              <OnQuestStart>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ActionList>
+                    <Actions>
+                      <Item>
+                        <Action>
+                          <Template>ActionDeleteObjects</Template>
+                          <Values>
+                            <Action />
+                            <ActionDeleteObjects />
+                            <ObjectFilter>
+                              <ObjectGUID>1500302575</ObjectGUID>
+                              <CheckParticipantID>1</CheckParticipantID>
+                              <CheckProcessingParticipantID>1</CheckProcessingParticipantID>
+                              <CheckQuestArea>1</CheckQuestArea>
+                            </ObjectFilter>
+                          </Values>
+                        </Action>
+                      </Item>
+                    </Actions>
+                  </ActionList>
+                </Values>
+              </OnQuestStart>
+            </Quest>
+            <PreConditionList>
+              <Condition>
+                <Template>ConditionMutualAreaInSubconditions</Template>
+                <Values>
+                  <Condition />
+                  <ConditionMutualAreaInSubconditions />
+                </Values>
+              </Condition>
+              <SubConditions>
+                <!-- first making sure the island does have our bufffactory already -->
+                <Item>
+                  <SubCondition>
+                    <Template>PreConditionList</Template>
+                    <Values>
+                      <PreConditionList>
+                        <Condition>
+                          <Template>ConditionPlayerCounter</Template>
+                          <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                              <Context>1500302575</Context>
+                              <CounterAmount>1</CounterAmount>
+                              <ComparisonOp>AtLeast</ComparisonOp>
+                              <CounterScope>Area</CounterScope>
+                              <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                            </ConditionPlayerCounter>
+                          </Values>
+                        </Condition>
+                      </PreConditionList>
+                    </Values>
+                  </SubCondition>
+                </Item>
+                <!-- then checking for any ConditionPlayerCounter you want to check for the island -->
+                <Item>
+                  <SubCondition>
+                    <Template>PreConditionList</Template>
+                    <Values>
+                      <PreConditionList>
+                        <Condition>
+                          <Template>ConditionPlayerCounter</Template>
+                          <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                              <PlayerCounter>ObjectBuilt</PlayerCounter>
+                              <Context>1500302570</Context>
+                              <CounterAmount>6</CounterAmount>
+                              <ComparisonOp>LessThan</ComparisonOp>
+                              <CounterScope>Area</CounterScope>
+                              <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                            </ConditionPlayerCounter>
+                          </Values>
+                        </Condition>
+                      </PreConditionList>
+                    </Values>
+                  </SubCondition>
+                </Item>
+              </SubConditions>
+            </PreConditionList>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>QuestPool</Template>
+          <Values>
+            <Standard>
+              <GUID>1500302578</GUID>
+              <Name>AlwaysTrue-Pool</Name>
+            </Standard>
+            <QuestPool>
+              <Quests>
+                <Item>
+                  <Quest>1500302576</Quest>
+                </Item>
+                <Item>
+                  <Quest>1500302577</Quest>
+                </Item>
+              </Quests>
+              <PoolCooldown>0</PoolCooldown>
+              <QuestCooldown>0</QuestCooldown>
+              <CooldownOnQuestStart>1</CooldownOnQuestStart>
+              <CooldownOnQuestEnd>1</CooldownOnQuestEnd>
+              <AffectedByCooldownFactor>0</AffectedByCooldownFactor>
+              <IsMainStoryPool>0</IsMainStoryPool>
+              <IsTopLevel>1</IsTopLevel>
+              <QuestLimit>1</QuestLimit>
+            </QuestPool>
+            <Locked>
+              <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+          </Values>
+        </Asset>
+      </ModOp>
+    </Group>
+    <!-- Sulfur Pit to Pools / Lists / Menues / Buffs  -->
+    <Group>
+      <!-- WorkforceMenu -->
+        <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+          <Item>
+            <Factory>1500302570</Factory>
+          </Item>
+        </ModOp>
+      <!-- Feedbacks -->
+        <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+          <Item>
+            <Building>1500302570</Building>
+          </Item>
+        </ModOp>
+      <!-- Effect Pools -->
+        <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='100416']">
+          <Item>
+            <GUID>1500302570</GUID>
+          </Item>
+        </ModOp>
+    </Group>
+    <!-- Enbesa Tourism  -->
+    <Group Condition="#lion053_Enbesa_Tourism">
+      <ModOp Type="merge" GUID="1500302570" Path="/Values">
+        <Culture>
+          <Attractiveness>-10</Attractiveness>
+          <CultureType>Military</CultureType>
+        </Culture>
+      </ModOp>
+    </Group>
+</Group>
+
+<!-- # Enable Dockland Import -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="116029" Condition="!//FactoryBase[FactoryOutputs/Item/Product='2100115089']/IsMainFactory[text()='1']">
+    <Asset>
+      <BaseAssetGUID>116029</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100115721</GUID>
+          <Name>Sulfur Module Fake</Name>
+        </Standard>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010226</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>45</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+          <FactoryOutputs>
+            <!-- if product shows max. int value in docklands, probably no FactoryOutput is defined for this product's main factory -->
+            <Item>
+              <Product>2100115089</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+        </FactoryBase>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>112654</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable>
+          <MandatoryIndustrialization>1</MandatoryIndustrialization>
+        </Industrializable>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" GUID="502236" Path="/Values/ProductList/List" Condition="!/Values/ProductList/List/Item[Product='2100115089']">
+      <Item>
+        <Product>2100115089</Product>
+      </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131815']/TradeLevels/Item[Unlock='131844']/Trades/Item[Good='1010256']"
+         Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='2100115089']">
+      <Item>
+        <Level>Rare</Level>
+        <Good>2100115089</Good>
+      </Item>
+  </ModOp>
+</Group>
+
+</ModOps>

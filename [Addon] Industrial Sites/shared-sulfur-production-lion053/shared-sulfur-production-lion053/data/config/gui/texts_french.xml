@@ -1,0 +1,66 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>Soufre</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>Module soufre</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>Les mines de fer, de cuivre et de zinc produisent du soufre lorsque ce module est placé à côté d'elles. Nécessite du charbon comme intrant.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302350</GUID>
+			<Text>Les mines de fer et de bauxite produisent du soufre en plus lorsque ce module est placé à côté d'elles. Nécessite du charbon en entrée.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>Module Mine</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>Grillage du minerai sulfuré</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>Le dioxyde de soufre peut être obtenu à partir de minerais sulfurés de fer, de cuivre et de zinc en les grillant pendant plusieurs heures.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302352</GUID>
+			<Text>Le dioxyde de soufre peut être obtenu à partir de minerais de fer et de bauxite sulfurés en les grillant pendant plusieurs heures.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>1500302570</GUID>
+			<Text>Fosse à soufre</Text>
+		</Text>
+		<Text>
+			<GUID>1500302572</GUID>
+			<Text>Dépôt épuisé</Text>
+		</Text>
+		<Text>
+			<GUID>1500302573</GUID>
+			<Text>Si plus de 5 puits de soufre sont construits, les réserves de l'île s'épuisent à tel point que tous les puits cessent de fonctionner.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302574</GUID>
+			<Text>[AssetData(11143) Text]&#xA;&#xD;&#xA;&#xD;&lt;b&gt;[AssetData(1500302573) Text]&lt;/b&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>1500302359</GUID>
+			<Text>Sulfur Production (Lion053)</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

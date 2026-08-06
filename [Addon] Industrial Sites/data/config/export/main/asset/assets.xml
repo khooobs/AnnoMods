@@ -139,22 +139,11 @@
     <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500016']">
       <Item>
         <Building>2143506125</Building>
-      </Item>
-    </ModOp>   
-    <ModOp GUID="2143505416" Type="add" Path="Values/ConstructionCategory/BuildingList/">
+      </Item>      
       <Item>
-        <Building>2143506112</Building>
+        <Building>2143505887</Building>
       </Item>
-      <Item>
-        <Building>2143506113</Building>
-      </Item>
-      <Item>
-        <Building>2143506114</Building>
-      </Item>
-      <Item>
-        <Building>2143506115</Building>
-      </Item>
-    </ModOp>
+    </ModOp>  
   </Group>
   <!-- END - Chemical Society - Add to category -->
 
