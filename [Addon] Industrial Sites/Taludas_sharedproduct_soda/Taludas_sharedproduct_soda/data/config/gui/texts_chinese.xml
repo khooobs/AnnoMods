@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002300</GUID>
+      <Text>苏打</Text>
+    </Text>
+    <Text>
+      <GUID>1999002301</GUID>
+      <Text>为您的饮料增添火花的化学革命。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002302</GUID>
+      <Text>将胃灼热视为一种魅力。</Text>
+    </Text>
+  </ModOp>
+</ModOps>
