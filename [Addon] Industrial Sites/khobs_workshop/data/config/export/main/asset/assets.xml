@@ -1,4 +1,12 @@
 <ModOps>
+  <Include File="./crusher.include.xml" />
+  <Include File="./sifter.include.xml" />
+  <Include File="./menu.include.xml" />
+  <Include File="./quarry.include.xml" />
+  <Include File="./unlocks.include.xml" />
+  <Include File="./workshop-tier2.include.xml" />
+  <Include File="./workshop-tier3.include.xml" />
+
   <!-- START - AssetPool -->
   <ModOp GUID="25546" Type="addNextSibling">
     <Asset>
@@ -71,7 +79,7 @@
         <Object>
           <Variations>
             <Item>
-					    <Filename>data/modgraphics/buildings/special/workshop/industrial_workshop.cfg</Filename>
+					    <Filename>data/modgraphics/workshop/industrial_workshop.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -181,7 +189,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/special/workshop/industrial_workshop.cfg</Filename>
+              <Filename>data/modgraphics/workshop/industrial_workshop.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -353,7 +361,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/special/workshop/industrial_workshop.cfg</Filename>
+              <Filename>data/modgraphics/workshop/industrial_workshop.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -525,10 +533,10 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/special/workshop/rural_workshop.cfg</Filename>
+              <Filename>data/modgraphics/workshop/rural_workshop.cfg</Filename>
             </Item>
             <Item>
-              <Filename>data/modgraphics/buildings/special/workshop/industrial_workshop.cfg</Filename>
+              <Filename>data/modgraphics/workshop/industrial_workshop.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -700,7 +708,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/special/workshop/industrial_workshop.cfg</Filename>
+              <Filename>data/modgraphics/workshop/industrial_workshop.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -872,7 +880,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/special/workshop/industrial_workshop.cfg</Filename>
+              <Filename>data/modgraphics/workshop/industrial_workshop.cfg</Filename>
             </Item>
           </Variations>
         </Object>
