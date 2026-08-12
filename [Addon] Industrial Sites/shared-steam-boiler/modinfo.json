@@ -1,0 +1,14 @@
+{
+  "Version": "1.0.0",
+  "ModID": "shared-steam-boiler-khobs",
+  "ModDependencies": [
+    "shared_goods_clean_water"
+  ],
+  "Category": {
+    "English": "Building"
+  },
+  "ModName": {
+    "English": "Steam Boiler"
+  },  
+  "CreatorName": "Khobs"
+}
