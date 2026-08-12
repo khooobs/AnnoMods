@@ -718,6 +718,131 @@
         </Industrializable>
       </Values>
     </Asset>
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505891</GUID>
+          <Name>Chemical Plant - Carbonate</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_sodium_carbonate.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+				<Building>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+					<BuildingType>Factory</BuildingType>
+          <AllowChangeVariation>1</AllowChangeVariation>
+					<BuildingCategoryName>2143505402</BuildingCategoryName>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/chemical_plant/chemical_plant.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>50000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh/>
+        <Constructable/>
+        <Locked/>
+        <FeedbackController/>
+        <Infolayer/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1999002300</Product>
+              <Amount>2</Amount>
+              <StorageAmount>16</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1742100242</Product>
+              <Amount>1</Amount>
+              <StorageAmount>16</StorageAmount>
+            </Item>
+            <Item>
+              <Product>2143505885</Product>
+              <Amount>1</Amount>
+              <StorageAmount>16</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>2143505892</Product>
+              <Amount>2</Amount>
+              <StorageAmount>200</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+        </FactoryBase>
+        <UpgradeList/>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1200</Amount>
+              <InactiveAmount>600</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>200</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <LogisticNode>
+          <TransporterAsset>120062</TransporterAsset>
+          <TransporterCountMax>1</TransporterCountMax>
+          <PathLayers>Railway</PathLayers>
+        </LogisticNode>
+        <Industrializable>
+          <MandatoryIndustrialization>1</MandatoryIndustrialization>
+          <TransporterIndustrializationFactory>120028</TransporterIndustrializationFactory>
+        </Industrializable>
+      </Values>
+    </Asset>
   </ModOp>
   <!-- END - Chemical Plant -->
 
@@ -834,7 +959,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/ethanol_plant/ethanol_plant.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/ethanol_plant/ethanol.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -842,36 +967,43 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <!--Money-->
               <Amount>54000</Amount>
             </Item>
             <Item>
               <Ingredient>1010196</Ingredient>
-              <!--timber-->
               <Amount>10</Amount>
             </Item>
             <Item>
               <Ingredient>1010205</Ingredient>
-              <!--bricks-->
               <Amount>20</Amount>
             </Item>
             <Item>
               <Ingredient>1010218</Ingredient>
-              <!--beams-->
               <Amount>16</Amount>
             </Item>
             <Item>
               <Ingredient>1010207</Ingredient>
-              <!--window-->
               <Amount>15</Amount>
             </Item>
             <Item>
               <Ingredient>1010202</Ingredient>
-              <!--concrete-->
               <Amount>15</Amount>
             </Item>
           </Costs>
         </Cost>
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+        </Selection>
         <Mesh/>
         <Text>
           <TextOverride>135134</TextOverride>
@@ -883,49 +1015,39 @@
               <Amount>1</Amount>
               <StorageAmount>10</StorageAmount>
             </Item>
+            <Item>
+              <Product>1010192</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
           </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>135130</Product>
-              <!--Ethanol-->
               <Amount>1</Amount>
               <StorageAmount>10</StorageAmount>
             </Item>
           </FactoryOutputs>
           <CycleTime>30</CycleTime>
+          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
         </FactoryBase>
         <Maintenance>
           <Maintenances>
             <Item>
               <Product>1010017</Product>
-              <!--Money-->
               <Amount>800</Amount>
               <InactiveAmount>400</InactiveAmount>
             </Item>
             <Item>
               <Product>1010117</Product>
-              <!--moderate workforce 4-->
               <Amount>100</Amount>
             </Item>
           </Maintenances>
         </Maintenance>
-        <RecipeBuilding>
-          <RecipeList>2143506104</RecipeList>
-          <!--RecipeList_Chemical-->
-        </RecipeBuilding>
-        <ModuleOwner>
-          <ConstructionOptions>
-            <Item>
-              <ModuleGUID>2143505714</ModuleGUID>
-            </Item>
-          </ConstructionOptions>
-          <FertilizerModuleData>
-            <Module>2143505731</Module>
-          </FertilizerModuleData>
-        </ModuleOwner>
         <LogisticNode>
           <TransporterAsset>120062</TransporterAsset>
           <TransporterCountMax>1</TransporterCountMax>
+          <PathLayers>Railway;Street</PathLayers>
         </LogisticNode>
         <Motorizable/>
       </Values>
