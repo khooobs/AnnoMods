@@ -175,7 +175,7 @@
               <StorageAmount>10</StorageAmount>
             </Item>
             <Item>
-              <Product>1999002300</Product>
+              <Product>2143505892</Product>
               <Amount>1</Amount>
               <StorageAmount>10</StorageAmount>
             </Item>
@@ -298,7 +298,7 @@
               <StorageAmount>200</StorageAmount>
             </Item>
             <Item>
-              <Product>1999002300</Product>
+              <Product>2143505892</Product>
               <Amount>1</Amount>
               <StorageAmount>200</StorageAmount>
             </Item>
@@ -959,7 +959,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/buildings/production/ethanol_plant/ethanol.cfg</Filename>
+              <Filename>data/modgraphics/buildings/production/ethanol_plant/ethanol_plant.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -1424,9 +1424,6 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- END - Small Related Plant -->
-
-  <!-- START - Production Works Integration -->
   <ModOp Type="addNextSibling" GUID="135134">
     <Asset>
       <Template>ChemicalFactorySmall</Template>
@@ -1544,6 +1541,6 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- END - Production Works Integration -->
+  <!-- END - Small Related Plant -->
 
 </ModOps>

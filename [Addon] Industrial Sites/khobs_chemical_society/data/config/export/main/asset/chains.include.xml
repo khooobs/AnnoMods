@@ -192,4 +192,48 @@
       </Values>
     </Asset>
   </ModOp>
+  <ModOp GUID="137605" Type="addNextSibling">
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505893</GUID>
+          <Name>carbonate chain</Name>
+			    <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_sodium_carbonate.png</IconFilename>
+        </Standard>
+        <ProductionChain>
+          <Building>2143505891</Building>
+          <Tier1>
+            <Item>
+              <Building>1500302310</Building>
+              <Tier2>
+                <Item>
+                  <Building>114440</Building>
+                </Item>
+                <Item>
+                  <Building>1010309</Building>
+                </Item>
+                <Item>
+                  <Building>2100115090</Building>
+                </Item>
+                <Item>
+                  <Building>1010304</Building>
+                </Item>
+              </Tier2>
+            </Item>
+            <Item>
+              <Building>2143505721</Building>
+            </Item>
+            <Item>
+              <Building>1742100240</Building>
+            </Item>
+            <Item>
+              <Building>2143505886</Building>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
 </ModOps>
