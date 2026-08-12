@@ -7,7 +7,7 @@
         <Standard>
           <GUID>2143505700</GUID>
           <Name>Chemical Plant - Blank</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_component_1.png</IconFilename>
+          <IconFilename>data/ui/icon_chemical.png</IconFilename>
           <InfoDescription>2143505698</InfoDescription>
         </Standard>
 				<Building>
@@ -99,7 +99,7 @@
         <Standard>
           <GUID>2143505694</GUID>
           <Name>Chemical Plant - Alcaline</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_barrel.png</IconFilename>
+          <IconFilename>data/ui/icon_chemical.png</IconFilename>
           <InfoDescription>2143505698</InfoDescription>
         </Standard>
         <Blocking>
@@ -218,7 +218,7 @@
         <Standard>
           <GUID>2143506111</GUID>
           <Name>Chemical Plant - Acidic</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_barrel.png</IconFilename>
+          <IconFilename>data/ui/icon_chemical.png</IconFilename>
           <InfoDescription>2143505698</InfoDescription>
         </Standard>
         <Blocking>
@@ -343,7 +343,7 @@
         <Standard>
           <GUID>2143505883</GUID>
           <Name>Chemical Plant - Solvant</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_barrel.png</IconFilename>
+          <IconFilename>data/ui/icon_chemical.png</IconFilename>
           <InfoDescription>2143505698</InfoDescription>
         </Standard>
         <Blocking>
@@ -468,7 +468,7 @@
         <Standard>
           <GUID>2143505884</GUID>
           <Name>Chemical Plant - Petrochemicals</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_barrel.png</IconFilename>
+          <IconFilename>data/ui/icon_chemical.png</IconFilename>
           <InfoDescription>2143505698</InfoDescription>
         </Standard>
         <Blocking>
