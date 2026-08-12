@@ -205,6 +205,23 @@
     </Text>
     
     <Text>
+      <GUID>2143505723</GUID>
+      <Text>Alkaline</Text>
+    </Text>
+    <Text>
+      <GUID>2143506107</GUID>
+      <Text>Acidic</Text>
+    </Text>
+    <Text>
+      <GUID>2143505881</GUID>
+      <Text>Solvant</Text>
+    </Text>
+    <Text>
+      <GUID>2143505882</GUID>
+      <Text>Petrochemical</Text>
+    </Text>
+    
+    <Text>
       <GUID>2143505885</GUID>
       <Text>Sulfuric Acid</Text>
     </Text>
@@ -213,7 +230,13 @@
       <Text>Sulfuric Acid Plant</Text>
     </Text>
 
-
-    
+    <Text>
+      <GUID>2143505891</GUID>
+      <Text>Carbonate Plant</Text>
+    </Text>
+    <Text>
+      <GUID>2143505892</GUID>
+      <Text>Sodium Carbonate</Text>
+    </Text>    
   </ModOp>
 </ModOps>

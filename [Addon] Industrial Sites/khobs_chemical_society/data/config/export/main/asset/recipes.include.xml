@@ -179,16 +179,28 @@
         <Standard>
           <GUID>2143505723</GUID>
           <Name>Alkaline</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_barrel.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_component_3.png</IconFilename>
         </Standard>
-        <Text>
-          <TextOverride>2143505699</TextOverride>
-        </Text>
         <Recipe>
           <RecipeBuilding>2143505694</RecipeBuilding>
           <RecipeDescriptionText>2143505697</RecipeDescriptionText>
           <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_chemical.png</RecipeImage>
-          <RecipeIngredientUIData/>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>145</PosX>
+              <PosY>5</PosY>
+              <UICirclePointer>South</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>400</PosX>
+              <PosY>80</PosY>
+              <UICirclePointer>SouthWest</UICirclePointer>
+            </Item>
+            <Item>
+              <PosY>20</PosY>
+              <UICirclePointer>SouthEast</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
           <RecipeUnlockConditionText>137487</RecipeUnlockConditionText>
         </Recipe>
         <Locked/>
@@ -200,13 +212,29 @@
         <Standard>
           <GUID>2143506107</GUID>
           <Name>Acidic</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_sulfuric_acid.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_component_4.png</IconFilename>
         </Standard>
         <Recipe>
           <RecipeBuilding>2143506111</RecipeBuilding>
           <RecipeDescriptionText>2143506128</RecipeDescriptionText>
           <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_chemical.png</RecipeImage>
-          <RecipeIngredientUIData/>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>90</PosX>
+              <PosY>10</PosY>
+              <UICirclePointer>SouthEast</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>40</PosX>
+              <PosY>120</PosY>
+              <UICirclePointer>East</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>390</PosX>
+              <PosY>290</PosY>
+              <UICirclePointer>West</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
           <RecipeUnlockConditionText>137487</RecipeUnlockConditionText>
         </Recipe>
         <Locked/>
@@ -221,10 +249,25 @@
           <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_thermometer_3.png</IconFilename>
         </Standard>
         <Recipe>
-          <RecipeBuilding>2143506111</RecipeBuilding>
+          <RecipeBuilding>2143505883</RecipeBuilding>
           <RecipeDescriptionText>2143506128</RecipeDescriptionText>
           <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_chemical.png</RecipeImage>
-          <RecipeIngredientUIData/>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>15</PosX>
+              <PosY>10</PosY>
+              <UICirclePointer>SouthEast</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>370</PosX>
+              <UICirclePointer>SouthWest</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>150</PosX>
+              <PosY>10</PosY>
+              <UICirclePointer>South</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
           <RecipeUnlockConditionText>137487</RecipeUnlockConditionText>
         </Recipe>
         <Locked/>
@@ -236,13 +279,28 @@
         <Standard>
           <GUID>2143505882</GUID>
           <Name>Petrochemicals</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_barrel.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_gasoline.png</IconFilename>
         </Standard>
         <Recipe>
-          <RecipeBuilding>2143506111</RecipeBuilding>
+          <RecipeBuilding>2143505884</RecipeBuilding>
           <RecipeDescriptionText>2143506128</RecipeDescriptionText>
           <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_chemical.png</RecipeImage>
-          <RecipeIngredientUIData/>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>150</PosX>
+              <UICirclePointer>South</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>370</PosX>
+              <PosY>270</PosY>
+              <UICirclePointer>West</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>15</PosX>
+              <PosY>180</PosY>
+              <UICirclePointer>East</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
           <RecipeUnlockConditionText>137487</RecipeUnlockConditionText>
         </Recipe>
         <Locked/>
