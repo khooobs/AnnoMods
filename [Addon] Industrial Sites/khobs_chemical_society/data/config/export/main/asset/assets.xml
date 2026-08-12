@@ -9,6 +9,23 @@
   <Include File="pools.include.xml" />
   <Include File="chains.include.xml" />
  
+  
+  <!-- START - Chemical Society - Add to category -->
+  <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500023']">
+    <Item>
+      <Building>2143505887</Building>
+    </Item>
+    <Item>
+      <Building>2143505890</Building>
+    </Item>
+    <Item>
+      <Building>2143505893</Building>
+    </Item>
+    <Item>
+      <Building>2143505894</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Chemical Society - Add to category -->
 
   <!-- START - Industrial Cities Menu Integration -->
   <Group Condition="#jakob-modular-factories">
@@ -28,7 +45,7 @@
     </ModOp>
   </Group>
   <!-- END - Industrial Cities Menu Integration -->
-   
+
   <!-- START - Tourist Small Multifactories Integration -->
   <ModOp GUID="137608" Type="add" Path="Values/ProductionChain/Tier1">
     <Item>
