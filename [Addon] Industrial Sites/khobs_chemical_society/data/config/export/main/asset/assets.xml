@@ -3,18 +3,15 @@
   <Include File="recipes.include.xml" />
   <Include File="ship.include.xml" />
   <Include File="modules.include.xml" />
-  <Include File="buffs.include.xml" />
   <Include File="factories.include.xml" />
   <Include File="products.include.xml" />
   <Include File="pools.include.xml" />
-  <Include File="chains.include.xml" />
-
-  
+  <Include File="chains.include.xml" />  
   <Include File="unlock.include.xml" />
  
   
-  <!-- START - Chemical Society - Add to category -->
-  <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500023']">
+  <!-- START - Add to category -->
+  <ModOp GUID="25000192" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500023']">
     <Item>
       <Building>2143505887</Building>
     </Item>
@@ -28,7 +25,7 @@
       <Building>2143505894</Building>
     </Item>
   </ModOp>
-  <!-- END - Chemical Society - Add to category -->
+  <!-- END - Add to category -->
 
   <!-- START - Industrial Cities Menu Integration -->
   <Group Condition="#jakob-modular-factories">

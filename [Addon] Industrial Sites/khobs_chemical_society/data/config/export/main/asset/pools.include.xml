@@ -262,31 +262,6 @@
         </ItemEffectTargetPool>
       </Values>
     </Asset>
-    <Asset>
-      <Template>ItemEffectTargetPool</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505745</GUID>
-          <Name>All chemical Depots</Name>
-        </Standard>
-        <ItemEffectTargetPool>
-          <EffectTargetGUIDs>
-            <Item>
-              <GUID>2143505729</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505730</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505731</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505732</GUID>
-            </Item>
-          </EffectTargetGUIDs>
-        </ItemEffectTargetPool>
-      </Values>
-    </Asset>
   </ModOp>
   <!-- END - ItemEffectTargetPool -->
 </ModOps>
