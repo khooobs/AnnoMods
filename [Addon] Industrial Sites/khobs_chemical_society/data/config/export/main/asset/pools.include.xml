@@ -104,6 +104,12 @@
             <Item>
               <Asset>2143505884</Asset>
             </Item>
+            <Item>
+              <Asset>1742100240</Asset>
+            </Item>
+            <Item>
+              <Asset>1742100242</Asset>
+            </Item>
           </AssetList>
         </AssetPool>
       </Values>
@@ -133,7 +139,44 @@
               <Asset>1742100240</Asset>
             </Item>
             <Item>
+              <Asset>1742100242</Asset>
+            </Item>
+            <Item>
               <Asset>2143505893</Asset>
+            </Item>
+          </AssetList>
+        </AssetPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>AssetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506117</GUID>
+          <Name>AssetPool Sulfuric Acid</Name>
+        </Standard>
+        <AssetPool>
+          <AssetList>
+            <Item>
+              <Asset>2100115089</Asset>
+            </Item>
+            <Item>
+              <Asset>2100115090</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505887</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505885</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505886</Asset>
+            </Item>
+            <Item>
+              <Asset>1742100240</Asset>
+            </Item>
+            <Item>
+              <Asset>1742100242</Asset>
             </Item>
           </AssetList>
         </AssetPool>

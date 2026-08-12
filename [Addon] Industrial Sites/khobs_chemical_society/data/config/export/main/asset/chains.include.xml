@@ -188,6 +188,9 @@
             </Item>
           </Tier1>
         </ProductionChain>
+        <Text>
+          <TextOverride>2143505699</TextOverride>
+        </Text>
         <Locked />
       </Values>
     </Asset>
