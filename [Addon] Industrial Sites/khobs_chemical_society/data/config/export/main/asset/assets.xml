@@ -8,6 +8,9 @@
   <Include File="products.include.xml" />
   <Include File="pools.include.xml" />
   <Include File="chains.include.xml" />
+
+  
+  <Include File="unlock.include.xml" />
  
   
   <!-- START - Chemical Society - Add to category -->
