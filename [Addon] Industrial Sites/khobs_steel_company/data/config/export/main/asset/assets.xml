@@ -1,5 +1,6 @@
 <ModOps>
   <Include File="company.include.xml" />
+  <Include File="chains.include.xml" />
   <Include File="modules.include.xml" />
   <Include File="buffs.include.xml" />
   <Include File="factories.include.xml" />
@@ -100,4 +101,15 @@
       </Values>
     </Asset>
   </ModOp>
+
+  
+  <!-- START - Add to category -->
+  <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500029']">
+    <Item>
+      <Building>2143505895</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Add to category -->
+
+  
 </ModOps>

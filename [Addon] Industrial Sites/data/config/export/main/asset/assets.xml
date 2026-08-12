@@ -110,24 +110,6 @@
     </ModOp>
   </Group>
   <!-- END - Brickworks - Add to category -->
-  
-  <!-- START - Steel Society - Add to category -->
-  <Group Condition="#khobs_steel_company">
-    <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
-      <Item>
-        <Building>2143505507</Building>
-      </Item>
-      <Item>
-        <Building>2143505564</Building>
-      </Item>
-    </ModOp>
-    <ModOp GUID="2143505416" Type="add" Path="Values/ConstructionCategory/BuildingList/">
-      <Item>
-        <Building>2143505564</Building>
-      </Item>
-    </ModOp>
-  </Group>
-  <!-- END - Steel Society - Add to category -->
 
   <!-- Industrial Ornaments -->
   <Group>
