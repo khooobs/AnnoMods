@@ -198,7 +198,7 @@
       <Values>
         <Standard>
           <GUID>2143505893</GUID>
-          <Name>carbonate chain</Name>
+          <Name>sodium carbonate chain</Name>
 			    <IconFilename>data/ui/2kimages/main/3dicons/khobs/bulk_goods/icon_sodium_carbonate.png</IconFilename>
         </Standard>
         <ProductionChain>
@@ -233,6 +233,9 @@
           </Tier1>
         </ProductionChain>
         <Locked />
+        <Text>
+          <TextOverride>2143505892</TextOverride>
+        </Text>
       </Values>
     </Asset>
   </ModOp>
