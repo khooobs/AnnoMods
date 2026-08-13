@@ -5,12 +5,6 @@
 		<Name />
 		<Groups>
 			<i>
-				<Name>buying_people</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>81</Id>
-			</i>
-			<i>
 				<Name>feedback_door</Name>
 				<Groups />
 				<hasValue>1</hasValue>
@@ -45,7 +39,7 @@
 						<Position>
 							<x>0.495602</x>
 							<y>0.184326</y>
-							<z>2.436071</z>
+							<z>2.837716</z>
 						</Position>
 						<RotationY>1.714627</RotationY>
 						<Extents>
@@ -66,7 +60,7 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-2.303343</x>
+							<x>-2.779766</x>
 							<y>0.000000</y>
 							<z>1.058006</z>
 						</Position>
@@ -97,9 +91,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-2.171256</x>
+							<x>-3.377812</x>
 							<y>0.000000</y>
-							<z>-1.960430</z>
+							<z>-1.221463</z>
 						</Position>
 						<RotationY>5.759732</RotationY>
 						<Extents>
@@ -120,9 +114,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-2.317585</x>
+							<x>-2.951125</x>
 							<y>0.000000</y>
-							<z>2.102797</z>
+							<z>3.224724</z>
 						</Position>
 						<RotationY>5.170707</RotationY>
 						<Extents>
@@ -204,9 +198,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>1.918373</x>
+							<x>2.742124</x>
 							<y>1.816967</y>
-							<z>1.058744</z>
+							<z>2.190243</z>
 						</Position>
 						<RotationY>0.388342</RotationY>
 						<Extents>
@@ -440,9 +434,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-2.055313</x>
-							<y>2.851436</y>
-							<z>1.275024</z>
+							<x>-2.813185</x>
+							<y>0.240008</y>
+							<z>1.229623</z>
 						</Position>
 						<RotationY>4.939532</RotationY>
 						<Extents>
@@ -486,7 +480,7 @@
 						<Name>hammering_worker_0</Name>
 						<hasValue>1</hasValue>
 						<Id>23</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
 						<Orientation>
 							<w>0.525338</w>
 							<x>0.000000</x>
@@ -509,9 +503,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>2.034570</x>
-							<y>0.908691</y>
-							<z>-0.668536</z>
+							<x>2.818936</x>
+							<y>0.000000</y>
+							<z>0.655195</z>
 						</Position>
 						<RotationY>2.035367</RotationY>
 						<Extents>
@@ -524,7 +518,7 @@
 						<Name>hammering_worker_1</Name>
 						<hasValue>1</hasValue>
 						<Id>24</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
 						<Orientation>
 							<w>0.250137</w>
 							<x>-0.000000</x>
@@ -547,9 +541,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>2.353534</x>
-							<y>0.925781</y>
-							<z>0.879639</z>
+							<x>2.913938</x>
+							<y>0.000000</y>
+							<z>1.190136</z>
 						</Position>
 						<RotationY>3.647237</RotationY>
 						<Extents>
@@ -572,7 +566,7 @@
 						<Position>
 							<x>-0.728488</x>
 							<y>0.184326</y>
-							<z>-1.868162</z>
+							<z>-1.798631</z>
 						</Position>
 						<RotationY>5.740592</RotationY>
 						<Extents>
@@ -601,11 +595,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-0.875475</x>
+							<x>2.532065</x>
 							<y>0.000000</y>
-							<z>2.307477</z>
+							<z>-2.133523</z>
 						</Position>
-						<RotationY>4.953177</RotationY>
+						<RotationY>5.564043</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -624,295 +618,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-1.634733</x>
+							<x>2.946546</x>
 							<y>0.000000</y>
-							<z>2.034164</z>
+							<z>-1.637656</z>
 						</Position>
-						<RotationY>4.401701</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-				</Dummies>
-			</i>
-			<i>
-				<Name>sitting_poeple</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>96</Id>
-				<Dummies>
-					<i>
-						<Name>sitting_poeple_0</Name>
-						<hasValue>1</hasValue>
-						<Id>99</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.767831</w>
-							<x>-0.000000</x>
-							<y>0.640653</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>-1.060907</x>
-							<y>0.000914</y>
-							<z>-2.190770</z>
-						</Position>
-						<RotationY>4.892489</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>sitting_poeple_1</Name>
-						<hasValue>1</hasValue>
-						<Id>100</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.773464</w>
-							<x>-0.000000</x>
-							<y>0.633840</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>-0.932556</x>
-							<y>0.000000</y>
-							<z>-2.173110</z>
-						</Position>
-						<RotationY>4.910170</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>sitting_poeple_10</Name>
-						<hasValue>1</hasValue>
-						<Id>114</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.566745</w>
-							<x>-0.000000</x>
-							<y>0.823894</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>2.132736</x>
-							<y>-0.012682</y>
-							<z>1.964127</z>
-						</Position>
-						<RotationY>4.346691</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>sitting_poeple_11</Name>
-						<hasValue>1</hasValue>
-						<Id>115</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.863671</w>
-							<x>-0.000000</x>
-							<y>0.504056</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>2.301063</x>
-							<y>-0.012459</y>
-							<z>1.952795</z>
-						</Position>
-						<RotationY>5.226608</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>sitting_poeple_2</Name>
-						<hasValue>1</hasValue>
-						<Id>101</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.765399</w>
-							<x>-0.000000</x>
-							<y>0.643556</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>0.961465</x>
-							<y>0.000945</y>
-							<z>-2.271847</z>
-						</Position>
-						<RotationY>4.884915</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>sitting_poeple_3</Name>
-						<hasValue>1</hasValue>
-						<Id>102</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.762596</w>
-							<x>-0.000000</x>
-							<y>0.646875</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>1.121536</x>
-							<y>0.000723</y>
-							<z>-2.248174</z>
-						</Position>
-						<RotationY>4.876226</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>sitting_poeple_4</Name>
-						<hasValue>1</hasValue>
-						<Id>103</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.766675</w>
-							<x>-0.000000</x>
-							<y>0.642035</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>1.406580</x>
-							<y>0.000468</y>
-							<z>-2.204080</z>
-						</Position>
-						<RotationY>4.888885</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>sitting_poeple_5</Name>
-						<hasValue>1</hasValue>
-						<Id>105</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.753093</w>
-							<x>-0.000000</x>
-							<y>0.657914</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>1.866151</x>
-							<y>0.001091</y>
-							<z>-2.068035</z>
-						</Position>
-						<RotationY>4.847095</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>sitting_poeple_6</Name>
-						<hasValue>1</hasValue>
-						<Id>106</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.764695</w>
-							<x>-0.000000</x>
-							<y>0.644393</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>1.981020</x>
-							<y>0.001072</y>
-							<z>-2.044667</z>
-						</Position>
-						<RotationY>4.882728</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>sitting_poeple_7</Name>
-						<hasValue>1</hasValue>
-						<Id>111</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.499531</w>
-							<x>0.000000</x>
-							<y>-0.866296</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>2.110971</x>
-							<y>-0.013103</y>
-							<z>2.381180</z>
-						</Position>
-						<RotationY>2.095478</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>sitting_poeple_8</Name>
-						<hasValue>1</hasValue>
-						<Id>112</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.842199</w>
-							<x>0.000000</x>
-							<y>-0.539167</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>2.316358</x>
-							<y>-0.012617</y>
-							<z>2.366627</z>
-						</Position>
-						<RotationY>1.138895</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>sitting_poeple_9</Name>
-						<hasValue>1</hasValue>
-						<Id>113</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.985912</w>
-							<x>0.000000</x>
-							<y>-0.167263</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>2.441891</x>
-							<y>-0.012958</y>
-							<z>2.231162</z>
-						</Position>
-						<RotationY>0.336106</RotationY>
+						<RotationY>5.012567</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -939,11 +649,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-2.195191</x>
+							<x>3.383013</x>
 							<y>0.000000</y>
-							<z>1.021310</z>
+							<z>-2.638261</z>
 						</Position>
-						<RotationY>4.077306</RotationY>
+						<RotationY>5.386302</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -951,43 +661,6 @@
 						</Extents>
 					</i>
 				</Dummies>
-			</i>
-			<i>
-				<Name>soap_mixer</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>31</Id>
-				<Dummies>
-					<i>
-						<Name>soap_mixer_0</Name>
-						<hasValue>1</hasValue>
-						<Id>32</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.636407</w>
-							<x>0.000000</x>
-							<y>-0.771354</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>-1.809341</x>
-							<y>0.559083</y>
-							<z>-2.712893</z>
-						</Position>
-						<RotationY>1.761931</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-				</Dummies>
-			</i>
-			<i>
-				<Name>souvenir_sales</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>77</Id>
 			</i>
 			<i>
 				<Name>static_inspectors</Name>
@@ -1007,9 +680,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-2.069276</x>
+							<x>-2.694457</x>
 							<y>0.184327</y>
-							<z>-2.061655</z>
+							<z>-1.644658</z>
 						</Position>
 						<RotationY>5.522922</RotationY>
 						<Extents>
@@ -1030,9 +703,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-1.531103</x>
+							<x>1.963581</x>
 							<y>0.184326</y>
-							<z>-2.229400</z>
+							<z>-1.411051</z>
 						</Position>
 						<RotationY>0.719837</RotationY>
 						<Extents>
@@ -1053,9 +726,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-2.586032</x>
+							<x>-3.211213</x>
 							<y>0.000000</y>
-							<z>-1.635512</z>
+							<z>-1.218515</z>
 						</Position>
 						<RotationY>0.412067</RotationY>
 						<Extents>
@@ -1076,9 +749,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-1.921529</x>
+							<x>-2.546710</x>
 							<y>0.000000</y>
-							<z>-1.409306</z>
+							<z>-0.992309</z>
 						</Position>
 						<RotationY>3.802117</RotationY>
 						<Extents>
@@ -1107,9 +780,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>1.414176</x>
+							<x>-2.645689</x>
 							<y>0.000000</y>
-							<z>2.209133</z>
+							<z>-2.207404</z>
 						</Position>
 						<RotationY>1.150831</RotationY>
 						<Extents>
@@ -1130,9 +803,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-2.504363</x>
+							<x>-2.792815</x>
 							<y>0.000000</y>
-							<z>0.042407</z>
+							<z>0.391818</z>
 						</Position>
 						<RotationY>3.798600</RotationY>
 						<Extents>
@@ -1168,9 +841,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>2.370623</x>
-							<y>0.908691</y>
-							<z>-0.762256</z>
+							<x>1.219254</x>
+							<y>0.000000</y>
+							<z>-1.591617</z>
 						</Position>
 						<RotationY>1.455706</RotationY>
 						<Extents>
@@ -1199,7 +872,7 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.238925</x>
+							<x>2.769337</x>
 							<y>0.186683</y>
 							<z>-1.621184</z>
 						</Position>
@@ -1222,9 +895,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.196954</x>
+							<x>2.789723</x>
 							<y>0.000000</y>
-							<z>-1.996052</z>
+							<z>-2.045847</z>
 						</Position>
 						<RotationY>2.064543</RotationY>
 						<Extents>
@@ -1245,9 +918,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-2.148976</x>
+							<x>-1.867236</x>
 							<y>0.000000</y>
-							<z>-2.243040</z>
+							<z>2.448791</z>
 						</Position>
 						<RotationY>0.521773</RotationY>
 						<Extents>
@@ -1268,65 +941,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-1.968220</x>
+							<x>-1.997153</x>
 							<y>0.000000</y>
-							<z>1.982070</z>
+							<z>2.124250</z>
 						</Position>
 						<RotationY>3.709933</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-				</Dummies>
-			</i>
-			<i>
-				<Name>vendor</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>89</Id>
-				<Dummies>
-					<i>
-						<Name>vendor_0</Name>
-						<hasValue>1</hasValue>
-						<Id>90</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.250537</w>
-							<x>0.000000</x>
-							<y>-0.968107</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>-1.914500</x>
-							<y>0.000000</y>
-							<z>-2.100567</z>
-						</Position>
-						<RotationY>2.635123</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>vendor_1</Name>
-						<hasValue>1</hasValue>
-						<Id>92</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.878028</w>
-							<x>0.000000</x>
-							<y>-0.478608</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>-2.220102</x>
-							<y>0.000000</y>
-							<z>1.842510</z>
-						</Position>
-						<RotationY>0.998138</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1368,11 +987,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>2.015139</x>
-							<y>0.908691</y>
-							<z>1.212193</z>
+							<x>-2.203505</x>
+							<y>0.578125</y>
+							<z>-3.041447</z>
 						</Position>
-						<RotationY>0.271663</RotationY>
+						<RotationY>1.842459</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1406,11 +1025,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>2.130198</x>
-							<y>0.908692</y>
-							<z>0.672924</z>
+							<x>-1.872973</x>
+							<y>0.578125</y>
+							<z>-3.037067</z>
 						</Position>
-						<RotationY>0.281175</RotationY>
+						<RotationY>1.851971</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1429,11 +1048,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.451166</x>
-							<y>0.000000</y>
-							<z>-1.011847</z>
+							<x>-1.572493</x>
+							<y>0.578125</y>
+							<z>-2.030976</z>
 						</Position>
-						<RotationY>4.449949</RotationY>
+						<RotationY>6.020745</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1452,11 +1071,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.522802</x>
-							<y>0.000000</y>
-							<z>-1.313634</z>
+							<x>-1.808375</x>
+							<y>0.780762</y>
+							<z>-2.024208</z>
 						</Position>
-						<RotationY>3.702876</RotationY>
+						<RotationY>5.273673</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1490,11 +1109,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>2.559991</x>
-							<y>0.908691</y>
-							<z>0.665978</z>
+							<x>-1.354969</x>
+							<y>0.578125</y>
+							<z>-3.042279</z>
 						</Position>
-						<RotationY>0.645433</RotationY>
+						<RotationY>2.216229</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1528,11 +1147,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>2.251568</x>
-							<y>0.925781</y>
-							<z>0.332448</z>
+							<x>-1.096746</x>
+							<y>0.578125</y>
+							<z>-2.694997</z>
 						</Position>
-						<RotationY>4.801248</RotationY>
+						<RotationY>6.372045</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1551,11 +1170,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.340808</x>
-							<y>0.278320</y>
-							<z>-0.103378</z>
+							<x>-1.091599</x>
+							<y>0.578125</y>
+							<z>-3.008183</z>
 						</Position>
-						<RotationY>5.781053</RotationY>
+						<RotationY>7.351850</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1574,11 +1193,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.547462</x>
-							<y>0.249878</y>
-							<z>-0.205959</z>
+							<x>-0.477492</x>
+							<y>0.635067</y>
+							<z>-3.080812</z>
 						</Position>
-						<RotationY>0.000000</RotationY>
+						<RotationY>1.570796</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1597,11 +1216,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.668073</x>
-							<y>-0.012939</y>
-							<z>-0.145264</z>
+							<x>-0.024213</x>
+							<y>0.578125</y>
+							<z>-3.040260</z>
 						</Position>
-						<RotationY>0.000000</RotationY>
+						<RotationY>1.570796</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1620,11 +1239,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>1.926626</x>
-							<y>-0.344226</y>
-							<z>-0.088880</z>
+							<x>-0.000905</x>
+							<y>0.664062</y>
+							<z>-2.759233</z>
 						</Position>
-						<RotationY>0.000000</RotationY>
+						<RotationY>1.570796</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1643,11 +1262,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.185256</x>
-							<y>-0.694402</y>
-							<z>-0.069928</z>
+							<x>-0.035202</x>
+							<y>0.578125</y>
+							<z>-2.041007</z>
 						</Position>
-						<RotationY>0.000000</RotationY>
+						<RotationY>1.570796</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1666,11 +1285,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.122157</x>
-							<y>0.000000</y>
-							<z>-0.633281</z>
+							<x>-1.068446</x>
+							<y>0.578125</y>
+							<z>-2.079512</z>
 						</Position>
-						<RotationY>3.562571</RotationY>
+						<RotationY>5.133368</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1712,11 +1331,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>2.192364</x>
-							<y>0.908691</y>
-							<z>2.531376</z>
+							<x>2.898144</x>
+							<y>0.000652</y>
+							<z>1.229558</z>
 						</Position>
-						<RotationY>4.934562</RotationY>
+						<RotationY>3.451033</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1750,11 +1369,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>2.355652</x>
-							<y>0.925781</y>
-							<z>1.389427</z>
+							<x>3.162936</x>
+							<y>0.000651</y>
+							<z>0.526268</z>
 						</Position>
-						<RotationY>0.000000</RotationY>
+						<RotationY>-1.483530</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1788,11 +1407,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>2.548602</x>
-							<y>0.925781</y>
-							<z>0.786951</z>
+							<x>2.579570</x>
+							<y>0.000651</y>
+							<z>0.281543</z>
 						</Position>
-						<RotationY>4.790537</RotationY>
+						<RotationY>3.307007</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1811,11 +1430,11 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.495396</x>
-							<y>0.908691</y>
-							<z>-0.402351</z>
+							<x>1.523108</x>
+							<y>0.000652</y>
+							<z>0.017706</z>
 						</Position>
-						<RotationY>4.346661</RotationY>
+						<RotationY>2.863131</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1849,11 +1468,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>2.463796</x>
-							<y>0.925781</y>
-							<z>0.462370</z>
+							<x>2.248832</x>
+							<y>0.000651</y>
+							<z>0.337737</z>
 						</Position>
-						<RotationY>1.939223</RotationY>
+						<RotationY>0.455693</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1887,11 +1506,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>2.601440</x>
-							<y>0.925781</y>
-							<z>0.504404</z>
+							<x>2.302703</x>
+							<y>0.000652</y>
+							<z>0.204280</z>
 						</Position>
-						<RotationY>1.805425</RotationY>
+						<RotationY>0.321895</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1918,9 +1537,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-1.602532</x>
+							<x>-3.754120</x>
 							<y>-0.013397</y>
-							<z>-0.243247</z>
+							<z>-0.126389</z>
 						</Position>
 						<RotationY>3.265761</RotationY>
 						<Extents>
@@ -1956,9 +1575,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-1.634776</x>
+							<x>-3.786364</x>
 							<y>-0.175659</y>
-							<z>0.138297</z>
+							<z>0.255155</z>
 						</Position>
 						<RotationY>1.707466</RotationY>
 						<Extents>
@@ -1994,9 +1613,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>0.525979</x>
+							<x>-0.477608</x>
 							<y>0.184326</y>
-							<z>2.395177</z>
+							<z>3.039492</z>
 						</Position>
 						<RotationY>4.829314</RotationY>
 						<Extents>
@@ -2032,9 +1651,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-1.692359</x>
-							<y>-0.523304</y>
-							<z>0.368603</z>
+							<x>-3.843947</x>
+							<y>0.000000</y>
+							<z>0.485461</z>
 						</Position>
 						<RotationY>1.711472</RotationY>
 						<Extents>
@@ -2070,9 +1689,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-1.627058</x>
+							<x>-3.778646</x>
 							<y>-0.013397</y>
-							<z>0.033130</z>
+							<z>0.149988</z>
 						</Position>
 						<RotationY>1.707402</RotationY>
 						<Extents>
@@ -2108,9 +1727,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-1.701687</x>
-							<y>-0.900539</y>
-							<z>0.662984</z>
+							<x>-3.853275</x>
+							<y>0.000000</y>
+							<z>0.779842</z>
 						</Position>
 						<RotationY>1.785516</RotationY>
 						<Extents>
@@ -2146,9 +1765,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-1.740046</x>
+							<x>-3.891634</x>
 							<y>0.000000</y>
-							<z>0.939645</z>
+							<z>1.056503</z>
 						</Position>
 						<RotationY>1.730427</RotationY>
 						<Extents>
@@ -2169,9 +1788,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-1.526279</x>
+							<x>-2.159818</x>
 							<y>0.000000</y>
-							<z>2.346711</z>
+							<z>3.468638</z>
 						</Position>
 						<RotationY>0.120252</RotationY>
 						<Extents>
@@ -2192,9 +1811,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-1.554046</x>
+							<x>-1.174434</x>
 							<y>0.000000</y>
-							<z>2.384006</z>
+							<z>3.907744</z>
 						</Position>
 						<RotationY>5.884437</RotationY>
 						<Extents>
@@ -2215,9 +1834,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-0.956615</x>
+							<x>-0.577003</x>
 							<y>0.000000</y>
-							<z>2.120683</z>
+							<z>3.644422</z>
 						</Position>
 						<RotationY>4.883341</RotationY>
 						<Extents>
@@ -2238,9 +1857,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-0.919901</x>
+							<x>-0.540289</x>
 							<y>0.194064</y>
-							<z>1.996701</z>
+							<z>3.520440</z>
 						</Position>
 						<RotationY>4.899075</RotationY>
 						<Extents>
