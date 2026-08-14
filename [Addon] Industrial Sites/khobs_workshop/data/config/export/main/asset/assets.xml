@@ -1533,4 +1533,111 @@
     </ModOp>
   </Group>
   <!-- END - Compat with RiverSlot -->
+
+  <!-- START - Adding working conditions -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories" >
+    <Item>
+      <Factory>2143505671</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505673</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505679</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505683</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505522</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505526</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505528</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505530</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505532</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505542</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505545</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505547</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505549</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505551</Factory>
+    </Item>
+  </ModOp>
+  <!-- END - Adding working conditions -->
+
+  
+  <!-- START - Adding buildings to pools -->
+  <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2143505667</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505671</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505673</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505679</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505683</GUID>
+    </Item>
+
+    <Item>
+      <GUID>2143505518</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505522</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505526</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505528</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505530</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505532</GUID>
+    </Item>
+
+    <Item>
+      <GUID>2143505536</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505542</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505545</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505547</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505549</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505551</GUID>
+    </Item>
+  </ModOp>
+  <!-- END - Adding buildings to pools -->
+   
 </ModOps>
