@@ -152,7 +152,7 @@
     </Item>
   </ModOp>
   <!-- Category instead of dedicated chains -->
-  <Group ModOpID="ChainIntegration">
+  <Group ModOpID="ChainIntegration" Skip="1">
     <Group>
       <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500023']">
         <Item>

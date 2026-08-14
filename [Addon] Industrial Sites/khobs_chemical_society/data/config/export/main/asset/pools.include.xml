@@ -208,6 +208,26 @@
         </AssetPool>
       </Values>
     </Asset>
+    
+    <Asset>
+      <Template>AssetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505896</GUID>
+          <Name>AssetPool Celluloid</Name>
+        </Standard>
+        <AssetPool>
+          <AssetList>
+            <Item>
+              <Asset>2143505888</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505711</Asset>
+            </Item>
+          </AssetList>
+        </AssetPool>
+      </Values>
+    </Asset>
   </ModOp>
   <!-- END - Asset Pool -->
    
