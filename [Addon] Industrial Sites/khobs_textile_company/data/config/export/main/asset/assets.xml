@@ -1865,4 +1865,15 @@
     </Item>
   </ModOp>
   <!-- END - Tweaks -->
+
+  <!-- START - Textile Company - Add to category -->
+  <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>2143505631</Building>
+    </Item>
+    <Item>
+      <Building>2143505634</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Textile Company - Add to category -->
 </ModOps>

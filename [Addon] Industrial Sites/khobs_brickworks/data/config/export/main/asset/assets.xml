@@ -852,4 +852,12 @@
     </Asset>
   </ModOp>
   <!-- END - Buffs -->
+  
+  <!-- START - Brickworks - Add to category -->
+  <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>2143505803</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Brickworks - Add to category -->
 </ModOps>
