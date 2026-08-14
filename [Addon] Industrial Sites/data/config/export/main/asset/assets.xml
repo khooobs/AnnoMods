@@ -1,7 +1,7 @@
 <ModOps>
   <!-- Include Region -->
-  <Include File="../../../../khobs/tweaks/assets.include.xml" />
-  <Include File="../../../../khobs/triggers/assets.include.xml" />
+  <Include File="./tweaks.include.xml" />
+  <Include File="./unlock.include.xml" />
   
   <!-- Industrial Menus -->
   <Group>
