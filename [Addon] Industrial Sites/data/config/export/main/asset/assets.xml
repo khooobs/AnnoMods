@@ -631,58 +631,6 @@
     <Item>
       <GUID>2143505422</GUID>
     </Item>
-
-    <Item>
-      <GUID>2143505801</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505803</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505805</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505807</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505812</GUID>
-    </Item>
-
-    <Item>
-      <GUID>2143505692</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505700</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505714</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505716</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505745</GUID>
-    </Item>
-
-    <Item>
-      <GUID>2143505593</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505619</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505618</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505644</GUID>
-    </Item>
-    <Item>
-      <GUID>2143505650</GUID>
-    </Item>
-
-    <Item>
-      <GUID>2143506122</GUID>
-    </Item>
   </ModOp>
   <!-- END - Adding buildings to pools -->
 
@@ -705,69 +653,6 @@
     </Item>
     <Item>
       <Factory>2143505422</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505803</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505812</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505703</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505705</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505707</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505709</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505711</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505713</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505721</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505694</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505601</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505602</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505604</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505605</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505630</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505631</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505634</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505633</Factory>
-    </Item>
-    <Item>
-      <Factory>2143505632</Factory>
-    </Item>
-    <Item>
-      <Factory>2143506122</Factory>
-    </Item>
-    <Item>
-      <Factory>2143506111</Factory>
     </Item>
   </ModOp>
   <!-- END - Adding working conditions -->

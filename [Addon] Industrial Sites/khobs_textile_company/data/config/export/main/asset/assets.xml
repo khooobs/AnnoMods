@@ -1861,10 +1861,45 @@
   <!-- Adding buildings to item effect pool -->
   <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='1010315']">
     <Item>
+      <GUID>2143505593</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505619</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505618</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505644</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505650</GUID>
+    </Item>
+    <Item>
       <GUID>2143505631</GUID>
     </Item>
   </ModOp>
   <!-- END - Tweaks -->
+
+  <!-- START - Adding working conditions -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories" >
+    <Item>
+      <Factory>2143505630</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505631</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505634</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505633</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505632</Factory>
+    </Item>
+  </ModOp>
+  <!-- END - Adding working conditions -->
 
   <!-- START - Textile Company - Add to category -->
   <ModOp GUID="2143505403" Type="add" Path="Values/ConstructionCategory/BuildingList">
