@@ -6,7 +6,7 @@
       <Values>
         <Standard>
           <GUID>2143505504</GUID>
-          <Name>AssetPool Steel Company</Name>
+          <Name>assetpool advanced steel</Name>
         </Standard>
         <AssetPool>
           <AssetList>
@@ -43,5 +43,37 @@
     <Item>
       <GUID>2143505507</GUID>
     </Item>
+    <Item>
+      <GUID>2143505564</GUID>
+    </Item>
   </ModOp>
+  
+  <!-- START - Adding buildings to pools -->
+  <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2143505500</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505507</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505509</GUID>
+    </Item>
+    <Item>
+      <GUID>2143505564</GUID>
+    </Item>
+  </ModOp>
+  <!-- END - Adding buildings to pools -->
+
+  
+  <!-- START - Adding working conditions -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories" >
+    <Item>
+      <Factory>2143505507</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505564</Factory>
+    </Item>
+  </ModOp>
+  <!-- END - Adding working conditions -->
 </ModOps>

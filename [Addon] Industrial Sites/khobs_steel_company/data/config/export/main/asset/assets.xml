@@ -6,6 +6,7 @@
   <Include File="factories.include.xml" />
   <Include File="products.include.xml" />
   <Include File="pools.include.xml" />
+  <Include File="unlock.include.xml" />
 
   <!-- START - Texts -->
   <ModOp GUID="25000192" Type="addNextSibling">
