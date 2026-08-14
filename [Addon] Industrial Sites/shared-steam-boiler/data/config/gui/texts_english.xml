@@ -1,31 +1,31 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <GUID>2143506000</GUID>
+      <GUID>2143506010</GUID>
       <Text>Steam Boiler</Text>
     </Text>
     <Text>
-      <GUID>2143506001</GUID>
+      <GUID>2143506011</GUID>
       <Text>Burns coal to provide steam to surrounding factories.</Text>
     </Text>
     <Text>
-      <GUID>2143506002</GUID>
+      <GUID>2143506012</GUID>
       <Text>Steam</Text>
     </Text>
     <Text>
-      <GUID>2143506003</GUID>
+      <GUID>2143506013</GUID>
       <Text>This factory would benefit from a boiler connection, helping it speed up production.</Text>
     </Text>
     <Text>
-      <GUID>2143506004</GUID>
+      <GUID>2143506014</GUID>
       <Text>Improved by Steam</Text>
     </Text>
     <Text>
-      <GUID>2143506005</GUID>
+      <GUID>2143506015</GUID>
       <Text>Provides steam to connected factories.</Text>
     </Text>
     <Text>
-      <GUID>2143506008</GUID>
+      <GUID>2143506018</GUID>
       <Text>Steam</Text>
     </Text>
   </ModOp>

@@ -5,10 +5,10 @@
       <Template>BuffFactoryModule</Template>
       <Values>
         <Standard>
-          <GUID>2143506000</GUID>
+          <GUID>2143506010</GUID>
           <Name>Steam Boiler</Name>
           <IconFilename>data/ui/khobs/icon_steam_boiler.png</IconFilename>
-          <InfoDescription>2143506001</InfoDescription>
+          <InfoDescription>2143506011</InfoDescription>
         </Standard>
       <Building>
         <BuildingType>Factory</BuildingType>
@@ -81,7 +81,7 @@
         <BuffFactory>
           <ProductionBuffs>
             <Item>
-              <ProductivityBuff>2143506002</ProductivityBuff>
+              <ProductivityBuff>2143506012</ProductivityBuff>
             </Item>
           </ProductionBuffs>
           <ProductionBuffScope>Radius</ProductionBuffScope>
@@ -112,13 +112,13 @@
 	    <Template>ProductionChain</Template>
       <Values>
         <Standard>
-          <GUID>2143506008</GUID>
+          <GUID>2143506018</GUID>
           <Name>Steam boiler chain</Name>
           <IconFilename>data/ui/khobs/icon_steam_boiler.png</IconFilename>
-          <InfoDescription>2143506001</InfoDescription>
+          <InfoDescription>2143506011</InfoDescription>
         </Standard>
         <ProductionChain>
-          <Building>2143506000</Building>
+          <Building>2143506010</Building>
           <Tier1>
             <Item>
               <Building>1010304</Building>
@@ -145,10 +145,10 @@
       <Template>GuildhouseBuff</Template>
       <Values>
         <Standard>
-          <GUID>2143506002</GUID>
+          <GUID>2143506012</GUID>
           <Name>Steam Boiler Buff</Name>
           <IconFilename>data/ui/khobs/icon_steam_01.png</IconFilename>
-          <InfoDescription>2143506003</InfoDescription>
+          <InfoDescription>2143506013</InfoDescription>
         </Standard>
         <ItemEffect>
           <EffectTargets>
@@ -189,7 +189,7 @@
       <Template>Text</Template>
       <Values>
         <Standard>
-          <GUID>2143506003</GUID>
+          <GUID>2143506013</GUID>
           <Name>Steam Boiler Buff Explanation Description</Name>
         </Standard>
       </Values>
@@ -198,7 +198,7 @@
       <Template>Text</Template>
       <Values>
         <Standard>
-          <GUID>2143506001</GUID>
+          <GUID>2143506011</GUID>
           <Name>Steam Boiler Description</Name>
         </Standard>
       </Values>
@@ -207,7 +207,7 @@
       <Template>Text</Template>
       <Values>
         <Standard>
-          <GUID>2143506004</GUID>
+          <GUID>2143506014</GUID>
           <Name>Steam Possible Text</Name>
           <IconFilename>data/ui/khobs/icon_steam_01.png</IconFilename>
         </Standard>
@@ -217,7 +217,7 @@
       <Template>Text</Template>
       <Values>
         <Standard>
-          <GUID>2143506005</GUID>
+          <GUID>2143506015</GUID>
           <Name>Steam Explanation Text</Name>
         </Standard>
       </Values>
@@ -231,7 +231,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>2143506006</GUID>
+          <GUID>2143506016</GUID>
           <Name>Creative Trigger</Name>
         </Standard>
         <Trigger>
@@ -252,10 +252,10 @@
                   <ActionUnlockAsset>
                     <UnlockAssets>
                       <Item>
-                        <Asset>2143506008</Asset>
+                        <Asset>2143506018</Asset>
                       </Item>
                       <Item>
-                        <Asset>2143506000</Asset>
+                        <Asset>2143506010</Asset>
                       </Item>
                       <Item>
                         <Asset>1742100242</Asset>
@@ -283,7 +283,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>2143506007</GUID>
+          <GUID>2143506017</GUID>
           <Name>Trigger</Name>
         </Standard>
         <Trigger>
@@ -307,10 +307,10 @@
                   <ActionUnlockAsset>
                     <UnlockAssets>
                       <Item>
-                        <Asset>2143506008</Asset>
+                        <Asset>2143506018</Asset>
                       </Item>
                       <Item>
-                        <Asset>2143506000</Asset>
+                        <Asset>2143506010</Asset>
                       </Item>
                       <Item>
                         <Asset>1742100242</Asset>
@@ -338,7 +338,7 @@
 
   <ModOp GUID="25000191" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[position()=1][1]">
     <Item>
-      <Building>2143506008</Building>
+      <Building>2143506018</Building>
     </Item>
   </ModOp>    
 </ModOps>
