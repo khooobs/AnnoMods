@@ -29,10 +29,6 @@
       <Text>상품을 생산합니다.</Text>
     </Text>
     <Text>
-      <GUID>2143505699</GUID>
-      <Text>화학 화합물</Text>
-    </Text>
-    <Text>
       <GUID>2143505700</GUID>
       <Text>화학 공장</Text>
     </Text>
@@ -53,24 +49,8 @@
       <Text>화학 산업 모듈</Text>
     </Text>
     <Text>
-      <GUID>2143505720</GUID>
-      <Text>소다</Text>
-    </Text>
-    <Text>
       <GUID>2143505721</GUID>
       <Text>화학 공장: 소다</Text>
-    </Text>
-    <Text>
-      <GUID>2143505724</GUID>
-      <Text>물류 창고 필요</Text>
-    </Text>
-    <Text>
-      <GUID>2143505725</GUID>
-      <Text>물류 창고 필요</Text>
-    </Text>
-    <Text>
-      <GUID>2143505835</GUID>
-      <Text>물류 창고 필요</Text>
     </Text>
     <Text>
       <GUID>2143505836</GUID>
@@ -87,18 +67,6 @@
     <Text>
       <GUID>2143505839</GUID>
       <Text>물류 창고 필요</Text>
-    </Text>
-    <Text>
-      <GUID>2143505726</GUID>
-      <Text>물류 창고</Text>
-    </Text>
-    <Text>
-      <GUID>2143505727</GUID>
-      <Text>물류 창고</Text>
-    </Text>
-    <Text>
-      <GUID>2143505728</GUID>
-      <Text>물류 창고</Text>
     </Text>
     <Text>
       <GUID>2143505729</GUID>
@@ -119,10 +87,6 @@
     <Text>
       <GUID>2143505733</GUID>
       <Text>석유화학 실험</Text>
-    </Text>
-    <Text>
-      <GUID>2143505734</GUID>
-      <Text>물류 창고</Text>
     </Text>
     <Text>
       <GUID>2143505739</GUID>
@@ -153,18 +117,6 @@
       <Text>모든 화학 저장소</Text>
     </Text>
     <Text>
-      <GUID>2143505847</GUID>
-      <Text>샴푸 생산 준비 완료</Text>
-    </Text>
-    <Text>
-      <GUID>2143505848</GUID>
-      <Text>레모네이드 제작 준비 완료</Text>
-    </Text>
-    <Text>
-      <GUID>2143505849</GUID>
-      <Text>기념품 제작 준비 완료</Text>
-    </Text>
-    <Text>
       <GUID>2143505850</GUID>
       <Text>래커 생산 준비 완료</Text>
     </Text>
@@ -177,10 +129,6 @@
       <Text>에탄올 생산 준비 완료</Text>
     </Text>
     <Text>
-      <GUID>2143505853</GUID>
-      <Text>탄산음료 생산 준비 완료</Text>
-    </Text>
-    <Text>
       <GUID>2143505556</GUID>
       <Text>래커 캔</Text>
     </Text>
@@ -191,10 +139,6 @@
     <Text>
       <GUID>2143505579</GUID>
       <Text>에탄올 캔</Text>
-    </Text>
-    <Text>
-      <GUID>2143505554</GUID>
-      <Text>화학 용기</Text>
     </Text>
     <Text>
       <GUID>2143506108</GUID>

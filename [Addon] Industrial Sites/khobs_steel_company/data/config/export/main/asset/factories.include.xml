@@ -2,7 +2,7 @@
   <!-- START - Blast Furnace -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
-      <Template>IndustrialCompanyFactory</Template>
+      <Template>FactoryBuilding7</Template>
       <Values>
         <Standard>
           <GUID>2143505507</GUID>
@@ -12,6 +12,7 @@
         </Standard>
         <Building>
           <SecondPartyRelevant>0</SecondPartyRelevant>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
         </Building>
         <Blocking>
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
@@ -115,9 +116,14 @@
         <FactoryBase>
           <FactoryInputs>
             <Item>
-              <Product>2143505553</Product>
-              <Amount>1</Amount>
-              <StorageAmount>15</StorageAmount>
+              <Product>1010227</Product>
+              <Amount>2</Amount>
+              <StorageAmount>12</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010226</Product>
+              <Amount>2</Amount>
+              <StorageAmount>12</StorageAmount>
             </Item>
           </FactoryInputs>
           <FactoryOutputs>
@@ -127,89 +133,13 @@
               <StorageAmount>200</StorageAmount>
             </Item>
           </FactoryOutputs>
-          <CycleTime>120</CycleTime>
+          <CycleTime>60</CycleTime>
           <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
         <LogisticNode>
           <TransporterCountMax>2</TransporterCountMax>
           <TransporterAsset>120028</TransporterAsset>
         </LogisticNode>
-        <BuffFactory>
-          <ProductionBuffs>
-            <Item>
-              <ProductivityBuff>2143505506</ProductivityBuff>
-              <ProductivityThresholdUp>1.51</ProductivityThresholdUp>
-              <ProductivityThresholdDown>0.9</ProductivityThresholdDown>
-            </Item>
-            <Item>
-              <ProductivityBuff>2143505511</ProductivityBuff>
-              <ProductivityThresholdUp>2.51</ProductivityThresholdUp>
-              <ProductivityThresholdDown>1.9</ProductivityThresholdDown>
-            </Item>
-            <Item>
-              <ProductivityBuff>2143505512</ProductivityBuff>
-              <ProductivityThresholdUp>3.51</ProductivityThresholdUp>
-              <ProductivityThresholdDown>2.9</ProductivityThresholdDown>
-            </Item>
-            <Item>
-              <ProductivityBuff>2143505514</ProductivityBuff>
-              <ProductivityThresholdUp>4.51</ProductivityThresholdUp>
-              <ProductivityThresholdDown>3.9</ProductivityThresholdDown>
-            </Item>
-            <Item>
-              <ProductivityBuff>2143505411</ProductivityBuff>
-              <ProductivityThresholdUp>5.51</ProductivityThresholdUp>
-              <ProductivityThresholdDown>4.9</ProductivityThresholdDown>
-            </Item>
-            <Item>
-              <ProductivityBuff>2143505423</ProductivityBuff>
-              <ProductivityThresholdUp>6.51</ProductivityThresholdUp>
-              <ProductivityThresholdDown>5.9</ProductivityThresholdDown>
-            </Item>
-            <Item>
-              <ProductivityBuff>2143505424</ProductivityBuff>
-              <ProductivityThresholdUp>7.51</ProductivityThresholdUp>
-              <ProductivityThresholdDown>6.9</ProductivityThresholdDown>
-            </Item>
-            <Item>
-              <ProductivityBuff>2143505425</ProductivityBuff>
-              <ProductivityThresholdUp>8.51</ProductivityThresholdUp>
-              <ProductivityThresholdDown>7.9</ProductivityThresholdDown>
-            </Item>
-            <Item>
-              <ProductivityBuff>2143505426</ProductivityBuff>
-              <ProductivityThresholdUp>9.51</ProductivityThresholdUp>
-              <ProductivityThresholdDown>8.9</ProductivityThresholdDown>
-            </Item>
-            <Item>
-              <ProductivityBuff>2143505427</ProductivityBuff>
-              <ProductivityThresholdUp>10.51</ProductivityThresholdUp>
-              <ProductivityThresholdDown>9.9</ProductivityThresholdDown>
-            </Item>
-            <Item>
-              <ProductivityBuff>2143505428</ProductivityBuff>
-              <ProductivityThresholdUp>11.51</ProductivityThresholdUp>
-              <ProductivityThresholdDown>10.9</ProductivityThresholdDown>
-            </Item>
-            <Item>
-              <ProductivityBuff>2143505429</ProductivityBuff>
-              <ProductivityThresholdUp>12.51</ProductivityThresholdUp>
-              <ProductivityThresholdDown>11.9</ProductivityThresholdDown>
-            </Item>
-            <Item>
-              <ProductivityBuff>2143505430</ProductivityBuff>
-              <ProductivityThresholdUp>13.51</ProductivityThresholdUp>
-              <ProductivityThresholdDown>12.9</ProductivityThresholdDown>
-            </Item>
-            <Item>
-              <ProductivityBuff>2143505431</ProductivityBuff>
-              <ProductivityThresholdUp>14.3</ProductivityThresholdUp>
-              <ProductivityThresholdDown>13.9</ProductivityThresholdDown>
-            </Item>
-          </ProductionBuffs>
-          <ProductionBuffScope>Radius</ProductionBuffScope>
-          <ProductionBuffDistance>20</ProductionBuffDistance>
-        </BuffFactory>
         <AmbientMoodProvider>
           <AmbientMood>IndustryHeavy</AmbientMood>
           <Murmur>Factory</Murmur>
@@ -282,22 +212,17 @@
         <ModuleOwner>
 					<ModuleLimits>
 					  <Main>
-					    <Limit>3</Limit>
+					    <Limit>0</Limit>
 					  </Main>
             <FertilizerModule>
-              <Limit>1</Limit>
+              <Limit>3</Limit>
             </FertilizerModule>
 					</ModuleLimits>
 					<ModulesRequiredForFullProductivity>1</ModulesRequiredForFullProductivity>
 					<FarmType>PlantFarm</FarmType>
-					<ModuleBuildRadius>100</ModuleBuildRadius>
-          <ConstructionOptions>
-            <Item>
-              <ModuleGUID>2143505509</ModuleGUID>
-            </Item>
-          </ConstructionOptions>
+					<ModuleBuildRadius>20</ModuleBuildRadius>
           <FertilizerModuleData>
-            <Module>2143505500</Module>
+            <Module>2143505509</Module>
           </FertilizerModuleData>
         </ModuleOwner>
       </Values>
@@ -309,13 +234,18 @@
   <!-- START - Steel Foundry -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
-      <Template>IndustrialCompanyFactory</Template>
+      <Template>FactoryBuilding7</Template>
       <Values>
         <Standard>
           <GUID>2143505564</GUID>
           <Name>Steel Foundry - Factory</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_steel.png</IconFilename>
+          <InfoDescription>2143505512</InfoDescription>
         </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+        </Building>
         <Blocking>
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
         </Blocking>
@@ -365,14 +295,13 @@
           <FactoryOutputs>
             <Item>
               <Product>1010219</Product>
-              <Amount>2</Amount>
-              <StorageAmount>6</StorageAmount>
+              <Amount>1</Amount>
+              <StorageAmount>100</StorageAmount>
             </Item>
           </FactoryOutputs>
-          <CycleTime>20</CycleTime>
+          <CycleTime>5</CycleTime>
           <IsMainFactory>0</IsMainFactory>
           <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
-          <TeleportProducedGoodsIntoAreaStorage>1</TeleportProducedGoodsIntoAreaStorage>
         </FactoryBase>
         <Maintenance>
           <Maintenances>
@@ -387,6 +316,10 @@
             </Item>
           </Maintenances>
         </Maintenance>
+        <Culture>
+          <Attractiveness>-10</Attractiveness>
+          <HasPollution>1</HasPollution>
+        </Culture>
       </Values>
     </Asset>
   </ModOp>

@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505699</GUID>
+      <Text>Związek chemiczny</Text>
+    </Text>
+  </ModOp>
+</ModOps>

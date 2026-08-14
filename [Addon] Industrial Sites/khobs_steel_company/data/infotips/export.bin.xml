@@ -124,7 +124,7 @@
     </InfoElement>
 
     
-    <!-- Steel Sheets Warehouse -->
+    <!-- Steel Foundry -->
     <InfoElement>
       <ElementType>8</ElementType>
       <ChildCount>1</ChildCount>
@@ -141,7 +141,7 @@
           <ResultType>
             <ResultType>1</ResultType>
           </ResultType>
-          <ExpectedValueInt>2143505505</ExpectedValueInt>
+          <ExpectedValueInt>2143505512</ExpectedValueInt>
           <Condition>[ToolOneHelper InfoDescription([RefGuid]) Guid]</Condition>
         </VisibilityElement>
         <OperatorType>

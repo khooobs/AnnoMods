@@ -1,0 +1,66 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>Siarka</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>Moduł siarki</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>Kopalnie żelaza, miedzi i cynku produkują siarkę jako dodatkową produkcję, gdy ten moduł zostanie umieszczony obok nich. Wymaga węgla jako surowca wejściowego.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302350</GUID>
+			<Text>Kopalnie żelaza i boksytu produkują siarkę jako dodatkową produkcję, gdy ten moduł jest umieszczony obok nich. Wymaga węgla jako surowca wejściowego.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>Moduł kopalni</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>Prażenie rudy siarczkowej</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>Dwutlenek siarki można uzyskać z siarczkowych rud żelaza, miedzi i cynku poprzez prażenie ich przez kilka godzin.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302352</GUID>
+			<Text>Dwutlenek siarki można uzyskać z siarczkowych rud żelaza i boksytu poprzez prażenie ich przez kilka godzin.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>1500302570</GUID>
+			<Text>Kopalnia siarki</Text>
+		</Text>
+		<Text>
+			<GUID>1500302572</GUID>
+			<Text>Wyczerpany depozyt</Text>
+		</Text>
+		<Text>
+			<GUID>1500302573</GUID>
+			<Text>Jeśli powstanie więcej niż 5 kopalni siarki, zasoby wyspy wyczerpią się do tego stopnia, że wszystkie kopalnie przestaną funkcjonować.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302574</GUID>
+			<Text>[AssetData(11143) Text]&#xA;&#xD;&#xA;&#xD;&lt;b&gt;[AssetData(1500302573) Text]&lt;/b&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>1500302359</GUID>
+			<Text>Sulfur Production (Lion053)</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

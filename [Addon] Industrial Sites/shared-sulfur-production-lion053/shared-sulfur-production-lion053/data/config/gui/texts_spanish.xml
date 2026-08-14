@@ -1,0 +1,66 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>Sulfuros</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>Módulo de Sulfuros</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>Minas de hierro, cobre y Zinc producen azufre como producto derivado cuando este módulo es añadido. Consume carbón.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302350</GUID>
+			<Text>Las minas de hierro y bauxita producen azufre como producto extra cuando este módulo se coloca junto a ellas. Requiere carbón como insumo.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>Módulo de mina</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>Quemador de mineral sulfídico</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>El dióxido de azufre puede ser obtenido de hierro, cobre y zinc al ser quemado durante horas.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302352</GUID>
+			<Text>El dióxido de azufre puede obtenerse a partir de minerales sulfídicos de hierro y bauxita tostándolos durante varias horas.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>1500302570</GUID>
+			<Text>Pozo de azufre</Text>
+		</Text>
+		<Text>
+			<GUID>1500302572</GUID>
+			<Text>Depósito agotado</Text>
+		</Text>
+		<Text>
+			<GUID>1500302573</GUID>
+			<Text>Si se construyen más de 5 pozos de azufre, las reservas de la isla se agotan hasta tal punto que todos los pozos dejan de funcionar.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302574</GUID>
+			<Text>[AssetData(11143) Text]&#xA;&#xD;&#xA;&#xD;&lt;b&gt;[AssetData(1500302573) Text]&lt;/b&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>1500302359</GUID>
+			<Text>Sulfur Production (Lion053)</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,66 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>Сера</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>Модуль серы</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>Железные, медные и цинковые шахты производят серу в качестве дополнительной продукции, если рядом с ними установлен этот модуль. Требуется уголь в качестве сырья.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302350</GUID>
+			<Text>Железные и бокситовые шахты производят серу в качестве дополнительного выхода, когда этот модуль размещен рядом с ними. Требуется уголь в качестве сырья.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>Шахтный модуль</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>Обжиг сульфидной руды</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>Диоксид серы можно получить из сульфидных железных, медных и цинковых руд, обжигая их в течение нескольких часов.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302352</GUID>
+			<Text>Диоксид серы можно получить из сульфидных железных и бокситовых руд, обжигая их в течение нескольких часов.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>1500302570</GUID>
+			<Text>Серный карьер</Text>
+		</Text>
+		<Text>
+			<GUID>1500302572</GUID>
+			<Text>Исчерпанный депозит</Text>
+		</Text>
+		<Text>
+			<GUID>1500302573</GUID>
+			<Text>Если построить более 5 серных карьеров, запасы серы на острове истощатся настолько, что все карьеры перестанут функционировать.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302574</GUID>
+			<Text>[AssetData(11143) Text]&#xA;&#xD;&#xA;&#xD;&lt;b&gt;[AssetData(1500302573) Text]&lt;/b&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>1500302359</GUID>
+			<Text>Sulfur Production (Lion053)</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

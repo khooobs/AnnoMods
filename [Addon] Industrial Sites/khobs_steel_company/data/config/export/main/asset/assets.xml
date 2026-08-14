@@ -1,5 +1,6 @@
 <ModOps>
   <Include File="company.include.xml" />
+  <Include File="chains.include.xml" />
   <Include File="modules.include.xml" />
   <Include File="buffs.include.xml" />
   <Include File="factories.include.xml" />
@@ -24,6 +25,9 @@
           <GUID>2143505508</GUID>
           <Name>Blast Furnace Description</Name>
         </Standard>
+        <Text>
+          <TextOverride>11143</TextOverride>
+        </Text>
       </Values>
     </Asset>
     <Asset>
@@ -49,8 +53,20 @@
       <Template>Text</Template>
       <Values>
         <Standard>
-          <GUID>2143505585</GUID>
-          <Name>Beam Production Description</Name>
+          <GUID>2143505505</GUID>
+          <Name>Steel Sheet Warehouse Description</Name>
+        </Standard>
+        <Text>
+          <TextOverride>11143</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505511</GUID>
+          <Name>Blast Furnace Workshop - Gameplay Description</Name>
         </Standard>
       </Values>
     </Asset>
@@ -58,8 +74,8 @@
       <Template>Text</Template>
       <Values>
         <Standard>
-          <GUID>2143505505</GUID>
-          <Name>Steel Sheet Warehouse Description</Name>
+          <GUID>2143505512</GUID>
+          <Name>Steel Foundry Description</Name>
         </Standard>
         <Text>
           <TextOverride>11143</TextOverride>
@@ -85,4 +101,15 @@
       </Values>
     </Asset>
   </ModOp>
+
+  
+  <!-- START - Add to category -->
+  <ModOp GUID="25000192" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500029']">
+    <Item>
+      <Building>2143505895</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Add to category -->
+
+  
 </ModOps>

@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002300</GUID>
+      <Text>ソーダ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002301</GUID>
+      <Text>あなたの飲み物に火花を加える化学革命。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002302</GUID>
+      <Text>胸焼けを魔法のように扱います。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

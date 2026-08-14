@@ -29,10 +29,6 @@
       <Text>Produce bienes.</Text>
     </Text>
     <Text>
-      <GUID>2143505699</GUID>
-      <Text>Compuesto químico</Text>
-    </Text>
-    <Text>
       <GUID>2143505700</GUID>
       <Text>Planta química</Text>
     </Text>
@@ -53,24 +49,8 @@
       <Text>Módulo de Industria Química</Text>
     </Text>
     <Text>
-      <GUID>2143505720</GUID>
-      <Text>Refresco</Text>
-    </Text>
-    <Text>
       <GUID>2143505721</GUID>
       <Text>Planta química: Refrescos</Text>
-    </Text>
-    <Text>
-      <GUID>2143505724</GUID>
-      <Text>Depósito logístico de necesidad</Text>
-    </Text>
-    <Text>
-      <GUID>2143505725</GUID>
-      <Text>Depósito logístico de necesidad</Text>
-    </Text>
-    <Text>
-      <GUID>2143505835</GUID>
-      <Text>Depósito logístico de necesidad</Text>
     </Text>
     <Text>
       <GUID>2143505836</GUID>
@@ -83,22 +63,6 @@
     <Text>
       <GUID>2143505838</GUID>
       <Text>Depósito logístico de necesidad</Text>
-    </Text>
-    <Text>
-      <GUID>2143505839</GUID>
-      <Text>Depósito logístico de necesidad</Text>
-    </Text>
-    <Text>
-      <GUID>2143505726</GUID>
-      <Text>Depósito logístico</Text>
-    </Text>
-    <Text>
-      <GUID>2143505727</GUID>
-      <Text>Depósito logístico</Text>
-    </Text>
-    <Text>
-      <GUID>2143505728</GUID>
-      <Text>Depósito logístico</Text>
     </Text>
     <Text>
       <GUID>2143505729</GUID>
@@ -119,10 +83,6 @@
     <Text>
       <GUID>2143505733</GUID>
       <Text>Experimentos petroquímicos</Text>
-    </Text>
-    <Text>
-      <GUID>2143505734</GUID>
-      <Text>Depósito logístico</Text>
     </Text>
     <Text>
       <GUID>2143505739</GUID>
@@ -153,18 +113,6 @@
       <Text>Todos los depósitos químicos</Text>
     </Text>
     <Text>
-      <GUID>2143505847</GUID>
-      <Text>Champú listo para producir</Text>
-    </Text>
-    <Text>
-      <GUID>2143505848</GUID>
-      <Text>Limonada lista para producir</Text>
-    </Text>
-    <Text>
-      <GUID>2143505849</GUID>
-      <Text>Listo para producir Souvenir</Text>
-    </Text>
-    <Text>
       <GUID>2143505850</GUID>
       <Text>Listo para producir laca</Text>
     </Text>
@@ -177,10 +125,6 @@
       <Text>Listo para producir etanol</Text>
     </Text>
     <Text>
-      <GUID>2143505853</GUID>
-      <Text>Listo para producir refresco</Text>
-    </Text>
-    <Text>
       <GUID>2143505556</GUID>
       <Text>Latas de laca</Text>
     </Text>
@@ -191,10 +135,6 @@
     <Text>
       <GUID>2143505579</GUID>
       <Text>Latas de etanol</Text>
-    </Text>
-    <Text>
-      <GUID>2143505554</GUID>
-      <Text>Contenedor químico</Text>
     </Text>
     <Text>
       <GUID>2143506108</GUID>

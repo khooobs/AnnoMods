@@ -113,15 +113,16 @@
   <!-- START - Blast Furnace Module -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
-      <Template>IndustrialCompanyModule</Template>
+      <Template>BuffFactoryModule</Template>
       <Values>
         <Standard>
           <GUID>2143505509</GUID>
           <Name>Blast Furnace - Module</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
-          <InfoDescription>2143505510</InfoDescription>
+          <InfoDescription>2143505511</InfoDescription>
         </Standard>
         <Building>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
           <PickingAsset>2143505509</PickingAsset>
           <AllowChangeVariation>1</AllowChangeVariation>
           <BuildModeRandomRotation>90</BuildModeRandomRotation>
@@ -222,19 +223,31 @@
         </Object>
         <Mesh />
         <Selection>
-          <GUIType>Generic</GUIType>
+          <GUIType>Production</GUIType>
           <OnSelection>
             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
             <Values>
               <ActionList />
             </Values>
           </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
         </Selection>
-        <BuildingModule>
-          <IsCulturalModule>1</IsCulturalModule>
-          <PlazaSize>20</PlazaSize>
-          <ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_neutral.png</ModuleMoodImage>
-        </BuildingModule>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>2143505553</Product>
+              <Amount>1</Amount>
+              <StorageAmount>15</StorageAmount>
+            </Item>
+          </FactoryInputs>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505506</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
         <Maintenance>
           <Maintenances>
             <Item>
@@ -252,6 +265,9 @@
           <Attractiveness>-10</Attractiveness>
           <HasPollution>1</HasPollution>
         </Culture>
+        <BuildingModule>
+          <ModuleType>FertilizerModule</ModuleType>
+        </BuildingModule>
       </Values>
     </Asset>
   </ModOp>
