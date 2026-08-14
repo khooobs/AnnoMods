@@ -68,12 +68,23 @@
       <Building>2143505667</Building>
     </Item>
   </ModOp>
+  
+  <ModOp GUID="500945" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500004']">
+    <Item>
+      <Building>2143505864</Building>
+    </Item>
+  </ModOp>
 
   <ModOp GUID="25000190" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[position()=1][1]">
     <Item>
       <Building>2143505865</Building>
     </Item>
   </ModOp>    
+  <ModOp GUID="500943" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500009']">
+    <Item>
+      <Building>2143505865</Building>
+    </Item>
+  </ModOp>
   <ModOp GUID="2143505865" Type="add" Path="Values/ConstructionCategory/BuildingList">
     <Item>
       <Building>2143505812</Building>

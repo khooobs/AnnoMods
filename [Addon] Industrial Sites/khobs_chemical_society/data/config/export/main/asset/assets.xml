@@ -25,6 +25,20 @@
       <Building>2143505894</Building>
     </Item>
   </ModOp>
+  <ModOp GUID="500945" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='269756']">
+    <Item>
+      <Building>2143505887</Building>
+    </Item>
+    <Item>
+      <Building>2143505890</Building>
+    </Item>
+    <Item>
+      <Building>2143505893</Building>
+    </Item>
+    <Item>
+      <Building>2143505894</Building>
+    </Item>
+  </ModOp>
   <!-- END - Add to category -->
 
   <!-- START - Industrial Cities Menu Integration -->
