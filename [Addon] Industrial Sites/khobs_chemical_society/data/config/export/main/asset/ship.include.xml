@@ -206,4 +206,12 @@
     </Item>
   </ModOp>
   <!-- END - LNG Tanker -->
+
+  <!-- START - Adding ships to pools -->
+  <ModOp Type="add" GUID="193982" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2143505565</GUID>
+    </Item>
+  </ModOp>
+  <!-- END - Adding ships to pools -->
 </ModOps>

@@ -711,14 +711,6 @@
     </Item>
   </ModOp>
   <!-- END - Adding buildings to pools -->
-   
-  <!-- START - Adding ships to pools -->
-  <ModOp Type="add" GUID="193982" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
-    <Item>
-      <GUID>2143505565</GUID>
-    </Item>
-  </ModOp>
-  <!-- END - Adding ships to pools -->
 
   <!-- START - Adding working conditions -->
   <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories" >
