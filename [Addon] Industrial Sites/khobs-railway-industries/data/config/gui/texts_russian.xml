@@ -1,0 +1,258 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505408</GUID>
+      <Text>Компания: Сталелитейный завод</Text>
+    </Text>
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Рудное депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Храните руды.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>Снабжение рудами</Text>
+    </Text>
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>Доменная печь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>Производит товары.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Доменный модуль</Text>
+    </Text>
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>Дополнительная мастерская, посвящённая производству стали.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>[AssetData(2143505510) Text]
+        
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 3 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>Processing ores</Text>
+    </Text>
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>Логистика по железным дорогам</Text>
+    </Text>
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>Грузовой разгрузочный док: сталь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>Модуль сталелитейной промышленности</Text>
+    </Text>
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>Railway Industries</Text>
+    </Text>
+    <Text>
+      <GUID>2143505585</GUID>
+      <Text>Позволяет литейным заводам производить дополнительные стальные балки за счёт снижения общей эффективности.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Pig Iron</Text>
+    </Text><Text>
+      <GUID>2143505565</GUID>
+      <Text>СПГ-танкер</Text>
+    </Text>
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>Разработан и построен для перевозки химических продуктов. Корпус усилен металлом для предотвращения опасных протечек. Можно использовать только на торговых маршрутах, без ручной загрузки или разгрузки.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505692</GUID>
+      <Text>Общество: Химия</Text>
+    </Text>
+    <Text>
+      <GUID>2143505694</GUID>
+      <Text>Лаборатория: химическое соединение</Text>
+    </Text>
+    <Text>
+      <GUID>2143505695</GUID>
+      <Text>Склад для загрузки продукции.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505697</GUID>
+      <Text>Повышайте химические соединения за счёт химического синтеза масла.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505698</GUID>
+      <Text>Производит товары.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505700</GUID>
+      <Text>Химический завод</Text>
+    </Text>
+    <Text>
+      <GUID>2143505714</GUID>
+      <Text>Модуль химического завода</Text>
+    </Text>
+    <Text>
+      <GUID>2143505715</GUID>
+      <Text>Предоставляет зону для химических экспериментов.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505716</GUID>
+      <Text>Все объекты химических заводов</Text>
+    </Text>
+    <Text>
+      <GUID>2143505717</GUID>
+      <Text>Модуль химической промышленности</Text>
+    </Text>
+    <Text>
+      <GUID>2143505721</GUID>
+      <Text>Химический завод: сода</Text>
+    </Text>
+    <Text>
+      <GUID>2143505836</GUID>
+      <Text>Требуется логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505837</GUID>
+      <Text>Требуется логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505838</GUID>
+      <Text>Требуется логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505839</GUID>
+      <Text>Требуется логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505729</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505730</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505731</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505732</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505733</GUID>
+      <Text>Нефтехимические эксперименты</Text>
+    </Text>
+    <Text>
+      <GUID>2143505739</GUID>
+      <Text>Химические инновации — химия</Text>
+    </Text>
+    <Text>
+      <GUID>2143505740</GUID>
+      <Text>Работа и исследования в синтетической химии позволяют разрабатывать процессы, направленные на замену молекул.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505741</GUID>
+      <Text>Химические инновации — химия</Text>
+    </Text>
+    <Text>
+      <GUID>2143505742</GUID>
+      <Text>Промышленность — расширение</Text>
+    </Text>
+    <Text>
+      <GUID>2143505743</GUID>
+      <Text>Было решено расширить химический завод для дальнейшего развития экспериментов, тем самым повысив производительность. Однако также начинают проявляться проблемы с качеством воздуха и воды в окружающей зоне...</Text>
+    </Text>
+    <Text>
+      <GUID>2143505744</GUID>
+      <Text>Промышленность — расширение</Text>
+    </Text>
+    <Text>
+      <GUID>2143505745</GUID>
+      <Text>Все химические склады</Text>
+    </Text>
+    <Text>
+      <GUID>2143505850</GUID>
+      <Text>Готов к производству лака</Text>
+    </Text>
+    <Text>
+      <GUID>2143505851</GUID>
+      <Text>Готов к производству целлулоида</Text>
+    </Text>
+    <Text>
+      <GUID>2143505852</GUID>
+      <Text>Готов к производству этанола</Text>
+    </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Лаковые банки</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Целлулоидный ящик</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Банки с этанолом</Text>
+    </Text>
+    <Text>
+      <GUID>2143506108</GUID>
+      <Text>Химический комплекс: лак</Text>
+    </Text>
+    <Text>
+      <GUID>2143506109</GUID>
+      <Text>Химический комплекс: целлулоид</Text>
+    </Text>
+    <Text>
+      <GUID>2143506110</GUID>
+      <Text>Химический комплекс: этанол</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Химический комплекс: химическое соединение</Text>
+    </Text>
+    <Text>
+      <GUID>2143506112</GUID>
+      <Text>Склад: Лак</Text>
+    </Text>
+    <Text>
+      <GUID>2143506113</GUID>
+      <Text>Склад: Целлулоид</Text>
+    </Text>
+    <Text>
+      <GUID>2143506114</GUID>
+      <Text>Склад: этанол</Text>
+    </Text>
+    <Text>
+      <GUID>2143506115</GUID>
+      <Text>Склад: химикаты</Text>
+    </Text>
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Модуль химического комплекса</Text>
+    </Text>
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Разгружает товары, прибывающие по железной дороге.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>Корпуса химии были перенесены в меню инженеров.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Химическая промышленность</Text>
+    </Text>
+  </ModOp>
+</ModOps>

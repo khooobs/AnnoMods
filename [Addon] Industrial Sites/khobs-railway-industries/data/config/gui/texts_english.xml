@@ -1,0 +1,296 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Chemical Industry -->
+    <Text>
+      <GUID>2143505565</GUID>
+      <Text>LNG Tanker</Text>
+    </Text>
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>Designed and build to carry chemical products. The hull is reinforced with metal to prevent dangerous leaks. Only usable on trade routes, no manual loading or unloading.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505692</GUID>
+      <Text>Society: Chemical</Text>
+    </Text>
+    <Text>
+      <GUID>2143505694</GUID>
+      <Text>Laboratory: Chemical Compound</Text>
+    </Text>
+    <Text>
+      <GUID>2143505695</GUID>
+      <Text>Product loading warehouse.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505697</GUID>
+      <Text>Boost Chemical Compound by Chemical Synthesis of oil.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505698</GUID>
+      <Text>Produces goods.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505700</GUID>
+      <Text>Chemical Plant</Text>
+    </Text>
+    <Text>
+      <GUID>2143505714</GUID>
+      <Text>Chemical Plant Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505715</GUID>
+      <Text>Provides chemical experimentations area.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505716</GUID>
+      <Text>All Chemical Plant Sites</Text>
+    </Text>
+    <Text>
+      <GUID>2143505717</GUID>
+      <Text>Chemical Industry Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505721</GUID>
+      <Text>Chemical Plant: Soda</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505836</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505837</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505838</GUID>
+      <Text>Require Logistic Depot</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505729</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505730</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505731</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505732</GUID>
+      <Text>Logistic Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505733</GUID>
+      <Text>Petrochemical Experimentations</Text>
+    </Text>
+    <Text>
+      <GUID>2143505739</GUID>
+      <Text>Chemical Innovation - Chemistry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505740</GUID>
+      <Text>Work and research in synthetic chemistry enable the development of processes aimed at replacing molecules.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505741</GUID>
+      <Text>Chemical Innovation - Chemistry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505742</GUID>
+      <Text>Industry - Expansion</Text>
+    </Text>
+    <Text>
+      <GUID>2143505743</GUID>
+      <Text>It was decided to expand the chemical plant to further promote experimentation, thereby boosting productivity. However, problems with air and water quality in the surrounding area are also beginning to emerge..</Text>
+    </Text>
+    <Text>
+      <GUID>2143505744</GUID>
+      <Text>Industry - Expansion</Text>
+    </Text>
+    <Text>
+      <GUID>2143505745</GUID>
+      <Text>All Chemical Depots</Text>
+    </Text>
+
+    
+
+    <Text>
+      <GUID>2143505850</GUID>
+      <Text>Ready to produce Lacquer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505851</GUID>
+      <Text>Ready to produce Celluloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143505852</GUID>
+      <Text>Ready to produce Ethanol</Text>
+    </Text>
+    
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Lacquer Cans</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Celluloid Crate</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Ethanol Cans</Text>
+    </Text>
+    
+    <Text>
+      <GUID>2143506108</GUID>
+      <Text>Chemical Complex: Lacquer</Text>
+    </Text>
+    <Text>
+      <GUID>2143506109</GUID>
+      <Text>Chemical Complex: Celluloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143506110</GUID>
+      <Text>Chemical Complex: Ethanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Chemical Complex: Chemical Compound</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143506112</GUID>
+      <Text>Warehouse: Lacquer</Text>
+    </Text>
+    <Text>
+      <GUID>2143506113</GUID>
+      <Text>Warehouse: Celluloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143506114</GUID>
+      <Text>Warehouse: Ethanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506115</GUID>
+      <Text>Warehouse: Chemicals</Text>
+    </Text>
+    
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Chemical Complex Module</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Unloads goods arriving by rail.</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>Chemistry buildings have been moved to the Engineers menu.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Chemical Industries</Text>
+    </Text>
+    
+    <Text>
+      <GUID>2143505723</GUID>
+      <Text>Alkaline</Text>
+    </Text>
+    <Text>
+      <GUID>2143506107</GUID>
+      <Text>Acidic</Text>
+    </Text>
+    <Text>
+      <GUID>2143505881</GUID>
+      <Text>Solvant</Text>
+    </Text>
+    <Text>
+      <GUID>2143505882</GUID>
+      <Text>Petrochemical</Text>
+    </Text>
+    
+    <Text>
+      <GUID>2143505885</GUID>
+      <Text>Sulfuric Acid</Text>
+    </Text>
+    <Text>
+      <GUID>2143505886</GUID>
+      <Text>Sulfuric Acid Plant</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505891</GUID>
+      <Text>Carbonate Plant</Text>
+    </Text>
+    <Text>
+      <GUID>2143505892</GUID>
+      <Text>Sodium Carbonate</Text>
+    </Text>    
+    
+    <!-- Steelworks/Metalworks Industry -->
+    <Text>
+      <GUID>2143505408</GUID>
+      <Text>Company: Steelworks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Ore Depot</Text>
+    </Text>
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Store ores.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>Supplied with ores</Text>
+    </Text>
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>Blast Furnace</Text>
+    </Text>
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Blast Furnace Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>Additionnal Workshop dedicated to steel production.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>[AssetData(2143505510) Text]
+        
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 3 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>Processing ores</Text>
+    </Text>
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>Logistics by Rails</Text>
+    </Text>
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>Steel Foundry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>Steelworks Industry Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>Railway Industries</Text>
+    </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Pig Iron</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,262 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505408</GUID>
+      <Text>Firma: Huta Stali</Text>
+    </Text>
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Magazyn rudy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Przechowywać rudy.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>Zaopatrywane w rudy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>Wielki piec</Text>
+    </Text>
+    <Text>
+      <GUID>2143505508</GUID>
+      <Text>Produkuje dobra.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Moduł wielkiego pieca</Text>
+    </Text>
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>Dodatkowy warsztat poświęcony produkcji stali.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>[AssetData(2143505510) Text]
+        
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 3 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>Processing ores</Text>
+    </Text>
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>Logistyka kolejowa</Text>
+    </Text>
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>Rampa rozładunkowa dla towarów: Stal</Text>
+    </Text>
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>Moduł Przemysłu Hutniczego</Text>
+    </Text>
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>Railway Industries</Text>
+    </Text>
+    <Text>
+      <GUID>2143505585</GUID>
+      <Text>Umożliwia odlewniom produkcję dodatkowych belek stalowych, kosztem obniżonej ogólnej wydajności.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Pig Iron</Text>
+    </Text><Text>
+      <GUID>2143505565</GUID>
+      <Text>Tankowiec LNG</Text>
+    </Text>
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>Zaprojektowany i zbudowany do przenoszenia produktów chemicznych. Kadłub jest wzmocniony metalem, aby zapobiec niebezpiecznym przeciekom. Można go używać tylko na szlakach handlowych, bez ręcznego załadunku czy rozładunku.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505692</GUID>
+      <Text>Społeczeństwo: Chemia</Text>
+    </Text>
+    <Text>
+      <GUID>2143505694</GUID>
+      <Text>Laboratorium: Związki chemiczne</Text>
+    </Text>
+    <Text>
+      <GUID>2143505695</GUID>
+      <Text>Magazyn załadunku produktów.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505697</GUID>
+      <Text>Zwiększ złożenie związków chemicznych poprzez syntezę chemiczną ropy.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505698</GUID>
+      <Text>Produkuje dobra.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505700</GUID>
+      <Text>Zakład Chemiczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505714</GUID>
+      <Text>Moduł Zakładu Chemicznego</Text>
+    </Text>
+    <Text>
+      <GUID>2143505715</GUID>
+      <Text>Zapewnia obszar eksperymentów chemicznych.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505716</GUID>
+      <Text>Wszystkie obiekty zakładów chemicznych</Text>
+    </Text>
+    <Text>
+      <GUID>2143505717</GUID>
+      <Text>Moduł Przemysłu Chemicznego</Text>
+    </Text>
+    <Text>
+      <GUID>2143505721</GUID>
+      <Text>Zakład chemiczny: Soda</Text>
+    </Text>
+    <Text>
+      <GUID>2143505836</GUID>
+      <Text>Wymagaj logistycznego depozytu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505837</GUID>
+      <Text>Wymagaj logistycznego depozytu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505838</GUID>
+      <Text>Wymagaj logistycznego depozytu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505839</GUID>
+      <Text>Wymagaj logistycznego depozytu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505729</GUID>
+      <Text>Magazyn logistyczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505730</GUID>
+      <Text>Magazyn logistyczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505731</GUID>
+      <Text>Magazyn logistyczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505732</GUID>
+      <Text>Magazyn logistyczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143505733</GUID>
+      <Text>Eksperymenty petrochemiczne</Text>
+    </Text>
+    <Text>
+      <GUID>2143505739</GUID>
+      <Text>Innowacje chemiczne – chemia</Text>
+    </Text>
+    <Text>
+      <GUID>2143505740</GUID>
+      <Text>Prace i badania w chemii syntetycznej umożliwiają rozwój procesów mających na celu zastąpienie cząsteczek.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505741</GUID>
+      <Text>Innowacje chemiczne – chemia</Text>
+    </Text>
+    <Text>
+      <GUID>2143505742</GUID>
+      <Text>Przemysł - Rozwój</Text>
+    </Text>
+    <Text>
+      <GUID>2143505743</GUID>
+      <Text>Zdecydowano się rozbudować zakład chemiczny, aby jeszcze bardziej wspierać eksperymenty, a tym samym zwiększyć wydajność. Jednak zaczynają się pojawiać problemy z jakością powietrza i wody w okolicy.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505744</GUID>
+      <Text>Przemysł - Rozwój</Text>
+    </Text>
+    <Text>
+      <GUID>2143505745</GUID>
+      <Text>Wszystkie magazyny chemiczne</Text>
+    </Text>
+    <Text>
+      <GUID>2143505850</GUID>
+      <Text>Gotowy do produkcji lakieru</Text>
+    </Text>
+    <Text>
+      <GUID>2143505851</GUID>
+      <Text>Gotowy do produkcji celuloidu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505852</GUID>
+      <Text>Gotowy do produkcji etanolu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505556</GUID>
+      <Text>Puszki lakieru</Text>
+    </Text>
+    <Text>
+      <GUID>2143505581</GUID>
+      <Text>Skrzynka celuloidowa</Text>
+    </Text>
+    <Text>
+      <GUID>2143505579</GUID>
+      <Text>Puszki po etanolu</Text>
+    </Text>
+    <Text>
+      <GUID>2143505554</GUID>
+      <Text>Pojemnik chemiczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143506108</GUID>
+      <Text>Kompleks chemiczny: Lakier</Text>
+    </Text>
+    <Text>
+      <GUID>2143506109</GUID>
+      <Text>Złożony chemiczny: Celuloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143506110</GUID>
+      <Text>Kompleks chemiczny: etanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Złożony związek chemiczny: Związek chemiczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143506112</GUID>
+      <Text>Magazyn: Lakier</Text>
+    </Text>
+    <Text>
+      <GUID>2143506113</GUID>
+      <Text>Magazyn: Celuloid</Text>
+    </Text>
+    <Text>
+      <GUID>2143506114</GUID>
+      <Text>Magazyn: Etanol</Text>
+    </Text>
+    <Text>
+      <GUID>2143506115</GUID>
+      <Text>Magazyn: Chemikalia</Text>
+    </Text>
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Moduł Złożony Chemiczny</Text>
+    </Text>
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Rozładowuje towary przybywające koleją.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>Budynki chemiczne zostały przeniesione do menu Inżynierów.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Przemysł chemiczny</Text>
+    </Text>
+  </ModOp>
+</ModOps>
