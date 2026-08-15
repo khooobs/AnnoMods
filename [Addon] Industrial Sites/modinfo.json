@@ -15,9 +15,8 @@
     "ow-tools-jakob",
     "tools-jakob",
     "khobs_workshop",
-    "khobs_textile_company",
-    "khobs_chemical_society",
-    "khobs_steel_company",
+    "khobs-railway-industries",
+    "khobs-module-industries",
     "shared_general_modules_kurila"
   ],
   "LoadAfterIds": [

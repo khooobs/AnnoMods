@@ -1,0 +1,360 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>Grandi industrie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505593</GUID>
+      <Text>Azienda: Textile</Text>
+    </Text>
+    <Text>
+      <GUID>2143505599</GUID>
+      <Text>Modulo dell'Industria Tessile</Text>
+    </Text>
+    <Text>
+      <GUID>2143505600</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505601</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505602</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505603</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505604</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505605</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505607</GUID>
+      <Text>Uno dei simboli della rivoluzione di quell'epoca, questi muri di mattoni contengono macchine tessili ed efficienza che pochi sembrano ancora comprendere.</Text>
+      <!-- Spinning Recipe List Description -->
+    </Text>
+    <Text>
+      <GUID>2143505606</GUID>
+      <Text>Ricette per filatura</Text>
+      <!-- no need for translation -->
+    </Text>
+    <Text>
+      <GUID>2143505608</GUID>
+      <Text>Tessuto di lana 1t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505610</GUID>
+      <Text>Tessuto di lana esotica 2t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505612</GUID>
+      <Text>Tessuto di feltro 3t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505614</GUID>
+      <Text>Tessuto di cotone 4t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505616</GUID>
+      <Text>Tessuto di lino 6t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505609</GUID>
+      <Text>Realizzato in: lana</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>Realizzato con: lana esotica</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>Realizzato con: feltro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>Realizzato in: cotone</Text>
+    </Text>
+    <Text>
+      <GUID>2143505617</GUID>
+      <Text>Realizzato con: Lino</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>Richiedere il modulo logistico della lana</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>Modulo Logistico Esotico della Lana</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>Modulo Logistico Richiedere il Lino</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>Richiedere il modulo logistico di feltro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>Richiedere il modulo di logistica del cotone</Text>
+    </Text>
+    <Text>
+      <GUID>2143505618</GUID>
+      <Text>Tutti i filatori</Text>
+    </Text>
+    <Text>
+      <GUID>2143505619</GUID>
+      <Text>Modulo Filatura</Text>
+    </Text>
+    <Text>
+      <GUID>2143505620</GUID>
+      <Text>Un laboratorio aggiuntivo dedicato ai tessuti.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505622</GUID>
+      <Text>Modulo Logistico: Lana</Text>
+    </Text>
+    <Text>
+      <GUID>2143505623</GUID>
+      <Text>Modulo Logistico: Lana Esotica</Text>
+    </Text>
+    <Text>
+      <GUID>2143505624</GUID>
+      <Text>Modulo Logistico: Feltro</Text>
+    </Text>
+    <Text>
+      <GUID>2143505625</GUID>
+      <Text>Modulo Logistico: Cotone</Text>
+    </Text>
+    <Text>
+      <GUID>2143505626</GUID>
+      <Text>Modulo Logistico: Lino</Text>
+    </Text>
+    <Text>
+      <GUID>2143505627</GUID>
+      <Text>Conserva i beni.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505629</GUID>
+      <Text>Tessuto</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505630</GUID>
+      <Text>Tessitore</Text>
+    </Text>
+    <Text>
+      <GUID>2143505631</GUID>
+      <Text>Industrial Knitter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505632</GUID>
+      <Text>Weaver: Bombins</Text>
+    </Text>
+    <Text>
+      <GUID>2143505633</GUID>
+      <Text>Weaver: Abiti</Text>
+    </Text>
+    <Text>
+      <GUID>2143505634</GUID>
+      <Text>Industrial Tapestry</Text>
+    </Text>
+    <Text>
+      <GUID>2143505635</GUID>
+      <Text>Tessitore</Text><!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505636</GUID>
+      <Text /><!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505638</GUID>
+      <Text /><!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505640</GUID>
+      <Text /><!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505642</GUID>
+      <Text /><!-- No need to translate -->
+    </Text>
+
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>Processing Wool</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>Modulo di Logistica Richiesta</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>Modulo di Logistica Richiesta</Text>
+    </Text>
+    <Text>
+      <GUID>2143505643</GUID>
+      <Text>Modulo di Logistica Richiesta</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505644</GUID>
+      <Text>Tutta l'industria tessile</Text>
+    </Text>
+    <Text>
+      <GUID>2143505645</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505646</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505647</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505648</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505827</GUID>
+      <Text>Pronto a produrre Abbigliamento</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>Pronto a produrre Cappelli</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>Pronto a produrre tute</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>Arazzi pronti per la produzione</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505649</GUID>
+      <Text>Modulo di tessitura</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505650</GUID>
+      <Text>Tutti i depositi dell'industria tessile</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505651</GUID>
+      <Text>Espansione del settore: Fabric</Text>
+    </Text>
+    <Text>
+      <GUID>2143505652</GUID>
+      <Text>L'uso e la standardizzazione dei tessuti permettono all'industria di migliorare la produzione e la logistica.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505653</GUID>
+      <Text>Espansione del settore: Fabric</Text>
+    </Text>
+    <Text>
+      <GUID>2143505657</GUID>
+      <Text>Cambio di squadra</Text>
+    </Text>
+    <Text>
+      <GUID>2143505658</GUID>
+      <Text>Con questa campagna di reclutamento, dovresti avere tutta la forza lavoro di cui hai bisogno.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505659</GUID>
+      <Text>Cambio di squadra</Text>
+    </Text>
+    <Text>
+      <GUID>2143505660</GUID>
+      <Text>Abiti - Compatibilità</Text>
+    </Text>
+    <Text>
+      <GUID>2143505661</GUID>
+      <Text>Bonus di compatibilità con Industrial Cities o il prodotto di tutela condivisa.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>Produce tessuto per le esigenze dei tessitori.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>Produce prodotti tessili.</Text>
+    </Text>
+    
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505854</GUID>
+      <Text>Knitter Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505856</GUID>
+      <Text>[AssetData(2143505620) Text]
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 4 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505801</GUID>
+      <Text>Azienda: Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505802</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505803</GUID>
+      <Text>Fornace di mattoni</Text>
+    </Text>
+    <Text>
+      <GUID>2143505804</GUID>
+      <Text>Produce beni.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505805</GUID>
+      <Text>Forni per mattoni</Text>
+    </Text>
+    <Text>
+      <GUID>2143505806</GUID>
+      <Text>Spazio extra per la cottura e la conservazione dei mattoni.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505807</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505808</GUID>
+      <Text>Conserva i beni.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>Modulo di Logistica Richiesta</Text>
+    </Text>
+    <Text>
+      <GUID>2143505810</GUID>
+      <Text>Pronto a produrre Mattone</Text>
+    </Text>
+    <Text>
+      <GUID>2143505811</GUID>
+      <Text>Modulo Industria dei Mattoni</Text>
+    </Text>
+    <Text>
+      <GUID>2143505813</GUID>
+      <Text>This building (company) is no longer in use. A complete overhaul of the company system is planned.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

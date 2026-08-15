@@ -1,0 +1,361 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>Grandes industries</Text>
+    </Text>
+    <Text>
+      <GUID>2143505593</GUID>
+      <Text>Société : Textile</Text>
+    </Text>
+    <Text>
+      <GUID>2143505599</GUID>
+      <Text>Module de l’industrie textile</Text>
+    </Text>
+    <Text>
+      <GUID>2143505600</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505601</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505602</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505603</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505604</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505605</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505607</GUID>
+      <Text>L’un des symboles de la révolution de cette époque, ces murs de briques contiennent des machines textiles et une efficacité que peu de gens semblent encore comprendre.</Text>
+      <!-- Spinning Recipe List Description -->
+    </Text>
+    <Text>
+      <GUID>2143505606</GUID>
+      <Text>Recettes de filage</Text>
+      <!-- no need for translation -->
+    </Text>
+    <Text>
+      <GUID>2143505608</GUID>
+      <Text>Tissu en laine 1t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505610</GUID>
+      <Text>Tissu en laine exotique 2t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505612</GUID>
+      <Text>Tissu feutré 3t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505614</GUID>
+      <Text>Tissu de coton 4t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505616</GUID>
+      <Text>Tissu en lin 6t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505609</GUID>
+      <Text>Fabriqué à partir de : laine</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>Fabriqué à partir de : Laine exotique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>Fabriqué à partir de : feutre</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>Fabriqué à partir de : coton</Text>
+    </Text>
+    <Text>
+      <GUID>2143505617</GUID>
+      <Text>Fabriqué à partir de : lin</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>Module logistique de laine requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>Module logistique de laine exotique requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>Module logistique du lin requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>Module logistique de feutre requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>Module logistique de coton requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505618</GUID>
+      <Text>Tous les filatures</Text>
+    </Text>
+    <Text>
+      <GUID>2143505619</GUID>
+      <Text>Module de filage</Text>
+    </Text>
+    <Text>
+      <GUID>2143505620</GUID>
+      <Text>Un atelier supplémentaire dédié au textile.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505622</GUID>
+      <Text>Module logistique : Laine</Text>
+    </Text>
+    <Text>
+      <GUID>2143505623</GUID>
+      <Text>Module logistique : Laine exotique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505624</GUID>
+      <Text>Module logistique : Feutre</Text>
+    </Text>
+    <Text>
+      <GUID>2143505625</GUID>
+      <Text>Module logistique : Coton</Text>
+    </Text>
+    <Text>
+      <GUID>2143505626</GUID>
+      <Text>Module logistique : Lin</Text>
+    </Text>
+    <Text>
+      <GUID>2143505627</GUID>
+      <Text>Stocke les marchandises.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505629</GUID>
+      <Text>Tissu</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505630</GUID>
+      <Text>Tisserand</Text>
+    </Text>
+    <Text>
+      <GUID>2143505631</GUID>
+      <Text>Industrial Knitter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505632</GUID>
+      <Text>Tisserand : Bombins</Text>
+    </Text>
+    <Text>
+      <GUID>2143505633</GUID>
+      <Text>Tisserand : Costumes</Text>
+    </Text>
+    <Text>
+      <GUID>2143505634</GUID>
+      <Text>Industrial Tapestry</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505635</GUID>
+      <Text>Weaver</Text><!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505636</GUID>
+      <Text /><!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505638</GUID>
+      <Text /><!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505640</GUID>
+      <Text /><!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505642</GUID>
+      <Text /><!-- No need to translate -->
+    </Text>
+
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>Processing Wool</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>Module logistique requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>Module logistique requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505643</GUID>
+      <Text>Module logistique requis</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505644</GUID>
+      <Text>Toute l’industrie du tissage</Text>
+    </Text>
+    <Text>
+      <GUID>2143505645</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505646</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505647</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505648</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505827</GUID>
+      <Text>Prêts à produire des vêtements</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>Prêts à produire des chapeaux</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>Prêts à produire des costumes</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>Prêts à produire des tapis</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505649</GUID>
+      <Text>Module de tissage</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505650</GUID>
+      <Text>Tous les dépôts de l’industrie du tissage</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505651</GUID>
+      <Text>Expansion industrielle : Fabric</Text>
+    </Text>
+    <Text>
+      <GUID>2143505652</GUID>
+      <Text>L’utilisation et la standardisation des tissus permettent à l’industrie d’améliorer sa production et sa logistique.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505653</GUID>
+      <Text>Expansion industrielle : Fabric</Text>
+    </Text>
+    <Text>
+      <GUID>2143505657</GUID>
+      <Text>Changement d’équipe</Text>
+    </Text>
+    <Text>
+      <GUID>2143505658</GUID>
+      <Text>Avec cette campagne de recrutement, vous devriez disposer de toute la main-d’œuvre dont vous avez besoin.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505659</GUID>
+      <Text>Changement d’équipe</Text>
+    </Text>
+    <Text>
+      <GUID>2143505660</GUID>
+      <Text>Costumes - Compatibilité</Text>
+    </Text>
+    <Text>
+      <GUID>2143505661</GUID>
+      <Text>Bonus de compatibilité avec les Villes Industrielles ou le produit de la combinaison partagée.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>Produit du tissu pour les besoins des tisserands.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>Produit des produits textiles.</Text>
+    </Text>
+    
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505854</GUID>
+      <Text>Knitter Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505856</GUID>
+      <Text>[AssetData(2143505620) Text]
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 4 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505801</GUID>
+      <Text>Entreprise : Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505802</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505803</GUID>
+      <Text>Briqueterie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505804</GUID>
+      <Text>Produit des biens.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505805</GUID>
+      <Text>Fours à briqueterie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505806</GUID>
+      <Text>Espace supplémentaire pour cuire et ranger les briques.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505807</GUID>
+      <Text>Dépôt logistique</Text>
+    </Text>
+    <Text>
+      <GUID>2143505808</GUID>
+      <Text>Stockez les marchandises.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>Module logistique requis</Text>
+    </Text>
+    <Text>
+      <GUID>2143505810</GUID>
+      <Text>Brique prête à produire</Text>
+    </Text>
+    <Text>
+      <GUID>2143505811</GUID>
+      <Text>Module d’industrie de la briqueterie</Text>
+    </Text>
+    <Text>
+      <GUID>2143505813</GUID>
+      <Text>This building (company) is no longer in use. A complete overhaul of the company system is planned.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

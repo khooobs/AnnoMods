@@ -1,0 +1,361 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>대형 산업</Text>
+    </Text>
+    <Text>
+      <GUID>2143505593</GUID>
+      <Text>회사: 섬유</Text>
+    </Text>
+    <Text>
+      <GUID>2143505599</GUID>
+      <Text>섬유 산업 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505600</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505601</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505602</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505603</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505604</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505605</GUID>
+      <Text>Ruined Spinning Mills</Text>
+    </Text>
+    <Text>
+      <GUID>2143505607</GUID>
+      <Text>이 시대 혁명의 상징 중 하나인 이 벽돌 벽에는 아직 거의 아무도 이해하지 못하는 섬유 기계와 효율성이 담겨 있습니다.</Text>
+      <!-- Spinning Recipe List Description -->
+    </Text>
+    <Text>
+      <GUID>2143505606</GUID>
+      <Text>방적 레시피</Text>
+      <!-- no need for translation -->
+    </Text>
+    <Text>
+      <GUID>2143505608</GUID>
+      <Text>울 원단 1t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505610</GUID>
+      <Text>이국적인 울 원단 2t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505612</GUID>
+      <Text>펠트 패브릭 3t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505614</GUID>
+      <Text>코튼 패브릭 4t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505616</GUID>
+      <Text>리넨 패브릭 6t</Text>
+    </Text>
+    <Text>
+      <GUID>2143505609</GUID>
+      <Text>재질: 양모</Text>
+    </Text>
+    <Text>
+      <GUID>2143505611</GUID>
+      <Text>재료: 이국적인 울(Exotic Wool)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505613</GUID>
+      <Text>재질: 펠트</Text>
+    </Text>
+    <Text>
+      <GUID>2143505615</GUID>
+      <Text>소재: 면(Cotton)</Text>
+    </Text>
+    <Text>
+      <GUID>2143505617</GUID>
+      <Text>재질: 리넨</Text>
+    </Text>
+    <Text>
+      <GUID>2143505621</GUID>
+      <Text>양모 물류 모듈 요구</Text>
+    </Text>
+    <Text>
+      <GUID>2143505628</GUID>
+      <Text>이국적인 울 물류 모듈 요구</Text>
+    </Text>
+    <Text>
+      <GUID>2143505654</GUID>
+      <Text>린넨 물류 모듈 필수</Text>
+    </Text>
+    <Text>
+      <GUID>2143505655</GUID>
+      <Text>펠트 물류 모듈 요구</Text>
+    </Text>
+    <Text>
+      <GUID>2143505656</GUID>
+      <Text>면화 물류 모듈 요구사항</Text>
+    </Text>
+    <Text>
+      <GUID>2143505618</GUID>
+      <Text>모든 방적 공장</Text>
+    </Text>
+    <Text>
+      <GUID>2143505619</GUID>
+      <Text>방적 밀 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505620</GUID>
+      <Text>섬유 전용 추가 작업장도 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505622</GUID>
+      <Text>물류 모듈: 울</Text>
+    </Text>
+    <Text>
+      <GUID>2143505623</GUID>
+      <Text>물류 모듈: 이국적인 울</Text>
+    </Text>
+    <Text>
+      <GUID>2143505624</GUID>
+      <Text>물류 모듈: 펠트</Text>
+    </Text>
+    <Text>
+      <GUID>2143505625</GUID>
+      <Text>물류 모듈: 코튼</Text>
+    </Text>
+    <Text>
+      <GUID>2143505626</GUID>
+      <Text>물류 모듈: 린넨</Text>
+    </Text>
+    <Text>
+      <GUID>2143505627</GUID>
+      <Text>가게 물건들.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505629</GUID>
+      <Text>직물</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505630</GUID>
+      <Text>위버</Text>
+    </Text>
+    <Text>
+      <GUID>2143505631</GUID>
+      <Text>Industrial Knitter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505632</GUID>
+      <Text>위버: 봄빈스</Text>
+    </Text>
+    <Text>
+      <GUID>2143505633</GUID>
+      <Text>위버: 정장</Text>
+    </Text>
+    <Text>
+      <GUID>2143505634</GUID>
+      <Text>Industrial Tapestry</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505635</GUID>
+      <Text>위버</Text><!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505636</GUID>
+      <Text /><!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505638</GUID>
+      <Text /><!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505640</GUID>
+      <Text /><!-- No need to translate -->
+    </Text>
+    <Text>
+      <GUID>2143505642</GUID>
+      <Text /><!-- No need to translate -->
+    </Text>
+
+    <Text>
+      <GUID>2143505637</GUID>
+      <Text>Processing Wool</Text>
+    </Text>
+    <Text>
+      <GUID>2143505639</GUID>
+      <Text>물류 모듈 요구</Text>
+    </Text>
+    <Text>
+      <GUID>2143505641</GUID>
+      <Text>물류 모듈 요구</Text>
+    </Text>
+    <Text>
+      <GUID>2143505643</GUID>
+      <Text>물류 모듈 요구</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505644</GUID>
+      <Text>모든 직조 산업</Text>
+    </Text>
+    <Text>
+      <GUID>2143505645</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505646</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505647</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505648</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505827</GUID>
+      <Text>옷 생산 준비 완료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505828</GUID>
+      <Text>모자 제작 준비 완료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505829</GUID>
+      <Text>슈트 제작 준비 완료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505830</GUID>
+      <Text>태피스트리 제작 준비 완료</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505649</GUID>
+      <Text>직조 모듈</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505650</GUID>
+      <Text>모든 직조 산업 창고</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505651</GUID>
+      <Text>산업 확장: 직물</Text>
+    </Text>
+    <Text>
+      <GUID>2143505652</GUID>
+      <Text>직물의 사용과 표준화는 산업이 생산과 물류를 개선할 수 있게 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505653</GUID>
+      <Text>산업 확장: 직물</Text>
+    </Text>
+    <Text>
+      <GUID>2143505657</GUID>
+      <Text>팀 변경</Text>
+    </Text>
+    <Text>
+      <GUID>2143505658</GUID>
+      <Text>이번 채용 캠페인을 통해 필요한 모든 인력을 확보할 수 있을 것입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505659</GUID>
+      <Text>팀 변경</Text>
+    </Text>
+    <Text>
+      <GUID>2143505660</GUID>
+      <Text>정장 - 호환성</Text>
+    </Text>
+    <Text>
+      <GUID>2143505661</GUID>
+      <Text>Industrial Cities나 공유 슈트 제품과의 호환성 향상.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505662</GUID>
+      <Text>직조공이 필요로 하는 원단을 생산합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505663</GUID>
+      <Text>섬유 제품을 생산합니다.</Text>
+    </Text>
+    
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505854</GUID>
+      <Text>Knitter Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505856</GUID>
+      <Text>[AssetData(2143505620) Text]
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 4 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505801</GUID>
+      <Text>회사: 브릭스</Text>
+    </Text>
+    <Text>
+      <GUID>2143505802</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>2143505803</GUID>
+      <Text>벽돌 공장</Text>
+    </Text>
+    <Text>
+      <GUID>2143505804</GUID>
+      <Text>상품을 생산합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505805</GUID>
+      <Text>벽돌 가마</Text>
+    </Text>
+    <Text>
+      <GUID>2143505806</GUID>
+      <Text>벽돌을 소성하고 보관할 여유 공간이 생겼습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505807</GUID>
+      <Text>물류 창고</Text>
+    </Text>
+    <Text>
+      <GUID>2143505808</GUID>
+      <Text>가게 물건들.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>물류 모듈 요구</Text>
+    </Text>
+    <Text>
+      <GUID>2143505810</GUID>
+      <Text>브릭 생산 준비 완료</Text>
+    </Text>
+    <Text>
+      <GUID>2143505811</GUID>
+      <Text>벽돌공장 산업 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>2143505813</GUID>
+      <Text>This building (company) is no longer in use. A complete overhaul of the company system is planned.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
