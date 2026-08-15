@@ -4,14 +4,11 @@
   "IncompatibleIds": null,
   "ModDependencies": [
     "shared_ui_change_kurila",
-    "shared-ground-textures-industry-jakob",
-    "wool_fabric_kurila",
-    "sewing_thread_kurila"
+    "shared-ground-textures-industry-jakob"
   ],
   "LoadAfterIds": [
     "IndustrializedLowTierProduction",
-    "production_works_kurila",
-    "wool_fabric_kurila"
+    "production_works_kurila"
   ],
   "Category": {
     "Chinese": "Addon",
