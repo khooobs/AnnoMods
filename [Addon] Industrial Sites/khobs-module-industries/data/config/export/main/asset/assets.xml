@@ -2,5 +2,4 @@
   <Include File="./bricks.include.xml" />
   <Include File="./textiles.include.xml" />
   <Include File="./menu.include.xml" />
-  <Include File="./deprecated.include.xml" />
 </ModOps>
