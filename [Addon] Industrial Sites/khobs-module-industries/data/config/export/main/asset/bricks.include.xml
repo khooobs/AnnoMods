@@ -434,57 +434,6 @@
   </ModOp>
   <!-- END - Depot -->
 
-  <!-- START - Texts -->
-  <ModOp GUID="25000192" Type="addNextSibling">
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505804</GUID>
-          <Name>Brickworks Description</Name>
-        </Standard>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505806</GUID>
-          <Name>Brick Kiln Description</Name>
-        </Standard>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505808</GUID>
-          <Name>Depot Description</Name>
-        </Standard>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505813</GUID>
-          <Name>Company Deprecated Description</Name>
-        </Standard>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505811</GUID>
-          <Name>Brickworks Industry Module</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_brick_company.png</IconFilename>
-        </Standard>
-      </Values>
-    </Asset>
-  </ModOp>
-  <!-- END - Texts -->
-
   <!-- START - FakeProduct -->
   <ModOp Type="addNextSibling" GUID="25546">
     <Asset>
@@ -789,9 +738,7 @@
     </Asset>
   </ModOp>
   <!-- END - Buffs -->
-  
-
-  
+    
   <!-- START - Adding buildings to pools -->
   <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
     <Item>

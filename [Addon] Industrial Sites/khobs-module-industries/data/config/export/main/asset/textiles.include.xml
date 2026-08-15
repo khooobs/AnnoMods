@@ -478,31 +478,6 @@
         </ItemEffectTargetPool>
       </Values>
     </Asset>
-    <Asset>
-      <Template>ItemEffectTargetPool</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505650</GUID>
-          <Name>All Weavers Depots</Name>
-        </Standard>
-        <ItemEffectTargetPool>
-          <EffectTargetGUIDs>
-            <Item>
-              <GUID>2143505645</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505646</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505647</GUID>
-            </Item>
-            <Item>
-              <GUID>2143505648</GUID>
-            </Item>
-          </EffectTargetGUIDs>
-        </ItemEffectTargetPool>
-      </Values>
-    </Asset>
   </ModOp>
   <!-- END - ItemEffectTargetPool -->
 
