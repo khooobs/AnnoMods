@@ -42,16 +42,7 @@
       <Values>
         <Standard>
           <GUID>2143505808</GUID>
-          <Name>Depot Description</Name>
-        </Standard>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505813</GUID>
-          <Name>Company Deprecated Description</Name>
+          <Name>Brick Depot Description</Name>
         </Standard>
       </Values>
     </Asset>
@@ -87,6 +78,15 @@
         <Text>
           <TextOverride>11143</TextOverride>
         </Text>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505620</GUID>
+          <Name>Textile Module Description</Name>
+        </Standard>
       </Values>
     </Asset>
     <Asset>

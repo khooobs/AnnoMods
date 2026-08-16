@@ -183,7 +183,7 @@
         </Standard>
         <Recipe>
           <RecipeBuilding>2143505694</RecipeBuilding>
-          <RecipeDescriptionText>2143505697</RecipeDescriptionText>
+          <RecipeDescriptionText>2143505695</RecipeDescriptionText>
           <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_chemical.png</RecipeImage>
           <RecipeIngredientUIData>
             <Item>
@@ -216,7 +216,7 @@
         </Standard>
         <Recipe>
           <RecipeBuilding>2143506111</RecipeBuilding>
-          <RecipeDescriptionText>2143506128</RecipeDescriptionText>
+          <RecipeDescriptionText>2143505697</RecipeDescriptionText>
           <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_chemical.png</RecipeImage>
           <RecipeIngredientUIData>
             <Item>
@@ -250,7 +250,7 @@
         </Standard>
         <Recipe>
           <RecipeBuilding>2143505883</RecipeBuilding>
-          <RecipeDescriptionText>2143506128</RecipeDescriptionText>
+          <RecipeDescriptionText>2143506123</RecipeDescriptionText>
           <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_chemical.png</RecipeImage>
           <RecipeIngredientUIData>
             <Item>
@@ -283,7 +283,7 @@
         </Standard>
         <Recipe>
           <RecipeBuilding>2143505884</RecipeBuilding>
-          <RecipeDescriptionText>2143506128</RecipeDescriptionText>
+          <RecipeDescriptionText>2143506124</RecipeDescriptionText>
           <RecipeImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_chemical.png</RecipeImage>
           <RecipeIngredientUIData>
             <Item>

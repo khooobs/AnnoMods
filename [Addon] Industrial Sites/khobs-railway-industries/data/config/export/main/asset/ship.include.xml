@@ -200,6 +200,17 @@
       </Values>
     </Asset>
   </ModOp>    
+  <ModOp GUID="25000192" Type="addNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505566</GUID>
+          <Name>Ship Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+  </ModOp>
   <ModOp Type="add" GUID="1010521" Path="Values/Shipyard/AssemblyOptions">
     <Item>
       <Vehicle>2143505565</Vehicle>
