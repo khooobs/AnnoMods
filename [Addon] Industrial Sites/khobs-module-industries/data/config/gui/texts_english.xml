@@ -89,4 +89,23 @@
       <Text>This building (company) is no longer in use. A complete overhaul of the company system is planned.</Text>
     </Text>
   </ModOp>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143506019</GUID>
+      <Text>Wood Mill</Text>
+    </Text>   
+    <Text>
+      <GUID>2143506020</GUID>
+      <Text>Wood Mill Lumberjack</Text>
+    </Text>
+    <Text>
+      <GUID>2143506022</GUID>
+      <Text>This Lumberjack is exclusive to the Wood Mill building.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506023</GUID>
+      <Text>Woodworks Industry Module</Text>
+    </Text>
+  </ModOp>
 </ModOps>

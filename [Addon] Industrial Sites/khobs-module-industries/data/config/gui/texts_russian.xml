@@ -4,297 +4,23 @@
       <GUID>2143505403</GUID>
       <Text>Крупные предприятия</Text>
     </Text>
-    <Text>
-      <GUID>2143505593</GUID>
-      <Text>Компания: Textile</Text>
-    </Text>
+
     <Text>
       <GUID>2143505599</GUID>
       <Text>Модуль текстильной промышленности</Text>
-    </Text>
-    <Text>
-      <GUID>2143505600</GUID>
-      <Text>Ruined Spinning Mills</Text>
-    </Text>
-    <Text>
-      <GUID>2143505601</GUID>
-      <Text>Ruined Spinning Mills</Text>
-    </Text>
-    <Text>
-      <GUID>2143505602</GUID>
-      <Text>Ruined Spinning Mills</Text>
-    </Text>
-    <Text>
-      <GUID>2143505603</GUID>
-      <Text>Ruined Spinning Mills</Text>
-    </Text>
-    <Text>
-      <GUID>2143505604</GUID>
-      <Text>Ruined Spinning Mills</Text>
-    </Text>
-    <Text>
-      <GUID>2143505605</GUID>
-      <Text>Ruined Spinning Mills</Text>
-    </Text>
-    <Text>
-      <GUID>2143505607</GUID>
-      <Text>Один из символов революции той эпохи, эти кирпичные стены содержат текстильные машины и эффективность, которые пока мало кто понимает.</Text>
-      <!-- Spinning Recipe List Description -->
-    </Text>
-    <Text>
-      <GUID>2143505606</GUID>
-      <Text>Рецепты прядения</Text>
-      <!-- no need for translation -->
-    </Text>
-    <Text>
-      <GUID>2143505608</GUID>
-      <Text>Шерстяная ткань 1t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505610</GUID>
-      <Text>Экзотическая шерстяная ткань 2t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505612</GUID>
-      <Text>Фетровая ткань 3t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505614</GUID>
-      <Text>Хлопковая ткань 4t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505616</GUID>
-      <Text>Льняная ткань 6t</Text>
-    </Text>
-    <Text>
-      <GUID>2143505609</GUID>
-      <Text>Сделано из: шерсти</Text>
-    </Text>
-    <Text>
-      <GUID>2143505611</GUID>
-      <Text>Сделано из: экзотической шерсти</Text>
-    </Text>
-    <Text>
-      <GUID>2143505613</GUID>
-      <Text>Сделано из: фетра</Text>
-    </Text>
-    <Text>
-      <GUID>2143505615</GUID>
-      <Text>Сделано из: хлопка</Text>
-    </Text>
-    <Text>
-      <GUID>2143505617</GUID>
-      <Text>Сделано из: льна</Text>
-    </Text>
-    <Text>
-      <GUID>2143505621</GUID>
-      <Text>Требуется модуль логистики шерсти</Text>
-    </Text>
-    <Text>
-      <GUID>2143505628</GUID>
-      <Text>Требуется логистический модуль экзотической шерсти</Text>
-    </Text>
-    <Text>
-      <GUID>2143505654</GUID>
-      <Text>Требуется модуль логистики льна</Text>
-    </Text>
-    <Text>
-      <GUID>2143505655</GUID>
-      <Text>Требуется модуль логистики с фетром</Text>
-    </Text>
-    <Text>
-      <GUID>2143505656</GUID>
-      <Text>Требуется модуль логистики хлопка</Text>
-    </Text>
-    <Text>
-      <GUID>2143505618</GUID>
-      <Text>Все прядильные фабрики</Text>
-    </Text>
-    <Text>
-      <GUID>2143505619</GUID>
-      <Text>Модуль прядильной станы</Text>
     </Text>
     <Text>
       <GUID>2143505620</GUID>
       <Text>Дополнительная мастерская, посвящённая текстилю.</Text>
     </Text>
     <Text>
-      <GUID>2143505622</GUID>
-      <Text>Логистический модуль: шерсть</Text>
-    </Text>
-    <Text>
-      <GUID>2143505623</GUID>
-      <Text>Логистический модуль: Экзотическая шерсть</Text>
-    </Text>
-    <Text>
-      <GUID>2143505624</GUID>
-      <Text>Логистический модуль: Фетр</Text>
-    </Text>
-    <Text>
-      <GUID>2143505625</GUID>
-      <Text>Логистический модуль: хлопок</Text>
-    </Text>
-    <Text>
-      <GUID>2143505626</GUID>
-      <Text>Логистический модуль: Лен</Text>
-    </Text>
-    <Text>
-      <GUID>2143505627</GUID>
-      <Text>Магазинные товары.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505629</GUID>
-      <Text>Ткань</Text>
-    </Text>
-
-    <Text>
-      <GUID>2143505630</GUID>
-      <Text>Ткач</Text>
-    </Text>
-    <Text>
       <GUID>2143505631</GUID>
       <Text>Industrial Knitter</Text>
     </Text>
     <Text>
-      <GUID>2143505632</GUID>
-      <Text>Уивер: Бомбинс</Text>
-    </Text>
-    <Text>
-      <GUID>2143505633</GUID>
-      <Text>Уивер: Костюмы</Text>
-    </Text>
-    <Text>
       <GUID>2143505634</GUID>
       <Text>Industrial Tapestry</Text>
-    </Text>
-
-    <Text>
-      <GUID>2143505635</GUID>
-      <Text>Ткач</Text><!-- No need to translate -->
-    </Text>
-    <Text>
-      <GUID>2143505636</GUID>
-      <Text /><!-- No need to translate -->
-    </Text>
-    <Text>
-      <GUID>2143505638</GUID>
-      <Text /><!-- No need to translate -->
-    </Text>
-    <Text>
-      <GUID>2143505640</GUID>
-      <Text /><!-- No need to translate -->
-    </Text>
-    <Text>
-      <GUID>2143505642</GUID>
-      <Text /><!-- No need to translate -->
-    </Text>
-
-    <Text>
-      <GUID>2143505637</GUID>
-      <Text>Processing Wool</Text>
-    </Text>
-    <Text>
-      <GUID>2143505639</GUID>
-      <Text>Требуется логистический модуль</Text>
-    </Text>
-    <Text>
-      <GUID>2143505641</GUID>
-      <Text>Требуется логистический модуль</Text>
-    </Text>
-    <Text>
-      <GUID>2143505643</GUID>
-      <Text>Требуется логистический модуль</Text>
-    </Text>
-
-    <Text>
-      <GUID>2143505644</GUID>
-      <Text>Вся ткацкая промышленность</Text>
-    </Text>
-    <Text>
-      <GUID>2143505645</GUID>
-      <Text>Логистический депо</Text>
-    </Text>
-    <Text>
-      <GUID>2143505646</GUID>
-      <Text>Логистический депо</Text>
-    </Text>
-    <Text>
-      <GUID>2143505647</GUID>
-      <Text>Логистический депо</Text>
-    </Text>
-    <Text>
-      <GUID>2143505648</GUID>
-      <Text>Логистический депо</Text>
-    </Text>
-
-    <Text>
-      <GUID>2143505827</GUID>
-      <Text>Готовы к производству одежды</Text>
-    </Text>
-    <Text>
-      <GUID>2143505828</GUID>
-      <Text>Готовы к производству шляп.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505829</GUID>
-      <Text>Готовы к производству костюмов</Text>
-    </Text>
-    <Text>
-      <GUID>2143505830</GUID>
-      <Text>Готов к производству гобеленов</Text>
-    </Text>
-
-    <Text>
-      <GUID>2143505649</GUID>
-      <Text>Ткацкий модуль</Text>
-    </Text>
-
-    <Text>
-      <GUID>2143505650</GUID>
-      <Text>Депо всей ткацкой промышленности</Text>
-    </Text>
-
-    <Text>
-      <GUID>2143505651</GUID>
-      <Text>Расширение отрасли: ткани</Text>
-    </Text>
-    <Text>
-      <GUID>2143505652</GUID>
-      <Text>Использование и стандартизация тканей позволяют отрасли улучшать производство и логистику.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505653</GUID>
-      <Text>Расширение отрасли: ткани</Text>
-    </Text>
-    <Text>
-      <GUID>2143505657</GUID>
-      <Text>Смена команды</Text>
-    </Text>
-    <Text>
-      <GUID>2143505658</GUID>
-      <Text>С этой кампанией по набору у вас будет вся необходимая рабочая сила.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505659</GUID>
-      <Text>Смена команды</Text>
-    </Text>
-    <Text>
-      <GUID>2143505660</GUID>
-      <Text>Костюмы — совместимость</Text>
-    </Text>
-    <Text>
-      <GUID>2143505661</GUID>
-      <Text>Бонус совместимости с промышленными городами или продуктом общего костюма.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505662</GUID>
-      <Text>Производит ткань для нужд ткача.</Text>
-    </Text>
-    <Text>
-      <GUID>2143505663</GUID>
-      <Text>Производит текстильные изделия.</Text>
-    </Text>
-    
+    </Text>    
     <Text>
       <!-- TODO translation -->
       <GUID>2143505854</GUID>
@@ -307,15 +33,24 @@
       &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 4 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
       </Text>
     </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505857</GUID>
+      <Text>Tapestry Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505859</GUID>
+      <Text>[AssetData(2143505620) Text]
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 3 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
   </ModOp>
+
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>2143505801</GUID>
       <Text>Компания: Bricks</Text>
-    </Text>
-    <Text>
-      <GUID>2143505802</GUID>
-      <Text></Text>
     </Text>
     <Text>
       <GUID>2143505803</GUID>
@@ -356,6 +91,29 @@
     <Text>
       <GUID>2143505813</GUID>
       <Text>This building (company) is no longer in use. A complete overhaul of the company system is planned.</Text>
+    </Text>
+  </ModOp>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143506019</GUID>
+      <Text>Wood Mill</Text>
+    </Text>   
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143506020</GUID>
+      <Text>Wood Mill Lumberjack</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143506022</GUID>
+      <Text>This Lumberjack is exclusive to the Wood Mill building.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143506023</GUID>
+      <Text>Woodworks industry module</Text>
     </Text>
   </ModOp>
 </ModOps>

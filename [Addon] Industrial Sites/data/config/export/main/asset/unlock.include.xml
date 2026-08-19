@@ -435,52 +435,6 @@
         <TriggerSetup />
       </Values>
     </Asset>
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>2143505904</GUID>
-          <Name>Workers - Unhide Brick Company</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionPlayerCounter</Template>
-            <Values>
-              <Condition />
-              <ConditionPlayerCounter>
-                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                <Context>15000001</Context>
-                <CounterAmount>3000</CounterAmount>
-              </ConditionPlayerCounter>
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
-                <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnhideAssets>
-                      <Item>
-                        <Asset>2143505800</Asset>
-                      </Item>
-                    </UnhideAssets>
-                  </ActionUnlockAsset>
-                </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-          <ResetTrigger>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <EmptyAutoCreateValue />
-            </Values>
-          </ResetTrigger>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
   </ModOp>
   <!-- END - EARLY GAME - WORKERS UNLOCKS -->
    

@@ -2,4 +2,59 @@
   <Include File="./bricks.include.xml" />
   <Include File="./textiles.include.xml" />
   <Include File="./menu.include.xml" />
+  <Include File="./chains.include.xml" />
+  <Include File="./wood.include.xml" />
+  <Include File="./unlock.include.xml" />
+
+  <!-- START - Add to category -->
+  <ModOp GUID="25000191" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500010']">
+    <Item>
+      <Building>2143505898</Building>
+    </Item>
+    <Item>
+      <Building>2143505897</Building>
+    </Item>    
+    <Item>
+      <Building>2143505609</Building>
+    </Item>
+    <Item>
+      <Building>2143505611</Building>
+    </Item>
+  </ModOp>
+  <ModOp GUID="500945" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500505']">
+    <Item>
+      <Building>2143505609</Building>
+    </Item>
+    <Item>
+      <Building>2143505611</Building>
+    </Item>
+  </ModOp>
+  <ModOp GUID="500943" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500024']">
+    <Item>
+      <Building>2143505898</Building>
+    </Item>
+    <Item>
+      <Building>2143505897</Building>
+    </Item>
+  </ModOp>
+  <!-- END - Add to category -->
+  <!-- Category instead of dedicated chains -->
+  <Group ModOpID="ChainIntegrationModule" Skip="1">
+    <Group>
+      <ModOp GUID="25000191" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500010']">
+        <Item>
+          <Building>2143505403</Building>
+        </Item>
+      </ModOp>
+      <ModOp Type="remove" Path="//ConstructionCategory/BuildingList/Item[Building='2143505609']">
+      </ModOp>
+      <ModOp Type="remove" Path="//ConstructionCategory/BuildingList/Item[Building='2143505611']">
+      </ModOp>
+      <ModOp Type="remove" Path="//ConstructionCategory/BuildingList/Item[Building='2143505897']">
+      </ModOp>
+    </Group>
+  </Group>
+  <ImyaTweaks Title="Features of Industrial Sites - Modular Industries" Icon="data/ui/2kimages/main/3dicons/khobs/icon_industry_menu_2.png" Description="Show dedicated production chains or a single category&#xD;&#xA;(can be useful if you have a lot of mods).&#xD;&#xA;On = Unique Category Menu&#xD;&#xA;Off = Dedicated Chains" />
+  <ImyaExpose Path="*" ModOpID="ChainIntegrationModule" ExposeID="Toggle compact menu" Kind="SkipToggle" InitState="True">
+  </ImyaExpose>
 </ModOps>
