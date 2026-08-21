@@ -88,10 +88,6 @@
       <GUID>2143505811</GUID>
       <Text>벽돌공장 산업 모듈</Text>
     </Text>
-    <Text>
-      <GUID>2143505813</GUID>
-      <Text>This building (company) is no longer in use. A complete overhaul of the company system is planned.</Text>
-    </Text>
   </ModOp>
 
   <ModOp Type="add" Path="/TextExport/Texts">

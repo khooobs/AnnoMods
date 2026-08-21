@@ -7,13 +7,15 @@
   <Include File="./unlock.include.xml" />
 
   <!-- START - Add to category -->
-  <ModOp GUID="25000191" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500010']">
+  <ModOp GUID="25000191" Type="addPrevSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500010']">
     <Item>
       <Building>2143505898</Building>
     </Item>
     <Item>
       <Building>2143505897</Building>
-    </Item>    
+    </Item>   
+  </ModOp> 
+  <ModOp GUID="25000191" Type="addNextSibling" Path="Values/ConstructionCategory/BuildingList/Item[Building='500010']">
     <Item>
       <Building>2143505609</Building>
     </Item>

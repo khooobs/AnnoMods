@@ -66,15 +66,15 @@
     </Text>
     <Text>
       <GUID>2143505807</GUID>
-      <Text>Logistic Depot</Text>
+      <Text>Clayworks</Text>
     </Text>
     <Text>
       <GUID>2143505808</GUID>
-      <Text>Store goods.</Text>
+      <Text>This Clayworks is exclusive to the Brickworks building.</Text>
     </Text>
     <Text>
       <GUID>2143505410</GUID>
-      <Text>Require Logistic Module</Text>
+      <Text>Require Clayworks</Text>
     </Text>
     <Text>
       <GUID>2143505810</GUID>
@@ -83,10 +83,6 @@
     <Text>
       <GUID>2143505811</GUID>
       <Text>Brickworks Industry Module</Text>
-    </Text>
-    <Text>
-      <GUID>2143505813</GUID>
-      <Text>This building (company) is no longer in use. A complete overhaul of the company system is planned.</Text>
     </Text>
   </ModOp>
 
