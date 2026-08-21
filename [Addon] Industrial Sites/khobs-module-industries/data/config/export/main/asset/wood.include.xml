@@ -35,7 +35,7 @@
   <!-- START - Wood Mill -->
   <ModOp Type="addNextSibling" GUID="1010283">
     <Asset>
-      <Template>FactoryBuilding7</Template>
+      <Template>FactoryBuilding7Modulable</Template>
       <Values>
         <Standard>
           <GUID>2143506019</GUID>
@@ -147,7 +147,7 @@
   <!-- START - Wood Mill Module -->
   <ModOp Type="addNextSibling" GUID="1010283">
     <Asset>
-      <Template>IndustrialCompanyModule</Template>
+      <Template>FactoryBuildingModule7</Template>
       <Values>
         <Standard>
           <GUID>2143506020</GUID>
@@ -156,7 +156,9 @@
           <InfoDescription>2143506022</InfoDescription>
         </Standard>
         <Building>
-					<BuildingCategoryName>2143505811</BuildingCategoryName>
+			    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<BuildingCategoryName>2143505402</BuildingCategoryName>
+			    <AssociatedRegions>Moderate</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
