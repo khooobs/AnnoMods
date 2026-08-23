@@ -14,9 +14,6 @@
             <Item>
               <Building>1010267</Building>
             </Item>
-            <Item>
-              <Building>2143505854</Building>
-            </Item>
           </Tier1>
           <InfoTipHeight>450</InfoTipHeight>
         </ProductionChain>
@@ -42,9 +39,6 @@
             </Item>
             <Item>
               <Building>5463</Building>
-            </Item>
-            <Item>
-              <Building>2143505857</Building>
             </Item>
           </Tier1>
           <InfoTipHeight>450</InfoTipHeight>
