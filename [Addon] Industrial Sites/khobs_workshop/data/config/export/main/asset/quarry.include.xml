@@ -50,6 +50,18 @@
           </Variations>
         </Object>
         <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
         <UpgradeList/>
         <FactoryBase>
           <FactoryOutputs>
@@ -130,6 +142,18 @@
           </Variations>
         </Object>
         <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
         <UpgradeList/>
         <FactoryBase>
           <FactoryOutputs>
@@ -210,6 +234,18 @@
           </Variations>
         </Object>
         <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
         <UpgradeList/>
         <FactoryBase>
           <FactoryOutputs>
@@ -290,6 +326,18 @@
           </Variations>
         </Object>
         <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
         <UpgradeList/>
         <FactoryBase>
           <FactoryOutputs>
