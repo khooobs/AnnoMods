@@ -1,0 +1,223 @@
+<ModOps>    
+  <!-- Steelworks/Metalworks Industry -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Logistic Module Building -->
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Склад руды</Text>
+    </Text>
+
+    <!-- Logistic Module Description -->
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Хранилище руды.</Text>
+    </Text>
+
+    <!-- Logistic Module Buff -->
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>Снабжение рудой</Text>
+    </Text>
+
+    <!-- Blast Furnace -->
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>Доменная печь</Text>
+    </Text>
+
+    <!-- Blast Furnace Module -->
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Модуль доменной печи</Text>
+    </Text>
+
+    <!-- Blast Furnace Module Description -->
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>Дополнительный цех для производства стали.</Text>
+    </Text>
+
+    <!-- Blast Furnace  Module - Gameplay Description -->
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>[AssetData(2143505510) Text]
+        
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> ПРИМЕЧАНИЕ:&lt;/b&gt;&lt;/font&gt; вы можете построить до 3 модулей. Если вы уже построили один модуль, используйте &lt;font overrideTextColor="true" color='#41dcd7'&gt;инструмент «Копировать»&lt;/font&gt; чтобы разместить остальные..
+      </Text>
+    </Text>
+
+    <!-- Blast Furnace Module Fake Product -->
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>Переработка руды</Text>
+    </Text>
+
+    <!-- Railway InfoTip -->
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>Железнодорожная логистика</Text>
+    </Text>
+
+    <!-- Steel Foundry -->
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>Сталелитейный завод</Text>
+    </Text>
+
+    <!-- Steel InfoTip -->
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>Модуль сталелитейной промышленности</Text>
+    </Text>
+
+    <!-- Railway Menu Category -->
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>Железнодорожная промышленность</Text>
+    </Text>
+
+    <!-- Pig Iron Product -->
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Чугун</Text>
+    </Text>
+  </ModOp>
+
+  <!-- Chemical Industry -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Ship -->
+    <Text>
+      <GUID>2143505565</GUID>
+      <Text>СПГ-танкер</Text>
+    </Text>
+    <!-- Ship Description -->
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>Спроектирован и построен для перевозки химической продукции. Корпус усилен металлом для предотвращения опасных утечек. Используется только на торговых маршрутах, ручная загрузка или разгрузка невозможна.</Text>
+    </Text>
+    
+    <!-- Chemical Plant -->
+    <Text>
+      <GUID>2143505700</GUID>
+      <Text>Химический завод</Text>
+    </Text>
+
+    <!-- Chemical Plant Module (4x4) -->
+    <Text>
+      <GUID>2143505714</GUID>
+      <Text>Модуль химического завода</Text>
+    </Text>
+
+    <!-- Chemical Plant Module (5x5) -->
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Модуль химического завода</Text>
+    </Text>
+
+    <!-- Chemical Plant Module Description -->
+    <Text>
+      <GUID>2143505715</GUID>
+      <Text>Предоставляет площадку для химических экспериментов.</Text>
+    </Text>
+
+    <!-- All Chemical Plant Pool -->
+    <Text>
+      <GUID>2143505716</GUID>
+      <Text>Все площадки химических заводов</Text>
+    </Text>
+
+    <!-- Chemical Industry Module InfoTip  -->
+    <Text>
+      <GUID>2143505717</GUID>
+      <Text>Модуль химической промышленности</Text>
+    </Text>
+
+    <!-- Small Soda Plant -->
+    <Text>
+      <GUID>2143505721</GUID>
+      <Text>Химический завод: Сода</Text>
+    </Text>
+
+    <!-- Chemicals Recipes -->
+    <!-- Alkaline -->
+    <Text>
+      <GUID>2143505723</GUID>
+      <Text>Щелочь</Text>
+    </Text>
+    <Text>
+      <GUID>2143505695</GUID>
+      <Text>Получаемая при обработке кальцинированной соды водой и углём, щелочная реакция даёт важнейшее минеральное основание. Незаменимая для омыления, отбеливания и нейтрализации, эта универсальная жидкость является одной из негласных опор современной химии.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505694</GUID>
+      <Text>Химический завод: Щелочной процесс</Text>
+    </Text>
+    <!-- Acidic -->
+    <Text>
+      <GUID>2143506107</GUID>
+      <Text>Кислота</Text>
+    </Text>
+    <Text>
+      <GUID>2143505697</GUID>
+      <Text>Соединяя серную кислоту с содой и железом, эта формула высвобождает всю разрушительную силу минералов. Опасная реакционная смесь, способная растворять самые стойкие металлы, перерабатывать тяжёлые руды или воздействовать на вещества там, где другие методы бессильны.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Химический завод: Кислотный процесс</Text>
+    </Text>
+    <!-- Solvant -->
+    <Text>
+      <GUID>2143505881</GUID>
+      <Text>Растворитель</Text>
+    </Text>
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Рождённый в результате тщательной дистилляции этанола в сочетании с серной кислотой, этот летучий растворитель является ключом к тонкой химии. Идеально подходящий для растворения, очистки или связывания сложных органических соединений, он превращает сырые реагенты в готовые к использованию ценные материалы.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505883</GUID>
+      <Text>Химический завод: Синтез растворителя</Text>
+    </Text>
+    <!-- Petrochemicals -->
+    <Text>
+      <GUID>2143505882</GUID>
+      <Text>Нефтехимикат</Text>
+    </Text>
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>Подвергая сырую нефть воздействию серной кислоты и соды, этот синтез извлекает ископаемую энергию в её чистейшей форме. Современный процесс переработки, поставляющий тяжёлые связующие вещества и углеродные производные, необходимые для крупной промышленности.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505884</GUID>
+      <Text>Химический завод: Нефтехимическая переработка</Text>
+    </Text>
+
+    <!-- Chemical Menu (unused atm) -->
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Химическая промышленность</Text>
+    </Text>
+    
+    <!-- Sulfuric Acid product -->
+    <Text>
+      <GUID>2143505885</GUID>
+      <Text>Серная кислота</Text>
+    </Text>
+    <!-- Sulfuric Acid factory -->
+    <Text>
+      <GUID>2143505886</GUID>
+      <Text>Завод серной кислоты</Text>
+    </Text>
+
+    <!-- Sodium Carbonate product -->
+    <Text>
+      <GUID>2143505892</GUID>
+      <Text>Карбонат натрия</Text>
+    </Text>    
+    <!-- Sodium Carbonate factory -->
+    <Text>
+      <GUID>2143505891</GUID>
+      <Text>Карбонатный завод</Text>
+    </Text>
+  </ModOp>
+</ModOps>
