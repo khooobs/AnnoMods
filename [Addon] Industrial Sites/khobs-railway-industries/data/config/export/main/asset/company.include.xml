@@ -1,0 +1,141 @@
+<ModOps>
+  <!-- START - Steel Company -->
+  <!-- @Deprecated, overhaul planned -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>IndustrialCompanyWithItems</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505408</GUID>
+          <Name>Steel Company</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_steel_company.png</IconFilename>
+          <InfoDescription>2143505409</InfoDescription>
+        </Standard>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>10000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <!-- <Item>
+              <Filename>data/modgraphics/buildings/special/steel_company/steel_company.cfg</Filename>
+            </Item> -->
+          </Variations>
+        </Object>
+        <Culture>
+          <Attractiveness>-10</Attractiveness>
+          <HasPollution>1</HasPollution>
+        </Culture>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>2500</Amount>
+              <InactiveAmount>2500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>100</Amount>
+            </Item>
+          </Maintenances>
+          <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+        </Maintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Steel Company -->
+
+    <!-- START - Chemical Society -->
+  <ModOp Type="addNextSibling" GUID="100853">
+    <Asset>
+      <Template>IndustrialCompanyWithItems</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505692</GUID>
+          <Name>Chemical Society</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_chemical_company.png</IconFilename>
+        </Standard>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>10000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <!-- <Filename>data/modgraphics/buildings/special/chemical_society/chemical_society.cfg</Filename> -->
+            </Item>
+          </Variations>
+        </Object>
+        <ItemContainer>
+          <SocketScopeRadius>25</SocketScopeRadius>
+          <InitSocketItems/>
+        </ItemContainer>
+        <Culture>
+          <Attractiveness>0</Attractiveness>
+          <HasPollution>1</HasPollution>
+        </Culture>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>5000</Amount>
+              <InactiveAmount>2500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>100</Amount>
+            </Item>
+          </Maintenances>
+          <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+        </Maintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Chemical Society -->
+</ModOps>

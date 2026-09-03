@@ -1,0 +1,204 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505403</GUID>
+          <Name>Industrial Sites Menu</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\khobs\icon_industry_menu_2.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>2143506019</Building>
+            </Item>
+            <Item>
+              <Building>2143505803</Building>
+            </Item>
+            <Item>
+              <Building>2143505631</Building>
+            </Item>
+            <Item>
+              <Building>2143505634</Building>
+            </Item>
+          </BuildingList>
+          <CategoryDescription>2143505402</CategoryDescription>
+        </ConstructionCategory>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  
+  <!-- START - Texts -->
+  <ModOp GUID="25000192" Type="addNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505804</GUID>
+          <Name>Brickworks Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505806</GUID>
+          <Name>Brick Kiln Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505808</GUID>
+          <Name>Clayworks Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505811</GUID>
+          <Name>Brickworks Industry Module</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_brick_company.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>InfoTip</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506025</GUID>
+          <Name>Clayworks - Infotip</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_clay.png</IconFilename>
+          <InfoDescription>2143505808</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+        </Building>
+        <BuildingUnique>
+          <Uniques>
+            <Item>
+              <UniqueType>CoalHarbor</UniqueType>
+            </Item>
+          </Uniques>
+        </BuildingUnique>
+        <Text>
+          <TextOverride>2143505807</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp GUID="25000192" Type="addNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505599</GUID>
+          <Name>Textile Industry Module</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_textile_company.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505834</GUID>
+          <Name>Textile Industry - Description</Name>
+        </Standard>
+        <Text>
+          <TextOverride>11143</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505620</GUID>
+          <Name>Textile Module Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505856</GUID>
+          <Name>Knitter Workshop - Gameplay Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505859</GUID>
+          <Name>Tapestry Workshop - Gameplay Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>InfoTip</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506021</GUID>
+          <Name>Wood Mill Lumberjack - Infotip</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_wood_log.png</IconFilename>
+          <InfoDescription>2143506022</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+        </Building>
+        <BuildingUnique>
+          <Uniques>
+            <Item>
+              <UniqueType>CoalHarbor</UniqueType>
+            </Item>
+          </Uniques>
+        </BuildingUnique>
+        <Text>
+          <TextOverride>2143506020</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506022</GUID>
+          <Name>Wood Mill Lumberjack - Gameplay Description</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506023</GUID>
+          <Name>Woodworks Industry Module</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/icon_woodworks.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2143506024</GUID>
+          <Name>Woodworks Factories Description</Name>
+        </Standard>
+        <Text>
+          <TextOverride>11143</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Texts -->
+</ModOps>

@@ -1,0 +1,115 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>Grandi industrie</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505599</GUID>
+      <Text>Modulo dell'Industria Tessile</Text>
+    </Text>
+    <Text>
+      <GUID>2143505620</GUID>
+      <Text>Un laboratorio aggiuntivo dedicato ai tessuti.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505631</GUID>
+      <Text>Industrial Knitter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505634</GUID>
+      <Text>Industrial Tapestry</Text>
+    </Text>    
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505854</GUID>
+      <Text>Knitter Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505856</GUID>
+      <Text>[AssetData(2143505620) Text]
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 4 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505857</GUID>
+      <Text>Tapestry Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505859</GUID>
+      <Text>[AssetData(2143505620) Text]
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 3 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+  </ModOp>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505801</GUID>
+      <Text>Azienda: Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505803</GUID>
+      <Text>Fornace di mattoni</Text>
+    </Text>
+    <Text>
+      <GUID>2143505804</GUID>
+      <Text>Produce beni.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505805</GUID>
+      <Text>Forni per mattoni</Text>
+    </Text>
+    <Text>
+      <GUID>2143505806</GUID>
+      <Text>Spazio extra per la cottura e la conservazione dei mattoni.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505807</GUID>
+      <Text>Deposito Logistico</Text>
+    </Text>
+    <Text>
+      <GUID>2143505808</GUID>
+      <Text>Conserva i beni.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>Modulo di Logistica Richiesta</Text>
+    </Text>
+    <Text>
+      <GUID>2143505810</GUID>
+      <Text>Pronto a produrre Mattone</Text>
+    </Text>
+    <Text>
+      <GUID>2143505811</GUID>
+      <Text>Modulo Industria dei Mattoni</Text>
+    </Text>
+  </ModOp>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143506019</GUID>
+      <Text>Wood Mill</Text>
+    </Text>   
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143506020</GUID>
+      <Text>Wood Mill Lumberjack</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143506022</GUID>
+      <Text>This Lumberjack is exclusive to the Wood Mill building.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143506023</GUID>
+      <Text>Woodworks industry module</Text>
+    </Text>
+  </ModOp>
+</ModOps>

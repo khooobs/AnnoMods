@@ -1,0 +1,584 @@
+<ModOps>
+  <!-- START - Textile Asset Pool -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>AssetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505594</GUID>
+          <Name>assetpool modular textile</Name>
+        </Standard>
+        <AssetPool>
+          <AssetList>
+            <Item>
+              <Asset>2143505631</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505634</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505854</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505857</Asset>
+            </Item>
+            <Item>
+              <Asset>2143505609</Asset>
+            </Item>
+          </AssetList>
+        </AssetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Textile Asset Pool -->
+
+  <!-- START - Buildings -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505631</GUID>
+          <Name>Industrial Knitter</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_working_cloth.png</IconFilename>
+          <InfoDescription>2143505834</InfoDescription>
+        </Standard>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>
+                data/modgraphics/buildings/production/industrial_knitters/industrial_knitters.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010197</Product>
+              <Amount>2</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1010237</Product>
+              <Amount>2</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>25</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>1</TransporterCountMax>
+        </LogisticNode>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>750</Amount>
+              <InactiveAmount>375</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <ModuleOwner>
+          <ModuleLimits>
+            <Main>
+              <Limit>0</Limit>
+            </Main>
+            <FertilizerModule>
+              <Limit>4</Limit>
+            </FertilizerModule>
+          </ModuleLimits>
+          <FertilizerModuleData>
+            <Module>2143505854</Module>
+          </FertilizerModuleData>
+          <ModuleBuildRadius>20</ModuleBuildRadius>
+        </ModuleOwner>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505634</GUID>
+          <Name>Industrial Tapestry</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_tapestries.png</IconFilename>
+          <InfoDescription>2143505834</InfoDescription>
+        </Standard>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>
+                data/modgraphics/buildings/production/industrial_tapestry/industrial_tapestry.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010197</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+            <Item>
+              <Product>5383</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>114404</Product>
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>1</TransporterCountMax>
+        </LogisticNode>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010116</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <ModuleOwner>
+          <ModuleLimits>
+            <Main>
+              <Limit>0</Limit>
+            </Main>
+            <FertilizerModule>
+              <Limit>3</Limit>
+            </FertilizerModule>
+          </ModuleLimits>
+          <FertilizerModuleData>
+            <Module>2143505857</Module>
+          </FertilizerModuleData>
+          <ModuleBuildRadius>10</ModuleBuildRadius>
+        </ModuleOwner>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Buildings -->
+
+  <!-- START - Module -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505854</GUID>
+          <Name>Knitter Module</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
+          <InfoDescription>2143505856</InfoDescription>
+        </Standard>
+        <Building>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/cloth.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/cloth2.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>2143505637</Product>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+          <CycleTime>60</CycleTime>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505855</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>500</Amount>
+              <InactiveAmount>250</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010116</Product>
+              <Amount>25</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <BuildingModule>
+          <ModuleType>FertilizerModule</ModuleType>
+        </BuildingModule>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505857</GUID>
+          <Name>Tapestry Module</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
+          <InfoDescription>2143505859</InfoDescription>
+        </Standard>
+        <Building>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <BuildingCategoryName>2143505402</BuildingCategoryName>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/cloth.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/modgraphics/buildings/modules/cloth2.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>2143505643</Product>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+          <CycleTime>60</CycleTime>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2143505858</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>500</Amount>
+              <InactiveAmount>250</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010116</Product>
+              <Amount>25</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <BuildingModule>
+          <ModuleType>FertilizerModule</ModuleType>
+        </BuildingModule>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Module -->
+
+  <!-- START - ItemEffectTargetPool -->
+  <ModOp Type="addNextSibling" GUID="25546">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505644</GUID>
+          <Name>All Weavers</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>2143505631</GUID>
+            </Item>
+            <Item>
+              <GUID>2143505634</GUID>
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - ItemEffectTargetPool -->
+
+  <!-- START - Buffs -->
+  <ModOp GUID="191114" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505855</GUID>
+          <Name>Module - Cloth</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <AllowStacking>1</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+        <Text>
+          <TextOverride>2143505854</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505858</GUID>
+          <Name>Module - Tapestry</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_medium.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <AllowStacking>1</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+        <Text>
+          <TextOverride>2143505857</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - Buffs -->
+
+
+  <!-- Adding buildings to item effect pool -->
+  <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='1010315']">
+    <Item>
+      <GUID>2143505644</GUID>
+    </Item>
+  </ModOp>
+  <!-- END - Tweaks -->
+
+  <!-- START - Adding working conditions -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories" >
+    <Item>
+      <Factory>2143505631</Factory>
+    </Item>
+    <Item>
+      <Factory>2143505634</Factory>
+    </Item>
+  </ModOp>
+  <!-- END - Adding working conditions -->
+
+</ModOps>

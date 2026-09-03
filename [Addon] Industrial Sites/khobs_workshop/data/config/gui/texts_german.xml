@@ -6,27 +6,27 @@
     </Text>
     <Text>
       <GUID>2143505668</GUID>
-      <Text>Bietet der Branche verschiedene Geräte und Werkzeuge an.</Text>
+      <Text>Stellt der verarbeitenden Industrie verschiedene Geräte und Werkzeuge bereit.</Text>
     </Text>
     <Text>
       <GUID>2143505670</GUID>
-      <Text>Slicer</Text>
+      <Text>Hobel</Text>
     </Text>
     <Text>
       <GUID>2143505671</GUID>
-      <Text>Werkstatt: Slicer</Text>
+      <Text>Werkstatt: Hobel</Text>
     </Text>
     <Text>
       <GUID>2143505672</GUID>
-      <Text>Geschätzte Slicer-Verkäufe</Text>
+      <Text>Geschätzte Verkäufe von Hobeln</Text>
     </Text>
     <Text>
       <GUID>2143505673</GUID>
-      <Text>Werkstatt: Hebe</Text>
+      <Text>Werkstatt: Flaschenzüge</Text>
     </Text>
     <Text>
       <GUID>2143505674</GUID>
-      <Text>Hebel</Text>
+      <Text>Flaschenzug</Text>
     </Text>
     <Text>
       <GUID>2143505675</GUID>
@@ -34,35 +34,35 @@
     </Text>
     <Text>
       <GUID>2143505676</GUID>
-      <Text>Eine Werkstatt, die sich der Konstruktion und Montage von Geräten für Industrie oder Handwerk widmet.</Text>
+      <Text>Eine Werkstatt, wo Geräte für Industrie oder Handwerk konstruiert und gefertigt werden.</Text>
     </Text>
     <Text>
       <GUID>2143505677</GUID>
-      <Text>Ein halbmechanischer Cutter, der besonders von Arbeitern geschätzt wird, die den Fingerverlust vermeiden wollen. Funktioniert für Brot und Fleisch.</Text>
+      <Text>Ein halbmechanisches Schneidegerät, das besonders von Arbeitern geschätzt wird, die alle Finger behalten wollen. Funktioniert gleichermaßen für Brot und Fleisch.</Text>
     </Text>
     <Text>
       <GUID>2143505678</GUID>
-      <Text>Geschätzte Verkauf der Hebe</Text>
+      <Text>Geschätzte Verkäufe von Flaschenzügen</Text>
     </Text>
     <Text>
       <GUID>2143505679</GUID>
-      <Text>Werkstatt: Harvester</Text>
+      <Text>Werkstatt: Erntemaschinen</Text>
     </Text>
     <Text>
       <GUID>2143505680</GUID>
-      <Text>Harvester</Text>
+      <Text>Erntemaschinen</Text>
     </Text>
     <Text>
       <GUID>2143505681</GUID>
-      <Text>Geschätzte Harvester-Verkäufe</Text>
+      <Text>Geschätzte Verkäufe von Erntemaschinen</Text>
     </Text>
     <Text>
       <GUID>2143505682</GUID>
-      <Text>Jüngste technologische Fortschritte haben die Entwicklung eines selbstfahrenden Erntemaschinen ermöglicht. Entfessle die Kraft dieser dröhnenden Motoren und beobachte, wie riesige Felder von dieser Maschine verschlungen werden.</Text>
+      <Text>Jüngste technologische Fortschritte haben die Entwicklung selbstfahrender Erntemaschinen ermöglicht. Entfesseln Sie die Kraft dieser dröhnenden Motoren und beobachten Sie, wie riesige Felder von der Maschine verschlungen werden.</Text>
     </Text>
     <Text>
       <GUID>2143505683</GUID>
-      <Text>Werkstatt: Kreissäge</Text>
+      <Text>Werkstatt: Kreissägen</Text>
     </Text>
     <Text>
       <GUID>2143505684</GUID>
@@ -70,15 +70,15 @@
     </Text>
     <Text>
       <GUID>2143505685</GUID>
-      <Text>Eine so scharfe Klinge, besonders nützlich zum Roden eines Waldes.</Text>
+      <Text>Die Klinge ist so scharf, dass sie sich besonders zum Roden eines Waldes eignet.</Text>
     </Text>
     <Text>
       <GUID>2143505686</GUID>
-      <Text>Geschätzte Rundsägenverkäufe</Text>
+      <Text>Geschätzte Verkäufe von Kreissägen</Text>
     </Text>
     <Text>
       <GUID>2143505687</GUID>
-      <Text>Werkstatt: Generator</Text>
+      <Text>Werkstatt: Generatoren</Text>
     </Text>
     <Text>
       <GUID>2143505688</GUID>
@@ -86,15 +86,15 @@
     </Text>
     <Text>
       <GUID>2143505689</GUID>
-      <Text>Geschätzte Generatorverkäufe</Text>
+      <Text>Geschätzte Verkäufe von Generatoren</Text>
     </Text>
     <Text>
       <GUID>2143505690</GUID>
-      <Text>Leistungsstarke Turbinen, die mit Gezeitenkraft die Produktion unterstützen.</Text>
+      <Text>Leistungsstarke Turbinen, die mit der Kraft der Gezeiten die Produktion unterstützen.</Text>
     </Text>
     <Text>
       <GUID>2143505691</GUID>
-      <Text>Der gesamte Flussbau</Text>
+      <Text>Alle Flussproduktionsbetriebe</Text>
     </Text>
     <Text>
       <GUID>2143506000</GUID>
@@ -119,6 +119,241 @@
     <Text>
       <GUID>2143506005</GUID>
       <Text>Zusammenarbeit mit der Sägemühle</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505516</GUID>
+      <Text>Mineralien</Text>
+    </Text>
+    <Text>
+      <GUID>2143505517</GUID>
+      <Text>Die Ausgrabungen liefern Steine, Geoden und Kiesel, aus denen zusätzliche Rohstoffe extrahiert werden können.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505520</GUID>
+      <Text>Zerkleinerungsprozesse</Text>
+    </Text>
+    <Text>
+      <GUID>2143505521</GUID>
+      <Text>Eine spezielle Anlage mit Brechmaschinen und Ketten für große Brocken von Mineralien und Geoden.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505524</GUID>
+      <Text>Brecher: Eisen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505525</GUID>
+      <Text>Brecher: Kupfer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505527</GUID>
+      <Text>Brecher: Zink</Text>
+    </Text>
+    <Text>
+      <GUID>2143505529</GUID>
+      <Text>Brecher: Kohle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505531</GUID>
+      <Text>Brecher: Gold</Text>
+    </Text>
+    <Text>
+      <GUID>2143505518</GUID>
+      <Text>Brecher: Rohling</Text>
+    </Text>
+    <Text>
+      <GUID>2143505522</GUID>
+      <Text>Brecher: Eisen</Text>
+    </Text>
+    <Text>
+      <GUID>2143505530</GUID>
+      <Text>Brecher: Kohle</Text>
+    </Text>
+    <Text>
+      <GUID>2143505526</GUID>
+      <Text>Brecher: Kupfer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505528</GUID>
+      <Text>Brecher: Zink</Text>
+    </Text>
+    <Text>
+      <GUID>2143505532</GUID>
+      <Text>Brecher: Gold</Text>
+    </Text>
+    <Text>
+      <GUID>2143505523</GUID>
+      <Text>Bitte achten Sie darauf, sich nicht zu weit über den Brecher zu lehnen!</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505552</GUID>
+      <Text>This machine doesn't do nuance. It crushes the hardest geodes to extract this precious black sediment. It might not be as sparkling as a diamond, but it’s still incredibly useful in your furnaces and factories.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505558</GUID>
+      <Text>Beneath its rough stone coating hides an incomparable reddish glow. Your workers will surely complain about the crusher's vibrations.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505560</GUID>
+      <Text>Smashing, breaking, crushing to pieces... When the debris reveals this metal, essential for brass production. Your rivals will see only rubble; you will see longevity.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505561</GUID>
+      <Text>Opening a geode is like opening a box of chocolates, with the added risk of getting your fingers caught in a gear. But what a divine surprise when the rock splits to reveal veins of the purest metal! Enough to make your investors' eyes shine...</Text>
+    </Text>
+  </ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505538</GUID>
+      <Text>Siebverfahren</Text>
+    </Text>
+    <Text>
+      <GUID>2143505539</GUID>
+      <Text>Mehrere Maschinen zum Sieben von Silizium und zum Auffinden von Mineralien für die Metallurgie.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505540</GUID>
+      <Text>Sifter: Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2143505543</GUID>
+      <Text>Sieb: Kalkstein</Text>
+    </Text>
+    <Text>
+      <GUID>2143505548</GUID>
+      <Text>Sieb: Kupfer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505550</GUID>
+      <Text>Sieb: Zink</Text>
+    </Text>
+    <Text>
+      <GUID>2143505546</GUID>
+      <Text>Sieb: Gold</Text>
+    </Text>
+    <Text>
+      <GUID>2143505536</GUID>
+      <Text>Sieb: blank</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505542</GUID>
+      <Text>Sifter: Iron</Text>
+    </Text>
+    <Text>
+      <GUID>2143505545</GUID>
+      <Text>Sieb: Kalkstein</Text>
+    </Text>
+    <Text>
+      <GUID>2143505549</GUID>
+      <Text>Sieb: Kupfer</Text>
+    </Text>
+    <Text>
+      <GUID>2143505551</GUID>
+      <Text>Sieb: Zink</Text>
+    </Text>
+    <Text>
+      <GUID>2143505547</GUID>
+      <Text>Sieb: Gold</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505541</GUID>
+      <Text>Die Erfahrung mit der Meerwasserfilterung hat es ermöglicht, mehr Erz zu gewinnen, was von der Metallurgie besonders geschätzt wird.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505544</GUID>
+      <Text>Diese Kieslagerstätte stand so lange unter Wasser, dass die Erosion ihren Tribut gefordert hat.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505562</GUID>
+      <Text>The patience of a saint and an oscillating machine—that is the secret to flushing out the copper flakes nestled in riverbeds.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505567</GUID>
+      <Text>The sand slips, the water flows, and gravity does the rest. This delicate process catches the zinc sediments that nature has patiently polished over the centuries.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505568</GUID>
+      <Text>Forget the lonely old prospector with his pan by the water's edge. Here, we sift alluvial sand on a grand scale. When the sun hits the sieve and makes those few nuggets shimmer, you quickly forget the dust in your eyes.</Text>
+    </Text> 
+  
+    <!-- # Start - Quarries Assets -->
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505865</GUID>
+      <Text>Quarries/Mines</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505812</GUID>
+      <Text>Large Clay Pit</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505861</GUID>
+      <Text>Sand Quarry</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505862</GUID>
+      <Text>Copper Quarry</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505863</GUID>
+      <Text>Zinc Quarry</Text>
+    </Text>
+
+    <!-- # Start - Workshops Assets -->
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505864</GUID>
+      <Text>Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505866</GUID>
+      <Text>Bloomery</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505867</GUID>
+      <Text>Blacksmith</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505868</GUID>
+      <Text>Wheelwright</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505869</GUID>
+      <Text>Carpenter</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505870</GUID>
+      <Text>Pipe Maker</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505871</GUID>
+      <Text>Gramophone Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505872</GUID>
+      <Text>Typewriter Workshop</Text>
     </Text>
   </ModOp>
 </ModOps>

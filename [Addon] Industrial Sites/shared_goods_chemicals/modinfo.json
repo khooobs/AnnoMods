@@ -1,0 +1,22 @@
+{
+  "Version": "1.0",
+  "ModID": "shared_goods_chemicals",
+  "DeprecateIds": [],
+  "ModDependencies": [],
+  "LoadAfterIds": [],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared"
+  },
+  "ModName": {
+    "English": "shared_goods_chemicals"
+  },
+  "Description": {
+    "English": "Adds Chemicals as intermediate goods"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Khobs",
+  "Image": null
+}

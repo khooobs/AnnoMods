@@ -1,0 +1,107 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>Modular Industries</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505599</GUID>
+      <Text>Textile Industry Module</Text>
+    </Text>
+    <Text>
+      <GUID>2143505620</GUID>
+      <Text>An additional workshop to boost factory productivity.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505631</GUID>
+      <Text>Industrial Knitter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505634</GUID>
+      <Text>Industrial Tapestry</Text>
+    </Text>    
+    <Text>
+      <GUID>2143505854</GUID>
+      <Text>Knitter Workshop</Text>
+    </Text>
+    <Text>
+      <GUID>2143505856</GUID>
+      <Text>[AssetData(2143505620) Text]
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 4 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+    <Text>
+      <GUID>2143505857</GUID>
+      <Text>Tapestry Workshop</Text>
+    </Text>
+    <Text>
+      <GUID>2143505859</GUID>
+      <Text>[AssetData(2143505620) Text]
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 3 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+  </ModOp>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505801</GUID>
+      <Text>Company: Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505803</GUID>
+      <Text>Brickworks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505804</GUID>
+      <Text>Produces goods.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505805</GUID>
+      <Text>Brick Kilns</Text>
+    </Text>
+    <Text>
+      <GUID>2143505806</GUID>
+      <Text>Extra space for firing and storing bricks.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505807</GUID>
+      <Text>Clayworks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505808</GUID>
+      <Text>This Clayworks is exclusive to the Brickworks building.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>Require Clayworks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505810</GUID>
+      <Text>Ready to produce Brick</Text>
+    </Text>
+    <Text>
+      <GUID>2143505811</GUID>
+      <Text>Brickworks Industry Module</Text>
+    </Text>
+  </ModOp>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143506019</GUID>
+      <Text>Wood Mill</Text>
+    </Text>   
+    <Text>
+      <GUID>2143506020</GUID>
+      <Text>Wood Mill Lumberjack</Text>
+    </Text>
+    <Text>
+      <GUID>2143506022</GUID>
+      <Text>This Lumberjack is exclusive to the Wood Mill building.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506023</GUID>
+      <Text>Woodworks Industry Module</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,224 @@
+<!-- Originally translated by Tisogno -->
+<ModOps>
+  <!-- Steelworks/Metalworks Industry -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Logistic Module Building -->
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>Erzdepot</Text>
+    </Text>
+
+    <!-- Logistic Module Description -->
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>Lagert Erze.</Text>
+    </Text>
+
+    <!-- Logistic Module Buff -->
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>Versorgung mit Erzen</Text>
+    </Text>
+
+    <!-- Blast Furnace -->
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>Hochofen</Text>
+    </Text>
+
+    <!-- Blast Furnace Module -->
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>Hochofenmodul</Text>
+    </Text>
+
+    <!-- Blast Furnace Module Description -->
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>Modul zur Stahlproduktion</Text>
+    </Text>
+
+    <!-- Blast Furnace  Module - Gameplay Description -->
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>[AssetData(2143505510) Text]
+        
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 3 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+
+    <!-- Blast Furnace Module Fake Product -->
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>Processing ores</Text>
+    </Text>
+
+    <!-- Railway InfoTip -->
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>Transport per Bahn</Text>
+    </Text>
+
+    <!-- Steel Foundry -->
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>Güterentladedock: Stahlblech</Text>
+    </Text>
+
+    <!-- Steel InfoTip -->
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>Modul zur Stahlproduktion</Text>
+    </Text>
+
+    <!-- Railway Menu Category -->
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>Railway Industries</Text>
+    </Text>
+
+    <!-- Pig Iron Product -->
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>Pig Iron</Text>
+    </Text>
+  </ModOp>
+    
+  <!-- Chemical Industry -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Ship -->
+    <Text>
+      <GUID>2143505565</GUID>
+      <Text>LNG Tanker</Text>
+    </Text>
+    <!-- Ship Description -->
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>Konstruiert und gebaut, um chemische Produkte zu transportieren. Der Rumpf ist mit Metall verstärkt, um gefährliche Lecks zu verhindern. Nur auf Handelsrouten nutzbar, kein manuelles Be- oder Entladen.</Text>
+    </Text>
+    
+    <!-- Chemical Plant -->
+    <Text>
+      <GUID>2143505700</GUID>
+      <Text>Chemiefabrik</Text>
+    </Text>
+
+    <!-- Chemical Plant Module (4x4) -->
+    <Text>
+      <GUID>2143505714</GUID>
+      <Text>Modul für chemische Anlagen</Text>
+    </Text>
+    
+    <!-- Chemical Plant Module (5x5) -->
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>Chemiewerk: Modul</Text>
+    </Text>
+
+    <!-- Chemical Plant Module Description -->
+    <Text>
+      <GUID>2143505715</GUID>
+      <Text>Bietet einen Bereich für chemische Experimente.</Text>
+    </Text>
+
+    <!-- All Chemical Plant Pool -->
+    <Text>
+      <GUID>2143505716</GUID>
+      <Text>Alle Chemiewerke</Text>
+    </Text>
+
+    <!-- Chemical Industry Module InfoTip  -->
+    <Text>
+      <GUID>2143505717</GUID>
+      <Text>Modul der Chemieindustrie</Text>
+    </Text>
+
+    <!-- Small Soda Plant -->
+    <Text>
+      <GUID>2143505721</GUID>
+      <Text>Chemiefabrik: Limonade</Text>
+    </Text>
+
+    <!-- Chemicals Recipes -->
+    <!-- Alkaline -->
+    <Text>
+      <GUID>2143505723</GUID>
+      <Text>Alkaline</Text>
+    </Text>
+    <Text>
+      <GUID>2143505695</GUID>
+      <Text>Obtained by treating soda ash with water and coal, the alkaline reaction produces an essential mineral base. Crucial for saponification, bleaching, and neutralization, this versatile solution stands as one of the quiet pillars of modern chemistry.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505694</GUID>
+      <Text>Chemical Plant: Alkaline Process</Text>
+    </Text>    
+    <!-- Acidic -->
+    <Text>
+      <GUID>2143506107</GUID>
+      <Text>Acidic</Text>
+    </Text>
+    <Text>
+      <GUID>2143505697</GUID>
+      <Text>By combining sulfuric acid with soda and iron, this formula unleashes the full corrosive power of minerals. A dangerously reactive mixture capable of stripping the toughest metals, processing heavy ores, or attacking matter where other methods fail.</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>Chemical Plant: Acidic Process</Text>
+    </Text>
+    <!-- Solvant -->
+    <Text>
+      <GUID>2143505881</GUID>
+      <Text>Solvant</Text>
+    </Text>
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>Born from the thorough distillation of ethanol combined with sulfuric acid, this volatile solvent is the key to fine chemistry. Ideal for dissolving, purifying, or binding complex organic compounds, it refines crude reactants into ready-to-use noble materials.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505883</GUID>
+      <Text>Chemical Plant: Solvant Synthesis</Text>
+    </Text>
+    <!-- Petrochemicals -->
+    <Text>
+      <GUID>2143505882</GUID>
+      <Text>Petrochemical</Text>
+    </Text>
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>By subjecting crude oil to the fire of sulfuric acid and soda, this synthesis extracts fossil energy in its purest form. A modern refining process supplying the heavy binders and carbon derivatives required by large-scale industry.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505884</GUID>
+      <Text>Chemical Plant: Petrochemical Refining</Text>
+    </Text>
+
+    <!-- Chemical Menu (unused atm) -->
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>Chemische Industrien</Text>
+    </Text>
+    
+    <!-- Sulfuric Acid product -->
+    <Text>
+      <GUID>2143505885</GUID>
+      <Text>Sulfuric Acid</Text>
+    </Text>
+    <!-- Sulfuric Acid factory -->
+    <Text>
+      <GUID>2143505886</GUID>
+      <Text>Sulfuric Acid Plant</Text>
+    </Text>
+
+    <!-- Sodium Carbonate product -->
+    <Text>
+      <GUID>2143505892</GUID>
+      <Text>Sodium Carbonate</Text>
+    </Text>    
+    <!-- Sodium Carbonate factory -->
+    <Text>
+      <GUID>2143505891</GUID>
+      <Text>Carbonate Plant</Text>
+    </Text>
+  </ModOp>
+</ModOps>

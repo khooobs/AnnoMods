@@ -1,0 +1,115 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505403</GUID>
+      <Text>Крупные предприятия</Text>
+    </Text>
+
+    <Text>
+      <GUID>2143505599</GUID>
+      <Text>Модуль текстильной промышленности</Text>
+    </Text>
+    <Text>
+      <GUID>2143505620</GUID>
+      <Text>Дополнительная мастерская, посвящённая текстилю.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505631</GUID>
+      <Text>Industrial Knitter</Text>
+    </Text>
+    <Text>
+      <GUID>2143505634</GUID>
+      <Text>Industrial Tapestry</Text>
+    </Text>    
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505854</GUID>
+      <Text>Knitter Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505856</GUID>
+      <Text>[AssetData(2143505620) Text]
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 4 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505857</GUID>
+      <Text>Tapestry Workshop</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505859</GUID>
+      <Text>[AssetData(2143505620) Text]
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> GAMEPLAY NOTE:&lt;/b&gt;&lt;/font&gt; you can build to 3 modules. If you have already built one module, use the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Copy tool&lt;/font&gt; to place the others.
+      </Text>
+    </Text>
+  </ModOp>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505801</GUID>
+      <Text>Компания: Bricks</Text>
+    </Text>
+    <Text>
+      <GUID>2143505803</GUID>
+      <Text>Кирпичный завод</Text>
+    </Text>
+    <Text>
+      <GUID>2143505804</GUID>
+      <Text>Производит товары.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505805</GUID>
+      <Text>Кирпичные печи</Text>
+    </Text>
+    <Text>
+      <GUID>2143505806</GUID>
+      <Text>Дополнительное место для обжига и хранения кирпичей.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505807</GUID>
+      <Text>Логистический депо</Text>
+    </Text>
+    <Text>
+      <GUID>2143505808</GUID>
+      <Text>Магазинные товары.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505410</GUID>
+      <Text>Требуется логистический модуль</Text>
+    </Text>
+    <Text>
+      <GUID>2143505810</GUID>
+      <Text>Готов к выпуску Brick</Text>
+    </Text>
+    <Text>
+      <GUID>2143505811</GUID>
+      <Text>Модуль индустрии кирпичного завода</Text>
+    </Text>
+  </ModOp>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143506019</GUID>
+      <Text>Wood Mill</Text>
+    </Text>   
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143506020</GUID>
+      <Text>Wood Mill Lumberjack</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143506022</GUID>
+      <Text>This Lumberjack is exclusive to the Wood Mill building.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143506023</GUID>
+      <Text>Woodworks industry module</Text>
+    </Text>
+  </ModOp>
+</ModOps>

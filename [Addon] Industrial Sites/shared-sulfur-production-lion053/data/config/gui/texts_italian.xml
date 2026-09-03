@@ -1,0 +1,66 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>Zolfo</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>Modulo zolfo</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>Le miniere di ferro, rame e zinco producono zolfo come output extra, quando questo modulo è posizionato accanto ad esse. Richiede carbone come input.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302350</GUID>
+			<Text>Le miniere di ferro e di bauxite producono zolfo come output aggiuntivo, quando questo modulo è posizionato accanto ad esse. Richiede carbone come input.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>Modulo miniera</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>Arrostimento del minerale solfidico</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>L'anidride solforosa può essere ottenuta da minerali solfidici di ferro, rame e zinco arrostendoli per diverse ore.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302352</GUID>
+			<Text>L'anidride solforosa può essere ottenuta da minerali solfidici di ferro e bauxit arrostendoli per diverse ore.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>1500302570</GUID>
+			<Text>Fossa dello zolfo</Text>
+		</Text>
+		<Text>
+			<GUID>1500302572</GUID>
+			<Text>Deposito esaurito</Text>
+		</Text>
+		<Text>
+			<GUID>1500302573</GUID>
+			<Text>Se vengono costruiti più di 5 pozzi di zolfo, le riserve dell'isola si esauriscono a tal punto che tutti i pozzi cessano di funzionare.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302574</GUID>
+			<Text>[AssetData(11143) Text]&#xA;&#xD;&#xA;&#xD;&lt;b&gt;[AssetData(1500302573) Text]&lt;/b&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>1500302359</GUID>
+			<Text>Sulfur Production (Lion053)</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

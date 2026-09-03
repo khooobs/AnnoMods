@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.3",
+  "Version": "2.0.0",
   "ModID": "khobs_industrial_sites",
   "IncompatibleIds": null,
   "ModDependencies": [
@@ -8,8 +8,6 @@
     "shared_ui_change_kurila",
     "shared_strategic_harbour",
     "shared-ground-textures-industry-jakob",
-    "khobs_sifter",
-    "khobs_crusher",
     "shared_freight_station_khobs",
     "shared_freight_import_caoutchouc",
     "jakob-railway-stations",
@@ -17,9 +15,8 @@
     "ow-tools-jakob",
     "tools-jakob",
     "khobs_workshop",
-    "khobs_textile_company",
-    "khobs_chemical_society",
-    "khobs_steel_company",
+    "khobs-railway-industries",
+    "khobs-module-industries",
     "shared_general_modules_kurila"
   ],
   "LoadAfterIds": [

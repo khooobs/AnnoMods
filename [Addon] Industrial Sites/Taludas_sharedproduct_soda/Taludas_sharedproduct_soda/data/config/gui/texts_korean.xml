@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002300</GUID>
+      <Text>소다</Text>
+    </Text>
+    <Text>
+      <GUID>1999002301</GUID>
+      <Text>음료에 불꽃을 더하는 화학 혁명.</Text>
+    </Text>
+    <Text>
+      <GUID>1999002302</GUID>
+      <Text>속쓰림을 부적처럼 치료합니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

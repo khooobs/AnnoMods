@@ -1,0 +1,25 @@
+{
+  "Version": "2.0",
+  "ModID": "khobs-module-industries",
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "shared_ui_change_kurila",
+    "shared-ground-textures-industry-jakob"
+  ],
+  "LoadAfterIds": [
+    "IndustrializedLowTierProduction",
+    "production_works_kurila"
+  ],
+  "Category": {
+    "English": "Addon"
+  },
+  "ModName": {
+    "English": "Industrial Sites - Modular Industries"
+  },
+  "Description": {
+    "English": "file::README.md"
+  },
+  "DLCDependencies": [],
+  "CreatorName": "Khobs",
+  "CreatorContact": "https://github.com/Khorbos/AnnoMods"
+}

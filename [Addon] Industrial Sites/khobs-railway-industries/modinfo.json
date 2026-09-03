@@ -1,0 +1,34 @@
+{
+  "Version": "2.0",
+  "ModID": "khobs-railway-industries",
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "shared_ui_change_kurila",
+    "shared-ground-textures-industry-jakob",
+    "jakob-railway-stations",
+    "models-railway-jakob",
+    "Taludas_sharedproduct_soda",
+    "soda_factory_kurila",
+    "shared-sulfur-production-lion053",
+    "shared_goods_chemicals",
+    "shared_goods_clean_water"
+  ],
+  "LoadAfterIds": [
+    "IndustrializedLowTierProduction",
+    "production_works_kurila",
+    "jakob-railway-stations",
+    "models-railway-jakob"
+  ],
+  "Category": {
+    "English": "Addon"
+  },
+  "ModName": {
+    "English": "Industrial Sites - Trains and Rails"
+  },
+  "Description": {
+    "English": "file::README.md"
+  },
+  "DLCDependencies": [],
+  "CreatorName": "Khobs",
+  "CreatorContact": "https://github.com/Khorbos/AnnoMods"
+}

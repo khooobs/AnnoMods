@@ -1,0 +1,66 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>유황</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>유황 모듈</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>철, 구리, 아연 광산은 이 모듈을 옆에 배치하면 추가 생산량으로 유황을 생산합니다. 입력으로 석탄이 필요합니다.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302350</GUID>
+			<Text>철 및 보크사이트 광산은 이 모듈을 옆에 배치하면 추가 생산량으로 유황을 생산합니다. 입력으로 석탄이 필요합니다.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>광산 모듈</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>유황광석 구이</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>이산화황은 황산철, 구리 및 아연 광석에서 몇 시간 동안 로스팅하여 얻을 수 있습니다.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302352</GUID>
+			<Text>이산화황은 황산철과 보크사이트 광석에서 몇 시간 동안 로스팅하여 얻을 수 있습니다.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>1500302570</GUID>
+			<Text>유황 구덩이</Text>
+		</Text>
+		<Text>
+			<GUID>1500302572</GUID>
+			<Text>소진된 보증금</Text>
+		</Text>
+		<Text>
+			<GUID>1500302573</GUID>
+			<Text>유황 구덩이가 5개 이상 건설되면 섬의 매장량이 고갈되어 모든 구덩이가 기능을 멈추게 됩니다.</Text>
+		</Text>
+		<Text>
+			<GUID>1500302574</GUID>
+			<Text>[AssetData(11143) Text]&#xA;&#xD;&#xA;&#xD;&lt;b&gt;[AssetData(1500302573) Text]&lt;/b&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>1500302359</GUID>
+			<Text>Sulfur Production (Lion053)</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>
