@@ -240,6 +240,7 @@
               <StorageAmount>15</StorageAmount>
             </Item>
           </FactoryInputs>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
         </FactoryBase>
         <BuffFactory>
           <ProductionBuffs>

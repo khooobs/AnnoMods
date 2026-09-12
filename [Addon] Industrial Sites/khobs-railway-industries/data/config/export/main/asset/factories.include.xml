@@ -135,6 +135,7 @@
           </FactoryOutputs>
           <CycleTime>60</CycleTime>
           <IsMainFactory>0</IsMainFactory>
+					<MissingConnectionInfolayer>1</MissingConnectionInfolayer>
         </FactoryBase>
         <LogisticNode>
           <TransporterCountMax>2</TransporterCountMax>
@@ -250,6 +251,18 @@
           <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
         </Blocking>
         <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
         <Object>
           <Variations>
             <Item>
@@ -299,7 +312,7 @@
               <StorageAmount>100</StorageAmount>
             </Item>
           </FactoryOutputs>
-          <CycleTime>5</CycleTime>
+          <CycleTime>10</CycleTime>
           <IsMainFactory>0</IsMainFactory>
           <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
         </FactoryBase>
