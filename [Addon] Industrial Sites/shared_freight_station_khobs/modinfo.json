@@ -1,5 +1,5 @@
 {
-	"Version": "1.0.3",
+	"Version": "1.0.4",
 	"ModID": "shared_freight_station_khobs",
 	"IncompatibleIds": null,
 	"ModDependencies": [
@@ -8,7 +8,12 @@
 	],
 	"LoadAfterIds": [
 		"shared_neutral_train",
-		"sharedproduct_tradelicense_taludas"
+		"sharedproduct_tradelicense_taludas",
+		"Taludas_shared_tradingcompany",
+		"Taludas_shared_importdock_almonds",
+		"Taludas_shared_importdock_ebony",
+		"Taludas_shared_importdock_saffron",
+		"Taludas_shared_importdock_silk"
 	],
 	"Category": {
 		"Chinese": "建筑",
