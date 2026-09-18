@@ -140,6 +140,7 @@
         <LogisticNode>
           <TransporterCountMax>2</TransporterCountMax>
           <TransporterAsset>120028</TransporterAsset>
+          <PathLayers>Railway;Street</PathLayers>
         </LogisticNode>
         <AmbientMoodProvider>
           <AmbientMood>IndustryHeavy</AmbientMood>
@@ -724,7 +725,6 @@
             </Item>
           </FactoryOutputs>
           <CycleTime>30</CycleTime>
-          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
         </FactoryBase>
         <UpgradeList/>
         <RecipeBuilding>
@@ -746,7 +746,6 @@
         <LogisticNode>
           <TransporterAsset>120062</TransporterAsset>
           <TransporterCountMax>1</TransporterCountMax>
-          <PathLayers>Railway</PathLayers>
         </LogisticNode>
       </Values>
     </Asset>
@@ -819,10 +818,6 @@
           </Costs>
         </Cost>
         <Mesh/>
-        <Constructable/>
-        <Locked/>
-        <FeedbackController/>
-        <Infolayer/>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -849,7 +844,6 @@
             </Item>
           </FactoryOutputs>
           <CycleTime>30</CycleTime>
-          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
         </FactoryBase>
         <UpgradeList/>
         <RecipeBuilding>
@@ -871,7 +865,6 @@
         <LogisticNode>
           <TransporterAsset>120062</TransporterAsset>
           <TransporterCountMax>1</TransporterCountMax>
-          <PathLayers>Railway</PathLayers>
         </LogisticNode>
       </Values>
     </Asset>
@@ -996,7 +989,7 @@
         <LogisticNode>
           <TransporterAsset>120062</TransporterAsset>
           <TransporterCountMax>1</TransporterCountMax>
-          <PathLayers>Railway</PathLayers>
+          <PathLayers>Railway;Street</PathLayers>
         </LogisticNode>
       </Values>
     </Asset>
@@ -1071,8 +1064,7 @@
         <Mesh/>
         <Constructable/>
         <Locked/>
-        <FeedbackController/>
-        <Infolayer/>
+        <Factory7/>
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -1104,7 +1096,7 @@
             </Item>
           </FactoryOutputs>
           <CycleTime>120</CycleTime>
-          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+					<MissingConnectionInfolayer>1</MissingConnectionInfolayer>
         </FactoryBase>
         <UpgradeList/>
         <Maintenance>
@@ -1121,9 +1113,9 @@
           </Maintenances>
         </Maintenance>
         <LogisticNode>
+          <TransporterCountMax>2</TransporterCountMax>
           <TransporterAsset>120062</TransporterAsset>
-          <TransporterCountMax>1</TransporterCountMax>
-          <PathLayers>Railway</PathLayers>
+          <PathLayers>Railway;Street</PathLayers>
         </LogisticNode>
         <Industrializable>
           <MandatoryIndustrialization>1</MandatoryIndustrialization>
@@ -1442,7 +1434,7 @@
             </Item>
           </FactoryOutputs>
           <CycleTime>30</CycleTime>
-          <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+			    <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
         <Maintenance>
           <Maintenances>
@@ -1460,7 +1452,6 @@
         <LogisticNode>
           <TransporterAsset>120062</TransporterAsset>
           <TransporterCountMax>1</TransporterCountMax>
-          <PathLayers>Railway;Street</PathLayers>
         </LogisticNode>
         <Motorizable/>
       </Values>

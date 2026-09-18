@@ -76,6 +76,7 @@
           <ProductCategory>11702</ProductCategory>
           <BasePrice>750</BasePrice>
           <CivLevel>1</CivLevel>
+          <PathLayer>Railway</PathLayer>
           <AssociatedRegion>Moderate</AssociatedRegion>
           <ProductionRegions>
             <Item>
@@ -101,6 +102,7 @@
           <ProductCategory>11702</ProductCategory>
           <BasePrice>750</BasePrice>
           <CivLevel>1</CivLevel>
+          <PathLayer>Railway</PathLayer>
           <AssociatedRegion>Moderate</AssociatedRegion>
           <ProductionRegions>
             <Item>
