@@ -1,14 +1,14 @@
 {
-	"Version": "1.0.4",
+	"Version": "1.0.5",
 	"ModID": "shared_freight_station_khobs",
 	"IncompatibleIds": null,
 	"ModDependencies": [
-		"sharedproduct_tradelicense_taludas",
+		"Taludas_sharedproduct_tradelicense",
 		"Taludas_neutral_airport"
 	],
 	"LoadAfterIds": [
 		"shared_neutral_train",
-		"sharedproduct_tradelicense_taludas",
+		"Taludas_sharedproduct_tradelicense",
 		"Taludas_shared_tradingcompany",
 		"Taludas_shared_importdock_almonds",
 		"Taludas_shared_importdock_ebony",
