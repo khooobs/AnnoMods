@@ -1,0 +1,223 @@
+<ModOps>    
+  <!-- Steelworks/Metalworks Industry -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Logistic Module Building -->
+    <Text>
+      <GUID>2143505500</GUID>
+      <Text>鉱石貯蔵庫</Text>
+    </Text>
+
+    <!-- Logistic Module Description -->
+    <Text>
+      <GUID>2143505501</GUID>
+      <Text>鉱石を貯蔵します。</Text>
+    </Text>
+
+    <!-- Logistic Module Buff -->
+    <Text>
+      <GUID>2143505503</GUID>
+      <Text>鉱石供給あり</Text>
+    </Text>
+
+    <!-- Blast Furnace -->
+    <Text>
+      <GUID>2143505507</GUID>
+      <Text>高炉</Text>
+    </Text>
+
+    <!-- Blast Furnace Module -->
+    <Text>
+      <GUID>2143505509</GUID>
+      <Text>高炉モジュール</Text>
+    </Text>
+
+    <!-- Blast Furnace Module Description -->
+    <Text>
+      <GUID>2143505510</GUID>
+      <Text>製鋼専用の追加作業場です。</Text>
+    </Text>
+
+    <!-- Blast Furnace  Module - Gameplay Description -->
+    <Text>
+      <GUID>2143505511</GUID>
+      <Text>[AssetData(2143505510) Text]
+        
+      &lt;font overrideTextColor="true" color='#ffe4ad'&gt;&lt;b&gt;--> ゲームプレイ上の注意：&lt;/b&gt;&lt;/font&gt; 最大3つのモジュールを建設できます。すでに1つ建設済みの場合は、&lt;font overrideTextColor="true" color='#41dcd7'&gt;コピーツール&lt;/font&gt;を使って残りを配置してください。
+      </Text>
+    </Text>
+
+    <!-- Blast Furnace Module Fake Product -->
+    <Text>
+      <GUID>2143505553</GUID>
+      <Text>鉱石を処理中</Text>
+    </Text>
+
+    <!-- Railway InfoTip -->
+    <Text>
+      <GUID>2143505559</GUID>
+      <Text>鉄道物流</Text>
+    </Text>
+
+    <!-- Steel Foundry -->
+    <Text>
+      <GUID>2143505564</GUID>
+      <Text>製鋼所</Text>
+    </Text>
+
+    <!-- Steel InfoTip -->
+    <Text>
+      <GUID>2143505582</GUID>
+      <Text>製鉄産業モジュール</Text>
+    </Text>
+
+    <!-- Railway Menu Category -->
+    <Text>
+      <GUID>2143505584</GUID>
+      <Text>鉄道産業</Text>
+    </Text>
+
+    <!-- Pig Iron Product -->
+    <Text>
+      <GUID>2143505557</GUID>
+      <Text>銑鉄</Text>
+    </Text>
+  </ModOp>
+
+  <!-- Chemical Industry -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Ship -->
+    <Text>
+      <GUID>2143505565</GUID>
+      <Text>LNGタンカー</Text>
+    </Text>
+    <!-- Ship Description -->
+    <Text>
+      <GUID>2143505566</GUID>
+      <Text>化学製品の輸送用に設計・建造された船です。危険な漏出を防ぐため、船体は金属で補強されています。交易ルートでのみ使用でき、手動での積み込み・荷降ろしはできません。</Text>
+    </Text>
+    
+    <!-- Chemical Plant -->
+    <Text>
+      <GUID>2143505700</GUID>
+      <Text>化学プラント</Text>
+    </Text>
+
+    <!-- Chemical Plant Module (4x4) -->
+    <Text>
+      <GUID>2143505714</GUID>
+      <Text>化学プラント・モジュール</Text>
+    </Text>
+
+    <!-- Chemical Plant Module (5x5) -->
+    <Text>
+      <GUID>2143506122</GUID>
+      <Text>化学プラント・モジュール</Text>
+    </Text>
+
+    <!-- Chemical Plant Module Description -->
+    <Text>
+      <GUID>2143505715</GUID>
+      <Text>化学実験を行うための設備を提供します。</Text>
+    </Text>
+
+    <!-- All Chemical Plant Pool -->
+    <Text>
+      <GUID>2143505716</GUID>
+      <Text>すべての化学プラント施設</Text>
+    </Text>
+
+    <!-- Chemical Industry Module InfoTip  -->
+    <Text>
+      <GUID>2143505717</GUID>
+      <Text>化学産業モジュール</Text>
+    </Text>
+
+    <!-- Small Soda Plant -->
+    <Text>
+      <GUID>2143505721</GUID>
+      <Text>化学プラント：ソーダ</Text>
+    </Text>
+
+    <!-- Chemicals Recipes -->
+    <!-- Alkaline -->
+    <Text>
+      <GUID>2143505723</GUID>
+      <Text>アルカリ</Text>
+    </Text>
+    <Text>
+      <GUID>2143505695</GUID>
+      <Text>ソーダ灰を水と石炭で処理することで得られるアルカリ性物質です。けん化、漂白、中和に欠かせないこの汎用性の高い溶液は、近代化学を陰で支える重要な基盤のひとつです。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505694</GUID>
+      <Text>化学プラント：アルカリ工程</Text>
+    </Text>
+    <!-- Acidic -->
+    <Text>
+      <GUID>2143506107</GUID>
+      <Text>酸性剤</Text>
+    </Text>
+    <Text>
+      <GUID>2143505697</GUID>
+      <Text>硫酸にソーダと鉄を組み合わせることで、鉱物が持つ強力な腐食作用を引き出します。非常に反応性が高く危険な混合物で、頑丈な金属の処理や重鉱石の加工、ほかの方法では歯が立たない物質の分解に用いられます。</Text>
+    </Text>
+    <Text>
+      <GUID>2143506111</GUID>
+      <Text>化学プラント：酸性工程</Text>
+    </Text>
+    <!-- Solvant -->
+    <Text>
+      <GUID>2143505881</GUID>
+      <Text>溶剤</Text>
+    </Text>
+    <Text>
+      <GUID>2143506123</GUID>
+      <Text>エタノールと硫酸を組み合わせ、入念に蒸留して得られる揮発性の溶剤です。精密化学には欠かせず、複雑な有機化合物の溶解・精製・結合に適しています。粗い反応原料を、すぐに利用できる高品質な素材へと仕上げます。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505883</GUID>
+      <Text>化学プラント：溶剤合成</Text>
+    </Text>
+    <!-- Petrochemicals -->
+    <Text>
+      <GUID>2143505882</GUID>
+      <Text>石油化学製品</Text>
+    </Text>
+    <Text>
+      <GUID>2143506124</GUID>
+      <Text>原油を硫酸とソーダによる強力な処理にかけ、化石資源から有用成分を抽出します。大規模産業に必要な重質結合材や炭素系誘導体を供給する、近代的な精製工程です。</Text>
+    </Text>
+    <Text>
+      <GUID>2143505884</GUID>
+      <Text>化学プラント：石油化学精製</Text>
+    </Text>
+
+    <!-- Chemical Menu (unused atm) -->
+    <Text>
+      <GUID>2143506125</GUID>
+      <Text>化学産業</Text>
+    </Text>
+    
+    <!-- Sulfuric Acid product -->
+    <Text>
+      <GUID>2143505885</GUID>
+      <Text>硫酸</Text>
+    </Text>
+    <!-- Sulfuric Acid factory -->
+    <Text>
+      <GUID>2143505886</GUID>
+      <Text>硫酸工場</Text>
+    </Text>
+
+    <!-- Sodium Carbonate product -->
+    <Text>
+      <GUID>2143505892</GUID>
+      <Text>炭酸ナトリウム</Text>
+    </Text>    
+    <!-- Sodium Carbonate factory -->
+    <Text>
+      <GUID>2143505891</GUID>
+      <Text>炭酸塩工場</Text>
+    </Text>
+  </ModOp>
+</ModOps>

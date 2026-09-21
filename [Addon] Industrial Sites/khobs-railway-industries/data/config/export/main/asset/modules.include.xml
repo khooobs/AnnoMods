@@ -236,8 +236,7 @@
           <FactoryInputs>
             <Item>
               <Product>2143505553</Product>
-              <Amount>1</Amount>
-              <StorageAmount>15</StorageAmount>
+              <StorageAmount>1</StorageAmount>
             </Item>
           </FactoryInputs>
           <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
